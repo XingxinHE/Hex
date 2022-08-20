@@ -1,0 +1,28 @@
+-
+- # `const` as a Promise
+  id:: 63010392-4a98-433e-a3f2-171ce5f96c26
+	- ## 📝Basic Info
+		- 🗣Presenter: Dan Saks
+		- 📆Year: #2019
+		- 🔖Topic: [[const]]
+	- ## Outline
+		- Uses of `const`
+		- Benefit using `const` and `constexpr`
+		- Be proactive
+		- `const` review
+		- `const` & initialization
+		- constant expression
+		- CV-qualifiers
+		- The Structure of [[Declaration]]
+		- Declaration Specifiers
+		- Declarator Operator
+		- Parentheses in Declarators
+		- type specifier vs Non-type specifier
+		- `const` is a type-specifier
+- # Compiling and Linking
+	- ## 📝Basic Info
+		- 🗣Presenter: Ben Saks
+		- 📆Year: #2021
+		- 🔖Topic:
+	- ## Outline
+		-

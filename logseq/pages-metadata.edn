@@ -1,0 +1,1209 @@
+[{:block/name "&",
+  :block/created-at 1661514639612,
+  :block/updated-at 1661514639612}
+ {:block/name "() - initialization syntax",
+  :block/created-at 1661514639766,
+  :block/updated-at 1661514639766}
+ {:block/name "*",
+  :block/created-at 1661514639459,
+  :block/updated-at 1661514639459}
+ {:block/name "2019",
+  :block/created-at 1661010626800,
+  :block/updated-at 1661010626800}
+ {:block/name "2021",
+  :block/created-at 1661955565584,
+  :block/updated-at 1661955565584}
+ {:block/name "3bb74380-8fbf-479f-b41c-6f4a01d4361f",
+  :block/created-at 1663995766972,
+  :block/updated-at 1663995766972}
+ {:block/name "630a5752-0714-4f64-867c-ff30f8e144bf",
+  :block/created-at 1661622518709,
+  :block/updated-at 1661622518709}
+ {:block/name "630a5942-6d83-4caf-ba71-5dd608ac07e5",
+  :block/created-at 1661623036874,
+  :block/updated-at 1661623036874}
+ {:block/name "630a59c6-b1a6-488e-a3e7-6eb2d8653f51",
+  :block/created-at 1661622972169,
+  :block/updated-at 1661622972169}
+ {:block/name "630dd42f-05af-4871-9d9c-b1234f6d866f",
+  :block/created-at 1661955570601,
+  :block/updated-at 1661955570601}
+ {:block/name "630e382f-4c6a-46c2-9c9e-7c9637c54923",
+  :block/created-at 1661955566334,
+  :block/updated-at 1661955566334}
+ {:block/name "630eca65-d6aa-4f27-8a7a-2d9a70dcd498",
+  :block/created-at 1661955571789,
+  :block/updated-at 1661955571789}
+ {:block/name "63144c90-cf63-4e2c-8cc6-e2c8be6b003d",
+  :block/created-at 1662342947683,
+  :block/updated-at 1662342947683}
+ {:block/name "6322bf32-04a2-4be3-b166-6e9d1600a8e9",
+  :block/created-at 1663995772899,
+  :block/updated-at 1663995772899}
+ {:block/name "632684c3-4b04-44e4-bdca-d9ecac2e95ae",
+  :block/created-at 1663995768987,
+  :block/updated-at 1663995768987}
+ {:block/name "6329b0b1-4a11-4d08-855f-1b27389fdc4d",
+  :block/created-at 1663995775408,
+  :block/updated-at 1663995775408}
+ {:block/name "825bc6fa-9ac8-4bb3-8dc4-2f5bad543c19",
+  :block/created-at 1664241829054,
+  :block/updated-at 1664241829054}
+ {:block/name "= - initialization syntax",
+  :block/created-at 1661514639902,
+  :block/updated-at 1661514639902}
+ {:block/name "a",
+  :block/created-at 1661004367896,
+  :block/updated-at 1661004367896}
+ {:block/name "absolute extremum",
+  :block/created-at 1661623306918,
+  :block/updated-at 1661623306918}
+ {:block/name "abstract data type",
+  :block/created-at 1661514640116,
+  :block/updated-at 1661514640116}
+ {:block/name "adt",
+  :block/created-at 1661514640115,
+  :block/updated-at 1661514640115}
+ {:block/name "affine function",
+  :block/created-at 1663995766223,
+  :block/updated-at 1663995766223}
+ {:block/name "algebra",
+  :block/created-at 1661571295750,
+  :block/updated-at 1661571345579}
+ {:block/name "algebraic",
+  :block/created-at 1661571345577,
+  :block/updated-at 1661571345577}
+ {:block/name "algorithm",
+  :block/created-at 1662653749374,
+  :block/updated-at 1662702890818}
+ {:block/name "ampersand",
+  :block/created-at 1661514639615,
+  :block/updated-at 1661514639615}
+ {:block/name "antiderivative",
+  :block/created-at 1663995766493,
+  :block/updated-at 1664112495021}
+ {:block/name "arithmetic",
+  :block/created-at 1663995766696,
+  :block/updated-at 1663995766696}
+ {:block/name "array",
+  :block/created-at 1661514639985,
+  :block/updated-at 1663923389440}
+ {:block/name "artificial intelligence",
+  :block/created-at 1663995771370,
+  :block/updated-at 1663995771370}
+ {:block/name "assignment",
+  :block/created-at 1661955562085,
+  :block/updated-at 1661955562085}
+ {:block/name "asterisk",
+  :block/created-at 1661514639466,
+  :block/updated-at 1661514639466}
+ {:block/name "asymptote",
+  :block/created-at 1661477996910,
+  :block/updated-at 1661477996910}
+ {:block/name "asymptotic notation",
+  :block/created-at 1662691292537,
+  :block/updated-at 1663922417864}
+ {:block/name "asymptotics",
+  :block/created-at 1661477997052,
+  :block/updated-at 1661500667480}
+ {:block/name "auto",
+  :block/created-at 1661514640837,
+  :block/updated-at 1661514640837}
+ {:block/name "automata",
+  :block/created-at 1662653521831,
+  :block/updated-at 1663391274886}
+ {:block/name "automata theory",
+  :block/created-at 1663995771385,
+  :block/updated-at 1663995771385}
+ {:block/name "automaton",
+  :block/created-at 1662653521833,
+  :block/updated-at 1662653521833}
+ {:block/name "auxiliary function",
+  :block/created-at 1662342946563,
+  :block/updated-at 1662342946563}
+ {:block/name "b",
+  :block/created-at 1661004367896,
+  :block/updated-at 1661004367896}
+ {:block/name "b12a6846-f68a-4292-a157-cff57281c1be",
+  :block/created-at 1664241830092,
+  :block/updated-at 1664241830092}
+ {:block/name "back to basics",
+  :block/created-at 1661007325837,
+  :block/updated-at 1661907872024}
+ {:block/name "base class",
+  :block/created-at 1661477997201,
+  :block/updated-at 1663578777171}
+ {:block/name "basis",
+  :block/created-at 1664241828996,
+  :block/updated-at 1664241828996}
+ {:block/name "binary digits",
+  :block/created-at 1663121263722,
+  :block/updated-at 1663121263722}
+ {:block/name "bit",
+  :block/created-at 1661999360754,
+  :block/updated-at 1663563370846}
+ {:block/name "boolean",
+  :block/created-at 1663995766767,
+  :block/updated-at 1663995766767}
+ {:block/name "boolean logic",
+  :block/created-at 1663995766764,
+  :block/updated-at 1663995766764}
+ {:block/name "bounds error",
+  :block/created-at 1662342946568,
+  :block/updated-at 1662342946568}
+ {:block/name "build",
+  :block/created-at 1661878123369,
+  :block/updated-at 1661908393771}
+ {:block/name "byte",
+  :block/created-at 1663121262755,
+  :block/updated-at 1663121262755}
+ {:block/name "c",
+  :block/created-at 1661004367895,
+  :block/updated-at 1661004367895}
+ {:block/name "c#",
+  :block/created-at 1661007159646,
+  :block/updated-at 1661007159646}
+ {:block/name "c++",
+  :block/created-at 1661007154143,
+  :block/updated-at 1661871729783}
+ {:block/name "calculus",
+  :block/created-at 1661787132627,
+  :block/updated-at 1661787138202}
+ {:block/name "call stack",
+  :block/created-at 1662342946571,
+  :block/updated-at 1662342946571}
+ {:block/name "cancavity",
+  :block/created-at 1664241829058,
+  :block/updated-at 1664241829058}
+ {:block/name "canceled",
+  :block/created-at 1661004367896,
+  :block/updated-at 1661004367896}
+ {:block/name "cancelled",
+  :block/created-at 1661004367896,
+  :block/updated-at 1661004367896}
+ {:block/name "card",
+  :block/created-at 1661004367895,
+  :block/updated-at 1661004367895}
+ {:block/name "circle",
+  :block/created-at 1661664164399,
+  :block/updated-at 1661664164399}
+ {:block/name "circumference",
+  :block/created-at 1661664170581,
+  :block/updated-at 1661664170581}
+ {:block/name "class",
+  :block/created-at 1661067857517,
+  :block/updated-at 1663736437506}
+ {:block/name "class design",
+  :block/created-at 1661955562819,
+  :block/updated-at 1661955562819}
+ {:block/name "code snippet",
+  :block/created-at 1661308480660,
+  :block/updated-at 1661308480660}
+ {:block/name "coercion",
+  :block/created-at 1661955570201,
+  :block/updated-at 1661955570201}
+ {:block/name "common initialization syntax",
+  :block/created-at 1661514639905,
+  :block/updated-at 1661514639905}
+ {:block/name "compile-time",
+  :block/created-at 1661043569476,
+  :block/updated-at 1661043569476}
+ {:block/name "compiled language",
+  :block/created-at 1661955565683,
+  :block/updated-at 1661955565683}
+ {:block/name "compiler",
+  :block/created-at 1661872151748,
+  :block/updated-at 1661910616012}
+ {:block/name "compiling",
+  :block/created-at 1661878287096,
+  :block/updated-at 1661878287096}
+ {:block/name "complexity",
+  :block/created-at 1663995766937,
+  :block/updated-at 1663995766937}
+ {:block/name "complexity theory",
+  :block/created-at 1663995766940,
+  :block/updated-at 1663995766940}
+ {:block/name "computability",
+  :block/created-at 1663995766933,
+  :block/updated-at 1663995766933}
+ {:block/name "computation",
+  :block/created-at 1662083327266,
+  :block/updated-at 1663391586009}
+ {:block/name "computer graphics",
+  :block/created-at 1662377611550,
+  :block/updated-at 1662377611550}
+ {:block/name "concave",
+  :block/created-at 1664241829055,
+  :block/updated-at 1664241829055}
+ {:block/name "const",
+  :block/created-at 1661007657204,
+  :block/updated-at 1661045414360}
+ {:block/name "constant expression",
+  :block/created-at 1661044687055,
+  :block/updated-at 1661044687055}
+ {:block/name "consteval",
+  :block/created-at 1661955568679,
+  :block/updated-at 1661955568679}
+ {:block/name "constexpr",
+  :block/created-at 1661043053653,
+  :block/updated-at 1661045225202}
+ {:block/name "constructor",
+  :block/created-at 1661067672946,
+  :block/updated-at 1661180619691}
+ {:block/name "constructor initialization syntax",
+  :block/created-at 1661514639771,
+  :block/updated-at 1661514639771}
+ {:block/name "container",
+  :block/created-at 1661514640111,
+  :block/updated-at 1664156719183}
+ {:block/name "content",
+  :block/created-at 1661004414706,
+  :block/updated-at 1661004427325}
+ {:block/name "contents",
+  :block/created-at 1661004367895,
+  :block/updated-at 1663854570344}
+ {:block/name "context-free grammar",
+  :block/created-at 1663995771374,
+  :block/updated-at 1663995771374}
+ {:block/name "continuity",
+  :block/created-at 1661310048251,
+  :block/updated-at 1661850329425}
+ {:block/name "continuous",
+  :block/created-at 1661310101824,
+  :block/updated-at 1661310101824}
+ {:block/name "continuous function",
+  :block/created-at 1661315409259,
+  :block/updated-at 1661316600765}
+ {:block/name "convenience function",
+  :block/created-at 1662342946562,
+  :block/updated-at 1662342946562}
+ {:block/name "convex",
+  :block/created-at 1664241829161,
+  :block/updated-at 1664241829161}
+ {:block/name "convex function",
+  :block/created-at 1664241829165,
+  :block/updated-at 1664241829165}
+ {:block/name "convex hull",
+  :block/created-at 1664241829200,
+  :block/updated-at 1664241829200}
+ {:block/name "convex optimization",
+  :block/created-at 1661664780041,
+  :block/updated-at 1661664815917}
+ {:block/name "convex programming",
+  :block/created-at 1664241829228,
+  :block/updated-at 1664241829228}
+ {:block/name "convex set",
+  :block/created-at 1664241829160,
+  :block/updated-at 1664241829160}
+ {:block/name "convexity",
+  :block/created-at 1664241829327,
+  :block/updated-at 1664241829327}
+ {:block/name "copy assignment operator",
+  :block/created-at 1661079259909,
+  :block/updated-at 1661079341843}
+ {:block/name "copy constructor",
+  :block/created-at 1661079105915,
+  :block/updated-at 1661080630288}
+ {:block/name "critical point",
+  :block/created-at 1661308480713,
+  :block/updated-at 1661308480713}
+ {:block/name "cross product",
+  :block/created-at 1663995767027,
+  :block/updated-at 1664426953133}
+ {:block/name "cryptography",
+  :block/created-at 1663995766935,
+  :block/updated-at 1663995766935}
+ {:block/name "cv-qualifiers",
+  :block/created-at 1661045414358,
+  :block/updated-at 1661045820466}
+ {:block/name "cylinder",
+  :block/created-at 1661736722841,
+  :block/updated-at 1661737033596}
+ {:block/name "data structure",
+  :block/created-at 1661514639980,
+  :block/updated-at 1663688066057}
+ {:block/name "ddg",
+  :block/created-at 1661478349739,
+  :block/updated-at 1661478349739}
+ {:block/name "debug",
+  :block/created-at 1661908327598,
+  :block/updated-at 1661908327598}
+ {:block/name "decimal",
+  :block/created-at 1663995767118,
+  :block/updated-at 1663995767118}
+ {:block/name "declaration",
+  :block/created-at 1661045882540,
+  :block/updated-at 1661961842903}
+ {:block/name "declaration specifiers",
+  :block/created-at 1661090486535,
+  :block/updated-at 1661090539624}
+ {:block/name "default constructor",
+  :block/created-at 1661078555875,
+  :block/updated-at 1661079005343}
+ {:block/name "definition",
+  :block/created-at 1661045889746,
+  :block/updated-at 1663426949364}
+ {:block/name "delegate",
+  :block/created-at 1663995767142,
+  :block/updated-at 1663995767142}
+ {:block/name "delete keyword",
+  :block/created-at 1661308480806,
+  :block/updated-at 1661308480806}
+ {:block/name "derivative",
+  :block/created-at 1661316133168,
+  :block/updated-at 1661862210964}
+ {:block/name "derived class",
+  :block/created-at 1661477997827,
+  :block/updated-at 1661477997827}
+ {:block/name "designing class",
+  :block/created-at 1661955562813,
+  :block/updated-at 1662291582558}
+ {:block/name "destructor",
+  :block/created-at 1661308480841,
+  :block/updated-at 1661308480841}
+ {:block/name "dictionary",
+  :block/created-at 1661955564074,
+  :block/updated-at 1661955564074}
+ {:block/name "differentiability",
+  :block/created-at 1661860676219,
+  :block/updated-at 1661860676219}
+ {:block/name "differentiable",
+  :block/created-at 1661477999891,
+  :block/updated-at 1661861369729}
+ {:block/name "differential",
+  :block/created-at 1663995766476,
+  :block/updated-at 1663995766476}
+ {:block/name "differential equation",
+  :block/created-at 1664241829475,
+  :block/updated-at 1664371595980}
+ {:block/name "differential geometry",
+  :block/created-at 1661478378446,
+  :block/updated-at 1661478883850}
+ {:block/name "differential notation",
+  :block/created-at 1663995767167,
+  :block/updated-at 1663995767167}
+ {:block/name "differential topology",
+  :block/created-at 1661478742254,
+  :block/updated-at 1661479904295}
+ {:block/name "differentiation",
+  :block/created-at 1661667064661,
+  :block/updated-at 1661764925533}
+ {:block/name "discontinuity",
+  :block/created-at 1661310136482,
+  :block/updated-at 1661310878661}
+ {:block/name "discontinuous",
+  :block/created-at 1661310503496,
+  :block/updated-at 1661310503496}
+ {:block/name "discrete differential geometry",
+  :block/created-at 1661478168030,
+  :block/updated-at 1661478378446}
+ {:block/name "dne",
+  :block/created-at 1661477997043,
+  :block/updated-at 1661764584058}
+ {:block/name "does not defined",
+  :block/created-at 1661477997616,
+  :block/updated-at 1661477997616}
+ {:block/name "doing",
+  :block/created-at 1661004367896,
+  :block/updated-at 1661004367896}
+ {:block/name "done",
+  :block/created-at 1661004367895,
+  :block/updated-at 1661004367895}
+ {:block/name "dot product",
+  :block/created-at 1663995768082,
+  :block/updated-at 1663995768082}
+ {:block/name "double",
+  :block/created-at 1661955563134,
+  :block/updated-at 1662039886597}
+ {:block/name "dry",
+  :block/created-at 1661999361031,
+  :block/updated-at 1661999361031}
+ {:block/name "dynamic connectivity",
+  :block/created-at 1663995767559,
+  :block/updated-at 1663995767559}
+ {:block/name "dynamic memory",
+  :block/created-at 1662003182126,
+  :block/updated-at 1662022121273}
+ {:block/name "eccentricity",
+  :block/created-at 1661664597112,
+  :block/updated-at 1661664597112}
+ {:block/name "ellipse",
+  :block/created-at 1661664597110,
+  :block/updated-at 1661664597110}
+ {:block/name "encapsulation",
+  :block/created-at 1663995767692,
+  :block/updated-at 1663995767692}
+ {:block/name "enum",
+  :block/created-at 1662342944610,
+  :block/updated-at 1662342944610}
+ {:block/name "enumeration",
+  :block/created-at 1662342944607,
+  :block/updated-at 1662342944607}
+ {:block/name "error",
+  :block/created-at 1662083896278,
+  :block/updated-at 1662095480695}
+ {:block/name "euclidean norm",
+  :block/created-at 1663995768338,
+  :block/updated-at 1663995768338}
+ {:block/name "euler",
+  :block/created-at 1664415110971,
+  :block/updated-at 1664415110971}
+ {:block/name "euler number",
+  :block/created-at 1661584785056,
+  :block/updated-at 1661584825176}
+ {:block/name "exception",
+  :block/created-at 1662342944790,
+  :block/updated-at 1662342944790}
+ {:block/name "explicit",
+  :block/created-at 1661514640411,
+  :block/updated-at 1661514640411}
+ {:block/name "exponential",
+  :block/created-at 1661580129097,
+  :block/updated-at 1661580129097}
+ {:block/name "exponential function",
+  :block/created-at 1661580110659,
+  :block/updated-at 1661585428366}
+ {:block/name "expression",
+  :block/created-at 1662342944892,
+  :block/updated-at 1662342944892}
+ {:block/name "extern",
+  :block/created-at 1661308480874,
+  :block/updated-at 1661308480874}
+ {:block/name "extreme value theorem",
+  :block/created-at 1661621428755,
+  :block/updated-at 1661661476587}
+ {:block/name "extremum",
+  :block/created-at 1661308480954,
+  :block/updated-at 1661661381970}
+ {:block/name "factor",
+  :block/created-at 1661649881212,
+  :block/updated-at 1661649996909}
+ {:block/name "factoring",
+  :block/created-at 1661650252839,
+  :block/updated-at 1661650252839}
+ {:block/name "factorization",
+  :block/created-at 1661649824493,
+  :block/updated-at 1661650531113}
+ {:block/name "favorites",
+  :block/created-at 1661004367895,
+  :block/updated-at 1661004367895}
+ {:block/name "file",
+  :block/created-at 1662377612164,
+  :block/updated-at 1662377612164}
+ {:block/name "file and stream input output model",
+  :block/created-at 1662377612003,
+  :block/updated-at 1662382960818}
+ {:block/name "finite automaton",
+  :block/created-at 1663995771370,
+  :block/updated-at 1663995771370}
+ {:block/name "first derivative test",
+  :block/created-at 1661308480963,
+  :block/updated-at 1661308480963}
+ {:block/name "floating point",
+  :block/created-at 1661955563133,
+  :block/updated-at 1663123364394}
+ {:block/name "floating point type",
+  :block/created-at 1661955563181,
+  :block/updated-at 1661955563181}
+ {:block/name "floor function",
+  :block/created-at 1661522001739,
+  :block/updated-at 1661522001739}
+ {:block/name "for loop",
+  :block/created-at 1662082045925,
+  :block/updated-at 1662082356726}
+ {:block/name "free store",
+  :block/created-at 1662011270376,
+  :block/updated-at 1662011270376}
+ {:block/name "function",
+  :block/created-at 1661477998069,
+  :block/updated-at 1663420928848}
+ {:block/name "function activation record",
+  :block/created-at 1662342946573,
+  :block/updated-at 1662342946573}
+ {:block/name "function object",
+  :block/created-at 1661081807339,
+  :block/updated-at 1661081905019}
+ {:block/name "git",
+  :block/created-at 1663995767762,
+  :block/updated-at 1663995767762}
+ {:block/name "global extremum",
+  :block/created-at 1661623275840,
+  :block/updated-at 1661623320184}
+ {:block/name "glossary",
+  :block/created-at 1661085690432,
+  :block/updated-at 1664238801626}
+ {:block/name "graph",
+  :block/created-at 1663995767915,
+  :block/updated-at 1663995767915}
+ {:block/name "gui",
+  :block/created-at 1663995770451,
+  :block/updated-at 1663995770451}
+ {:block/name "hash table",
+  :block/created-at 1661084794143,
+  :block/updated-at 1661084794143}
+ {:block/name "header",
+  :block/created-at 1661908535753,
+  :block/updated-at 1661908535753}
+ {:block/name "header file",
+  :block/created-at 1661477999471,
+  :block/updated-at 1661908535755}
+ {:block/name "heap",
+  :block/created-at 1662011257938,
+  :block/updated-at 1662011270378}
+ {:block/name "hex",
+  :block/created-at 1661663663911,
+  :block/updated-at 1664371694008}
+ {:block/name "hospital rule",
+  :block/created-at 1661477999898,
+  :block/updated-at 1661477999898}
+ {:block/name "html",
+  :block/created-at 1663995770452,
+  :block/updated-at 1663995770452}
+ {:block/name "ienumerable",
+  :block/created-at 1661477998389,
+  :block/updated-at 1661477998389}
+ {:block/name "in-progress",
+  :block/created-at 1661004367896,
+  :block/updated-at 1661004367896}
+ {:block/name "indefinite integral",
+  :block/created-at 1663995766498,
+  :block/updated-at 1663995766498}
+ {:block/name "indeterminate form",
+  :block/created-at 1661308481007,
+  :block/updated-at 1661585053907}
+ {:block/name "inflection point",
+  :block/created-at 1661308481024,
+  :block/updated-at 1661772487621}
+ {:block/name "inheritance",
+  :block/created-at 1663995772055,
+  :block/updated-at 1663995772055}
+ {:block/name "initialization",
+  :block/created-at 1661044286408,
+  :block/updated-at 1661078212964}
+ {:block/name "inline function",
+  :block/created-at 1661308481068,
+  :block/updated-at 1662291361687}
+ {:block/name "inner product",
+  :block/created-at 1663995768076,
+  :block/updated-at 1664427064961}
+ {:block/name "installation",
+  :block/created-at 1663995768220,
+  :block/updated-at 1663995768220}
+ {:block/name "integral type",
+  :block/created-at 1661955565078,
+  :block/updated-at 1661955565078}
+ {:block/name "intellij",
+  :block/created-at 1662795758197,
+  :block/updated-at 1662796027936}
+ {:block/name "interface",
+  :block/created-at 1661043587408,
+  :block/updated-at 1663688073447}
+ {:block/name "intermediate value theorem",
+  :block/created-at 1661516999659,
+  :block/updated-at 1661517747426}
+ {:block/name "interpreter",
+  :block/created-at 1662342945328,
+  :block/updated-at 1662342945328}
+ {:block/name "invariant",
+  :block/created-at 1662342945017,
+  :block/updated-at 1662342945017}
+ {:block/name "iterative",
+  :block/created-at 1661955564531,
+  :block/updated-at 1661955564531}
+ {:block/name "iterator",
+  :block/created-at 1661477998390,
+  :block/updated-at 1661477998390}
+ {:block/name "java",
+  :block/created-at 1661083091540,
+  :block/updated-at 1661083091540}
+ {:block/name "jit",
+  :block/created-at 1662342945333,
+  :block/updated-at 1662342945333}
+ {:block/name "just to the left",
+  :block/created-at 1661308481571,
+  :block/updated-at 1661308481571}
+ {:block/name "just to the left or right",
+  :block/created-at 1661477999839,
+  :block/updated-at 1661477999839}
+ {:block/name "just to the right",
+  :block/created-at 1661308481570,
+  :block/updated-at 1661308481570}
+ {:block/name "l'hôpital's rule",
+  :block/created-at 1661477997048,
+  :block/updated-at 1661583398066}
+ {:block/name "l2-norm",
+  :block/created-at 1663995768333,
+  :block/updated-at 1663995768333}
+ {:block/name "lamina",
+  :block/created-at 1661664149021,
+  :block/updated-at 1661666906223}
+ {:block/name "laminae",
+  :block/created-at 1661664351768,
+  :block/updated-at 1661664351768}
+ {:block/name "language",
+  :block/created-at 1663995768411,
+  :block/updated-at 1663995768411}
+ {:block/name "later",
+  :block/created-at 1661004367896,
+  :block/updated-at 1661004367896}
+ {:block/name "latex cheat sheet",
+  :block/created-at 1661514640481,
+  :block/updated-at 1664093527170}
+ {:block/name "left-hand limit",
+  :block/created-at 1661308481094,
+  :block/updated-at 1661521557652}
+ {:block/name "leibniz notation",
+  :block/created-at 1661529503813,
+  :block/updated-at 1661532258535}
+ {:block/name "leonhard euler",
+  :block/created-at 1664415110955,
+  :block/updated-at 1664415110955}
+ {:block/name "lexical analysis",
+  :block/created-at 1662342945070,
+  :block/updated-at 1662342945070}
+ {:block/name "limit",
+  :block/created-at 1661308481123,
+  :block/updated-at 1661862172398}
+ {:block/name "linear approximation",
+  :block/created-at 1661583091691,
+  :block/updated-at 1663469663423}
+ {:block/name "linear combination",
+  :block/created-at 1663995768486,
+  :block/updated-at 1664088795902}
+ {:block/name "linear dependence",
+  :block/created-at 1664241829591,
+  :block/updated-at 1664241829591}
+ {:block/name "linear dependent",
+  :block/created-at 1664241829594,
+  :block/updated-at 1664241829594}
+ {:block/name "linear equation",
+  :block/created-at 1663381075646,
+  :block/updated-at 1663381075646}
+ {:block/name "linear function",
+  :block/created-at 1663995766217,
+  :block/updated-at 1663995766217}
+ {:block/name "linear independence",
+  :block/created-at 1664241829589,
+  :block/updated-at 1664241829589}
+ {:block/name "linear independent",
+  :block/created-at 1664241829661,
+  :block/updated-at 1664241829661}
+ {:block/name "linearly dependent",
+  :block/created-at 1664241829595,
+  :block/updated-at 1664241829595}
+ {:block/name "linearly independent",
+  :block/created-at 1664241828991,
+  :block/updated-at 1664241828991}
+ {:block/name "linker",
+  :block/created-at 1661872690256,
+  :block/updated-at 1661878300448}
+ {:block/name "linking",
+  :block/created-at 1661878300447,
+  :block/updated-at 1661878300447}
+ {:block/name "literal",
+  :block/created-at 1661955563631,
+  :block/updated-at 1661955563631}
+ {:block/name "local extrema",
+  :block/created-at 1661308481154,
+  :block/updated-at 1661621674671}
+ {:block/name "local extremum",
+  :block/created-at 1661308481156,
+  :block/updated-at 1661308481156}
+ {:block/name "local maxima",
+  :block/created-at 1661308480955,
+  :block/updated-at 1661308480955}
+ {:block/name "local maximum",
+  :block/created-at 1661308481152,
+  :block/updated-at 1661308481152}
+ {:block/name "local minima",
+  :block/created-at 1661308480955,
+  :block/updated-at 1661308480955}
+ {:block/name "local minimum",
+  :block/created-at 1661308481152,
+  :block/updated-at 1661308481152}
+ {:block/name "logarithm",
+  :block/created-at 1661584755679,
+  :block/updated-at 1661584802614}
+ {:block/name "logseq template",
+  :block/created-at 1661004687578,
+  :block/updated-at 1664360679656}
+ {:block/name "lower bound",
+  :block/created-at 1663995768969,
+  :block/updated-at 1663995768969}
+ {:block/name "lvalue",
+  :block/created-at 1661514639604,
+  :block/updated-at 1661514639604}
+ {:block/name "manifold",
+  :block/created-at 1661478883849,
+  :block/updated-at 1661478883849}
+ {:block/name "map",
+  :block/created-at 1661955564071,
+  :block/updated-at 1661955564071}
+ {:block/name "math cheat sheet",
+  :block/created-at 1661308481254,
+  :block/updated-at 1661308481254}
+ {:block/name "mathematical symbol",
+  :block/created-at 1662690779340,
+  :block/updated-at 1663428594300}
+ {:block/name "mathematics",
+  :block/created-at 1663995768787,
+  :block/updated-at 1663995768787}
+ {:block/name "matrix",
+  :block/created-at 1662738851786,
+  :block/updated-at 1662738851786}
+ {:block/name "maximum",
+  :block/created-at 1661621803385,
+  :block/updated-at 1661621803385}
+ {:block/name "mean value theorem",
+  :block/created-at 1663995768993,
+  :block/updated-at 1663995768993}
+ {:block/name "member access operator",
+  :block/created-at 1662342945120,
+  :block/updated-at 1662342945120}
+ {:block/name "memory",
+  :block/created-at 1661955566328,
+  :block/updated-at 1663557751695}
+ {:block/name "memory map",
+  :block/created-at 1661955564110,
+  :block/updated-at 1661955564110}
+ {:block/name "minimum",
+  :block/created-at 1661621803384,
+  :block/updated-at 1661621803384}
+ {:block/name "model of computation",
+  :block/created-at 1663121263337,
+  :block/updated-at 1663121263337}
+ {:block/name "move constructor",
+  :block/created-at 1661079788522,
+  :block/updated-at 1661079801027}
+ {:block/name "mvt",
+  :block/created-at 1663995766481,
+  :block/updated-at 1663995766481}
+ {:block/name "mvvm",
+  :block/created-at 1663995769162,
+  :block/updated-at 1663995769162}
+ {:block/name "namespace",
+  :block/created-at 1662342945190,
+  :block/updated-at 1662342945190}
+ {:block/name "naming convention",
+  :block/created-at 1661999361896,
+  :block/updated-at 1661999361896}
+ {:block/name "narrowing",
+  :block/created-at 1661514639897,
+  :block/updated-at 1661927210586}
+ {:block/name "narrowing conversion",
+  :block/created-at 1661955564911,
+  :block/updated-at 1661955564911}
+ {:block/name "non-type specifier",
+  :block/created-at 1661089516036,
+  :block/updated-at 1661090183550}
+ {:block/name "norm",
+  :block/created-at 1663995769182,
+  :block/updated-at 1663995769182}
+ {:block/name "notation for differentiation",
+  :block/created-at 1663995767171,
+  :block/updated-at 1663995767171}
+ {:block/name "now",
+  :block/created-at 1661004367895,
+  :block/updated-at 1661004367895}
+ {:block/name "number theory",
+  :block/created-at 1663995769198,
+  :block/updated-at 1663995769198}
+ {:block/name "numerical optimization",
+  :block/created-at 1664241829785,
+  :block/updated-at 1664241829785}
+ {:block/name "object",
+  :block/created-at 1661872991331,
+  :block/updated-at 1661873305353}
+ {:block/name "object-oriented programming paradigm",
+  :block/created-at 1661477998708,
+  :block/updated-at 1661477998708}
+ {:block/name "operator overloading",
+  :block/created-at 1661955564241,
+  :block/updated-at 1662306892893}
+ {:block/name "orthonormality",
+  :block/created-at 1664241829886,
+  :block/updated-at 1664241829886}
+ {:block/name "overflow",
+  :block/created-at 1661514640592,
+  :block/updated-at 1661514640592}
+ {:block/name "parent class",
+  :block/created-at 1663995771495,
+  :block/updated-at 1663995771495}
+ {:block/name "pass-by-const-reference",
+  :block/created-at 1662342945978,
+  :block/updated-at 1662342945978}
+ {:block/name "pass-by-reference",
+  :block/created-at 1661308481298,
+  :block/updated-at 1661506819809}
+ {:block/name "pass-by-reference-to-const",
+  :block/created-at 1661080630287,
+  :block/updated-at 1661080630287}
+ {:block/name "pass-by-value",
+  :block/created-at 1661080453915,
+  :block/updated-at 1661506682179}
+ {:block/name "perimeter",
+  :block/created-at 1661664081134,
+  :block/updated-at 1661664629706}
+ {:block/name "pointer",
+  :block/created-at 1661308481344,
+  :block/updated-at 1662025159533}
+ {:block/name "polyhedron",
+  :block/created-at 1664241829322,
+  :block/updated-at 1664241829322}
+ {:block/name "polyline",
+  :block/created-at 1662518844478,
+  :block/updated-at 1662518844478}
+ {:block/name "polymorphism",
+  :block/created-at 1661477998740,
+  :block/updated-at 1661477998740}
+ {:block/name "polynomial",
+  :block/created-at 1661649916338,
+  :block/updated-at 1661649916338}
+ {:block/name "polynomial equation",
+  :block/created-at 1661655920465,
+  :block/updated-at 1661655920465}
+ {:block/name "polynomial factorization",
+  :block/created-at 1661668361329,
+  :block/updated-at 1661668361329}
+ {:block/name "preprocessing",
+  :block/created-at 1661878210721,
+  :block/updated-at 1661908946284}
+ {:block/name "preprocessor",
+  :block/created-at 1661908768875,
+  :block/updated-at 1661908768875}
+ {:block/name "prime",
+  :block/created-at 1663995769216,
+  :block/updated-at 1663995769216}
+ {:block/name "prime factorization",
+  :block/created-at 1661650378331,
+  :block/updated-at 1661650378331}
+ {:block/name "prime number",
+  :block/created-at 1663995769212,
+  :block/updated-at 1663995769212}
+ {:block/name "procedural programming paradigm",
+  :block/created-at 1661477998770,
+  :block/updated-at 1661477998770}
+ {:block/name "program",
+  :block/created-at 1661869708764,
+  :block/updated-at 1661869731443}
+ {:block/name "program text file",
+  :block/created-at 1661478000017,
+  :block/updated-at 1661478000017}
+ {:block/name "programmer",
+  :block/created-at 1661869464606,
+  :block/updated-at 1661869627797}
+ {:block/name "programming",
+  :block/created-at 1661869505687,
+  :block/updated-at 1661869915688}
+ {:block/name "programming language",
+  :block/created-at 1662342945336,
+  :block/updated-at 1662342945336}
+ {:block/name "promotion",
+  :block/created-at 1661955571477,
+  :block/updated-at 1661955571477}
+ {:block/name "proof",
+  :block/created-at 1663995769264,
+  :block/updated-at 1663995769264}
+ {:block/name "pythagorean theorem",
+  :block/created-at 1661667947709,
+  :block/updated-at 1661668133962}
+ {:block/name "python",
+  :block/created-at 1662342945331,
+  :block/updated-at 1662342945331}
+ {:block/name "qt",
+  :block/created-at 1662653526517,
+  :block/updated-at 1662653526517}
+ {:block/name "quadratic approximation",
+  :block/created-at 1661837238557,
+  :block/updated-at 1661837420939}
+ {:block/name "quadratic equation",
+  :block/created-at 1661655838893,
+  :block/updated-at 1661656031363}
+ {:block/name "raii",
+  :block/created-at 1661308481368,
+  :block/updated-at 1661308481368}
+ {:block/name "range error",
+  :block/created-at 1662342946567,
+  :block/updated-at 1662342946567}
+ {:block/name "raw pointer",
+  :block/created-at 1662025159531,
+  :block/updated-at 1662025159531}
+ {:block/name "rectangle",
+  :block/created-at 1661664624158,
+  :block/updated-at 1661664624158}
+ {:block/name "recursion",
+  :block/created-at 1661955564535,
+  :block/updated-at 1661955564535}
+ {:block/name "recursive",
+  :block/created-at 1661955564538,
+  :block/updated-at 1661955564538}
+ {:block/name "reference",
+  :block/created-at 1661514641918,
+  :block/updated-at 1661514641918}
+ {:block/name "reference type",
+  :block/created-at 1661514641804,
+  :block/updated-at 1661514641804}
+ {:block/name "regression model",
+  :block/created-at 1663995766220,
+  :block/updated-at 1663995766220}
+ {:block/name "regular expression",
+  :block/created-at 1661084794141,
+  :block/updated-at 1661084794141}
+ {:block/name "related rates problem",
+  :block/created-at 1661764863886,
+  :block/updated-at 1661764894975}
+ {:block/name "relative extrema",
+  :block/created-at 1661308481156,
+  :block/updated-at 1661308481156}
+ {:block/name "relative extremum",
+  :block/created-at 1661308481157,
+  :block/updated-at 1661308481157}
+ {:block/name "release",
+  :block/created-at 1661908320221,
+  :block/updated-at 1661908320221}
+ {:block/name "riemannian manifold",
+  :block/created-at 1661478817848,
+  :block/updated-at 1661478817848}
+ {:block/name "right-hand limit",
+  :block/created-at 1661308481093,
+  :block/updated-at 1661521534228}
+ {:block/name "root",
+  :block/created-at 1661648773371,
+  :block/updated-at 1661648911405}
+ {:block/name "rule of using logseq",
+  :block/created-at 1661085731002,
+  :block/updated-at 1661086161205}
+ {:block/name "run-time",
+  :block/created-at 1661043550404,
+  :block/updated-at 1661043550404}
+ {:block/name "rvalue",
+  :block/created-at 1661514639605,
+  :block/updated-at 1661514639605}
+ {:block/name "scalar",
+  :block/created-at 1662738743247,
+  :block/updated-at 1662738743247}
+ {:block/name "scalar product",
+  :block/created-at 1664364362878,
+  :block/updated-at 1664364362878}
+ {:block/name "scientific notation",
+  :block/created-at 1661955564607,
+  :block/updated-at 1661955564607}
+ {:block/name "scope",
+  :block/created-at 1662342945401,
+  :block/updated-at 1662342945401}
+ {:block/name "secant line",
+  :block/created-at 1661317175387,
+  :block/updated-at 1661860211262}
+ {:block/name "second derivative",
+  :block/created-at 1661308481021,
+  :block/updated-at 1661308481021}
+ {:block/name "second derivative test",
+  :block/created-at 1661308480960,
+  :block/updated-at 1661308480960}
+ {:block/name "sequence",
+  :block/created-at 1663995767904,
+  :block/updated-at 1663995767904}
+ {:block/name "set",
+  :block/created-at 1662128851603,
+  :block/updated-at 1663427844377}
+ {:block/name "shell",
+  :block/created-at 1663995769443,
+  :block/updated-at 1663995769443}
+ {:block/name "shortlex order",
+  :block/created-at 1663995777544,
+  :block/updated-at 1663995777544}
+ {:block/name "signature",
+  :block/created-at 1661046795380,
+  :block/updated-at 1661047125739}
+ {:block/name "simplex",
+  :block/created-at 1664241829922,
+  :block/updated-at 1664241829922}
+ {:block/name "slope field",
+  :block/created-at 1664415111092,
+  :block/updated-at 1664415111092}
+ {:block/name "smart pointer",
+  :block/created-at 1662025071156,
+  :block/updated-at 1662025403755}
+ {:block/name "source file",
+  :block/created-at 1661477999472,
+  :block/updated-at 1661477999472}
+ {:block/name "sparse",
+  :block/created-at 1663995769587,
+  :block/updated-at 1663995769587}
+ {:block/name "sparsity",
+  :block/created-at 1662739031580,
+  :block/updated-at 1663139905755}
+ {:block/name "square",
+  :block/created-at 1661664624157,
+  :block/updated-at 1661664624157}
+ {:block/name "stack",
+  :block/created-at 1661157711196,
+  :block/updated-at 1661157711196}
+ {:block/name "stack of activation record",
+  :block/created-at 1662342946572,
+  :block/updated-at 1662342946572}
+ {:block/name "stl",
+  :block/created-at 1661081428225,
+  :block/updated-at 1661081760746}
+ {:block/name "string",
+  :block/created-at 1661955564730,
+  :block/updated-at 1663422707847}
+ {:block/name "string order",
+  :block/created-at 1663995777544,
+  :block/updated-at 1663995777544}
+ {:block/name "strings",
+  :block/created-at 1663995768410,
+  :block/updated-at 1663995768410}
+ {:block/name "struct",
+  :block/created-at 1661067852828,
+  :block/updated-at 1661145011087}
+ {:block/name "super class",
+  :block/created-at 1663995771496,
+  :block/updated-at 1663995771496}
+ {:block/name "symbol tables",
+  :block/created-at 1661955564075,
+  :block/updated-at 1661955564075}
+ {:block/name "tangent line",
+  :block/created-at 1661316679940,
+  :block/updated-at 1661861984314}
+ {:block/name "taylor approximation",
+  :block/created-at 1663995766219,
+  :block/updated-at 1663995766219}
+ {:block/name "technical report 1",
+  :block/created-at 1661083642173,
+  :block/updated-at 1661083642173}
+ {:block/name "template",
+  :block/created-at 1661913899751,
+  :block/updated-at 1661916214928}
+ {:block/name "the auto type specifier",
+  :block/created-at 1661308481496,
+  :block/updated-at 1661492523552}
+ {:block/name "the i",
+  :block/created-at 1662377612010,
+  :block/updated-at 1662377612010}
+ {:block/name "the i/o stream model",
+  :block/created-at 1662377612008,
+  :block/updated-at 1662377612008}
+ {:block/name "the principle of study",
+  :block/created-at 1661865941978,
+  :block/updated-at 1661869630007}
+ {:block/name "the standard template library",
+  :block/created-at 1661081604330,
+  :block/updated-at 1661081604330}
+ {:block/name "theory of computation",
+  :block/created-at 1663995772264,
+  :block/updated-at 1663995772264}
+ {:block/name "todo",
+  :block/created-at 1661004367896,
+  :block/updated-at 1661004367896}
+ {:block/name "tr1",
+  :block/created-at 1661083588976,
+  :block/updated-at 1661084794145}
+ {:block/name "translation",
+  :block/created-at 1661878141592,
+  :block/updated-at 1661878141592}
+ {:block/name "traversal algorithm",
+  :block/created-at 1661477999349,
+  :block/updated-at 1661477999349}
+ {:block/name "tree",
+  :block/created-at 1663995767910,
+  :block/updated-at 1663995767910}
+ {:block/name "triangle",
+  :block/created-at 1661664629703,
+  :block/updated-at 1661664629703}
+ {:block/name "tuple",
+  :block/created-at 1663995769826,
+  :block/updated-at 1663995769826}
+ {:block/name "type",
+  :block/created-at 1661873108323,
+  :block/updated-at 1661926285935}
+ {:block/name "type cast",
+  :block/created-at 1661955564921,
+  :block/updated-at 1661955564921}
+ {:block/name "type conversion",
+  :block/created-at 1661955564920,
+  :block/updated-at 1661955564920}
+ {:block/name "type conversions",
+  :block/created-at 1661955564917,
+  :block/updated-at 1661994946345}
+ {:block/name "type deduction",
+  :block/created-at 1661308481510,
+  :block/updated-at 1661308481510}
+ {:block/name "type safety",
+  :block/created-at 1661999363106,
+  :block/updated-at 1661999363106}
+ {:block/name "type specifier",
+  :block/created-at 1661089500234,
+  :block/updated-at 1661090753523}
+ {:block/name "uncategorized",
+  :block/created-at 1661871522777,
+  :block/updated-at 1664083226731}
+ {:block/name "undefined behavior",
+  :block/created-at 1661081873142,
+  :block/updated-at 1661082473049}
+ {:block/name "uniform initialization",
+  :block/created-at 1661514640844,
+  :block/updated-at 1661514640844}
+ {:block/name "upper and lower bound",
+  :block/created-at 1663995769908,
+  :block/updated-at 1663995769908}
+ {:block/name "upper bound",
+  :block/created-at 1663995768971,
+  :block/updated-at 1663995768971}
+ {:block/name "user-defined",
+  :block/created-at 1661080558580,
+  :block/updated-at 1661080558580}
+ {:block/name "value",
+  :block/created-at 1661999362803,
+  :block/updated-at 1661999362803}
+ {:block/name "value type",
+  :block/created-at 1661514641803,
+  :block/updated-at 1661514641803}
+ {:block/name "variable",
+  :block/created-at 1661873048049,
+  :block/updated-at 1663925633275}
+ {:block/name "vector",
+  :block/created-at 1661514640671,
+  :block/updated-at 1664447855512}
+ {:block/name "vector product",
+  :block/created-at 1664426953131,
+  :block/updated-at 1664426953131}
+ {:block/name "volatile",
+  :block/created-at 1661045592332,
+  :block/updated-at 1661045592332}
+ {:block/name "wait",
+  :block/created-at 1661004367895,
+  :block/updated-at 1661004367895}
+ {:block/name "waiting",
+  :block/created-at 1661004367895,
+  :block/updated-at 1661004367895}
+ {:block/name "widening",
+  :block/created-at 1661514640598,
+  :block/updated-at 1661924343029}
+ {:block/name "widening conversion",
+  :block/created-at 1661514640768,
+  :block/updated-at 1661514640768}
+ {:block/name "word",
+  :block/created-at 1663995770028,
+  :block/updated-at 1663995770028}
+ {:block/name "wpf",
+  :block/created-at 1663995770203,
+  :block/updated-at 1664256353647}
+ {:block/name "xaml",
+  :block/created-at 1663995770174,
+  :block/updated-at 1663995770174}
+ {:block/name "{} - initialization syntax",
+  :block/created-at 1661514640841,
+  :block/updated-at 1661940495762}
+ {:block/name "切线",
+  :block/created-at 1661955570626,
+  :block/updated-at 1661955570626}
+ {:block/name "割线",
+  :block/created-at 1661955570403,
+  :block/updated-at 1661955570403}
+ {:block/name "周长",
+  :block/created-at 1661664203909,
+  :block/updated-at 1661664203909}
+ {:block/name "线性方程",
+  :block/created-at 1663995776116, 
+  :block/updated-at 1663995776116}]

@@ -1,0 +1,1 @@
+- This is my repo for managing my second brain.

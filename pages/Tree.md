@@ -1,0 +1,7 @@
+- # 📝Definition
+	- A [[Graph]] is a tree if it is [connected](((6325bc0e-6baf-46a2-a751-05fece4c4751))) and has no [simple cycles](((6325bc3b-e616-45cc-9a3d-ac75edfb9b58))).
+- # 🧪Composition
+	- 📌Root
+		- A tree may contain a specially designated node called the root.
+	- 📌Leaves
+		- The nodes of [degree](((9e64d31b-914c-4c98-8426-36a2224394c1))) 1 in a tree, other than the root, are called the leaves of the tree.
