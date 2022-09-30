@@ -266,6 +266,14 @@
 			- [[Numerical Optimization]], [[Convex]], [[Convex Optimization]], [[Convex Function]]
 		- Unorganized
 			- If the **objective function** in the optimization problem and the **feasible region** are **both convex**, then **any local solution** of the problem **is** in fact a **global solution**.
+	- # The Calculus Lifesaver
+		- Table of Content
+			- Chapter 1 Functions, Graphs, and Lines
+				-
+		- Things I don't know
+			- ...
+		- Info
+			- link
 	- ## Mathematics for 3D Game Programming and Computer Graphics
 		- Table of Content
 			- Chapter 2 Vector

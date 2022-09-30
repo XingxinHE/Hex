@@ -1,9 +1,24 @@
+alias:: mapping
+
 - # 📝Definition
 	- In Programming,
 		- A function is a named sequence of statements.
 	- In Mathematics,
 		- $f$ is a function that **maps** real $n$-vectors to **real** numbers.
 		- Therefore, $f(x)$ is a scalar which is the **value** of such function at $x$(param).  Hence, function sometimes is called real-valued function or scalar-valued function.
+		- A function is a rule for transforming an object into another object.
+		- A map is often used as a synonym for a function. For **2** non-empty sets $A, B$, the mapping denotes as $f:A\rarr B$. Such that, for every $a_i$ of $A$, there is one **unique** element $b_i$ in $B$ corresponding to $a_i$.
+			- $f(a)=b$
+		- A function is **a binary relation between two sets** that associates each element of the first set(nonempty real number$\mathbb{R}$ set) to exactly one element of the second set.
+			- $$
+			  y = f(x)
+			  $$
+			- a.k.a. $x$ is in the set $A$ of left side, $y$ is in the set $B$ of the right side.
+- # 📈Diagram
+	- Diagram of "This is a function" which passed the [vertical line test](((633250a6-c025-4d26-95ae-277e4b9c7080))).
+		- ![name](../assets/Xto3minus3x.svg){:height 300, :width 300}
+	- Diagram of "This is not a function" which failed the [vertical line test](((633250a6-c025-4d26-95ae-277e4b9c7080))).
+		- ![name](../assets/Function_with_two_values_1.svg){:height 300, :width 300}
 - # 🧠Intuition
 	- A function is an object that sets up an **input–output relationship**. Therefore, function is also called **mapping**. If $f(a)=b$, we say that $f$ maps $a$ to $b$.
 - # 🧪Composition
@@ -54,19 +69,55 @@
 				- $R$ is **reflexive** if for every $x$, $xRx$;
 				- $R$ is **symmetric** if for every $x$ and $y$, $xRy$ implies $yRx$; and
 				- $R$ is **transitive** if for every $x, y$, and $z, xRy$ and $yRz$ implies $xRz$.
+	- 📌Inverse Function
+	  id:: 6337202d-82b6-4aaf-afac-c05f25c83e91
+		- 📝Definition
+			- Given a function $f(x)$, its inverse $f^(-1)(x)$ is defined by
+				- $$
+				  f(f^{-1}(x))=f^{-1}(f(x))\equiv x
+				  $$
+		- ⛈Characteristics / Properties
+			- Domain
+				- The domain of $f^{-1}$ is the same as the range of $f$.
+			- Range
+				- The range of $f^{-1}$ is the same as the domain of $f$.
+			- Value
+				- The value of $f^{-1}(y)$ is the number $x$ such that $f(x)=y$. So
+					- $$
+					  \text{if $f(x)=y,\quad$then $f^{-1}(y)=x$}
+					  $$
+	- surjection and bijection function
+		- Category
+			- 📌non-injective surjective function(surjection) 满射
+			- 📌injective surjective function(bijection) 双射
+			- 📌injective non-surjective function(injection, not a bijection) 单射
+			- 📌non-injective non surjective function 非映射
+		- Diagram
+			- ![name](../assets/surjection_bijection.png){:height 300, :width 500}
 - # ⛈Characteristics / Properties
 	- 📌 [[Upper and Lower Bound]]
+	- 📌Codomain
+	  id:: 63371466-8171-46ad-b423-9bbc596ed5ab
+		- The subset of codomain is [range](((632a66cd-b4ee-4660-bed0-df0b9f8a89af))).
+		- The codomain is a set of **possible** outputs.
 	- 📌Domain
 	  id:: 6329b0b1-f0b0-4926-9412-8c2523b33683
 		- The set of possible inputs to the function is called its domain.
 	- 📌Range
+	  id:: 632a66cd-b4ee-4660-bed0-df0b9f8a89af
 		- The outputs of a function come from a set called its range.
 		- A function that does use all the elements of the range is said to be **onto** the range.
+		- The range is the set of **actual** outputs.
+		- 🧠Intuition
+			- The range is the union of both shadows from left and right.
+			- ![name](../assets/function_range_shadow.png){:height 500, :width 500}
 	- 📌Argument
 		- When the domain of a function $f$ is $A_1\times\cdots\times A_k$ for some sets $A_1, . . . ,A_k$, the input to $f$ is a $k$- [[Tuple]] $(a_1, a_2, . . . , a_k)$ and we call the $a_i$ the arguments to $f$.
 	- 📌Arity
 	  id:: 6325c53d-86d0-4267-b340-c65975b272d0
 		- A function with $k$ arguments is called a $k$-ary function, and $k$ is called the arity of the function.
+	- 📌Graph
+		- The graph of a function is really important: it really shows what the function "looks like".
 	-
 - # ✒Notation
 	- The notation for saying that $f$ is a function with domain $D$ and range $R$ is

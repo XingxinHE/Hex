@@ -168,7 +168,7 @@
   :block/updated-at 1661871729783}
  {:block/name "calculus",
   :block/created-at 1661787132627,
-  :block/updated-at 1661787138202}
+  :block/updated-at 1664550492450}
  {:block/name "call stack",
   :block/created-at 1662342946571,
   :block/updated-at 1662342946571}
@@ -516,7 +516,7 @@
   :block/updated-at 1662011270376}
  {:block/name "function",
   :block/created-at 1661477998069,
-  :block/updated-at 1663420928848}
+  :block/updated-at 1664557587455}
  {:block/name "function activation record",
   :block/created-at 1662342946573,
   :block/updated-at 1662342946573}
@@ -531,7 +531,7 @@
   :block/updated-at 1661623320184}
  {:block/name "glossary",
   :block/created-at 1661085690432,
-  :block/updated-at 1664238801626}
+  :block/updated-at 1664557804408}
  {:block/name "graph",
   :block/created-at 1663995767915,
   :block/updated-at 1663995767915}
@@ -552,7 +552,7 @@
   :block/updated-at 1662011270378}
  {:block/name "hex",
   :block/created-at 1661663663911,
-  :block/updated-at 1664371694008}
+  :block/updated-at 1664550284667}
  {:block/name "hospital rule",
   :block/created-at 1661477999898,
   :block/updated-at 1661477999898}
@@ -739,6 +739,9 @@
  {:block/name "map",
   :block/created-at 1661955564071,
   :block/updated-at 1661955564071}
+ {:block/name "mapping",
+  :block/created-at 1664553386163,
+  :block/updated-at 1664553386163}
  {:block/name "math cheat sheet",
   :block/created-at 1661308481254,
   :block/updated-at 1661308481254}

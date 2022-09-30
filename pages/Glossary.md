@@ -73,6 +73,15 @@
 	- 📝**Definition**: Helper functions are also called convenience functions, auxiliary functions, and many other things.
 - ### High-level programming language
 	- 📝**Definition**: The first high-level programming language is called FORTRAN(formula translation) which resembles the mathematical formulas into machine language.
+- ### Horizontal Line Test
+	- 📝**Definition**
+		- If every horizontal line intersects the graph of a [[Function]] at most once, the function has an [inverse](((6337202d-82b6-4aaf-afac-c05f25c83e91))).
+	- 🀄**CHN**:
+	- 🔗**Link**:
+	- 💡**Intuitive**:
+	- 🖼**Image**:
+		- Left pass, right fail.
+		- ![name](../assets/horizontal_line_test.png){:height 300, :width 300}
 - ### Implementer
   id:: 63109965-8627-4373-8bcc-b72865e07938
 	- 📝**Definition**: Implementer is who implements a library
@@ -102,8 +111,15 @@
 		- `result%`❌
 		- `footballTeam$`❌
 		- `9plan`❌
-- ### Item
-	- 📝**Definition**: xxx
+- ### Interval Notation
+	- 📝**Definition**: The notation of an interval. A function's [domain](((6329b0b1-f0b0-4926-9412-8c2523b33683))), [range](((632a66cd-b4ee-4660-bed0-df0b9f8a89af))), and [codomain](((63371466-8171-46ad-b423-9bbc596ed5ab))) also use this notation.
+	- 🗃**Example**: $\{x:2\leq x<5\}$
+	- 🏷(Sub)Categories
+		- Open, e.g. $(a,b)$
+		- Close, e.g. $[a,b]$
+		- Mixed, e.g. $(a,b]$
+	- 📈Diagram
+		- ![name](../assets/interval_notation.png){:height 300, :width 300}
 - ### Markup
 	- 📝**Definition**: .  You can embed notions of color and two-dimensional positions, etc. in a one-dimensional stream of characters. That’s what layout (typesetting, “markup”) languages such as Troff, TeX, Word, HTML, and XML (and  their  associated  graphical packages do). The point is that you can express layout  notions  in  plain  text,  but  the  connection  between  the  characters  written  and what appears on the screen is indirect, governed by a program that interprets those “markup” commands.
 	- ⌨**Code**:
@@ -222,7 +238,18 @@
 	- 📝**Definition**: This is where you write the source codes.
 - ### Undefined order evaluation
 	- 📝**Definition**: See [here](((63145dc9-507f-476b-a516-23ec9b831747)))
--
+- ### Vertical Line Test
+  id:: 633250a6-c025-4d26-95ae-277e4b9c7080
+	- 📝**Definition**
+		- The vertical line test: if you have some graph and you want to know whether it’s the graph of a function, see whether any vertical line intersects the graph more than once. If so, it’s not the graph of a function.
+	- 🀄**CHN**:
+	- 🔗**Link**:
+	- 💡**Intuitive**:
+	- 🖼**Image**:
+		- Fail at vertical line test
+			- ![name](../assets/vertical_line_test_fail.png){:height 300, :width 300}
+		- Pass at vertical line test
+			- ![name](../assets/vertical_line_test_pass.png){:height 300, :width 300}
 -
 - *ABI*: Application Binary Interface, a specification for a specific hardware platform combined with the operating system. Contrast with API.
 - *abstract class*: a class that cannot be directly used to create objects; often used to define an interface to derived classes. A class is made abstract by having a pure virtual function or only protected constructors.
