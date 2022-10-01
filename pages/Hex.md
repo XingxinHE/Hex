@@ -49,6 +49,7 @@
 				- The Integral
 					- [[Mean Value Theorem]], [[Upper and Lower Bound]], [[Antiderivative]], [[Differential]], [[Differential Equation]]
 					- [[Euler]], [[Slope Field]]
+					- Homework B the Parachute ride is really good. need to document. Only the last question I don't understand.
 		- ### 💻Assignment
 			- Assignment
 		- ### 📖Reading

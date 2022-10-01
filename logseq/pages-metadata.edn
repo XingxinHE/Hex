@@ -46,6 +46,9 @@
  {:block/name "6329b0b1-4a11-4d08-855f-1b27389fdc4d",
   :block/created-at 1663995775408,
   :block/updated-at 1663995775408}
+ {:block/name "6337df95-fe77-4604-b1cf-a4e212e50eec",
+  :block/created-at 1664606174587,
+  :block/updated-at 1664606174587}
  {:block/name "825bc6fa-9ac8-4bb3-8dc4-2f5bad543c19",
   :block/created-at 1664241829054,
   :block/updated-at 1664241829054}
@@ -516,7 +519,7 @@
   :block/updated-at 1662011270376}
  {:block/name "function",
   :block/created-at 1661477998069,
-  :block/updated-at 1664590699575}
+  :block/updated-at 1664606693935}
  {:block/name "function activation record",
   :block/created-at 1662342946573,
   :block/updated-at 1662342946573}
@@ -552,7 +555,7 @@
   :block/updated-at 1662011270378}
  {:block/name "hex",
   :block/created-at 1661663663911,
-  :block/updated-at 1664550284667}
+  :block/updated-at 1664613263959}
  {:block/name "hospital rule",
   :block/created-at 1661477999898,
   :block/updated-at 1661477999898}
@@ -681,7 +684,7 @@
   :block/updated-at 1663381075646}
  {:block/name "linear function",
   :block/created-at 1663995766217,
-  :block/updated-at 1664593179692}
+  :block/updated-at 1664606424140}
  {:block/name "linear independence",
   :block/created-at 1664241829589,
   :block/updated-at 1664241829589}
@@ -861,7 +864,7 @@
   :block/updated-at 1661477998740}
  {:block/name "polynomial",
   :block/created-at 1661649916338,
-  :block/updated-at 1661649916338}
+  :block/updated-at 1664608119088}
  {:block/name "polynomial equation",
   :block/created-at 1661655920465,
   :block/updated-at 1661655920465}
@@ -921,7 +924,10 @@
   :block/updated-at 1661837420939}
  {:block/name "quadratic equation",
   :block/created-at 1661655838893,
-  :block/updated-at 1661656031363}
+  :block/updated-at 1664609160243}
+ {:block/name "quadratic function",
+  :block/created-at 1664608231134,
+  :block/updated-at 1664608231134}
  {:block/name "raii",
   :block/created-at 1661308481368,
   :block/updated-at 1661308481368}
