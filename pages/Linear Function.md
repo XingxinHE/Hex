@@ -11,7 +11,19 @@
 	  f(x)=mx+b
 	  \end{align}
 	  $$
+	- 📌Point-slope form
+		- id:: 6337df95-fe77-4604-b1cf-a4e212e50eec
+		  $$
+		  y-y_0=m(x-x_0)
+		  $$
 - # ⛈Characteristics / Properties
+	- 📌Slope
+		- If a line goes through $(x_0, y_0)$ and has slope $m$ then its equation is
+			- {{embed ((6337df95-fe77-4604-b1cf-a4e212e50eec))}}
+		- If a line goes through $(x_1, y_1)$ and $(x_2, y_2)$, its slope is equal to
+			- $$
+			  \frac{y_2-y_1}{x_2-x_1}
+			  $$
 	- 📌Homogeneity
 	  id:: 632151e6-ae83-446b-9b27-306674825fed
 		- 齐次性
@@ -37,7 +49,7 @@
 			  $$
 			- $x, y$ are $n$-vector.  $\alpha,\beta$​ are scalar.
 - ## 📈Diagram
-  ![name](../assets/name.png){:height 300, :width 300}
+	- ![name](../assets/linear_function.png){:height 200, :width 200}
 - ## ✒Descriptive Explanation
   A narrative... a descriptive words subject on the concept... 描述性解释…
 - ## 🌓Complement

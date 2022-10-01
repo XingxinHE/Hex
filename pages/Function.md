@@ -127,6 +127,9 @@ alias:: mapping
 			- 📌non-injective non surjective function 非映射
 		- Diagram
 			- ![name](../assets/surjection_bijection.png){:height 300, :width 500}
+	- 📌 [[Linear Function]]
+	- 📌
+	- 📌 [[polynomial]]
 - # ⛈Characteristics / Properties
 	- 📌 [[Upper and Lower Bound]]
 	- 📌Codomain
