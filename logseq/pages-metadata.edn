@@ -516,7 +516,7 @@
   :block/updated-at 1662011270376}
  {:block/name "function",
   :block/created-at 1661477998069,
-  :block/updated-at 1664557587455}
+  :block/updated-at 1664590699575}
  {:block/name "function activation record",
   :block/created-at 1662342946573,
   :block/updated-at 1662342946573}
@@ -681,7 +681,7 @@
   :block/updated-at 1663381075646}
  {:block/name "linear function",
   :block/created-at 1663995766217,
-  :block/updated-at 1663995766217}
+  :block/updated-at 1664593179692}
  {:block/name "linear independence",
   :block/created-at 1664241829589,
   :block/updated-at 1664241829589}

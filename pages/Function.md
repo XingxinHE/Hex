@@ -76,6 +76,11 @@ alias:: mapping
 				- $$
 				  f(f^{-1}(x))=f^{-1}(f(x))\equiv x
 				  $$
+		- 🧠Intuition
+			- The inverse function is like an **undo** button.
+		- 📈Diagram
+			- If you know what the graph of your function looks like, the graph of the inverse function is easy to find.
+			- ![name](../assets/mirror_function.png){:height 300, :width 300}
 		- ⛈Characteristics / Properties
 			- Domain
 				- The domain of $f^{-1}$ is the same as the range of $f$.
@@ -86,6 +91,34 @@ alias:: mapping
 					- $$
 					  \text{if $f(x)=y,\quad$then $f^{-1}(y)=x$}
 					  $$
+	- Odd and Even Functions
+		- 📌Even Function
+			- 📝Definition
+				- We say that a function $f$ is *even* if
+					- $$
+					  f(-x)=f(x)
+					  $$
+				- for all $x$ in the domain of $f$.
+			- 📈Diagram
+				- We conclude that the graph of an even function has mirror symmetry about the $y$-axis.
+				- ![name](../assets/even_function.png){:height 300, :width 300}
+		- 📌Odd Function
+			- 📝Definition
+				- We say that a function $f$ is *odd* if
+					- $$
+					  f(-x)=-f(x)
+					  $$
+				- for all $x$ in the domain of $f$.
+			- 📈Diagram
+				- The graph of an odd function has $180\degree$ point symmetry about the origin.
+				- ![name](../assets/odd_function.png){:height 300, :width 300}
+		- 📌Zero Function (both odd and even function)
+			- $$
+			  f(x)=0
+			  $$
+		- 📌Neither odd or even
+			- 📈Diagram
+				- ![name](../assets/neither_even_odd_function.svg){:height 300, :width 300}
 	- surjection and bijection function
 		- Category
 			- 📌non-injective surjective function(surjection) 满射
@@ -144,6 +177,37 @@ alias:: mapping
 		  }
 		  ```
 	-
+- # 💫Support Operation
+	- 📌Composition of function
+		- 📝Definition
+			- The nesting of two or more functions to form a single new function is known as composition.
+		- ✒Notation
+			- The composition of two functions $f$ and $g$ is denoted $f \circ g$, where $f$ is a function whose **domain** includes the **range** of $g$.
+			- $$
+			  (f\circ g)(x)=f(g(x))
+			  $$
+			- Here is the $\circ$ means "composed with".
+		- 🗃Example
+			- If
+				- $$
+				  \begin{align}
+				  g(x)&=2^x\\
+				  h(x)&=5x^4\\
+				  j(x)&=2x-1\\
+				  \end{align}
+				  $$
+			- The function $f$
+				- $$
+				  \begin{align}
+				  f(x)&=g\circ h\circ j\\
+				  &=g(h(j(x)))\\
+				  &=g(h(2x-1))\\
+				  &=g(5(2x-1))\\
+				  &=2^{5(2x-1)}
+				  \end{align}
+				  $$
+		- 🕳Pitfalls
+			- Products and compositions are not the same thing!
 - # 🔎Implementation / Mechanism
 	- 📌Things behind invoking a function
 		- When we invoke a function, a special area of memory is set up on [[Stack]]. Within this special area of memory there is a space to hold the value of each function parameter and variables inside the scope(local variables).

@@ -4,7 +4,13 @@
 		- [Homogeneity](((632151e6-ae83-446b-9b27-306674825fed)))
 		- [Additivity](((632151e6-599a-4cf0-8247-e10d0964bc26)))
 - ## 🧠Intuition
-  Find an intuitive way of understanding this concept.
+	- The word "linear" always means "straight line".
+- # ✒Notation
+	- $$
+	  \begin{align}
+	  f(x)=mx+b
+	  \end{align}
+	  $$
 - # ⛈Characteristics / Properties
 	- 📌Homogeneity
 	  id:: 632151e6-ae83-446b-9b27-306674825fed
@@ -30,12 +36,6 @@
 			  \end{align}
 			  $$
 			- $x, y$ are $n$-vector.  $\alpha,\beta$​ are scalar.
-- ## 🧮Notation
-  $$
-  \begin{align}
-  f(x)&=
-  \end{align}
-  $$
 - ## 📈Diagram
   ![name](../assets/name.png){:height 300, :width 300}
 - ## ✒Descriptive Explanation
