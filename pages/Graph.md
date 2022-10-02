@@ -44,12 +44,15 @@
 	- ## 📌 [[Tree]]
 	- ## 📌directed graph
 		- A directed graph has arrows instead of lines.
-		  ![name](../assets/directed_graph.png){:height 200, :width 200}
+			- ![name](../assets/directed_graph.png){:height 200, :width 200}
+			  id:: 63395407-b179-4c98-91ea-3fe021021ae0
 		- ### Notation
 			- We represent an edge **from** $i$ **to** $j$ as a pair $(i, j)$. The formal description of a directed graph $G$ is $(V,E)$
 			- $$
 			  G=(V,E)=(  \underbrace{\{1,2,3,4,5,6\}}_G,  \underbrace{ \{(1,2),(2,1),(2,4),(5,4),(5,6),(6,1),(6,3)\} } _E)
 			  $$
+		- ### Matrix Representation
+		  {{embed ((63395397-23d2-42d9-b8be-b61f43d8e59f))}}
 		- ### Properties
 			- 📌outdegree
 				- The number of arrows pointing from a particular node is the outdegree of that node.

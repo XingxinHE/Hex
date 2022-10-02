@@ -52,6 +52,12 @@
  {:block/name "6338f24c-ceaa-47b3-8f93-437461a1dc34",
   :block/created-at 1664676531206,
   :block/updated-at 1664676531206}
+ {:block/name "63395397-23d2-42d9-b8be-b61f43d8e59f",
+  :block/created-at 1664701708802,
+  :block/updated-at 1664701708802}
+ {:block/name "63395407-b179-4c98-91ea-3fe021021ae0",
+  :block/created-at 1664701470264,
+  :block/updated-at 1664701470264}
  {:block/name "825bc6fa-9ac8-4bb3-8dc4-2f5bad543c19",
   :block/created-at 1664241829054,
   :block/updated-at 1664241829054}
@@ -540,7 +546,7 @@
   :block/updated-at 1664557804408}
  {:block/name "graph",
   :block/created-at 1663995767915,
-  :block/updated-at 1663995767915}
+  :block/updated-at 1664701758490}
  {:block/name "gui",
   :block/created-at 1663995770451,
   :block/updated-at 1663995770451}
@@ -558,7 +564,7 @@
   :block/updated-at 1662011270378}
  {:block/name "hex",
   :block/created-at 1661663663911,
-  :block/updated-at 1664613263959}
+  :block/updated-at 1664704771800}
  {:block/name "hospital rule",
   :block/created-at 1661477999898,
   :block/updated-at 1661477999898}
@@ -759,7 +765,7 @@
   :block/updated-at 1663995768787}
  {:block/name "matrix",
   :block/created-at 1662738851786,
-  :block/updated-at 1664677291699}
+  :block/updated-at 1664703964938}
  {:block/name "maximum",
   :block/created-at 1661621803385,
   :block/updated-at 1661621803385}
@@ -807,7 +813,7 @@
   :block/updated-at 1661090183550}
  {:block/name "norm",
   :block/created-at 1663995769182,
-  :block/updated-at 1663995769182}
+  :block/updated-at 1664703600688}
  {:block/name "notation for differentiation",
   :block/created-at 1663995767171,
   :block/updated-at 1663995767171}

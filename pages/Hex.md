@@ -119,6 +119,9 @@
 				- ⭐⭐[[Linear Dependence]], [[Linear Independence]]
 				- Boyd said these are super important concept across his book.
 				- [[Basis]], [[Orthonormality]]
+			- Lecture 17✅
+				- [[matrix]]
+				- TODO currently, the norm is kind of messy in [[matrix]], [[vector]], [[Norm]], and [[L2-norm]]. Try to organize them in light of more general and bigger picture. e.g. L-$p$ norm (see wolfram mathworld)
 		- ### 💻Assignment
 			- Assignment
 		- ### 📖Reading
