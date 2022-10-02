@@ -49,6 +49,9 @@
  {:block/name "6337df95-fe77-4604-b1cf-a4e212e50eec",
   :block/created-at 1664606174587,
   :block/updated-at 1664606174587}
+ {:block/name "6338f24c-ceaa-47b3-8f93-437461a1dc34",
+  :block/created-at 1664676531206,
+  :block/updated-at 1664676531206}
  {:block/name "825bc6fa-9ac8-4bb3-8dc4-2f5bad543c19",
   :block/created-at 1664241829054,
   :block/updated-at 1664241829054}
@@ -312,7 +315,7 @@
   :block/updated-at 1661308480713}
  {:block/name "cross product",
   :block/created-at 1663995767027,
-  :block/updated-at 1664426953133}
+  :block/updated-at 1664636501121}
  {:block/name "cryptography",
   :block/created-at 1663995766935,
   :block/updated-at 1663995766935}
@@ -756,7 +759,7 @@
   :block/updated-at 1663995768787}
  {:block/name "matrix",
   :block/created-at 1662738851786,
-  :block/updated-at 1662738851786}
+  :block/updated-at 1664677291699}
  {:block/name "maximum",
   :block/created-at 1661621803385,
   :block/updated-at 1661621803385}
@@ -1173,7 +1176,7 @@
   :block/updated-at 1663925633275}
  {:block/name "vector",
   :block/created-at 1661514640671,
-  :block/updated-at 1664447855512}
+  :block/updated-at 1664676531207}
  {:block/name "vector product",
   :block/created-at 1664426953131,
   :block/updated-at 1664426953131}

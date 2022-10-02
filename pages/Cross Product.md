@@ -22,6 +22,13 @@ alias:: vector product
 	- **cross product** is also known as **vector product** which **returns a vector** rather than an scalar.
 - ## 🧠Intuition
 	- It **calculates surface normal** at a particular point given two distinct tangent vectors.
+- # ⚖Theorem
+	- 📌Theorem about cross product and orthogonal
+		- Let $P$ and $Q$ be any two 3D vectors. Then:
+		- $$
+		  (P\times Q)\cdot P=0\\(P\times Q)\cdot Q=0
+		  $$
+		- This is very easy to understand. The [[dot product]] between a vector and its *orthogonal complement* is **ZERO** because they have nothing aligned.
 - ## 🧮Expression  
   id:: 63281749-024b-45da-816f-0851a1ae6e7b
   $$
@@ -29,6 +36,38 @@ alias:: vector product
   f(x)&=
   \end{align}
   $$
+- ## ⛈Characteristics / Properties
+	- 📌Right hand rule
+		- The cross product is with orientation.
+		- ![name](../assets/cross_product_right_hand_rule.png){:height 300, :width 300}
+	- 📌Planar Angle
+		- Given two 3D vectors $P$ and $Q$, the cross product $P\times Q$ satisfies the equation. where $a$ is  the **planar angle** between the lines connecting the origin to the points represented by $P$ and $Q$.
+		- $$
+		  \lVert P\times Q\rVert=\lVert P\rVert\lVert Q\rVert\sin{a}
+		  $$
+		- The preceding equation is essential to solving the [area](((63384f24-1cfb-4bc5-b22f-b73a36f3968b))).
+	- 📌Area
+	  id:: 63384f24-1cfb-4bc5-b22f-b73a36f3968b
+		- it is the **parallelogram** formed by $P$ and $Q$.
+		- $$
+		  \text{Area} = \lVert Q\rVert\cdot\lVert P\rVert\sin{a}=\text{base}\times\text{height}=P\times Q
+		  $$
+		- ![name](../assets/area_cross_product.png){:height 300, :width 300}
+	- 📌Properties for arithmetic
+		- Given any two scalars $a$ and $b$, and any three 3D vectors $P$, $Q$, and $R$, the following properties hold.
+		- $$
+		  Q\times P = -(P\times Q)\\
+		  (aP)\times Q = a(P\times Q)\\
+		  P\times(Q+R)=P\times Q+P\times R\\
+		  P\times P = 0 = \langle0,0,0\rangle\\
+		  (P\times Q)\cdot R = (R\times P)\cdot Q = (Q\times R)\cdot P\\
+		  P\times(Q\times P) = P\times Q\times P = P^2Q - (P\cdot Q)P
+		  $$
+	- 📌**Anticommutative**
+		- It is a characteristic of cross product which implies the **order** of cross product matters.
+		- $$
+		  (P\times Q)\times R \neq P\times (Q\times R)
+		  $$
 - ## 📈Diagram  
   ![name](../assets/name.png){:height 300, :width 300}
 - ## ✒Descriptive Explanation  
@@ -63,8 +102,6 @@ alias:: vector product
   Be aware of the pitfalls when using this stuffs... (especially considering edge cases)
 - ## 📋Prerequisite
   Some techniques and objects only work under certain condition.
-- ## ⛈Characteristics / Properties
-  What...
 - ## 💫Support Operation
   What is related operation?
 - ## 🐍Algorithm
