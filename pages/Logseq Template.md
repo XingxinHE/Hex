@@ -62,86 +62,86 @@
 - # 🍴Digest xxx
   template:: Full Concept Template
 	-
-- # 📝Definition
+- 📝Definition
   template:: B-Definition
 	- The name is the essence of this topic.
-- # 🧠Intuition
+- 🧠Intuition
   template:: B-Intuition
 	- Find an intuitive way of understanding this concept.
-- # ✒Notation
+- ✒Notation
   template:: B-Notation
 	- $$
 	  \begin{align}
 	  f(x)&=
 	  \end{align}
 	  $$
-- # 📈Diagram
+- 📈Diagram
   template:: B-Diagram
 	- ![name](../assets/name.png){:height 300, :width 300}
-- # 🗣Descriptive Explanation
+- 🗣Descriptive Explanation
   template:: B-DescriptiveExplanation
 	- A narrative... a descriptive words subject on the concept... 描述性解释…
-- # 👑Importance
+- 👑Importance
   template:: B-Importance
 	- No matter good or bad, this subject plays an important role...
-- # 🌓Complement
+- 🌓Complement
   template:: B-Complement
 	- What is the complement of this subject? e.g. vector-covector, constructor-destructor
-- # 📏Theorem & Proof
+- 📏Theorem & Proof
   template:: B-Theorem&Proof
 	- To prove something...
-- # 🗃Example
+- 🗃Example
   template:: B-Example
 	- Example is the most straightforward way to understand a mathematical concept.
-- # 🤳Applicability
+- 🤳Applicability
   template:: B-Applicability
 	- What are the situations in which this subject can be applied?
-- # 🧪Composition
+- 🧪Composition
   template:: B-Composition
 	- What kind of stuffs composite this subject?
-- # 🏷(Sub)Categories
+- 🏷(Sub)Categories
   template:: B-Categories
 	- What are the sub objects of this subject?
-- # ⚖Theorem
+- ⚖Theorem
   template:: B-Theorem
 	- The theorem.
-- # ⚖Laws
+- ⚖Laws
   template:: B-Laws
 	- The laws related to this math concepts.
-- # 🎯Intent
+- 🎯Intent
   template:: B-Intent
 	- A short description what does this thing do?
-- # 🧬Related Elements
+- 🧬Related Elements
   template:: B-RelatedElements
 	- The closest pattern to current one, what are their differences?
-- # 🚀Benefit / Pros
+- 🚀Benefit / Pros
   template:: B-Pros
 	- A scenario that illustrates the benefit this object provides.
-- # ⌨Sample Code
+- ⌨Sample Code
   template:: B-SampleCode
 	- Code fragments
-- # 🔎Implementation
+- 🔎Implementation
   template:: B-Implementation
 	- The code or technical stuffs implement this.
-- # 🕳Pitfalls / Cons
+- 🕳Pitfalls / Cons
   template:: B-Cons
 	- Be aware of the pitfalls when using this stuffs... (especially considering edge cases)
-- # 📋Prerequisite
+- 📋Prerequisite
   template:: B-Prerequisite
 	- Some techniques and objects only work under certain condition.
-- # ⛈Characteristics / Properties
+- ⛈Characteristics / Properties
   template:: B-Properties
 	- What...
-- # 💫Support Operation
+- 💫Support Operation
   template:: B-Operation
 	- What is related operation?
-- # 🐍Algorithm
+- 🐍Algorithm
   template:: B-Algorithm
 	- Algorithm relates to this stuff..
 - # 🥼Expert's Advice
   template:: B-ExpertsAdvice
 	- See what experts addressed.
-- # 🗑Unorganized
+- 🗑Unorganized
   template:: B-Unorganized
 	- hell yeah...
 - # 🖨 Cheat Sheet / Common Stuffs
