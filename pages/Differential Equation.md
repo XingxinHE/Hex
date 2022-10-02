@@ -193,3 +193,35 @@
 			  y &= \frac{-1}{x^2/2+C} \qquad \textrm{algebraic simplification}
 			  \end{align}
 			  $$
+- # 🕳Pitfalls
+	- 📌Inconsistent initial condition may cause problem
+		- Question:
+			- Solve $\frac{dy}{dx}=y^2$ with $y=1$ at $x=0$. Evaluate $y$ at $x=-1,1/2,1$ and draw the curve.
+		- Solution:
+			- Step 1, integral
+				- $$
+				  \begin{align}
+				  \frac{dy}{dx}&=y^2\\
+				  y^{-2}dy&=dx\\
+				  \int y^{-2}dy&=\int dx\\
+				  \frac{-1}{y}&=x+c\\
+				  \end{align}
+				  $$
+			- Step 2, use initial condition
+				- $$
+				  \begin{align}
+				  y(0)&=1\\
+				  \frac{-1}{1}&=0+c\\
+				  c&=-1\\
+				  y&=\frac{1}{1-x}
+				  \end{align}
+				  $$
+			- Step 3, take the values
+				- $y(1/2)=2$
+				- $y(-1)=1/2$
+				- $y(1)=DNE$
+			- Step 4, plot (easily be wrong!!⚠)
+				- ❌
+					- ![name](../assets/wrong_integral_rational.svg){:height 200, :width 200}
+				- ✅
+					- ![name](../assets/correct_integral_rational.svg){:height 200, :width 200}
