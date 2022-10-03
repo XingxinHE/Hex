@@ -122,6 +122,10 @@
 			- Lecture 17✅
 				- [[matrix]]
 				- TODO currently, the norm is kind of messy in [[matrix]], [[vector]], [[Norm]], and [[L2-norm]]. Try to organize them in light of more general and bigger picture. e.g. L-$p$ norm (see wolfram mathworld)
+			- Lecture 18✅
+				- Matrix-Vector Multiplication
+			- Lecture 19✅
+				- Matrix-vector example
 		- ### 💻Assignment
 			- Assignment
 		- ### 📖Reading
