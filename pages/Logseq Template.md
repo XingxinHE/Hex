@@ -168,6 +168,12 @@
   x
   \end{align}
   $$
+- template:: latex matrix template
+  $$
+  \begin{bmatrix}
+  
+  \end{bmatrix}
+  $$
 -
 - 📌MathSubject
   template:: math Q&A template

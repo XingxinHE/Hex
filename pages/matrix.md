@@ -8,7 +8,7 @@
 		  \end{bmatrix}
 		  $$
 - # 🧠Intuition
-	- When encounter a matrix, you should immediately be aware ==what the row and column means==.
+	- When encounter a matrix, you should immediately be aware ==**what the row and column means**==.
 - # 🎯Intent
 	- In computer graphic,
 		- It means to cover calculation between different Cartesian coordinate spaces.
@@ -103,16 +103,24 @@
 			  \lVert A\rVert=0\text{ only if }A=0
 			  $$
 - # 💫Support Operation
-	- 📌Addition and Subtraction
+	- 📌Complexity of Matrix operation
+		- Suppose $m\times n$ matrix $A$.
+		- Storage.
+			- stored $A$ as $m\times n$ array of numbers. For sparse $A$, store only $\bold{nnz}(A)$ nonzero values.
+		- Matrix Addition and Subtraction
+			- It costs $mn$ [flops](((632141f6-8c0c-40c2-bab8-bce388937019))).
+		- Matrix-Vector multiplication
+			- It costs $m(2n-1)\approx2mn$ [flops](((632141f6-8c0c-40c2-bab8-bce388937019))). (for sparse $A$, around $2\bold{nnz}(A)$ [flops](((632141f6-8c0c-40c2-bab8-bce388937019))))
+	- ## 📌Addition and Subtraction
 		- We can add or subtract matrices of the same size:
 			- $$
 			  (A + B)_{ij} = A_{ij} + B_{ij},\quad i = 1,...,m\quad j = 1,...,n
 			  $$
-	- 📌 [[scalar]] multiplication
+	- ## 📌 [[scalar]] multiplication
 		- $$
 		  (\alpha A)_{ij}=aA_{ij},\quad i = 1,...,m\quad j = 1,...,n
 		  $$
-	- 📌Transpose
+	- ## 📌Transpose
 		- 📝Definition
 			- The transpose of an $m\times n$ matrix $A$ is denoted $A^T$ , and defined by
 				- $$
@@ -145,20 +153,62 @@
 				  F_{14}&F_{24}&F_{34}\\
 				  \end{bmatrix}
 				  $$
-	- 📌Matrix-Vector Products
+	- ## 📌Matrix-Vector Products
 	  id:: 6338f24c-ceaa-47b3-8f93-437461a1dc34
-		- $$
-		  P\times Q=
-		  \begin{bmatrix}
-		  0&-P_z&P_y\\
-		  P_z&0&-P_x\\
-		  -P_y&P_x&0
-		  \end{bmatrix}
-		  \begin{bmatrix}
-		  Q_x\\Q_y\\Q_z
-		  \end{bmatrix}
-		  $$
-	- 📌Matrix Products
+		- 📝Definition
+			- The matrix-vector product of $m\times n$ matrix $A$, $n$-vector $x$, denoted $y = Ax$, with
+				- $$
+				  y_i=A_{i1}x_1+\cdots+A_{in}x_n,\quad i=1,...,m
+				  $$
+		- 🧠Intuition
+			- Remember, the meaning row and column is of enormous importance!
+			- The most intuitive way to understand matrix-vector multiplication is the following.
+				- $$
+				  \begin{align}
+				  \begin{bmatrix}
+				  0&2&-1\\-2&1&1
+				  \end{bmatrix} 
+				  \begin{bmatrix}2\\1\\-1\end{bmatrix}&=
+				  2\begin{bmatrix}0\\-2\end{bmatrix}+
+				  1\begin{bmatrix}2\\1\end{bmatrix}+
+				  -1\begin{bmatrix}-1\\1\end{bmatrix}\\
+				  &=
+				  \begin{bmatrix}0\\-4\end{bmatrix}+
+				  \begin{bmatrix}2\\1\end{bmatrix}+
+				  \begin{bmatrix}1\\-1\end{bmatrix}\\
+				  &=\begin{bmatrix}3\\-4\end{bmatrix}
+				  \end{align}
+				  $$
+		- 🤳Applicability
+			- Matrix-Vector Multiplication as mean
+				- $\tilde{x}=Ax$ is de-meaned version of $x$, with
+				- $$
+				  A=\begin{bmatrix}
+				  1-1/n&-1/n&\cdots&-1/n\\
+				  -1/n&1-1/n&\cdots&-1/n\\
+				  \vdots&&\ddots&\vdots\\
+				  -1/n&-1/n&\cdots&1-1/n\\
+				  \end{bmatrix}
+				  $$
+			- Return matrix – portfolio vector
+				- Suppose $R$ is $T\times n$ matrix of assets returns
+					- $R_{ij}$ is return of asset $j$ in period $i$ (say, in percentage)
+					- $n$-vector $w$ gives portfolio (investments in the assets)
+				- Then the Matrix-Vector multiplication
+					- $$
+					  Rw=M
+					  $$
+				- $T$-vector $M$ is the result of $Rw$ which is time series of the portfolio return
+				- $\bold{avg}(Rw)$ is the portfolio (mean) return, $\bold{std}(Rw)$ is its risk.
+			- Feature Matrix
+				- $$
+				  s=X^Tw
+				  $$
+				- $s$, the score
+				- $X$ the feature matrix, row-features, column-objects
+				- $w$ is a weight vector which giving scroes.
+			-
+	- ## 📌Matrix Products
 		- If there are matrices $F$($n\times m_1$) and $G(m_2\times p)$, **the prerequisite for a valid matrix multiplication is** that $m_1=m_2$. Then the product is a matrix with shape $n\times p$. The $i,j$ element of the matrix is:
 			- $$
 			  (FG)_{ij} = \sum_{k=1}^{m}F_{ik}G_{kj}

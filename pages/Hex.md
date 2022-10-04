@@ -125,7 +125,7 @@
 			- Lecture 18✅
 				- Matrix-Vector Multiplication
 			- Lecture 19✅
-				- Matrix-vector example
+				- Matrix-vector operation applicability
 		- ### 💻Assignment
 			- Assignment
 		- ### 📖Reading

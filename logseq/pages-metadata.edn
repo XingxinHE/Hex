@@ -564,7 +564,7 @@
   :block/updated-at 1662011270378}
  {:block/name "hex",
   :block/created-at 1661663663911,
-  :block/updated-at 1664792825063}
+  :block/updated-at 1664800188518}
  {:block/name "hospital rule",
   :block/created-at 1661477999898,
   :block/updated-at 1661477999898}
@@ -738,7 +738,7 @@
   :block/updated-at 1661584802614}
  {:block/name "logseq template",
   :block/created-at 1661004687578,
-  :block/updated-at 1664360679656}
+  :block/updated-at 1664799539459}
  {:block/name "lower bound",
   :block/created-at 1663995768969,
   :block/updated-at 1663995768969}
@@ -765,7 +765,7 @@
   :block/updated-at 1663995768787}
  {:block/name "matrix",
   :block/created-at 1662738851786,
-  :block/updated-at 1664703964938}
+  :block/updated-at 1664801269803}
  {:block/name "maximum",
   :block/created-at 1661621803385,
   :block/updated-at 1661621803385}
