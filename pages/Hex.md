@@ -282,6 +282,44 @@
 			- ...
 		- Info
 			- link
+	- ## Differential Geometry of Curves and Surfaces
+		- Table of Content
+			- Chapter 1...
+		- Author
+			- Manfredo Perdigao do Carmo
+		- Things I don't know
+			- ...
+		- Info
+			- link
+	- ## Lectures on Differential Geometry
+		- Table of Content
+			- Chapter 1...
+		- Author
+			- Richard Schoen
+			- Shing-Tung Yau
+		- Things I don't know
+			- ...
+		- Info
+			- link
+	- ## A Course in Minimal Surfaces
+		- Table of Content
+			- Chapter 1...
+		- Author
+			- Tobias Holck Colding
+			- II Minicozzi, William P.
+		- Things I don't know
+			- ...
+		- Info
+			- link
+	- ## Riemannian Geometry
+		- Table of Content
+			- Chapter 1...
+		- Author
+			- Manfredo Perdigao do Carmo
+		- Things I don't know
+			- ...
+		- Info
+			- link
 	- ## Mathematics for 3D Game Programming and Computer Graphics
 		- Table of Content
 			- Chapter 2 Vector
@@ -290,6 +328,7 @@
 			- ...
 		- Info
 			- link
+	-
 - # Computer Graphics and Computational Geometry
 	- Computer Graphics (00106501) USTC
 		- Course Info
