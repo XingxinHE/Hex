@@ -88,6 +88,24 @@
 		  (FG)H = F(GH)\\
 		  (FG)^T = G^TF^T
 		  $$
+	-
+	- 📌Invertible
+		- 📝Definition
+			- An $n\times n$ matrix $M$ is *invertible* if and only if the columns of $M$ form a [[linearly independent]] set. Equivalently, $M$ is invertible if and only if the [[Determinant]] of $M$ $\bold{det}M≠0$ .
+		- 🔎Implementation
+			- See [Matrix Inverse](((633e6e10-6402-4dd8-be47-bbbc64383755)))
+		- 📏Theorem & Proof
+			- Theorem
+				- A matrix possessing a row or column consisting **entirely of zeros** is **not invertible**.
+			- Theorem
+				- A matrix $M$ is *invertible* if and only if $M^T$ is invertible.
+			- Theorem
+				- If $F$ and $G$ are $n\times n$ invertible matrices, then the product $FG$ is invertible, and $(FG)^{-1}=G^{-1}F^{-1}$.
+	- 📌Singular
+		- Matrix is not invertible is called singular.
+	- 📌Symmetric
+		- 📝Definition
+			- An $n\times n$ matrix $M$ is *symmetric* if and only if $M_{ij}= M_{ji}$  for all $i$ and $j$. That is, a matrix whose entries are symmetric about the main diagonal is called symmetric.
 	- 📌Matrix Norm
 		- 📝Definition
 			- For $m\times n$ matrix A, we define
@@ -111,6 +129,42 @@
 			- It costs $mn$ [flops](((632141f6-8c0c-40c2-bab8-bce388937019))).
 		- Matrix-Vector multiplication
 			- It costs $m(2n-1)\approx2mn$ [flops](((632141f6-8c0c-40c2-bab8-bce388937019))). (for sparse $A$, around $2\bold{nnz}(A)$ [flops](((632141f6-8c0c-40c2-bab8-bce388937019))))
+	- ## 📌Matrix Inverse
+	  id:: 633e6e10-6402-4dd8-be47-bbbc64383755
+		- 📋Prerequisite
+			- A matrix $M^{-1}$ is the inverse of $M$, such that
+				- $$
+				  MM^{-1}=M^{-1}M=I
+				  $$
+				- where $I$ is the [identity matrix](((633d1f9d-fd57-4d2e-88f6-fc0093c99057))).
+		- 📝Definition
+			- Suppose
+				- $F$ is a $n\times n$ matrix
+				- $G$ is $F$'s inverse. (sometime also denoted as $F'$)
+			- Then the ==**entries**== of the inverse $G$ of an $n\times n$ matrix $F$ can be calculated by using the explicit formula
+				- $$
+				  \begin{align}
+				  G_{ij} = \frac{1}{\bold{det}(F)}C_{ji}(F)
+				  \end{align}
+				  $$
+				- where $\bold{det}$ is the [[Determinant]].
+				- where $C$ is the [cofactor matrix](((c6558048-3eb4-4545-b8f7-24eca928ee4c))).
+		- 🗃Example
+			- 📌example of the matrix inverse of a $2\times2$ matrix $A$.
+				- Suppose matrix $A$ is
+					- $$
+					  A=
+					  \begin{bmatrix}
+					  A_{11}&A_{12}\\A_{21}&A_{22}
+					  \end{bmatrix}
+					  $$
+				- Then the inverse of $A$ is $A^{-1}$ is given by
+					- $$
+					  \begin{align}
+					  A^{-1}=\frac{1}{\text{det}A}\begin{bmatrix}A_{22}&-A_{12}\\-A_{21}&A_{11}\end{bmatrix}
+					  \end{align}
+					  $$
+				- Notice the negative sign in $A_{12}$ and $A_{21}$. That is because $C_{ij}(M)\equiv(-1)^{i+j}M^{\{i,j\}}$. $1+2$ and $2+1$ are odd, so $(-1)$ is still negative.
 	- ## 📌Addition and Subtraction
 		- We can add or subtract matrices of the same size:
 			- $$
@@ -221,6 +275,7 @@
 	- 📌Zero Matrix
 		- $m\times n$ zero matrix has all entries zero, written as $0_{m\times n}$ or just $0$.
 	- 📌Identity Matrix
+	  id:: 633d1f9d-fd57-4d2e-88f6-fc0093c99057
 		- Identity matrix is a square matrix with $I_{ii}=1$ and $I_{ij}=0$ for $i\neq j$.
 		- The notation implies that if the element is $1$, the row and column have to be the same index. Therefore written as $I_{ii}$, e.g. $I_{3,3}=1$
 		- $$
@@ -238,6 +293,50 @@
 		- Most entries are $0$.
 		- can be stored and manipulated efficiently
 		- $\bold{nnz}(A)$ is number of nonzero entries
+	- 📌Square Matrix
+	  id:: 633d8a19-ed4c-4dba-9b83-a0e5942979b7
+		- An $m\times n$ matrix $A$ is square if $m=n$.
+	- 📌Tall Matrix
+		- An $m\times n$ matrix $A$ is square if $m>n$.
+	- 📌Wide Matrix
+		- An $m\times n$ matrix $A$ is square if $m<n$.
+	- 📌Minor of Matrix
+	  id:: 633d9813-fdd5-4bdb-9c25-a679185d1df8
+		- 📝Definition
+			- A minor $M_{ij}$ is formed by omitting the $i$th row and $j$th column of a matrix $A$.
+		- 🗃Example
+			- example - The minor $M_{22}$ of the matrix is given by.
+				- ![image.png](../assets/image_1664981397165_0.png)
+				- ![image.png](../assets/image_1664981438817_0.png)
+			- example - the minor $M_{23}$
+				- It is given by
+				- $$
+				  \begin{align}
+				  M=
+				  \begin{bmatrix}
+				  1&2&3\\
+				  4&5&6\\
+				  7&8&9\\
+				  \end{bmatrix}
+				  \\
+				  M^{\{2,3\}}=
+				  \begin{bmatrix}
+				  1&2\\
+				  7&8\\
+				  \end{bmatrix}
+				  \end{align}
+				  $$
+	- 📌Cofactor Matrix
+	  id:: c6558048-3eb4-4545-b8f7-24eca928ee4c
+		- 📋Prerequisite
+			- First understand the essence of "cofactor". Given a factor $a$ of a number $n=ab$, the cofactor of $a$ is $b=n/a$.
+		- 📝Definition
+			- A cofactor matrix is a signed version of a [minor](((633d9813-fdd5-4bdb-9c25-a679185d1df8))) $M_{ij}$ defined by
+				- $$
+				  C_{ij}\equiv(-1)^{i+j}M_{ij}
+				  $$
+		- 🤳Applicability
+			- Used in the computation of the [[Determinant]] of a matrix.
 - # 🤳Applicability
 	- 📌Matrix Representation
 		- image
@@ -271,6 +370,7 @@
 			- $A_{2,4}=1$ means there is a directed edge from $2$ to $4$.
 			- $A_{3,6}=0$ means there is no directed edge from $3$ to $6$.
 			- $A_{6,3}=1$ means there is a directed edge from $6$ to $3$.
+- # 🌓Complement
 - # ⌨Sample Code
 	- 📌Matrix Representation
 		- ``` julia

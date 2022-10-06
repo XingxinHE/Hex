@@ -324,6 +324,8 @@
 		- Table of Content
 			- Chapter 2 Vector
 				- [[dot product]]
+			- Chapter 3 Matrices
+				- 3.4. [[Determinant]]
 		- Things I don't know
 			- ...
 		- Info

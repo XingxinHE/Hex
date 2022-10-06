@@ -18,7 +18,17 @@
 			- by [independence-dimension inequality](((4712e003-a96d-40c6-9070-1dad93658e9a))), must have $k\leq n$
 - ## Orthonormal Basis
 	- 📝Definition
-		- When $k=n,a_1,...,a_n$ are an orthonormal basis.
+		- A basis $\Beta=\{e_1,e_2,...,e_n\}$ for a vector space is called **orthonormal** if for every pair $(i,j)$, we have
+			- $$
+			  \begin{align}
+			  e_i\cdot e_j=\delta_{ij}\\
+			  \delta_{ij}=
+			  \begin{cases}
+			  1,\text{ if }i=j\\0,\text{ if }i\neq j
+			  \end{cases}
+			  \end{align}
+			  $$
+			- where $\delta_{ij}$ is called **Kronecker delta**.
 	- 🗃Example
 		- 📌example of Orthonormal Basis
 			- example 1: standard unit $n$-vectors $e_1,...,e_n$

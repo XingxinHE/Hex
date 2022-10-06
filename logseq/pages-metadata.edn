@@ -373,6 +373,9 @@
  {:block/name "destructor",
   :block/created-at 1661308480841,
   :block/updated-at 1661308480841}
+ {:block/name "determinant",
+  :block/created-at 1664976925049,
+  :block/updated-at 1665039815284}
  {:block/name "dictionary",
   :block/created-at 1661955564074,
   :block/updated-at 1661955564074}
@@ -544,6 +547,9 @@
  {:block/name "glossary",
   :block/created-at 1661085690432,
   :block/updated-at 1664557804408}
+ {:block/name "gram-schmidt orthogonalization",
+  :block/created-at 1665044336652,
+  :block/updated-at 1665049461737}
  {:block/name "graph",
   :block/created-at 1663995767915,
   :block/updated-at 1664701758490}
@@ -564,7 +570,7 @@
   :block/updated-at 1662011270378}
  {:block/name "hex",
   :block/created-at 1661663663911,
-  :block/updated-at 1664800188518}
+  :block/updated-at 1664976925050}
  {:block/name "hospital rule",
   :block/created-at 1661477999898,
   :block/updated-at 1661477999898}
@@ -765,7 +771,7 @@
   :block/updated-at 1663995768787}
  {:block/name "matrix",
   :block/created-at 1662738851786,
-  :block/updated-at 1664801269803}
+  :block/updated-at 1665040448541}
  {:block/name "maximum",
   :block/created-at 1661621803385,
   :block/updated-at 1661621803385}
@@ -837,7 +843,7 @@
   :block/updated-at 1662306892893}
  {:block/name "orthonormality",
   :block/created-at 1664241829886,
-  :block/updated-at 1664241829886}
+  :block/updated-at 1665043791791}
  {:block/name "overflow",
   :block/created-at 1661514640592,
   :block/updated-at 1661514640592}
@@ -1182,7 +1188,7 @@
   :block/updated-at 1663925633275}
  {:block/name "vector",
   :block/created-at 1661514640671,
-  :block/updated-at 1664676531207}
+  :block/updated-at 1665042278977}
  {:block/name "vector product",
   :block/created-at 1664426953131,
   :block/updated-at 1664426953131}
