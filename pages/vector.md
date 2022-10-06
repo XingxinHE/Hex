@@ -197,7 +197,7 @@
 			  $$
 		- Applicability
 			- 📌[[Linear Combination]]
-	- {{embed ((6338f24c-ceaa-47b3-8f93-437461a1dc34))}}
+	- 📌 [[Matrix-Vector Products]]
 	- 📌 [[Inner Product]]
 	- 📌 [[Cross Product]]
 	- 📌 [RMS](((632aafb4-b82f-4e4c-ab04-6d535b486768))) (root mean square)

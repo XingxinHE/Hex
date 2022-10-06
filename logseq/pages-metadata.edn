@@ -49,9 +49,6 @@
  {:block/name "6337df95-fe77-4604-b1cf-a4e212e50eec",
   :block/created-at 1664606174587,
   :block/updated-at 1664606174587}
- {:block/name "6338f24c-ceaa-47b3-8f93-437461a1dc34",
-  :block/created-at 1664726914370,
-  :block/updated-at 1664726914370}
  {:block/name "63395397-23d2-42d9-b8be-b61f43d8e59f",
   :block/created-at 1664726913106,
   :block/updated-at 1664726913106}
@@ -771,7 +768,10 @@
   :block/updated-at 1663995768787}
  {:block/name "matrix",
   :block/created-at 1662738851786,
-  :block/updated-at 1665040448541}
+  :block/updated-at 1665057197714}
+ {:block/name "matrix-vector products",
+  :block/created-at 1665057196787,
+  :block/updated-at 1665057232268}
  {:block/name "maximum",
   :block/created-at 1661621803385,
   :block/updated-at 1661621803385}
@@ -1188,7 +1188,7 @@
   :block/updated-at 1663925633275}
  {:block/name "vector",
   :block/created-at 1661514640671,
-  :block/updated-at 1665042278977}
+  :block/updated-at 1665057308958}
  {:block/name "vector product",
   :block/created-at 1664426953131,
   :block/updated-at 1664426953131}
