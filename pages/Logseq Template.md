@@ -210,5 +210,5 @@
 		- ...
 	- Info
 		- link
-- ![name](../assets/name.png){:height 300, :width 300}
+- ![name](../assets/name.png){:height 200, :width 200}
   template:: template-insert-image

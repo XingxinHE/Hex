@@ -1,11 +1,20 @@
-- 📝Definition
+alias:: matrix-vector multiplication
+
+- # ✒Notation
+	- $$
+	  \begin{align}
+	  Ax
+	  \end{align}
+	  $$
+	- When you saw the preceding pattern, it is matrix-vector multiplication.
+- # 📝Definition
 	- The matrix-vector product of $m\times n$ matrix $A$, $n$-vector $x$, denoted $y = Ax$, with
 		- $$
 		  y_i=A_{i1}x_1+\cdots+A_{in}x_n,\quad i=1,...,m
 		  $$
-- 🧠Intuition
+- # 🧠Intuition
 	- Remember, the meaning row and column is of enormous importance!
-	- The most intuitive way to understand matrix-vector multiplication is the following.
+	- Quick digest matrix-vector multiplication
 		- $$
 		  \begin{align}
 		  \begin{bmatrix}
@@ -22,6 +31,86 @@
 		  &=\begin{bmatrix}3\\-4\end{bmatrix}
 		  \end{align}
 		  $$
+- # 🏷Categories
+	- Matrix-Vector Multiplication has 2 picture, by rows and by columns.
+	- ## Rows Picture in Matrix-Vector Multiplication
+		- ✒Notation
+			- $$
+			  \begin{bmatrix}
+			  2 & 3 \\
+			  2 & 4 \\
+			  3 & 7 
+			  \end{bmatrix}
+			  \begin{bmatrix}
+			  x_1 \\
+			  x_2 
+			  \end{bmatrix}=\begin{bmatrix}
+			  2x_1+3x_2 \\
+			  2x_1+4x_2 \\
+			  3x_1+7x_2 
+			  \end{bmatrix}
+			  $$
+		- 🎯Intent
+			- This is the way to find separate components for the result. Therefore, we use this form for ==**computation**==.
+		- 📝Definition
+			- The row picture can be seen as a result of 3 [[dot product]]s.
+				- $$
+				  \begin{bmatrix}
+				  2&3
+				  \end{bmatrix}
+				  \begin{bmatrix}
+				  x_1\\x_2
+				  \end{bmatrix}=2x_1+3x_2
+				  $$
+	- ## Column Picture in Matrix-Vector Multiplication⭐
+		- ✒Notation
+			- $$
+			  \begin{bmatrix}
+			  2 & 3 \\
+			  2 & 4 \\
+			  3 & 7 
+			  \end{bmatrix}
+			  \begin{bmatrix}
+			  x_1 \\
+			  x_2 
+			  \end{bmatrix}=x_1\begin{bmatrix}
+			  2 \\
+			  2 \\
+			  3 
+			  \end{bmatrix}+x_2\begin{bmatrix}
+			  3 \\
+			  4 \\
+			  7 
+			  \end{bmatrix}
+			  $$
+		- 🎯Intent
+			- We use this form to ==**understand**==.
+		- 📝Definition
+			- The column picture
+				- 1️⃣first digest the matrix into [columns](((633ec9af-8241-4b05-b997-f99ad1de2acf))) vector.
+					- $$
+					  a_1=\begin{bmatrix}
+					  2 \\
+					  2 \\
+					  3 
+					  \end{bmatrix}\quad a_2=\begin{bmatrix}
+					  3 \\
+					  4 \\
+					  7 
+					  \end{bmatrix}
+					  $$
+				- 2️⃣And then multiply the columns by scalars
+					- $$
+					  x_1\quad x_2
+					  $$
+				- 3️⃣Add vectors
+					- $$
+					  x_1\bold{a_1}+x_2\bold{a_2}=Ax
+					  $$
+					- Notice that $\bold{a_1},\bold{a_2}$ are column vectors.
+			- ⭐**==Conclusion==**: Column picture sees $Ax$ as a " [[linear combination]]" of $a_1$ and $a_2$. Therefore, $Ax$ is a [[linear combination]] of the columns of $A$. This is fundamental!!
+			-
+- 🗃Example
 - 🤳Applicability
 	- Matrix-Vector Multiplication as mean
 		- $\tilde{x}=Ax$ is de-meaned version of $x$, with

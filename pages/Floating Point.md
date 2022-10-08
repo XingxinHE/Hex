@@ -3,7 +3,7 @@ alias:: floating point type
 - # 📝Definition
 	- The real numbers $\mathbb{R}$ are stored in **floating point format**. It is either *64-bits* or *8-bytes*. Therefore, there are $2^{64}$ real numbers in a `x64` computer.
 - Floating point is the computer's approximation to the mathematical concept of real number.
-- Floating-point with scientific notation
+- Floating-point with [[scientific notation]]
 	- In C++,
 		- For $10^{8}$
 		- ```c++

@@ -7,6 +7,9 @@
  {:block/name "*",
   :block/created-at 1661514639459,
   :block/updated-at 1661514639459}
+ {:block/name "1de28d3e-6db2-4bb3-b8fa-36e73d2b03d6",
+  :block/created-at 1665186784615,
+  :block/updated-at 1665186784615}
  {:block/name "2019",
   :block/created-at 1661010626800,
   :block/updated-at 1661010626800}
@@ -49,6 +52,9 @@
  {:block/name "6337df95-fe77-4604-b1cf-a4e212e50eec",
   :block/created-at 1664606174587,
   :block/updated-at 1664606174587}
+ {:block/name "6338f24c-ceaa-47b3-8f93-437461a1dc34",
+  :block/created-at 1664726914370,
+  :block/updated-at 1664726914370}
  {:block/name "63395397-23d2-42d9-b8be-b61f43d8e59f",
   :block/created-at 1664726913106,
   :block/updated-at 1664726913106}
@@ -58,6 +64,9 @@
  {:block/name "825bc6fa-9ac8-4bb3-8dc4-2f5bad543c19",
   :block/created-at 1664241829054,
   :block/updated-at 1664241829054}
+ {:block/name "908c048d-f677-4dcf-aaec-edd14984f977",
+  :block/created-at 1665190835893,
+  :block/updated-at 1665190835893}
  {:block/name "= - initialization syntax",
   :block/created-at 1661514639902,
   :block/updated-at 1661514639902}
@@ -90,7 +99,7 @@
   :block/updated-at 1661514639615}
  {:block/name "antiderivative",
   :block/created-at 1663995766493,
-  :block/updated-at 1664112495021}
+  :block/updated-at 1665186784617}
  {:block/name "arithmetic",
   :block/created-at 1663995766696,
   :block/updated-at 1663995766696}
@@ -145,6 +154,9 @@
  {:block/name "basis",
   :block/created-at 1664241828996,
   :block/updated-at 1664241828996}
+ {:block/name "bernhard riemann",
+  :block/created-at 1665109909048,
+  :block/updated-at 1665124280889}
  {:block/name "binary digits",
   :block/created-at 1663121263722,
   :block/updated-at 1663121263722}
@@ -349,6 +361,9 @@
  {:block/name "default constructor",
   :block/created-at 1661078555875,
   :block/updated-at 1661079005343}
+ {:block/name "definite integral",
+  :block/created-at 1665106199489,
+  :block/updated-at 1665190466174}
  {:block/name "definition",
   :block/created-at 1661045889746,
   :block/updated-at 1663426949364}
@@ -511,9 +526,12 @@
  {:block/name "first derivative test",
   :block/created-at 1661308480963,
   :block/updated-at 1661308480963}
+ {:block/name "first fundamental theorem of calculus",
+  :block/created-at 1665129252954,
+  :block/updated-at 1665191312568}
  {:block/name "floating point",
   :block/created-at 1661955563133,
-  :block/updated-at 1663123364394}
+  :block/updated-at 1665109795014}
  {:block/name "floating point type",
   :block/created-at 1661955563181,
   :block/updated-at 1661955563181}
@@ -526,6 +544,9 @@
  {:block/name "free store",
   :block/created-at 1662011270376,
   :block/updated-at 1662011270376}
+ {:block/name "ftc1",
+  :block/created-at 1665129639079,
+  :block/updated-at 1665129639079}
  {:block/name "function",
   :block/created-at 1661477998069,
   :block/updated-at 1664606693935}
@@ -567,7 +588,7 @@
   :block/updated-at 1662011270378}
  {:block/name "hex",
   :block/created-at 1661663663911,
-  :block/updated-at 1664976925050}
+  :block/updated-at 1665129252957}
  {:block/name "hospital rule",
   :block/created-at 1661477999898,
   :block/updated-at 1661477999898}
@@ -741,7 +762,7 @@
   :block/updated-at 1661584802614}
  {:block/name "logseq template",
   :block/created-at 1661004687578,
-  :block/updated-at 1664799539459}
+  :block/updated-at 1665111438595}
  {:block/name "lower bound",
   :block/created-at 1663995768969,
   :block/updated-at 1663995768969}
@@ -769,15 +790,18 @@
  {:block/name "matrix",
   :block/created-at 1662738851786,
   :block/updated-at 1665057197714}
+ {:block/name "matrix-vector multiplication",
+  :block/created-at 1665059437177,
+  :block/updated-at 1665059437177}
  {:block/name "matrix-vector products",
-  :block/created-at 1665057196787,
-  :block/updated-at 1665057232268}
+  :block/created-at 1665059247039,
+  :block/updated-at 1665061848179}
  {:block/name "maximum",
   :block/created-at 1661621803385,
   :block/updated-at 1661621803385}
  {:block/name "mean value theorem",
   :block/created-at 1663995768993,
-  :block/updated-at 1663995768993}
+  :block/updated-at 1665190835893}
  {:block/name "member access operator",
   :block/created-at 1662342945120,
   :block/updated-at 1662342945120}
@@ -985,6 +1009,9 @@
  {:block/name "release",
   :block/created-at 1661908320221,
   :block/updated-at 1661908320221}
+ {:block/name "riemann",
+  :block/created-at 1665109917539,
+  :block/updated-at 1665109917539}
  {:block/name "riemannian manifold",
   :block/created-at 1661478817848,
   :block/updated-at 1661478817848}
@@ -1081,6 +1108,9 @@
  {:block/name "struct",
   :block/created-at 1661067852828,
   :block/updated-at 1661145011087}
+ {:block/name "summation notation",
+  :block/created-at 1665111974975,
+  :block/updated-at 1665112690975}
  {:block/name "super class",
   :block/created-at 1663995771496,
   :block/updated-at 1663995771496}
