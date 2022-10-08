@@ -46,6 +46,7 @@
 		  $$
 - # 💫Operation
 	- ## Estimation
+	  id:: f49a6abe-8012-4bc1-a696-0e74ef00193e
 		- If $\, f(x)\leq g(x)$, and $a\leq b$ then
 			- $$
 			  \displaystyle \int _{a}^{b} f(x)\,  dx\, \,  \, \leq \, \, \,  \int _{a}^{b} g(x)\,  dx \qquad (\text{for}\, \,  a\leq b).
@@ -70,8 +71,142 @@
 			- The limits of the integral over $u$ are the values of $u$ corresponding to the limits of the integral over $x$.
 - # 🕳Pitfalls
 	- 📌Caution on substitution
+	  id:: 6340c9be-72a7-4416-aa3f-38db07a094ea
 		- When we use the method of substitution, we need to be very careful about when $u'$ (or $du$) changes sign. If $u'$ changes sign within the integration interval $[a,b]$, the method of substitution may give the wrong answer. In this case, we need to first rewrite the integral as a sum of two integrals such that within the limits of each integral $u'$ does not change sign, and then use the method of substitution on each integral separately.
 - # 🗃Example
+	- 📌example demonstrating [the estimation and inequality](((f49a6abe-8012-4bc1-a696-0e74ef00193e)))
+		- Prerequisite
+			- Given the following factorization.
+			- $$
+			  \begin{align}
+			  x^{n+1}-1&=-(1-x)\left(1+x+x^2+\cdots +x^{n-1}+x^n\right)\\
+			  &=-(1-x)\, \left(1+ \sum _{k=1}^{n} x^k\right)
+			  \end{align}
+			  $$
+		- Question
+			- Question 1
+			  collapsed:: true
+				- Use the above equality to find fractional expression for the sum below.
+				- $$
+				  \displaystyle \frac{1}{1-x}- \left(1+ \sum _{k=1}^{n} x^k\right)\, =\, ?
+				  $$
+			- Question 2
+			  collapsed:: true
+				- For any $0\leq x\leq 1$ and any integer $n\geq0$, what is the inequality for the following?
+				  collapsed:: true
+					- $$
+					  \displaystyle \frac{1}{1-x}\, \,\quad\quad (=,\neq,\geq,\leq)?\quad\quad \, \, 1+ \sum _{k=1}^{n} x^k
+					  $$
+			- Question 3
+			  collapsed:: true
+				- Integrate the inequality of $\frac{1}{1-x} from $x=0$ to $x=b$ to get an inequality of the logarithmic function.
+				  For any $0\leq b<1$ and any integer $n\geq0$, what is the inequality?
+				- $$
+				  \displaystyle \ln (1-b)\quad\quad (=,\neq,\geq,\leq)? \quad\quad ???
+				  $$
+		- Solution
+			- Solution 1 on Question 1
+				- In light of the prerequisite, we have
+					- $$
+					  \frac{1}{1-x}- \left(1+\sum _{k=1}^{n} x^k\right)\,=\displaystyle \frac{x^{n+1}}{1-x}
+					  $$
+			- Solution 2 on Question 2
+				- With the result from solution1, then we evaluate the right hand side
+					- For $0\leq x<1$
+						- $x^{n+1}\geq0$
+						- $1-x>0$
+					- It means
+						- $$
+						  \displaystyle \frac{x^{n+1}}{1-x}\geq 0
+						  $$
+				- It means the inequality
+					- $$
+					  \displaystyle  \frac{1}{1-x}\displaystyle \geq1+\sum _{k=1}^{n} x^k \qquad \text{for}\, \, 0\leq x<1\quad\text{for }0\leq x<1
+					  $$
+					- Note that this inequality is not strict because when $x=0$,
+						- $$
+						  \frac{1}{1-x}=1=\displaystyle 1+ \sum _{k=1}^{n} x^k \qquad (x=0)
+						  $$
+			- Solution 3 on Question 3
+				- With the result from solution 2, we can integrate the algebraic inequality from $x=0$ to $x=b$, where $0\leq b<1$, we get
+					- $$
+					  \begin{align}
+					  \int _{0}^{b}\frac{1}{1-x}\, dx &\geq\int _{0}^{b} \left(1+\sum _{k=1}^{n} x^k\right)\, dx\\
+					  \left(\ln (1-b)\right) &\geq b+\sum _{k=2}^{n+1} \frac{b^k}{k}=\sum _{k=1}^{n+1} \frac{b^k}{k}\\
+					  -\left(\ln (1-b)\right) &\leq -\, \sum _{k=1}^{n+1} \frac{b^k}{k}
+					  \end{align}
+					  $$
+					-
+				-
+	- 📌example demonstrating [the pitfall of substitution](((6340c9be-72a7-4416-aa3f-38db07a094ea)))
+		- Question: use substitution to calculate
+			- $$
+			  \displaystyle \int _{-1}^{1} x^2\, dx
+			  $$
+		- 🙉Using substitution ==incorrectly==
+			- ✏Solution
+				- Let $u=x^2$, and we have
+				  collapsed:: true
+					- $$
+					  \begin{align}
+					  u&=x^2\\
+					  du&=2xdx\\
+					  \end{align}
+					  $$
+				- We can use $u$ to express $x$
+					- $$
+					  x=\sqrt{u}
+					  $$
+				- The lower and upper limit would be
+				  collapsed:: true
+					- lower limit
+					  collapsed:: true
+						- $$
+						  \begin{align}
+						  x&=-1\\
+						  \sqrt{u}&=-1\\
+						  u&=1
+						  \end{align}
+						  $$
+					- upper limit
+					  collapsed:: true
+						- $$
+						  \begin{align}
+						  x&=1\\
+						  \sqrt{u}&=1\\
+						  u&=1
+						  \end{align}
+						  $$
+				- Then we can rewrite equation like so
+				  collapsed:: true
+					- $$
+					  \int _{-1}^{1} x^2 \, dx = \int _{u=(-1)^2}^{u=1^2} u \cdot \frac{du}{2\sqrt{u}} = \int _{1}^{1} u \cdot \frac{du}{2\sqrt{u}}=0
+					  $$
+			- 🧾Result
+				- This is clearly incorrect.❌
+			- 🤔Analysis
+				- The key mistake is in the step where $x$ changes sign and $x=\pm\sqrt{u}$ rather than $x=\sqrt{u}$!!
+		- 🐵Using substitution ==correctly==
+			- 🏹Strategy
+				- To use the substitution $u=x^2$ correctly, we need to first break the integral into two pieces so that $u'$ does not change sign within the limits of each of the two integral. Since $u'$ changes sign at $0$, **we will break the integral into two** at $0$.
+			- ✏Solution
+				- Break the inverval
+					- $$
+					  \displaystyle  \displaystyle \int _{-1}^{1} x^2 \, dx=\displaystyle  \int _{-1}^{0} x^2 \, dx + \int _{0}^{1} x^2 \, dx.
+					  $$
+				- Then, since $x^2$ is even, we have
+					- $$
+					  \displaystyle \int _{-1}^{1} x^2 \, dx =2 \int _{0}^{1} x^2 \, dx
+					  $$
+				- Since $u'$ does not change sign within $[0,1]$, we can use the method of substitution.
+					- $$
+					  \left.\int _{0}^{1} x^2 \, dx = \int _{(0)^2}^{1^2} u \cdot \frac{du}{2\sqrt{u}} = \frac{1}{2}\left(\frac{2}{3}u^{\frac{3}{2}}\right) \right|_{0}^{1}= \frac{1}{3}
+					  $$
+			- 🧾Result
+				- This gives the correct answer.
+				- $$
+				  \displaystyle \int _{-1}^{1} x^2 \, dx =\frac{2}{3}
+				  $$
 	- 📌Estimating the integral
 		- Giving the following graph
 			- ![name](../assets/images_defint_aunderparabolanotriangle.svg){:height 200, :width 200}

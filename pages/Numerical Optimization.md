@@ -36,7 +36,7 @@
 			- global solution = local solution
 		- In non-linear programming:
 			- tend to find local solution, since global is hard to find
-	- ## Constrained Optimization vs. Unconstrained Optimization
+	- ## Constrained Optimization vs. [[Unconstrained Optimization]]
 		- **Difficulty**: unconstrained optimization无约束优化 $<$ constrained optimization约束优化
 		- **Unconstrained optimization**
 			- e.g. $E = I = \empty$

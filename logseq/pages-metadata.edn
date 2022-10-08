@@ -363,7 +363,7 @@
   :block/updated-at 1661079005343}
  {:block/name "definite integral",
   :block/created-at 1665106199489,
-  :block/updated-at 1665190466174}
+  :block/updated-at 1665196716332}
  {:block/name "definition",
   :block/created-at 1661045889746,
   :block/updated-at 1663426949364}
@@ -528,7 +528,7 @@
   :block/updated-at 1661308480963}
  {:block/name "first fundamental theorem of calculus",
   :block/created-at 1665129252954,
-  :block/updated-at 1665191312568}
+  :block/updated-at 1665191928648}
  {:block/name "floating point",
   :block/created-at 1661955563133,
   :block/updated-at 1665109795014}
@@ -547,6 +547,9 @@
  {:block/name "ftc1",
   :block/created-at 1665129639079,
   :block/updated-at 1665129639079}
+ {:block/name "ftc2",
+  :block/created-at 1665200327358,
+  :block/updated-at 1665200327358}
  {:block/name "function",
   :block/created-at 1661477998069,
   :block/updated-at 1664606693935}
@@ -588,7 +591,7 @@
   :block/updated-at 1662011270378}
  {:block/name "hex",
   :block/created-at 1661663663911,
-  :block/updated-at 1665129252957}
+  :block/updated-at 1665200203408}
  {:block/name "hospital rule",
   :block/created-at 1661477999898,
   :block/updated-at 1661477999898}
@@ -855,7 +858,7 @@
   :block/updated-at 1663995769198}
  {:block/name "numerical optimization",
   :block/created-at 1664241829785,
-  :block/updated-at 1664241829785}
+  :block/updated-at 1665222467835}
  {:block/name "object",
   :block/created-at 1661872991331,
   :block/updated-at 1661873305353}
@@ -1051,6 +1054,9 @@
  {:block/name "second derivative test",
   :block/created-at 1661308480960,
   :block/updated-at 1661308480960}
+ {:block/name "second fundamental theorem of calculus",
+  :block/created-at 1665200203393,
+  :block/updated-at 1665200890699}
  {:block/name "sequence",
   :block/created-at 1663995767904,
   :block/updated-at 1663995767904}
@@ -1192,6 +1198,9 @@
  {:block/name "uncategorized",
   :block/created-at 1661871522777,
   :block/updated-at 1664083226731}
+ {:block/name "unconstrained optimization",
+  :block/created-at 1665222467834,
+  :block/updated-at 1665228241390}
  {:block/name "undefined behavior",
   :block/created-at 1661081873142,
   :block/updated-at 1661082473049}
