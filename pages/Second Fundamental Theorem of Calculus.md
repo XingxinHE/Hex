@@ -25,5 +25,15 @@ alias:: FTC2
 		- **==Note:==** The integrand $f(x)$ can be any [[Continuous]] function, not just the ones whose antiderivative we know how to find. These integral formulas are still useful there are numerical methods that allow us to compute them.
 - # 🗃Example
 	- 📌simple example of FTC2
-		- For definite integral $\displaystyle \int _{a}^{b} m \, dt$ of a constant $m>0$
-		-
+		- Give the solution to the differential equation and initial condition below in terms of an integral.
+			- $$
+			  \begin{align}
+			  H'(x)&=x^2\\ H(0)&=0
+			  \end{align}
+			  $$
+		- Applying the FTC2 directly gives
+			- $$
+			  \begin{align}
+			  H(x)= \int _{0}^{x} t^2\, dt
+			  \end{align}
+			  $$

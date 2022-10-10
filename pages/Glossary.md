@@ -74,6 +74,7 @@
 - ### High-level programming language
 	- 📝**Definition**: The first high-level programming language is called FORTRAN(formula translation) which resembles the mathematical formulas into machine language.
 - ### Horizontal Line Test
+  id:: 63435779-1c08-499a-beb1-43d307665875
 	- 📝**Definition**
 		- If every horizontal line intersects the graph of a [[Function]] at most once, the function has an [inverse](((6337202d-82b6-4aaf-afac-c05f25c83e91))).
 	- 🀄**CHN**:
@@ -112,6 +113,7 @@
 		- `footballTeam$`❌
 		- `9plan`❌
 - ### Interval Notation
+  id:: 63435779-808f-4753-869a-768bdf607fb6
 	- 📝**Definition**: The notation of an interval. A function's [domain](((6329b0b1-f0b0-4926-9412-8c2523b33683))), [range](((632a66cd-b4ee-4660-bed0-df0b9f8a89af))), and [codomain](((63371466-8171-46ad-b423-9bbc596ed5ab))) also use this notation.
 	- 🗃**Example**: $\{x:2\leq x<5\}$
 	- 🏷(Sub)Categories

@@ -1,33 +1,18 @@
-- # 🍴Quick Digest -> Logarithm
-	- ## 📝Definition
-	  The name is the essence of this topic.
-	- ## 🧠Intuition
-	  Find an intuitive way of understanding this concept.
-	- ## 🧮Expression
-	  $$
-	  \begin{align}
-	  f(x)&=
-	  \end{align}
-	  $$
-	- ## 📈Diagram
-	  ![name](../assets/name.png)
-	- ## ✒Descriptive Explanation
-	  A narrative... a descriptive words subject on the concept... 描述性解释…
-	- ## 🌓Complement
-	  What is the complement of this subject? e.g. vector-covector, constructor-destructor
-	- ## 📏Proof 
-	  To prove something...
-	- ## 🗃Example
-	  Example is the most straightforward way to understand a mathematical concept.
-	- ## 🤳Applicability
-	   What are the situations in which this subject can be applied?
-	- ## 🧪Composition
-	  What kind of stuffs composite this subject?
-	- ## 🏷(Sub)Categories
-	  What are the sub objects of this subject?
-	- ## ⚖Laws
-	  The laws related to this math concepts.
-	- ## 🎯Intent
-	   A short description what does this thing do?
-	- ## 🙋‍♂️Related Elements
-	   The closest pattern to current one, what are their differences?
+- 📝Definition
+	- The logarithm $\log_bx$ for a base $b$ and a number $x$ is defined to be the [inverse function](((6337202d-82b6-4aaf-afac-c05f25c83e91))) of taking $b$ to the power $x$, i.e., $b^x$. Therefore, for any $x$ and $b$,
+		- $$
+		  x=\log_b(b^x)
+		  $$
+	- or equivalently,
+		- $$
+		  x=b^{\log_b(b^x)}
+		  $$
+- 📈Diagram
+	- ![name](../assets/Logarithm_900.svg){:height 300, :width 400}
+- ⛈Characteristics / Properties
+	- 📌 [[Singularity]]
+		- For any base, the logarithm function has a singularity at $x=0$.
+- 🌓Complement
+	- [[exponential]]
+- 👑Importance
+	- Logarithm is very important in [[Calculus]].

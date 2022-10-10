@@ -92,6 +92,7 @@ alias:: mapping
 					  \text{if $f(x)=y,\quad$then $f^{-1}(y)=x$}
 					  $$
 	- Odd and Even Functions
+	  id:: 63435778-63e3-4af1-83b9-a61582b3d33b
 		- 📌Even Function
 			- 📝Definition
 				- We say that a function $f$ is *even* if
@@ -143,6 +144,7 @@ alias:: mapping
 	  id:: 632a66cd-b4ee-4660-bed0-df0b9f8a89af
 		- The outputs of a function come from a set called its range.
 		- A function that does use all the elements of the range is said to be **onto** the range.
+		  id:: 63435778-af86-4bc6-be68-e9a5243639a1
 		- The range is the set of **actual** outputs.
 		- 🧠Intuition
 			- The range is the union of both shadows from left and right.
@@ -182,6 +184,7 @@ alias:: mapping
 	-
 - # 💫Support Operation
 	- 📌Composition of function
+	  id:: 63435778-fead-4b6c-b68f-c35030d9c68d
 		- 📝Definition
 			- The nesting of two or more functions to form a single new function is known as composition.
 		- ✒Notation

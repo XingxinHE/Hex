@@ -285,14 +285,15 @@
 					- 🎯Intent
 						- It may be possible to find the minimizer by **minimizing each smooth piece individually**, a.k.a. examing the **subgradient** and **generalized gradient**.
 						- (a side note, this book will not cover non-smooth problem.)
-	- # The Calculus Lifesaver
-		- Table of Content
-			- Chapter 1 Functions, Graphs, and Lines
-				-
-		- Things I don't know
-			- ...
-		- Info
-			- link
+	- ## Calculus
+		- ### The Calculus Lifesaver
+			- Table of Content
+				- Chapter 1 Functions, Graphs, and Lines
+					- [[Function]], [codomain](((63371466-8171-46ad-b423-9bbc596ed5ab))), [domain](((6329b0b1-f0b0-4926-9412-8c2523b33683))), [range](((63435778-af86-4bc6-be68-e9a5243639a1))), [interval notation](((63435779-808f-4753-869a-768bdf607fb6))), [vertical line test](((633250a6-c025-4d26-95ae-277e4b9c7080))), [horizontal line test](((63435779-1c08-499a-beb1-43d307665875))), [inverse function](((6337202d-82b6-4aaf-afac-c05f25c83e91))), [composition of function](((63435778-fead-4b6c-b68f-c35030d9c68d))), [odd function and even function](((63435778-63e3-4af1-83b9-a61582b3d33b))), [[Linear Function]], [[polynomial]], [[quadratic function]], [[rational function]], [[exponential]], [[Logarithm]], [[Trigonometric Function]]
+			- Things I don't know
+				- ...
+			- Info
+				- link
 	- ## Differential Geometry of Curves and Surfaces
 		- Table of Content
 			- Chapter 1...
@@ -302,6 +303,18 @@
 			- ...
 		- Info
 			- link
+	- ## Linear Algebra
+		- ### Linear Algebra for Everyone
+			- Table of Content
+				- Preface
+					- [[linear combination]]
+				- Chapter 1...
+			- Author
+				- ...
+			- Things I don't know
+				- ...
+			- Info
+				- link
 	- ## Lectures on Differential Geometry
 		- Table of Content
 			- Chapter 1...

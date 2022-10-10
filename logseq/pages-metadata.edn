@@ -19,6 +19,9 @@
  {:block/name "3bb74380-8fbf-479f-b41c-6f4a01d4361f",
   :block/created-at 1663995766972,
   :block/updated-at 1663995766972}
+ {:block/name "63044ce2-d814-454d-a4c3-f51cc3da638b",
+  :block/created-at 1665369599253,
+  :block/updated-at 1665369599253}
  {:block/name "630a5752-0714-4f64-867c-ff30f8e144bf",
   :block/created-at 1661622518709,
   :block/updated-at 1661622518709}
@@ -52,15 +55,21 @@
  {:block/name "6337df95-fe77-4604-b1cf-a4e212e50eec",
   :block/created-at 1664606174587,
   :block/updated-at 1664606174587}
- {:block/name "6338f24c-ceaa-47b3-8f93-437461a1dc34",
-  :block/created-at 1664726914370,
-  :block/updated-at 1664726914370}
  {:block/name "63395397-23d2-42d9-b8be-b61f43d8e59f",
   :block/created-at 1664726913106,
   :block/updated-at 1664726913106}
  {:block/name "63395407-b179-4c98-91ea-3fe021021ae0",
   :block/created-at 1664726912618,
   :block/updated-at 1664726912618}
+ {:block/name "6343704b-3817-4ae2-84c9-5093e818fc10",
+  :block/created-at 1665365307594,
+  :block/updated-at 1665365307594}
+ {:block/name "6343928b-dd01-4e0a-8586-de4ac2f9cf7e",
+  :block/created-at 1665374291627,
+  :block/updated-at 1665374291627}
+ {:block/name "70a7387e-cbc7-4d58-89ad-bea004d77bb4",
+  :block/created-at 1665369000722,
+  :block/updated-at 1665369000722}
  {:block/name "825bc6fa-9ac8-4bb3-8dc4-2f5bad543c19",
   :block/created-at 1664241829054,
   :block/updated-at 1664241829054}
@@ -74,8 +83,11 @@
   :block/created-at 1661004367896,
   :block/updated-at 1661004367896}
  {:block/name "absolute extremum",
-  :block/created-at 1661623306918,
-  :block/updated-at 1661623306918}
+  :block/created-at 1665358802852,
+  :block/updated-at 1665358802852}
+ {:block/name "absolute minimum",
+  :block/created-at 1665355712447,
+  :block/updated-at 1665355712447}
  {:block/name "abstract data type",
   :block/created-at 1661514640116,
   :block/updated-at 1661514640116}
@@ -208,6 +220,9 @@
  {:block/name "circle",
   :block/created-at 1661664164399,
   :block/updated-at 1661664164399}
+ {:block/name "circular function",
+  :block/created-at 1665392011558,
+  :block/updated-at 1665392011558}
  {:block/name "circumference",
   :block/created-at 1661664170581,
   :block/updated-at 1661664170581}
@@ -288,13 +303,16 @@
   :block/updated-at 1663995771374}
  {:block/name "continuity",
   :block/created-at 1661310048251,
-  :block/updated-at 1661850329425}
+  :block/updated-at 1665368417640}
  {:block/name "continuous",
   :block/created-at 1661310101824,
   :block/updated-at 1661310101824}
  {:block/name "continuous function",
   :block/created-at 1661315409259,
   :block/updated-at 1661316600765}
+ {:block/name "continuously",
+  :block/created-at 1665368417635,
+  :block/updated-at 1665368417635}
  {:block/name "convenience function",
   :block/created-at 1662342946562,
   :block/updated-at 1662342946562}
@@ -327,7 +345,7 @@
   :block/updated-at 1661080630288}
  {:block/name "critical point",
   :block/created-at 1661308480713,
-  :block/updated-at 1661308480713}
+  :block/updated-at 1665369147165}
  {:block/name "cross product",
   :block/created-at 1663995767027,
   :block/updated-at 1664636501121}
@@ -396,7 +414,7 @@
   :block/updated-at 1661860676219}
  {:block/name "differentiable",
   :block/created-at 1661477999891,
-  :block/updated-at 1661861369729}
+  :block/updated-at 1665375907096}
  {:block/name "differential",
   :block/created-at 1663995766476,
   :block/updated-at 1663995766476}
@@ -451,6 +469,9 @@
  {:block/name "dynamic memory",
   :block/created-at 1662003182126,
   :block/updated-at 1662022121273}
+ {:block/name "ea90b1d5-b3bd-420b-bb60-0ce4c686c9de",
+  :block/created-at 1665372572472,
+  :block/updated-at 1665372572472}
  {:block/name "eccentricity",
   :block/created-at 1661664597112,
   :block/updated-at 1661664597112}
@@ -489,7 +510,7 @@
   :block/updated-at 1661580129097}
  {:block/name "exponential function",
   :block/created-at 1661580110659,
-  :block/updated-at 1661585428366}
+  :block/updated-at 1665391823622}
  {:block/name "expression",
   :block/created-at 1662342944892,
   :block/updated-at 1662342944892}
@@ -498,10 +519,10 @@
   :block/updated-at 1661308480874}
  {:block/name "extreme value theorem",
   :block/created-at 1661621428755,
-  :block/updated-at 1661661476587}
+  :block/updated-at 1665367899374}
  {:block/name "extremum",
   :block/created-at 1661308480954,
-  :block/updated-at 1661661381970}
+  :block/updated-at 1665367928635}
  {:block/name "factor",
   :block/created-at 1661649881212,
   :block/updated-at 1661649996909}
@@ -525,7 +546,7 @@
   :block/updated-at 1663995771370}
  {:block/name "first derivative test",
   :block/created-at 1661308480963,
-  :block/updated-at 1661308480963}
+  :block/updated-at 1665369610640}
  {:block/name "first fundamental theorem of calculus",
   :block/created-at 1665129252954,
   :block/updated-at 1665191928648}
@@ -563,8 +584,17 @@
   :block/created-at 1663995767762,
   :block/updated-at 1663995767762}
  {:block/name "global extremum",
-  :block/created-at 1661623275840,
-  :block/updated-at 1661623320184}
+  :block/created-at 1665358802836,
+  :block/updated-at 1665365307594}
+ {:block/name "global maximum",
+  :block/created-at 1665364471157,
+  :block/updated-at 1665368026963}
+ {:block/name "global minimizer",
+  :block/created-at 1665355712445,
+  :block/updated-at 1665355712445}
+ {:block/name "global minimum",
+  :block/created-at 1665359276306,
+  :block/updated-at 1665368008346}
  {:block/name "glossary",
   :block/created-at 1661085690432,
   :block/updated-at 1664557804408}
@@ -591,7 +621,7 @@
   :block/updated-at 1662011270378}
  {:block/name "hex",
   :block/created-at 1661663663911,
-  :block/updated-at 1665200203408}
+  :block/updated-at 1665400719408}
  {:block/name "hospital rule",
   :block/created-at 1661477999898,
   :block/updated-at 1661477999898}
@@ -646,6 +676,9 @@
  {:block/name "invariant",
   :block/created-at 1662342945017,
   :block/updated-at 1662342945017}
+ {:block/name "inverse trigonometric function",
+  :block/created-at 1665392183167,
+  :block/updated-at 1665392183167}
  {:block/name "iterative",
   :block/created-at 1661955564531,
   :block/updated-at 1661955564531}
@@ -703,12 +736,15 @@
  {:block/name "limit",
   :block/created-at 1661308481123,
   :block/updated-at 1661862172398}
+ {:block/name "linear algebra",
+  :block/created-at 1665400827466,
+  :block/updated-at 1665400827466}
  {:block/name "linear approximation",
   :block/created-at 1661583091691,
-  :block/updated-at 1663469663423}
+  :block/updated-at 1665372572473}
  {:block/name "linear combination",
   :block/created-at 1663995768486,
-  :block/updated-at 1664088795902}
+  :block/updated-at 1665413951686}
  {:block/name "linear dependence",
   :block/created-at 1664241829591,
   :block/updated-at 1664241829591}
@@ -743,26 +779,29 @@
   :block/created-at 1661955563631,
   :block/updated-at 1661955563631}
  {:block/name "local extrema",
-  :block/created-at 1661308481154,
-  :block/updated-at 1661621674671}
+  :block/created-at 1665358802899,
+  :block/updated-at 1665366864352}
  {:block/name "local extremum",
   :block/created-at 1661308481156,
   :block/updated-at 1661308481156}
  {:block/name "local maxima",
-  :block/created-at 1661308480955,
-  :block/updated-at 1661308480955}
+  :block/created-at 1665358802984,
+  :block/updated-at 1665358802984}
  {:block/name "local maximum",
   :block/created-at 1661308481152,
-  :block/updated-at 1661308481152}
+  :block/updated-at 1665368044722}
  {:block/name "local minima",
-  :block/created-at 1661308480955,
-  :block/updated-at 1661308480955}
+  :block/created-at 1665358803014,
+  :block/updated-at 1665358803014}
+ {:block/name "local minimizer",
+  :block/created-at 1665368385983,
+  :block/updated-at 1665368385983}
  {:block/name "local minimum",
   :block/created-at 1661308481152,
-  :block/updated-at 1661308481152}
+  :block/updated-at 1665375455812}
  {:block/name "logarithm",
   :block/created-at 1661584755679,
-  :block/updated-at 1661584802614}
+  :block/updated-at 1665391858834}
  {:block/name "logseq template",
   :block/created-at 1661004687578,
   :block/updated-at 1665111438595}
@@ -877,6 +916,9 @@
  {:block/name "parent class",
   :block/created-at 1663995771495,
   :block/updated-at 1663995771495}
+ {:block/name "partial derivative",
+  :block/created-at 1665371335890,
+  :block/updated-at 1665371335890}
  {:block/name "pass-by-const-reference",
   :block/created-at 1662342945978,
   :block/updated-at 1662342945978}
@@ -963,7 +1005,7 @@
   :block/updated-at 1662653526517}
  {:block/name "quadratic approximation",
   :block/created-at 1661837238557,
-  :block/updated-at 1661837420939}
+  :block/updated-at 1665374291627}
  {:block/name "quadratic equation",
   :block/created-at 1661655838893,
   :block/updated-at 1664609160243}
@@ -976,6 +1018,12 @@
  {:block/name "range error",
   :block/created-at 1662342946567,
   :block/updated-at 1662342946567}
+ {:block/name "rational function",
+  :block/created-at 1665391015292,
+  :block/updated-at 1665391268599}
+ {:block/name "rational polynomial function",
+  :block/created-at 1665391194739,
+  :block/updated-at 1665391194739}
  {:block/name "raw pointer",
   :block/created-at 1662025159531,
   :block/updated-at 1662025159531}
@@ -1053,10 +1101,10 @@
   :block/updated-at 1661308481021}
  {:block/name "second derivative test",
   :block/created-at 1661308480960,
-  :block/updated-at 1661308480960}
+  :block/updated-at 1665369549726}
  {:block/name "second fundamental theorem of calculus",
   :block/created-at 1665200203393,
-  :block/updated-at 1665200890699}
+  :block/updated-at 1665400152693}
  {:block/name "sequence",
   :block/created-at 1663995767904,
   :block/updated-at 1663995767904}
@@ -1075,6 +1123,12 @@
  {:block/name "simplex",
   :block/created-at 1664241829922,
   :block/updated-at 1664241829922}
+ {:block/name "singular point",
+  :block/created-at 1665391710134,
+  :block/updated-at 1665391710134}
+ {:block/name "singularity",
+  :block/created-at 1665391699620,
+  :block/updated-at 1665391742300}
  {:block/name "slope field",
   :block/created-at 1664415111092,
   :block/updated-at 1664415111092}
@@ -1099,6 +1153,9 @@
  {:block/name "stack of activation record",
   :block/created-at 1662342946572,
   :block/updated-at 1662342946572}
+ {:block/name "stationary point",
+  :block/created-at 1665367476650,
+  :block/updated-at 1665369044825}
  {:block/name "stl",
   :block/created-at 1661081428225,
   :block/updated-at 1661081760746}
@@ -1128,7 +1185,16 @@
   :block/updated-at 1661861984314}
  {:block/name "taylor approximation",
   :block/created-at 1663995766219,
-  :block/updated-at 1663995766219}
+  :block/updated-at 1665374272896}
+ {:block/name "taylor polynomial",
+  :block/created-at 1665372707325,
+  :block/updated-at 1665372707325}
+ {:block/name "taylor series",
+  :block/created-at 1665371783066,
+  :block/updated-at 1665371783066}
+ {:block/name "taylor theorem",
+  :block/created-at 1665371783066,
+  :block/updated-at 1665371783066}
  {:block/name "technical report 1",
   :block/created-at 1661083642173,
   :block/updated-at 1661083642173}
@@ -1171,6 +1237,9 @@
  {:block/name "triangle",
   :block/created-at 1661664629703,
   :block/updated-at 1661664629703}
+ {:block/name "trigonometric function",
+  :block/created-at 1665391954087,
+  :block/updated-at 1665392183170}
  {:block/name "tuple",
   :block/created-at 1663995769826,
   :block/updated-at 1663995769826}
@@ -1197,10 +1266,10 @@
   :block/updated-at 1661090753523}
  {:block/name "uncategorized",
   :block/created-at 1661871522777,
-  :block/updated-at 1664083226731}
+  :block/updated-at 1665375990679}
  {:block/name "unconstrained optimization",
   :block/created-at 1665222467834,
-  :block/updated-at 1665228241390}
+  :block/updated-at 1665375371277}
  {:block/name "undefined behavior",
   :block/created-at 1661081873142,
   :block/updated-at 1661082473049}
