@@ -272,10 +272,19 @@
 			- https://www.youtube.com/playlist?list=PL8yHsr3EFj52Qf7lc3HHvHRdIysxEcj1H
 	- ## Numeric Optimization
 		- Book - Numerical Optimization by J. Nocedal, S.J. Wright
-		- Chapter 01 Introduction
-			- [[Numerical Optimization]], [[Convex]], [[Convex Optimization]], [[Convex Function]]
-		- Unorganized
-			- If the **objective function** in the optimization problem and the **feasible region** are **both convex**, then **any local solution** of the problem **is** in fact a **global solution**.
+			- Chapter 01 Introduction
+				- [[Numerical Optimization]], [[Convex]], [[Convex Optimization]], [[Convex Function]]
+			- Chapter 02 Fundamentals of Unconstrained Optimization
+				- [[Unconstrained Optimization]], [[extremum]]
+			- Unorganized
+				- If the **objective function** in the optimization problem and the **feasible region** are **both convex**, then **any local solution** of the problem **is** in fact a **global solution**.
+				- ### Non-smooth Problem
+					- ![name](../assets/non_smooth_problem.png){:height 200, :width 200}
+					- 📝Definition
+						- Geometrically, the nonsmooth function consists of a few smooth pieces, with **discontinuities between the pieces**.
+					- 🎯Intent
+						- It may be possible to find the minimizer by **minimizing each smooth piece individually**, a.k.a. examing the **subgradient** and **generalized gradient**.
+						- (a side note, this book will not cover non-smooth problem.)
 	- # The Calculus Lifesaver
 		- Table of Content
 			- Chapter 1 Functions, Graphs, and Lines

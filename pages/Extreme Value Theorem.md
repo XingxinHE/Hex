@@ -3,7 +3,7 @@
 	  id:: 90ec8a00-13d6-4e48-9809-1a84673fd561
 	  If $f$ is **continuous** on a closed interval $[a,b]$, then there are points at which $f$ attains its maximum and its minimum on $[a,b]$. It is important to note that this is only guaranteed if the interval is **finite** and **closed**.
 	- ## 🧪Composition
-	  Under the guarantee by extreme value theorem, the candidates of extrema([[minimum]] & [[maximum]]) can only be attained
+	  Under the guarantee by extreme value theorem, the candidates of extrema( #minimum & #maximum ) can only be attained
 		- at
 			- either [[Critical Point]]s
 			- or endpoints. a.k.a. the boundary of that interval.

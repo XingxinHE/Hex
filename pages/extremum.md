@@ -17,7 +17,7 @@
 		- singular: ---mum, e.g. minimum
 		- plural: ---ma, e.g. minima
 - ## 📝Definition
-	- An extremum is a [[maximum]] or [[minimum]] .
+	- An extremum is a #maximum or #minimum .
 - ## 🧪Composition
 	- An extremum may be
 	- either **local** (a.k.a. a [[relative extremum]]; an extremum in a given region which is not the overall maximum or minimum)

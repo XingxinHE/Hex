@@ -1,4 +1,4 @@
-alias:: continuous, Continuous
+alias:: continuous, Continuous, continuously
 
 - # Continuity
 	- ## 📝Definition

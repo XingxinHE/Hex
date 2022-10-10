@@ -106,6 +106,7 @@
 - ## 🎯Intent
    A short description what does this thing do?
 - # 🧬Related Elements
+	- {{embed ((ea90b1d5-b3bd-420b-bb60-0ce4c686c9de))}}
 	- ## 📌 [[MVT]] vs. Linear Approximation
 	  id:: 632684c3-4b04-44e4-bdca-d9ecac2e95ae
 		- Preface
