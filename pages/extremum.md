@@ -1,3 +1,21 @@
+- # 🔱Org Graph of Extremum
+  id:: 6343704b-3817-4ae2-84c9-5093e818fc10
+	- ## [[extremum]] (categorized in terms of global/local)
+		- ### [[Global Extremum]], Absolute Extremum
+			- #### [[Global Minimum]]
+			- #### [[Global Maximum]]
+		- ### [[Local Extrema]], Local Extremum, Relative Extrema, Relative Extremum
+			- #### [[Local Minimum]], Local Minima
+				- [Weak local minimizer](((9925747f-f4e5-4f70-b199-cac18fbd1614)))
+				- [Strict/Strong local minimizer](((63435c61-829e-44f4-b0c0-fda0f9c59525)))
+				- [Isolated local minimizer](((63435c91-14a2-4553-9cf8-e2406151db66)))
+			- #### [[Local Maximum]], Local Maxima
+	- extremum (categorized in terms of min and max)
+		- minimum
+		- maximum
+	- ==✏Notes:==
+		- singular: ---mum, e.g. minimum
+		- plural: ---ma, e.g. minima
 - ## 📝Definition
 	- An extremum is a [[maximum]] or [[minimum]] .
 - ## 🧪Composition
