@@ -7,8 +7,33 @@
 		  4.1&-1&0&1.7
 		  \end{bmatrix}
 		  $$
+	- A matrix ($m \times n$) can be seen as $1$ matrix, $mn$ numbers, $n$ columns and $m$ rows.
+		- the column vectors are in bold as $\bm{a_1}$.
+		- Row vectors include $\bm{*}$ as in $\bm{a_1^*}$.
+		- Transposed vectors and matrices are indicated by $\mathrm{T}$ as in $\bm{a}^T$ and $A^T$.
+		- $$A= \begin{bmatrix}
+		      a_{11} & a_{12}\\
+		      a_{21} & a_{22}\\
+		      a_{31} & a_{32}
+		    \end{bmatrix}
+		    =
+		    \begin{bmatrix}
+		      | & |\\
+		      \bm{a_1} & \bm{a_2}\\
+		      | & |
+		    \end{bmatrix}
+		    =
+		    \begin{bmatrix}
+		      - \bm{a_1^*} -\\
+		      - \bm{a_2^*} -\\
+		      - \bm{a_3^*} -
+		    \end{bmatrix}
+		  $$
 - # 🧠Intuition
 	- When encounter a matrix, you should immediately be aware ==**what the row and column means**==.
+- # 📈Diagram
+	- Viewing a Matrix – 4 Ways
+		- ![name](../assets/Viewing_a_Matrix_4Ways.svg){:height 300, :width 400}
 - # 🎯Intent
 	- In computer graphic,
 		- It means to cover calculation between different Cartesian coordinate spaces.
@@ -72,6 +97,12 @@
 - # ⛈Characteristics / Properties
 	- 📌size
 		- The size is given by (row dimension) $\times$ (column dimension).
+	- 📌Rank
+		- 📝Definition
+			- The rank of a matrix is the dimension of its column space. It counts the [[linearly independent]] columns.
+		- 🗃Example
+			- If $A=\begin{bmatrix}1&2&5\\1&2&5\\1&2&5\end{bmatrix}$ then $C=\begin{bmatrix}1\\1\\1\end{bmatrix}\quad\begin{matrix}n=3\text{ columns in }A\\r=1\text{ column in }C\end{matrix}$
+			- The number $r$ is the "rank" of $A$. It is also the rank of $C$.
 	- 📌 [[scalar]]-matrix arithmetic operation properties
 		- Given any two scalars $a$ and $b$ and any three $m\times n$ matrices $F$, $G$, and $H$, the following properties hold.
 		- $$

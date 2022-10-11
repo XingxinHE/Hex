@@ -198,7 +198,9 @@
 		- Applicability
 			- 📌[[Linear Combination]]
 	- 📌 [[Matrix-Vector Products]]
-	- 📌 [[Inner Product]]
+	- 📌Vector times Vector
+		- 📌 [[Inner Product]]
+		- 📌 [[Outer Product]]
 	- 📌 [[Cross Product]]
 	- 📌 [RMS](((632aafb4-b82f-4e4c-ab04-6d535b486768))) (root mean square)
 	- 📌 (Euclidean) distance between $n$-vectors

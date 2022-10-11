@@ -654,7 +654,7 @@
   :block/updated-at 1662291361687}
  {:block/name "inner product",
   :block/created-at 1663995768076,
-  :block/updated-at 1664427064961}
+  :block/updated-at 1665463715800}
  {:block/name "installation",
   :block/created-at 1663995768220,
   :block/updated-at 1663995768220}
@@ -831,7 +831,7 @@
   :block/updated-at 1663995768787}
  {:block/name "matrix",
   :block/created-at 1662738851786,
-  :block/updated-at 1665057197714}
+  :block/updated-at 1665468266360}
  {:block/name "matrix-vector multiplication",
   :block/created-at 1665059437177,
   :block/updated-at 1665059437177}
@@ -910,6 +910,9 @@
  {:block/name "orthonormality",
   :block/created-at 1664241829886,
   :block/updated-at 1665043791791}
+ {:block/name "outer product",
+  :block/created-at 1665462897169,
+  :block/updated-at 1665463836738}
  {:block/name "overflow",
   :block/created-at 1661514640592,
   :block/updated-at 1661514640592}
@@ -1296,7 +1299,7 @@
   :block/updated-at 1663925633275}
  {:block/name "vector",
   :block/created-at 1661514640671,
-  :block/updated-at 1665057308958}
+  :block/updated-at 1665462897169}
  {:block/name "vector product",
   :block/created-at 1664426953131,
   :block/updated-at 1664426953131}

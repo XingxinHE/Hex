@@ -9,6 +9,25 @@ alias:: dot product, scalar product
 	- Dot product is also called scalar product since the result is a scalar.
 - ## 🧠Intuition
 	- It **measure the difference** between the directions in which the two vectors point.
+- # 📈Diagram
+	- 📌Dot product impression
+		- Dot product $(\bold{a}\cdot\bold{b})$ is expressed as $\bold{a}^T\cdot\bold{b}$ in [[matrix]] language and yields a [[scalar]].
+		- $$
+		  \begin{bmatrix}
+		  1&2&3
+		  \end{bmatrix}
+		  \begin{bmatrix}
+		  x_1\\x_2\\x_3
+		  \end{bmatrix}=
+		  \begin{bmatrix}
+		  1\\2\\3
+		  \end{bmatrix}
+		  \cdot
+		  \begin{bmatrix}
+		  x_1\\x_2\\x_3
+		  \end{bmatrix}=x_1+x_2+x_3
+		  $$
+		- ![name](../assets/inner_product.svg){:height 300, :width 500}
 - # ✒Notation
 	- Suppose $a, b$ are vectors. Then the expression of inner product is
 	  $$
@@ -131,8 +150,8 @@ alias:: dot product, scalar product
   A narrative... a descriptive words subject on the concept... 描述性解释…
 - ## 👑Importance
   No matter good or bad, this subject plays an important role...
-- ## 🌓Complement  
-  What is the complement of this subject? e.g. vector-covector, constructor-destructor
+- ## 🌓Complement
+	- [[Outer Product]]
 - ## 📏Proof   
   To prove something...
 - ## 🗃Example  
