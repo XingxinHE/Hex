@@ -55,9 +55,6 @@
  {:block/name "6337df95-fe77-4604-b1cf-a4e212e50eec",
   :block/created-at 1664606174587,
   :block/updated-at 1664606174587}
- {:block/name "6338f24c-ceaa-47b3-8f93-437461a1dc34",
-  :block/created-at 1664726914370,
-  :block/updated-at 1664726914370}
  {:block/name "63395397-23d2-42d9-b8be-b61f43d8e59f",
   :block/created-at 1664726913106,
   :block/updated-at 1664726913106}
@@ -220,6 +217,9 @@
  {:block/name "card",
   :block/created-at 1661004367895,
   :block/updated-at 1661004367895}
+ {:block/name "cauchy-schwarz-buniakowsky inequality",
+  :block/created-at 1665490551411,
+  :block/updated-at 1665490551411}
  {:block/name "circle",
   :block/created-at 1661664164399,
   :block/updated-at 1661664164399}
@@ -624,7 +624,7 @@
   :block/updated-at 1662011270378}
  {:block/name "hex",
   :block/created-at 1661663663911,
-  :block/updated-at 1665400719408}
+  :block/updated-at 1665491048851}
  {:block/name "hospital rule",
   :block/created-at 1661477999898,
   :block/updated-at 1661477999898}
@@ -657,7 +657,7 @@
   :block/updated-at 1662291361687}
  {:block/name "inner product",
   :block/created-at 1663995768076,
-  :block/updated-at 1665472934503}
+  :block/updated-at 1665484114655}
  {:block/name "installation",
   :block/created-at 1663995768220,
   :block/updated-at 1663995768220}
@@ -708,7 +708,7 @@
   :block/updated-at 1661583398066}
  {:block/name "l2-norm",
   :block/created-at 1663995768333,
-  :block/updated-at 1663995768333}
+  :block/updated-at 1665490307050}
  {:block/name "lamina",
   :block/created-at 1661664149021,
   :block/updated-at 1661666906223}
@@ -747,7 +747,7 @@
   :block/updated-at 1665372572473}
  {:block/name "linear combination",
   :block/created-at 1663995768486,
-  :block/updated-at 1665472198959}
+  :block/updated-at 1665481227485}
  {:block/name "linear dependence",
   :block/created-at 1664241829591,
   :block/updated-at 1664241829591}
@@ -807,7 +807,7 @@
   :block/updated-at 1665391858834}
  {:block/name "logseq template",
   :block/created-at 1661004687578,
-  :block/updated-at 1665111438595}
+  :block/updated-at 1665491679816}
  {:block/name "lower bound",
   :block/created-at 1663995768969,
   :block/updated-at 1663995768969}
@@ -1093,6 +1093,9 @@
  {:block/name "scalar product",
   :block/created-at 1664364362878,
   :block/updated-at 1664364362878}
+ {:block/name "schwarz inequality",
+  :block/created-at 1665490422707,
+  :block/updated-at 1665490551413}
  {:block/name "scientific notation",
   :block/created-at 1661955564607,
   :block/updated-at 1661955564607}
@@ -1243,9 +1246,12 @@
  {:block/name "triangle",
   :block/created-at 1661664629703,
   :block/updated-at 1661664629703}
+ {:block/name "triangle inequality",
+  :block/created-at 1665489740075,
+  :block/updated-at 1665492413754}
  {:block/name "trigonometric function",
   :block/created-at 1665471901774,
-  :block/updated-at 1665471901774}
+  :block/updated-at 1665483915404}
  {:block/name "tuple",
   :block/created-at 1663995769826,
   :block/updated-at 1663995769826}
@@ -1282,6 +1288,9 @@
  {:block/name "uniform initialization",
   :block/created-at 1661514640844,
   :block/updated-at 1661514640844}
+ {:block/name "unit circle",
+  :block/created-at 1665482495880,
+  :block/updated-at 1665482562169}
  {:block/name "upper and lower bound",
   :block/created-at 1663995769908,
   :block/updated-at 1663995769908}
@@ -1302,7 +1311,7 @@
   :block/updated-at 1663925633275}
  {:block/name "vector",
   :block/created-at 1661514640671,
-  :block/updated-at 1665472967541}
+  :block/updated-at 1665490422708}
  {:block/name "vector product",
   :block/created-at 1664426953131,
   :block/updated-at 1664426953131}

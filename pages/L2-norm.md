@@ -24,7 +24,7 @@ alias:: Euclidean Norm
 		- $$
 		  \lVert\beta x\rVert = \lvert\beta\rvert\lVert x\rVert
 		  $$
-	- 📌Triangle Inequality (subadditivity次可加性)
+	- 📌 [[Triangle Inequality]] (subadditivity次可加性)
 		- $$
 		  \lVert x+y\rVert\leq\lVert x\rVert+\lVert y\rVert
 		  $$

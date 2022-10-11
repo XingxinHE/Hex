@@ -113,7 +113,8 @@ alias:: dot product, scalar product
 		  $$
 		- ![name](../assets/vector_proj_perp.png){:height 300, :width 300}
 	- 📌Angle
-		- Definition
+	  id:: 63452c51-4559-46a1-86ca-ab2a3b8952a0
+		- 📝Definition
 			- angle between two nonzero vectors $a, b$ defined as
 				- $$
 				  \begin{align}
@@ -124,19 +125,19 @@ alias:: dot product, scalar product
 				- $$
 				  a^Tb=\lVert a\rVert\lVert b\rVert\cos(\angle(a,b))
 				  $$
-			- Classification of angles
-				- Let $\theta$ denote the angle between vector $a,b$
-					- $$
-					  \theta=\angle(a,b)
-					  $$
-				- $\theta=\pi/2=90\degree$
-				- $\theta=0$: $a$ and $b$ are aligned $(a^Tb=\lVert a\rVert\lVert b)$
-				- $\theta=\pi=180\degree$: $a$ and $b$ are anti-aligned $(a^Tb=-\lVert a\rVert\lVert b)$
-				- $\theta\leq\pi/2=90\degree$: $a$ and $b$ make an acute angle $(a^Tb\geq0)$
-				- $\theta\geq\pi/2=90\degree$: $a$ and $b$ make an obtuse angle $(a^Tb\leq0)$
-				- From left to right are the angles stated above.
-				  ![name](../assets/vectors_angle.png){:height 300, :width 300}
-		- Definition
+		- 🏷(Sub)Categories
+			- Let $\theta$ denote the angle between vector $a,b$
+				- $$
+				  \theta=\angle(a,b)
+				  $$
+			- $\theta=\pi/2=90\degree$
+			- $\theta=0$: $a$ and $b$ are aligned $(a^Tb=\lVert a\rVert\lVert b)$
+			- $\theta=\pi=180\degree$: $a$ and $b$ are anti-aligned $(a^Tb=-\lVert a\rVert\lVert b)$
+			- $\theta\leq\pi/2=90\degree$: $a$ and $b$ make an acute angle $(a^Tb\geq0)$
+			- $\theta\geq\pi/2=90\degree$: $a$ and $b$ make an obtuse angle $(a^Tb\leq0)$
+			- From left to right are the angles stated above.
+			  ![name](../assets/vectors_angle.png){:height 300, :width 500}
+		- 📝Definition
 			- Given two $n$-dimensional vectors $P$ and $Q$, the dot product $P\cdot Q$ satisfies the equation. $a$ is the angle between $P$ and $Q$.
 				- $$
 				  P\cdot Q = \lVert P\rVert\cdot\lVert Q\rVert\cos{a}
@@ -145,18 +146,37 @@ alias:: dot product, scalar product
 				- This leads to 2 facts.
 				- **Fact**:  in light of theorem: if two vector $P\cdot Q=0$, they are **orthogonal**.
 				- **Fact**: $P\cdot Q>0$, they are **on the same side**.  $P\cdot Q<0$, they are **on the opposite side**.
-- ## 📈Diagram  
-  ![name](../assets/name.png){:height 300, :width 300}
-- ## ✒Descriptive Explanation  
-  A narrative... a descriptive words subject on the concept... 描述性解释…
-- ## 👑Importance
-  No matter good or bad, this subject plays an important role...
+		- 🗣Descriptive Explanation
+			- 📌Explain why (1)the equation measure angle and (2)$v\cdot w=0$ means they are perpendicular.
+				- (1)Explain the equation
+					- (1.1) talk about angle between [unit vector](((63452c51-e65b-4c1d-87f0-62d8116b0391)))
+						- See it in the picture of [[unit circle]]. Then the vector $v,w$ can be written as the followed
+							- ![name](../assets/dot_product_unitcircle.png){:height 200, :width 200}
+						- Therefore the dot product between $v,w$ are
+							- $$
+							  \begin{align}
+							  v\cdot w=\begin{bmatrix}\cos\beta\\\sin\beta\end{bmatrix}\cdot\begin{bmatrix}\cos\alpha\\\sin\alpha\end{bmatrix}=\cos\alpha\cos\beta+\sin\alpha\sin\beta=\cos(\beta-\alpha)
+							  \end{align}
+							  $$
+						- Since $\cos$ is an [even function](((63435778-152f-42e0-9823-1ab681fbc686))). The following is the same. It means that the order doesn't matter and we **only care about the difference between 2 angles**(a.k.a. $\theta$).
+							- $$
+							  \cos(\beta-\alpha)=\cos(\alpha-\beta)=\cos\theta
+							  $$
+					- (1.2) Extend the generality of the definition from unit vector
+						- Because every vector can be converted to unit vector by [vector nomalization](((633572bd-8953-408f-973c-2530efb4749e))). Therefore we can
+							- 1️⃣ normalize it. $v$ becomes $\hat{v}=\frac{v}{\lVert v\rvert}$, $w$ becomes $\hat{w}=\frac{w}{\lVert w\rvert}$
+							- 2️⃣ dot product. $\hat{v}\cdot\hat{w}$
+						- To conclude, the cosine of angle for any 2 vectors(except zero vector) can be written as
+						- $$
+						  \cos\theta=\frac{v\cdot w}{\lVert v\rVert\lVert w\rVert}
+						  $$
+						- Using the [inverse of cosine](((6345447f-d8b7-45e3-a8a1-a303d1cc58e3))), we have
+							- $$
+							  \theta=\arccos{\bigg(\frac{v\cdot w}{\lVert v\rVert\lVert w\rVert}\bigg)}
+							  $$
+				- (2) Because $\theta=\pi/2=\arccos{0}$
 - ## 🌓Complement
 	- [[Outer Product]]
-- ## 📏Proof   
-  To prove something...
-- ## 🗃Example  
-  Example is the most straightforward way to understand a mathematical concept.
 - ## 🤳Applicability  
   What are the situations in which this subject can be applied?
 	- 📌co-occurrence
@@ -197,27 +217,3 @@ alias:: dot product, scalar product
 		- $a$:   is a $n$-vector
 		- $x$:   is also a $n$-vector
 		- Since it is an inner product function, $f(x)$ therefore can be seen as a **weighted sum function** where $a$​ is the weight vector.
-- ## 🧪Composition  
-  What kind of stuffs composite this subject?
-- ## 🏷(Sub)Categories  
-  What are the sub objects of this subject?
-- ## ⚖Laws  
-  The laws related to this math concepts.
-- ## 🎯Intent  
-  A short description what does this thing do?
-- ## 🚀Benefit / Pros
-   A scenario that illustrates the benefit this object provides.
-- ## ⌨Sample Code
-   Code fragments
-- ## 🔎Implementation
-   The code or technical stuffs implement this.
-- ## 🕳Pitfalls / Cons
-  Be aware of the pitfalls when using this stuffs... (especially considering edge cases)
-- ## 📋Prerequisite
-  Some techniques and objects only work under certain condition.
-- ## 🐍Algorithm
-  Algorithm relates to this stuff..
-- ## 🥼Expert's Advice
-  See what experts addressed.
-- ## 🧱Structure
-  Any other hierarchical issues?

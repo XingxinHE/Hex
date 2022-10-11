@@ -212,3 +212,9 @@
 		- link
 - ![name](../assets/name.png){:height 200, :width 200}
   template:: template-insert-image
+- 📌xxx
+  template:: math-quiz-answer-template
+	- 💬Question: xxx
+	- 🏹Strategy: xxx
+	- ✏Solution: xxx
+	- 📈Diagram

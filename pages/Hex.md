@@ -306,9 +306,13 @@
 	- ## Linear Algebra
 		- ### Linear Algebra for Everyone
 			- Table of Content
-				- Preface
-					- [[linear combination]]
-				- Chapter 1...
+				- Chapter 1 Vectors and Matrices
+					- 1.1 Linear Combinations of Vectors
+						- key takeaway: the column and row picture of vector and matrix, how linear combination spans the space
+						- [[linear combination]], [[vector]], [[matrix]]
+					- 1.2 Lengths and Angles from Dot Product
+						- key takeaway: understand the dot product and how it measure the angles
+						- [[dot product]], [Angle](((63452c51-4559-46a1-86ca-ab2a3b8952a0))), [[Triangle Inequality]], [[Schwarz Inequality]]
 			- Author
 				- ...
 			- Things I don't know

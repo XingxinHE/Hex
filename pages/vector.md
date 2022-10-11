@@ -55,7 +55,10 @@
 		  nnz(a)
 		  $$
 	- 📌 [[Linear Dependence]] and [[Linear Independence]]
-	- 📌 Angle
+	- 📌 Angle, see [here](((63452c51-4559-46a1-86ca-ab2a3b8952a0))).
+	- 📌 Inequality
+		- [[Triangle Inequality]]
+		- [[Schwarz Inequality]]
 	- 📌 [[Euclidean Norm]]
 		- **magnitude/norm** of an $n$-dimensional vector $V$ is a **scalar**.
 		- $$
@@ -102,6 +105,7 @@
 	- 📌Ones Vector
 		- Size of $n$-vector with all $1$ inside.
 	- 📌unit vector
+	  id:: 63452c51-e65b-4c1d-87f0-62d8116b0391
 		- One unit vector only has one nonzero element.
 		  $$
 		  e_1 = \begin{bmatrix}1\\0\\0\end{bmatrix},
@@ -239,19 +243,6 @@
 		- $$
 		  V\cdot\frac{1}{\lVert V\rVert}
 		  $$
-	- 📌 Triangle inequality
-		- Definition
-			- For triangle with vertices at positions $a,b,c$
-			- edge lengths are
-				- $$
-				  \lVert a-b \rVert, \lVert b-c \rVert, \lVert a-c \rVert
-				  $$
-			- by triangle inequality
-				- $$
-				  \lVert a-c \rVert = \lVert (a-b)+(b-c) \rVert\leq \lVert a-b \rVert + \lVert b-c \rVert
-				  $$
-		- Intuition: third edge length is no longer than sum of other two
-			- ![name](../assets/triangle_inequality_vectors.png){:height 200, :width 200}
 - ## ⌨Sample Code
    Code fragments
 	- In C++,

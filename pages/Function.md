@@ -94,6 +94,7 @@ alias:: mapping
 	- Odd and Even Functions
 	  id:: 63435778-63e3-4af1-83b9-a61582b3d33b
 		- 📌Even Function
+		  id:: 63435778-152f-42e0-9823-1ab681fbc686
 			- 📝Definition
 				- We say that a function $f$ is *even* if
 					- $$
