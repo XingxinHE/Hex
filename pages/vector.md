@@ -62,6 +62,7 @@
 		  \lVert V\rVert = \sqrt{\sum^{n}_{i=1}{V_i^2}}
 		  $$
 	- 📌 [[Orthonormality]]
+	- 📌 Perpendicular
 	- 📌[[Complexity]] of Vector Operation
 		- Side Note
 			- For the following statement, the complexity refers to the number of [flops](((632141f6-8c0c-40c2-bab8-bce388937019))) required by a specific method.

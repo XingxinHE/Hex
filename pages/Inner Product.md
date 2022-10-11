@@ -9,6 +9,7 @@ alias:: dot product, scalar product
 	- Dot product is also called scalar product since the result is a scalar.
 - ## 🧠Intuition
 	- It **measure the difference** between the directions in which the two vectors point.
+	- $v=(1,3,2)$ is perpendicular to $w=(4,-4,4)$ because $v\cdot w=0$
 - # 📈Diagram
 	- 📌Dot product impression
 		- Dot product $(\bold{a}\cdot\bold{b})$ is expressed as $\bold{a}^T\cdot\bold{b}$ in [[matrix]] language and yields a [[scalar]].

@@ -35,5 +35,8 @@
 		  $$
 		  c = (1-\theta)a+\theta b
 		  $$
-		-
+	- 📌Linear Combination Problem Set
+		- 💬Question: Restricted by $0\leq c\leq1$ and $0\leq d\leq1$, shade in all the combinations $c\bold{v}+d\bold{w}$. Restricted only by $c\geq0$ and $d\geq0$ draw the "cone" of all combinations $c\bold{v}+d\bold{w}$
+			-
+		- ✏Solution:
 -
