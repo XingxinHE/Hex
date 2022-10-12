@@ -22,12 +22,17 @@ alias:: FTC1
 		- $$
 		  \int _{a}^{b} f(x) \, dx\, =\, \text{Area above} \, x\text{-axis and below }\, y=f(x)\, -\,  \text{Area below} \, x\text{-axis and above }\, y=f(x)
 		  $$
+	- 📌FTC1 and our real life
+		- ![name](../assets/distance_velocity_FTC.png){:height 200, :width 400}
+		- The integral that $s(T)=\int _{0}^{T} v(t)\, dt$ is how much we travel either by (1) measuring distance using distance function $s(T)$ or (2) measuring distance by sum each smart distance $ds=v(T)dT$ we travel using velocity function $v(t)$.
 - # ✒Notation
 	- $$
 	  \begin{align}
 	  \displaystyle  \displaystyle \left.\phantom{\int }F(x)\, \right|_a^b=F(b)-F(a)
 	  \end{align}
 	  $$
+- # 🌓Complement
+	- [[FTC2]]
 - # 🧬Related Elements
 	- ## 📌Comparing FTC1 and [[MVT]]
 	  id:: 908c048d-f677-4dcf-aaec-edd14984f977

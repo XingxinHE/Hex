@@ -552,7 +552,7 @@
   :block/updated-at 1665369610640}
  {:block/name "first fundamental theorem of calculus",
   :block/created-at 1665129252954,
-  :block/updated-at 1665191928648}
+  :block/updated-at 1665546806119}
  {:block/name "floating point",
   :block/created-at 1661955563133,
   :block/updated-at 1665109795014}
@@ -1113,7 +1113,7 @@
   :block/updated-at 1665369549726}
  {:block/name "second fundamental theorem of calculus",
   :block/created-at 1665200203393,
-  :block/updated-at 1665400152693}
+  :block/updated-at 1665546823966}
  {:block/name "sequence",
   :block/created-at 1663995767904,
   :block/updated-at 1663995767904}
@@ -1251,7 +1251,7 @@
   :block/updated-at 1665492413754}
  {:block/name "trigonometric function",
   :block/created-at 1665471901774,
-  :block/updated-at 1665483915404}
+  :block/updated-at 1665542719021}
  {:block/name "tuple",
   :block/created-at 1663995769826,
   :block/updated-at 1663995769826}
