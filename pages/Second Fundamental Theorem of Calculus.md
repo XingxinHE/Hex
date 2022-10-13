@@ -34,6 +34,40 @@ alias:: FTC2
 	  $$
 - # 🌓Complement
 	- [[FTC1]]
+- # ⛈Characteristics / Properties
+	- ## Chain Rule
+		- ### 📝Definition
+			- By FTC 2,
+				- $$
+				  \begin{align}
+				  G'(u)=f(u)\quad\text{FTC2}
+				  \end{align}
+				  $$
+			- With chain rule, we have
+				- $$
+				  \begin{align}
+				  \frac{d}{dx}G(u(x))&=f(u(x)) \cdot u'(x)\\
+				  \frac{d}{dx} \int _{a}^{u(x)} f(t)\, dt&=f(u(x)) \cdot u'(x)
+				  \end{align}
+				  $$
+		- ### 🗣Descriptive Explanation
+			- Now explain the detail. Let
+				- $$
+				  G(u)=\int _{a}^{u} f(t)\, dt
+				  $$
+			- Then
+				- $$
+				  G(u(x))=\int _{a}^{u(x)} f(t)\, dt
+				  $$
+			- That is, decompose the [[definite integral]] with $u(x)$ as its upper limit as the composition of the two functions $G(u)$ and $u(x)$. Now, let us apply the chain rule to find its derivative.
+				- $$
+				  \begin{align}
+				  \frac{d}{dx}G(u(x))&=G'(u(x)) \cdot u'(x)\qquad (\text{chain rule})\\
+				  \text{or equivalently }\quad\frac{dG}{dx}&=\left.\frac{dG}{du}\right|_{u=u(x)} \cdot \frac{du}{dx},
+				  \end{align}
+				  $$
+				- where $G'(u(x))$ is the derivative of $G$ with respect to $u$ evaluated at $u(x)$. Another notation for  $G'(u(x))$ is $\left.\frac{dG}{du}\right|_{u=u(x)}$
+			-
 - # 🗃Example
 	- 📌simple example of FTC2
 		- Give the solution to the differential equation and initial condition below in terms of an integral.
@@ -87,3 +121,44 @@ alias:: FTC2
 				  F(x)\approx 0+f(0)\cdot x+\frac{f'(0)}{2}\cdot x^2=f(0)x+\frac{f'(0)}{2}\cdot x^2
 				  $$
 			- 4️⃣So the assumption is that $f$ must be [[Continuous]] and [[differentiable]] at least near $x=0$.
+	- 📌tricky example using chain rule
+		- 💬Question: Let $y>0$. Decompose the integral below into a sum of two integrals, and then evaluate the following.
+			- $$
+			  \frac{d}{dy} \int _{y}^{\sqrt{y}} \ln (t)\, dt \, =\,?
+			  $$
+		- 🏹Strategy: xxx
+		- ✏Solution
+			- Let $G(u)=\int _{a}^{u} \ln (t)\, dt\,$ for some constant $a>0$. Then
+				- $$
+				  \int _{y}^{\sqrt{y}} \ln (t)\, dt=\int _{a}^{\sqrt{y}} \ln (t)\, dt -\int _{a}^{y} \ln (t)\, dt=G\left(\sqrt{y}\right)-G(y)
+				  $$
+			- Therefore, by the chain rule and FTC2,
+				- $$
+				  \begin{align}
+				  \frac{d}{dy}\int _{y}^{\sqrt{y}} \ln (t)\, dt&=\frac{d}{dy} \left(G\left(\sqrt{y}\right)-G(y)\right)\\
+				  &=\left.\frac{dG}{du}\right|_{u=\sqrt{y}}\, \cdot \frac{d\, \left(\sqrt{y}\right)}{dy}\, -\, \, \left.\frac{dG}{du}\right|_{u=y} \qquad (\text{chain rule})\\
+				  &=\ln (\sqrt{y})\cdot \left(\frac{1}{2\sqrt{y}}\right)- \ln (y) \qquad (\text{FTC2})\\
+				  &=\frac12 \ln (y)\left(\frac{1}{2\sqrt{y}}\right)- \ln (y)\\
+				  &=\ln (y) \left(\frac{1}{4\sqrt{y}}-1\right)
+				  \end{align}
+				  $$
+		- 📈Diagram
+	- 📌simple example using chain rule
+		- 💬Question: $\frac{d}{dx} \int _{1}^{x^3} \tan ^2(\theta ) \,  d\theta \, =\,?$
+		- ✏Solution
+			- Let $F(u)= \int _{1}^{u} \tan ^2(\theta )\,  d\theta$, and $u(x)=x^3$, then we have
+				- $$
+				  F(u(x))= \int _{1}^{u(x)} \tan ^2(\theta )\,  d\theta= \int _{1}^{x^3} \tan ^2(\theta ) \, d\theta .
+				  $$
+			- By the chain rule,
+				- $$
+				  \frac{d}{dx} F(u(x))= F'(x^3) \, u'(x)
+				  $$
+			- We will now evaluate each factor.
+				- $u'(x)= 3x^2$
+				- $F'(u)=\tan ^2(u)$ by FTC2
+				- evaluating $F'(u)$ at $u=x^3$ gives $F'(x^3)= \tan ^2(x^3)$
+			- Therefore,
+				- $$
+				  \frac{d}{dx} \int _{1}^{x^3} \tan ^2(\theta )\,  d\theta \,=\tan ^2(x^3) \cdot \left(3x^2\right).
+				  $$

@@ -4,6 +4,12 @@
  {:block/name "() - initialization syntax",
   :block/created-at 1661514639766,
   :block/updated-at 1661514639766}
+ {:block/name "(abstract) simplicial complex",
+  :block/created-at 1665626884652,
+  :block/updated-at 1665626884652}
+ {:block/name "(geometric) simplicial complex",
+  :block/created-at 1665626884653,
+  :block/updated-at 1665626884653}
  {:block/name "*",
   :block/created-at 1661514639459,
   :block/updated-at 1661514639459}
@@ -67,6 +73,12 @@
  {:block/name "6343928b-dd01-4e0a-8586-de4ac2f9cf7e",
   :block/created-at 1665471909278,
   :block/updated-at 1665471909278}
+ {:block/name "63475341-3a93-4ffe-a7a7-7e98f4a6718d",
+  :block/created-at 1665622198070,
+  :block/updated-at 1665622198070}
+ {:block/name "63477037-0c5c-4886-9751-b67f7aa1de7b",
+  :block/created-at 1665626418196,
+  :block/updated-at 1665626418196}
  {:block/name "70a7387e-cbc7-4d58-89ad-bea004d77bb4",
   :block/created-at 1665471902390,
   :block/updated-at 1665471902390}
@@ -97,6 +109,9 @@
  {:block/name "affine function",
   :block/created-at 1663995766223,
   :block/updated-at 1663995766223}
+ {:block/name "affine set",
+  :block/created-at 1665619190448,
+  :block/updated-at 1665620925030}
  {:block/name "algebra",
   :block/created-at 1661571295750,
   :block/updated-at 1661571345579}
@@ -160,6 +175,12 @@
  {:block/name "back to basics",
   :block/created-at 1661007325837,
   :block/updated-at 1661907872024}
+ {:block/name "barycentric coordinate system",
+  :block/created-at 1665625228840,
+  :block/updated-at 1665625228840}
+ {:block/name "barycentric coordinates",
+  :block/created-at 1665625184425,
+  :block/updated-at 1665626372878}
  {:block/name "base class",
   :block/created-at 1661477997201,
   :block/updated-at 1663578777171}
@@ -218,8 +239,8 @@
   :block/created-at 1661004367895,
   :block/updated-at 1661004367895}
  {:block/name "cauchy-schwarz-buniakowsky inequality",
-  :block/created-at 1665490551411,
-  :block/updated-at 1665490551411}
+  :block/created-at 1665618751670,
+  :block/updated-at 1665618751670}
  {:block/name "circle",
   :block/created-at 1661664164399,
   :block/updated-at 1661664164399}
@@ -274,6 +295,12 @@
  {:block/name "concave",
   :block/created-at 1664241829055,
   :block/updated-at 1664241829055}
+ {:block/name "conic (nonnegative) combination",
+  :block/created-at 1665621818304,
+  :block/updated-at 1665621818304}
+ {:block/name "conic combination",
+  :block/created-at 1665621518620,
+  :block/updated-at 1665621839479}
  {:block/name "const",
   :block/created-at 1661007657204,
   :block/updated-at 1661045414360}
@@ -321,7 +348,13 @@
   :block/updated-at 1662342946562}
  {:block/name "convex",
   :block/created-at 1664241829161,
-  :block/updated-at 1664241829161}
+  :block/updated-at 1665621323521}
+ {:block/name "convex combination",
+  :block/created-at 1665626263765,
+  :block/updated-at 1665626263765}
+ {:block/name "convex cone",
+  :block/created-at 1665621323520,
+  :block/updated-at 1665622198071}
  {:block/name "convex function",
   :block/created-at 1664241829165,
   :block/updated-at 1664241829165}
@@ -336,7 +369,7 @@
   :block/updated-at 1664241829228}
  {:block/name "convex set",
   :block/created-at 1664241829160,
-  :block/updated-at 1664241829160}
+  :block/updated-at 1665621288404}
  {:block/name "convexity",
   :block/created-at 1664241829327,
   :block/updated-at 1664241829327}
@@ -475,6 +508,9 @@
  {:block/name "ea90b1d5-b3bd-420b-bb60-0ce4c686c9de",
   :block/created-at 1665471907663,
   :block/updated-at 1665471907663}
+ {:block/name "ec6b335c-c89b-49d0-b5d2-86520b26e5d9",
+  :block/created-at 1665626405239,
+  :block/updated-at 1665626405239}
  {:block/name "eccentricity",
   :block/created-at 1661664597112,
   :block/updated-at 1661664597112}
@@ -624,7 +660,7 @@
   :block/updated-at 1662011270378}
  {:block/name "hex",
   :block/created-at 1661663663911,
-  :block/updated-at 1665491048851}
+  :block/updated-at 1665625184430}
  {:block/name "hospital rule",
   :block/created-at 1661477999898,
   :block/updated-at 1661477999898}
@@ -747,7 +783,7 @@
   :block/updated-at 1665372572473}
  {:block/name "linear combination",
   :block/created-at 1663995768486,
-  :block/updated-at 1665481227485}
+  :block/updated-at 1665622231102}
  {:block/name "linear dependence",
   :block/created-at 1664241829591,
   :block/updated-at 1664241829591}
@@ -1094,8 +1130,8 @@
   :block/created-at 1664364362878,
   :block/updated-at 1664364362878}
  {:block/name "schwarz inequality",
-  :block/created-at 1665490422707,
-  :block/updated-at 1665490551413}
+  :block/created-at 1665618751653,
+  :block/updated-at 1665618751653}
  {:block/name "scientific notation",
   :block/created-at 1661955564607,
   :block/updated-at 1661955564607}
@@ -1131,7 +1167,13 @@
   :block/updated-at 1661047125739}
  {:block/name "simplex",
   :block/created-at 1664241829922,
-  :block/updated-at 1664241829922}
+  :block/updated-at 1665627009683}
+ {:block/name "simplices",
+  :block/created-at 1665626959630,
+  :block/updated-at 1665626959630}
+ {:block/name "simplicial complex",
+  :block/created-at 1665626792928,
+  :block/updated-at 1665627569817}
  {:block/name "singular point",
   :block/created-at 1665471901560,
   :block/updated-at 1665471901560}
@@ -1247,8 +1289,8 @@
   :block/created-at 1661664629703,
   :block/updated-at 1661664629703}
  {:block/name "triangle inequality",
-  :block/created-at 1665489740075,
-  :block/updated-at 1665492413754}
+  :block/created-at 1665618751775,
+  :block/updated-at 1665618751775}
  {:block/name "trigonometric function",
   :block/created-at 1665471901774,
   :block/updated-at 1665542719021}
@@ -1289,8 +1331,8 @@
   :block/created-at 1661514640844,
   :block/updated-at 1661514640844}
  {:block/name "unit circle",
-  :block/created-at 1665482495880,
-  :block/updated-at 1665482562169}
+  :block/created-at 1665618751814,
+  :block/updated-at 1665618751814}
  {:block/name "upper and lower bound",
   :block/created-at 1663995769908,
   :block/updated-at 1663995769908}
@@ -1315,6 +1357,12 @@
  {:block/name "vector product",
   :block/created-at 1664426953131,
   :block/updated-at 1664426953131}
+ {:block/name "vertex",
+  :block/created-at 1665625608635,
+  :block/updated-at 1665627030587}
+ {:block/name "vertices",
+  :block/created-at 1665625623731,
+  :block/updated-at 1665625623731}
  {:block/name "volatile",
   :block/created-at 1661045592332,
   :block/updated-at 1661045592332}

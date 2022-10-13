@@ -36,6 +36,7 @@
 		  c = (1-\theta)a+\theta b
 		  $$
 	- 📌Linear Combination Problem Set
+	  id:: 63475341-3a93-4ffe-a7a7-7e98f4a6718d
 		- 💬Question:
 			- (1)Restricted by $0\leq c\leq1$ and $0\leq d\leq1$, shade in all the combinations $c\bold{v}+d\bold{w}$.
 			- (2)Restricted only by $c\geq0$ and $d\geq0$ draw the "cone" of all combinations $c\bold{v}+d\bold{w}$
@@ -44,6 +45,7 @@
 				- ![name](../assets/problems_para.svg){:height 200, :width 200}
 			- (2)With $c \geq 0$ and $d \geq 0$ we get the **infinite** “cone” or “wedge” between $v$ and $w$.
 				- ![name](../assets/problems_cone.svg){:height 200, :width 350}
+				- 📝Note: Linear combination with nonnegative coefficients is called [[Conic Combination]]. The shaded area in (2) is called [[Convex Cone]].
 	- 📌Linear Combination Problem Set
 		- 💬Question: Under what restriction on $c,d,e$ will the combination $cu+dv+ew$ fill in the dashed triangle?
 			- ![name](../assets/problems_shaded_area.svg){:height 200, :width 200}

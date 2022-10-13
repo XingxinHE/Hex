@@ -5,11 +5,6 @@ alias:: convexity
 	  id:: 825bc6fa-9ac8-4bb3-8dc4-2f5bad543c19
 - # 🌓Complement
 	- [[Concave]]
-- # 🧬Related Elements
-	- [[Convex Set]]
-	- [[Convex Function]]
-	- [[Convex Programming]]
-	- Convex Optimization
 - # 🗃Example
 	- 📌[[Linear Function]] is convex
 		- $$
@@ -32,3 +27,9 @@ alias:: convexity
 		  \{x ∈ \mathbb{R}^n\quad |\quad Ax = b, \quad Cx ≤ d\}
 		  $$
 	-
+- # 🧬Related Elements
+	- [[Convex Set]]
+	- [[Convex Function]]
+	- [[Convex Programming]]
+	- Convex Optimization
+	- [[Convex Cone]]

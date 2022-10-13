@@ -270,8 +270,17 @@
 		- Link:
 			- https://www.youtube.com/playlist?list=PL8yHsr3EFj53L8sMbzIhhXSAOpuZ1Fov8
 			- https://www.youtube.com/playlist?list=PL8yHsr3EFj52Qf7lc3HHvHRdIysxEcj1H
-	- ## Numeric Optimization
-		- Book - Numerical Optimization by J. Nocedal, S.J. Wright
+	- ## Optimization
+		- Book - Convex Optimization
+			- Table of Content
+				- Chapter 1...
+			- Author
+				- ...
+			- Things I don't know
+				- ...
+			- Info
+				- link
+		- ### Book - Numerical Optimization by J. Nocedal, S.J. Wright
 			- Chapter 01 Introduction
 				- [[Numerical Optimization]], [[Convex]], [[Convex Optimization]], [[Convex Function]]
 			- Chapter 02 Fundamentals of Unconstrained Optimization
@@ -393,4 +402,4 @@
 			- Assignment
 		- ### 📖Reading
 			- Chapter 02 Combinatorial Surfaces
-				- [[Convex Set]], [[Convex Hull]], [[Simplex]]
+				- [[Convex Set]], [[Convex Hull]], [[Simplex]], [[Barycentric Coordinates]]
