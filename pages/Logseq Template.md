@@ -138,6 +138,9 @@
 - 🐍Algorithm
   template:: B-Algorithm
 	- Algorithm relates to this stuff..
+- 🛠Analogy  
+  template:: B-Analogy
+	- Research shows connecting what already know to new concepts and ideas sharpens their focus and deepens their understanding.
 - # 🥼Expert's Advice
   template:: B-ExpertsAdvice
 	- See what experts addressed.

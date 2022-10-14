@@ -79,6 +79,9 @@
  {:block/name "63477037-0c5c-4886-9751-b67f7aa1de7b",
   :block/created-at 1665626418196,
   :block/updated-at 1665626418196}
+ {:block/name "6348ad24-5fee-4b6f-838b-64d71ff6df08",
+  :block/created-at 1665707511204,
+  :block/updated-at 1665707511204}
  {:block/name "70a7387e-cbc7-4d58-89ad-bea004d77bb4",
   :block/created-at 1665471902390,
   :block/updated-at 1665471902390}
@@ -180,7 +183,7 @@
   :block/updated-at 1665625228840}
  {:block/name "barycentric coordinates",
   :block/created-at 1665625184425,
-  :block/updated-at 1665626372878}
+  :block/updated-at 1665705847112}
  {:block/name "base class",
   :block/created-at 1661477997201,
   :block/updated-at 1663578777171}
@@ -643,6 +646,12 @@
  {:block/name "graph",
   :block/created-at 1663995767915,
   :block/updated-at 1664701758490}
+ {:block/name "graph machine learning",
+  :block/created-at 1665707834444,
+  :block/updated-at 1665707834444}
+ {:block/name "graph theory",
+  :block/created-at 1665707842158,
+  :block/updated-at 1665707842158}
  {:block/name "gui",
   :block/created-at 1663995770451,
   :block/updated-at 1663995770451}
@@ -1167,13 +1176,13 @@
   :block/updated-at 1661047125739}
  {:block/name "simplex",
   :block/created-at 1664241829922,
-  :block/updated-at 1665627009683}
+  :block/updated-at 1665707501899}
  {:block/name "simplices",
   :block/created-at 1665626959630,
   :block/updated-at 1665626959630}
  {:block/name "simplicial complex",
   :block/created-at 1665626792928,
-  :block/updated-at 1665627569817}
+  :block/updated-at 1665707872535}
  {:block/name "singular point",
   :block/created-at 1665471901560,
   :block/updated-at 1665471901560}
@@ -1291,6 +1300,9 @@
  {:block/name "triangle inequality",
   :block/created-at 1665618751775,
   :block/updated-at 1665618751775}
+ {:block/name "triangle mesh",
+  :block/created-at 1665707872530,
+  :block/updated-at 1665707872530}
  {:block/name "trigonometric function",
   :block/created-at 1665471901774,
   :block/updated-at 1665542719021}

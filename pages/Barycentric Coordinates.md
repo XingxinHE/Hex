@@ -19,7 +19,7 @@ alias:: barycentric coordinate system
 			- $$
 			  p(t) = (1-t)a + tb, t\in[0,1]
 			  $$
-			- ![name](../assets/barycentric_1_simplex.png){:height 200, :width 200}
+			- ![name](../assets/barycentric_1_simplex.png){:height 89, :width 200}
 		- Why $a\times(1-t)$ rather than $t$ ? Easy to comprehend, e.g. $t=\frac{3}{4}, p$ inclines to the right, hence the **weight** of $a$ (left) should be small, vice versa.
 	- 📌**Barycentric Coordinates Example:  k-simplex**
 	  id:: 63477037-0c5c-4886-9751-b67f7aa1de7b

@@ -26,6 +26,25 @@ alias:: simplices
 		- 📈Diagram
 			- ![name](../assets/Probability_Simplex.png){:height 200, :width 200}
 			- The above diagram is a *2-simplex* which lies in $\mathbb{R}^3$. Imagine all the possibilities of this simplex... No matter how, they all lie in the triangle $\sigma$ above. Therefore, it is called **probability simplex**.
+- # 🧬Related Elements
+	- [[Simplicial Complex]]
+- # 🛠Analogy
+	- Research shows connecting what already know to new concepts and ideas sharpens their focus and deepens their understanding.
+	- 📌==Simplex== and ==Simplicial Complex== in Rhino and PyTorch
+	  id:: 6348ad24-5fee-4b6f-838b-64d71ff6df08
+		- | Discrete Differential Geometry | Rhino/Grasshopper Software | PyTorch Geometric                                            |
+		  | ------------------------------ | -------------------------- | ------------------------------------------------------------ |
+		  | 0-simplex                      | A point                    | ```x = torch.tensor([0,0,0], dtype=torch.float)```           |
+		  | 1-simplex                      | An edge                    | ```edge_index = torch.tensor([[0, 1], [1, 0]], dtype=torch.long)``` |
+		  | 2-simplex                      | A triangle                 | /                                                            |
+		  | Abstract Simplicial Complex    | NA.                        | ```torch_geometric.data.Data```                              |
+		  | Geometric Simplicial Complex   | `Rhino.Geometry.Mesh`      | `read_ply` or `read_obj`                                     |
+		- 可以把0-simplex, 1-simplex和2-simplex理解为构建几何世界的基本元素，(只有一个点才是0-simplex，2个点是simplicial complex)。而把基本元素拼凑起来才是Mesh。
 - # 🗃Example
+	- 📌Small quiz on simplices
+		- 💬Question: What are all the simplices?
+		- 📈Diagram
+			- ![name](../assets/simplices.png){:height 200, :width 200}
+		- ✏Answer: {6,7,9} {7,10,8} {2,3} {3,4} {4,5} {0} {1} {6,7} {7,9} {9,6} {7,8} {8,10} {10,7} {2} {3} {4} {5} {6} {7} {8} {9} {10} - simply write down all the **vertices**, **edges** and **faces**.
 	- {{embed ((ec6b335c-c89b-49d0-b5d2-86520b26e5d9))}}
 	- {{embed ((63477037-0c5c-4886-9751-b67f7aa1de7b))}}
