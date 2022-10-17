@@ -17,6 +17,61 @@ alias:: simplices
 		  | 1-simplex | 2 = 1 + 1 | ![name](../assets/1_simplex.png){:height 100, :width 100} |
 		  | 2-simplex | 3 = 2 + 1 | ![name](../assets/2_simplex.png){:height 100, :width 100} |
 		  | 3-simplex | 4 = 3 + 1 | ![name](../assets/3_simplex.png){:height 100, :width 100} |
+- ⛈Characteristics / Properties
+	- Orientation
+	  id:: 88cc3933-a6ec-4333-9f4f-2defc94f7756
+		- 📝Definition
+			- The *orientation* of a simplex is an ordering of its vertices up to even permutation. One can specify an oriented simplex via one of its representative ordered [[Tuple]]s.
+		- 🧬Related Elements
+			- The <u>oriented simplices</u> compose [oriented simplicial complex](((634cd03e-8b16-4c78-912c-ff12ad1dc136))).
+		- ⛈Characteristics / Properties
+			- Relative Orientation
+				- 📝Definition
+					- Two distinct oriented simplices have the same ***relative orientation*** if the two (maximal) faces in their intersection have **opposite** orientation.
+				- 📈Diagram
+					- 共面的边方向相冲，则为relative orientation.
+					  The left is referred as **consistent orientation** while the right is referred as **inconsistent orientation**.
+					  ![name](../assets/relative_orientation.png){:height 300, :width 400}
+		- 🏷Categories
+			- Oriented 0-Simplex
+				- What’s the orientation of a single vertex? Only one permutation of vertices(the zero-index), so only one orientation - $(a)$! (Positive).
+				- ![name](../assets/oriented_0_simplex.png){:height 200, :width 100}
+			- Oriented 1-Simplex
+				- 📝Definition
+					- $\{a,b\}$   is ***unordered set***.(NO direction)
+					- $(a,b)$ or $(b,a)$    is ***ordered tuples*** which can be illustrated as followed.
+				- 📈Diagram
+					- ![name](../assets/oriented_1_simplex.png){:height 300, :width 300}
+				- 🎯Intent
+					- Why *orientation* matters? [[definite integral]].
+					  $$
+					  \int^b_a f(x)dx = -\int^a_b f(x)dx
+					  $$
+			- Oriented 2-Simplex
+				- 📝Definition
+					- For a 2-simplex, orientation given by "winding order" of vertices. An ***oriented 2-simplex*** can be specified by a 3-[[Tuple]].
+				- 📈Diagram
+					- ![name](../assets/oriented_2_simplex.png){:height 300, :width 400}
+			- Oriented 3-Simplex
+				- 📝Definition
+					- Again... You see the pattern...
+				- 📈Diagram
+					- ![name](../assets/oriented_3_simplex.png){:height 300, :width 300}
+				- ⌨Sample Code
+					- ``` python
+					  >>> import itertools
+					  >>> list(itertools.permutations([1,2,3,4]))
+					  [(1, 2, 3, 4), (1, 2, 4, 3), (1, 3, 2, 4), (1, 3, 4, 2), (1, 4, 2, 3), (1, 4, 3, 2), 
+					  (2, 1, 3, 4), (2, 1, 4, 3), (2, 3, 1, 4), (2, 3, 4, 1), (2, 4, 1, 3), (2, 4, 3, 1), 
+					  (3, 1, 2, 4), (3, 1, 4, 2), (3, 2, 1, 4), (3, 2, 4, 1), (3, 4, 1, 2), (3, 4, 2, 1), 
+					  (4, 1, 2, 3), (4, 1, 3, 2), (4, 2, 1, 3), (4, 2, 3, 1), (4, 3, 1, 2), (4, 3, 2, 1)]
+					  ```
+			- Oriented $k$-Simplex
+				- 🎯Intent
+					- To define orientation of simplex in general.
+				- 📝Definition
+					- An ***oriented k-simplex*** is an *ordered tuple*, up to **even** permutation.
+					- > ==**Note⚠**==: Why permutation is even? Because there are always **2** orientation **positive-negative** and **clockwise-counterclockwise**. Conventionally, we called the **even-index** permutation as "**positive**" while **odd-index** permutation as "**negative**".
 - # 🏷Categories
 	- ## Probability Simplex
 		- 📝Definition

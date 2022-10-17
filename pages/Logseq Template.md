@@ -221,3 +221,5 @@
 	- 🏹Strategy: xxx
 	- ✏Solution: xxx
 	- 📈Diagram
+- template:: Note and Warning Template
+  > ==**Note⚠**==: What should be aware!
