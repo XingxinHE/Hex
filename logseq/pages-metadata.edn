@@ -106,15 +106,30 @@
  {:block/name "abstract data type",
   :block/created-at 1661514640116,
   :block/updated-at 1661514640116}
+ {:block/name "adjacency list",
+  :block/created-at 1665998613340,
+  :block/updated-at 1665999087991}
  {:block/name "adt",
   :block/created-at 1661514640115,
   :block/updated-at 1661514640115}
+ {:block/name "affine dependence",
+  :block/created-at 1665969632973,
+  :block/updated-at 1665969632973}
  {:block/name "affine function",
   :block/created-at 1663995766223,
   :block/updated-at 1663995766223}
+ {:block/name "affine independence",
+  :block/created-at 1665969633015,
+  :block/updated-at 1665969633015}
  {:block/name "affine set",
   :block/created-at 1665619190448,
   :block/updated-at 1665620925030}
+ {:block/name "affinely dependent",
+  :block/created-at 1665969632984,
+  :block/updated-at 1665969632984}
+ {:block/name "affinely independent",
+  :block/created-at 1665969633019,
+  :block/updated-at 1665969633019}
  {:block/name "algebra",
   :block/created-at 1661571295750,
   :block/updated-at 1661571345579}
@@ -154,6 +169,9 @@
  {:block/name "asymptotics",
   :block/created-at 1661477997052,
   :block/updated-at 1661500667480}
+ {:block/name "august ferdinand möbius",
+  :block/created-at 1665972597715,
+  :block/updated-at 1665972674237}
  {:block/name "auto",
   :block/created-at 1661514640837,
   :block/updated-at 1661514640837}
@@ -400,6 +418,9 @@
  {:block/name "data structure",
   :block/created-at 1661514639980,
   :block/updated-at 1663688066057}
+ {:block/name "dcel",
+  :block/created-at 1665993992204,
+  :block/updated-at 1665993992204}
  {:block/name "ddg",
   :block/created-at 1661478349739,
   :block/updated-at 1661478349739}
@@ -499,6 +520,9 @@
  {:block/name "double",
   :block/created-at 1661955563134,
   :block/updated-at 1662039886597}
+ {:block/name "doubly connected edge list",
+  :block/created-at 1665993992203,
+  :block/updated-at 1665993992203}
  {:block/name "dry",
   :block/created-at 1661999361031,
   :block/updated-at 1661999361031}
@@ -645,7 +669,7 @@
   :block/updated-at 1665049461737}
  {:block/name "graph",
   :block/created-at 1663995767915,
-  :block/updated-at 1664701758490}
+  :block/updated-at 1665998886800}
  {:block/name "graph machine learning",
   :block/created-at 1665707834444,
   :block/updated-at 1665707834444}
@@ -655,6 +679,9 @@
  {:block/name "gui",
   :block/created-at 1663995770451,
   :block/updated-at 1663995770451}
+ {:block/name "half edge data structure",
+  :block/created-at 1665993733847,
+  :block/updated-at 1665996731380}
  {:block/name "hash table",
   :block/created-at 1661084794143,
   :block/updated-at 1661084794143}
@@ -852,7 +879,7 @@
   :block/updated-at 1665391858834}
  {:block/name "logseq template",
   :block/created-at 1661004687578,
-  :block/updated-at 1665491679816}
+  :block/updated-at 1665974231046}
  {:block/name "lower bound",
   :block/created-at 1663995768969,
   :block/updated-at 1663995768969}
@@ -904,6 +931,12 @@
  {:block/name "minimum",
   :block/created-at 1661621803384,
   :block/updated-at 1661621803384}
+ {:block/name "mobius band",
+  :block/created-at 1665972674230,
+  :block/updated-at 1665972674230}
+ {:block/name "mobius strip",
+  :block/created-at 1665972674230,
+  :block/updated-at 1665972674230}
  {:block/name "model of computation",
   :block/created-at 1663121263337,
   :block/updated-at 1663121263337}
@@ -916,6 +949,12 @@
  {:block/name "mvvm",
   :block/created-at 1663995769162,
   :block/updated-at 1663995769162}
+ {:block/name "möbius band",
+  :block/created-at 1665972674229,
+  :block/updated-at 1665972674229}
+ {:block/name "möbius strip",
+  :block/created-at 1665972674229,
+  :block/updated-at 1665972674229}
  {:block/name "namespace",
   :block/created-at 1662342945190,
   :block/updated-at 1662342945190}
@@ -928,9 +967,15 @@
  {:block/name "narrowing conversion",
   :block/created-at 1661955564911,
   :block/updated-at 1661955564911}
+ {:block/name "non-manifold geometry",
+  :block/created-at 1665969633199,
+  :block/updated-at 1665969633199}
  {:block/name "non-type specifier",
   :block/created-at 1661089516036,
   :block/updated-at 1661090183550}
+ {:block/name "nonmanifold",
+  :block/created-at 1665969633158,
+  :block/updated-at 1665969633158}
  {:block/name "norm",
   :block/created-at 1663995769182,
   :block/updated-at 1664703600688}
@@ -1176,13 +1221,13 @@
   :block/updated-at 1661047125739}
  {:block/name "simplex",
   :block/created-at 1664241829922,
-  :block/updated-at 1665707501899}
+  :block/updated-at 1665985393074}
  {:block/name "simplices",
   :block/created-at 1665626959630,
   :block/updated-at 1665626959630}
  {:block/name "simplicial complex",
   :block/created-at 1665626792928,
-  :block/updated-at 1665707872535}
+  :block/updated-at 1665985106396}
  {:block/name "singular point",
   :block/created-at 1665471901560,
   :block/updated-at 1665471901560}
@@ -1261,6 +1306,9 @@
  {:block/name "template",
   :block/created-at 1661913899751,
   :block/updated-at 1661916214928}
+ {:block/name "tetrahedron",
+  :block/created-at 1665999075924,
+  :block/updated-at 1665999075924}
  {:block/name "the auto type specifier",
   :block/created-at 1661308481496,
   :block/updated-at 1661492523552}
@@ -1282,6 +1330,9 @@
  {:block/name "todo",
   :block/created-at 1661004367896,
   :block/updated-at 1661004367896}
+ {:block/name "topological disk",
+  :block/created-at 1665969633240,
+  :block/updated-at 1665969633240}
  {:block/name "tr1",
   :block/created-at 1661083588976,
   :block/updated-at 1661084794145}
@@ -1345,6 +1396,9 @@
  {:block/name "unit circle",
   :block/created-at 1665618751814,
   :block/updated-at 1665618751814}
+ {:block/name "unit disk",
+  :block/created-at 1665969633299,
+  :block/updated-at 1665969633299}
  {:block/name "upper and lower bound",
   :block/created-at 1663995769908,
   :block/updated-at 1663995769908}
@@ -1384,6 +1438,9 @@
  {:block/name "waiting",
   :block/created-at 1661004367895,
   :block/updated-at 1661004367895}
+ {:block/name "webview2",
+  :block/created-at 1665992496491,
+  :block/updated-at 1665993131525}
  {:block/name "widening",
   :block/created-at 1661514640598,
   :block/updated-at 1661924343029}

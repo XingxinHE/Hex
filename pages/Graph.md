@@ -37,6 +37,8 @@
 	- 📌Connected
 	  id:: 6325bc0e-6baf-46a2-a751-05fece4c4751
 		- A graph is connected if every two nodes have a path between them.
+- 🧬Related Elements
+	- The nature of graph has some similarity with 3-[[Simplex]].
 - # 🏷(Sub)Categories
 	- ## 📌Subgraph
 		- Graph $G$ is a subgraph of graph $H$ if the nodes of $G$ are a subset of the nodes of $H$, and the edges of $G$ are the edges of $H$ on the corresponding nodes.
