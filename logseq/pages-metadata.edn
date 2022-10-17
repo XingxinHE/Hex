@@ -709,6 +709,9 @@
  {:block/name "in-progress",
   :block/created-at 1661004367896,
   :block/updated-at 1661004367896}
+ {:block/name "incidence matrix",
+  :block/created-at 1666020626614,
+  :block/updated-at 1666020666243}
  {:block/name "indefinite integral",
   :block/created-at 1663995766498,
   :block/updated-at 1663995766498}
