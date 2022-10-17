@@ -1,0 +1,5 @@
+- 📝Definition
+	- The incidence matrix of a graph gives the (0,1)-matrix which has a row for each vertex and column for each edge, and (v,e)=1 iff vertex v is incident upon edge e (Skiena 1990, p. 135).
+	- https://mathworld.wolfram.com/IncidenceMatrix.html
+	- https://mathworld.wolfram.com/01-Matrix.html
+	-

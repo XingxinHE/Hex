@@ -68,6 +68,36 @@ alias:: FTC2
 				  $$
 				- where $G'(u(x))$ is the derivative of $G$ with respect to $u$ evaluated at $u(x)$. Another notation for  $G'(u(x))$ is $\left.\frac{dG}{du}\right|_{u=u(x)}$
 			-
+- 📏Proof
+	- Proof of FTC2
+		- 📋Prerequisite
+			- Recall that FTC2 states that given a continuous function $f$,
+				- $$
+				  F(x)=\int _{a}^{x} f(t)\, dt\Rightarrow F'(x)=f(x)
+				  $$
+		- 🏹Strategy
+			- To prove this theorem, we will compute the derivative of $F$ by using the geometric picture of $F$. We will prove the case for $f>0$ and you will verify that the same argument works for any $f$.
+		- ✏Process
+			- Recall the definition of the [[Derivative]]:
+				- $$
+				  F'(x)=\lim _{\Delta x\rightarrow 0} \frac{\Delta F}{\Delta x} \qquad \text{where} \, \, \Delta F\, =\,  F(x+\Delta x)-F(x).
+				  $$
+				- ![name](../assets/images_ftc2_proofFTC2.svg){:height 200, :width 400}
+				- $$
+				  \begin{align}
+				  &\text{Geometrically, }  &F(x) &= \int _{a}^{x} f(t)\, dt\, \,  &= &\text{Area between}\, \, a\, \, \text{and}\, \, x,  \\
+				  &\space &\Delta F &= \int _{x}^{x+\Delta x} f(t)\, dt\, \, &= &\text{Area between}\, \, x\, \, \text{and}\, \,  x+\Delta x.
+				  \end{align}
+				  $$
+			- We can approximate $\Delta F$ by the area of the rectangle with base $\Delta x$ and height $f(x)$. This gives
+				- $$
+				  \frac{\Delta F}{\Delta x}\approx \frac{f(x)\cdot \Delta x}{\Delta x} =f(x)
+				  $$
+				- Now since $f$ is continuous,
+					- $$
+					  \lim _{\Delta x\rightarrow 0} \frac{\Delta F}{\Delta x}=\lim _{\Delta x\rightarrow 0} f(x) = f(x)
+					  $$
+				- This is equivalent to $F'(x)=f(x)$, which is what we needed to prove.
 - # 🗃Example
 	- 📌simple example of FTC2
 		- Give the solution to the differential equation and initial condition below in terms of an integral.

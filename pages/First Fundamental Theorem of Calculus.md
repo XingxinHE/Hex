@@ -53,6 +53,40 @@ alias:: FTC1
 			  $$
 		- We see that the FTC1 gives a specific value for $\frac{\Delta F}{\Delta x}$, the average rate of change of $F$ over $[a,b]$, but the MVT does not, since it does not tell us where $c$ is.
 		- Therefore, the First Fundamental Theorem much more useful than the Mean Value Theorem. Once we have FTC1 at our disposal, we do not need to use MVT anymore. Nonetheless, the Mean Value Theorem is important as the basis of calculus. We needed it to establish the fact that two antiderivatives of the same function can only differ by a constant. We will need this fact again in order to prove FTC1 in the next section.
+- 📏Proof
+	- Proof of FTC1
+		- 📋Prerequisite
+			- Recall the statement of FTC1: Given a differentiable function $F$ with continuous derivative $F'=f$,
+				- $$
+				  \int _{a}^{b} f(x) \,  dx \, =\, F(b)- F(a).
+				  $$
+		- ✏Steps
+			- First, define
+				- $$
+				  G(x)=\int _{a}^{x} f(t)\, dt.
+				  $$
+			- Note that $G(x)$ makes sense as the limit of Riemann sums.
+			- Second, since $f$ is continuous, the FTC2 says that
+				- $$
+				  G'=f
+				  $$
+			- Now, since $F'=f$, and $G'=f$, both $F$ and $G$ are antiderivatives of $f$. Therefore, as a consequence of the [[Mean Value Theorem]],
+				- $$
+				  F'(x)\, =\, G'(x)\Rightarrow F(x)\, =\, G(x)+C
+				  $$
+				- where $C$ is a constant.
+			- Finally, we compute $F(b)-F(a)$ in terms of $G$:
+				- $$
+				  \begin{align}
+				  F(b)-F(a)&=(G(b)+C)\, -\, (G(a)+C)\\&=G(b)-G(a)\\&=\int _{a}^{b} f(t)\, dt- \int _{a}^{a} f(t)\, dt\qquad (\text{Definition of}\, \, G)\\
+				  &=\int _{a}^{b} f(t)\, dt - 0\\&=\int _{a}^{b} f(t)\, dt.
+				  \end{align}
+				  $$
+			- Therefore,
+				- $$
+				  \int _{a}^{b} f(t)\, dt=F(b)-F(a)
+				  $$
+				- This is the statement of FTC1, even though the integration variable is renamed $t$.
 - # 🗃Example
 	- 📌travelling in <u>one direction</u>
 		- Scenario
