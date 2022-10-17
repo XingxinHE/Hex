@@ -48,3 +48,5 @@ alias:: (Abstract) Simplicial Complex, (Geometric) Simplicial Complex
 			- $E$ = edges
 			- $F$ = faces
 			- $K$ = komplex(in German)
+- 💫Support Operation
+	- What is related operation?

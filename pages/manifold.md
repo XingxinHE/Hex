@@ -1,0 +1,6 @@
+- 📝Definition
+	- The name is the essence of this topic.
+- 🚀Benefit / Pros
+	- In a nutshell, it is neat ingredient for **datastructure** which is easy to process and comfortable to access its "neighbor".
+- 🌓Complement
+	- [[Nonmanifold]]
