@@ -12,6 +12,8 @@
 			- the matrix from *left to right* is getting **higher dimension**, e.g. vertices->edges->faces.
 			- the column of each matrix is the ingredient to construct row which is the upper dimension, e.g. columns of $E^0$ is vertices, row is edges
 			- seeing from the column picture, if the ingredient is used, then it is positive(**1**), otherwise negative(**0**)
+		- 🕳Cons
+			- Incidence Matrix is not appropriate for a very large complex with a relatively small number of connections—**most** of the entries are going to be **zero**.
 		- 🏷(Sub)Categories
 			- Signed Incidence Matrix
 				- 📝Definition

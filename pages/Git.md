@@ -53,6 +53,7 @@
 	  |  `git stash pop`  | pop out the hidden untracked changes |  |
 - # 🍱Regular Procedures
 	- ## 🍒Cherry-pick
+	  collapsed:: true
 		- 📌recipe 1: cherry-pick changes from master to release
 			- Update master branch to latest change
 				- ``` shell
@@ -73,6 +74,7 @@
 				  ```
 				- The preceding command will create a new branch for pull request
 	- ## Clone
+	  collapsed:: true
 		- 📌 Setup for recursive clone
 			- You want to combine several dependencies into one project when you work on a macro project.
 			- Procedure
@@ -91,11 +93,23 @@
 			  	url = https://github.com/google/googletest.git
 			  ```
 	- ## Worktree
+		- 📝Definition
+			- A Git worktree is a linked copy of your Git repository, allowing you to have multiple branches checked out at a time.
 		- 📌What you can't do using worktree
 			- in `CGAL`
 				- checkout at `master` branch
 			- in `CGAL_release2022`
 				- you can checkout all the branches except `master` branch, and vice versa
+		- 📌Make a worktree
+			- Suppose you have 2 branches. `main` and `hotfix`, now you are in `hotfix` branch. You want to create a folder for `main`
+			- ``` shell
+			  git worktree add ~/repo_hotfix main
+			  ```
+				- which `~/repo_hotfix` is where you want the repo put. `main` is the branch you want the new repo based on.
+			- ``` shell
+			  git worktree add -b feature_2023 ~/repo_2023 main
+			  ```
+				- this version is checkout a new branch for the worktree.
 	- ## Conflict
 		- 📌Solve Cherry-pick conflict
 			- Solve the conflicts

@@ -1,3 +1,5 @@
+alias:: simplicial 1-complexes
+
 - # 📝Definition
 	- An undirected graph, or simply a graph, is a set of points with **lines** **connecting** some of the **points**.
 - # 📈Diagram

@@ -13,6 +13,19 @@
 		- ![name](../assets/manifold_nonmanifold1.png){:height 200, :width 400}
 		  Nonmanifold is marked with red. Others are manifold.
 	-
+- 🏷(Sub)Categories
+	- Manifold Triangle Mesh ($k=2$, [[simplicial 2-complexes]] )
+	  id:: 28012548-e918-478b-8a20-78c5d51e7588
+		- 👑Importance
+			- Manifold triangle mesh is of enormous importance in geometric processing and modeling.
+		- 📝Definition
+			- Requirements for a triangle mesh is manifold:
+			- | simplex            | requirement                                                  | Image                                                        |
+			  | ------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
+			  | edges              | every edge is contained in **exactly** **2** triangles       | ![name](../assets/manifold_mesh_edge.png){:height 150, :width 150} |
+			  | edges(boundary)    | just **1** along the **boundary**                            | ![name](../assets/manifold_mesh_edge_boundary.png){:height 150, :width 150} |
+			  | vertices           | every vertex is contained in **a single “loop”** of triangles | ![name](../assets/manifold_mesh_vertices.png){:height 150, :width 150} |
+			  | vertices(boundary) | **a single “fan”** along the **boundary**                    | ![name](../assets/manifold_mesh_vertices_boundary.png){:height 150, :width 150} |
 - 💫Support Operation
 	- Complexity on manifold check
 		- Question:

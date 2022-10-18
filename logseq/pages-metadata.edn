@@ -22,9 +22,15 @@
  {:block/name "2021",
   :block/created-at 1661955565584,
   :block/updated-at 1661955565584}
+ {:block/name "28012548-e918-478b-8a20-78c5d51e7588",
+  :block/created-at 1666073069639,
+  :block/updated-at 1666073069639}
  {:block/name "3bb74380-8fbf-479f-b41c-6f4a01d4361f",
   :block/created-at 1663995766972,
   :block/updated-at 1663995766972}
+ {:block/name "54d8471c-1468-4200-848c-878dd479f50e",
+  :block/created-at 1666070324825,
+  :block/updated-at 1666070324825}
  {:block/name "63044ce2-d814-454d-a4c3-f51cc3da638b",
   :block/created-at 1665471903494,
   :block/updated-at 1665471903494}
@@ -85,6 +91,9 @@
  {:block/name "70a7387e-cbc7-4d58-89ad-bea004d77bb4",
   :block/created-at 1665471902390,
   :block/updated-at 1665471902390}
+ {:block/name "7194425b-b12b-4200-a441-4a5e60af1270",
+  :block/created-at 1666070692349,
+  :block/updated-at 1666070692349}
  {:block/name "825bc6fa-9ac8-4bb3-8dc4-2f5bad543c19",
   :block/created-at 1664241829054,
   :block/updated-at 1664241829054}
@@ -648,7 +657,7 @@
   :block/updated-at 1661081905019}
  {:block/name "git",
   :block/created-at 1663995767762,
-  :block/updated-at 1663995767762}
+  :block/updated-at 1666078404289}
  {:block/name "global extremum",
   :block/created-at 1665358802836,
   :block/updated-at 1665365307594}
@@ -669,10 +678,10 @@
   :block/updated-at 1665049461737}
  {:block/name "graph",
   :block/created-at 1663995767915,
-  :block/updated-at 1665998886800}
+  :block/updated-at 1666073230453}
  {:block/name "graph machine learning",
-  :block/created-at 1665707834444,
-  :block/updated-at 1665707834444}
+  :block/created-at 1666073892064,
+  :block/updated-at 1666073892064}
  {:block/name "graph theory",
   :block/created-at 1665707842158,
   :block/updated-at 1665707842158}
@@ -711,7 +720,7 @@
   :block/updated-at 1661004367896}
  {:block/name "incidence matrix",
   :block/created-at 1666020626614,
-  :block/updated-at 1666020666243}
+  :block/updated-at 1666076779975}
  {:block/name "indefinite integral",
   :block/created-at 1663995766498,
   :block/updated-at 1663995766498}
@@ -807,7 +816,7 @@
   :block/updated-at 1661532258535}
  {:block/name "leonhard euler",
   :block/created-at 1664415110955,
-  :block/updated-at 1664730218151}
+  :block/updated-at 1666071556414}
  {:block/name "lexical analysis",
   :block/created-at 1662342945070,
   :block/updated-at 1662342945070}
@@ -891,7 +900,7 @@
   :block/updated-at 1661514639604}
  {:block/name "manifold",
   :block/created-at 1661478883849,
-  :block/updated-at 1661478883849}
+  :block/updated-at 1666074008271}
  {:block/name "map",
   :block/created-at 1661955564071,
   :block/updated-at 1661955564071}
@@ -909,7 +918,7 @@
   :block/updated-at 1663995768787}
  {:block/name "matrix",
   :block/created-at 1662738851786,
-  :block/updated-at 1665468266360}
+  :block/updated-at 1666056761439}
  {:block/name "matrix-vector multiplication",
   :block/created-at 1665059437177,
   :block/updated-at 1665059437177}
@@ -978,7 +987,7 @@
   :block/updated-at 1661090183550}
  {:block/name "nonmanifold",
   :block/created-at 1665969633158,
-  :block/updated-at 1665969633158}
+  :block/updated-at 1666070324826}
  {:block/name "norm",
   :block/created-at 1663995769182,
   :block/updated-at 1664703600688}
@@ -1228,9 +1237,15 @@
  {:block/name "simplices",
   :block/created-at 1665626959630,
   :block/updated-at 1665626959630}
+ {:block/name "simplicial 1-complexes",
+  :block/created-at 1666073230451,
+  :block/updated-at 1666073230451}
+ {:block/name "simplicial 2-complexes",
+  :block/created-at 1666073161782,
+  :block/updated-at 1666073161782}
  {:block/name "simplicial complex",
   :block/created-at 1665626792928,
-  :block/updated-at 1665985106396}
+  :block/updated-at 1666073917037}
  {:block/name "singular point",
   :block/created-at 1665471901560,
   :block/updated-at 1665471901560}
@@ -1356,7 +1371,7 @@
   :block/updated-at 1665618751775}
  {:block/name "triangle mesh",
   :block/created-at 1665707872530,
-  :block/updated-at 1665707872530}
+  :block/updated-at 1666073161784}
  {:block/name "trigonometric function",
   :block/created-at 1665471901774,
   :block/updated-at 1665542719021}
@@ -1443,7 +1458,7 @@
   :block/updated-at 1661004367895}
  {:block/name "webview2",
   :block/created-at 1665992496491,
-  :block/updated-at 1665993131525}
+  :block/updated-at 1666058731870}
  {:block/name "widening",
   :block/created-at 1661514640598,
   :block/updated-at 1661924343029}

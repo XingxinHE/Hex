@@ -45,6 +45,17 @@ alias:: (Abstract) Simplicial Complex, (Geometric) Simplicial Complex
 	- Research shows connecting what already know to new concepts and ideas sharpens their focus and deepens their understanding.
 	- {{embed ((6348ad24-5fee-4b6f-838b-64d71ff6df08))}}
 - 🏷(Sub)Categories
+	- Simplicial $1$-Complexes & Simplicial $2$-Complexes
+		- > ==**Note⚠**==: Most of the time, **1-complexes** and **2-complexes** are 2 entities been researched the most. The former is called **graphs** which relates to [[Graph Machine Learning]], [[Graph Theory]], Space Syntax, etc. The later is called **[[triangle mesh]]**(trimesh) which relates to Architecture, design, manufacturing, everything!
+		- | simplicial k-complexes | alias         | notation      | Image                                                        |
+		  | ---------------------- | ------------- | ------------- | ------------------------------------------------------------ |
+		  | [[simplicial 1-complexes]] | graph         | $G = (V,E)$   | ![name](../assets/simplicial_1_complexes.png){:height 200 :width 200} |
+		  | [[simplicial 2-complexes]] | triangle mesh | $K = (V,E,F)$ | ![name](../assets/simplicial_2_complexes.png){:height 200 :width 200} |
+		- Notation above
+			- $V$ = vertices
+			- $E$ = edges
+			- $F$ = faces
+			- $K$ = komplex(in German)
 	- Orientation on Simplicial Complex
 		- > ==**Note⚠**== Note the distinction between an "**orientable** manifold" and an "**oriented** manifold," where the former implies the possibility of giving the manifold in question an orientation, while the latter implies that the manifold has already been given an orientation.
 		- Unorientable Simplicial Complex
@@ -63,17 +74,6 @@ alias:: (Abstract) Simplicial Complex, (Geometric) Simplicial Complex
 				- An oriented simplicial complex is composed by [oriented simplices](((88cc3933-a6ec-4333-9f4f-2defc94f7756))).
 			- 📈Diagram
 				- ![name](../assets/oriented_simplicial_complex.png){:height 300, :width 600}
-	- $1$-Complexes & $2$-Complexes
-		- Most of the time, **1-complexes** and **2-complexes** are 2 entities been researched the most. The former is called **graphs** which relates to [[Graph Machine Learning]], [[Graph Theory]], Space Syntax, etc. The later is called **[[triangle mesh]]**(trimesh) which relates to Architecture, design, manufacturing, everything!
-		- | simplicial k-complexes | alias         | notation      | Image                                                        |
-		  | ---------------------- | ------------- | ------------- | ------------------------------------------------------------ |
-		  | simplicial 1-complexes | graph         | $G = (V,E)$   | ![name](../assets/simplicial_1_complexes.png){:height 200 :width 200} |
-		  | simplicial 2-complexes | triangle mesh | $K = (V,E,F)$ | ![name](../assets/simplicial_2_complexes.png){:height 200 :width 200} |
-		- Notation above
-			- $V$ = vertices
-			- $E$ = edges
-			- $F$ = faces
-			- $K$ = komplex(in German)
 - 💫Operation
 	- Suppose $S$ is a given set of simplices, the following are the operations.
 	- Closure
