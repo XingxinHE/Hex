@@ -279,6 +279,7 @@
 		- An $m\times n$ matrix $A$ is square if $m>n$.
 	- 📌Wide Matrix
 		- An $m\times n$ matrix $A$ is square if $m<n$.
+	- 📌 [[Incidence Matrix]]
 	- 📌Minor of Matrix
 	  id:: 633d9813-fdd5-4bdb-9c25-a679185d1df8
 		- 📝Definition

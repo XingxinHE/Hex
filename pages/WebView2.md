@@ -6,6 +6,9 @@
 	- https://learn.microsoft.com/en-us/microsoft-edge/webview2/get-started/wpf
 - ⌨Sample Code
 	- [[WPF]] Simple Project
+		- Diagram
+			- Embed a browser in WPF!!
+			  ![name](../assets/webview2_wpf.png){:height 200, :width 200}
 		- XAML `MainWindow.xaml`
 			- ``` xaml
 			  <Window x:Class="WPF_Getting_Started.MainWindow"

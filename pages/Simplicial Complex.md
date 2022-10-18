@@ -14,6 +14,11 @@ alias:: (Abstract) Simplicial Complex, (Geometric) Simplicial Complex
 - ⛈Characteristics / Properties
 	- 📌Orientaion
 		- In terms of the ability of orientation, the property of simplicial complex lies on (1)==orientable== and (2)==unorientable==
+	- 📌 [[manifold]] ⭐⭐⭐
+		- 📝Definition
+		  id:: 7194425b-b12b-4200-a441-4a5e60af1270
+			- A simplicial $k$-complex is ***manifold*** if the [*link*](((634cb1d4-10c8-4101-ba78-6ca9f0d80a9d))) of every vertex looks like a $(k-1)$-dimensional sphere.
+			- ![name](../assets/manifold_k_simplicial_complex.png){:height 300, :width 600}
 - 🗃Example
 	- 📌Abstract Simplicial Complex—Example
 		- 💬Question: Consider the set $S:=$ {{1,2,🖤}, {2,🖤,🙂},{1,2},{2,🖤},{🖤,1},{2,🙂},{🖤,🙂},{1},{2},{🖤},{🙂}} Is this set an abstract simplicial complex? If so, what does it look like?
@@ -82,6 +87,7 @@ alias:: (Abstract) Simplicial Complex, (Geometric) Simplicial Complex
 		- 📈Diagram
 			- ![name](../assets/simplicial_complex_star.png){:height 300, :width 300}
 	- Link
+	  id:: 634cb1d4-10c8-4101-ba78-6ca9f0d80a9d
 		- 📝Definition
 			- ***Link*** $Lk(S)$ is equal to $Cl(St(S)) \backslash St(Cl(S))$ which means taking out the $star\space St(s)$ from $closure\space Cl(S)$. In the following diagram, $S$ is a vertex.
 		- 📈Diagram
