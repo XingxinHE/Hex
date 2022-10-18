@@ -1,0 +1,3 @@
+- 📝Definition
+	- The adjacency matrix, sometimes also called the connection matrix, of a simple labeled graph is a matrix with rows and columns labeled by graph vertices, with a $1$ or $0$ in position ($v_i,v_j$) according to whether $v_i$ and $v_j$ are adjacent or not.
+- TODO clarify with adjacency list

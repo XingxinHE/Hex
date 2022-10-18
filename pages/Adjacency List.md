@@ -1,7 +1,9 @@
 - 📝Definition
-	- The adjacency list representation of a [[Graph]] consists of $n$ lists one for each vertex $v_i$, $1\leq i\leq n$, which gives the vertices to which $v_i$ is adjacent.
+	- The adjacency matrix representation of a [[Graph]] consists of $n$ lists one for each vertex $v_i$, $1\leq i\leq n$, which gives the vertices to which $v_i$ is adjacent.
+	- The adjacency matrix, sometimes also called the connection matrix, of a simple labeled graph is a matrix with rows and columns labeled by graph vertices, with a $1$ or $0$ in position ($v_i,v_j$) according to whether $v_i$ and $v_j$ are adjacent or not.
 	- > ==**Note⚠**==: Adjacency List only stores top-dimensional [[simplices]]. For example, it only stores information of faces from a [[tetrahedron]]..
 	  ![name](../assets/Adjacency_List.png){:height 200, :width 200}
+	- TODO seems like the following diagram is a classic way of implementing Adjacency List.
 - 🎯Intent
 	- In [[Graph Theory]] and computer science, an adjacency list is a collection of unordered lists used to represent a finite graph.
 - 🚀Pros

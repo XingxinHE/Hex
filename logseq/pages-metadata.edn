@@ -117,7 +117,10 @@
   :block/updated-at 1661514640116}
  {:block/name "adjacency list",
   :block/created-at 1665998613340,
-  :block/updated-at 1665999087991}
+  :block/updated-at 1666084314800}
+ {:block/name "adjacency matrix",
+  :block/created-at 1666084074136,
+  :block/updated-at 1666084346431}
  {:block/name "adt",
   :block/created-at 1661514640115,
   :block/updated-at 1661514640115}
@@ -292,6 +295,9 @@
  {:block/name "coercion",
   :block/created-at 1661955570201,
   :block/updated-at 1661955570201}
+ {:block/name "comment",
+  :block/created-at 1666080695296,
+  :block/updated-at 1666080787266}
  {:block/name "common initialization syntax",
   :block/created-at 1661514639905,
   :block/updated-at 1661514639905}
@@ -711,7 +717,7 @@
   :block/updated-at 1661477999898}
  {:block/name "html",
   :block/created-at 1663995770452,
-  :block/updated-at 1663995770452}
+  :block/updated-at 1666080994192}
  {:block/name "ienumerable",
   :block/created-at 1661477998389,
   :block/updated-at 1661477998389}
@@ -918,7 +924,7 @@
   :block/updated-at 1663995768787}
  {:block/name "matrix",
   :block/created-at 1662738851786,
-  :block/updated-at 1666056761439}
+  :block/updated-at 1666081658822}
  {:block/name "matrix-vector multiplication",
   :block/created-at 1665059437177,
   :block/updated-at 1665059437177}
@@ -1264,6 +1270,9 @@
  {:block/name "sparse",
   :block/created-at 1663995769587,
   :block/updated-at 1663995769587}
+ {:block/name "sparse matrix",
+  :block/created-at 1666081426789,
+  :block/updated-at 1666081775007}
  {:block/name "sparsity",
   :block/created-at 1662739031580,
   :block/updated-at 1663139905755}
