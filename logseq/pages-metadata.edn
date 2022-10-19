@@ -120,10 +120,10 @@
   :block/updated-at 1661514640116}
  {:block/name "adjacency list",
   :block/created-at 1665998613340,
-  :block/updated-at 1666084314800}
+  :block/updated-at 1666148183944}
  {:block/name "adjacency matrix",
   :block/created-at 1666084074136,
-  :block/updated-at 1666084346431}
+  :block/updated-at 1666146340402}
  {:block/name "adt",
   :block/created-at 1661514640115,
   :block/updated-at 1661514640115}
@@ -277,6 +277,9 @@
  {:block/name "card",
   :block/created-at 1661004367895,
   :block/updated-at 1661004367895}
+ {:block/name "case-insensitive",
+  :block/created-at 1666155918083,
+  :block/updated-at 1666155918083}
  {:block/name "cauchy-schwarz-buniakowsky inequality",
   :block/created-at 1665618751670,
   :block/updated-at 1665618751670}
@@ -295,6 +298,9 @@
  {:block/name "class design",
   :block/created-at 1661955562819,
   :block/updated-at 1661955562819}
+ {:block/name "cmake",
+  :block/created-at 1666155757257,
+  :block/updated-at 1666173427249}
  {:block/name "code snippet",
   :block/created-at 1661308480660,
   :block/updated-at 1661308480660}
@@ -633,7 +639,7 @@
   :block/updated-at 1662382960818}
  {:block/name "finite automaton",
   :block/created-at 1663995771370,
-  :block/updated-at 1663995771370}
+  :block/updated-at 1666143295693}
  {:block/name "first derivative test",
   :block/created-at 1661308480963,
   :block/updated-at 1665369610640}
@@ -741,7 +747,7 @@
   :block/updated-at 1661004367896}
  {:block/name "incidence matrix",
   :block/created-at 1666020626614,
-  :block/updated-at 1666076779975}
+  :block/updated-at 1666147943436}
  {:block/name "indefinite integral",
   :block/created-at 1663995766498,
   :block/updated-at 1663995766498}
@@ -912,7 +918,7 @@
   :block/updated-at 1665391858834}
  {:block/name "logseq template",
   :block/created-at 1661004687578,
-  :block/updated-at 1665974231046}
+  :block/updated-at 1666156666215}
  {:block/name "lower bound",
   :block/created-at 1663995768969,
   :block/updated-at 1663995768969}

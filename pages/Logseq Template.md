@@ -150,7 +150,8 @@
 - # 🖨 Cheat Sheet / Common Stuffs
   template:: B-CommonStuff
 	- ...
-- # 🧱Structure
+- 🧱Structure
+  template:: B-Structure
 	- Any other hierarchical issues?
 - # 😷Symptoms
 	- A scenario that illustrates the benefit this object provides.

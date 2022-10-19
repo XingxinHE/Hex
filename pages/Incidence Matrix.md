@@ -1,7 +1,18 @@
 - 📝Definition
 	- The incidence matrix of a [[Graph]] gives the (0,1)-matrix which has a row for each vertex and column for each edge, and $(v,e)=1$ if and only if vertex $v$ is incident upon edge $e$. However, some authors define the incidence matrix to be the transpose of this, with a column for each vertex and a row for each edge.
+	- Let $G = (V, E)$ be a graph where $V = \{1, 2, . . . , n\}$ and $E = \{e_1, e_2, . . . , e_m\}$. The incidence matrix of $G$ is an $n\times m$ matrix $B = (b_{ik} )$, where each row corresponds to a vertex and each column corresponds to an edge such that if $ek$ is an edge between $i$ and $j$, then all elements of column $k$ are $0$ except $b_{ik} = b_{jk} = 1$.
 - 📈Diagram
 	- ![name](../assets/IncidenceMatrix_999.svg){:height 300, :width 500}
+- 🗃Example
+	- The Incidence Matrix of a Graph
+		- ![name](../assets/incidence_matrix_example.png){:height 100, :width 100}
+		- $$
+		  B=
+		  \begin{bmatrix}
+		  1&1&1\\1&0&0\\0&1&0\\0&0&1
+		  \end{bmatrix}
+		  $$
+	-
 - 🤳Applicability
 	- Incidence Matrix as Topological Data Structure
 		- 📝Definition
