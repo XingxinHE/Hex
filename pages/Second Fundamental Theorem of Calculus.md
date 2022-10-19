@@ -156,7 +156,6 @@ alias:: FTC2
 			- $$
 			  \frac{d}{dy} \int _{y}^{\sqrt{y}} \ln (t)\, dt \, =\,?
 			  $$
-		- 🏹Strategy: xxx
 		- ✏Solution
 			- Let $G(u)=\int _{a}^{u} \ln (t)\, dt\,$ for some constant $a>0$. Then
 				- $$

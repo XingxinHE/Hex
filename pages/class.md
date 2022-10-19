@@ -59,6 +59,7 @@
 - ## 🧱Structure
   Any other hierarchical issues?
 - # 🥘C++ Class Design Recipe
+  id:: 634ff997-ec73-4a8b-b1dc-8366bbbbfe7a
 	- Graphics
 		- Base Class
 			- Code

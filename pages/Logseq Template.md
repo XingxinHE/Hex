@@ -141,7 +141,7 @@
 - 🛠Analogy  
   template:: B-Analogy
 	- Research shows connecting what already know to new concepts and ideas sharpens their focus and deepens their understanding.
-- # 🥼Expert's Advice
+- 🥼Expert's Advice
   template:: B-ExpertsAdvice
 	- See what experts addressed.
 - 🗑Unorganized
@@ -161,6 +161,9 @@
 	- How the participants work together?
 - # 📈Consequences
 	- The trade-off and results.
+- 🥘Regular Recipe  
+  template:: B-Regular
+	- x
 - ### Item
   template:: Glossary Short Item
 	- 📝**Definition**: xxx
