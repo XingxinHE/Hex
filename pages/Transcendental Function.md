@@ -1,0 +1,7 @@
+- 📝Definition
+	- A function which is not an algebraic function. In other words, a function which "transcends," i.e., cannot be expressed in terms of, algebra. Examples of transcendental functions include the [[Exponential Function]] , [[Trigonometric Function]] , [[Logarithm]] and the inverse functions of both.
+- 🗃Example
+	- [[Error Function]]
+	- [Fresnel Integral](((634eaf44-14f8-45e4-aa28-c3f035f51224)))
+	- Here is another function that is used in [[Fourier Analysis]].
+		-

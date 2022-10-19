@@ -106,6 +106,9 @@
  {:block/name "a",
   :block/created-at 1661004367896,
   :block/updated-at 1661004367896}
+ {:block/name "a5fcf259-ffec-4b24-813b-1cc5b2537033",
+  :block/created-at 1666099675149,
+  :block/updated-at 1666099675149}
  {:block/name "absolute extremum",
   :block/created-at 1665358802852,
   :block/updated-at 1665358802852}
@@ -184,6 +187,9 @@
  {:block/name "august ferdinand möbius",
   :block/created-at 1665972597715,
   :block/updated-at 1665972674237}
+ {:block/name "augustin-jean fresnel",
+  :block/created-at 1666101048456,
+  :block/updated-at 1666101296443}
  {:block/name "auto",
   :block/created-at 1661514640837,
   :block/updated-at 1661514640837}
@@ -222,7 +228,7 @@
   :block/updated-at 1664241828996}
  {:block/name "bernhard riemann",
   :block/created-at 1665109909048,
-  :block/updated-at 1665124280889}
+  :block/updated-at 1666102774347}
  {:block/name "binary digits",
   :block/created-at 1663121263722,
   :block/updated-at 1663121263722}
@@ -456,7 +462,7 @@
   :block/updated-at 1661079005343}
  {:block/name "definite integral",
   :block/created-at 1665106199489,
-  :block/updated-at 1665196716332}
+  :block/updated-at 1666099675149}
  {:block/name "definition",
   :block/created-at 1661045889746,
   :block/updated-at 1663426949364}
@@ -571,6 +577,9 @@
  {:block/name "error",
   :block/created-at 1662083896278,
   :block/updated-at 1662095480695}
+ {:block/name "error function",
+  :block/created-at 1666100365294,
+  :block/updated-at 1666100474729}
  {:block/name "euclidean norm",
   :block/created-at 1663995768338,
   :block/updated-at 1663995768338}
@@ -630,7 +639,7 @@
   :block/updated-at 1665369610640}
  {:block/name "first fundamental theorem of calculus",
   :block/created-at 1665129252954,
-  :block/updated-at 1666013274400}
+  :block/updated-at 1666100365295}
  {:block/name "floating point",
   :block/created-at 1661955563133,
   :block/updated-at 1665109795014}
@@ -643,9 +652,15 @@
  {:block/name "for loop",
   :block/created-at 1662082045925,
   :block/updated-at 1662082356726}
+ {:block/name "fourier analysis",
+  :block/created-at 1666101424986,
+  :block/updated-at 1666101598710}
  {:block/name "free store",
   :block/created-at 1662011270376,
   :block/updated-at 1662011270376}
+ {:block/name "fresnel",
+  :block/created-at 1666101057358,
+  :block/updated-at 1666101057358}
  {:block/name "ftc1",
   :block/created-at 1665129639079,
   :block/updated-at 1665129639079}
@@ -1084,6 +1099,9 @@
  {:block/name "prime number",
   :block/created-at 1663995769212,
   :block/updated-at 1663995769212}
+ {:block/name "probability",
+  :block/created-at 1666099479341,
+  :block/updated-at 1666099479341}
  {:block/name "procedural programming paradigm",
   :block/created-at 1661477998770,
   :block/updated-at 1661477998770}
@@ -1363,6 +1381,9 @@
  {:block/name "tr1",
   :block/created-at 1661083588976,
   :block/updated-at 1661084794145}
+ {:block/name "transcendental function",
+  :block/created-at 1666096008970,
+  :block/updated-at 1666101426222}
  {:block/name "translation",
   :block/created-at 1661878141592,
   :block/updated-at 1661878141592}

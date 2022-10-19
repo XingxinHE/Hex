@@ -73,6 +73,8 @@
 	- 📌Caution on substitution
 	  id:: 6340c9be-72a7-4416-aa3f-38db07a094ea
 		- When we use the method of substitution, we need to be very careful about when $u'$ (or $du$) changes sign. If $u'$ changes sign within the integration interval $[a,b]$, the method of substitution may give the wrong answer. In this case, we need to first rewrite the integral as a sum of two integrals such that within the limits of each integral $u'$ does not change sign, and then use the method of substitution on each integral separately.
+- 🤳Applicability
+	- {{embed ((a5fcf259-ffec-4b24-813b-1cc5b2537033))}}
 - # 🗃Example
 	- 📌example demonstrating [the estimation and inequality](((f49a6abe-8012-4bc1-a696-0e74ef00193e)))
 		- Prerequisite
