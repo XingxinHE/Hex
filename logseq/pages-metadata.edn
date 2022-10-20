@@ -300,7 +300,7 @@
   :block/updated-at 1661955562819}
  {:block/name "cmake",
   :block/created-at 1666155757257,
-  :block/updated-at 1666191615492}
+  :block/updated-at 1666258313507}
  {:block/name "code snippet",
   :block/created-at 1661308480660,
   :block/updated-at 1661308480660}
@@ -918,7 +918,7 @@
   :block/updated-at 1665391858834}
  {:block/name "logseq template",
   :block/created-at 1661004687578,
-  :block/updated-at 1666190849028}
+  :block/updated-at 1666245295673}
  {:block/name "lower bound",
   :block/created-at 1663995768969,
   :block/updated-at 1663995768969}
