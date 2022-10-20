@@ -402,4 +402,5 @@
 			- Assignment
 		- ### 📖Reading
 			- Chapter 02 Combinatorial Surfaces
+				- [[Affine Independence]], [[Affine Dependence]]
 				- [[Convex Set]], [[Convex Hull]], [[Simplex]], [[Barycentric Coordinates]]

@@ -53,6 +53,40 @@ alias:: FTC1
 			  $$
 		- We see that the FTC1 gives a specific value for $\frac{\Delta F}{\Delta x}$, the average rate of change of $F$ over $[a,b]$, but the MVT does not, since it does not tell us where $c$ is.
 		- Therefore, the First Fundamental Theorem much more useful than the Mean Value Theorem. Once we have FTC1 at our disposal, we do not need to use MVT anymore. Nonetheless, the Mean Value Theorem is important as the basis of calculus. We needed it to establish the fact that two antiderivatives of the same function can only differ by a constant. We will need this fact again in order to prove FTC1 in the next section.
+- 📏Proof
+	- Proof of FTC1
+		- 📋Prerequisite
+			- Recall the statement of FTC1: Given a differentiable function $F$ with continuous derivative $F'=f$,
+				- $$
+				  \int _{a}^{b} f(x) \,  dx \, =\, F(b)- F(a).
+				  $$
+		- ✏Steps
+			- First, define
+				- $$
+				  G(x)=\int _{a}^{x} f(t)\, dt.
+				  $$
+			- Note that $G(x)$ makes sense as the limit of Riemann sums.
+			- Second, since $f$ is continuous, the FTC2 says that
+				- $$
+				  G'=f
+				  $$
+			- Now, since $F'=f$, and $G'=f$, both $F$ and $G$ are antiderivatives of $f$. Therefore, as a consequence of the [[Mean Value Theorem]],
+				- $$
+				  F'(x)\, =\, G'(x)\Rightarrow F(x)\, =\, G(x)+C
+				  $$
+				- where $C$ is a constant.
+			- Finally, we compute $F(b)-F(a)$ in terms of $G$:
+				- $$
+				  \begin{align}
+				  F(b)-F(a)&=(G(b)+C)\, -\, (G(a)+C)\\&=G(b)-G(a)\\&=\int _{a}^{b} f(t)\, dt- \int _{a}^{a} f(t)\, dt\qquad (\text{Definition of}\, \, G)\\
+				  &=\int _{a}^{b} f(t)\, dt - 0\\&=\int _{a}^{b} f(t)\, dt.
+				  \end{align}
+				  $$
+			- Therefore,
+				- $$
+				  \int _{a}^{b} f(t)\, dt=F(b)-F(a)
+				  $$
+				- This is the statement of FTC1, even though the integration variable is renamed $t$.
 - # 🗃Example
 	- 📌travelling in <u>one direction</u>
 		- Scenario
@@ -113,3 +147,52 @@ alias:: FTC1
 				  $$
 		- Notice that this equality is consistent with the interpretation of definite integrals as the area under curves. Both of these integral equal the area under one hump of the sine or cosine curve, shaded in the figure below.
 			- ![name](../assets/images_ftc1_sincoshump.svg){:height 200, :width 400}
+- 🤳Applicability
+	- 📌Constructing functions([[Transcendental Function]]) using integrals
+	  id:: a5fcf259-ffec-4b24-813b-1cc5b2537033
+		- 🧠Intuition
+			- Using definite integral to create some function you can express in other tools.
+		- Process
+			- Recall the FTC2 gives the integral formula
+				- $$
+				  G(x) = \int _{a}^{x} f(t) \,  dt,
+				  $$
+			- as the solution to the following differential equation and initial condition:
+				- $$
+				  \begin{align}
+				  y'&=f &(\text{differential equation})\\
+				  y(a)&=0&(\text{initial condition})
+				  \end{align}
+				  $$
+			- Depending on what the [[Differential Equation]] is, $G(x)$ can be a function we already know. An example is that.
+				- $$
+				  L(x)=\int _{1}^{x} \frac{dt}{t}=\ln(x)\quad(x>0)
+				  $$
+				- > ==**Note⚠**==: e.g. we know rational function but we don't know logarithm function since logarithm is something out of our common sense. That's how our ancestors found them!
+			- Notice that while the integrand $\frac{1}{t}$ is a ratio of two polynomials,  cannot be written in terms of polynomials using algebraic operations $+,-,\cdot ,\div,\sqrt[n]{}$. It is an example of a “transcendental" function, a function that “transcends" algebra.
+			- On the other hand, the solution that FTC2 gives for another differential equation may be a function that cannot be expressed (without an integral) in terms of any function we already know. For example,
+				- $$
+				  F(x)=\int _{0}^{x} e^{-t^2} \,  dt
+				  $$
+			- is the solution to
+				- $$
+				  \begin{align}
+				  y'&=e^{-x^2} &(\text{differential equation})\\
+				  y(0)&=0&(\text{initial condition})
+				  \end{align}
+				  $$
+				- ![name](../assets/images_ftc2_bell.svg){:height 200, :width 300}
+				  Geometrically, $F(x) = \int _{0}^{x} e^{-t^2} \,  dt = \text{Area of shaded region}.$
+			- Using the first and second derivatives of , we sketched the graph of $F$ as shown below.
+				- ![name](../assets/images_ftc2_bellintegral.svg){:height 200, :width 250}
+			- Properties of $F$
+				- $F$ is odd: $F(-x)=-F(x)$
+				- $\lim _{x\rightarrow \infty } F(x)= \frac{\sqrt{\pi }}{2};\lim _{x\rightarrow -\infty } F(x)= \frac{-\sqrt{\pi }}{2}$
+			- Graph of $F$
+				- ![name](../assets/images_ftc2_bellinfinite.svg){:height 200, :width 200}
+				- The graph of $F$ has two horizontal asymptotes at $y=\frac{\sqrt{\pi }}{2}$ and $y=-\frac{\sqrt{\pi }}{2}$.
+				- ![name](../assets/images_ftc2_bellintegraly.svg){:height 200, :width 200}
+			- This function is known as [[Error Function]] and it is used extensively in [[probability]].
+		- Summary
+			- Even though we may not have explicit formulas for these functions defined by integral formulas, we can apply FTC2 to find their derivatives. Therefore, we have all of our usual tools at our disposal. For example, we can graph them, or approximate them by linear and quadratic approximations.
+		-

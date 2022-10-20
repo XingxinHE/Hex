@@ -268,10 +268,7 @@
 		  0 & 0 & 0 & 1 
 		  \end{bmatrix}
 		  $$
-	- 📌Sparse Matrix
-		- Most entries are $0$.
-		- can be stored and manipulated efficiently
-		- $\bold{nnz}(A)$ is number of nonzero entries
+	- 📌 [[Sparse Matrix]]
 	- 📌Square Matrix
 	  id:: 633d8a19-ed4c-4dba-9b83-a0e5942979b7
 		- An $m\times n$ matrix $A$ is square if $m=n$.
@@ -279,6 +276,7 @@
 		- An $m\times n$ matrix $A$ is square if $m>n$.
 	- 📌Wide Matrix
 		- An $m\times n$ matrix $A$ is square if $m<n$.
+	- 📌 [[Incidence Matrix]]
 	- 📌Minor of Matrix
 	  id:: 633d9813-fdd5-4bdb-9c25-a679185d1df8
 		- 📝Definition

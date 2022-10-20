@@ -138,7 +138,10 @@
 - 🐍Algorithm
   template:: B-Algorithm
 	- Algorithm relates to this stuff..
-- # 🥼Expert's Advice
+- 🛠Analogy  
+  template:: B-Analogy
+	- Research shows connecting what already know to new concepts and ideas sharpens their focus and deepens their understanding.
+- 🥼Expert's Advice
   template:: B-ExpertsAdvice
 	- See what experts addressed.
 - 🗑Unorganized
@@ -147,7 +150,8 @@
 - # 🖨 Cheat Sheet / Common Stuffs
   template:: B-CommonStuff
 	- ...
-- # 🧱Structure
+- 🧱Structure
+  template:: B-Structure
 	- Any other hierarchical issues?
 - # 😷Symptoms
 	- A scenario that illustrates the benefit this object provides.
@@ -157,6 +161,9 @@
 	- How the participants work together?
 - # 📈Consequences
 	- The trade-off and results.
+- 🥘Regular Recipe  
+  template:: B-Regular
+	- x
 - ### Item
   template:: Glossary Short Item
 	- 📝**Definition**: xxx
@@ -218,3 +225,9 @@
 	- 🏹Strategy: xxx
 	- ✏Solution: xxx
 	- 📈Diagram
+- template:: Note and Warning Template
+  > ==**Note⚠**==: What should be aware!
+- template:: cmake_command_template
+	- 📝Description:
+	- ⌨Syntax:
+	- 🥚Example:

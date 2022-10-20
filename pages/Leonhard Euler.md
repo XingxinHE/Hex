@@ -1,5 +1,13 @@
 alias:: Euler
 
+# Euler Characteristic
+id:: 634e3b2d-a1b3-4803-9236-d18373f2c133
+	- 📝Definition
+		- Let a closed surface have genus $g$. Then the polyhedral formula generalizes to the [Poincaré formula](https://mathworld.wolfram.com/PoincareFormula.html)
+			- $$
+			  \chi(g)=V-E+F, 
+			  $$
+		- where $\chi(g)=2-2g$ is the Euler characteristic, sometimes also known as the Euler-Poincaré characteristic. The [polyhedral formula](https://mathworld.wolfram.com/PolyhedralFormula.html) corresponds to the special case $g=0$
 - # Euler's Method
 	- ## 📝Definition
 		- Given the differential equation :

@@ -1,5 +1,12 @@
 alias:: Riemann
 
+- # Riemann Hypothesis
+	- 📝Definition
+		- The function
+			- $$
+			  Li(x)=\int _{2}^{x} \frac{dt}{\ln (t)}
+			  $$
+		- approximates the number of [[Prime Number]]s smaller than $x$ and is related to what is known as the Riemann Hypothesis.
 - # Riemann sums
   id:: 633f8f9f-c0b3-4d71-abf1-bc74283f85c2
 	- ## 🎯Intent
@@ -164,6 +171,17 @@ alias:: Riemann
 					  \end{align}
 					  $$
 					- This is the right Riemann sum of $\displaystyle \int _{0}^{1} \left(x^2+3x+9\sin (x)\right)\, dx$.
+			- 📌Evaluate the following limit by relating it to a Riemann sum.
+				- 💬Question
+					- $$
+					  \lim _{n\to \infty } \frac{\sin \left(\frac{b}{n}\right) + \sin \left(\frac{2b}{n}\right) + \cdots +\sin \left(\frac{(n-1)b}{n}\right)+ \sin (b)}n\  =\, \,?
+					  $$
+				- 🏹Strategy: Identify the sum of $n$ share of $\frac{1}{n}$ is actually $\int_0^1$.
+				- ✏Solution
+					- The limit is of the right Riemann sum for the integral.
+					- $$
+					  \left.\int _0^1 \sin (bx)\,  dx\  =\  -\frac{1}{b}\cos (bx)\, \right|_{0}^1\  =\  \frac{1 -\cos (b)}{b}.
+					  $$
 	- ## 🏷(Sub)Categories
 		- ### left Riemann Sum
 			- If we pick $c_i$ to be the left endpoint of the $i^{th}$ subinterval, the Riemann sum is called a left Riemann Sum.

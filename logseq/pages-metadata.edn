@@ -22,9 +22,15 @@
  {:block/name "2021",
   :block/created-at 1661955565584,
   :block/updated-at 1661955565584}
+ {:block/name "28012548-e918-478b-8a20-78c5d51e7588",
+  :block/created-at 1666073069639,
+  :block/updated-at 1666073069639}
  {:block/name "3bb74380-8fbf-479f-b41c-6f4a01d4361f",
   :block/created-at 1663995766972,
   :block/updated-at 1663995766972}
+ {:block/name "54d8471c-1468-4200-848c-878dd479f50e",
+  :block/created-at 1666070324825,
+  :block/updated-at 1666070324825}
  {:block/name "63044ce2-d814-454d-a4c3-f51cc3da638b",
   :block/created-at 1665471903494,
   :block/updated-at 1665471903494}
@@ -79,9 +85,15 @@
  {:block/name "63477037-0c5c-4886-9751-b67f7aa1de7b",
   :block/created-at 1665626418196,
   :block/updated-at 1665626418196}
+ {:block/name "6348ad24-5fee-4b6f-838b-64d71ff6df08",
+  :block/created-at 1665707511204,
+  :block/updated-at 1665707511204}
  {:block/name "70a7387e-cbc7-4d58-89ad-bea004d77bb4",
   :block/created-at 1665471902390,
   :block/updated-at 1665471902390}
+ {:block/name "7194425b-b12b-4200-a441-4a5e60af1270",
+  :block/created-at 1666070692349,
+  :block/updated-at 1666070692349}
  {:block/name "825bc6fa-9ac8-4bb3-8dc4-2f5bad543c19",
   :block/created-at 1664241829054,
   :block/updated-at 1664241829054}
@@ -94,6 +106,9 @@
  {:block/name "a",
   :block/created-at 1661004367896,
   :block/updated-at 1661004367896}
+ {:block/name "a5fcf259-ffec-4b24-813b-1cc5b2537033",
+  :block/created-at 1666099675149,
+  :block/updated-at 1666099675149}
  {:block/name "absolute extremum",
   :block/created-at 1665358802852,
   :block/updated-at 1665358802852}
@@ -103,15 +118,33 @@
  {:block/name "abstract data type",
   :block/created-at 1661514640116,
   :block/updated-at 1661514640116}
+ {:block/name "adjacency list",
+  :block/created-at 1665998613340,
+  :block/updated-at 1666148183944}
+ {:block/name "adjacency matrix",
+  :block/created-at 1666084074136,
+  :block/updated-at 1666146340402}
  {:block/name "adt",
   :block/created-at 1661514640115,
   :block/updated-at 1661514640115}
+ {:block/name "affine dependence",
+  :block/created-at 1665969632973,
+  :block/updated-at 1665969632973}
  {:block/name "affine function",
   :block/created-at 1663995766223,
   :block/updated-at 1663995766223}
+ {:block/name "affine independence",
+  :block/created-at 1665969633015,
+  :block/updated-at 1665969633015}
  {:block/name "affine set",
   :block/created-at 1665619190448,
   :block/updated-at 1665620925030}
+ {:block/name "affinely dependent",
+  :block/created-at 1665969632984,
+  :block/updated-at 1665969632984}
+ {:block/name "affinely independent",
+  :block/created-at 1665969633019,
+  :block/updated-at 1665969633019}
  {:block/name "algebra",
   :block/created-at 1661571295750,
   :block/updated-at 1661571345579}
@@ -151,6 +184,12 @@
  {:block/name "asymptotics",
   :block/created-at 1661477997052,
   :block/updated-at 1661500667480}
+ {:block/name "august ferdinand möbius",
+  :block/created-at 1665972597715,
+  :block/updated-at 1665972674237}
+ {:block/name "augustin-jean fresnel",
+  :block/created-at 1666101048456,
+  :block/updated-at 1666101296443}
  {:block/name "auto",
   :block/created-at 1661514640837,
   :block/updated-at 1661514640837}
@@ -180,7 +219,7 @@
   :block/updated-at 1665625228840}
  {:block/name "barycentric coordinates",
   :block/created-at 1665625184425,
-  :block/updated-at 1665626372878}
+  :block/updated-at 1665705847112}
  {:block/name "base class",
   :block/created-at 1661477997201,
   :block/updated-at 1663578777171}
@@ -189,7 +228,7 @@
   :block/updated-at 1664241828996}
  {:block/name "bernhard riemann",
   :block/created-at 1665109909048,
-  :block/updated-at 1665124280889}
+  :block/updated-at 1666102774347}
  {:block/name "binary digits",
   :block/created-at 1663121263722,
   :block/updated-at 1663121263722}
@@ -238,6 +277,9 @@
  {:block/name "card",
   :block/created-at 1661004367895,
   :block/updated-at 1661004367895}
+ {:block/name "case-insensitive",
+  :block/created-at 1666155918083,
+  :block/updated-at 1666155918083}
  {:block/name "cauchy-schwarz-buniakowsky inequality",
   :block/created-at 1665618751670,
   :block/updated-at 1665618751670}
@@ -256,12 +298,18 @@
  {:block/name "class design",
   :block/created-at 1661955562819,
   :block/updated-at 1661955562819}
+ {:block/name "cmake",
+  :block/created-at 1666155757257,
+  :block/updated-at 1666258313507}
  {:block/name "code snippet",
   :block/created-at 1661308480660,
   :block/updated-at 1661308480660}
  {:block/name "coercion",
   :block/created-at 1661955570201,
   :block/updated-at 1661955570201}
+ {:block/name "comment",
+  :block/created-at 1666080695296,
+  :block/updated-at 1666080787266}
  {:block/name "common initialization syntax",
   :block/created-at 1661514639905,
   :block/updated-at 1661514639905}
@@ -397,6 +445,9 @@
  {:block/name "data structure",
   :block/created-at 1661514639980,
   :block/updated-at 1663688066057}
+ {:block/name "dcel",
+  :block/created-at 1665993992204,
+  :block/updated-at 1665993992204}
  {:block/name "ddg",
   :block/created-at 1661478349739,
   :block/updated-at 1661478349739}
@@ -417,7 +468,7 @@
   :block/updated-at 1661079005343}
  {:block/name "definite integral",
   :block/created-at 1665106199489,
-  :block/updated-at 1665196716332}
+  :block/updated-at 1666099675149}
  {:block/name "definition",
   :block/created-at 1661045889746,
   :block/updated-at 1663426949364}
@@ -496,6 +547,9 @@
  {:block/name "double",
   :block/created-at 1661955563134,
   :block/updated-at 1662039886597}
+ {:block/name "doubly connected edge list",
+  :block/created-at 1665993992203,
+  :block/updated-at 1665993992203}
  {:block/name "dry",
   :block/created-at 1661999361031,
   :block/updated-at 1661999361031}
@@ -529,6 +583,9 @@
  {:block/name "error",
   :block/created-at 1662083896278,
   :block/updated-at 1662095480695}
+ {:block/name "error function",
+  :block/created-at 1666100365294,
+  :block/updated-at 1666100474729}
  {:block/name "euclidean norm",
   :block/created-at 1663995768338,
   :block/updated-at 1663995768338}
@@ -582,13 +639,13 @@
   :block/updated-at 1662382960818}
  {:block/name "finite automaton",
   :block/created-at 1663995771370,
-  :block/updated-at 1663995771370}
+  :block/updated-at 1666143295693}
  {:block/name "first derivative test",
   :block/created-at 1661308480963,
   :block/updated-at 1665369610640}
  {:block/name "first fundamental theorem of calculus",
   :block/created-at 1665129252954,
-  :block/updated-at 1665546806119}
+  :block/updated-at 1666100365295}
  {:block/name "floating point",
   :block/created-at 1661955563133,
   :block/updated-at 1665109795014}
@@ -601,9 +658,15 @@
  {:block/name "for loop",
   :block/created-at 1662082045925,
   :block/updated-at 1662082356726}
+ {:block/name "fourier analysis",
+  :block/created-at 1666101424986,
+  :block/updated-at 1666101598710}
  {:block/name "free store",
   :block/created-at 1662011270376,
   :block/updated-at 1662011270376}
+ {:block/name "fresnel",
+  :block/created-at 1666101057358,
+  :block/updated-at 1666101057358}
  {:block/name "ftc1",
   :block/created-at 1665129639079,
   :block/updated-at 1665129639079}
@@ -621,7 +684,7 @@
   :block/updated-at 1661081905019}
  {:block/name "git",
   :block/created-at 1663995767762,
-  :block/updated-at 1663995767762}
+  :block/updated-at 1666078404289}
  {:block/name "global extremum",
   :block/created-at 1665358802836,
   :block/updated-at 1665365307594}
@@ -642,10 +705,19 @@
   :block/updated-at 1665049461737}
  {:block/name "graph",
   :block/created-at 1663995767915,
-  :block/updated-at 1664701758490}
+  :block/updated-at 1666073230453}
+ {:block/name "graph machine learning",
+  :block/created-at 1666073892064,
+  :block/updated-at 1666073892064}
+ {:block/name "graph theory",
+  :block/created-at 1665707842158,
+  :block/updated-at 1665707842158}
  {:block/name "gui",
   :block/created-at 1663995770451,
   :block/updated-at 1663995770451}
+ {:block/name "half edge data structure",
+  :block/created-at 1665993733847,
+  :block/updated-at 1665996731380}
  {:block/name "hash table",
   :block/created-at 1661084794143,
   :block/updated-at 1661084794143}
@@ -666,13 +738,16 @@
   :block/updated-at 1661477999898}
  {:block/name "html",
   :block/created-at 1663995770452,
-  :block/updated-at 1663995770452}
+  :block/updated-at 1666080994192}
  {:block/name "ienumerable",
   :block/created-at 1661477998389,
   :block/updated-at 1661477998389}
  {:block/name "in-progress",
   :block/created-at 1661004367896,
   :block/updated-at 1661004367896}
+ {:block/name "incidence matrix",
+  :block/created-at 1666020626614,
+  :block/updated-at 1666147943436}
  {:block/name "indefinite integral",
   :block/created-at 1663995766498,
   :block/updated-at 1663995766498}
@@ -768,7 +843,7 @@
   :block/updated-at 1661532258535}
  {:block/name "leonhard euler",
   :block/created-at 1664415110955,
-  :block/updated-at 1664730218151}
+  :block/updated-at 1666071556414}
  {:block/name "lexical analysis",
   :block/created-at 1662342945070,
   :block/updated-at 1662342945070}
@@ -843,7 +918,7 @@
   :block/updated-at 1665391858834}
  {:block/name "logseq template",
   :block/created-at 1661004687578,
-  :block/updated-at 1665491679816}
+  :block/updated-at 1666245295673}
  {:block/name "lower bound",
   :block/created-at 1663995768969,
   :block/updated-at 1663995768969}
@@ -852,7 +927,7 @@
   :block/updated-at 1661514639604}
  {:block/name "manifold",
   :block/created-at 1661478883849,
-  :block/updated-at 1661478883849}
+  :block/updated-at 1666074008271}
  {:block/name "map",
   :block/created-at 1661955564071,
   :block/updated-at 1661955564071}
@@ -870,7 +945,7 @@
   :block/updated-at 1663995768787}
  {:block/name "matrix",
   :block/created-at 1662738851786,
-  :block/updated-at 1665468266360}
+  :block/updated-at 1666081658822}
  {:block/name "matrix-vector multiplication",
   :block/created-at 1665059437177,
   :block/updated-at 1665059437177}
@@ -895,6 +970,12 @@
  {:block/name "minimum",
   :block/created-at 1661621803384,
   :block/updated-at 1661621803384}
+ {:block/name "mobius band",
+  :block/created-at 1665972674230,
+  :block/updated-at 1665972674230}
+ {:block/name "mobius strip",
+  :block/created-at 1665972674230,
+  :block/updated-at 1665972674230}
  {:block/name "model of computation",
   :block/created-at 1663121263337,
   :block/updated-at 1663121263337}
@@ -907,6 +988,12 @@
  {:block/name "mvvm",
   :block/created-at 1663995769162,
   :block/updated-at 1663995769162}
+ {:block/name "möbius band",
+  :block/created-at 1665972674229,
+  :block/updated-at 1665972674229}
+ {:block/name "möbius strip",
+  :block/created-at 1665972674229,
+  :block/updated-at 1665972674229}
  {:block/name "namespace",
   :block/created-at 1662342945190,
   :block/updated-at 1662342945190}
@@ -919,9 +1006,15 @@
  {:block/name "narrowing conversion",
   :block/created-at 1661955564911,
   :block/updated-at 1661955564911}
+ {:block/name "non-manifold geometry",
+  :block/created-at 1665969633199,
+  :block/updated-at 1665969633199}
  {:block/name "non-type specifier",
   :block/created-at 1661089516036,
   :block/updated-at 1661090183550}
+ {:block/name "nonmanifold",
+  :block/created-at 1665969633158,
+  :block/updated-at 1666070324826}
  {:block/name "norm",
   :block/created-at 1663995769182,
   :block/updated-at 1664703600688}
@@ -1012,6 +1105,9 @@
  {:block/name "prime number",
   :block/created-at 1663995769212,
   :block/updated-at 1663995769212}
+ {:block/name "probability",
+  :block/created-at 1666099479341,
+  :block/updated-at 1666099479341}
  {:block/name "procedural programming paradigm",
   :block/created-at 1661477998770,
   :block/updated-at 1661477998770}
@@ -1149,7 +1245,7 @@
   :block/updated-at 1665369549726}
  {:block/name "second fundamental theorem of calculus",
   :block/created-at 1665200203393,
-  :block/updated-at 1665546823966}
+  :block/updated-at 1666185717377}
  {:block/name "sequence",
   :block/created-at 1663995767904,
   :block/updated-at 1663995767904}
@@ -1167,13 +1263,19 @@
   :block/updated-at 1661047125739}
  {:block/name "simplex",
   :block/created-at 1664241829922,
-  :block/updated-at 1665627009683}
+  :block/updated-at 1665985393074}
  {:block/name "simplices",
   :block/created-at 1665626959630,
   :block/updated-at 1665626959630}
+ {:block/name "simplicial 1-complexes",
+  :block/created-at 1666073230451,
+  :block/updated-at 1666073230451}
+ {:block/name "simplicial 2-complexes",
+  :block/created-at 1666073161782,
+  :block/updated-at 1666073161782}
  {:block/name "simplicial complex",
   :block/created-at 1665626792928,
-  :block/updated-at 1665627569817}
+  :block/updated-at 1666073917037}
  {:block/name "singular point",
   :block/created-at 1665471901560,
   :block/updated-at 1665471901560}
@@ -1192,6 +1294,9 @@
  {:block/name "sparse",
   :block/created-at 1663995769587,
   :block/updated-at 1663995769587}
+ {:block/name "sparse matrix",
+  :block/created-at 1666081426789,
+  :block/updated-at 1666081775007}
  {:block/name "sparsity",
   :block/created-at 1662739031580,
   :block/updated-at 1663139905755}
@@ -1252,6 +1357,9 @@
  {:block/name "template",
   :block/created-at 1661913899751,
   :block/updated-at 1661916214928}
+ {:block/name "tetrahedron",
+  :block/created-at 1665999075924,
+  :block/updated-at 1665999075924}
  {:block/name "the auto type specifier",
   :block/created-at 1661308481496,
   :block/updated-at 1661492523552}
@@ -1273,9 +1381,15 @@
  {:block/name "todo",
   :block/created-at 1661004367896,
   :block/updated-at 1661004367896}
+ {:block/name "topological disk",
+  :block/created-at 1665969633240,
+  :block/updated-at 1665969633240}
  {:block/name "tr1",
   :block/created-at 1661083588976,
   :block/updated-at 1661084794145}
+ {:block/name "transcendental function",
+  :block/created-at 1666096008970,
+  :block/updated-at 1666101426222}
  {:block/name "translation",
   :block/created-at 1661878141592,
   :block/updated-at 1661878141592}
@@ -1291,6 +1405,9 @@
  {:block/name "triangle inequality",
   :block/created-at 1665618751775,
   :block/updated-at 1665618751775}
+ {:block/name "triangle mesh",
+  :block/created-at 1665707872530,
+  :block/updated-at 1666073161784}
  {:block/name "trigonometric function",
   :block/created-at 1665471901774,
   :block/updated-at 1665542719021}
@@ -1333,6 +1450,9 @@
  {:block/name "unit circle",
   :block/created-at 1665618751814,
   :block/updated-at 1665618751814}
+ {:block/name "unit disk",
+  :block/created-at 1665969633299,
+  :block/updated-at 1665969633299}
  {:block/name "upper and lower bound",
   :block/created-at 1663995769908,
   :block/updated-at 1663995769908}
@@ -1372,6 +1492,9 @@
  {:block/name "waiting",
   :block/created-at 1661004367895,
   :block/updated-at 1661004367895}
+ {:block/name "webview2",
+  :block/created-at 1665992496491,
+  :block/updated-at 1666058731870}
  {:block/name "widening",
   :block/created-at 1661514640598,
   :block/updated-at 1661924343029}
