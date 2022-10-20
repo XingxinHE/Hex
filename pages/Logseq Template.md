@@ -227,3 +227,7 @@
 	- 📈Diagram
 - template:: Note and Warning Template
   > ==**Note⚠**==: What should be aware!
+- template:: cmake_command_template
+	- 📝Description:
+	- ⌨Syntax:
+	- 🥚Example:
