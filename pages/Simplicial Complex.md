@@ -12,8 +12,31 @@ alias:: (Abstract) Simplicial Complex, (Geometric) Simplicial Complex
 			- the left is *with* coordinates and the right is *without* coordinates in the perspective of [torch_geometric.data.Data](https://pytorch-geometric.readthedocs.io/en/latest/modules/data.html#torch_geometric.data.Data).
 			- the left as "**fabrication**" which requires everything lines up while the right as "**connectivity**" only.
 - ⛈Characteristics / Properties
-	- 📌Orientaion
-		- In terms of the ability of orientation, the property of simplicial complex lies on (1)==orientable== and (2)==unorientable==
+	- 📌Orientation on Simplicial Complex
+	  id:: 634ff995-0c5f-4c6d-bcb4-cb0669206cba
+		- 🧬Related Elements
+			- For the orientation in [[simplices]], see [here](((88cc3933-a6ec-4333-9f4f-2defc94f7756))).
+		- 📝Definition
+			- In terms of the ability of orientation, the property of simplicial complex lies on (1)==orientable== and (2)==unorientable==.
+		- > ==**Note on wording⚠**== Note the distinction between an "**orientable** manifold" and an "**oriented** manifold," where the former implies the possibility of giving the manifold in question an orientation, while the latter implies that the manifold has already been given an orientation.
+		- id:: 63535aaf-3005-40c0-b6cf-64b75ae5f45e
+		  > ==**Note on convention⚠**==: By convention, the vertices of face are *ordered* counter-clockwise around the triangle. Using the right-hand rule, we can define the normal of each triangle as the vector that points *most away* from the surface. ![name](../assets/right-hand-rule.svg){:height 200, :width 200}
+		- Unorientable Simplicial Complex
+			- 📝Definition
+				- Unorientable simplicial complex is the opposite. The famous [[Möbius Band]] is one of the cases.
+			- 📈Diagram
+				- ![name](../assets/unorientable_mobius_band.png){:height 300, :width 300}
+		- Orientable Simplicial Complex
+			- 📝Definition
+				- Orientable simplicial complex is an abstract simplicial complex where we can assign a **consistent orientation** to every triangle.
+		- Oriented Simplicial Complex
+		  id:: 634cd03e-8b16-4c78-912c-ff12ad1dc136
+			- 📝Definition
+				- An ***oriented simplicial complex*** is a simplicial complex where each [[Simplex]] is assigned an orientation.
+			- 🧪Composition
+				- An oriented simplicial complex is composed by [oriented simplices](((88cc3933-a6ec-4333-9f4f-2defc94f7756))).
+			- 📈Diagram
+				- ![name](../assets/oriented_simplicial_complex.png){:height 300, :width 600}
 	- 📌 [[manifold]] ⭐⭐⭐
 		- 📝Definition
 		  id:: 7194425b-b12b-4200-a441-4a5e60af1270
@@ -56,24 +79,6 @@ alias:: (Abstract) Simplicial Complex, (Geometric) Simplicial Complex
 			- $E$ = edges
 			- $F$ = faces
 			- $K$ = komplex(in German)
-	- Orientation on Simplicial Complex
-		- > ==**Note⚠**== Note the distinction between an "**orientable** manifold" and an "**oriented** manifold," where the former implies the possibility of giving the manifold in question an orientation, while the latter implies that the manifold has already been given an orientation.
-		- Unorientable Simplicial Complex
-			- 📝Definition
-				- Unorientable simplicial complex is the opposite. The famous [[Möbius Band]] is one of the cases.
-			- 📈Diagram
-				- ![name](../assets/unorientable_mobius_band.png){:height 300, :width 300}
-		- Orientable Simplicial Complex
-			- 📝Definition
-				- Orientable simplicial complex is an abstract simplicial complex where we can assign a **consistent orientation** to every triangle.
-		- Oriented Simplicial Complex
-		  id:: 634cd03e-8b16-4c78-912c-ff12ad1dc136
-			- 📝Definition
-				- An ***oriented simplicial complex*** is a simplicial complex where each [[Simplex]] is assigned an orientation.
-			- 🧪Composition
-				- An oriented simplicial complex is composed by [oriented simplices](((88cc3933-a6ec-4333-9f4f-2defc94f7756))).
-			- 📈Diagram
-				- ![name](../assets/oriented_simplicial_complex.png){:height 300, :width 600}
 - 💫Operation
 	- Suppose $S$ is a given set of simplices, the following are the operations.
 	- Closure

@@ -389,6 +389,26 @@
 		- ### 💻Assignment
 			- Assignment
 		- ### 📖Reading
+	- ## 📚Geometry Processing
+		- ### ℹSyllabus
+			- Course Goal
+			- Course Textbook
+			- Lecturer
+			- Link: [xxx](https://)
+			- Video:[xxx](https://)
+		- ### 📺Lectures
+			- Introduction
+				- [Euler Characteristic](((634e3b2d-a1b3-4803-9236-d18373f2c133))), [[triangle mesh]], [[Half Edge Data Structure]]
+			- Mesh Reconstruction
+			- Surface Registration
+			- Smoothing
+			- Parameterization
+			- Deformation
+			- Curvature
+		- ### 💻Assignment
+			- Assignment
+				- [Euler characteristics](https://github.com/XingxinHE/Junior-SofwareEngineer-Notes/tree/main/code/GeometryProcessing/csc2520_jacobson/geometry-processing-introduction)
+		- ### 📖Reading
 	- ## 📚Discrete Differential Geometry
 		- ### ℹSyllabus
 			- Course Goal

@@ -1,9 +1,17 @@
-- Vulkan
-	- Install Vulkan SDK
-		- https://vulkan.lunarg.com/sdk/home#windows
-	- Vulkan Driver
-		- It is already inside Nvidia Driver.
-		- https://www.nvidia.com/Download/index.aspx?lang=en-us
+- CMake
+	- Install from Ubuntu
+		- First you have to make sure you have already `gcc` which contains `make` command for C binaries.
+		- Make sure you installed `OpenSSL` package
+		- ```bash
+		  sudo apt-get install libssl-dev
+		  wget http://www.cmake.org/files/v3.21/cmake-3.21.2.tar.gz
+		  tar xzf cmake-3.21.2.tar.gz
+		  cd cmake-3.21.2
+		  ./configure --prefix=/opt/cmake
+		  make  #for compilation
+		  sudo make install  
+		  /opt/cmake/bin/cmake -version  #check if installed
+		  ```
 - CUDA, cudnn
 	- Install CUDA
 		- https://developer.nvidia.com/cuda-downloads
@@ -20,20 +28,8 @@
 		  ```
 	- Install from Windows
 		- MSYS2
-- CMake
-	- Install from Ubuntu
-		- First you have to make sure you have already `gcc` which contains `make` command for C binaries.
-		- Make sure you installed `OpenSSL` package
-		- ```bash
-		  sudo apt-get install libssl-dev
-		  wget http://www.cmake.org/files/v3.21/cmake-3.21.2.tar.gz
-		  tar xzf cmake-3.21.2.tar.gz
-		  cd cmake-3.21.2
-		  ./configure --prefix=/opt/cmake
-		  make  #for compilation
-		  sudo make install  
-		  /opt/cmake/bin/cmake -version  #check if installed
-		  ```
+- oh-my-posh
+	- https://learn.microsoft.com/en-us/windows/terminal/tutorials/custom-prompt-setup
 - [[Qt]]
 	- Download and Install
 		- https://www.qt.io/
@@ -76,3 +72,9 @@
 		  Install-Package vcpkg..........
 		  ```
 		- Copy the command and run it in Nuget Package Manager Command in Visual Studio.
+- Vulkan
+	- Install Vulkan SDK
+		- https://vulkan.lunarg.com/sdk/home#windows
+	- Vulkan Driver
+		- It is already inside Nvidia Driver.
+		- https://www.nvidia.com/Download/index.aspx?lang=en-us

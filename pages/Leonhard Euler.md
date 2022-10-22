@@ -3,11 +3,31 @@ alias:: Euler
 # Euler Characteristic
 id:: 634e3b2d-a1b3-4803-9236-d18373f2c133
 	- 📝Definition
-		- Let a closed surface have genus $g$. Then the polyhedral formula generalizes to the [Poincaré formula](https://mathworld.wolfram.com/PoincareFormula.html)
-			- $$
-			  \chi(g)=V-E+F, 
-			  $$
-		- where $\chi(g)=2-2g$ is the Euler characteristic, sometimes also known as the Euler-Poincaré characteristic. The [polyhedral formula](https://mathworld.wolfram.com/PolyhedralFormula.html) corresponds to the special case $g=0$
+		- Definition 1
+			- Let a closed surface have genus $g$. Then the polyhedral formula generalizes to the [Poincaré formula](https://mathworld.wolfram.com/PoincareFormula.html)
+				- $$
+				  \chi(g)=V-E+F, 
+				  $$
+			- where $\chi(g)=2-2g$ is the Euler characteristic, sometimes also known as the Euler-Poincaré characteristic. The [polyhedral formula](https://mathworld.wolfram.com/PolyhedralFormula.html) corresponds to the special case $g=0$
+			- > ==**Note⚠**==: Assuming no _unreferenced_ vertices in $V$, each of the quantities in the right-hand side can be determined from $F$ alone. This indicates that its a purely topological property. Changing the geometric positions (i.e., changing the vertex positions in $V$) will not affect the Euler Characteristic. Due to this, we say that the Euler Characteristic is a ***topological invariant***.
+		- Definition 2
+			- The algebraic relationship between the number of vertices, edges and faces reveals the topological _genus_ of the surface via the _Euler Characteristic_
+				- $$
+				  \chi= 2c - 2h - b
+				  $$
+			- where $c$ is the number of connected components, $h$ is number of holes (as in donut), and $b$ is the number of connected components of the boundary of the surface.
+	- 🐍Algorithm
+		- 🔗Link: [Euler characteristics](https://github.com/XingxinHE/Junior-SofwareEngineer-Notes/tree/main/code/GeometryProcessing/csc2520_jacobson/geometry-processing-introduction)
+		- 🏹Strategy - 1
+			- This is my personal implementation.
+			- 1️⃣Find the distinct edges from faces matrix $F$ using `std::set`. See [here](https://github.com/XingxinHE/Junior-SofwareEngineer-Notes/blob/main/code/GeometryProcessing/csc2520_jacobson/geometry-processing-introduction/src/edges.cpp).
+			- 2️⃣Compute the Euler characteristics $V-E+F$. See [here](https://github.com/XingxinHE/Junior-SofwareEngineer-Notes/blob/main/code/GeometryProcessing/csc2520_jacobson/geometry-processing-introduction/src/euler_characteristic.cpp).
+		- 🏹Strategy - 2
+			- .
+		- Result
+			- Time of my algorithm: 5450994, Time of libigl: 84153
+	- ⌨Sample Code
+		- Code fragments
 - # Euler's Method
 	- ## 📝Definition
 		- Given the differential equation :

@@ -153,6 +153,9 @@
 - 🧱Structure
   template:: B-Structure
 	- Any other hierarchical issues?
+- 🏹Strategy
+  template:: B-Strategy
+	- ...
 - # 😷Symptoms
 	- A scenario that illustrates the benefit this object provides.
 - # 🤼Participants

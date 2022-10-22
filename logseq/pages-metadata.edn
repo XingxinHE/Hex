@@ -88,6 +88,9 @@
  {:block/name "6348ad24-5fee-4b6f-838b-64d71ff6df08",
   :block/created-at 1666274870658,
   :block/updated-at 1666274870658}
+ {:block/name "63535aaf-3005-40c0-b6cf-64b75ae5f45e",
+  :block/created-at 1666407298081,
+  :block/updated-at 1666407298081}
  {:block/name "70a7387e-cbc7-4d58-89ad-bea004d77bb4",
   :block/created-at 1665471902390,
   :block/updated-at 1665471902390}
@@ -717,7 +720,7 @@
   :block/updated-at 1663995770451}
  {:block/name "half edge data structure",
   :block/created-at 1666274865724,
-  :block/updated-at 1666274865724}
+  :block/updated-at 1666407476304}
  {:block/name "hash table",
   :block/created-at 1661084794143,
   :block/updated-at 1661084794143}
@@ -732,7 +735,7 @@
   :block/updated-at 1662011270378}
  {:block/name "hex",
   :block/created-at 1661663663911,
-  :block/updated-at 1665625184430}
+  :block/updated-at 1666420686021}
  {:block/name "hospital rule",
   :block/created-at 1661477999898,
   :block/updated-at 1661477999898}
@@ -771,7 +774,7 @@
   :block/updated-at 1665484114655}
  {:block/name "installation",
   :block/created-at 1663995768220,
-  :block/updated-at 1663995768220}
+  :block/updated-at 1666413330731}
  {:block/name "integral type",
   :block/created-at 1661955565078,
   :block/updated-at 1661955565078}
@@ -843,7 +846,7 @@
   :block/updated-at 1661532258535}
  {:block/name "leonhard euler",
   :block/created-at 1664415110955,
-  :block/updated-at 1666071556414}
+  :block/updated-at 1666423895962}
  {:block/name "lexical analysis",
   :block/created-at 1662342945070,
   :block/updated-at 1662342945070}
@@ -918,7 +921,7 @@
   :block/updated-at 1665391858834}
  {:block/name "logseq template",
   :block/created-at 1661004687578,
-  :block/updated-at 1666245295673}
+  :block/updated-at 1666420858442}
  {:block/name "lower bound",
   :block/created-at 1663995768969,
   :block/updated-at 1663995768969}
@@ -1263,7 +1266,7 @@
   :block/updated-at 1661047125739}
  {:block/name "simplex",
   :block/created-at 1664241829922,
-  :block/updated-at 1665985393074}
+  :block/updated-at 1666407341050}
  {:block/name "simplices",
   :block/created-at 1666272135679,
   :block/updated-at 1666272135679}
@@ -1275,7 +1278,7 @@
   :block/updated-at 1666274865413}
  {:block/name "simplicial complex",
   :block/created-at 1666272135681,
-  :block/updated-at 1666272135681}
+  :block/updated-at 1666407270378}
  {:block/name "singular point",
   :block/created-at 1665471901560,
   :block/updated-at 1665471901560}
@@ -1407,7 +1410,7 @@
   :block/updated-at 1665618751775}
  {:block/name "triangle mesh",
   :block/created-at 1666274865407,
-  :block/updated-at 1666274865407}
+  :block/updated-at 1666407298081}
  {:block/name "trigonometric function",
   :block/created-at 1665471901774,
   :block/updated-at 1665542719021}

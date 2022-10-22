@@ -6,6 +6,7 @@ alias:: doubly connected edge list, DCEL
 	- (infml.) Each edge gets split into two *oppositely-oriented* **half edges**.
 - 📈Diagram
 	- ![name](../assets/half_edge.png){:height 300, :width 600}
+	- ![name](../assets/half-edges.svg){:height 300, :width 400} Each oriented triangle also defines three _directed edges_ between its three vertices. Other triangles in the mesh may contain edges with the same incident vertices, possibly in the opposite direction. A [[manifold]] mesh will have at most two triangles incident on the same (undirected) _edge_, therefor we'll refer to each triangle's directed edge as a _half-edge_.
 - 💫Support Operation
 	- There are 2 most important operations of Half Edge Mesh: "Next" and "Twin".
 	- Twin
