@@ -65,6 +65,9 @@
 - 📝Definition
   template:: B-Definition
 	- The name is the essence of this topic.
+- 📝Description
+  template:: B-Description
+	- Describe something.
 - 🧠Intuition
   template:: B-Intuition
 	- Find an intuitive way of understanding this concept.
@@ -156,6 +159,9 @@
 - 🏹Strategy
   template:: B-Strategy
 	- ...
+- 🕹Quiz
+  template:: B-Quiz
+	- Quiz is not a boring stuff. It is fun! You can learn by solving quiz!
 - # 😷Symptoms
 	- A scenario that illustrates the benefit this object provides.
 - # 🤼Participants
@@ -197,19 +203,19 @@
 	- Result:
 	- Graph
 	  ![name](../assets/name.png){:height 300, :width 300}
-- ## 📚Course
+- 📚Course
   template:: course learning template
-	- ### ℹSyllabus
+	- ℹSyllabus
 		- Course Goal
 		- Course Textbook
 		- Lecturer
 		- Link: [xxx](https://)
 		- Video:[xxx](https://)
-	- ### 📺Lectures
+	- 📺Lectures
 		- Lecture...
-	- ### 💻Assignment
+	- 💻Assignment
 		- Assignment
-	- ### 📖Reading
+	- 📖Reading
 - Book
   template:: template-book
 	- Table of Content

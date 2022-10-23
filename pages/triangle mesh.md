@@ -43,3 +43,14 @@ alias:: simplicial 2-complexes
 				- {{embed ((63535aaf-3005-40c0-b6cf-64b75ae5f45e))}}
 - ⛈Characteristics / Properties
 	- {{embed ((28012548-e918-478b-8a20-78c5d51e7588))}}
+- 🤳Applicability
+	- 3D Image Generation
+		- 🚀Benefit / Pros
+			- In [[Rasterization]] and [[Ray Tracing]], triangle mesh has dominant benefit.
+			- 1️⃣can approximate any shape
+			- 2️⃣always planar, well-defined normal
+			- 3️⃣easy to interpolate data at corners by [[Barycentric Coordinates]].
+		- 👑Importance
+			- Once everything is reduced to triangles, we can focus on making an extremely well-optimized pipeline for drawing them.
+		- 📈Diagram
+			- ![image.png](../assets/image_1666527969959_0.png){:height 300 :width 300}

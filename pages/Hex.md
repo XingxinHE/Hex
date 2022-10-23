@@ -322,6 +322,9 @@
 					- 1.2 Lengths and Angles from Dot Product
 						- key takeaway: understand the dot product and how it measure the angles
 						- [[dot product]], [Angle](((63452c51-4559-46a1-86ca-ab2a3b8952a0))), [[Triangle Inequality]], [[Schwarz Inequality]]
+					- 1.3 Matrices and Column Spaces
+						- key takeaway:
+						- [Rank of matrix](((63515636-e75e-465e-99e7-977bc4a83f20))), [Column space](((63550688-ae3d-450e-8260-1bd93af6accd)))
 			- Author
 				- ...
 			- Things I don't know
@@ -377,6 +380,32 @@
 		- Assignment
 			- Assignment 0
 			- Assignment 1 - MiniDraw
+	- 📚Computer Graphics (CMU 15-462662)
+		- ℹSyllabus
+			- Course Goal
+			- Course Textbook
+			- Lecturer: Keenan Crane
+			- Link: [xxx](https://)
+			- Video:[xxx](https://)
+		- 📺Lectures
+			- Lecture 4: Drawing a Triangle (and an Intro to Sampling)
+				- [[Rasterization]], [[Ray Tracing]], [[triangle mesh]]
+				- 13:22
+		- 💻Assignment
+			- Assignment
+		- 📖Reading
+	- 📚computer-graphics-csc317
+		- ℹSyllabus
+			- Course Goal
+			- Course Textbook
+			- Lecturer: Alec Jacobson
+			- Link: [github](https://github.com/alecjacobson/computer-graphics-csc317)
+			- Video:[xxx](https://)
+		- 📺Lectures
+			- Lecture...
+		- 💻Assignment
+			- Assignment
+		- 📖Reading
 	- ## 📚GAMES101
 		- ### ℹSyllabus
 			- Course Goal
@@ -389,12 +418,12 @@
 		- ### 💻Assignment
 			- Assignment
 		- ### 📖Reading
-	- ## 📚Geometry Processing
+	- ## 📚Geometry Processing csc2520
 		- ### ℹSyllabus
 			- Course Goal
 			- Course Textbook
-			- Lecturer
-			- Link: [xxx](https://)
+			- Lecturer: Alec Jacobson
+			- Link: [GitHub](https://github.com/alecjacobson/geometry-processing-csc2520)
 			- Video:[xxx](https://)
 		- ### 📺Lectures
 			- Introduction

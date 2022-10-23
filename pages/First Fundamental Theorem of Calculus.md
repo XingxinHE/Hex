@@ -122,7 +122,8 @@ alias:: FTC1
 				- ![name](../assets/images_ftc1_roundtripx.svg){:height 200, :width 200}
 			- speed graph
 				- Speed graph is always above the $t$-axis. Therefore it is $A-B$.
-	- 📌example of FTC1
+- 🕹Quiz
+	- 📌Quiz related to FTC1
 		- Question
 			- Calculate
 				- $$
@@ -147,6 +148,54 @@ alias:: FTC1
 				  $$
 		- Notice that this equality is consistent with the interpretation of definite integrals as the area under curves. Both of these integral equal the area under one hump of the sine or cosine curve, shaded in the figure below.
 			- ![name](../assets/images_ftc1_sincoshump.svg){:height 200, :width 400}
+	- 📌Quiz on using FTC1 to estimate
+	  id:: 6354b797-41f4-4d45-8242-1a3afc9ffe5f
+		- 💬Question: Find a function $f$ that we can compare with the integrand to establish the estimate.
+			- $$
+			  \int _{0}^{1} \frac{dx}{1+x^3}\, >\, \ln 2.
+			  $$
+		- 🏹Strategy: Try to find the closest form of FTC1.
+		- ✏Solution:
+			- Since
+				- $x^3<x$ on $(0,1)\implies \   \displaystyle \frac1{1+x^3}>\frac1{1+x}\, \,$ on $(0,1)$.
+			- Therefore,
+				- $$
+				  \int_{0}^{1} \frac{dx}{1+x^3}>  \int_{0}^{1} \frac{dx}{1+x} \  =\  \ln(1+x)\,  \bigg|_{0}^{1} \  =\  \ln 2\  \approx \  .69.
+				  $$
+			- Notice that
+				- $$
+				  \frac1{1+x^3}>\frac1{1+x^2}\, \, \text{on $(0,1)$ as well}
+				  $$
+			- This gives a stronger estimate since
+				- $$
+				  \left. \int _{0}^{1} \frac{dx}{1+x^2}\  =\  \tan ^{-1}(x) \, \right|_0^1\  =\  \frac{\pi }{4}\  \approx 0.79.
+				  $$
+	- 📌Quiz on using FTC1 to estimate
+	  id:: 6354b797-c5f3-4485-8f55-fac785d08e7c
+		- 💬Question: Find a function $f$ that we can compare with the integrand to establish the estimate.
+			- $$
+			  \int _{10}^{20} \sqrt{x^2+1}\, dx \, >\, 150.
+			  $$
+		- ✏Solution:
+			- $$
+			  \int _{10}^{20} \sqrt{x^2+1}\, dx \  > \left. \int _{10}^{20} \sqrt{x^2}\, dx \  =\  \int _{10}^{20} x\, dx\  = \frac{x^2}{2}\right|_{10}^{20} \  =\  \frac1{2}(400-100)=150.
+			  $$
+	- 📌Quiz of smart trick on solving FTC1
+		- 💬Question: For what $C$ is $\int _{c}^{x} \frac{dt}{\sqrt{t^2+a^2}}\, =\,  \ln \left(x+\sqrt{x^2+a^2}\right)\,$?
+		- 🏹Strategy: The strategy is taking advantage that the integral is $0$!
+		- ✏Solution:
+			- Let $x=c$, then the equation becomes
+				- $$
+				  0=\ln \left(c+\sqrt{c^2+a^2}\right).
+				  $$
+			- Solve this equation for $c$ by exponentiating both sides:
+				- $$
+				  1=c+\sqrt{c^2+a^2};
+				  $$
+			- Then subtract $c$ and square both sides, and after some algebra, one gets
+				- $$
+				  c=\frac{1}{2}(1-a^2).
+				  $$
 - 🤳Applicability
 	- 📌Constructing functions([[Transcendental Function]]) using integrals
 	  id:: a5fcf259-ffec-4b24-813b-1cc5b2537033

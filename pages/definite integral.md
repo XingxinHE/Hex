@@ -47,17 +47,23 @@
 - # 💫Operation
 	- ## Estimation
 	  id:: f49a6abe-8012-4bc1-a696-0e74ef00193e
-		- If $\, f(x)\leq g(x)$, and $a\leq b$ then
-			- $$
-			  \displaystyle \int _{a}^{b} f(x)\,  dx\, \,  \, \leq \, \, \,  \int _{a}^{b} g(x)\,  dx \qquad (\text{for}\, \,  a\leq b).
-			  $$
-		- Notice that the order of $a$ and $b$ matters for this inequality. If instead of $a\leq b$ we have $a\geq b$, then
-			- $$
-			  \displaystyle \int _{a}^{b} f(x)\,  dx\,  \geq \,  \int _{a}^{b} g(x)\,  dx \qquad (b\leq a).
-			  $$
-		- Summary
+		- 📝Definition
+			- If $\, f(x)\leq g(x)$, and $a\leq b$ then
+				- $$
+				  \displaystyle \int _{a}^{b} f(x)\,  dx\, \,  \, \leq \, \, \,  \int _{a}^{b} g(x)\,  dx \qquad (\text{for}\, \,  a\leq b).
+				  $$
+			- Notice that the order of $a$ and $b$ matters for this inequality. If instead of $a\leq b$ we have $a\geq b$, then
+				- $$
+				  \displaystyle \int _{a}^{b} f(x)\,  dx\,  \geq \,  \int _{a}^{b} g(x)\,  dx \qquad (b\leq a).
+				  $$
+		- 🧠Intuition
 			- In other words, if the [[Limit]]s of the integrals are reversed, the inequality is also reversed.
+		- 🗃Example
+			- ...
+		- 🕹Quiz
+			- see [quiz using FTC1 to estimate](((6354b797-41f4-4d45-8242-1a3afc9ffe5f))) and [here](((6354b797-c5f3-4485-8f55-fac785d08e7c))).
 	- ## Substitution
+	  id:: 63515633-d602-43fc-b68f-acf7f289a196
 		- 📝Definition
 			- If
 				- $$
@@ -69,10 +75,15 @@
 				  $$
 		- 🧠Intuition
 			- The limits of the integral over $u$ are the values of $u$ corresponding to the limits of the integral over $x$.
+		- 🕹Quiz
+			- ((6354b672-58db-4900-bbb9-f5f49570f9a1))
 - # 🕳Pitfalls
 	- 📌Caution on substitution
 	  id:: 6340c9be-72a7-4416-aa3f-38db07a094ea
-		- When we use the method of substitution, we need to be very careful about when $u'$ (or $du$) changes sign. If $u'$ changes sign within the integration interval $[a,b]$, the method of substitution may give the wrong answer. In this case, we need to first rewrite the integral as a sum of two integrals such that within the limits of each integral $u'$ does not change sign, and then use the method of substitution on each integral separately.
+		- 📝Definition or Description
+			- When we use the method of substitution, we need to be very careful about when $u'$ (or $du$) changes sign. If $u'$ changes sign within the integration interval $[a,b]$, the method of substitution may give the wrong answer. In this case, we need to first rewrite the integral as a sum of two integrals such that within the limits of each integral $u'$ does not change sign, and then use the method of substitution on each integral separately.
+		- 🗃Example
+			- see [example demonstrating pitfall of substituition](((6354b796-d3ec-46d9-9d35-8cd4fa27ae06))).
 - 🤳Applicability
 	- {{embed ((a5fcf259-ffec-4b24-813b-1cc5b2537033))}}
 - # 🗃Example
@@ -141,6 +152,7 @@
 					-
 				-
 	- 📌example demonstrating [the pitfall of substitution](((6340c9be-72a7-4416-aa3f-38db07a094ea)))
+	  id:: 6354b796-d3ec-46d9-9d35-8cd4fa27ae06
 		- Question: use substitution to calculate
 			- $$
 			  \displaystyle \int _{-1}^{1} x^2\, dx
@@ -238,3 +250,53 @@
 			  $$
 		- Result
 			- ![name](../assets/images_defint_areaunderpiecewiselinear.svg){:height 200, :width 200}
+- 🕹Quiz
+	- 📌Quiz on substitution
+	  id:: 6354b672-58db-4900-bbb9-f5f49570f9a1
+		- 📌Quiz
+			- 💬Question: Use the method of [substitution](((63515633-d602-43fc-b68f-acf7f289a196))) to evaluate the following integral.
+				- $$
+				  \int _{-\sqrt{1/2}}^{\sqrt{1/2}} \frac{dx}{\sqrt{1-x^2}}\, =\,?
+				  $$
+			- ✏Solution:
+				- Using $x=\sin (u), \  dx=\cos (u)\,  du$,
+				- $$
+				  \int _{-\sqrt{1/2}}^{\sqrt{1/2}}\frac{dx}{\sqrt{1-x^2}} = \int _{-\pi /4}^{\pi /4}\frac{\cos u}{|\cos u|}\, du
+				  $$
+				- Since $\cos (u)>0$ for $-\pi /4 < x < \pi /4$, we can replace the absolute value of $|\cos (u)|$ by $\cos (u)$ to evaluate the integral.⭐
+				- $$
+				  \left.\int _{-\pi /4}^{\pi /4}\frac{\cos u}{\cos u}\, du = u\, \right|_{-\pi /4}^{\pi /4}=\frac{\pi }{2}.
+				  $$
+		- 📌Quiz
+			- 💬Question: Use the method of [substitution](((63515633-d602-43fc-b68f-acf7f289a196))) to evaluate the following integral.
+				- $$
+				  \int _{1}^{e} \frac{\sqrt{\ln x}}{x}\, \, dx \, = \,?
+				  $$
+			- ✏Solution:
+				- Using $u\  =\  \ln x , \  du\  =\  \frac{dx}{x}$,
+				- $$
+				  \begin{align}
+				  \int _{1}^{e} \frac{\sqrt{\ln x}}{x}\,  dx&=\int _{0}^{1}\sqrt{u}\,  du\\
+				  &=\left.\phantom{\int } \frac2{3}u^{\frac{3}{2}}\right|_{0}^{1}\  =\  \frac2{3}\  .
+				  \end{align}
+				  $$
+		- 📌Quiz
+			- 💬Question: suppose the following
+				- $$
+				  F(x) = \int _0^x \cos (t^2)\,  dt\quad G(x) = \int _0^x \cos \left(\frac{\pi }{2}u^2\right)\,  du
+				  $$
+				- $c_1=? c_2=?$
+			- ✏Solution:
+				- For
+					- $$
+					  G(x)= \int _0^x \cos \left(\frac{\pi }{2} u^2 \right)\,  du
+					  $$
+				- Let $t = \sqrt{\frac{\pi }{2}} u, dt = \sqrt{\frac{\pi }{2}} \,  du,\, \,$ then
+					- $$
+					  \begin{align}
+					  G(x)&= \int _0^x \cos \left(\frac{\pi }{2} u^2 \right) \,  du\\
+					  &=\sqrt{\frac{2}{\pi }} \, \int _0^{\sqrt{\frac{\pi }{2}}x} \cos t^2 \, dt\\
+					  &= \sqrt{\frac{2}{\pi }}\, F\left( \sqrt{\frac{\pi }{2}} x \right)
+					  \end{align}
+					  $$
+				- Therefore, $c_1 = \sqrt{\frac{2}{\pi }},\, \, \text{and }c_2 = \sqrt{\frac{\pi }{2}}$

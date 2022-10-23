@@ -7,6 +7,7 @@ alias:: linear dependent,linearly dependent
 		  $$
 	- holds for some $\beta_1,... ,\beta_k$, that are **not all zero**. (a.k.a. at least one of them is non-zero)
 - # 🧠Intuition
+	- At least one column does not contribute anything new to the matrix.
 	- At least at least one $a_i$ is a [[Linear Combination]] of the others.
 - # 🌓Complement
 	- [[Linear Independence]]

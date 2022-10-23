@@ -112,6 +112,7 @@ alias:: FTC2
 			  H(x)= \int _{0}^{x} t^2\, dt
 			  \end{align}
 			  $$
+- 🕹Quiz
 	- 📌example using FTC2
 		- 💬Question: Assume $f$ is continuous, if $\int_0^x f(t)dt=x^2\sin(\pi x)$. Find $f(2)$.
 		- ✏Solution:
@@ -171,7 +172,24 @@ alias:: FTC2
 				  &=\ln (y) \left(\frac{1}{4\sqrt{y}}-1\right)
 				  \end{align}
 				  $$
-		- 📈Diagram
+	- 📌Quiz on FTC2
+		- 💬Question: Find a function $f(x)$ whose derivative is $\sin(x^3)$ and whose value at $0$ is $2$
+			- ![name](../assets/images_u3d4_fundthm2_2_u3d4_fundthm2_2_dnd.png){:height 200, :width 500}
+		- 🏹Strategy: Think about the derivative and then the value behind.
+		- ✏Solution:
+			- Since [[Derivative]] is $\sin(x^3)$ and therefore it is inside $()$.
+			- Then think about the integral at $0$ is $2$.
+		- Result
+			- $$
+			  f(x)\, =\, \int _{0}^{x}\sin \left(t^3\right)\, dt\, +\, 2
+			  $$
+	- 📌Quiz on FTC2
+		- 💬Question: Find a function $f(x)$ whose derivative is $\sin(x^3)$ and whose value at $1$ is $-1$
+		- 🏹Strategy: That's easy. Related to the last quiz. Change the integral from $1$ should be fine.
+		- ✏Solution:
+			- $$
+			  f(x)\, =\,  \int _{1}^{x}\sin \left(t^3\right)\, dt\, -\, 1
+			  $$
 	- 📌simple example using chain rule
 		- 💬Question: $\frac{d}{dx} \int _{1}^{x^3} \tan ^2(\theta ) \,  d\theta \, =\,?$
 		- ✏Solution
