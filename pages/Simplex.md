@@ -22,11 +22,13 @@ alias:: simplices
 	  id:: 88cc3933-a6ec-4333-9f4f-2defc94f7756
 		- 📝Definition
 			- The *orientation* of a simplex is an ordering of its vertices up to even permutation. One can specify an oriented simplex via one of its representative ordered [[Tuple]]s.
+		- {{embed ((634ff995-0d0e-4cc0-8774-64f965c2f911))}}
 		- {{embed ((63535aaf-3005-40c0-b6cf-64b75ae5f45e))}}
 		- 🧬Related Elements
 			- The <u>oriented simplices</u> compose [oriented simplicial complex](((634cd03e-8b16-4c78-912c-ff12ad1dc136))).
 		- ⛈Characteristics / Properties
 			- Relative Orientation
+			  id:: 634ff995-12af-467b-8158-a8916951b42f
 				- 📝Definition
 					- Two distinct oriented simplices have the same ***relative orientation*** if the two (maximal) faces in their intersection have **opposite** orientation.
 				- 📈Diagram

@@ -18,7 +18,8 @@ alias:: (Abstract) Simplicial Complex, (Geometric) Simplicial Complex
 			- For the orientation in [[simplices]], see [here](((88cc3933-a6ec-4333-9f4f-2defc94f7756))).
 		- 📝Definition
 			- In terms of the ability of orientation, the property of simplicial complex lies on (1)==orientable== and (2)==unorientable==.
-		- > ==**Note on wording⚠**== Note the distinction between an "**orientable** manifold" and an "**oriented** manifold," where the former implies the possibility of giving the manifold in question an orientation, while the latter implies that the manifold has already been given an orientation.
+		- id:: 634ff995-0d0e-4cc0-8774-64f965c2f911
+		  > ==**Note on wording⚠**== Note the distinction between an "**orientable** manifold" and an "**oriented** manifold," where the former implies the possibility of giving the manifold in question an orientation, while the latter implies that the manifold has already been given an orientation.
 		- id:: 63535aaf-3005-40c0-b6cf-64b75ae5f45e
 		  > ==**Note on convention⚠**==: By convention, the vertices of face are *ordered* counter-clockwise around the triangle. Using the right-hand rule, we can define the normal of each triangle as the vector that points *most away* from the surface. ![name](../assets/right-hand-rule.svg){:height 200, :width 200}
 		- Unorientable Simplicial Complex

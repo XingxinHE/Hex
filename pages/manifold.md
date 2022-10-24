@@ -12,7 +12,11 @@
 		  Apparently, the left is manifold for it can be sampled any point with a cartesian $xy$ plane while the right can't. The "funky" and "chaotic" shape is not manifold.
 		- ![name](../assets/manifold_nonmanifold1.png){:height 200, :width 400}
 		  Nonmanifold is marked with red. Others are manifold.
-	-
+	- Digest Manifold and Nonmanifold intuitively
+		- ![name](../assets/manifold_vs_nonmanifold.png){:height 150, :width 150}
+		- The [[manifold]] is the boundary surface of a non-degenerate 3D solid where "*non-degenerate*" means that the solid does not have any infinitely thin parts or features such that the surface properly separates the "interior" and "exterior" of the solid.
+		- Top left is with a degenerate/ [[Nonmanifold]] vertex, which is fixed in top right.
+		- Bottom left is with a degenerate/ [[Nonmanifold]] edge, which is fixed in bottom right.
 - 🏷(Sub)Categories
 	- Manifold Triangle Mesh ($k=2$, [[simplicial 2-complexes]] )
 	  id:: 28012548-e918-478b-8a20-78c5d51e7588

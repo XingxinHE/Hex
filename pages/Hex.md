@@ -438,6 +438,16 @@
 			- Assignment
 				- [Euler characteristics](https://github.com/XingxinHE/Junior-SofwareEngineer-Notes/tree/main/code/GeometryProcessing/csc2520_jacobson/geometry-processing-introduction)
 		- ### 📖Reading
+	- Polygon Mesh Processing
+		- Table of Content
+			- Chapter 1 Surface Representation
+				- [[Geometry Processing]]
+		- Author
+			- ...
+		- Things I don't know
+			- ...
+		- Info
+			- link
 	- ## 📚Discrete Differential Geometry
 		- ### ℹSyllabus
 			- Course Goal
