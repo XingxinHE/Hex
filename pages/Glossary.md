@@ -236,6 +236,8 @@
 	- 📝**Definition**: It refers to the period of time for which memory is allocated for an object is called its *storage duration* or *extent*.
 - ### Syntax
 	- 📝**Definition**: A well-defined set of **rules** describing the **format** and **construction** of statements.
+	- 🌓Complement
+		- syntax vs. semantic: **Syntax** refers to **grammar**, while **semantics** refers to **meaning**.
 - ### Text Editor
 	- 📝**Definition**: This is where you write the source codes.
 - ### Undefined order evaluation
@@ -314,7 +316,6 @@
 - *library*: a collection of types, functions, classes, etc. implementing a set of facilities (abstractions) meant to be potentially used as part of more that one program.
 - *lifetime*: the time from the initialization of an object until it becomes unusable (goes out of scope, is deleted, or the program terminates).
 - *linker*: a program that combines object code files and libraries into an executable program.
-- *literal*: a notation that directly specifies a value, such as 12 specifying the integer value “twelve.”
 - *loop*: a piece of code executed repeatedly; in C++, typically a for-statement or a  `while` -statement.
 - *move*: an operation that transfers a value from one object to another leaving behind a value representing “empty.” See also copy.
 - *move-only type*: a concrete type that is movable but not copyable.
