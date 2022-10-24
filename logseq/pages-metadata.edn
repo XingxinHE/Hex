@@ -89,8 +89,8 @@
   :block/created-at 1666596450729,
   :block/updated-at 1666596450729}
  {:block/name "634ff995-0d0e-4cc0-8774-64f965c2f911",
-  :block/created-at 1666596455222,
-  :block/updated-at 1666596455222}
+  :block/created-at 1666621281384,
+  :block/updated-at 1666621281384}
  {:block/name "63535aaf-3005-40c0-b6cf-64b75ae5f45e",
   :block/created-at 1666596451201,
   :block/updated-at 1666596451201}
@@ -316,6 +316,12 @@
  {:block/name "coercion",
   :block/created-at 1661955570201,
   :block/updated-at 1661955570201}
+ {:block/name "color filter array",
+  :block/created-at 1666625452530,
+  :block/updated-at 1666626119116}
+ {:block/name "color filter mosaic",
+  :block/created-at 1666625510498,
+  :block/updated-at 1666625510498}
  {:block/name "comment",
   :block/created-at 1666596449879,
   :block/updated-at 1666596449879}
@@ -446,8 +452,8 @@
   :block/created-at 1663995766935,
   :block/updated-at 1663995766935}
  {:block/name "curve",
-  :block/created-at 1666596450982,
-  :block/updated-at 1666596450982}
+  :block/created-at 1666621278638,
+  :block/updated-at 1666621278638}
  {:block/name "cv-qualifiers",
   :block/created-at 1661045414358,
   :block/updated-at 1661045820466}
@@ -556,12 +562,18 @@
  {:block/name "dot product",
   :block/created-at 1663995768082,
   :block/updated-at 1663995768082}
+ {:block/name "dots per inch",
+  :block/created-at 1666624907972,
+  :block/updated-at 1666624907972}
  {:block/name "double",
   :block/created-at 1661955563134,
   :block/updated-at 1662039886597}
  {:block/name "doubly connected edge list",
   :block/created-at 1666596450181,
   :block/updated-at 1666596450181}
+ {:block/name "dpi",
+  :block/created-at 1666624894258,
+  :block/updated-at 1666624925508}
  {:block/name "dry",
   :block/created-at 1661999361031,
   :block/updated-at 1661999361031}
@@ -695,8 +707,8 @@
   :block/created-at 1661081807339,
   :block/updated-at 1661081905019}
  {:block/name "geometry processing",
-  :block/created-at 1666596450122,
-  :block/updated-at 1666596450122}
+  :block/created-at 1666621278496,
+  :block/updated-at 1666621278496}
  {:block/name "git",
   :block/created-at 1663995767762,
   :block/updated-at 1666078404289}
@@ -747,7 +759,7 @@
   :block/updated-at 1662011270378}
  {:block/name "hex",
   :block/created-at 1661663663911,
-  :block/updated-at 1666528112163}
+  :block/updated-at 1666626194709}
  {:block/name "hospital rule",
   :block/created-at 1661477999898,
   :block/updated-at 1661477999898}
@@ -850,6 +862,12 @@
  {:block/name "latex cheat sheet",
   :block/created-at 1661514640481,
   :block/updated-at 1664093527170}
+ {:block/name "lcd",
+  :block/created-at 1666624513854,
+  :block/updated-at 1666624784922}
+ {:block/name "led",
+  :block/created-at 1666623595707,
+  :block/updated-at 1666624382275}
  {:block/name "left-hand limit",
   :block/created-at 1661308481094,
   :block/updated-at 1661521557652}
@@ -862,6 +880,9 @@
  {:block/name "lexical analysis",
   :block/created-at 1662342945070,
   :block/updated-at 1662342945070}
+ {:block/name "light-emitting diode",
+  :block/created-at 1666623608779,
+  :block/updated-at 1666623608779}
  {:block/name "limit",
   :block/created-at 1661308481123,
   :block/updated-at 1661862172398}
@@ -904,6 +925,9 @@
  {:block/name "linking",
   :block/created-at 1661878300447,
   :block/updated-at 1661878300447}
+ {:block/name "liquid crystal display",
+  :block/created-at 1666624538754,
+  :block/updated-at 1666624538754}
  {:block/name "literal",
   :block/created-at 1661955563631,
   :block/updated-at 1666613909204}
@@ -933,7 +957,7 @@
   :block/updated-at 1665391858834}
  {:block/name "logseq template",
   :block/created-at 1661004687578,
-  :block/updated-at 1666496956254}
+  :block/updated-at 1666625787063}
  {:block/name "lower bound",
   :block/created-at 1663995768969,
   :block/updated-at 1663995768969}
@@ -1084,6 +1108,12 @@
  {:block/name "perimeter",
   :block/created-at 1661664081134,
   :block/updated-at 1661664629706}
+ {:block/name "pixel",
+  :block/created-at 1666622285504,
+  :block/updated-at 1666622300230}
+ {:block/name "pixels per inch",
+  :block/created-at 1666624845650,
+  :block/updated-at 1666624845650}
  {:block/name "pointer",
   :block/created-at 1661308481344,
   :block/updated-at 1662025159533}
@@ -1105,6 +1135,9 @@
  {:block/name "polynomial factorization",
   :block/created-at 1661668361329,
   :block/updated-at 1661668361329}
+ {:block/name "ppi",
+  :block/created-at 1666624832068,
+  :block/updated-at 1666624876749}
  {:block/name "preprocessing",
   :block/created-at 1661878210721,
   :block/updated-at 1661908946284}
@@ -1171,6 +1204,9 @@
  {:block/name "range error",
   :block/created-at 1662342946567,
   :block/updated-at 1662342946567}
+ {:block/name "raster image",
+  :block/created-at 1666621441895,
+  :block/updated-at 1666621872089}
  {:block/name "rasterization",
   :block/created-at 1666596450491,
   :block/updated-at 1666596450491}
@@ -1355,8 +1391,8 @@
   :block/created-at 1663995771496,
   :block/updated-at 1663995771496}
  {:block/name "surface",
-  :block/created-at 1666596450988,
-  :block/updated-at 1666596450988}
+  :block/created-at 1666621278643,
+  :block/updated-at 1666621278643}
  {:block/name "symbol tables",
   :block/created-at 1661955564075,
   :block/updated-at 1661955564075}
@@ -1498,6 +1534,9 @@
  {:block/name "vector",
   :block/created-at 1661514640671,
   :block/updated-at 1665490422708}
+ {:block/name "vector image",
+  :block/created-at 1666621872089,
+  :block/updated-at 1666622110223}
  {:block/name "vector product",
   :block/created-at 1664426953131,
   :block/updated-at 1664426953131}
@@ -1511,8 +1550,8 @@
   :block/created-at 1661045592332,
   :block/updated-at 1661045592332}
  {:block/name "voxel",
-  :block/created-at 1666596450980,
-  :block/updated-at 1666596450980}
+  :block/created-at 1666621278637,
+  :block/updated-at 1666621278637}
  {:block/name "wait",
   :block/created-at 1661004367895,
   :block/updated-at 1661004367895}

@@ -389,8 +389,9 @@
 			- Video:[xxx](https://)
 		- 📺Lectures
 			- Lecture 4: Drawing a Triangle (and an Intro to Sampling)
+				- Watch✅
+				- TODO documentation
 				- [[Rasterization]], [[Ray Tracing]], [[triangle mesh]]
-				- 13:22
 		- 💻Assignment
 			- Assignment
 		- 📖Reading
@@ -406,6 +407,11 @@
 		- 💻Assignment
 			- Assignment
 		- 📖Reading
+			- Fundamentals of Computer Graphics
+			- Chapter 03 Raster Images
+				- 3.1. Raster Devices
+					- [[Raster Image]], [[Vector Image]], [[LED]], [[LCD]], [[ppi]], [[dpi]], [[Color Filter Array]]
+				- 3.2. Images, Pixels, and Geometry
 	- ## 📚GAMES101
 		- ### ℹSyllabus
 			- Course Goal

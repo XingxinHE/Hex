@@ -132,6 +132,9 @@
 - 📋Prerequisite
   template:: B-Prerequisite
 	- Some techniques and objects only work under certain condition.
+- 🗻Foundation
+  template:: B-Foundation
+	- This subject is the foundation or prerequisite of another subject.
 - ⛈Characteristics / Properties
   template:: B-Properties
 	- What...
