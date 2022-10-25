@@ -1,3 +1,6 @@
+- 🗺Big Picture
+  id:: 6357aa15-d6ca-4fce-b9b2-f966b1c8e423
+	- The exact mathematical model of a surface is usually intractable. Therefore, the word "surface" is smooth and it is only smooth in the world of #Mathematics but not the real world! Because in the real world, everything is discrete! This is the philosophy and this is when [[DDG]] steps in.
 - 📝Definition
 	- In general,
 		- 📝Definition
@@ -41,6 +44,8 @@
 			- implicit representation
 	- 🎯Intent
 		- Why does representation matter? For each specific problem in [[Geometry Processing]], we can identify a characteristic set of operations by which the computation is dominated, and hence we have to choose an appropriate representation that supports the efficient implementation of these operation.
+	- 🕳Pitfalls / Cons
+		- A digital surface representation can only be an ==approximation== in general.
 	- 🚿Source
 		- 📝The common source of surface
 			- The raw information about the input surface is obtained by discrete [[sampling]] (i.e., by evaluation if there already exists a digital representation, or by probing if the input comes from a real object).

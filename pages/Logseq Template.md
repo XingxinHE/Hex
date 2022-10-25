@@ -168,6 +168,9 @@
 - 🔭Overview
   template:: B-Overview
 	- ....
+- 🗺Big Picture
+  template:: B-BigPicture
+	- ...
 - 🌾Resource
   template:: B-Resource
 	- ...
