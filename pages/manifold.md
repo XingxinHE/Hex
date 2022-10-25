@@ -39,3 +39,12 @@
 			- ($k=2$) trivial—is each link a loop?
 			- ($k=3$) is each link a 2-sphere? Just check if $V-E+F = 2$ ( [Euler’s Characteristic](((634e3b2d-a1b3-4803-9236-d18373f2c133)))  )
 			- ($k=4$) is each link a 3-sphere? …Well, it’s known to be in NP! [S. Schleimer 2004]
+- ⛈Characteristics / Properties
+	- Local Manifoldness
+		- 📝Definition
+			- A [[Continuous]] parametric surface is locally manifold at a [[Surface]] point $p$ if, for every other surface point $q$ within **a sufficiently small** sphere of radius $\delta$ around $p$, the corresponding [[pre-image]] is contained in a circle of some radius $\epsilon=O(\epsilon)$ around the pre-image of $p$.
+			- A more intuitive way to express this condition is to say that the surface patch that lies within a sufficiently small $\epsilon$-sphere around $p$ is topologically equivalent ([[Homeomorphic]]) to a disk.
+			- > ==**Note⚠**==: Since this second definition does not require a parameterization, it applies to implicit representations as well.
+		- 📈Diagram
+			- ![name](../assets/manifold_nonmanifold.png){:height 200, :width 400}
+			  A great diagram illustrates the idea of "sufficiently small".

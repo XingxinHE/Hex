@@ -74,24 +74,41 @@
 				  git push origin release:<name>/<feature>
 				  ```
 				- The preceding command will create a new branch for pull request
-	- ## Clone
-	  collapsed:: true
+	- ## Clone and Submodule
 		- 📌 Setup for recursive clone
+		  collapsed:: true
 			- You want to combine several dependencies into one project when you work on a macro project.
 			- Procedure
 				- create a `.gitmodules` in the root of your `git` folder.
 				- define **what** `git` repo will be in which **location** of your main folder.
+				- 📄`.gitmodules`
+				  ```
+				  [submodule "<name_of_this_repo"]
+				  	path = <location_of_this_submodule>
+				  	url = <url_of_this_repo>
+				  - //e.g.
+				  [submodule "deps/polyscope"]
+				  	path = deps/polyscope
+				  	url = https://github.com/nzfeng/polyscope.git
+				  [submodule "deps/googletest"]
+				  	path = deps/googletest
+				  	url = https://github.com/google/googletest.git
+				  ```
+				- Use the following commands to setup.
+				  
+				  ``` shell
+				  git clone <repo_url>
+				  git submodule init
+				  git submodule update --depth 10
+				  ```
+		- 🗑Unorganized
+			- what do the following mean...
+			- ```cmd
+			  git submodule add --depth 1 git@gitee.com:shanghai-dajie-robot/pocket_raichu.git submodules/pocket_raichu
+			  git config -f .gitmodules submodule.pocket_raichu.shallow true
+			  ```
 			- ```
-			  [submodule "<name_of_this_repo"]
-			  	path = <location_of_this_submodule>
-			  	url = <url_of_this_repo>
-			  - //e.g.
-			  [submodule "deps/polyscope"]
-			  	path = deps/polyscope
-			  	url = https://github.com/nzfeng/polyscope.git
-			  [submodule "deps/googletest"]
-			  	path = deps/googletest
-			  	url = https://github.com/google/googletest.git
+			  git config -f .gitmodules submodule.submodules/pocket_raichu.shallow false
 			  ```
 	- ## Worktree
 		- 📝Definition
@@ -124,6 +141,13 @@
 			- Abort and go back to the state
 				- `git cherry-pick --abort`
 			-
+	- ## Github
+		- 📌Setup a Github Access Token
+			- 1. Go to the Github account - Developer Setting - Generate Token
+			- 2. Git clone an arbitrary repo from your page
+			- 3. When the computer request credential, just close it until it appears on the command line for the following info
+			     1. `user_name`: the name of your Github account
+			     2. `password`: paste your token here
 	- ## Merge
 		- 📌 How to solve conflicts?
 			- Suppose you are on `master`, and you want to merge `new_feature` branch, the conflict is on `main.cpp`. Then you can do:
@@ -142,3 +166,121 @@
 			- ```bash
 			  git merge --continue
 			  ```
+- 🧬Related Elements
+	- 📌VCSs, Git, Github/Gitlab
+		- VCSs = Version control systems (VCSs)
+		- Git = **Git** is the de facto standard for version control
+		- Github/Gitlab/Gitee = the host of Git Repository
+- 🌾Resources
+	- `.gitignore` template
+		- https://github.com/github/gitignore
+	- Software for Git
+		- `SourceTree` is a free software managing Git while it provides GUI to interact with Git. Highly recommend! You can download: https://www.sourcetreeapp.com/
+	- Book for git
+		- https://git-scm.com/book/en/v2
+- 📈Diagram
+	- ![name](https://cdn.jsdelivr.net/npm/simple-icons@5.8.1/icons/git.svg){:height 50, :width 50}
+	- TODO Diagram of git concept
+- # Basic Concepts
+	- Repository
+		- In short, a Git *repository*: it is the data  `objects`  and  `references` .
+	- Data Model
+		- The following mimics the data model in Git in pseudocode.
+		- **File**: it is a bunch of bytes
+			- ```
+			  type blob = array<byte>
+			  ```
+		- **Directory**: It contains named files and directories
+			- ```
+			  type tree = map<string, tree | blob>
+			  ```
+		- **Commit**: It has parents, metadata, and the top-level tree
+			- ```
+			  type commit = struct 
+			  {
+			    parents: array<commit>
+			    author: string
+			    message: string
+			    snapshot: tree
+			  }
+			  ```
+		- **Object**: It could be a blob, tree, or commit.
+			- ```
+			  type object = blob | tree | commit
+			  ```
+		- **Data Storage**: In Git data store, all objects are **content-addressed** by their [SHA-1 hash](https://en.wikipedia.org/wiki/SHA-1).
+			- ```
+			  objects = map<string, object>
+			  ​
+			  def store(object):
+			    id = sha1(object)
+			    objects[id] = object
+			  ​
+			  def load(id):
+			    return objects[id]
+			  ```
+		- **References**: They are pointers to commits. Convert *SHA-1 hash* to *human-readable names*.
+			- ```
+			  references = map<string, string>
+			  ​
+			  def update_reference(name, id):
+			    references[name] = id
+			  ​
+			  def read_reference(name):
+			    return references[name]
+			  ​
+			  def load_reference(name_or_id):
+			    if name_or_id in references:
+			        return load(references[name_or_id])
+			    else:
+			        return load(name_or_id)
+			  ```
+			- e.g.
+				- `HEAD`  is the latest "where we currently are"
+				- `master`  refers to a particular snapshot instead of a bunch of hexadecimal string.
+	- Merge
+		- 📌 Fast-forward and three-way merge
+			- Fast-forward: the commit all points to a same parent commit
+			  ```
+			  o <-- o <-- o <-- o <-- o
+			  ```
+			- Three-way merge:
+				- master and sub no conflicts✔, different file
+				- master and sub no conflicts✔, different modification in the same file
+				- master and sub conflicts❌
+				- ```
+				  o <-- o <-- o <-- o <---- o
+				              ^            /
+				               \          v
+				                --- o <-- o
+				  ```
+	- 📌Snapshots咔嚓
+		- Git models the history of a collection of files and folders within some top-level directory as a series of snapshots.
+		  ```
+		  <root> (tree)
+		  |
+		  +- foo (tree)
+		  |  |
+		  |  + bar.txt (blob, contents = "hello world")
+		  |
+		  +- baz.txt (blob, contents = "git is wonderful")
+		  ```
+	- 📌Modeling history: relating snapshots
+		- In pro words: a history is a **directed acyclic graph (DAG)** of snapshots
+		- In human words: each snapshot in Git refers to a set of “parents”, the snapshots that preceded it.
+		- ```
+		        this is a commit
+		              ↑
+		  o <-- o <-- o <-- o
+		              ^
+		               \
+		                --- o <-- o
+		  new_feature      new_feature + bug_fix
+		              ↑               ↗
+		  o <-- o <-- o <-- o <---- o
+		              ^            /
+		               \          v
+		                --- o <-- o
+		                          ↓
+		                       bug_fix
+		  ```

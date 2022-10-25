@@ -168,6 +168,9 @@
 - 🔭Overview
   template:: B-Overview
 	- ....
+- 🌾Resource
+  template:: B-Resource
+	- ...
 - # 😷Symptoms
 	- A scenario that illustrates the benefit this object provides.
 - # 🤼Participants
@@ -179,6 +182,9 @@
 - 🥘Regular Recipe  
   template:: B-Regular
 	- x
+- 🚿Source
+  template:: B-Source
+	- 水-思源。What is the source of this subject?
 - ### Item
   template:: Glossary Short Item
 	- 📝**Definition**: xxx

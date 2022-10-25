@@ -1,0 +1,1 @@
+- https://www.khanacademy.org/math/linear-algebra/matrix-transformations/linear-transformations/v/preimage-of-a-set

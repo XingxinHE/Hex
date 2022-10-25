@@ -1,5 +1,7 @@
 - ## 📝Definition
   The name is the essence of this topic.
+- 🏷(Sub)Categories
+	- The **3** pillars of computer graphics are [[rendering]], [[modeling]], and [[animation]].
 - ## 🎯Intent
    A short description what does this thing do?
 - ## 🧠Intuition

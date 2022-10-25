@@ -78,3 +78,8 @@
 	- Vulkan Driver
 		- It is already inside Nvidia Driver.
 		- https://www.nvidia.com/Download/index.aspx?lang=en-us
+- tldr
+	- The **tldr-pages** project is a collection of community-maintained help pages for command-line tools.
+	- Install `node.js` and install by `npm install -g tldr`
+	- https://github.com/tldr-pages/tldr
+	- https://github.com/tldr-pages/tldr-node-client
