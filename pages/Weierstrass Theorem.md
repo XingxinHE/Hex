@@ -1,0 +1,1 @@
+- There are at least two theorems known as Weierstrass's theorem.
