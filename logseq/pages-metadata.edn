@@ -67,9 +67,6 @@
  {:block/name "6337df95-fe77-4604-b1cf-a4e212e50eec",
   :block/created-at 1664606174587,
   :block/updated-at 1664606174587}
- {:block/name "6338f24c-ceaa-47b3-8f93-437461a1dc34",
-  :block/created-at 1664726914370,
-  :block/updated-at 1664726914370}
  {:block/name "63395397-23d2-42d9-b8be-b61f43d8e59f",
   :block/created-at 1664726913106,
   :block/updated-at 1664726913106}
@@ -170,8 +167,8 @@
   :block/created-at 1661514639615,
   :block/updated-at 1661514639615}
  {:block/name "animation",
-  :block/created-at 1666689555030,
-  :block/updated-at 1666689555030}
+  :block/created-at 1666708854213,
+  :block/updated-at 1666708854213}
  {:block/name "antiderivative",
   :block/created-at 1663995766493,
   :block/updated-at 1665186784617}
@@ -458,8 +455,8 @@
   :block/created-at 1663995766935,
   :block/updated-at 1663995766935}
  {:block/name "curvature",
-  :block/created-at 1666689557059,
-  :block/updated-at 1666689557059}
+  :block/created-at 1666708854862,
+  :block/updated-at 1666708854862}
  {:block/name "curve",
   :block/created-at 1666621278638,
   :block/updated-at 1666621278638}
@@ -737,8 +734,8 @@
   :block/created-at 1661085690432,
   :block/updated-at 1666614568539}
  {:block/name "gradient",
-  :block/created-at 1666689557058,
-  :block/updated-at 1666689557058}
+  :block/created-at 1666708854859,
+  :block/updated-at 1666708854859}
  {:block/name "gram-schmidt orthogonalization",
   :block/created-at 1665044336652,
   :block/updated-at 1665049461737}
@@ -773,11 +770,11 @@
   :block/created-at 1661663663911,
   :block/updated-at 1666626194709}
  {:block/name "homeomorphic",
-  :block/created-at 1666689554580,
-  :block/updated-at 1666689554580}
+  :block/created-at 1666708853831,
+  :block/updated-at 1666708853831}
  {:block/name "homomorphic",
-  :block/created-at 1666689554559,
-  :block/updated-at 1666689554559}
+  :block/created-at 1666708853994,
+  :block/updated-at 1666708853994}
  {:block/name "hospital rule",
   :block/created-at 1661477999898,
   :block/updated-at 1661477999898}
@@ -878,11 +875,8 @@
   :block/created-at 1661004367896,
   :block/updated-at 1661004367896}
  {:block/name "latex",
-  :block/created-at 1666689554625,
-  :block/updated-at 1666689554625}
- {:block/name "latex cheat sheet",
-  :block/created-at 1661514640481,
-  :block/updated-at 1664093527170}
+  :block/created-at 1666708853951,
+  :block/updated-at 1666708853951}
  {:block/name "lcd",
   :block/created-at 1666689554690,
   :block/updated-at 1666689554690}
@@ -1040,8 +1034,8 @@
   :block/created-at 1663121263337,
   :block/updated-at 1663121263337}
  {:block/name "modeling",
-  :block/created-at 1666689555031,
-  :block/updated-at 1666689555031}
+  :block/created-at 1666708854216,
+  :block/updated-at 1666708854216}
  {:block/name "move constructor",
   :block/created-at 1661079788522,
   :block/updated-at 1661079801027}
@@ -1103,8 +1097,8 @@
   :block/created-at 1661955564241,
   :block/updated-at 1662306892893}
  {:block/name "optimization",
-  :block/created-at 1666689554774,
-  :block/updated-at 1666689554774}
+  :block/created-at 1666708854142,
+  :block/updated-at 1666708854142}
  {:block/name "orthonormality",
   :block/created-at 1664241829886,
   :block/updated-at 1665043791791}
@@ -1114,6 +1108,9 @@
  {:block/name "overflow",
   :block/created-at 1661514640592,
   :block/updated-at 1661514640592}
+ {:block/name "paraboloid",
+  :block/created-at 1666707007043,
+  :block/updated-at 1666707041628}
  {:block/name "parent class",
   :block/created-at 1663995771495,
   :block/updated-at 1663995771495}
@@ -1166,8 +1163,8 @@
   :block/created-at 1666689554742,
   :block/updated-at 1666689554742}
  {:block/name "pre-image",
-  :block/created-at 1666689554753,
-  :block/updated-at 1666689554753}
+  :block/created-at 1666708854185,
+  :block/updated-at 1666708854185}
  {:block/name "preprocessing",
   :block/created-at 1661878210721,
   :block/updated-at 1661908946284}
@@ -1232,14 +1229,14 @@
   :block/created-at 1661308481368,
   :block/updated-at 1661308481368}
  {:block/name "random sample consensus",
-  :block/created-at 1666689554779,
-  :block/updated-at 1666689554779}
+  :block/created-at 1666708854153,
+  :block/updated-at 1666708854153}
  {:block/name "range error",
   :block/created-at 1662342946567,
   :block/updated-at 1662342946567}
  {:block/name "ransac",
-  :block/created-at 1666689554777,
-  :block/updated-at 1666689554777}
+  :block/created-at 1666708854148,
+  :block/updated-at 1666708854148}
  {:block/name "raster image",
   :block/created-at 1666689554847,
   :block/updated-at 1666689554847}
@@ -1292,8 +1289,8 @@
   :block/created-at 1661908320221,
   :block/updated-at 1661908320221}
  {:block/name "rendering",
-  :block/created-at 1666689555031,
-  :block/updated-at 1666689555031}
+  :block/created-at 1666708854219,
+  :block/updated-at 1666708854219}
  {:block/name "riemann",
   :block/created-at 1665109917539,
   :block/updated-at 1665109917539}
@@ -1316,8 +1313,8 @@
   :block/created-at 1661514639605,
   :block/updated-at 1661514639605}
  {:block/name "sampling",
-  :block/created-at 1666689557063,
-  :block/updated-at 1666689557063}
+  :block/created-at 1666708854878,
+  :block/updated-at 1666708854878}
  {:block/name "scalar",
   :block/created-at 1662738743247,
   :block/updated-at 1662738743247}
@@ -1400,8 +1397,8 @@
   :block/created-at 1662739031580,
   :block/updated-at 1663139905755}
  {:block/name "sqlite",
-  :block/created-at 1666689554889,
-  :block/updated-at 1666689554889}
+  :block/created-at 1666708854079,
+  :block/updated-at 1666708854079}
  {:block/name "square",
   :block/created-at 1661664624157,
   :block/updated-at 1661664624157}
@@ -1490,8 +1487,8 @@
   :block/created-at 1666596451069,
   :block/updated-at 1666596451069}
  {:block/name "topology",
-  :block/created-at 1666689554579,
-  :block/updated-at 1666689554579}
+  :block/created-at 1666708853827,
+  :block/updated-at 1666708853827}
  {:block/name "tr1",
   :block/created-at 1661083588976,
   :block/updated-at 1661084794145}
@@ -1609,6 +1606,9 @@
  {:block/name "webview2",
   :block/created-at 1666596451327,
   :block/updated-at 1666596451327}
+ {:block/name "weierstrass theorem",
+  :block/created-at 1666709125260,
+  :block/updated-at 1666709125260}
  {:block/name "widening",
   :block/created-at 1661514640598,
   :block/updated-at 1661924343029}
@@ -1634,11 +1634,11 @@
   :block/created-at 1661955570403,
   :block/updated-at 1661955570403}
  {:block/name "同态",
-  :block/created-at 1666689554562,
-  :block/updated-at 1666689554562}
+  :block/created-at 1666708853998,
+  :block/updated-at 1666708853998}
  {:block/name "同胚",
-  :block/created-at 1666689554583,
-  :block/updated-at 1666689554583}
+  :block/created-at 1666708853851,
+  :block/updated-at 1666708853851}
  {:block/name "周长",
   :block/created-at 1661664203909,
   :block/updated-at 1661664203909}

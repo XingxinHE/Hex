@@ -241,6 +241,28 @@
 			- Identify the inequalities
 				- Area of shaded region under parabola < Area of shaded triangle < Area of rectangle
 			- Therefore we have that results.
+	- 📌example using definite integral and Riemann sum to solve volume
+		- 💬Question: Find the volume of the [[paraboloid]]
+			- ![name](../assets/find_the_volume.png){:height 200, :width 200}
+		- 🏹Strategy: understand the what is the height, what is the radius. And then use Riemann sum. Then integral.
+		- ✏Solution:
+			- At height $y$, the radius is
+				- $$
+				  \begin{align}
+				  y&=x^2\\
+				  x&=\text{radius}=\sqrt{y}
+				  \end{align}
+				  $$
+			- The volume of a small piece is
+				- $$
+				  \begin{align}
+				  \text{Volume}=\pi r^2h=\pi y\Delta y
+				  \end{align}
+				  $$
+			- Sum all the small piece
+				- $$
+				  \lim_{n\to\infty}\sum_{i}^{n}\pi_{i}\Delta y=\int_0^H\pi ydy
+				  $$
 	- 📌Definite integral of Piecewise linear functions
 		- Given the graph of $y=f(x)$ below.
 			- ![name](../assets/images_defint_areaunderpiecewiselinearnoshade.svg){:height 200, :width 200}
