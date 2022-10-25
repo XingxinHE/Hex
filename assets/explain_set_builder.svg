@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="793.6724pt" height="595.24728pt" viewBox="0 0 793.6724 595.24728">
+<g enable-background="new">
+<g>
+<clipPath id="cp0">
+<path transform="matrix(1,0,0,-1,0,595.24728)" d="M 0 0 L 793.6 0 L 793.6 595.2 L 0 595.2 Z " fill-rule="evenodd"/>
+</clipPath>
+<g clip-path="url(#cp0)">
+<path transform="matrix(1,0,0,-1,0,595.24728)" d="M 0 595.2 L 793.7 595.2 L 793.7 0 L 0 0 L 0 595.2 Z " fill="#ffffff" fill-rule="evenodd"/>
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 595.24728)" font-size="14" font-family="TimesNewRomanPSMT"><tspan y="-40.4" x="39.7"> </tspan></text>
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 595.24728)" font-size="14" font-family="TimesNewRomanPSMT"><tspan y="-40.4" x="395.5"> </tspan></text>
+<text fill="#b3b3b3" xml:space="preserve" transform="matrix(1 0 -0 1 0 595.24728)" font-size="40" font-family="DejaVuSerif"><tspan y="-374.6" x="127.6">{</tspan></text>
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 595.24728)" font-size="40" font-family="DejaVuSerif"><tspan y="-374.6" x="153"> </tspan></text>
+<text fill="#808000" xml:space="preserve" transform="matrix(1 0 -0 1 0 595.24728)" font-size="40" font-family="DejaVuSerif" font-style="italic"><tspan y="-374.6" x="165.7">n</tspan></text>
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 595.24728)" font-size="40" font-family="DejaVuSerif"><tspan y="-374.6" x="191.4"> </tspan></text>
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 595.24728)" font-size="40" font-family="DejaVuSerif"><tspan y="-374.6" x="204.1">|</tspan></text>
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 595.24728)" font-size="40" font-family="DejaVuSerif"><tspan y="-374.6" x="217.6"> </tspan></text>
+<text fill="#800080" xml:space="preserve" transform="matrix(1 0 -0 1 0 595.24728)" font-size="40" font-family="DejaVuSerif" font-style="italic"><tspan y="-374.6" x="230.3">n</tspan></text>
+<text fill="#800080" xml:space="preserve" transform="matrix(1 0 -0 1 0 595.24728)" font-size="40" font-family="DejaVuSerif"><tspan y="-374.6" x="256 268.68 298.16 310.84"> &#x2208; &#x2115;</tspan></text>
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 595.24728)" font-size="40" font-family="DejaVuSerif"><tspan y="-374.6" x="347.4"> </tspan></text>
+<text fill="#b3b3b3" xml:space="preserve" transform="matrix(1 0 -0 1 0 595.24728)" font-size="40" font-family="DejaVuSerif"><tspan y="-374.6" x="360.1 383.98 409.66004">and</tspan></text>
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 595.24728)" font-size="40" font-family="DejaVuSerif"><tspan y="-374.6" x="435.3"> </tspan></text>
+<text fill="#008080" xml:space="preserve" transform="matrix(1 0 -0 1 0 595.24728)" font-size="40" font-family="DejaVuSerif" font-style="italic"><tspan y="-374.6" x="448">n</tspan></text>
+<text fill="#008080" xml:space="preserve" transform="matrix(1 0 -0 1 0 595.24728)" font-size="40" font-family="DejaVuSerif"><tspan y="-374.6" x="473.7 486.38 499.14 519.7 532.38 555.98007 578.54006 602.1401"> is even</tspan></text>
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 595.24728)" font-size="40" font-family="DejaVuSerif"><tspan y="-374.6" x="628"> </tspan></text>
+<text fill="#b3b3b3" xml:space="preserve" transform="matrix(1 0 -0 1 0 595.24728)" font-size="40" font-family="DejaVuSerif"><tspan y="-374.6" x="640.7">}</tspan></text>
+<text fill="#808000" xml:space="preserve" transform="matrix(1 0 -0 1 0 595.24728)" font-size="24" font-family="Purisa" font-weight="bold"><tspan y="-286.7" x="25.1 46.292005 60.476 76.556 91.964 105.044 121.124 135.428 150.93199 167.80399 184.60398 200.10797 214.69997 222.49997 230.29998 245.80397">The set of all n</tspan></text>
+<text fill="#800080" xml:space="preserve" transform="matrix(1 0 -0 1 0 595.24728)" font-size="24" font-family="Purisa" font-weight="bold"><tspan y="-186.8" x="298.6 314.704 330.208 337.48 350.56 366.06404 380.65605 396.16004 412.26405 426.85606 441.16007 456.95207 470.82408 485.5121 493.31208">n is a natural </tspan></text>
+<text fill="#800080" xml:space="preserve" transform="matrix(1 0 -0 1 0 595.24728)" font-size="24" font-family="Purisa" font-weight="bold"><tspan y="-147.4" x="345.5 361.604 377.492 399.5 416.468 432.47599">number</tspan></text>
+<text fill="#008080" xml:space="preserve" transform="matrix(1 0 -0 1 0 595.24728)" font-size="24" font-family="Purisa" font-weight="bold"><tspan y="-96.8" x="505.2 519.792 535.896 554.304 569.80807 585.91207 601.32009 608.68807 621.76809 637.1761 653.25607 668.66409 684.6721">and n is even</tspan></text>
+<path transform="matrix(1,0,0,-1,0,595.24728)" stroke-width=".1" stroke-linecap="butt" stroke-miterlimit="10" stroke-linejoin="miter" fill="none" stroke="#000000" d="M 144 317.1 C 144 352.3 173.2 334.4 181.6 352.2 "/>
+<path transform="matrix(1,0,0,-1,0,595.24728)" d="M 183.8 364 L 177.2 352.4 L 185.5 350.7 L 183.8 364 Z " fill-rule="evenodd"/>
+<path transform="matrix(1,0,0,-1,0,595.24728)" stroke-width=".1" stroke-linecap="butt" stroke-miterlimit="10" stroke-linejoin="miter" fill="none" stroke="#000000" d="M 396 217.2 C 396 325.2 305.2 259 297.5 348.4 "/>
+<path transform="matrix(1,0,0,-1,0,595.24728)" d="M 297 361.2 L 293.3 348.3 L 301.8 348.6 L 297 361.2 Z " fill-rule="evenodd"/>
+<path transform="matrix(1,0,0,-1,0,595.24728)" stroke-width=".1" stroke-linecap="butt" stroke-miterlimit="10" stroke-linejoin="miter" fill="none" stroke="#000000" d="M 603 127.2 C 603 214.3 527.7 101.2 525.1 347.9 "/>
+<path transform="matrix(1,0,0,-1,0,595.24728)" d="M 525.1 361.2 L 520.9 348.4 L 529.4 348.4 L 525.1 361.2 Z " fill-rule="evenodd"/>
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 595.24728)" font-size="44" font-family="DejaVuSerif"><tspan y="-506.5" x="137.9 170.064 194.87999 220.88399 249.21999 263.168 301.668 327.936 345.536 373.828 394.816 421.084 435.07603 449.11204 487.61204 515.90408 557.66006 585.82 611.82406 632.812">Even Natural Numbers</tspan></text>
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 595.24728)" font-size="24" font-family="Purisa" font-weight="bold"><tspan y="-232.7" x="258.7 276.676 290.86 306.93998 320.81199">where</tspan></text>
+<path transform="matrix(1,0,0,-1,0,595.24728)" stroke-width=".1" stroke-linecap="butt" stroke-miterlimit="10" stroke-linejoin="miter" fill="none" stroke="#000000" d="M 297.8 263.1 C 297.8 338.8 221.5 294 212.2 351.6 "/>
+<path transform="matrix(1,0,0,-1,0,595.24728)" d="M 211.3 364 L 208.1 351 L 216.5 351.6 L 211.3 364 Z " fill-rule="evenodd"/>
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 595.24728)" font-size="40" font-family="DejaVuSerif"><tspan y="-33.7" x="58.9 84.3 96.98 122.46001 135.14002 147.82 173.3 185.98001 198.66 224.06002 236.74002 249.50002 274.9 287.58 300.33998 325.73997 338.41996 351.09996 376.57997 401.97996 414.65995 427.33995 452.81996 478.21995 490.97993 503.6599 529.05996 554.5399 567.2199 579.8999 605.2999 630.7799 643.4599 656.1399 696.1399 708.8199">{ 0, 2, 4, 6, 8, 10, 12, 14, 16, &#x2026; }</tspan></text>
+</g>
+</g>
+</g>
+</svg>

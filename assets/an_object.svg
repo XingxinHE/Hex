@@ -1,0 +1,16 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 267.8362058226048 165.08573728608798" width="267.8362058226048" height="165.08573728608798">
+  <!-- svg-source:excalidraw -->
+  
+  <defs>
+    <style>
+      @font-face {
+        font-family: "Virgil";
+        src: url("https://excalidraw.com/Virgil.woff2");
+      }
+      @font-face {
+        font-family: "Cascadia";
+        src: url("https://excalidraw.com/Cascadia.woff2");
+      }
+    </style>
+  </defs>
+  <rect x="0" y="0" width="267.8362058226048" height="165.08573728608798" fill="#ffffff"></rect><g stroke-linecap="round" transform="translate(76.18686503002482 53.44079929746016) rotate(0 90.82467039629 50.82246899431391)"><path d="M1.46 0.42 C55.77 -2.77, 113.51 -3.65, 183.59 -0.83 M-0.8 -0.83 C44.27 -0.18, 90.98 -1.51, 182.46 -0.26 M182.07 -1.86 C180.79 37.85, 182.18 74.26, 181.37 102.16 M182.28 -0.35 C180.77 31.33, 180.44 64.96, 180.79 102.12 M183.17 103.5 C125.3 98.98, 71.7 101.15, 0.15 100.7 M182.64 100.76 C139.53 102.08, 97.16 102.37, 0.93 100.65 M-0.9 101.1 C0.52 68.66, -2.1 35.39, -0.15 -0.13 M-0.04 101.17 C0.03 75.66, 1.22 50.05, 0.69 0.49" stroke="#000000" stroke-width="1" fill="none"></path></g><g transform="translate(81.11423619954212 10) rotate(0 21.5 18)"><text x="0" y="25" font-family="Virgil, Segoe UI Emoji" font-size="28px" fill="#000000" text-anchor="start" style="white-space: pre;" direction="ltr">int:</text></g><g transform="translate(10 78.37907326879025) rotate(0 28 18)"><text x="0" y="25" font-family="Virgil, Segoe UI Emoji" font-size="28px" fill="#000000" text-anchor="start" style="white-space: pre;" direction="ltr">age:</text></g><g transform="translate(136.7292157914917 79.1533061225993) rotate(0 25 23)"><text x="0" y="32" font-family="Virgil, Segoe UI Emoji" font-size="36px" fill="#000000" text-anchor="start" style="white-space: pre;" direction="ltr">42</text></g></svg>
