@@ -504,7 +504,7 @@
   :block/updated-at 1661308480806}
  {:block/name "derivative",
   :block/created-at 1661316133168,
-  :block/updated-at 1661862210964}
+  :block/updated-at 1666788658424}
  {:block/name "derived class",
   :block/created-at 1661477997827,
   :block/updated-at 1661477997827}
@@ -545,8 +545,8 @@
   :block/created-at 1661667064661,
   :block/updated-at 1661764925533}
  {:block/name "dirac delta function",
-  :block/created-at 1666754068840,
-  :block/updated-at 1666754163075}
+  :block/created-at 1666787820670,
+  :block/updated-at 1666787820670}
  {:block/name "discontinuity",
   :block/created-at 1661310136482,
   :block/updated-at 1661310878661}
@@ -774,7 +774,7 @@
   :block/updated-at 1662011270378}
  {:block/name "hex",
   :block/created-at 1661663663911,
-  :block/updated-at 1666762421483}
+  :block/updated-at 1666788124882}
  {:block/name "homeomorphic",
   :block/created-at 1666708853831,
   :block/updated-at 1666708853831}
@@ -791,11 +791,11 @@
   :block/created-at 1661477998389,
   :block/updated-at 1661477998389}
  {:block/name "if-else",
-  :block/created-at 1666763185576,
-  :block/updated-at 1666763185576}
+  :block/created-at 1666787820819,
+  :block/updated-at 1666787820819}
  {:block/name "if-else statement",
-  :block/created-at 1666763177421,
-  :block/updated-at 1666763384429}
+  :block/created-at 1666787820815,
+  :block/updated-at 1666787820815}
  {:block/name "in-progress",
   :block/created-at 1661004367896,
   :block/updated-at 1661004367896}
@@ -857,8 +857,8 @@
   :block/created-at 1661083091540,
   :block/updated-at 1661083091540}
  {:block/name "javascript",
-  :block/created-at 1666764592026,
-  :block/updated-at 1666764592026}
+  :block/created-at 1666787821580,
+  :block/updated-at 1666787821580}
  {:block/name "jit",
   :block/created-at 1662342945333,
   :block/updated-at 1662342945333}
@@ -872,8 +872,8 @@
   :block/created-at 1661308481570,
   :block/updated-at 1661308481570}
  {:block/name "karl weierstrass",
-  :block/created-at 1666748468969,
-  :block/updated-at 1666754300803}
+  :block/created-at 1666787820886,
+  :block/updated-at 1666787820886}
  {:block/name "l'hôpital's rule",
   :block/created-at 1661477997048,
   :block/updated-at 1661583398066}
@@ -988,9 +988,6 @@
  {:block/name "logarithm",
   :block/created-at 1661584755679,
   :block/updated-at 1665391858834}
- {:block/name "logseq",
-  :block/created-at 1666679551647,
-  :block/updated-at 1666679551647}
  {:block/name "logseq template",
   :block/created-at 1661004687578,
   :block/updated-at 1666689399316}
@@ -1365,7 +1362,7 @@
   :block/updated-at 1665369549726}
  {:block/name "second fundamental theorem of calculus",
   :block/created-at 1665200203393,
-  :block/updated-at 1666185717377}
+  :block/updated-at 1666789572686}
  {:block/name "sequence",
   :block/created-at 1663995767904,
   :block/updated-at 1663995767904}
@@ -1460,8 +1457,8 @@
   :block/created-at 1666621278643,
   :block/updated-at 1666754396580}
  {:block/name "switch statement",
-  :block/created-at 1666763209010,
-  :block/updated-at 1666763323318}
+  :block/created-at 1666787821008,
+  :block/updated-at 1666787821008}
  {:block/name "symbol tables",
   :block/created-at 1661955564075,
   :block/updated-at 1661955564075}
@@ -1633,9 +1630,12 @@
  {:block/name "webview2",
   :block/created-at 1666596451327,
   :block/updated-at 1666596451327}
+ {:block/name "weierstrass theorem",
+  :block/created-at 1666709125260,
+  :block/updated-at 1666709204773}
  {:block/name "while loop",
-  :block/created-at 1666770264425,
-  :block/updated-at 1666770743777}
+  :block/created-at 1666787821043,
+  :block/updated-at 1666787821043}
  {:block/name "widening",
   :block/created-at 1661514640598,
   :block/updated-at 1661924343029}

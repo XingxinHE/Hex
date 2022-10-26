@@ -72,10 +72,12 @@ alias:: FTC2
 	- Proof of FTC2
 		- 📋Prerequisite
 			- Recall that FTC2 states that given a continuous function $f$,
+			  collapsed:: true
 				- $$
 				  F(x)=\int _{a}^{x} f(t)\, dt\Rightarrow F'(x)=f(x)
 				  $$
 		- 🏹Strategy
+		  collapsed:: true
 			- To prove this theorem, we will compute the derivative of $F$ by using the geometric picture of $F$. We will prove the case for $f>0$ and you will verify that the same argument works for any $f$.
 		- ✏Process
 			- Recall the definition of the [[Derivative]]:
@@ -90,10 +92,12 @@ alias:: FTC2
 				  \end{align}
 				  $$
 			- We can approximate $\Delta F$ by the area of the rectangle with base $\Delta x$ and height $f(x)$. This gives
+			  collapsed:: true
 				- $$
 				  \frac{\Delta F}{\Delta x}\approx \frac{f(x)\cdot \Delta x}{\Delta x} =f(x)
 				  $$
 				- Now since $f$ is continuous,
+				  collapsed:: true
 					- $$
 					  \lim _{\Delta x\rightarrow 0} \frac{\Delta F}{\Delta x}=\lim _{\Delta x\rightarrow 0} f(x) = f(x)
 					  $$
