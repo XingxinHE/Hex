@@ -443,6 +443,7 @@
 		- ### 💻Assignment
 			- Assignment
 				- [Euler characteristics](https://github.com/XingxinHE/Junior-SofwareEngineer-Notes/tree/main/code/GeometryProcessing/csc2520_jacobson/geometry-processing-introduction)
+					- TODO my current implementation relies on `std::set`. The advance computation relies on sparse matrix. Digest and document this kind of cool stuffs.
 		- ### 📖Reading
 	- Polygon Mesh Processing
 		- Table of Content

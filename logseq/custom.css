@@ -471,7 +471,7 @@ html ::-webkit-scrollbar-thumb:hover {
   border-radius: 0 5px 5px 0;
 }
 .content :not(pre) > code {
-  border-radius: 3px;
+  border-radius: 1px;
   font-size: 85%;
   font-family: MonoLisa, "Fira Code", Monaco, Menlo, Consolas, "COURIER NEW", monospace;
   padding: 0.2em 0.4em !important;
@@ -570,7 +570,7 @@ svg.add-button > .circle {
 /* theme general */
 .extensions__code .extensions__code-lang {
   background-color: var(--ls-codeblock-background-color);
-  margin-right: 5px;
+  margin-right: 1px;
 }
 .extensions__code textarea {
   color: var(--ls-primary-text-color);
@@ -579,9 +579,9 @@ svg.add-button > .circle {
 .extensions__code .CodeMirror {
   color: var(--ls-secondary-text-color);
   font-family: SFMono-Regular, Consolas, "Liberation Mono", Menlo, Courier, monospace;
-  margin-top: 10px;
-  margin-bottom: 10px;
-  padding: 25px 10px 24px 20px;
+  margin-top: 1px;
+  margin-bottom: 1px;
+  padding: 1px 1px 1px 1px;
 }
 .extensions__code .CodeMirror .CodeMirror-gutters {
   background-color: var(--ls-codeblock-background-color);

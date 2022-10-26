@@ -53,7 +53,7 @@
 		- 1️⃣Generate a mathematical surface representation by establishing [[Continuity]] to guarantee a consistent transition from each patch to its neighboring ones.
 		- 2️⃣Restrict functions to the class of [[polynomial]]s.
 			- (1/2 benefits) polynomial can be evaluated by elementary arithmetic operation
-			- (2/2) the [[Weierstrass Theorem]] guarantees that each smooth([[differentiable]]) function can be approximated by a polynomial up to desired precision.
+			- (2/2) the [Weierstrass Approximation Theorem](((63589034-e850-4e32-8bac-6dec27ba1017))) guarantees that each smooth([[differentiable]]) function can be approximated by a polynomial up to desired precision.
 		- 3️⃣Improve the accuracy of an approximation with piecewise polynomial.
 			- Methods
 				- method 1 *p-refinement*: raise the degree of the polynomial.

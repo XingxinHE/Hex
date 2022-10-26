@@ -6,7 +6,8 @@
 	  |  `git add -p <file>`  | Interactively choose hunks of patch |  |
 	  |  `git blame`  | see each commit with authors |  |
 	  |  `git branch`  | see all the branches |  |
-	  |  `git branch <branch_name>`  | create a new branch |  `git branch dev`  |
+	  |  `git branch <branch_name>`  | create a new branch based on `HEAD`|  `git branch dev`  |
+	  |`git branch <new_branch> <base_branch>`|create a new branch based explicitly on `<base_branch>`|you are in `dev`. create a branch based on `master`.  `git branch fix master`|
 	  |  `git branch -d <local_branch>`  | Delete local branch if this branch has been merged|  `git branch -d PointDebug`  |
 	  |  `git branch -D <local_branch>`| delete local branch even not been merged||
 	  |  `git cat-file -p <SHA-1 hash>`  | Visualize data by SHA-1 hash |  |
@@ -14,6 +15,7 @@
 	  |  `git checkout <branch>`  | change HEAD to such branch |  `git checkout dev`  |
 	  |  `git checkout <commit_guid>`  | change HEAD to such commit |  |
 	  |  `git checkout -b <branch>`  | create a new branch and checkout to it |  `git checkout -b dev`  |
+	  |  `git checkout -b <new_branch> <base_branch>`| create a new branch and checkout to it (explicit version) |   |
 	  |  `git clean -f -d`  | clean all the untracked files and folders |  |
 	  |  `git clone <url>`  | clone the repo from url |  |
 	  |  `git clone --shallow`  | clone the repo without any history |  |

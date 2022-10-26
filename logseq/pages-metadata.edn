@@ -327,7 +327,7 @@
   :block/updated-at 1666689554420}
  {:block/name "comment",
   :block/created-at 1666596449879,
-  :block/updated-at 1666596449879}
+  :block/updated-at 1666756730653}
  {:block/name "common initialization syntax",
   :block/created-at 1661514639905,
   :block/updated-at 1661514639905}
@@ -544,6 +544,9 @@
  {:block/name "differentiation",
   :block/created-at 1661667064661,
   :block/updated-at 1661764925533}
+ {:block/name "dirac delta function",
+  :block/created-at 1666754068840,
+  :block/updated-at 1666754163075}
  {:block/name "discontinuity",
   :block/created-at 1661310136482,
   :block/updated-at 1661310878661}
@@ -687,7 +690,7 @@
   :block/updated-at 1661522001739}
  {:block/name "for loop",
   :block/created-at 1662082045925,
-  :block/updated-at 1662082356726}
+  :block/updated-at 1666770686092}
  {:block/name "fourier analysis",
   :block/created-at 1666596450092,
   :block/updated-at 1666596450092}
@@ -717,7 +720,7 @@
   :block/updated-at 1666621278496}
  {:block/name "git",
   :block/created-at 1663995767762,
-  :block/updated-at 1666682819537}
+  :block/updated-at 1666749430734}
  {:block/name "global extremum",
   :block/created-at 1665358802836,
   :block/updated-at 1665365307594}
@@ -734,8 +737,8 @@
   :block/created-at 1661085690432,
   :block/updated-at 1666614568539}
  {:block/name "gpu",
-  :block/created-at 1666745992719,
-  :block/updated-at 1666745992719}
+  :block/created-at 1666748469869,
+  :block/updated-at 1666748469869}
  {:block/name "gradient",
   :block/created-at 1666708854859,
   :block/updated-at 1666708854859}
@@ -771,7 +774,7 @@
   :block/updated-at 1662011270378}
  {:block/name "hex",
   :block/created-at 1661663663911,
-  :block/updated-at 1666626194709}
+  :block/updated-at 1666762421483}
  {:block/name "homeomorphic",
   :block/created-at 1666708853831,
   :block/updated-at 1666708853831}
@@ -787,6 +790,12 @@
  {:block/name "ienumerable",
   :block/created-at 1661477998389,
   :block/updated-at 1661477998389}
+ {:block/name "if-else",
+  :block/created-at 1666763185576,
+  :block/updated-at 1666763185576}
+ {:block/name "if-else statement",
+  :block/created-at 1666763177421,
+  :block/updated-at 1666763384429}
  {:block/name "in-progress",
   :block/created-at 1661004367896,
   :block/updated-at 1661004367896}
@@ -847,6 +856,9 @@
  {:block/name "java",
   :block/created-at 1661083091540,
   :block/updated-at 1661083091540}
+ {:block/name "javascript",
+  :block/created-at 1666764592026,
+  :block/updated-at 1666764592026}
  {:block/name "jit",
   :block/created-at 1662342945333,
   :block/updated-at 1662342945333}
@@ -859,6 +871,9 @@
  {:block/name "just to the right",
   :block/created-at 1661308481570,
   :block/updated-at 1661308481570}
+ {:block/name "karl weierstrass",
+  :block/created-at 1666748468969,
+  :block/updated-at 1666754300803}
  {:block/name "l'hôpital's rule",
   :block/created-at 1661477997048,
   :block/updated-at 1661583398066}
@@ -973,6 +988,9 @@
  {:block/name "logarithm",
   :block/created-at 1661584755679,
   :block/updated-at 1665391858834}
+ {:block/name "logseq",
+  :block/created-at 1666679551647,
+  :block/updated-at 1666679551647}
  {:block/name "logseq template",
   :block/created-at 1661004687578,
   :block/updated-at 1666689399316}
@@ -1112,11 +1130,11 @@
   :block/created-at 1661514640592,
   :block/updated-at 1661514640592}
  {:block/name "paraboloid",
-  :block/created-at 1666707007043,
-  :block/updated-at 1666707041628}
+  :block/created-at 1666748468730,
+  :block/updated-at 1666748468730}
  {:block/name "parallel computing",
-  :block/created-at 1666746076431,
-  :block/updated-at 1666746076431}
+  :block/created-at 1666748469868,
+  :block/updated-at 1666748469868}
  {:block/name "parent class",
   :block/created-at 1663995771495,
   :block/updated-at 1663995771495}
@@ -1440,7 +1458,10 @@
   :block/updated-at 1663995771496}
  {:block/name "surface",
   :block/created-at 1666621278643,
-  :block/updated-at 1666746148953}
+  :block/updated-at 1666754396580}
+ {:block/name "switch statement",
+  :block/created-at 1666763209010,
+  :block/updated-at 1666763323318}
  {:block/name "symbol tables",
   :block/created-at 1661955564075,
   :block/updated-at 1661955564075}
@@ -1612,9 +1633,9 @@
  {:block/name "webview2",
   :block/created-at 1666596451327,
   :block/updated-at 1666596451327}
- {:block/name "weierstrass theorem",
-  :block/created-at 1666709125260,
-  :block/updated-at 1666709204773}
+ {:block/name "while loop",
+  :block/created-at 1666770264425,
+  :block/updated-at 1666770743777}
  {:block/name "widening",
   :block/created-at 1661514640598,
   :block/updated-at 1661924343029}
