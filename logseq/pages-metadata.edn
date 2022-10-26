@@ -733,6 +733,9 @@
  {:block/name "glossary",
   :block/created-at 1661085690432,
   :block/updated-at 1666614568539}
+ {:block/name "gpu",
+  :block/created-at 1666745992719,
+  :block/updated-at 1666745992719}
  {:block/name "gradient",
   :block/created-at 1666708854859,
   :block/updated-at 1666708854859}
@@ -1111,6 +1114,9 @@
  {:block/name "paraboloid",
   :block/created-at 1666707007043,
   :block/updated-at 1666707041628}
+ {:block/name "parallel computing",
+  :block/created-at 1666746076431,
+  :block/updated-at 1666746076431}
  {:block/name "parent class",
   :block/created-at 1663995771495,
   :block/updated-at 1663995771495}
@@ -1434,7 +1440,7 @@
   :block/updated-at 1663995771496}
  {:block/name "surface",
   :block/created-at 1666621278643,
-  :block/updated-at 1666689736107}
+  :block/updated-at 1666746148953}
  {:block/name "symbol tables",
   :block/created-at 1661955564075,
   :block/updated-at 1661955564075}
@@ -1595,8 +1601,8 @@
   :block/created-at 1661045592332,
   :block/updated-at 1661045592332}
  {:block/name "voxel",
-  :block/created-at 1666621278637,
-  :block/updated-at 1666621278637}
+  :block/created-at 1666744638777,
+  :block/updated-at 1666744638777}
  {:block/name "wait",
   :block/created-at 1661004367895,
   :block/updated-at 1661004367895}
