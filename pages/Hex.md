@@ -52,6 +52,8 @@
 					- Homework B the Parachute ride is really good. need to document. Only the last question I don't understand.
 				- Integration Theory
 					- [[Summation Notation]], [[definite integral]], [Riemann Sums](((633f8f9f-c0b3-4d71-abf1-bc74283f85c2))), [[First Fundamental Theorem of Calculus]], [[Second Fundamental Theorem of Calculus]]
+				- Application
+					-
 		- ### 💻Assignment
 			- Assignment
 		- ### 📖Reading

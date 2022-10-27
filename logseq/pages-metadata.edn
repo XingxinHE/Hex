@@ -492,7 +492,7 @@
   :block/updated-at 1661079005343}
  {:block/name "definite integral",
   :block/created-at 1665106199489,
-  :block/updated-at 1666497642573}
+  :block/updated-at 1666868157769}
  {:block/name "definition",
   :block/created-at 1661045889746,
   :block/updated-at 1663426949364}
@@ -774,7 +774,7 @@
   :block/updated-at 1662011270378}
  {:block/name "hex",
   :block/created-at 1661663663911,
-  :block/updated-at 1666788124882}
+  :block/updated-at 1666867958816}
  {:block/name "homeomorphic",
   :block/created-at 1666708853831,
   :block/updated-at 1666708853831}
@@ -1630,9 +1630,6 @@
  {:block/name "webview2",
   :block/created-at 1666596451327,
   :block/updated-at 1666596451327}
- {:block/name "weierstrass theorem",
-  :block/created-at 1666709125260,
-  :block/updated-at 1666709204773}
  {:block/name "while loop",
   :block/created-at 1666787821043,
   :block/updated-at 1666787821043}

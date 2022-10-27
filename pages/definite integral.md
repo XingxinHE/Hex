@@ -7,11 +7,18 @@
 		- is the area of the region above the $x$-axis, below the curve $y=f(x)$, and in between the two vertical lines $x=a$ and $x=b$, as shown shaded in the figure below.
 			- ![name](../assets/images_defint_riemann4.svg){:height 200, :width 200}
 - # 🧪Composition
-	- Lower limit of the integral
-		- the $x$-value $a$
-	- Upper limit of the integral
-		- the $x$-value $b$
-	- This is a different sense of the word “[[Limit]]" from when we take the limit of a function.
+	- Limit
+		- Lower limit of the integral
+			- the $x$-value $a$
+		- Upper limit of the integral
+			- the $x$-value $b$
+		- > ==**Note⚠**==: This is a different sense of the word “[[Limit]]" from when we take the limit of a function.
+	- Integrand
+		- The middle part is called integrand.
+	- Summary
+		- $$
+		  \underbrace{\int_{a}^{b}}_\text{limit}\underbrace{f(x)-g(x)}_\text{integrand}dx
+		  $$
 - # 🌓Complement
 	- ## 📌 [[Indefinite Integral]] vs. Definite Integral
 	  id:: 1de28d3e-6db2-4bb3-b8fa-36e73d2b03d6
