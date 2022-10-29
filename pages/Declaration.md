@@ -42,27 +42,19 @@
 		- a declarator
 		  id:: 63020af9-5d87-4a89-92fb-4ee153628557
 			- declarator-id
-	- ## 🏷(Sub)Categories
-		- By Scott Meyer, The declaration can be subdivided into:
-			- object declaration
-			- function declaration
-			- class declaration
-			- template declaration
-		- By Bjarne, the declaration can be subdivided into
-			- Variables
-			- Constants
-			- Functions (see §8.5)
-			- Namespaces (see §8.7)
-			- Types (classes and enumerations; see Chapter 9)
-			- Templates (see Chapter 19)
-	- ## 🔎Implementation
-	   The code or technical stuffs implement this.
-	- ## 🕳Pitfalls
-	  Be aware of the pitfalls when using this stuffs... (especially considering edge cases)
-	- ## 🙋‍♂️Related Elements
-	   The closest pattern to current one, what are their differences?
-	- ## 🧱Structure
-	  Any other hierarchical issues?
+- ## 🏷(Sub)Categories
+	- By Scott Meyer, The declaration can be subdivided into:
+		- object declaration
+		- function declaration
+		- class declaration
+		- template declaration
+	- By Bjarne, the declaration can be subdivided into
+		- Variables
+		- Constants
+		- Functions (see §8.5)
+		- Namespaces (see §8.7)
+		- Types (classes and enumerations; see Chapter 9)
+		- Templates (see Chapter 19)
 -
 - Declaration Specifiers
 	- It can be categorized as:
@@ -136,29 +128,3 @@
 			  ``` c++
 			  
 			  ```
-	- ## 🧠Intuition
-	  Find an intuitive way of explanation of this concept.
-	- ## 🚀Benefit
-	   A scenario that illustrates the benefit this object provides.
-	- ## ⌨Sample Code
-	   Code fragments
-	- ## 🌓Complement
-	  What is the complement of this subject? e.g. vector-covector, constructor-destructor
-	- ## 🤳Applicability
-	   What are the situations in which this subject can be applied?
-	- ## 🧪Composition
-	  What kind of stuffs composite this subject?
-	- ## 🏷(Sub)Categories
-	  What are the sub objects of this subject?
-	- ## 🔎Implementation
-	   The code or technical stuffs implement this.
-	- ## 🕳Pitfalls
-	  Be aware of the pitfalls when using this stuffs... (especially considering edge cases)
-	- ## 🙋‍♂️Related Elements
-	   The closest element to current one, what are their differences?
-	- ## 📋Prerequisite
-	  Some techniques and objects only work under certain condition.
-	- ## 🥼Expert's Advice
-	  See what experts addressed.
-	- ## 🧱Structure
-	  Any other hierarchical issues?

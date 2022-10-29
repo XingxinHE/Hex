@@ -35,14 +35,4 @@
 	- ## 🌓Complement
 	  What is the complement of this subject? e.g. vector-covector, constructor-destructor
 	- ## 🗃Example
-	  Example is the most straightforward way to understand a mathematical concept.
 		- 📌example demonstrating the benefit using Leibniz Notation
-			- [[draws/2022-08-27-00-44-18.excalidraw]]
-	- ## 🤳Applicability
-	   What are the situations in which this subject can be applied?
-	- ## 🏷(Sub)Categories
-	  What are the sub objects of this subject?
-	- ## ⚖Laws
-	  The laws related to this math concepts.
-	- ## 🙋‍♂️Related Elements
-	   The closest pattern to current one, what are their differences?
