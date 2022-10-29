@@ -26,22 +26,22 @@
 		  static unsigned long int            *x[N];
 		  /* declaration specifiers */    /* declarator */   /* x is declarator-id */
 		  ```
-	- ## 🌓Complement
-	  What is the complement of this subject? e.g. vector-covector, constructor-destructor
-		- 📌Relationship between Declaration and [[Definition]]
-		  id:: 630e382f-4c6a-46c2-9c9e-7c9637c54923
-			- All definitions are declarations.
-			- Not all declarations are definitions.
-			-
-	- ## 🤳Applicability
-	   What are the situations in which this subject can be applied?
-	- ## 🧪Composition
-	  The declaration expression can be divided as 2 parts:
-		- a sequence of declaration specifiers
-		  id:: 63020af9-4249-4ed2-a628-8b127085e036
-		- a declarator
-		  id:: 63020af9-5d87-4a89-92fb-4ee153628557
-			- declarator-id
+- ## 🌓Complement
+  What is the complement of this subject? e.g. vector-covector, constructor-destructor
+	- 📌Relationship between Declaration and [[Definition]]
+	  id:: 630e382f-4c6a-46c2-9c9e-7c9637c54923
+		- All definitions are declarations.
+		- Not all declarations are definitions.
+		-
+- ## 🤳Applicability
+   What are the situations in which this subject can be applied?
+- ## 🧪Composition
+  The declaration expression can be divided as 2 parts:
+	- a sequence of declaration specifiers
+	  id:: 63020af9-4249-4ed2-a628-8b127085e036
+	- a declarator
+	  id:: 63020af9-5d87-4a89-92fb-4ee153628557
+		- declarator-id
 - ## 🏷(Sub)Categories
 	- By Scott Meyer, The declaration can be subdivided into:
 		- object declaration

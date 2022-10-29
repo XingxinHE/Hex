@@ -1,55 +1,30 @@
 alias:: the I/O stream model
 
-- # 😎Quick Digest -> File and Stream `I/O`
-	- ## 📝Definition
-	  File and stream I/O (input/output) refers to the transfer of data either **to** or **from** a storage medium.
-	- ## 🎯Intent
-	  The intent of `I/O` model
-		- To set up I/O streams to the appropriate data sources and destinations.
-		- To read and write from/to those streams.
-	- ## 🧠Intuition
-	  Find an intuitive way of explanation of this concept.
-		- In terms of hardware
-			- ![name](../assets/what_IO_model_do.png){:height 300, :width 300}
-		- In terms of functional abstraction
-			- ![name](../assets/io_system_disk_memory.png){:height 300, :width 300}
-	- ## 🚀Benefit
-	   A scenario that illustrates the benefit this object provides.
-	- ## ⌨Sample Code
-	   Code fragments
-	- ## 🌓Complement
-	  What is the complement of this subject? e.g. vector-covector, constructor-destructor
-	- ## 🤳Applicability
-	   What are the situations in which this subject can be applied?
-	- ## 🧪Composition
-	  What kind of stuffs composite this subject?
-	- ## 🏷(Sub)Categories
-	  What are the sub objects of this subject?
-	- ## 🔎Implementation
-	   The code or technical stuffs implement this.
-	- ## 🕳Pitfalls
-	  Be aware of the pitfalls when using this stuffs... (especially considering edge cases)
-	- ## 🙋‍♂️Related Elements
-	   The closest element to current one, what are their differences?
-	- ## 📋Prerequisite
-	  Some techniques and objects only work under certain condition.
-	- ## 🐍Algorithm
-	  Algorithm relates to this stuff..
-	- ## 🥼Expert's Advice
-	  See what experts addressed.
-		- In C++,
-			- The following is a close example on [[RAII]].
-			  ``` c++
-			  void fill_from_file(vector<Point>& points, string& name)
-			  {
-			      ifstream ist {name}; // open file for reading
-			      if (!ist) error("can't open input file ",name);
-			      // . . . use ist . . .
-			  }👈// the file is implicitly closed when we leave the function
-			     // this is a good practice ✅ compared to manually open/close a file
-			  ```
-	- ## 🧱Structure
-	  Any other hierarchical issues?
+- ## 📝Definition
+  File and stream I/O (input/output) refers to the transfer of data either **to** or **from** a storage medium.
+- ## 🎯Intent
+  The intent of `I/O` model
+	- To set up I/O streams to the appropriate data sources and destinations.
+	- To read and write from/to those streams.
+- ## 🧠Intuition
+  Find an intuitive way of explanation of this concept.
+	- In terms of hardware
+		- ![name](../assets/what_IO_model_do.png){:height 300, :width 300}
+	- In terms of functional abstraction
+		- ![name](../assets/io_system_disk_memory.png){:height 300, :width 300}
+- ## 🥼Expert's Advice
+  See what experts addressed.
+	- In C++,
+		- The following is a close example on [[RAII]].
+		  ``` c++
+		  void fill_from_file(vector<Point>& points, string& name)
+		  {
+		      ifstream ist {name}; // open file for reading
+		      if (!ist) error("can't open input file ",name);
+		      // . . . use ist . . .
+		  }👈// the file is implicitly closed when we leave the function
+		     // this is a good practice ✅ compared to manually open/close a file
+		  ```
 - # 🍪Common I/O Task
 	- Links:
 		- C#.
