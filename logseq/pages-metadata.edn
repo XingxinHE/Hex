@@ -1,9 +1,9 @@
 [{:block/name "&",
   :block/created-at 1661514639612,
-  :block/updated-at 1661514639612}
+  :block/updated-at 1666976003689}
  {:block/name "() - initialization syntax",
   :block/created-at 1661514639766,
-  :block/updated-at 1661514639766}
+  :block/updated-at 1666976049835}
  {:block/name "(abstract) simplicial complex",
   :block/created-at 1666596450747,
   :block/updated-at 1666596450747}
@@ -12,7 +12,7 @@
   :block/updated-at 1666596450747}
  {:block/name "*",
   :block/created-at 1661514639459,
-  :block/updated-at 1661514639459}
+  :block/updated-at 1666975945887}
  {:block/name "1de28d3e-6db2-4bb3-b8fa-36e73d2b03d6",
   :block/created-at 1665186784615,
   :block/updated-at 1665186784615}
@@ -111,7 +111,7 @@
   :block/updated-at 1665190835893}
  {:block/name "= - initialization syntax",
   :block/created-at 1661514639902,
-  :block/updated-at 1661514639902}
+  :block/updated-at 1666976167139}
  {:block/name "a",
   :block/created-at 1661004367896,
   :block/updated-at 1661004367896}
@@ -156,13 +156,13 @@
   :block/updated-at 1666596449259}
  {:block/name "algebra",
   :block/created-at 1661571295750,
-  :block/updated-at 1661571345579}
+  :block/updated-at 1666976482656}
  {:block/name "algebraic",
   :block/created-at 1661571345577,
   :block/updated-at 1661571345577}
  {:block/name "algorithm",
   :block/created-at 1662653749374,
-  :block/updated-at 1662702890818}
+  :block/updated-at 1666976591360}
  {:block/name "ampersand",
   :block/created-at 1661514639615,
   :block/updated-at 1661514639615}
@@ -189,13 +189,13 @@
   :block/updated-at 1661514639466}
  {:block/name "asymptote",
   :block/created-at 1661477996910,
-  :block/updated-at 1661477996910}
+  :block/updated-at 1666976624698}
  {:block/name "asymptotic notation",
   :block/created-at 1662691292537,
   :block/updated-at 1663922417864}
  {:block/name "asymptotics",
   :block/created-at 1661477997052,
-  :block/updated-at 1661500667480}
+  :block/updated-at 1666976678097}
  {:block/name "august ferdinand möbius",
   :block/created-at 1666596449308,
   :block/updated-at 1666596449308}
@@ -258,7 +258,7 @@
   :block/updated-at 1662342946568}
  {:block/name "build",
   :block/created-at 1661878123369,
-  :block/updated-at 1661908393771}
+  :block/updated-at 1666976723821}
  {:block/name "byte",
   :block/created-at 1663121262755,
   :block/updated-at 1663121262755}
@@ -270,7 +270,7 @@
   :block/updated-at 1666600461798}
  {:block/name "c++",
   :block/created-at 1661007154143,
-  :block/updated-at 1661871729783}
+  :block/updated-at 1666976215541}
  {:block/name "calculus",
   :block/created-at 1661787132627,
   :block/updated-at 1664550492450}
@@ -335,11 +335,11 @@
   :block/created-at 1661043569476,
   :block/updated-at 1661043569476}
  {:block/name "compiled language",
-  :block/created-at 1661955565683,
-  :block/updated-at 1661955565683}
+  :block/created-at 1666977006890,
+  :block/updated-at 1666977006890}
  {:block/name "compiler",
   :block/created-at 1661872151748,
-  :block/updated-at 1661910616012}
+  :block/updated-at 1666976764078}
  {:block/name "compiling",
   :block/created-at 1661878287096,
   :block/updated-at 1661878287096}
@@ -369,7 +369,7 @@
   :block/updated-at 1666596449924}
  {:block/name "const",
   :block/created-at 1661007657204,
-  :block/updated-at 1661045414360}
+  :block/updated-at 1666976393973}
  {:block/name "constant expression",
   :block/created-at 1661044687055,
   :block/updated-at 1661044687055}
@@ -378,10 +378,10 @@
   :block/updated-at 1661955568679}
  {:block/name "constexpr",
   :block/created-at 1661043053653,
-  :block/updated-at 1661045225202}
+  :block/updated-at 1666976450984}
  {:block/name "constructor",
   :block/created-at 1661067672946,
-  :block/updated-at 1661180619691}
+  :block/updated-at 1666976810000}
  {:block/name "constructor initialization syntax",
   :block/created-at 1661514639771,
   :block/updated-at 1661514639771}
@@ -405,7 +405,7 @@
   :block/updated-at 1661310101824}
  {:block/name "continuous function",
   :block/created-at 1661315409259,
-  :block/updated-at 1661316600765}
+  :block/updated-at 1666976866263}
  {:block/name "continuously",
   :block/created-at 1665471902069,
   :block/updated-at 1665471902069}
@@ -462,7 +462,7 @@
   :block/updated-at 1666621278638}
  {:block/name "cv-qualifiers",
   :block/created-at 1661045414358,
-  :block/updated-at 1661045820466}
+  :block/updated-at 1666976292900}
  {:block/name "cylinder",
   :block/created-at 1661736722841,
   :block/updated-at 1661737033596}
@@ -486,7 +486,7 @@
   :block/updated-at 1661961842903}
  {:block/name "declaration specifiers",
   :block/created-at 1661090486535,
-  :block/updated-at 1661090539624}
+  :block/updated-at 1666976976198}
  {:block/name "default constructor",
   :block/created-at 1661078555875,
   :block/updated-at 1661079005343}
@@ -545,8 +545,8 @@
   :block/created-at 1661667064661,
   :block/updated-at 1661764925533}
  {:block/name "dirac delta function",
-  :block/created-at 1666787820670,
-  :block/updated-at 1666787820670}
+  :block/created-at 1666975854525,
+  :block/updated-at 1666975854525}
  {:block/name "discontinuity",
   :block/created-at 1661310136482,
   :block/updated-at 1661310878661}
@@ -558,7 +558,7 @@
   :block/updated-at 1661478378446}
  {:block/name "dne",
   :block/created-at 1661477997043,
-  :block/updated-at 1661764584058}
+  :block/updated-at 1666976952585}
  {:block/name "does not defined",
   :block/created-at 1661477997616,
   :block/updated-at 1661477997616}
@@ -737,8 +737,8 @@
   :block/created-at 1661085690432,
   :block/updated-at 1666614568539}
  {:block/name "gpu",
-  :block/created-at 1666748469869,
-  :block/updated-at 1666748469869}
+  :block/created-at 1666975865403,
+  :block/updated-at 1666975865403}
  {:block/name "gradient",
   :block/created-at 1666708854859,
   :block/updated-at 1666708854859}
@@ -791,11 +791,11 @@
   :block/created-at 1661477998389,
   :block/updated-at 1661477998389}
  {:block/name "if-else",
-  :block/created-at 1666787820819,
-  :block/updated-at 1666787820819}
+  :block/created-at 1666975854865,
+  :block/updated-at 1666975854865}
  {:block/name "if-else statement",
-  :block/created-at 1666787820815,
-  :block/updated-at 1666787820815}
+  :block/created-at 1666975854850,
+  :block/updated-at 1666975854850}
  {:block/name "in-progress",
   :block/created-at 1661004367896,
   :block/updated-at 1661004367896}
@@ -857,8 +857,8 @@
   :block/created-at 1661083091540,
   :block/updated-at 1661083091540}
  {:block/name "javascript",
-  :block/created-at 1666787821580,
-  :block/updated-at 1666787821580}
+  :block/created-at 1666975855495,
+  :block/updated-at 1666975855495}
  {:block/name "jit",
   :block/created-at 1662342945333,
   :block/updated-at 1662342945333}
@@ -872,8 +872,8 @@
   :block/created-at 1661308481570,
   :block/updated-at 1661308481570}
  {:block/name "karl weierstrass",
-  :block/created-at 1666787820886,
-  :block/updated-at 1666787820886}
+  :block/created-at 1666975855190,
+  :block/updated-at 1666975855190}
  {:block/name "l'hôpital's rule",
   :block/created-at 1661477997048,
   :block/updated-at 1661583398066}
@@ -988,6 +988,12 @@
  {:block/name "logarithm",
   :block/created-at 1661584755679,
   :block/updated-at 1665391858834}
+ {:block/name "logical operator",
+  :block/created-at 1666975855499,
+  :block/updated-at 1666975855499}
+ {:block/name "logseq",
+  :block/created-at 1666679551647,
+  :block/updated-at 1666679551647}
  {:block/name "logseq template",
   :block/created-at 1661004687578,
   :block/updated-at 1666689399316}
@@ -1127,11 +1133,11 @@
   :block/created-at 1661514640592,
   :block/updated-at 1661514640592}
  {:block/name "paraboloid",
-  :block/created-at 1666748468730,
-  :block/updated-at 1666748468730}
+  :block/created-at 1666975855773,
+  :block/updated-at 1666975855773}
  {:block/name "parallel computing",
-  :block/created-at 1666748469868,
-  :block/updated-at 1666748469868}
+  :block/created-at 1666975865401,
+  :block/updated-at 1666975865401}
  {:block/name "parent class",
   :block/created-at 1663995771495,
   :block/updated-at 1663995771495}
@@ -1377,7 +1383,7 @@
   :block/updated-at 1663995777544}
  {:block/name "signature",
   :block/created-at 1661046795380,
-  :block/updated-at 1661047125739}
+  :block/updated-at 1666976343889}
  {:block/name "simplex",
   :block/created-at 1664241829922,
   :block/updated-at 1666594340273}
@@ -1457,8 +1463,8 @@
   :block/created-at 1666621278643,
   :block/updated-at 1666754396580}
  {:block/name "switch statement",
-  :block/created-at 1666787821008,
-  :block/updated-at 1666787821008}
+  :block/created-at 1666975855962,
+  :block/updated-at 1666975855962}
  {:block/name "symbol tables",
   :block/created-at 1661955564075,
   :block/updated-at 1661955564075}
@@ -1616,8 +1622,8 @@
   :block/created-at 1666596449429,
   :block/updated-at 1666596449429}
  {:block/name "volatile",
-  :block/created-at 1661045592332,
-  :block/updated-at 1661045592332}
+  :block/created-at 1666977006891,
+  :block/updated-at 1666977006891}
  {:block/name "voxel",
   :block/created-at 1666744638777,
   :block/updated-at 1666744638777}
@@ -1631,8 +1637,8 @@
   :block/created-at 1666596451327,
   :block/updated-at 1666596451327}
  {:block/name "while loop",
-  :block/created-at 1666787821043,
-  :block/updated-at 1666787821043}
+  :block/created-at 1666975857076,
+  :block/updated-at 1666975857076}
  {:block/name "widening",
   :block/created-at 1661514640598,
   :block/updated-at 1661924343029}
@@ -1650,7 +1656,7 @@
   :block/updated-at 1663995770174}
  {:block/name "{} - initialization syntax",
   :block/created-at 1661514640841,
-  :block/updated-at 1661940495762}
+  :block/updated-at 1666976129343}
  {:block/name "切线",
   :block/created-at 1661955570626,
   :block/updated-at 1661955570626}
