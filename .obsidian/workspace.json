@@ -1,0 +1,172 @@
+{
+  "main": {
+    "id": "31c85b2bc588cefe",
+    "type": "split",
+    "children": [
+      {
+        "id": "6b9b2cc8f7feeb25",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "0f90970fbf85bcaf",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "pages/definite integral.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "b47c15f78d6a389f",
+    "type": "split",
+    "children": [
+      {
+        "id": "81c7dcd51fc34601",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "898a90e8b04fe86e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "pages/Derivative.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "72dbc0068f77ca02",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "fb8f2b2d7feaa74d",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "625712d770391fab",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          },
+          {
+            "id": "4dfdcb0e097f949d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "pages/Derivative.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ],
+        "currentTab": 3
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "a1d0f7a2abdc39d5",
+    "type": "split",
+    "children": [
+      {
+        "id": "a5355e34efc95822",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d681dcf66094459e",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "pages/definite integral.md",
+                "collapseAll": true,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "4fd891764249dfe2",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "pages/definite integral.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "45cadb9c20438926",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "a10c3df75e3c1501",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "pages/definite integral.md"
+              }
+            }
+          }
+        ],
+        "currentTab": 2
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "active": "45cadb9c20438926",
+  "lastOpenFiles": [
+    "pages/Hex.md",
+    "pages/Antiderivative.md",
+    "pages/definite integral.md",
+    "pages/Differential Equation.md",
+    "pages/Derivative.md"
+  ]
+}
