@@ -181,7 +181,6 @@
 	- Book for git
 		- https://git-scm.com/book/en/v2
 - 📈Diagram
-	- ![name](https://cdn.jsdelivr.net/npm/simple-icons@5.8.1/icons/git.svg){:height 50, :width 50}
 	- TODO Diagram of git concept
 - # Basic Concepts
 	- Repository

@@ -1,5 +1,5 @@
 - 📈Diagram
-	- ![name](https://cdn.jsdelivr.net/npm/simple-icons@5.8.1/icons/latex.svg){:height 50, :width 50}
+	-
 - $$
   
   f(x) = 

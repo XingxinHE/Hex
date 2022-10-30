@@ -28,14 +28,14 @@
 				  $$
 				- result is  $x=0, -6, -2$
 			- 2)Then we can draw the diagram as followed
-				- ![name](../assets/critical_point_x^2(x+6)(x+2).svg){:height 300, :width 300}
+				- ![name](../assets/critical_point_1.svg){:height 300, :width 300}
 			- 3)Then we need to know the sign except the 3 critical points.
 				- $g'(-10)=3200$, so $g'$ is positive on $(-\infin, -6)$
 				- $g'(-4)=-64$, so $g'$ is negative on $(-6, -2)$
 				- $g'(-1)=5$, so $g'$ is positive on $(-2, 0)$
 				- $g'(1)=21$, so $g'$ is positive on $(0, +\infin)$
 			- 4)we can draw the diagram as followed
-			  ![name](../assets/exclude_critical_point_x^2(x+6)(x+2).svg){:height 72, :width 360}
+			  ![name](../assets/exclude_critical_point_1.svg){:height 72, :width 360}
 			- 5) Then we knew
 				- local minimum: $x=-2$
 				- local maximum: $x=-6$
@@ -54,13 +54,13 @@
 					- at $x=0$ is not defined
 					- at $x=-1$ is $h'(x)=0$
 			- 2)Then we can draw the diagram as followed
-				- ![name](../assets/critical_point_h'(x)=frac{1}{sqrt[3]{x}}+1.svg){:height 300, :width 300}
+				- ![name](../assets/critical_point_2.svg){:height 300, :width 300}
 			- 3)Then we need to know the sign except the 2 critical points.
 				- $h'(-8)=1/2$ , so $g'$ is positive on $(-\infin, -1)$
 				- $h'(-1/8)=-1$ , so $g'$ is negative on $(-1, 0)$
 				- $h'(1)=2$ , so $g'$ is positive on $(0, +\infin)$
 			- 4)we can draw the diagram as followed  
-			  ![name](../assets/exclude_critical_point_h'(x)=frac{1}{sqrt[3]{x}}+1.svg)
+			  ![name](../assets/exclude_critical_point_2.svg)
 			- 5) Then we knew
 				- local minimum: $x=0$
 				- local maximum: $x=-1$

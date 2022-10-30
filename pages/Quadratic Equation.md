@@ -51,21 +51,3 @@ alias:: quadratic function
 				- $$
 				  2(x^2-\frac{3}{2}x+\frac{9}{16}+5-\frac{9}{16})=2\bigg((x-\frac{3}{4})^2+\frac{71}{16}\bigg)
 				  $$
-- ## ✒Descriptive Explanation
-  A narrative... a descriptive words subject on the concept... 描述性解释…
-- ## 🌓Complement
-  What is the complement of this subject? e.g. vector-covector, constructor-destructor
-- ## 📏Proof 
-  To prove something...
-- ## 🗃Example
-  Example is the most straightforward way to understand a mathematical concept.
-- ## 🤳Applicability
-   What are the situations in which this subject can be applied?
-- ## 🧪Composition
-  What kind of stuffs composite this subject?
-- ## ⚖Laws
-  The laws related to this math concepts.
-- ## 🎯Intent
-   A short description what does this thing do?
-- ## 🙋‍♂️Related Elements
-   The closest pattern to current one, what are their differences?
