@@ -1,0 +1,12 @@
+📚Course
+	- ℹSyllabus
+		- Course Goal
+		- Course Textbook
+		- Lecturer
+		- Link: [xxx](https://)
+		- Video:[xxx](https://)
+	- 📺Lectures
+		- Lecture...
+	- 💻Assignment
+		- Assignment
+	- 📖Reading
