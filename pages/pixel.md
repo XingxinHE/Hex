@@ -1,2 +1,3 @@
 - 📝Definition
-	- Pixel is short for “picture element.”
+    - Pixel is short for “picture element.”
+    

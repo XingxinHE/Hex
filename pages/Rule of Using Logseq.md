@@ -1,2 +1,3 @@
 - Don't create meaningless linking since it will create a lot of redundance.
+
 - Limit the pages as much as possible. Only create pages when it oversizes current subject.

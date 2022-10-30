@@ -1,3 +1,4 @@
-- ## 📝Definition
-	- In C++,
-		- `explicit` is a specifier.
+# 📝Definition
+- In C++,
+    - `explicit` is a specifier.
+    

@@ -1,18 +1,21 @@
-alias:: if-else
+---
+aliases: [if-else]
+---
 
 - [[C#]]
-	- ``` c#
-	  if(flag)
-	  {
-	      //..
-	  }
-	  else if(flag2)
-	  {
-	      //..
-	  }
-	  else
-	  {
-	      //..
-	  }
-	  ```
+    - ``` c#
+      if(flag)
+      {
+          //..
+      }
+      else if(flag2)
+      {
+          //..
+      }
+      else
+      {
+          //..
+      }
+      ```
+    
 -

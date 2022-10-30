@@ -1,4 +1,6 @@
-alias:: cancavity
+---
+aliases: [cancavity]
+---
 
-- # 🧠Intuition
-	- {{embed ((825bc6fa-9ac8-4bb3-8dc4-2f5bad543c19))}}
+# 🧠Intuition
+- ![[Convex#^8cde90e9558b4e5e]]

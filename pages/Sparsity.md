@@ -1,3 +1,5 @@
-alias:: sparse
+---
+aliases: [sparse]
+---
 
 - ...

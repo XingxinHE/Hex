@@ -1,12 +1,18 @@
-alias:: non-manifold geometry
+---
+aliases: [non-manifold geometry]
+---
 
 - 📈Diagram
-	- ![name](../assets/nonmanifold.png){:height 300, :width 300}
+    - ![name](../assets/nonmanifold.png){:height 300, :width 300}
+    
 - 🕳Pitfalls / Cons
-	- 📌Why not Nonmanifold?
-		- Not easy to process.
+    - 📌Why not Nonmanifold?
+        - Not easy to process.
+        
 - 🌓Complement
-	- [[manifold]]
+    - [[manifold]]
+    
 - 🧠Intuition
-	- **nonmanifold** are those meeting at an edge, or multiple “cones” of vertices meeting at a vertex.
-	- {{embed ((54d8471c-1468-4200-848c-878dd479f50e))}}
+  **nonmanifold** are those meeting at an edge, or multiple “cones” of vertices meeting at a vertex.
+    - ![[manifold#^c9b554e7ecde4207]]
+    

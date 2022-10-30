@@ -1,2 +1,3 @@
 - 📝Definition
-	- **median** is the value in the middle of the ordered list of values
+  **median** is the value in the middle of the ordered list of values
+  

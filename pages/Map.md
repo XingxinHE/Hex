@@ -1,3 +1,5 @@
-alias:: dictionary, symbol tables
+---
+aliases: [dictionary, symbol tables]
+---
 
 - map

@@ -1,16 +1,20 @@
 - [[C++]]
-	- `&&`  , logic **AND**
-	- `||` , logic **OR**.
-	- `!`, logic **NOT**
+    - `&&`  , logic **AND**
+    - `||` , logic **OR**.
+    - `!`, logic **NOT**
+    
 - [[C#]]
-	- `&&`  , logic **AND**
-	- `||` , logic **OR**.
-	- `!`, logic **NOT**
+    - `&&`  , logic **AND**
+    - `||` , logic **OR**.
+    - `!`, logic **NOT**
+    
 - [[JavaScript]]
-	- `&&`  , logic **AND**
-	- `||` , logic **OR**.
-	- `!`, logic **NOT**
+    - `&&`  , logic **AND**
+    - `||` , logic **OR**.
+    - `!`, logic **NOT**
+    
 - [[Python]]
-	- `and`  , logic **AND**
-	- `or` , logic **OR**.
-	- `not`, logic **NOT**
+    - `and`  , logic **AND**
+    - `or` , logic **OR**.
+    - `not`, logic **NOT**
+    

@@ -1,3 +1,5 @@
-alias:: free store
+---
+aliases: [free store]
+---
 
 - ...
