@@ -268,5 +268,13 @@
       ],
       "key": "ArrowUp"
     }
+  ],
+  "markdown:toggle-preview": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "R"
+    }
   ]
 }
