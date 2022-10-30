@@ -1,0 +1,219 @@
+/* ---------- H1 ---------- */
+
+/*---- Reading View ----*/
+
+/* Push every div that is after H1 to the left */
+.el-h1 ~ div
+{
+    padding-left: 2.8em;
+}
+
+.el-h1 {
+    padding-left: 0px !important;
+}
+/*--- End Reading View ---*/
+
+
+
+/*---- Editing View ----*/
+
+/* Push every line that comes after H1 to the left */
+.markdown-source-view.mod-cm6 .cm-content .HyperMD-header-1 ~ .cm-line,
+.markdown-source-view.mod-cm6 .cm-content .HyperMD-header-5 ~ .HyperMD-header-1 ~ .cm-line
+{
+    padding-left: 3em;
+}
+
+.HyperMD-header-1
+{
+    padding-left: 0em !important;
+}
+
+
+
+/* Make sure H1's "#" starts completely left */
+.markdown-source-view.mod-cm6 .cm-content .HyperMD-header-1.HyperMD-header.cm-line {
+    padding-left: 0px;
+}
+/*--- End Editing View ---*/
+
+/* -------- End H1 -------- */
+
+
+
+/* ---------- H2 ---------- */
+
+/*---- Reading View ----*/
+
+/* Push every div that is after H2 to the left */
+.el-h1 ~ .el-h2 ~ div {
+    padding-left: 3.5em;
+}
+
+.el-h1 ~ .el-h2 {
+    padding-left: 3.5em !important;
+}
+/*--- End Reading View ---*/
+
+
+
+/*---- Editing View ----*/
+
+/* Push every line that comes after H2 to the left */
+.markdown-source-view.mod-cm6 .cm-content .HyperMD-header-2 ~ .cm-line,
+.markdown-source-view.mod-cm6 .cm-content .HyperMD-header-5 ~ .HyperMD-header-2 ~ .cm-line
+{
+    padding-left: 5em;
+}
+
+.HyperMD-header-2
+{
+    padding-left: 0em !important;
+}
+
+/* Make sure H2's "##" starts completely left */
+.markdown-source-view.mod-cm6 .cm-content .HyperMD-header-2.HyperMD-header.cm-line {
+    padding-left: 0px;
+}
+
+/* Push H2 after "##" to the left */
+.cm-formatting-header-2 + span {
+    padding-left: 1em;
+}
+/*--- End Editing View ---*/
+
+/* -------- End H2 -------- */
+
+
+
+/* ---------- H3 ---------- */
+
+/*---- Reading View ----*/
+
+/* Push every div that is after H2 to the left */
+.el-h2 ~ .el-h3 ~ div {
+    padding-left: 7em;
+}
+
+.el-h2 ~ .el-h3 {
+    padding-left: 7em !important;
+}
+/*--- End Reading View ---*/
+
+
+
+/*---- Editing View ----*/
+
+/* Push every line that comes after H3 to the left */
+.markdown-source-view.mod-cm6 .cm-content .HyperMD-header-3 ~ .cm-line,
+.markdown-source-view.mod-cm6 .cm-content .HyperMD-header-5 ~ .HyperMD-header-3 ~ .cm-line
+{
+    padding-left: 7em;
+}
+
+.HyperMD-header-3
+{
+    padding-left: 0em !important;
+}
+
+/* Make sure H3's "###" starts completely left */
+.markdown-source-view.mod-cm6 .cm-content .HyperMD-header-3.HyperMD-header.cm-line {
+    padding-left: 0px;
+}
+
+/* Push H3 after "###" to the left */
+.cm-formatting-header-3 + span {
+    padding-left: 2.5em;
+}
+/*--- End Editing View ---*/
+
+/* -------- End H3 -------- */
+
+
+
+/* ---------- H4 ---------- */
+
+/*---- Reading View ----*/
+
+/* Push every div that is after H2 to the left */
+.el-h3 ~ .el-h4 ~ div {
+    padding-left: 10.2em;
+}
+
+.el-h3 ~ .el-h4 {
+    padding-left: 10.2em !important;
+}
+/*--- End Reading View ---*/
+
+
+
+/*---- Editing View ----*/
+
+/* Push every line that comes after H4 to the left */
+.markdown-source-view.mod-cm6 .cm-content .HyperMD-header-4 ~ .cm-line,
+.markdown-source-view.mod-cm6 .cm-content .HyperMD-header-5 ~ .HyperMD-header-4 ~ .cm-line
+{
+    padding-left: 9em;
+}
+
+.HyperMD-header-4
+{
+    padding-left: 0em !important;
+}
+
+/* Make sure H4's "####" starts completely left */
+.markdown-source-view.mod-cm6 .cm-content .HyperMD-header-4.HyperMD-header.cm-line {
+    padding-left: 0px;
+}
+
+/* Push H4 after "####" to the left */
+.cm-formatting-header-4 + span {
+    padding-left: 4em;
+}
+/*--- End Editing View ---*/
+
+/* -------- End H4 -------- */
+
+
+
+/* ---------- H5 ---------- */
+
+/*---- Reading View ----*/
+/* Push every div that is after H2 to the left */
+.el-h4 ~ .el-h5 ~ div {
+    padding-left: 14em;
+}
+
+.el-h4 ~ .el-h5 {
+    padding-left: 14em !important;
+}
+/*--- End Reading View ---*/
+
+
+
+/*---- Editing View ----*/
+
+/* Push every line that comes after H5 to the left */
+.markdown-source-view.mod-cm6 .cm-content .HyperMD-header-5 ~ .cm-line,
+.markdown-source-view.mod-cm6 .cm-content .HyperMD-header-5 ~ .HyperMD-header-5 ~ .cm-line
+{
+    padding-left: 11em;
+}
+
+.HyperMD-header-5
+{
+    padding-left: 0em !important;
+}
+
+/* Make sure H5's "#####" starts completely left */
+.markdown-source-view.mod-cm6 .cm-content .HyperMD-header-5.HyperMD-header.cm-line {
+    padding-left: 0px;
+}
+
+/* Push H5 after "#####" to the left */
+.cm-formatting-header-5 + span {
+    padding-left: 6em;
+}
+/*--- End Editing View ---*/
+
+/* -------- End H5 -------- */
