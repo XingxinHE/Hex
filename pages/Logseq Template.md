@@ -1,16 +1,16 @@
 # 😎Quick Digest -> title
 template:: Computer Science Concept Quick Digest Template
-## 📝Definition
+# 📝Definition
 The name is the essence of this topic.
-## 🎯Intent
+# 🎯Intent
  A short description what does this thing do?
-## 🧠Intuition
+# 🧠Intuition
 Find an intuitive way of explanation of this concept.
-## 🚀Benefit
+# 🚀Benefit
  A scenario that illustrates the benefit this object provides.
-## ⌨Sample Code
+# ⌨Sample Code
  Code fragments
-## 🌓Complement
+# 🌓Complement
 What is the complement of this subject? e.g. vector-covector, constructor-destructor
 ## 🤳Applicability
  What are the situations in which this subject can be applied?
