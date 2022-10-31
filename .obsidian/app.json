@@ -4,5 +4,6 @@
   "attachmentFolderPath": "assets",
   "userIgnoreFilters": [
     "logseq/"
-  ]
+  ],
+  "alwaysUpdateLinks": true
 }

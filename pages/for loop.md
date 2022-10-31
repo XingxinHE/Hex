@@ -65,7 +65,7 @@
           }
           ```
         
-  #C++
+  #cpp
   - iterating using index
       - ``` c++
         // 1.Counting from 1 to 100
@@ -79,7 +79,7 @@
         ```
       
 - range for loop
-  #C++
+  #cpp
   - the `foreach.h` is deprecated. Use the `for ( for-range-declaration : expression )` syntax.
   - ``` c++
     vector<int> v = {5, 7, 9, 4, 6, 8};
