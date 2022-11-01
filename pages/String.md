@@ -19,6 +19,10 @@ aliases: [strings]
     - This is in `<cctype>` for dealing with legacy C-Style string.
     - [<cctype> (ctype.h)](https://cplusplus.com/reference/cctype/)
     
+
+# 🧪Composition
+[[character]]
+
 # ✒Notation
 - [[Mathematical Symbol#^2c4d51f2b03a22bb|$\Sigma$]]
     - The alphabet over which the strings are defined may vary with the application. Therefore, in [[Theory of Computation]], we use $\Sigma$, the Greek symbol, to denote "**alphabet**".
@@ -98,8 +102,10 @@ aliases: [strings]
 # 🧠Intuition
 Find an intuitive way of explanation of this concept.
 
-# 🚀Benefit
- A scenario that illustrates the benefit this object provides.
+# 💫Support Operation
+[[string concatenation]]
+[[string interpolation]]
+
 
 # ⌨Sample Code
  Code fragments
@@ -140,28 +146,5 @@ Algorithm relates to this stuff..
       ```
     
 # 🌓Complement
-What is the complement of this subject? e.g. vector-covector, constructor-destructor
 
-# 🤳Applicability
- What are the situations in which this subject can be applied?
 
-# 🧪Composition
-What kind of stuffs composite this subject?
-
-# 🔎Implementation
- The code or technical stuffs implement this.
-
-# 🕳Pitfalls
-Be aware of the pitfalls when using this stuffs... (especially considering edge cases)
-
-# 🙋‍♂️Related Elements
- The closest element to current one, what are their differences?
-
-# 📋Prerequisite
-Some techniques and objects only work under certain condition.
-
-# 🥼Expert's Advice
-See what experts addressed.
-
-# 🧱Structure
-Any other hierarchical issues?

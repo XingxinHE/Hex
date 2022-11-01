@@ -26,6 +26,45 @@ int num_geq5 = std::count_if(v.cbegin(), v.cend(), [](int a)
 - trailing-return-type ==Optional==.
 - lambda body.
 
+### Capture clause
+#### 📝Definition
+A lambda begins with the capture clause. 
+
+#### 🏷(Sub)Categories
+Capture clause specifies which variables are captured, and whether the capture is by value or by reference.
+- `[ ]`, indicates that the body of the lambda expression accesses no variables in the enclosing scope.
+- `[&]` means all variables that you refer to are captured by reference
+- `[=]` means they're captured by value.
+> [!warning]
+> >Only variables that are mentioned in the lambda body are captured when a capture-default is used.
+
+#### ⌨Sample Code
+-   rules using `&`, `=` in capture clause
+    -   ```cpp
+        	  struct S { void f(int i); };
+        	  - void S::f(int i)
+        	  {
+        	  [&, i]{};      // ✅OK
+        	  [&, &i]{};     // ❌ERROR: i preceded by & when & is the default
+        	  [=, this]{};   // ❌ERROR: this when = is the default
+        	  [=, *this]{ }; // ✅OK: captures this by value. See below.
+        	  [i, i]{};      // ❌ERROR: i repeated
+        	  }
+        ```
+        
+-   equivalent capture clause
+    -   suppose there are variable `total` and `factor`, the following are the same.
+    -   ```cpp
+        	  [&total, factor]
+        	  [factor, &total]
+        	  [&, factor]
+        	  [=, &total]
+        ```
+
+
+
 
 # #csharp 
 [Lambda expressions - C# reference | Microsoft Learn](https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/operators/lambda-expressions)
+
+
