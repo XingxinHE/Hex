@@ -1,2 +1,2 @@
 🐍Algorithm
-	- Algorithm relates to this stuff..
+Algorithm relates to this stuff..

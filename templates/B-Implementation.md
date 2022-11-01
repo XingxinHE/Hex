@@ -1,2 +1,2 @@
 🔎Implementation
-	- The code or technical stuffs implement this.
+The code or technical stuffs implement this.

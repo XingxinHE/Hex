@@ -1,2 +1,2 @@
 🧠Intuition
-	- Find an intuitive way of understanding this concept.
+Find an intuitive way of understanding this concept.

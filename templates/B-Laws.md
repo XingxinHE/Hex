@@ -1,2 +1,2 @@
 ⚖Laws
-	- The laws related to this math concepts.
+The laws related to this math concepts.

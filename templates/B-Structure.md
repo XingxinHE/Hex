@@ -1,2 +1,2 @@
 🧱Structure
-	- Any other hierarchical issues?
+Any other hierarchical issues?

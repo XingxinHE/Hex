@@ -1,2 +1,2 @@
 ⚖Theorem
-	- The theorem.
+The theorem.

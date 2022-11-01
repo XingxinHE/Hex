@@ -1,2 +1,2 @@
 # 🖨 Cheat Sheet / Common Stuffs
-	- ...
+

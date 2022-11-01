@@ -1,2 +1,2 @@
 📋Prerequisite
-	- Some techniques and objects only work under certain condition.
+Some techniques and objects only work under certain condition.

@@ -1,2 +1,2 @@
 📝Description
-	- Describe something.
+Describe something.

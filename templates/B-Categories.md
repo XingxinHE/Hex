@@ -1,2 +1,2 @@
 🏷(Sub)Categories
-	- What are the sub objects of this subject?
+What are the sub objects of this subject?

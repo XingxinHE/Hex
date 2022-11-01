@@ -1,2 +1,2 @@
 🗻Foundation
-	- This subject is the foundation or prerequisite of another subject.
+This subject is the foundation or prerequisite of another subject.

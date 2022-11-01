@@ -1,6 +1,6 @@
 ✒Notation
-	- $$
-	  \begin{align}
-	  f(x)&=
-	  \end{align}
-	  $$
+$$
+\begin{align}
+f(x)&=
+\end{align}
+$$

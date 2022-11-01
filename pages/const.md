@@ -37,16 +37,13 @@
     - 1. Symbolic Constants ^a96c8a55f4f5336d
     - 2. Immutable(never changing) data ^c731a392d08fda7
     - 3. prevent modifying a potentially modifiable operand ^bfe43db6f575f35a
-    
 - Comparison between `const` and [[constexpr]]
     - for ((630181b2-07c2-41c8-bf6e-1da74f2b8812)), `constexpr` is better in modern C++.
     - for ((630181b6-f3be-46eb-b61f-da9ae23c8662)), `constexpr` is better in Modern C++.
     - for ((630181b8-4ffc-4cb3-bdaa-60d1dcaf020d)), `const` is better.
-    
 - `const` and [[Initialization]]
     - C++ insists that you MUST initialize every `const` object.
-    
-- [[Constant Expression]]
+- [[constexpr|Constant Expression]]
     - Ben Saks claimed that "The dimension in an array object definition must be integer constant expression". He provides the following code.
       
       ``` c++
@@ -59,7 +56,6 @@
       
       However, I can compile with the code.
     - TODO Clarify the preceding code.
-    
 - [[CV-Qualifiers]]
 
 -
