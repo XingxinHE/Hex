@@ -9,32 +9,42 @@
         - ![name](../assets/images_defint_riemann4.svg){:height 200, :width 200}
         
 # 🧪Composition
-- Limit
-    - Lower limit of the integral
-        - the $x$-value $a$
+## Limit
+- Lower limit of the integral
+	- the $x$-value $a$
+	
+- Upper limit of the integral
+	- the $x$-value $b$
         
-    - Upper limit of the integral
-        - the $x$-value $b$
-        
-    - > ==**Note⚠**==: This is a different sense of the word “[[Limit]]" from when we take the limit of a function.
+
+> [!NOTE] Note
+> This is a different sense of the word “[[Limit]]" from when we take the limit of a function.
+
     
-- Integrand
-    - The middle part is called integrand.
-    
-- Summary
-    - $$
-      \underbrace{\int_{a}^{b}}_\text{limit}\underbrace{f(x)-g(x)}_\text{integrand}dx
-      $$
+## Integrand
+The middle part is called integrand.
+
+
+> [!summary] summary
+> $$
+> \underbrace{\int_{a}^{b}}_\text{limit}\underbrace{f(x)-g(x)}_\text{integrand}dx
+> $$
+
+
+
     
 # 🌓Complement
 ## 📌 [[Indefinite Integral]] vs. Definite Integral
-- |                         | Definite Integral      | Indefinite Integral                                          |
-  | ----------------------- | ---------------------- | ------------------------------------------------------------ |
-  | Start Point & End Point | Well-defined Points    | No Points                                                    |
-  | Symbol(same)            | $\int$                 | $\int$                                                       |
-  | Definition(different)   | the area under a curve | the operation that reverses differentiation, the antiderivative |
-  | Compute Method          | Riemann Sum            |                                                              |
-- ⭐That's where [[First Fundamental Theorem of Calculus]] comes in. It gives a precise connection between the two versions of the integral. It tells us we don't need to evaluate limits of Riemann sums in definite integral, instead we only need to find antiderivatives.
+|                         | Definite Integral      | Indefinite Integral                                          |
+| ----------------------- | ---------------------- | ------------------------------------------------------------ |
+| Start Point & End Point | Well-defined Points    | No Points                                                    |
+| Symbol(same)            | $\int$                 | $\int$                                                       |
+| Definition(different)   | the area under a curve | the operation that reverses differentiation, the antiderivative |
+| Compute Method          | Riemann Sum            |                                                              |
+
+> [!Tip] Tips
+> ⭐That's where [[First Fundamental Theorem of Calculus]] comes in. It gives a precise connection between the two versions of the integral. It tells us we don't need to evaluate limits of Riemann sums in definite integral, instead we only need to find antiderivatives.
+
 
 # ⛈Properties
 - Sums
@@ -104,16 +114,18 @@
     - ((6354b672-58db-4900-bbb9-f5f49570f9a1))
     
 # 🕳Pitfalls
-- 📌Caution on substitution ^e7d0add94a13bd1b
-    - 📝Definition or Description
-        - When we use the method of substitution, we need to be very careful about when $u'$ (or $du$) changes sign. If $u'$ changes sign within the integration interval $[a,b]$, the method of substitution may give the wrong answer. In this case, we need to first rewrite the integral as a sum of two integrals such that within the limits of each integral $u'$ does not change sign, and then use the method of substitution on each integral separately.
+## 📌Caution on substitution ^e7d0add94a13bd1b
+### 📝Definition or Description
+- When we use the method of substitution, we need to be very careful about when $u'$ (or $du$) changes sign. If $u'$ changes sign within the integration interval $[a,b]$, the method of substitution may give the wrong answer. In this case, we need to first rewrite the integral as a sum of two integrals such that within the limits of each integral $u'$ does not change sign, and then use the method of substitution on each integral separately.
+
+### 🗃Example
+- see [[#^b084c40053254023|example demonstrating pitfall of substituition]].
         
-    - 🗃Example
-        - see [[#^b084c40053254023|example demonstrating pitfall of substituition]].
-        
-- 🤳Applicability
-    - ![[First Fundamental Theorem of Calculus#^c5b79b5a6111e23d]]
-    
+
+# 🤳Applicability
+![[First Fundamental Theorem of Calculus#^c5b79b5a6111e23d]]
+Also see [[application of definite integral]]
+
 # 🗃Example
 - 📌example demonstrating [[#Estimation|the estimation and inequality]]
     - Prerequisite
@@ -186,7 +198,7 @@
               
           -
           
-- 📌example demonstrating [[#^e7d0add94a13bd1b|the pitfall of substitution]] ^b084c40053254023
+- 📌example demonstrating  [[#^e7d0add94a13bd1b|the pitfall of substitution]] ^b084c40053254023
     - Question: use substitution to calculate
         - $$
           \displaystyle \int _{-1}^{1} x^2\, dx
@@ -328,60 +340,64 @@
     - Result
         - ![name](../assets/images_defint_areaunderpiecewiselinear.svg){:height 200, :width 200}
         
-- 🕹Quiz
-    - 📌Quiz on substitution ^287a4c1a397562c3
-        - 📌Quiz
-            - 💬Question: Use the method of [[#Substitution|substitution]] to evaluate the following integral.
-                - $$
-                  \int _{-\sqrt{1/2}}^{\sqrt{1/2}} \frac{dx}{\sqrt{1-x^2}}\, =\,?
-                  $$
-                
-            - ✏Solution:
-                - Using $x=\sin (u), \  dx=\cos (u)\,  du$,
-                - $$
-                  \int _{-\sqrt{1/2}}^{\sqrt{1/2}}\frac{dx}{\sqrt{1-x^2}} = \int _{-\pi /4}^{\pi /4}\frac{\cos u}{|\cos u|}\, du
-                  $$
-                - Since $\cos (u)>0$ for $-\pi /4 < x < \pi /4$, we can replace the absolute value of $|\cos (u)|$ by $\cos (u)$ to evaluate the integral.⭐
-                - $$
-                  \left.\int _{-\pi /4}^{\pi /4}\frac{\cos u}{\cos u}\, du = u\, \right|_{-\pi /4}^{\pi /4}=\frac{\pi }{2}.
-                  $$
-                
-        - 📌Quiz
-            - 💬Question: Use the method of [[#Substitution|substitution]] to evaluate the following integral.
-                - $$
-                  \int _{1}^{e} \frac{\sqrt{\ln x}}{x}\, \, dx \, = \,?
-                  $$
-                
-            - ✏Solution:
-                - Using $u\  =\  \ln x , \  du\  =\  \frac{dx}{x}$,
-                - $$
-                  \begin{align}
-                  \int _{1}^{e} \frac{\sqrt{\ln x}}{x}\,  dx&=\int _{0}^{1}\sqrt{u}\,  du\\
-                  &=\left.\phantom{\int } \frac2{3}u^{\frac{3}{2}}\right|_{0}^{1}\  =\  \frac2{3}\  .
-                  \end{align}
-                  $$
-                
-        - 📌Quiz
-            - 💬Question: suppose the following
-                - $$
-                  F(x) = \int _0^x \cos (t^2)\,  dt\quad G(x) = \int _0^x \cos \left(\frac{\pi }{2}u^2\right)\,  du
-                  $$
-                - $c_1=? c_2=?$
-                
-            - ✏Solution:
-                - For
-                    - $$
-                      G(x)= \int _0^x \cos \left(\frac{\pi }{2} u^2 \right)\,  du
-                      $$
-                    
-                - Let $t = \sqrt{\frac{\pi }{2}} u, dt = \sqrt{\frac{\pi }{2}} \,  du,\, \,$ then
-                    - $$
-                      \begin{align}
-                      G(x)&= \int _0^x \cos \left(\frac{\pi }{2} u^2 \right) \,  du\\
-                      &=\sqrt{\frac{2}{\pi }} \, \int _0^{\sqrt{\frac{\pi }{2}}x} \cos t^2 \, dt\\
-                      &= \sqrt{\frac{2}{\pi }}\, F\left( \sqrt{\frac{\pi }{2}} x \right)
-                      \end{align}
-                      $$
-                    
-                - Therefore, $c_1 = \sqrt{\frac{2}{\pi }},\, \, \text{and }c_2 = \sqrt{\frac{\pi }{2}}$
-                
+# 🕹Quiz
+## 📌Quiz on substitution ^287a4c1a397562c3
+- 📌Quiz
+	- 💬Question: Use the method of [[#Substitution|substitution]] to evaluate the following integral.
+		- $$
+		  \int _{-\sqrt{1/2}}^{\sqrt{1/2}} \frac{dx}{\sqrt{1-x^2}}\, =\,?
+		  $$
+		
+	- ✏Solution:
+		- Using $x=\sin (u), \  dx=\cos (u)\,  du$,
+		- $$
+		  \int _{-\sqrt{1/2}}^{\sqrt{1/2}}\frac{dx}{\sqrt{1-x^2}} = \int _{-\pi /4}^{\pi /4}\frac{\cos u}{|\cos u|}\, du
+		  $$
+		- Since $\cos (u)>0$ for $-\pi /4 < x < \pi /4$, we can replace the absolute value of $|\cos (u)|$ by $\cos (u)$ to evaluate the integral.⭐
+		- $$
+		  \left.\int _{-\pi /4}^{\pi /4}\frac{\cos u}{\cos u}\, du = u\, \right|_{-\pi /4}^{\pi /4}=\frac{\pi }{2}.
+		  $$
+		
+- 📌Quiz
+	- 💬Question: Use the method of [[#Substitution|substitution]] to evaluate the following integral.
+		- $$
+		  \int _{1}^{e} \frac{\sqrt{\ln x}}{x}\, \, dx \, = \,?
+		  $$
+		
+	- ✏Solution:
+		- Using $u\  =\  \ln x , \  du\  =\  \frac{dx}{x}$,
+		- $$
+		  \begin{align}
+		  \int _{1}^{e} \frac{\sqrt{\ln x}}{x}\,  dx&=\int _{0}^{1}\sqrt{u}\,  du\\
+		  &=\left.\phantom{\int } \frac2{3}u^{\frac{3}{2}}\right|_{0}^{1}\  =\  \frac2{3}\  .
+		  \end{align}
+		  $$
+		
+- 📌Quiz
+	- 💬Question: suppose the following
+		- $$
+		  F(x) = \int _0^x \cos (t^2)\,  dt\quad G(x) = \int _0^x \cos \left(\frac{\pi }{2}u^2\right)\,  du
+		  $$
+		- $c_1=? c_2=?$
+		
+	- ✏Solution:
+		- For
+			- $$
+			  G(x)= \int _0^x \cos \left(\frac{\pi }{2} u^2 \right)\,  du
+			  $$
+			
+		- Let $t = \sqrt{\frac{\pi }{2}} u, dt = \sqrt{\frac{\pi }{2}} \,  du,\, \,$ then
+			- $$
+			  \begin{align}
+			  G(x)&= \int _0^x \cos \left(\frac{\pi }{2} u^2 \right) \,  du\\
+			  &=\sqrt{\frac{2}{\pi }} \, \int _0^{\sqrt{\frac{\pi }{2}}x} \cos t^2 \, dt\\
+			  &= \sqrt{\frac{2}{\pi }}\, F\left( \sqrt{\frac{\pi }{2}} x \right)
+			  \end{align}
+			  $$
+			
+		- Therefore, $c_1 = \sqrt{\frac{2}{\pi }},\, \, \text{and }c_2 = \sqrt{\frac{\pi }{2}}$
+
+
+
+
+

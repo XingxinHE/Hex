@@ -3,7 +3,8 @@
   "newFileFolderPath": "pages",
   "attachmentFolderPath": "assets",
   "userIgnoreFilters": [
-    "logseq/"
+    "logseq/",
+    "logseq/bak/"
   ],
   "alwaysUpdateLinks": true,
   "showIndentGuide": false
