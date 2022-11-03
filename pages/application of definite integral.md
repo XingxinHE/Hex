@@ -46,7 +46,13 @@ This application of volumes is to rotate $f(x)$ about the $x$-axis, coming out o
 We want to figure out the volume of a “slice” of that solid. We can approximate each slice as a disk with width $dx$(thickness), radius $y$, and a cross-sectional area of $\pi y^2$. The volume of one slice is then:
 $$
 dV = \pi y^2dx
-$$ (for a solid of revolution around the $x$-axis) Integrate with respect to $x$ to find the total volume of the solid of revolution.
+$$
+(for a solid of revolution around the $x$-axis) Integrate with respect to $x$ to find the total volume of the solid of revolution.
+## 🏹Strategy
+There are 2 fundamental ways of solving the problem.
+- [[Disc integration|disc method]]
+- [[Shell integration|shell method]]
+- [[washer method]]
 
 
 ## 🗃Example
