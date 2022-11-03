@@ -141,30 +141,30 @@
         - this version is checkout a new branch for the worktree.
         
 ## Conflict
-- 📌Solve Cherry-pick conflict
-    - Solve the conflicts
-        - Find which files are with conflict
-        - Open the file with VSCode(my personal preference)
-            - Solve the conflicts
-            - `git add/rm <pathspec>` the conflict files. You can either `add` or `rm`
-            
-        - And then `git cherry-pick --continue`
-        
-    - Skip to solve
-        - `git cherry-pick --skip`
-        
-    - Abort and go back to the state
-        - `git cherry-pick --abort`
-        
-  -
+📌Solve Cherry-pick conflict
+- Solve the conflicts
+	- Find which files are with conflict
+	- Open the file with VSCode(my personal preference)
+		- Solve the conflicts
+		- `git add/rm <pathspec>` the conflict files. You can either `add` or `rm`
+		
+	- And then `git cherry-pick --continue`
+	
+- Skip to solve
+	- `git cherry-pick --skip`
+	
+- Abort and go back to the state
+	- `git cherry-pick --abort`
   
 ## Github
-- 📌Setup a Github Access Token
-    - 1. Go to the Github account - Developer Setting - Generate Token
-    - 2. Git clone an arbitrary repo from your page
-    - 3. When the computer request credential, just close it until it appears on the command line for the following info
-         1. `user_name`: the name of your Github account
-         2. `password`: paste your token here
+📌Setup a Github Access Token
+- Go to the Github account - Developer Setting - Generate Token
+- Git clone an arbitrary repo from your page
+- When the computer request credential, just close it until it appears on the command line for the following info
+	- `user_name`: the name of your Github account
+	- `password`: paste your token here
+	  
+
     
 ## Merge
 - 📌 How to solve conflicts?
@@ -184,25 +184,41 @@
     - ```bash
       git merge --continue
       ```
-    
-- 🧬Related Elements
-    - 📌VCSs, Git, Github/Gitlab
-        - VCSs = Version control systems (VCSs)
-        - Git = **Git** is the de facto standard for version control
-        - Github/Gitlab/Gitee = the host of Git Repository
+
+## Revert
+- 📌undo part of your commit  
+	- 📝Description  
+		- Suppose you commit few files of codes while you only want to include part of the code into your commit. What will you do?  
+	- code  
+		-  
+		  ``` shell
+		  		  git revert <old_commit_guid>
+		  		  git cherry-pick <old_commit_guid>
+		  		  git reset HEAD~1
+		  ```
+	- Explanation:  
+		- 1️⃣ explicitly state that you reverted a commit  
+		- 2️⃣ use cherry-pick to commit the code rather than manually select and commit  
+		- 3️⃣ reset the commit to unstaged version, now you are free to stage those changes!  
+
+# 🧬Related Elements
+- 📌VCSs, Git, Github/Gitlab
+	- VCSs = Version control systems (VCSs)
+	- Git = **Git** is the de facto standard for version control
+	- Github/Gitlab/Gitee = the host of Git Repository
         
-- 🌾Resources
-    - `.gitignore` template
-        - https://github.com/github/gitignore
+# 🌾Resources
+- `.gitignore` template
+	- https://github.com/github/gitignore
+	
+- Software for Git
+	- `SourceTree` is a free software managing Git while it provides GUI to interact with Git. Highly recommend! You can download: https://www.sourcetreeapp.com/
+	
+- Book for git
+	- https://git-scm.com/book/en/v2
         
-    - Software for Git
-        - `SourceTree` is a free software managing Git while it provides GUI to interact with Git. Highly recommend! You can download: https://www.sourcetreeapp.com/
-        
-    - Book for git
-        - https://git-scm.com/book/en/v2
-        
-- 📈Diagram
-    - TODO Diagram of git concept
+# 📈Diagram
+- TODO Diagram of git concept
     
 # Basic Concepts
 - Repository

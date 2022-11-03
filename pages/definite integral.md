@@ -111,10 +111,10 @@ The middle part is called integrand.
     - The limits of the integral over $u$ are the values of $u$ corresponding to the limits of the integral over $x$.
     
 - 🕹Quiz
-    - ((6354b672-58db-4900-bbb9-f5f49570f9a1))
+    - see [[definite integral#📌Quiz on substitution|Quiz on substitution]]
     
 # 🕳Pitfalls
-## 📌Caution on substitution ^e7d0add94a13bd1b
+## 📌Caution on substitution
 ### 📝Definition or Description
 - When we use the method of substitution, we need to be very careful about when $u'$ (or $du$) changes sign. If $u'$ changes sign within the integration interval $[a,b]$, the method of substitution may give the wrong answer. In this case, we need to first rewrite the integral as a sum of two integrals such that within the limits of each integral $u'$ does not change sign, and then use the method of substitution on each integral separately.
 
@@ -198,7 +198,7 @@ Also see [[application of definite integral]]
               
           -
           
-- 📌example demonstrating  [[#^e7d0add94a13bd1b|the pitfall of substitution]] ^b084c40053254023
+- 📌example demonstrating [[definite integral#📌Caution on substitution|the pitfall of substitution]]
     - Question: use substitution to calculate
         - $$
           \displaystyle \int _{-1}^{1} x^2\, dx
@@ -341,7 +341,7 @@ Also see [[application of definite integral]]
         - ![name](../assets/images_defint_areaunderpiecewiselinear.svg){:height 200, :width 200}
         
 # 🕹Quiz
-## 📌Quiz on substitution ^287a4c1a397562c3
+## 📌Quiz on substitution
 - 📌Quiz
 	- 💬Question: Use the method of [[#Substitution|substitution]] to evaluate the following integral.
 		- $$
