@@ -49,23 +49,12 @@ dV = \pi y^2dx
 $$
 (for a solid of revolution around the $x$-axis) Integrate with respect to $x$ to find the total volume of the solid of revolution.
 ## 🏹Strategy
-There are 2 fundamental ways of solving the problem.
+There are 3 fundamental ways of solving the problem.
 - [[Disc integration|disc method]]
 - [[Shell integration|shell method]]
 - [[washer method]]
+# 🗃Example
+See the following
+![[Disc integration#📌Classic Sphere Volume]]
 
 
-## 🗃Example
-### 📌Classic Sphere Volume
-- 💬Question: Find the volume of a ball of radius $a$
-	- ![name|150](../assets/a_ball_radius.png)
-- 🏹Strategy: The sphere requires only one-time spinning of the upper part.
-- ✏Solution:
-	- The equation for the upper half of the circle is
-		- $$y=\sqrt{a^2-x^2}$$
-		- The $y$ is the radius of the disk.
-	- Thinking spinning from $-a$ to $a$ will be
-		- $$V=\int\pi y^2dx=\int_{x=-a}^{x=a}\pi(a^2-x^2)dx=\big(\pi a^2x-\frac{\pi x^3}{3}\big)\bigg|_{-a}^{a}=\frac{2}{3}\pi a^3-(-\frac{2}{3}\pi a^3)=\frac{4}{3}\pi a^3$$
-	- Thinking spinning from $0$ to $a$ and double
-		- Since the curve is symmetric about the $y$-axis, we can save this effort.
-		- $$V=\int_{x=-a}^{x=a}\pi(a^2-x^2)dx=2\int_{x=0}^{x=a}\pi(a^2-x^2)dx=2\big(\pi a^2x-\frac{x^3}{3}\big)\bigg|_{0}^{a}=\frac{4}{3}\pi a^3$$

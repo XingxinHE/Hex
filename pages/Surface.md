@@ -31,6 +31,10 @@ The exact mathematical model of a surface is usually intractable. Therefore, the
 	- *center*: a thin-plate surface that minimizes total curvature,
 	- *right*: a surface that minimizes the variation of mean curvature
 
+# 🏷(Sub)Categories
+## Surface categorized via [[curvature]]
+- [[developable surface]]
+
 # 💫Operation
 > ==**Note⚠**==: Different representation has their own advantage on this.
 ## Evaluation

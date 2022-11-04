@@ -1,1 +1,1 @@
-![name](../assets/name.png)
+![name|200](../assets/name.png)
