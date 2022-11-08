@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 18.1.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="91 403 350 222" enable-background="new 91 403 350 222" xml:space="preserve">
+<path fill="none" stroke="#FF7F00" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
+	M415.1,416"/>
+<polyline fill="none" stroke="#FF7F00" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points="
+	114.2,467 130.3,450.9 162.7,483.2 195,450.9 227.3,483.2 259.6,450.9 291.9,483.2 322.5,452.6 "/>
+<line fill="none" stroke="#C4C5C7" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="1048.9" y1="505.2" x2="1027.4" y2="483.7"/>
+<line fill="none" stroke="#C4C5C7" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="1048.9" y1="462.1" x2="1027.4" y2="440.6"/>
+<line fill="none" stroke="#C4C5C7" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="1048.9" y1="419.1" x2="1027.4" y2="397.5"/>
+<line fill="none" stroke="#C4C5C7" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="1048.9" y1="376" x2="1027.4" y2="354.4"/>
+<line fill="none" stroke="#C4C5C7" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="1048.9" y1="332.9" x2="1027.4" y2="311.4"/>
+<line fill="none" stroke="#C4C5C7" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="113.5" y1="505.2" x2="92" y2="483.7"/>
+<line fill="none" stroke="#C4C5C7" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="113.5" y1="462.1" x2="92" y2="440.6"/>
+<line fill="none" stroke="#C4C5C7" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="113.5" y1="419.1" x2="92" y2="397.5"/>
+<polyline fill="none" stroke="#000000" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points="
+	441,526.8 113.5,526.8 113.5,488.7 113.5,403 "/>
+<g>
+	<g>
+		<line fill="none" stroke="#000000" stroke-width="3" stroke-linejoin="round" x1="326.2" y1="559.2" x2="426.8" y2="559.2"/>
+		<g>
+			<polygon points="420.4,567.7 424,559.2 420.4,550.7 440.5,559.2 			"/>
+		</g>
+	</g>
+</g>
+<text transform="matrix(1 0 0 1 172.8846 426.4363)" fill="#FF7F00" font-family="'MyriadPro-Regular'" font-size="30.3486">Spring</text>
+<text transform="matrix(1 0 0 1 290.0438 624.0352)" font-family="'MyriadPro-Regular'" font-size="30.3486">x</text>
+<text transform="matrix(1 0 0 1 315.8183 624.0352)" font-family="'MyriadPro-Regular'" font-size="30.3486" letter-spacing="6">=</text>
+<text transform="matrix(1 0 0 1 347.8047 624.0352)" font-family="'MyriadPro-Regular'" font-size="30.3486">0</text>
+<text transform="matrix(1 0 0 1 418.6396 589.9903)" font-family="'MyriadPro-Regular'" font-size="30.3486">x</text>
+<line fill="none" stroke="#000000" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="324.2" y1="524.1" x2="324.2" y2="600.3"/>
+</svg>

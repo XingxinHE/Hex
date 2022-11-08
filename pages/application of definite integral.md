@@ -57,3 +57,6 @@ See the following
 
 # Find the Centroid
 See [[centroid]].
+
+Transfer force to work using integration
+See [[work#^9ccbf2]].

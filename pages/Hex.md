@@ -53,7 +53,7 @@
 		- [[Summation Notation]], [[definite integral]], [[Bernhard Riemann#Riemann sums|Riemann Sums]], [[First Fundamental Theorem of Calculus]], [[Second Fundamental Theorem of Calculus]]
 	- Application
 		- [[application of definite integral]], [[Shell integration|shell method]], [[Disc integration|disc method]], [[washer method]]
-		- [[mean]], [[median]], [[mode]], [[average]], [[centroid]]
+		- [[mean]], [[median]], [[mode]], [[average]], [[centroid]], 
 💻Assignment
 - Assignment
 📖Reading
