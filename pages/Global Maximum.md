@@ -1,2 +1,3 @@
-- #maximum
-- {{embed ((6343704b-3817-4ae2-84c9-5093e818fc10))}}
+#maximum
+
+- ![[extremum#Org Graph of Extremum]]

@@ -1,2 +1,2 @@
-- # 🌓Complement
-	- {{embed ((3bb74380-8fbf-479f-b41c-6f4a01d4361f))}}
+# 🌓Complement
+- ![[Complexity#^e35fa855b56b930c]]

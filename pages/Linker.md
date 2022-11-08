@@ -1,3 +1,5 @@
-alias:: linking
+---
+aliases: [linking]
+---
 
 - ...

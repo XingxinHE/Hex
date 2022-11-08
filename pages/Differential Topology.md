@@ -1,4 +1,5 @@
-- ## 📝Definition
-	- The motivating force of topology, consisting of the study of smooth (differentiable) manifolds.
-- ## 🙋‍♂️Related Elements
-	- [[Differential Geometry]]
+# 📝Definition
+- The motivating force of topology, consisting of the study of smooth (differentiable) manifolds.
+
+# 🙋‍♂️Related Elements
+- [[Differential Geometry]]

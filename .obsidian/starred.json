@@ -1,0 +1,14 @@
+{
+  "items": [
+    {
+      "type": "file",
+      "title": "Hex",
+      "path": "pages/Hex.md"
+    },
+    {
+      "type": "file",
+      "title": "Glossary",
+      "path": "pages/Glossary.md"
+    }
+  ]
+}

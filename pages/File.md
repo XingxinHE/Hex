@@ -1,4 +1,5 @@
-- ## 📝Definition
-	- A file is simply a sequence of bytes numbered from 0 upward.
-- ## 🧪Composition
-	- **Format**. A format is a set of rules that determine what the bytes mean. We can make sense of the bits in a file if (and only if) we know its format.
+# 📝Definition
+- A file is simply a sequence of bytes numbered from 0 upward.
+
+# 🧪Composition
+**Format**. A format is a set of rules that determine what the bytes mean. We can make sense of the bits in a file if (and only if) we know its format.

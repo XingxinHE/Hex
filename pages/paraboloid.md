@@ -1,2 +1,3 @@
 - 📈Diagram
-	- ![name](../assets/Paraboloid_700.svg){:height 100, :width 100}
+    - ![name](../assets/Paraboloid_700.svg){:height 100, :width 100}
+    

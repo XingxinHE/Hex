@@ -1,3 +1,5 @@
-alias:: program text file
+---
+aliases: [program text file]
+---
 
 - ...

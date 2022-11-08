@@ -1,0 +1,11 @@
+{
+  "newFileLocation": "folder",
+  "newFileFolderPath": "pages",
+  "attachmentFolderPath": "assets",
+  "userIgnoreFilters": [
+    "logseq/",
+    "logseq/bak/"
+  ],
+  "alwaysUpdateLinks": true,
+  "showIndentGuide": false
+}
