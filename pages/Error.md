@@ -1,5 +1,8 @@
 # 📝Definition
-- The name is the essence of this topic.
+You know what is "error".
+
+# 🏹Strategy
+[[Error-Handling]] is the art of handling errors.
 
 # 🏷(Sub)Categories
 - There are many ways of classifying errors. For example:

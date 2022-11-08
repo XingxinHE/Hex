@@ -3,7 +3,7 @@ aliases: [barycentric coordinate system]
 ---
 
 - 📝Definition
-    - Barycentric coordinates are **triples** of numbers ($t_1,t_2,t_3$) corresponding to masses placed at the [[vertices]] of a reference triangle $\Delta A_1A_2 A_3$. These masses then determine a point $P$, which is the ==geometric centroid== of the three masses and is identified with coordinates ($t_1,t_2,t_3$). The vertices of the triangle are given by $(1,0,0), (0,1,0)$, and $(0,0,1)$.
+    - Barycentric coordinates are **triples** of numbers ($t_1,t_2,t_3$) corresponding to masses placed at the [[vertices]] of a reference triangle $\Delta A_1A_2 A_3$. These masses then determine a point $P$, which is the ==geometric [[centroid]]== of the three masses and is identified with coordinates ($t_1,t_2,t_3$). The vertices of the triangle are given by $(1,0,0), (0,1,0)$, and $(0,0,1)$.
     - A **barycentric coordinate system** is a coordinate system in which **the location of a point** is **specified** by **reference** to a [[Simplex]] (a triangle for points in a plane, a tetrahedron四面体 for points in three-dimensional space, etc.). The barycentric coordinates of a point can be interpreted as **masses** placed at the vertices of the simplex, such that the point is the center of mass (or **barycenter**) of these masses.
     
 - 💫Operation
@@ -14,7 +14,7 @@ aliases: [barycentric coordinate system]
         - ✏Solution
             - find $t_2$ and $t_3$ from the point Q at the intersection of the line $A_1P$ with the side $A_2A_3$
             - determine $t_1$ as the mass at $A_1$ that will balance a mass $t_2$+$t_3$ at $Q$
-            - thus making $P$ the centroid (left figure).
+            - thus making $P$ the [[centroid]] (left figure).
             
         - 📝Note: Furthermore, the areas of the triangles $\Delta A_1A_2 P, \Delta A_1A_3 P$, and $\Delta A_2A_3P$ are ==proportional== to the barycentric coordinates $t_3, t_2$, and $t_1$ of $P$
         

@@ -32,7 +32,7 @@ aliases: [FTC1]
       $$
     
 - 📌FTC1 and our real life
-    - ![name](../assets/distance_velocity_FTC.png){:height 200, :width 400}
+    - ![name|400](../assets/distance_velocity_FTC.png)
     - The integral that $s(T)=\int _{0}^{T} v(t)\, dt$ is how much we travel either by (1) measuring distance using distance function $s(T)$ or (2) measuring distance by sum each smart distance $ds=v(T)dT$ we travel using velocity function $v(t)$.
     
 # ✒Notation
@@ -46,6 +46,7 @@ $$
 - [[FTC2]]
 
 # 🧬Related Elements
+![[average#MVT, FTC1, and average value]]
 ## 📌Comparing FTC1 and [[MVT]]
 - If $F(x)$ is [[differentiable]] and $F'(x)$ is [[Continuous]] on $[a,b]$. And let
     - $$
@@ -107,7 +108,8 @@ $$
                   \int _{a}^{b} f(t)\, dt=F(b)-F(a)
                   $$
                 - This is the statement of FTC1, even though the integration variable is renamed $t$.
-                
+            
+
 # 🗃Example
 - 📌travelling in <u>one direction</u>
     - Scenario

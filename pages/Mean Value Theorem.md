@@ -220,5 +220,8 @@ aliases: [MVT]
   - https://www.desmos.com/calculator/vdhfhltxcr
   
 # 🧬Related Elements
-- ![[Linear Approximation#MVT vs Linear Approximation]]
-- ![[First Fundamental Theorem of Calculus#Comparing FTC1 and MVT]]
+![[Linear Approximation#📌 MVT vs. Linear Approximation]]
+
+![[First Fundamental Theorem of Calculus#📌Comparing FTC1 and MVT]]
+
+![[average#MVT, FTC1, and average value]]

@@ -1,6 +1,3 @@
-https://ocw.mit.edu/courses/18-01-single-variable-calculus-fall-2006/resources/lec21/
-https://ocw.mit.edu/courses/18-01-single-variable-calculus-fall-2006/resources/lec22/
-
 # Areas between two curves
 ## 📝Definition
 This is a classifc application using [[definite integral]] and [[First Fundamental Theorem of Calculus|FTC1]].
@@ -53,8 +50,10 @@ There are 3 fundamental ways of solving the problem.
 - [[Disc integration|disc method]]
 - [[Shell integration|shell method]]
 - [[washer method]]
-# 🗃Example
+## 🗃Example
 See the following
 ![[Disc integration#📌Classic Sphere Volume]]
 
 
+# Find the Centroid
+See [[centroid]].

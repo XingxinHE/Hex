@@ -275,6 +275,11 @@
 ### State
 - 📝**Definition**: The value of an object is often called its state, so the idea of a valid value is often referred to as a **valid state** of an object.
 
+### sentinel variable
+- 📝**Definition**: 哨兵变量。Often used in flow control.
+
+
+
 ### Storage Duration
 - 📝**Definition**: It refers to the period of time for which memory is allocated for an object is called its *storage duration* or *extent*.
 

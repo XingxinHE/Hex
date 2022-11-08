@@ -1,12 +1,12 @@
 # 🗺Big Picture
-The exact mathematical model of a surface is usually intractable. Therefore, the word "surface" is smooth and it is only smooth in the world of #Mathematics but not the real world! Because in the real world, everything is discrete! This is the philosophy and this is when [[Discrete Differential Geometry|DDG]] steps in.
+The exact mathematical model of a surface is usually intractable. Therefore, the word "surface" is smooth and it is only smooth in the world of #mathematics but not the real world! Because in the real world, everything is discrete! This is the philosophy and this is when [[Discrete Differential Geometry|DDG]] steps in.
 
 # 📝Definition
 - In general,
 	- 📝Definition
 		- The word "surface" can be used to denote an $(n-1)$-dimensional submanifold of an $n$-dimensional [[manifold]] .
 		
-- In most common sense in #Mathematics ,
+- In most common sense in #mathematics ,
 	- 📝Definition
 		- The most common and straightforward use of the word is to denote a two-dimensional [submanifold](https://mathworld.wolfram.com/Submanifold.html) of three-dimensional [Euclidean space](https://mathworld.wolfram.com/EuclideanSpace.html).
 		

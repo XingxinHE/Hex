@@ -301,7 +301,7 @@ template:: Glossary Short Item
     - Author
         - ...
         
-    - Things I don't know
+    - #thingsIDK
         - ...
         
     - Info

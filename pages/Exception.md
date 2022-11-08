@@ -43,4 +43,23 @@
         - The separation of duty is extremely important of [[#^d5e20b858167b2c9|understanding exception]].
             - `main()` knows nothing about which function did a throw `Bad_area{}`
             - `area()` knows nothing about which function (if any) cares to catch the `Bad_area` exceptions it throws.
-            
+
+
+# 🏷(Sub)Categories
+## unhandled exception
+### 📝Definition
+The catch mechanism is cascading back(由内向外遍历). If the certain type of exception was still not catch, then it will be **unhandled exception**.
+### ⌨Sample Code
+```c#
+string numStr = "2147483648";
+try
+{
+    int num = int.Parse(numStr);
+    Console.WriteLine(num);
+}
+catch(FormatException fEx)
+{
+    
+}
+```
+Because the `catch` block only handles `FormatException`, the number exceeds the maximum which will conduct an `OverflowException`.

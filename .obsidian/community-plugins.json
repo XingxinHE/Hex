@@ -3,5 +3,6 @@
   "templater-obsidian",
   "obsidian-outliner",
   "obsidian-image-toolkit",
-  "table-editor-obsidian"
+  "table-editor-obsidian",
+  "obsidian-quiet-outline"
 ]

@@ -156,8 +156,8 @@ What are the sub objects of this subject?
         - ![name](../assets/surjection_bijection.png){:height 300, :width 500}
         
 - 📌 [[Linear Function]]
-- 📌
 - 📌 [[polynomial]]
+## 📌 [[indicator function]]
 
 # ⛈Characteristics / Properties
 - 📌 [[Upper and Lower Bound]]
@@ -185,7 +185,7 @@ What are the sub objects of this subject?
 - 📌Graph
     - The graph of a function is really important: it really shows what the function "looks like".
     
--
+
 
 # ✒Notation
 - The notation for saying that $f$ is a function with domain $D$ and range $R$ is

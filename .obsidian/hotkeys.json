@@ -103,12 +103,7 @@
       "key": "F8"
     }
   ],
-  "outline:open": [
-    {
-      "modifiers": [],
-      "key": "F9"
-    }
-  ],
+  "outline:open": [],
   "obsidian-shortcuts-for-starred-files:open-file-1": [
     {
       "modifiers": [
@@ -336,6 +331,12 @@
         "Mod"
       ],
       "key": "`"
+    }
+  ],
+  "obsidian-quiet-outline:quiet-outline": [
+    {
+      "modifiers": [],
+      "key": "F9"
     }
   ]
 }

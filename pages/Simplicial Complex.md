@@ -54,7 +54,7 @@ aliases: [(Abstract) Simplicial Complex, (Geometric) Simplicial Complex]
 - 🗃Example
     - 📌Abstract Simplicial Complex—Example
         - 💬Question: Consider the set $S:=$ {{1,2,🖤}, {2,🖤,🙂},{1,2},{2,🖤},{🖤,1},{2,🙂},{🖤,🙂},{1},{2},{🖤},{🙂}} Is this set an abstract simplicial complex? If so, what does it look like?
-        - ✏Answer: Yes—it’s a pair of 2-[[simplices]] (triangles) sharing a single edge:
+        - ✏Answer: Yes—it’s a pair of 2-[[Simplex|simplices]] (triangles) sharing a single edge:
         - 📈Diagram
             - ![name](../assets/abstract_simplicial_complex.png){:height 200, :width 200}
             

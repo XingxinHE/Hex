@@ -1,24 +1,23 @@
--
 - Welcome.
 # MIT
-## 📚Theory of Computation
-### ℹSyllabus
+## 📺Theory of Computation
+ℹSyllabus
 - Course Goal
 - Course Textbook
 - Lecturer
 - Link: [course](https://ocw.mit.edu/courses/18-404j-theory-of-computation-fall-2020/)
 - Video:[xxx](https://)
-### 📺Lectures
+📺Lectures
 - Lecture 1. Video 25:35
-### 💻Assignment
+💻Assignment
 - Assignment
-### 📖Reading
+📖Reading
 - 0 Introduction
 	- 0.1. [[Theory of Computation]], [[Complexity]], [[Computability]], [[Automata]]
 	- 0.2. [[Set]], [[Tuple]], [[Function]], [[Graph]], [[Tree]], [[Boolean Logic]]
 - 1 Regular Expression
 - 2 Context-Free Languages
-- Things I don't know
+-  #thingsIDK
 	- p8(bottom)-p10(top)
 - Introduction to Algorithm
 	- Course Information
@@ -36,66 +35,67 @@
 			- [[Algorithm]], [[interface]], [[data structure]], [[Asymptotic Notation]]
 		- Lecture 2. Data Structures and Dynamic Arrays✅
 			- [[sequence]]
-## 📚Single Variable Calculus
-### ℹSyllabus
+## 📺Single Variable Calculus
+ℹSyllabus
 - Course Goal
 - Course Textbook
 - Lecturer
 - Link: [xxx](https://)
 - Video:[xxx](https://)
-### 📺Lectures
+📺Lectures
 - Lecture...
 - Integration
 	- The Integral
 		- [[Mean Value Theorem]], [[Upper and Lower Bound]], [[Antiderivative]], [[Differential]], [[Differential Equation]]
-		- [[Euler]], [[Slope Field]]
+		- [[Slope Field]], [[Leonhard Euler|Euler]]
 		- Homework B the Parachute ride is really good. need to document. Only the last question I don't understand.
 	- Integration Theory
 		- [[Summation Notation]], [[definite integral]], [[Bernhard Riemann#Riemann sums|Riemann Sums]], [[First Fundamental Theorem of Calculus]], [[Second Fundamental Theorem of Calculus]]
 	- Application
-		-
-### 💻Assignment
+		- [[application of definite integral]], [[Shell integration|shell method]], [[Disc integration|disc method]], [[washer method]]
+		- [[mean]], [[median]], [[mode]], [[average]], [[centroid]]
+💻Assignment
 - Assignment
-### 📖Reading
+📖Reading
 # Stanford
 - CS103
 	- 2022 Fall
 		- Lecture0 pdf✅
 - CS107
 ## 📚CS107 Programming Paradigms 2008
-### ℹSyllabus
-	- Course Goal
-	- Course Textbook
-	- Lecturer
-	- Link: [xxx](https://)
-	- Video:[link](https://www.bilibili.com/video/BV1Cx411S7HJ?share_source=copy_web&vd_source=218d39032e526d50fa83fd2c8d8aab99)
-### 📺Lectures
-	- Lecture 1 video✅ notes not❌
-	- Lecture 2
-		- c/c++
-			-
-### 💻Assignment
+ℹSyllabus
+- Course Goal
+- Course Textbook
+- Lecturer
+- Link: [xxx](https://)
+- Video:[link](https://www.bilibili.com/video/BV1Cx411S7HJ?share_source=copy_web&vd_source=218d39032e526d50fa83fd2c8d8aab99)
+📺Lectures
+- Lecture 1 video✅ notes not❌
+- Lecture 2
+	- c/c++
+		-
+💻Assignment
 	- Assignment
-### 📖Reading
+📖Reading
 ## 📚CS107 2022 Summer
-### ℹSyllabus
-	- Course Goal
-	- Course Textbook
-	- Lecturer
-	- Link: [link](https://web.stanford.edu/class/archive/cs/cs107/cs107.1226/)
-	- Video:[xxx](https://)
-### 📺Lectures
-	- Lecture 1 pdf✅
-	- Lecture 2 pdf
-### 💻Assignment
-	- Assignment
-### 📖Reading
+ℹSyllabus
+- Course Goal
+- Course Textbook
+- Lecturer
+- Link: [link](https://web.stanford.edu/class/archive/cs/cs107/cs107.1226/)
+- Video:[xxx](https://)
+📺Lectures
+- Lecture 1 pdf✅
+- Lecture 2 pdf
+💻Assignment
+- Assignment
+📖Reading
 - CS110
 - CS106B
 - CS143
 	- lecture0 pdf - p22/p35 documentation
 ## 📚ENGR108
-### ℹSyllabus
+ℹSyllabus
 - Course Goal
 - Course Textbook
 - Lecturer
@@ -105,7 +105,7 @@
 	- [bilibili](https://www.bilibili.com/video/BV17h411W7bk?p=8&share_source=copy_web&vd_source=218d39032e526d50fa83fd2c8d8aab99)
 	- [Youtube](https://www.youtube.com/playlist?list=PLoROMvodv4rMz-WbFQtNUsUElIh2cPmN9)
 - Slides: https://stanford.edu/class/engr108/lectures.html
-### 📺Lectures
+📺Lectures
 - Lecture 1
 	- [[vector]]
 - Lecture 7✅
@@ -130,19 +130,19 @@
 	- Matrix-Vector Multiplication
 - Lecture 19✅
 	- Matrix-vector operation applicability
-### 💻Assignment
+💻Assignment
 - Assignment
-### 📖Reading
+📖Reading
 -
 # Princeton
 ## 📚Algorithms Part I
-### ℹSyllabus
+ℹSyllabus
 - Course Goal
 - Course Textbook
 - Lecturer
 - Link: [xxx](https://)
 - Video:[xxx](https://)
-### 📺Lectures
+📺Lectures
 - Week 1
 	- Course Introduction
 		- Assignment✅
@@ -151,28 +151,28 @@
 		- [[Dynamic connectivity]]
 	- Analysis of Algorithms
 		-
-### 💻Assignment
+💻Assignment
 - Assignment
-### 📖Reading
+📖Reading
 ## 📚Algorithms Part II
-### ℹSyllabus
+ℹSyllabus
 - Course Goal
 - Course Textbook
 - Lecturer
 - Link: [xxx](https://)
 - Video:[xxx](https://)
-### 📺Lectures
+📺Lectures
 - Lecture...
-### 💻Assignment
+💻Assignment
 - Assignment
-### 📖Reading
+📖Reading
 # C++
 - Books
 	- Programming Principle and Practice using C++
 		- 346 / 1313
 		- TODO 9.7 & 9.8 I have read front and back. Require documentation. This is a good reference of designing interface. Possible to integrate to future chapter 14(design class)?
 		-
-		- Things I don't know
+		- #thingsIDK
 			- p456, "use Shape's constructors(A.16)"
 	- Effective Modern C++
 		- Progress
@@ -218,7 +218,7 @@
 			  Item 40
 			  Item 41
 			  Item 42
-		- Things I don't know
+		- #thingsIDK
 			- Item8 p60-p62
 			- Item9 p64-p67
 	- Book
@@ -228,12 +228,19 @@
 			- Chapter 03 Strings
 			- Chapter 11 Pointers and Arrays
 				- [[Bit]], [[Byte]], [[Word]]
-		- Things I don't know
+		- #thingsIDK
 			- ...
 		- Info
 			- link
-# C#
-## Step by Step
+# CSharp
+## 📚Step by Step
+- Chapter 04 Decision Statement
+	- [[Boolean Logic|boolean]], [[equality operator]], [[relational operator]], [[logical operator]], [[if-else statement]]
+	- see the [[logical operator#Short-circuiting|short-circuiting]]
+- Chapter 05 Compound and Iteration statements
+	- [[Compound Assignment Operator]], [[do-while loop]], [[while loop]], [[continue keyword]], [[break keyword]]
+- Chapter 06 Errors and exceptions
+	- [[Error]], [[Error-Handling]], [[Exception]], [[try-catch]], [[Exception#unhandled exception]], 
 - Chapter 07 Class and objects
 	- [[class]], [[Encapsulation]], [[Constructor]]
 - Chapter 20 Delegate and Event
@@ -271,16 +278,16 @@
 	- https://www.youtube.com/playlist?list=PL8yHsr3EFj53L8sMbzIhhXSAOpuZ1Fov8
 	- https://www.youtube.com/playlist?list=PL8yHsr3EFj52Qf7lc3HHvHRdIysxEcj1H
 ## Optimization
-- Book - Convex Optimization
-	- Table of Content
-		- Chapter 1...
-	- Author
-		- ...
-	- Things I don't know
-		- ...
-	- Info
-		- link
-### Book - Numerical Optimization by J. Nocedal, S.J. Wright
+### 📚Convex Optimization
+- Table of Content
+	- Chapter 1...
+- Author
+	- ...
+- #thingsIDK
+	- ...
+- Info
+	- link
+### 📚Numerical Optimization by J. Nocedal, S.J. Wright
 - Chapter 01 Introduction
 	- [[Numerical Optimization]], [[Convex]], [[Convex Optimization]], [[Convex Function]]
 - Chapter 02 Fundamentals of Unconstrained Optimization
@@ -288,18 +295,18 @@
 - Unorganized
 	- If the **objective function** in the optimization problem and the **feasible region** are **both convex**, then **any local solution** of the problem **is** in fact a **global solution**.
 ### Non-smooth Problem
-	- ![name](../assets/non_smooth_problem.png){:height 200, :width 200}
-	- 📝Definition
-		- Geometrically, the nonsmooth function consists of a few smooth pieces, with **discontinuities between the pieces**.
-	- 🎯Intent
-		- It may be possible to find the minimizer by **minimizing each smooth piece individually**, a.k.a. examing the **subgradient** and **generalized gradient**.
-		- (a side note, this book will not cover non-smooth problem.)
+- ![name|300](../assets/non_smooth_problem.png)
+- 📝Definition
+	- Geometrically, the nonsmooth function consists of a few smooth pieces, with **discontinuities between the pieces**.
+- 🎯Intent
+	- It may be possible to find the minimizer by **minimizing each smooth piece individually**, a.k.a. examing the **subgradient** and **generalized gradient**.
+	- (a side note, this book will not cover non-smooth problem.)
 ## Calculus
 ### The Calculus Lifesaver
 - Table of Content
 	- Chapter 1 Functions, Graphs, and Lines
 		- [[Function]], [[Function#^c436ffd3332b45e9|codomain]], [[Function#^bdaa359665a4eb20|domain]], [[Function#^be8a9dcb429c6969|range]], [[Glossary#Interval Notation|interval notation]], [[Glossary#Vertical Line Test|vertical line test]], [[Glossary#Horizontal Line Test|horizontal line test]], [[Function#^a7ed31bf0b55411a|inverse function]], [[Function#^d91a4e8de93ada8e|composition of function]], [[Function#^b7a4b39e6a3bebc9|odd function and even function]], [[Linear Function]], [[polynomial]], [[quadratic function]], [[rational function]], [[exponential]], [[Logarithm]], [[Trigonometric Function]]
-- Things I don't know
+- #thingsIDK
 	- ...
 - Info
 	- link
@@ -308,7 +315,7 @@
 	- Chapter 1...
 - Author
 	- Manfredo Perdigao do Carmo
-- Things I don't know
+- #thingsIDK
 	- ...
 - Info
 	- link
@@ -327,7 +334,7 @@
 			- [[matrix#^30a632e9e0e39867|Rank of matrix]], [[matrix#^a0a009a61f45bb8c|Column space]]
 - Author
 	- ...
-- Things I don't know
+- #thingsIDK
 	- ...
 - Info
 	- link
@@ -337,7 +344,7 @@
 - Author
 	- Richard Schoen
 	- Shing-Tung Yau
-- Things I don't know
+- #thingsIDK
 	- ...
 - Info
 	- link
@@ -347,7 +354,7 @@
 - Author
 	- Tobias Holck Colding
 	- II Minicozzi, William P.
-- Things I don't know
+- #thingsIDK
 	- ...
 - Info
 	- link
@@ -356,7 +363,7 @@
 	- Chapter 1...
 - Author
 	- Manfredo Perdigao do Carmo
-- Things I don't know
+- #thingsIDK
 	- ...
 - Info
 	- link
@@ -366,72 +373,76 @@
 		- [[dot product]]
 	- Chapter 3 Matrices
 		- 3.4. [[Determinant]]
-- Things I don't know
+- #thingsIDK
 	- ...
 - Info
 	- link
--
+
 # Computer Graphics and Computational Geometry
-- Computer Graphics (00106501) USTC
-	- Course Info
-		- Link: [刘利刚《计算机图形学》2020 (ustc.edu.cn)](http://staff.ustc.edu.cn/~lgliu/Courses/ComputerGraphics_2020_spring-summer/default.htm)
-	- Lecture
-		-
+## Computer Graphics (00106501) USTC
+- Course Info
+	- Link: [刘利刚《计算机图形学》2020 (ustc.edu.cn)](http://staff.ustc.edu.cn/~lgliu/Courses/ComputerGraphics_2020_spring-summer/default.htm)
+- Lecture
+	-
+- Assignment
+	- Assignment 0
+	- Assignment 1 - MiniDraw
+
+
+## 📚Computer Graphics (CMU 15-462662)
+- ℹSyllabus
+	- Course Goal
+	- Course Textbook
+	- Lecturer: Keenan Crane
+	- Link: [xxx](https://)
+	- Video:[xxx](https://)
+- 📺Lectures
+	- Lecture 4: Drawing a Triangle (and an Intro to Sampling)
+		- Watch✅
+		- TODO documentation
+		- [[Rasterization]], [[Ray Tracing]], [[triangle mesh]]
+- 💻Assignment
 	- Assignment
-		- Assignment 0
-		- Assignment 1 - MiniDraw
-- 📚Computer Graphics (CMU 15-462662)
-	- ℹSyllabus
-		- Course Goal
-		- Course Textbook
-		- Lecturer: Keenan Crane
-		- Link: [xxx](https://)
-		- Video:[xxx](https://)
-	- 📺Lectures
-		- Lecture 4: Drawing a Triangle (and an Intro to Sampling)
-			- Watch✅
-			- TODO documentation
-			- [[Rasterization]], [[Ray Tracing]], [[triangle mesh]]
-	- 💻Assignment
-		- Assignment
-	- 📖Reading
-- 📚computer-graphics-csc317
-	- ℹSyllabus
-		- Course Goal
-		- Course Textbook
-		- Lecturer: Alec Jacobson
-		- Link: [github](https://github.com/alecjacobson/computer-graphics-csc317)
-		- Video:[xxx](https://)
-	- 📺Lectures
-		- Lecture...
-	- 💻Assignment
-		- Assignment
-	- 📖Reading
-		- Fundamentals of Computer Graphics
-		- Chapter 03 Raster Images
-			- 3.1. Raster Devices
-				- [[Raster Image]], [[Vector Image]], [[LED]], [[LCD]], [[ppi]], [[dpi]], [[Color Filter Array]]
-			- 3.2. Images, Pixels, and Geometry
+- 📖Reading
+
+
+## 📚computer-graphics-csc317
+- ℹSyllabus
+	- Course Goal
+	- Course Textbook
+	- Lecturer: Alec Jacobson
+	- Link: [github](https://github.com/alecjacobson/computer-graphics-csc317)
+	- Video:[xxx](https://)
+- 📺Lectures
+	- Lecture...
+- 💻Assignment
+	- Assignment
+- 📖Reading
+	- Fundamentals of Computer Graphics
+	- Chapter 03 Raster Images
+		- 3.1. Raster Devices
+			- [[Raster Image]], [[Vector Image]], [[LED]], [[LCD]], [[ppi]], [[dpi]], [[Color Filter Array]]
+		- 3.2. Images, Pixels, and Geometry
 ## 📚GAMES101
-### ℹSyllabus
+ℹSyllabus
 - Course Goal
 - Course Textbook
 - Lecturer
 - Link: [xxx](https://)
 - Video: [here](https://www.bilibili.com/video/BV1X7411F744?share_source=copy_web&vd_source=218d39032e526d50fa83fd2c8d8aab99)
-### 📺Lectures
+📺Lectures
 - Lecture...
-### 💻Assignment
+💻Assignment
 - Assignment
-### 📖Reading
+📖Reading
 ## 📚Geometry Processing csc2520
-### ℹSyllabus
+ℹSyllabus
 - Course Goal
 - Course Textbook
 - Lecturer: Alec Jacobson
 - Link: [GitHub](https://github.com/alecjacobson/geometry-processing-csc2520)
 - Video:[xxx](https://)
-### 📺Lectures
+📺Lectures
 - Introduction
 	- [Euler Characteristic](((634e3b2d-a1b3-4803-9236-d18373f2c133))), [[triangle mesh]], [[Half Edge Data Structure]]
 - Mesh Reconstruction
@@ -440,33 +451,35 @@
 - Parameterization
 - Deformation
 - Curvature
-### 💻Assignment
+💻Assignment
 - Assignment
 	- [Euler characteristics](https://github.com/XingxinHE/Junior-SofwareEngineer-Notes/tree/main/code/GeometryProcessing/csc2520_jacobson/geometry-processing-introduction)
-		- TODO my current implementation relies on `std::set`. The advance computation relies on sparse matrix. Digest and document this kind of cool stuffs.
-### 📖Reading
-- Polygon Mesh Processing
-	- Table of Content
-		- Chapter 1 Surface Representation
-			- [[Geometry Processing]]
-	- Author
-		- ...
-	- Things I don't know
-		- ...
-	- Info
-		- link
+		- #TODO my current implementation relies on `std::set`. The advance computation relies on sparse matrix. Digest and document this kind of cool stuffs.
+
+## 📚Polygon Mesh Processing
+- Table of Content
+	- Chapter 1 Surface Representation
+		- [[Geometry Processing]]
+- Author
+	- ...
+- #thingsIDK
+	- ...
+- Info
+	- link
+
 ## 📚Discrete Differential Geometry
-### ℹSyllabus
+ℹSyllabus
 - Course Goal
 - Course Textbook
 - Lecturer
 - Link: [xxx](https://)
 - Video:[xxx](https://)
-### 📺Lectures
+📺Lectures
 -
-### 💻Assignment
+💻Assignment
 - Assignment
-### 📖Reading
+📖Reading - Lecture Notes
 - Chapter 02 Combinatorial Surfaces
 	- [[Affine Independence]], [[Affine Dependence]]
 	- [[Convex Set]], [[Convex Hull]], [[Simplex]], [[Barycentric Coordinates]]
+	- 
