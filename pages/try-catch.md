@@ -22,7 +22,29 @@ catch (Exception ex)
 
 
 ## ⌨Sample Code
-
+📌order the catch with by inheritance
+With [[Exception#Inheritance|inheritance characteristic]] of `Exception`, a #BestPractice is to handle the **specific exception in the head** and **general exception at the tail**.
+```mermaid
+graph TD
+A(Error) --> B(catch specific exception A)
+B(catch specific exception A) --> C(catch specific exception B)
+C(catch specific exception B) --> D(catch general exception)
+```
+The following codes are an example.
+```csharp
+try
+{
+}
+catch(FormatException fEx)
+{
+}
+catch(OverflowException oEx)
+{
+}
+catch(Exception ex)
+{
+}
+```
 
 # #cpp 
 

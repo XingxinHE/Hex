@@ -10,7 +10,7 @@ aliases: [mapping]
     - $f$ is a function that **maps** real $n$-vectors to **real** numbers.
     - Therefore, $f(x)$ is a scalar which is the **value** of such function at $x$(param).  Hence, function sometimes is called real-valued function or scalar-valued function.
     - A function is a rule for transforming an object into another object.
-    - A map is often used as a synonym for a function. For **2** non-empty sets $A, B$, the mapping denotes as $f:A\rarr B$. Such that, for every $a_i$ of $A$, there is one **unique** element $b_i$ in $B$ corresponding to $a_i$.
+    - A map is often used as a synonym for a function. For **2** non-empty sets $A, B$, the mapping denotes as $f:A\to B$. Such that, for every $a_i$ of $A$, there is one **unique** element $b_i$ in $B$ corresponding to $a_i$.
         - $f(a)=b$
         
     - A function is **a binary relation between two sets** that associates each element of the first set(nonempty real number$\mathbb{R}$ set) to exactly one element of the second set.
@@ -158,7 +158,7 @@ What are the sub objects of this subject?
 - 📌 [[Linear Function]]
 - 📌 [[polynomial]]
 ## 📌 [[indicator function]]
-
+## 📌 [[probability density function]]
 # ⛈Characteristics / Properties
 - 📌 [[Upper and Lower Bound]]
 - 📌Codomain ^c436ffd3332b45e9

@@ -1,3 +1,7 @@
+---
+aliases: [shorthand assignment operation]
+---
+
 📌**What is it?**
 
 ```c#

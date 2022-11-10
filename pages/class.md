@@ -13,19 +13,47 @@ Find an intuitive way of explanation of this concept.
 
 # 🔎Implementation
  The code or technical stuffs implement this.
-- In C++, the class is usually separated into:
-    - A [[header file]] file that provides a declaration of the operation supported by the class
-    - A [[source file]] that contains the implementation of those operations
-    
-# ⛈Characteristics / Properties
-- 📌Immutable
-    - A class whose internal state can't be modified after initialization. It's kind of like `readonly` in C#.
-    
-# 🚀Benefit
- A scenario that illustrates the benefit this object provides.
+## Separation in behavior and implementation
+### 📝Definition
+The class in C++ is usually separated into:
+- A [[header file]] file that provides a declaration of the operation supported by the class
+- A [[source file]] that contains the implementation of those operations
+### 🚀Benefit / Pros
+In Eric Roberts' view, the benefit is that
+-   Simplicity
+-   Flexibility
+-   Security
 
-# ⌨Sample Code
- Code fragments
+
+# ⛈Characteristics / Properties
+## 📌Immutable
+### 📝Definition
+The name is the essence of this topic.
+A #cpp  class whose internal state can't be modified after initialization. It's kind of like `readonly` in #csharp .
+### ⌚History
+Before talking about it, I want to introduce you that in history many programmers insist that instance member should not be modified one initialized since it is private. Such class are said to be **immutable**. The following `Point` class is a good example.
+> [!NOTE] Note
+> However, this is just one of opinion. You are free to choose the strategies.
+
+```cpp
+// immutable class
+class Point
+{
+public:
+    Point() :x{0}, y{0}
+    {};
+
+    Point(int xc, int yc) :x{xc}, y{yc}
+    {};
+
+    int getX() { return x; }
+    int getY() { return y; }
+private:
+    int x; int y;
+
+};
+```
+
 
 # 🌓Complement
 - What is the complement of this subject? e.g. vector-covector, constructor-destructor
@@ -33,28 +61,29 @@ Find an intuitive way of explanation of this concept.
     - class - the <u>definition</u> of a type, e.g. the cookie cutter
     - object - an <u>instance</u> of that type, e.g. the cookie
     
-# 🤳Applicability
- What are the situations in which this subject can be applied?
+# 💫Operation
+
 
 # 🧪Composition
-What kind of stuffs composite this subject?
-- In C++,
-    - The parts used to define the class are called members.
-        - data member ^aacd980b4720f313
-        - function member
-        
-    - Sample code
-      ``` c++
-      class X {
-      public:
-        int m; // 👈data member
-        int mf(int v) { int old = m; m=v; return old; } // 👈function member
-      };
-      ```
-    - Access members by [[Member access operator]]
-    
-# 🏷(Sub)Categories
-What are the sub objects of this subject?
+## #cpp 
+In C++, the parts used to define the class are called members.
+- [[data member]]
+- function member
+> [!faq] What should I do about member?
+> Access members by [[Member access operator]]
+> Access data members by [[getter and setter]]
+
+
+## #csharp 
+Different from C++, everything in C# are with `class`. Therefore, the composition of a `class` in C# are:
+- [[data member|field(csharp)]]
+- property
+- functions
+- event
+
+
+
+
 
 # 🕳Pitfalls
 Be aware of the pitfalls when using this stuffs... (especially considering edge cases)
@@ -70,8 +99,7 @@ Be aware of the pitfalls when using this stuffs... (especially considering edge 
         
 # 🥼Expert's Advice
 
-# 🧱Structure
-Any other hierarchical issues?
+
 
 # 🥘C++ Class Design Recipe
 - Graphics
@@ -139,7 +167,7 @@ Any other hierarchical issues?
                       Line_style ls {0};
                       Color fcolor {Color::invisible};     // fill color
                   ```
-                - All the [[#^aacd980b4720f313|data members]] are `private`. Their initialization prefers a [[{} - initialization syntax]] style. For `points`, we don't explicitly initialize it since the [[default constructor]] of `vector` provides an empty element list.
+                - All the [[data member|data members]] are `private`. Their initialization prefers a [[{} - initialization syntax]] style. For `points`, we don't explicitly initialize it since the [[default constructor]] of `vector` provides an empty element list.
                 - Based on the preceding reason, we therefore provide a trial of access functions which are similar to the `get/set` function.
                   
                   ``` c++

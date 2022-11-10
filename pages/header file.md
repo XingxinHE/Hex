@@ -30,16 +30,16 @@ A header is a collection of [[Declaration]]s.
 - Use `< >`
     - if the header file is anywhere else.
     
--
+
 
 # 🚀Benefit
- A scenario that illustrates the benefit this object provides.
+The benefit separating the header file and source file sees [[class#Separation in behavior and implementation]].
 
 # ⌨Sample Code
  Code fragments
 
 # 🌓Complement
-What is the complement of this subject? e.g. vector-covector, constructor-destructor
+[[source file]]
 
 # 🤳Applicability
  What are the situations in which this subject can be applied?

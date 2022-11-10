@@ -1,4 +1,4 @@
-# ⏰History
+# ⌚History
 In the old days, programmers make a GLOBAL variable. When the method is called, the program is asked to check the GLOBAL variable to see if it is successful. The classic example is the `return` value of C++.
 ```cpp
 int main()

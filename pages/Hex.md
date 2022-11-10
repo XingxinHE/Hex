@@ -53,7 +53,8 @@
 		- [[Summation Notation]], [[definite integral]], [[Bernhard Riemann#Riemann sums|Riemann Sums]], [[First Fundamental Theorem of Calculus]], [[Second Fundamental Theorem of Calculus]]
 	- Application
 		- [[application of definite integral]], [[Shell integration|shell method]], [[Disc integration|disc method]], [[washer method]]
-		- [[mean]], [[median]], [[mode]], [[average]], [[centroid]], 
+		- [[mean]], [[median]], [[mode]], [[average]], [[centroid]], use integration to compute force transition to work at [[work#^9ccbf2]]
+		- [[discrete probability]], [[continuous distribution]], 
 💻Assignment
 - Assignment
 📖Reading
