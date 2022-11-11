@@ -54,7 +54,7 @@
 	- Application
 		- [[application of definite integral]], [[Shell integration|shell method]], [[Disc integration|disc method]], [[washer method]]
 		- [[mean]], [[median]], [[mode]], [[average]], [[centroid]], use integration to compute force transition to work at [[work#^9ccbf2]]
-		- [[discrete probability]], [[continuous distribution]], 
+		- [[discrete probability]], [[continuous distribution]], [[probability density function]], [[normal distribution]], [[normal distribution]]
 💻Assignment
 - Assignment
 📖Reading

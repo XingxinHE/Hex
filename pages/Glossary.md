@@ -308,7 +308,13 @@
     - Pass at vertical line test
         - ![name](../assets/vertical_line_test_pass.png){:height 300, :width 300}
         
--
+
+### variate
+- 📝**Definition**: A variate is a generalization of the concept of a random variable that is defined without reference to a particular type of probabilistic experiment. It is defined as the set of all random variables that obey a given probabilistic law.
+
+
+
+### Z(Not organized)
 
 - *ABI*: Application Binary Interface, a specification for a specific hardware platform combined with the operating system. Contrast with API.
 
