@@ -460,7 +460,15 @@
 ## 📚Polygon Mesh Processing
 - Table of Content
 	- Chapter 1 Surface Representation
-		- [[Geometry Processing]]
+		- [[Geometry Processing]], [[Surface]], [[Surface#💫Operation]]
+		- 1.1 Surface Definition and Properties
+			- [[Surface#📝Definition]]
+			- [[Surface#⛈Characteristics / Properties#Smoothness]]
+			- [[Surface#⛈Characteristics / Properties#Fairness]]
+		- 1.2. Approximation Power
+			- [[Surface#📏Surface Approximation]]
+		- 1.3. Parametric Surface Representation
+			- [[Surface#🎨Surface Representation]]
 - Author
 	- ...
 - #thingsIDK

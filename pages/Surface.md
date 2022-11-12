@@ -85,10 +85,11 @@ From a high level point of view, there are 2 major classes of surface representa
 Why does representation matter? For each specific problem in [[Geometry Processing]], we can identify a characteristic set of operations by which the computation is dominated, and hence we have to choose an appropriate representation that supports the efficient implementation of these operation.
 	
 ## 🌓Comparison
-- > ==**Note⚠**==: Both parametric and implicit representation have their particular strengths and weakness, such that for each geometric problem the better suited one should be chosen.
+> [!NOTE] Note
+> Both parametric and implicit representation have their particular strengths and weakness, such that for each geometric problem the better suited one should be chosen.
 
-### parametric representation
-#### 📝Definition
+## parametric representation
+### 📝Definition
 - Parametric surfaces are defined by a vector-valued parameterization function $f$ that maps a 2D parameter domain $\Omega$ to the surface $S$.
 	- $$
 	  f: \Omega\to S
@@ -96,7 +97,21 @@ Why does representation matter? For each specific problem in [[Geometry Processi
 	- $\Omega$: the 2D parameter domain that $\Omega\subset\mathbb{R}^2$
 	- $S$: the surface that $S=f(\Omega)\subset\mathbb{R}^3$.
 
-#### 🗃Example
+> [!caution] caution
+> Generating a parametric surface parameterization $f$ can be very complex, since the parameter domain $\Omega$ has to match the topological and metric structure of the surface $S$.
+
+
+
+### 🚀Benefit / Pros
+- enables the reduction of many 3D problems on the surface $S$ to 2D problems in the parameter domain $\Omega$
+
+### 🕳Pitfalls / Cons
+The weak points are
+- [[Surface#💫Operation#Modification]]
+- [[Surface#💫Operation#Query]]
+Because not only the parameterization but also the domain $\Omega$ has to be adjusted accordingly.
+
+### 🗃Example
 - Define [[curve]] in parametric representation
 	- $$
 	  f: \Omega\to C \text{ with }\Omega=[a,b]\subset\mathbb{R}
@@ -108,14 +123,14 @@ Why does representation matter? For each specific problem in [[Geometry Processi
 	  f:[0,2\pi]\to\mathbb{R}^2,\quad t\mapsto\begin{pmatrix}\cos t\\\sin t\end{pmatrix}
 	  $$
 
-### implicit representation
-#### 📝Definition
+## implicit representation
+### 📝Definition
 - Implicit (or volumetric) surface representation is defined to be the zero set of a scalar-valued function $F$
 	- $$
 	  F:\mathbb{R}^3\to\mathbb{R},\text{ i.e., }S=\{x\in\mathbb{R}^3|F(x)=0\}
 	  $$
 
-#### 🗃Example
+### 🗃Example
 - Define [[curve]] in implicit representation
 	- $$
 	  C=\{x\in\mathbb{R}^2|F(x)=0\}\text{ with }F:\mathbb{R}^2\to\mathbb{R}
