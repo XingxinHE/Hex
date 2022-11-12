@@ -1,3 +1,7 @@
+---
+aliases: [probability distribution]
+---
+
 # 📝Definition
 A probability distribution or a probability density function is defined as a nonnegative function $p(x)$ defined on $-\infty < x < \infty$ with the property that
 $$

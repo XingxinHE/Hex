@@ -1,5 +1,10 @@
+---
+aliases: [expected value, expectation value]
+---
+
 
 # 📝Definition
+## mean
 There are several statistical quantities called means.
 | mean                      | value                                  | abbreviations |
 | ------------------------- | -------------------------------------- | ------------- |
@@ -15,6 +20,16 @@ H(a,b)\leq G(a,b)\leq AGM(a,b)\leq A(a,b)\leq RMS(a,b)
 $$
 > [!NOTE]
 > Normally, we refer arithmetic mean as [[average]].
+
+## Expected Value
+Given a [[probability density function|probability distribution]] $p(x)$ such that
+$$
+\int _{-\infty }^{\infty } p(x)\,  dx =1
+$$
+, the expected value, $E$ , also known as the mean.
+
+> [!tip] Tip
+> Note that the expected value is completely analogous to [[centroid|center of mass]]. Here we do not need to divide by the total integral of the probability distribution since the integral $\int _{-\infty }^{\infty } p(x)\,  dx$ is normalized to be equal to $1$.
 
 
 

@@ -15,5 +15,5 @@ This new function $p(x)$ had the property that
 $$
 \int _{-\infty }^{\infty } p(x)\,  dx =1
 $$
-(a.k.a. the probability in total is 1.)
-
+> [!NOTE] Note
+> The new function is also called [[probability density function]] whose probability in total is 1.
