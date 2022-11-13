@@ -1,1 +1,5 @@
-$$\begin{align}x\end{align}$$
+$$
+\begin{align}
+x
+\end{align}
+$$

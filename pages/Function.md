@@ -121,8 +121,7 @@ What are the sub objects of this subject?
             
         - 📈Diagram
             - We conclude that the graph of an even function has mirror symmetry about the $y$-axis.
-            - ![name](../assets/even_function.png){:height 300, :width 300}
-            
+            - ![name|300](../assets/even_function.png)
     - 📌Odd Function
         - 📝Definition
             - We say that a function $f$ is *odd* if
@@ -153,21 +152,19 @@ What are the sub objects of this subject?
         - 📌non-injective non surjective function 非映射
         
     - Diagram
-        - ![name](../assets/surjection_bijection.png){:height 300, :width 500}
-        
-- 📌 [[Linear Function]]
+        - ![name|500](../assets/surjection_bijection.png)
+- 📌 [[indicator function]]
+- 📌 [[probability density function]]
 - 📌 [[polynomial]]
-## 📌 [[indicator function]]
-## 📌 [[probability density function]]
+- 📌 [[Linear Function]]
+
 # ⛈Characteristics / Properties
 - 📌 [[Upper and Lower Bound]]
 - 📌Codomain ^c436ffd3332b45e9
     - The subset of codomain is [[#^edfd03044fa2551e|range]].
     - The codomain is a set of **possible** outputs.
-    
 - 📌Domain ^bdaa359665a4eb20
     - The set of possible inputs to the function is called its domain.
-    
 - 📌Range ^edfd03044fa2551e
     - The outputs of a function come from a set called its range.
     - A function that does use all the elements of the range is said to be **onto** the range. ^be8a9dcb429c6969
@@ -175,16 +172,12 @@ What are the sub objects of this subject?
     - 🧠Intuition
         - The range is the union of both shadows from left and right.
         - ![name](../assets/function_range_shadow.png){:height 500, :width 500}
-        
 - 📌Argument
     - When the domain of a function $f$ is $A_1\times\cdots\times A_k$ for some sets $A_1, . . . ,A_k$, the input to $f$ is a $k$- [[Tuple]] $(a_1, a_2, . . . , a_k)$ and we call the $a_i$ the arguments to $f$.
-    
 - 📌Arity ^3d30a3ab3ced08e4
     - A function with $k$ arguments is called a $k$-ary function, and $k$ is called the arity of the function.
-    
 - 📌Graph
     - The graph of a function is really important: it really shows what the function "looks like".
-    
 
 
 # ✒Notation

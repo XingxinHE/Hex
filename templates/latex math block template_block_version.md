@@ -1,0 +1,1 @@
+$$\begin{align}x\end{align}$$
