@@ -26,7 +26,22 @@ The normal distribution is used to compute probabilities across all sciences, so
 			- Therefore the probability is $1\cdot\frac{1}{2}-0.16=0.32$
 
 
-
+- 📌Normal distribution
+	- 💬Question:
+		- The expected lifetime of a battery in a smoke detector is 12 months with a standard deviation of 1 month. The formula for the normal distribution is $$\large { p(t) = \frac{1}{\sigma \sqrt{2\pi }} e^{-\frac{(t-\mu )^2}{2\sigma ^2}} = C e^{-\frac{(t-\mu )^2}{2\sigma ^2}}}.$$
+	- 🏹Strategy: From the given info, fill the variables.
+	- ✏Solution:
+		- $\mu$ - expected value
+			- That is 12.
+		- $\sigma$ - standard deviation
+			- That is 1.
+		- $\sigma^2$ - variance
+			- That is 1.
+		- Then the distribution is
+			- $$p(t) = \frac{1}{\sqrt{2\pi }}e^{-(t-12)^2/2}.$$
+		- The probability can be seen as $1-P(12)$
+			- $$1-\int_0^{12}p(t)=1-0.5=0.5$$
+ 
 
 # 🔗Link
 https://mathworld.wolfram.com/NormalDistribution.html

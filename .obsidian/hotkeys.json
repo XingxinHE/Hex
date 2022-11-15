@@ -73,12 +73,7 @@
     }
   ],
   "backlink:open-backlinks": [],
-  "outgoing-links:open-for-current": [
-    {
-      "modifiers": [],
-      "key": "F10"
-    }
-  ],
+  "outgoing-links:open-for-current": [],
   "starred:open": [
     {
       "modifiers": [],
@@ -337,6 +332,12 @@
     {
       "modifiers": [],
       "key": "F9"
+    }
+  ],
+  "obsidian-quiet-outline:quiet-outline-reset": [
+    {
+      "modifiers": [],
+      "key": "F10"
     }
   ]
 }

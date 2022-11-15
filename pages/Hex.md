@@ -469,6 +469,8 @@
 			- [[Surface#📏Surface Approximation]]
 		- 1.3. Parametric Surface Representation
 			- [[Surface#🎨Surface Representation]]
+				- 1.3.1. Spline Surfaces.
+					- There are a lot of ideas and concepts closely related. [[Spline]], [[Bernstein Polynomial]], [[B-Spline]], [[Bézier Curve]], [[Cubic Spline]], [[NURBS]]
 - Author
 	- ...
 - #thingsIDK
