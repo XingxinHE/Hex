@@ -275,6 +275,14 @@
 ### State
 - 📝**Definition**: The value of an object is often called its state, so the idea of a valid value is often referred to as a **valid state** of an object.
 
+### State Diagram
+- 📝**Definition**: State diagram is a diagram which is always used in [[Finite Automaton]].
+- 📈**Diagram**:
+	- ![name|200](../assets/state_diagram.png)
+
+
+
+
 ### sentinel variable
 - 📝**Definition**: 哨兵变量。Often used in flow control.
 

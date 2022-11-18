@@ -15,26 +15,28 @@
 - 0 Introduction
 	- 0.1. [[Theory of Computation]], [[Complexity]], [[Computability]], [[Automata]]
 	- 0.2. [[Set]], [[Tuple]], [[Function]], [[Graph]], [[Tree]], [[Boolean Logic]]
+	- 1.1. [[Finite Automaton]], [[regular language]]
 - 1 Regular Expression
 - 2 Context-Free Languages
 -  #thingsIDK
 	- p8(bottom)-p10(top)
-- Introduction to Algorithm
-	- Course Information
-		- Topics:
-			- algorithm - to know what it is first
-			- correctness - then to define what is correct
-			- efficiency - evaluate the efficiency
-			- model of computation - how to compute and integrate algorithm in computation
-			- data structure - how data structure can help
-			- runtime analysis - having all set up, it's time to analyze
-		- 🎯Goal
-			- The goal is to **solve** computation problems, and to **communicate** that your solutions are **correct** and **efficient**.
-	- Content
-		- Lecture 1. Algorithms and Computation✅
-			- [[Algorithm]], [[interface]], [[data structure]], [[Asymptotic Notation]]
-		- Lecture 2. Data Structures and Dynamic Arrays✅
-			- [[sequence]]
+
+## 📺Introduction to Algorithm
+- Course Information
+	- Topics:
+		- algorithm - to know what it is first
+		- correctness - then to define what is correct
+		- efficiency - evaluate the efficiency
+		- model of computation - how to compute and integrate algorithm in computation
+		- data structure - how data structure can help
+		- runtime analysis - having all set up, it's time to analyze
+	- 🎯Goal
+		- The goal is to **solve** computation problems, and to **communicate** that your solutions are **correct** and **efficient**.
+- Content
+	- Lecture 1. Algorithms and Computation✅
+		- [[Algorithm]], [[interface]], [[data structure]], [[Asymptotic Notation]]
+	- Lecture 2. Data Structures and Dynamic Arrays✅
+		- [[sequence]]
 ## 📺Single Variable Calculus
 ℹSyllabus
 - Course Goal
