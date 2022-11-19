@@ -106,7 +106,27 @@ See the distinction from formula.
 
 
 # 🗃Example
-### Examples of converting Riemann Sum and Definite Integral
+## Examples of Error-bound
+- 📌Accuracy using midpoint rule, Trapezoidal Rule, Simpson's Rule ^d0153c
+	- 💬Question:
+		- For this problem, consider $\int _1^2 \frac{1}{x} \,  dx$.
+		- What is the minimum number of subintervals $n$ we can divide the interval $1 \leq x \leq 2$ into to guarantee that the ==Midpoint Rule== is accurate to within $10^{-6}$?
+		- What is the minimum number of subintervals $n$ we can divide the interval $1 \leq x \leq 2$ into to guarantee that the ==Trapezoidal Rule== is accurate to within $10^{-6}$?
+		- What is the minimum number of subintervals $n$ we can divide the interval $1 \leq x \leq 2$ into to guarantee that the ==Simpson's Rule== is accurate to within $10^{-6}$?
+	- 🏹Strategy: Recall the error-bound formulas.
+		- $$\begin{align}\left| f^{\prime \prime }(x) \right| &\leq M\\\left| f^{(4)}(x) \right| &\leq M\\\left| E_M \right| &\leq \frac{M(b-a)^3}{24n^2}\\\left| E_T \right| &\leq \frac{M(b-a)^3}{12n^2}\\\left| E_S \right| &\leq \frac{M(b-a)^5}{180n^4}\end{align}$$
+	- ✏Solution:
+		- First, write down all the needed value.
+			- $$\begin{align}f(x)&= \frac1{x}\\f''(x)&= \frac2{x^3}\\f^{(4)}(x)&=\frac{24}{x^5}\end{align}$$
+		- Second, think about the extremum $M$.
+			- $$\begin{align}|f^{\prime \prime }(x)|&=\frac{2}{x^3}\leq2\\|f^{(4)}(x)|&=\frac{24}{x^5}\leq24\end{align}$$
+		- Finally, we can calculate the $n$.
+			- $$\begin{align}\left| E_M \right| &\leq \frac{2(2-1)^3}{24n^2} &= 10^{-6} \quad &\implies \quad n\geq 289\\\left| E_T \right| &\leq \frac{2(2-1)^3}{12n^2} &= 10^{-6} \quad &\implies \quad n\geq 409\\\left| E_S \right| &\leq \frac{24(2-1)^5}{180n^4} &= 10^{-6} \quad &\implies \quad n\geq 20\end{align}$$
+
+
+
+
+## Examples of converting Riemann Sum and Definite Integral
 - 📌Example 1
     - 🤔Question:
         - Consider the right Riemann sum

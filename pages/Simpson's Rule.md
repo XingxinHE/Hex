@@ -20,3 +20,21 @@ Suppose $\left| f^{(4)}(x) \right| \leq M$ for $a \leq x \leq b$. Then the er
 $$
 \left| E_S \right| \leq \frac{M(b-a)^5}{180n^4}.
 $$
+
+# 🗃Example
+![[Riemann sums#^d0153c]]
+
+- 📌Practice with probability using Simpson's Rule
+	- 💬Question:
+		- In the United States, the average height of a woman is 64 inches with a standard deviation of 3 inches. Thus the probability density function is given by $$f(x) = \frac{1}{3 \sqrt{2\pi }} e^{-\frac{(x-64)^2}{18}}$$
+		- Use Simpson's rule to estimate the probability that a woman is between 64 and 68 inches tall with $n=4$.
+	- 🏹Strategy: Recall the [[probability density function]].
+	- ✏Solution:
+		- The probability can be written as
+			- $$\large { P(64 < x < 68) = \int _{64}^{68} \frac{1}{3 \sqrt{2\pi }} e^{-\frac{(x-64)^2}{18}} \,  dx}.$$
+		- Appealing to Simpson's rule, we have
+			- $$\Delta x = \displaystyle \frac{68-64}{4} = 1.$$
+		- Then we have
+			- $$\begin{align}P(64 < x < 68)&\approx\frac{\Delta x}{3}\left(y_0 + 4y_1 + 2y_2 + 4y_3 + y_4\right)\\&=\frac{1}{9 \sqrt{2\pi }} \left(1+ 4e^{-\frac{1}{18}}+2e^{-\frac{2}{9}}+4e^{-\frac{1}{2}}+e^{-\frac{16}{18}} \right) \approx 0.41 .\end{align}$$
+		- If the normal distribution is an accurate description of the distribution of heights, this means that $41\%$ of women in the US are between 64 and 68 inches tall.
+
