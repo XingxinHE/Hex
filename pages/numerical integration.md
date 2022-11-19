@@ -8,3 +8,8 @@ Many integrals don't have formulas and therefore we can't apply [[First Fundamen
 
 # 🎯Intent
 Compute them with a calculator or a machine.
+
+# 🏷(Sub)Categories
+- [[Riemann sums]]
+- [[Trapezoidal Rule]]
+- [[Simpson's Rule]]

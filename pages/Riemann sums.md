@@ -1,5 +1,5 @@
 # 🎯Intent
-- [[Limit]] of sums can be very hard to evaluate. Recognizing a limit of sums as the limit of a Riemann sum allows us to evaluate the limit as the [[definite integral]] .
+[[Limit]] of sums can be very hard to evaluate. Recognizing a limit of sums as the limit of a Riemann sum allows us to evaluate the limit as the [[definite integral]] .
 
 # 📝Definition
 - Let us summarize in precise terms the steps for evaluating the following using a Riemann Sum.
@@ -84,6 +84,12 @@ If we pick $c_i$ to be the left endpoint of the $i^{th}$ subinterval, the Rieman
 ### right Riemann Sum
 Similarly, if $c_i$ is the right endpoint of the $i^{th}$ interval, the Riemann sum is called a right Riemann sum.
 
+# ⛈Characteristics / Properties
+## Error Bound
+Suppose $\left| f^{\prime \prime }(x) \right| \leq M$ for $a \leq x \leq b$. Then the error of the Midpoint Rule over $n$ subintervals is given by
+$$
+\left| E_M \right| \leq \frac{M(b-a)^3}{24n^2}.
+$$
 
 # 🧬Related Elements
 ## [[Trapezoidal Rule]] vs. Midpoint
@@ -94,9 +100,9 @@ See the distinction from diagram.
 
 See the distinction from formula.
 - Trapezoidal rule takes the half in [[Function#^edfd03044fa2551e|range]].
-	- $$\tilde{y}_1 = f\left(\frac{x_0+x_1}{2}\right)$$
+	- $$\tilde{y}_1 = \frac{f(x_0)+f(x_1)}{2}$$
 - Midpoint rule takes the half in [[Function#^bdaa359665a4eb20|domain]]. 
-	- 
+	- $$\tilde{y}_1 = f\left(\frac{x_0+x_1}{2}\right)$$
 
 
 # 🗃Example
