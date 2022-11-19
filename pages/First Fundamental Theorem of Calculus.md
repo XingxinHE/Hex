@@ -4,7 +4,7 @@ aliases: [FTC1]
 
 # 🎯Intent
 - It helps on the integration part of [[Calculus]].
-- The FTC1 connects the [[definite integral]] to the [[Antiderivative]]. With this connection, we can now compute definite integrals using antiderivatives, and dispense with [[Bernhard Riemann#Riemann sums|Riemann sums]].
+- The FTC1 connects the [[definite integral]] to the [[Antiderivative]]. With this connection, we can now compute definite integrals using antiderivatives, and dispense with [[Riemann sums]].
 
 # 📝Definition
 - The First Fundamental Theorem of Calculus states that:
@@ -116,7 +116,7 @@ $$
         - Suppose you are traveling always in one direction between time $a$ and $b$, and the velocity of your car at time $t$ is $v(t)\geq$, and the position of your car at time $t$ is $x(t)$.
         
     - Two Big Picture
-        - From [[Bernhard Riemann#Riemann sums|Riemann sums]] perspective
+        - From [[Riemann sums]] perspective
             - Measure the speed
                 - If you record your velocity every second.  let $t_i$ be the moment within the $i^{th}$ second when you read the speedometer, and $v(t_i)$ be the velocity of your car at $t_i$. And let $\Delta t$ be one second.
                 
