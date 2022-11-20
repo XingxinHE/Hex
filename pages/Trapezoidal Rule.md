@@ -48,3 +48,16 @@ $$
 			- $$\frac2{3}\cdot 10^6 \approx S-50$$
 		- Hence $S \approx 666,717$
 
+
+- 📌3A (20)
+	- 💬Question: Use the trapezoidal rule to estimate $1+\frac{1}{2}+\frac{1}{3}+\cdots +\frac{1}{n-1} + \frac{1}{n}$ as a function of $n$.
+	- 🏹Strategy: xxx
+	- ✏Solution:
+		- Let
+			- $$S=\frac{1}{1}+\frac1{2}+...+\frac1{n}$$
+		- Then by trapezoidal rule,
+			- $$\int _{1}^{n} \frac{dx}{x} \approx \frac1{2}\cdot 1 +\frac1{2}+\frac1{3}+...+\frac1{2}\cdot \frac1{n} = S-\frac1{2}-\frac1{2n}$$
+		- Since
+			- $$\int _{1}^{n} \frac{dx}{x} =\ln n$$
+		- Then we have
+			- $$S \approx \ln n +\frac1{2}+\frac1{2n}$$

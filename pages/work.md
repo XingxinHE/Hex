@@ -24,6 +24,44 @@ $$
 	- To find the work $W$ required to extend the spring by 6 inches, we use the formula $F=kx=4000x$ to find:
 		- $$W = \int _0^6 F\, dx = \left. \int _0^6 4000x\, dx = 2000x^2\  \right|_0^6 =72,000\  \text{in}\cdot \text{ lbf} = 6,000\  \text{ft}\cdot \text{lbf}.$$
 
+### 🕹Quiz
+
+
+- 📌3A-8
+	- 💬Question: A heavy metal 2 pound bucket initially is filled with 10 pounds of paint. Immediately after it is filled, it is pulled up at a steady rate to the top of a building 30 feet high. While being pulled, the paint leaks out through a hole in the pail at a steady rate so that by the time it reaches the top, 1/5 of the paint has leaked out.
+		- Question 1: Let $w(h)$ be the weight of the bucket at height $h$. First find $w(h)$.
+		- Question 2: Use the answer above to find the work. How many foot-pounds of work $W$ were done pulling the bucket to the top of the building?
+	- 🏹Strategy: for application quiz, first draw the diagram!!
+	- ✏Solution:
+		- Draw the scenario in the diagram
+			- ![name|300](../assets/paint_work_integration.svg)
+		- Let $w(h)$ be th weight of pail and paint at height $h$. Then we know
+			- $$w(0)=12, \quad w(30)=10$$
+		- since the pulling and leakage both occur at a constant rate, then the rate is
+			- $$\frac{10-12}{30}=-\frac{1}{15}$$
+		- Now we have the equation of weight and height
+			- $$w(h)=12-\frac1{15}h$$
+		- Recall the work formula
+			- $$W = \int F \, dx.$$
+		- Finally we can calculate the work from ground zero to 30 inches.
+			- $$W= \int _0^{30} W(h)\text{ }dh = \int _0^{30} (12 -\frac{h}{15})\text{ }dh =\left.12h-\frac{h^2}{30}\right|_0^{30} = 330\text{ft-lbs.}$$
+
+- 📌3A (14)
+	- 💬Question: Two point-particles having respective masses $m_1$ and $m_2$ are at $d$ units distance. Recall that the force between two point particles is given by the [[Newton's law of universal gravitation]].
+		- $$F = \frac{G m_1 m_2}{r^2},$$ where $r$ is the distance between 2 particles.
+		- Question 1: How much work is required to move them $n$ times as far apart (i.e., to distance $nd$)?
+		- Question 2: What is the work $W$ to move them infinitely far apart?
+	- ✏Solution:
+		- Suppose they are currently $x$ unit apart, then the force can be expressed as
+			- $$\frac{G\, m_1m_2}{x^2}$$
+		- The distance of the work is from $d$ to $nd$
+		- (Answer to question 1)Then the work can be computed as
+			- $$\displaystyle\begin{align}\text{work}\  &=\  \int _d^{nd} \frac{G\, m_1m_2}{x^2}\, dx \\&=-\frac{G\, m_1m_2}{x}\biggr ]_{d}^{nd}\\&=-G\, m_1m_2\biggl (\frac1{nd}-\frac1d\biggr )\\&=\frac{G\, m_1m_2}d\biggl (\frac{n-1}n\biggr ).\end{align}$$
+		- (Answer to question 2) the limit $n\to \infty$ is $\frac{G\, m_1m_2}d$
+
+
+
+
 # 🧬Related Elements
 ## work-heat-enery
 Work, [[heat]], and [[energy]] have the same units, but we typically measure them differently.

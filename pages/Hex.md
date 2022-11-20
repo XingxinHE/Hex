@@ -46,6 +46,18 @@
 - Video:[xxx](https://)
 📺Lectures
 - Lecture...
+- Differentiation
+	- Limits
+		- Introduction to limits
+		- Continuity
+		- Limits of quotients
+	- Derivative
+		- What is the derivative?
+		- Geometric interpretation of the derivative
+		- 
+	- Differentiation
+	- Approximations
+	- Application
 - Integration
 	- The Integral
 		- [[Mean Value Theorem]], [[Upper and Lower Bound]], [[Antiderivative]], [[Differential]], [[Differential Equation]]
