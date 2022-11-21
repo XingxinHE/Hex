@@ -5,6 +5,7 @@ aliases: [raw pointer]
 # 📝Definition
 - A pointer is a variable that stores the memory address of an object.
 
+
 # 🎯Intent
 - Pointers are used extensively in both C and C++ for three main purposes:
     - to allocate new objects on the heap
@@ -18,7 +19,13 @@ aliases: [raw pointer]
 - In C++, there are 2 main categories.
     - raw pointer
     - [[Smart Pointer]]
-    
+
+# ✒Notation
+In #cpp ,
+```cpp
+double*
+```
+We say `double*` as "pointer to `double`".
 # ⌨Sample Code
 - ``` c++
   int ival = 1024;
@@ -94,3 +101,4 @@ aliases: [raw pointer]
         
 ## 🥼Expert's Advice
 - Lippman had words to beginner "Be patient when you are learning pointer. The initial **complexity** of using a pointer comes from its <u>confusing syntax</u>".🤣
+- Stroustrup addressed "if you lack a basic and practical understanding of how a program maps onto a computer's memory and operations, you will have problems getting a solid grasp of higher-level topics, such as [[data structure]], [[Algorithm|algorithms]], and [[operating system]]."
