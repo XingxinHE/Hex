@@ -9,7 +9,7 @@
 - Use a same and consistent syntax to iterate the [[STL]] container.
 
 # 🚀Benefit
-- Using same syntax and interface provides lots of benefit. For example, the `++` for vector is to query the next element, so as `++` for linked list. But the next address of a linked list cannot be just incremented. Therefore, we can override their operator.
+- Using same syntax and interface provides lots of benefit. For example, the `++` for vector is to query the next element, so as `++` for [[linked list]]. But the next address of a [[linked list]] cannot be just incremented. Therefore, we can override their operator.
   
   ``` c++
   // no matter which container is
