@@ -7,10 +7,10 @@ aliases: [raw pointer]
 
 
 # 🎯Intent
-- Pointers are used extensively in both C and C++ for three main purposes:
-    - to allocate new objects on the heap
-    - to pass functions to other functions
-    - to iterate over elements in arrays or other data structures
+Pointers are used extensively in both C and C++ for three main purposes:
+- to allocate new objects on the heap
+- to pass functions to other functions
+- to iterate over elements in arrays or other data structures
     
 # 🚀Benefit / Pro
 - A *pointer* introduces a level of **indirection** to a program. Rather than <u>manipulate an object directly</u>😑, we <u>manipulate a pointer that holds the address of an object</u>😍.

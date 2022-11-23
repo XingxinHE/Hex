@@ -246,7 +246,7 @@
 	- Chapter 02 Functions and Libraries
 	- Chapter 03 Strings
 	- Chapter 11 Pointers and Arrays
-		- [[Bit]], [[Byte]], [[Word]], [[Decimal]], [[Glossary#RAM|RAM]], [[hexadecimal]], [[sizeof operator]]
+		- [[Bit]], [[Byte]], [[Word]], [[Decimal]], [[Glossary#RAM|RAM]], [[hexadecimal]], [[sizeof operator]], [[memory]], [[memory#⛈Properties#Memory Layout]], [[memory#⛈Properties#Memory Address]], [[pointer]], [[lvalue and rvalue|lvalue]]
 - #thingsIDK
 	- ...
 - Info

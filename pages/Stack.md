@@ -1,3 +1,7 @@
+---
+aliases: [stack area, automatic storage]
+---
+
 # 📝Definition
 All variables declared inside the function will take up memory from the stack.
 # ⭐Why it is important?
