@@ -264,6 +264,8 @@
 	- [[class]], [[Encapsulation]], [[Constructor]]
 - Chapter 20 Delegate and Event
 	- [[Delegate]]
+- Chapter 22 Operator overloading
+	- [[operator overloading]]
 - Chapter 26 MVVM
 	- [[MVVM]]
 ## WPF Tutorial

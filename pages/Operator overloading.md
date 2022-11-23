@@ -1,12 +1,13 @@
 # 📝Definition
 The name is the essence of this topic.
-- In C++, there are 2 ways of operator overloading.
+- In #cpp , there are 2 ways of operator overloading.
     - <u>Method-based style</u>
     - <u>Free function style</u>
-    
-- In JavaScript,
-    - It doesn't support Operator overloading.
-    
+- In #JavaScript ,
+    - It doesn't support operator overloading.
+# 🧠Intuition
+Operator overloading is to mimic arithmetic operation between instances. For example, if an object representing complex number, how to use `+` operator add the data members behind objects.
+
 # 🕳Pitfalls
 Be aware of the pitfalls when using this stuffs... (especially considering edge cases)
 - 📌Overload operator ONLY when you have to
@@ -15,7 +16,7 @@ Be aware of the pitfalls when using this stuffs... (especially considering edge 
 # 📋Prerequisite
 Some techniques and objects only work under certain condition.
 - For C++ operator overloading, an overloaded operator **must** have **at least one** [[user-defined]] type as operand.
-    - ``` c++
+    - ``` cpp
       int operator+(int,int); // ❌error: you can’t overload built-in +
       Vector operator+(const Vector&, const Vector &); // OK
       Vector operator+=(const Vector&, int); // OK

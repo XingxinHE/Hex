@@ -50,3 +50,34 @@ a = b;
 a->next->next = b;
 ```
 ![name|300](../assets/linkedlist_diagram_4.svg)
+
+
+**📌Wrong `addFront` function**
+```cpp
+void addFront(ListNode* front, int value)
+{
+    ListNode* temp = new ListNode(value);
+    temp->next = front;
+    front = temp;
+}
+
+// the client code
+int main()
+{
+    ListNode* list = ...;
+    addFront(list, 10);
+}
+```
+The preceding code looks good but actually it is wrong! What it does is the following.
+![name|500](../assets/wrong_addFront_linkedlist.svg)
+
+**📌Correct `addFront` function**
+It can be easily fixed by [[pass-by-reference]].
+```cpp
+void addFront(ListNode*& front, int value)
+{
+    //...
+}
+```
+It looks weird😲 but that is how it is.
+![name|500](../assets/correct_addFront_linkedlist.svg)

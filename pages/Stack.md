@@ -1,3 +1,5 @@
+# 📝Definition
+All variables declared inside the function will take up memory from the stack.
 # ⭐Why it is important?
 - For the generic term of "stack"
     - The primary reason that stacks are important in programming is that nested function calls behave in a **stack-oriented fashion**!
