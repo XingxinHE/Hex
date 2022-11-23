@@ -284,7 +284,7 @@
     ```
   - e.g.
       - `HEAD`  is the latest "where we currently are"
-      - `master`  refers to a particular snapshot instead of a bunch of hexadecimal string.
+      - `master`  refers to a particular snapshot instead of a bunch of [[hexadecimal]] string.
       
 - Merge
     - 📌 Fast-forward and three-way merge

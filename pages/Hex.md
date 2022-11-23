@@ -87,6 +87,7 @@
 - Video:[link](https://www.bilibili.com/video/BV1Cx411S7HJ?share_source=copy_web&vd_source=218d39032e526d50fa83fd2c8d8aab99)
 📺Lectures
 - Lecture 1 video✅ notes not❌
+	- [[Bit]], [[Byte]], [[Bit#Two's complement]], [[bitwise operation]]
 - Lecture 2
 	- c/c++
 		-
@@ -183,71 +184,73 @@
 - Assignment
 📖Reading
 # C++
-- Books
-	- Programming Principle and Practice using C++
-		- 346 / 1313
-		- TODO 9.7 & 9.8 I have read front and back. Require documentation. This is a good reference of designing interface. Possible to integrate to future chapter 14(design class)?
-		-
-		- #thingsIDK
-			- p456, "use Shape's constructors(A.16)"
-	- Effective Modern C++
-		- Progress
-			- Item 1
-			  Item 2
-			  Item 3
-			  Item 4
-			  Item 5
-			  Item 6
-			  Item 7✅
-			  Item 8✅
-			  Item 9✅
-			  Item 10
-			  Item 11
-			  Item 12
-			  Item 13
-			  Item 14
-			  Item 15
-			  Item 16
-			  Item 17
-			  Item 18
-			  Item 19
-			  Item 20
-			  Item 21
-			  Item 22
-			  Item 23
-			  Item 24
-			  Item 25
-			  Item 26
-			  Item 27
-			  Item 28
-			  Item 29
-			  Item 30
-			  Item 31
-			  Item 32
-			  Item 33
-			  Item 34
-			  Item 35
-			  Item 36
-			  Item 37
-			  Item 38
-			  Item 39
-			  Item 40
-			  Item 41
-			  Item 42
-		- #thingsIDK
-			- Item8 p60-p62
-			- Item9 p64-p67
-	- Book
-		- Table of Content
-			- Chapter 01 Overview of C++
-			- Chapter 02 Functions and Libraries
-			- Chapter 03 Strings
-			- Chapter 11 Pointers and Arrays
-				- [[Bit]], [[Byte]], [[Word]]
-		- #thingsIDK
-			- ...
-		- Info
-			- link
+## Programming Principle and Practice using C++
+- chapter 17 Vector and Free Store
+	- [[sizeof operator]]
+- #TODO 
+	- 9.7 & 9.8 I have read front and back. Require documentation. This is a good reference of designing interface. Possible to integrate to future chapter 14(design class)?
+- #thingsIDK
+	- p456, "use Shape's constructors(A.16)"
+
+## Effective Modern C++
+- Progress
+	- Item 1
+	  Item 2
+	  Item 3
+	  Item 4
+	  Item 5
+	  Item 6
+	  Item 7✅
+	  Item 8✅
+	  Item 9✅
+	  Item 10
+	  Item 11
+	  Item 12
+	  Item 13
+	  Item 14
+	  Item 15
+	  Item 16
+	  Item 17
+	  Item 18
+	  Item 19
+	  Item 20
+	  Item 21
+	  Item 22
+	  Item 23
+	  Item 24
+	  Item 25
+	  Item 26
+	  Item 27
+	  Item 28
+	  Item 29
+	  Item 30
+	  Item 31
+	  Item 32
+	  Item 33
+	  Item 34
+	  Item 35
+	  Item 36
+	  Item 37
+	  Item 38
+	  Item 39
+	  Item 40
+	  Item 41
+	  Item 42
+- #thingsIDK
+	- Item8 p60-p62
+	- Item9 p64-p67
+
+## Programming Abstraction in C++
+- Table of Content
+	- Chapter 01 Overview of C++
+	- Chapter 02 Functions and Libraries
+	- Chapter 03 Strings
+	- Chapter 11 Pointers and Arrays
+		- [[Bit]], [[Byte]], [[Word]], [[Decimal]], [[Glossary#RAM|RAM]], [[hexadecimal]], [[sizeof operator]]
+- #thingsIDK
+	- ...
+- Info
+	- link
 # CSharp
 ## 📚Step by Step
 - Chapter 04 Decision Statement

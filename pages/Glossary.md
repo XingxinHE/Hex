@@ -348,11 +348,7 @@
 
 - *base class*: a type that is intended to be derived from (e.g., has a non- `final`  virtual function), and objects of the type are intended to be used only indirectly (e.g., by pointer). [In strict terms, “base class” could be defined as “something we derived from” but we are specifying in terms of the class designer’s intent.] Typically a base class has one or more virtual functions.
 
-- *bit*: the basic unit of information in a computer. A bit can have the value 0 or the value 1.
-
 - *bug*: an error in a program.
-
-- *byte*: the basic unit of addressing in most computers. Typically, a byte holds 8 bits.
 
 - *class*: a user-defined type that can contain data members, function members, and member types.
 
