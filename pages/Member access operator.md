@@ -5,10 +5,14 @@ What are the sub objects of this subject?
     - `->`
     
 # 🧠Intuition
-Find an intuitive way of explanation of this concept.
-- In C++,
-    - `->` is a <u>shorthand</u> for **dereference and then access**.
-    
+> [!tip] Tips
+> `->` is a <u>shorthand</u> for **dereference and then access**.
+> ```cpp
+> Point *pp = new Point();
+> (*pp).getX();  //cumbersome🙁
+> pp->getX();    //clean 😊
+> ```
+   
 # ⌨Sample Code
  Code fragments
 - example of different member access operator in C++

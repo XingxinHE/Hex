@@ -1,0 +1,3 @@
+# 📝Definition
+- In #csharp , the `null` keyword is a literal that represents a null reference, one that does not refer to any object. `null` is the default value of [[Reference Type|reference-type]] variables. Ordinary value types cannot be null, except for [nullable value types](https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/nullable-value-types).
+- In #JavaScript , the value `null` is written with a literal: `null`. `null` is not an identifier for a property of the global object, like [`undefined`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined) can be. Instead, `null` expresses a lack of identification, indicating that a variable points to no object.

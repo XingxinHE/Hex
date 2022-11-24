@@ -3,8 +3,11 @@ aliases: [raw pointer]
 ---
 
 # 📝Definition
-- A pointer is a variable that stores the memory address of an object.
+A pointer is a variable that stores the [[memory#Memory Address|memory address]] of an object.
 
+# 🧠Intuition
+You can see the pointers as arrows in the memory.
+![name|400](../assets/pointer_arrow.svg)
 
 # 🎯Intent
 Pointers are used extensively in both C and C++ for three main purposes:
@@ -13,12 +16,14 @@ Pointers are used extensively in both C and C++ for three main purposes:
 - to iterate over elements in arrays or other data structures
     
 # 🚀Benefit / Pro
-- A *pointer* introduces a level of **indirection** to a program. Rather than <u>manipulate an object directly</u>😑, we <u>manipulate a pointer that holds the address of an object</u>😍.
+A *pointer* introduces a level of **indirection** to a program. Rather than <u>manipulate an object directly</u>😑, we <u>manipulate a pointer that holds the address of an object</u>😍.
 
 # 🏷(Sub)Categories
 - In C++, there are 2 main categories.
     - raw pointer
     - [[Smart Pointer]]
+    - [[null pointer]]
+    - [[this keyword|this pointer]]
 
 # ✒Notation
 In #cpp ,
@@ -26,20 +31,45 @@ In #cpp ,
 double*
 ```
 We say `double*` as "pointer to `double`".
+
+> [!NOTE] Note⭐
+> It is important to note that the [[asterisk|*]] symbol used to indicate that a variable is a pointer belongs syntactically **with the variable name** and **not with the base type**. It should answer the confusion between `int* i` and `int *i`. I would prefer the latter since it is the `*` makes the variable different.
+
+Suppose you want to declare 2 pointers to `int`.
+```cpp
+int *p1, *p2;  //✅
+int *p1, p2;  //❌
+```
+
+# 🧪Composition
+Suppose you have the following codes:
+```cpp
+int i = 13;
+char *cptr;
+int *iptr = &i;
+```
+## target
+The value at the address specified by a pointer is called its target.
+## base type
+The type of that target value is called the base type for the pointer.
+
 # ⌨Sample Code
-- ``` c++
+- 
+  ``` cpp
   int ival = 1024;
   int* pi;             // pi is a pointer to an object of type int
   &ival;               // evaluates to the address of ival by using `&`
   pi = &ival;          // pass the address of ival to pi
   ```
 - sample on different style of C++ raw pointer
-    - ``` c++
+    - 
+      ``` cpp
       int* pi = &ival;
       int *pi = &ival;
       ```
     - I personally favor the second version which seeing that the `*` affects the declarator-id directly.
-    - ``` c++
+    - 
+      ``` cpp
       // pi is a pointer to int
       // pt2 is an int
       int* pi, pi2;
@@ -51,7 +81,8 @@ We say `double*` as "pointer to `double`".
     - Use `T *p` rather than ~~`T* p`~~
     
 - example on guarding against dereferencing a null pointer ^40c7cc02dd9c4f77
-    - ``` c++
+    - 
+      ``` c++
       // safe check
       if (pi && *pi!=1024)
       {
@@ -64,30 +95,20 @@ We say `double*` as "pointer to `double`".
           *pi = 1024;
       }
       ```
-    
+
+
 # 🌓Complement
 - [[Reference]]
+# 💫Operation
+3 operations related to pointer in #cpp 
+- take the address using `&` - [[address-of operator]]
+- dereference using `*` - [[dereference operator]]
+- manipulate the data member using `->` [[Member access operator]] 
 
-# 🔎Implementation
-- 📌nullness of pointer
-    - In C++, there are 3 things representing the nullness.
-        - integral `0`
-        - `NULL`
-        - `nullptr` literal
-        
-    - Use `nullptr` rather than others. Because it kills the ambiguity of overloading function with pointers and integral type.
-      
-      ``` c++
-      // 3 overloading function of f
-      void f(int);
-      void f(bool);
-      void f(void*);
-      
-      f(0);  //🙁call f(int), not f(void*)
-      f(NULL);  //🙁might not compile, but typically calls f(int). Never calls f(void*)
-      f(nullptr);  //😊call f(void*) overload
-      ```
-    
+
+
+
+
 # 🕳Pitfalls
 - Pitfall on undefined behavior
     - Description
@@ -101,4 +122,4 @@ We say `double*` as "pointer to `double`".
         
 ## 🥼Expert's Advice
 - Lippman had words to beginner "Be patient when you are learning pointer. The initial **complexity** of using a pointer comes from its <u>confusing syntax</u>".🤣
-- Stroustrup addressed "if you lack a basic and practical understanding of how a program maps onto a computer's memory and operations, you will have problems getting a solid grasp of higher-level topics, such as [[data structure]], [[Algorithm|algorithms]], and [[operating system]]."
+- #BjarneStroustrup addressed "if you lack a basic and practical understanding of how a program maps onto a computer's memory and operations, you will have problems getting a solid grasp of higher-level topics, such as [[data structure]], [[Algorithm|algorithms]], and [[operating system]]."
