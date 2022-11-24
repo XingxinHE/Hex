@@ -72,6 +72,10 @@ In C++, the parts used to define the class are called members.
 > [!faq] What should I do about member?
 > Access members by [[Member access operator]]
 > Access data members by [[getter and setter]]
+- [[Constructor]]
+- [[Destructor]].
+> [!NOTE] Note
+> Constructor and destructor are the most important subject in #cpp according to #BjarneStroustrup . They play an important role in [[RAII]].
 
 
 ## #csharp 

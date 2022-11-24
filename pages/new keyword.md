@@ -7,3 +7,6 @@ The `new` operator allocates("get") memory from the [[Heap|free store]].
 
 # 🌓Complement
 [[delete keyword]]
+
+# 🕳Pitfalls
+Please don't forget to `delete` memory which has been `new`. Otherwise it will cause

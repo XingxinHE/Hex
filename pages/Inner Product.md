@@ -31,7 +31,7 @@ aliases: [dot product, scalar product]
       \cdot
       \begin{bmatrix}
       x_1\\x_2\\x_3
-      \end{bmatrix}=x_1+x_2+x_3
+      \end{bmatrix}=x_1+2x_2+3x_3
       $$
     - ![name](../assets/inner_product.svg){:height 300, :width 500}
     

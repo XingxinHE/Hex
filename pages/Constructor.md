@@ -1,9 +1,14 @@
 # 📝Definition
-- The name is the essence of this topic.
+
+# 🎯Intent
+A constructor makes sure that an object is properly created and initialized.
 
 # 🌓Complement
-- [[Destructor]]
+[[Destructor]]
 
 # 🏷(Sub)Categories
 It includes:
 - [[default constructor]]
+
+# 🤳Applicability
+[[RAII]]
