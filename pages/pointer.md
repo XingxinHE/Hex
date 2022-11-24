@@ -14,9 +14,13 @@ Pointers are used extensively in both C and C++ for three main purposes:
 - to allocate new objects on the heap
 - to pass functions to other functions
 - to iterate over elements in arrays or other data structures
-    
+
+
 # 🚀Benefit / Pro
 A *pointer* introduces a level of **indirection** to a program. Rather than <u>manipulate an object directly</u>😑, we <u>manipulate a pointer that holds the address of an object</u>😍.
+
+# 💊Cons
+A pointer does not know how many elements it points to.
 
 # 🏷(Sub)Categories
 - In C++, there are 2 main categories.
@@ -104,22 +108,35 @@ The type of that target value is called the base type for the pointer.
 - take the address using `&` - [[address-of operator]]
 - dereference using `*` - [[dereference operator]]
 - manipulate the data member using `->` [[Member access operator]] 
+- check the nullness by using [[null pointer|nullptr]]
 
-
+```cpp
+int *pi;
+if(pi) {/*do sth*/}
+if(pi != nullptr) {/*do sth*/}
+```
+Opinion varies in light of preceding check nullness. 
+- #BjarneStroustrup prefers the 1st.
+- Others may prefer the 2nd.
 
 
 
 # 🕳Pitfalls
+
+> [!bug] Bugs
+> There are 2 main severe bugs on using pointer:
+> - access through uninitialized pointers
+> - access pointer in out-of-range situation
+
 - Pitfall on undefined behavior
     - Description
         - dereference a null C/C++ raw pointer will cause [[Undefined Behavior]] like [[Undefined Behavior#^2a05b7d5f62b6f91|this]]
-        
     - Solution
         - Therefore, to [[#^40c7cc02dd9c4f77|guard against dereferencing a null pointer]], we must assure if its address value is zero/null before using...
-        
     - Exception
         - But there is no need to check reference since reference must be initialized at the beginning.
         
-## 🥼Expert's Advice
+
+# 🥼Expert's Advice
 - Lippman had words to beginner "Be patient when you are learning pointer. The initial **complexity** of using a pointer comes from its <u>confusing syntax</u>".🤣
 - #BjarneStroustrup addressed "if you lack a basic and practical understanding of how a program maps onto a computer's memory and operations, you will have problems getting a solid grasp of higher-level topics, such as [[data structure]], [[Algorithm|algorithms]], and [[operating system]]."

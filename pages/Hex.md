@@ -186,11 +186,13 @@
 # C++
 ## Programming Principle and Practice using C++
 - chapter 17 Vector and Free Store
-	- [[sizeof operator]]
+	- [[sizeof operator]], [[memory]], [[pointer]], [[new keyword]], [[delete keyword]], [[Destructor]]
 - #TODO 
 	- 9.7 & 9.8 I have read front and back. Require documentation. This is a good reference of designing interface. Possible to integrate to future chapter 14(design class)?
 - #thingsIDK
 	- p456, "use Shape's constructors(A.16)"
+- #unorganized
+	- Beware that compilers often have a "debug mode" where they by default features to ship a program, when running an optimizer, or simply when compiling on a different machine, a program with uninitialized variables may suddenly run differently. Don't get caught with an uninitialized variable.
 
 ## Effective Modern C++
 - Progress
@@ -247,7 +249,7 @@
 	- Chapter 02 Functions and Libraries
 	- Chapter 03 Strings
 	- Chapter 11 Pointers and Arrays
-		- [[Bit]], [[Byte]], [[Word]], [[Decimal]], [[Glossary#RAM|RAM]], [[hexadecimal]], [[sizeof operator]], [[memory]], [[memory#⛈Properties#Memory Layout]], [[memory#⛈Properties#Memory Address]], [[pointer]], [[lvalue and rvalue|lvalue]], [[Member access operator]], [[this keyword]], [[null pointer]]
+		- [[Bit]], [[Byte]], [[Word]], [[Decimal]], [[Glossary#RAM|RAM]], [[hexadecimal]], [[sizeof operator]], [[memory]], [[memory#⛈Properties#Memory Layout]], [[memory#⛈Properties#Memory Address]], [[pointer]], [[lvalue and rvalue|lvalue]], [[Member access operator]], [[this keyword]], [[null pointer]], [[new keyword]]
 - #thingsIDK
 	- ...
 - Info
