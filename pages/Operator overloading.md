@@ -16,9 +16,10 @@ Be aware of the pitfalls when using this stuffs... (especially considering edge 
 # 📋Prerequisite
 Some techniques and objects only work under certain condition.
 - For C++ operator overloading, an overloaded operator **must** have **at least one** [[user-defined]] type as operand.
-    - ``` cpp
-      int operator+(int,int); // ❌error: you can’t overload built-in +
-      Vector operator+(const Vector&, const Vector &); // OK
-      Vector operator+=(const Vector&, int); // OK
-      ```
-    
+    - 
+      ``` cpp
+  int operator+(int,int); // ❌error: you can’t overload built-in +
+  Vector operator+(const Vector&, const Vector &); // OK
+  Vector operator+=(const Vector&, int); // OK
+  ```
+
