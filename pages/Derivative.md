@@ -1,3 +1,48 @@
+# 🧾 Cheat Sheet
+**📌 Properties**
+$$
+\begin{align}
+\text{(i)}\quad&\frac{d}{dx}(c) = 0\\
+\text{(ii)}\quad&(cf)' = cf'(x)\\
+\text{(iii)}\quad&(f\pm g)'= f'(x) + g'(x)\\
+\text{(iv)}\quad&(fg)' = f'g + fg'\\
+\text{(v)}\quad&\left(\frac{f}{g}\right)' = \frac{f'g-fg'}{g^2}\\
+\text{(vi)}\quad&\frac{d}{dx}\left([f(x)]^n\right) = n[f(x)]^{n-1}f'(x)\\
+\text{(vii)}\quad&\frac{d}{dx}(f(g(x)) = f'(g(x))g'(x)\\
+\text{(viii)}\quad&[f^{-1}]'(x) = \frac{1}{f'(f^{-1}(x))}\\
+\end{align}
+$$
+
+**📌 Common Derivative**
+$$
+\begin{align}
+\text{(i)}\quad&\frac{d}{dx}(x) = 1\\
+\text{(ii)}\quad&\frac{d}{dx}(|x|) = sign(x)\\
+\text{(iii)}\quad&\frac{d}{dx}(e^x) = e^x$      \\
+\text{(iv)}\quad&\frac{d}{dx}(a^x) = a^x\ln(a)\\
+\text{(v)}\quad&\frac{d}{dx}(\frac{1}{x}) = -\frac{1}{x^2}\\
+\text{(vi)}\quad&\frac{d}{dx}\sqrt{x} = \frac{1}{2\sqrt{x}}\\
+\text{(vii)}\quad&\frac{d}{dx}(\ln(f(x))) = \frac{f'(x)}{f(x)} = \frac{1}{x} \ \textit{if} \ f(x) = x\\
+\text{(viii)}\quad&\frac{d}{dx}(\ln|x|) = \frac{1}{x},\ x\neq0\\
+\text{(ix)}\quad&\frac{d}{dx}(\log_{a}(x)) = \frac{1}{xln(a)},\ x>0\\
+\text{(x)}\quad&\frac{d}{dx}(\sin(x)) = \cos(x)\\
+\text{(xi)}\quad&\frac{d}{dx}(\cos(x)) = -\sin(x)\\
+\text{(xii)}\quad&\frac{d}{dx}(\tan(x)) = \sec^2(x) = \tan^2(x)+1\\
+\text{(xiii)}\quad&\frac{d}{dx}(\cot(x)) = -\csc^2(x)\\
+\text{(xiv)}\quad&\frac{d}{dx}(\sec(x)) = \sec(x)\tan(x)\\
+\text{(xv)}\quad&\frac{d}{dx}(\csc(x)) = -\csc(x)\cot(x)\\
+\text{(xvi)}\quad&\frac{d}{dx}(\sin^{-1}(x)) = \frac{1}{\sqrt{1-x^2}}\\
+\text{(xvii)}\quad&\frac{d}{dx}(\cos^{-1}(x)) = -\frac{1}{\sqrt{1-x^2}}\\
+\text{(xviii)}\quad&\frac{d}{dx}(\tan^{-1}(x)) = \frac{1}{1+x^2}\\
+\text{(xix)}\quad&\frac{d}{dx}(\sinh(x)) = \cosh(x)\\
+\text{(xx)}\quad&\frac{d}{dx}(\cosh(x)) = \sinh(x)\\
+\text{(xxi)}\quad&\frac{d}{dx}(\tanh(x)) = \frac{1}{\cosh(x)} = 1-\tanh^2(x)\\
+\text{(xxii)}\quad&\frac{d}{dx}(\sinh^{-1}(x)) = \frac{1}{\sqrt{x^2+1}}\\
+\text{(xxiii)}\quad&\frac{d}{dx}(\cosh^{-1}(x)) = \frac{1}{\sqrt{x^2-1}}\\
+\text{(xxiv)}\quad&\frac{d}{dx}(\tanh^{-1}(x)) = \frac{1}{\sqrt{1-x^2}}\\
+\end{align}
+$$
+
 # 📝Definition
 - The **derivative** of a function $f(x)$ at a point $x=a$ is defined to be:
   $$
@@ -24,21 +69,6 @@
     - geometrical - the **slope** of the tangent line.
     - sensitive - the **sensitivity** of a function to small changes.
     
-# 🧮Expression
-- Common Derivatives
-  
-  
-  $$
-  \begin{align}
-  
-  \end{align}
-  $$
-
-# 📈Diagram
-![name](../assets/name.png)
-
-# ✒Descriptive Explanation
-A narrative... a descriptive words subject on the concept... 描述性解释…
 
 # 🌓Complement
 - [[Antiderivative]]
@@ -89,20 +119,3 @@ Example is the most straightforward way to understand a mathematical concept.
       \end{align}
       $$
     
-# 🤳Applicability
- What are the situations in which this subject can be applied?
-
-# 🧪Composition
-What kind of stuffs composite this subject?
-
-# 🏷(Sub)Categories
-What are the sub objects of this subject?
-
-# ⚖Laws
-The laws related to this math concepts.
-
-# 🎯Intent
- A short description what does this thing do?
-
-# 🙋‍♂️Related Elements
- The closest pattern to current one, what are their differences?

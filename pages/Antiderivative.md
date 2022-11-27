@@ -358,4 +358,14 @@ aliases: [Indefinite Integral]
               \end{align}
               $$
             
+
+- 📌when the exponent of cosine is one
+	- 💬Question: Use the method of substitution to evaluate $\int \cos (y)\sin ^3(y) \, dy$
+	- ✏Solution:
+		- Let $u=\sin(y)$, then $du=\cos(y)dy$, and
+		- $$\begin{align}\int \cos (y)\sin ^3(y) \, d&=\int u^3 \, du\qquad (u=\sin (y))\\&=\frac{u^4}{4}+C\\&=\frac{\sin ^4(y)}{4}+C.\end{align}$$
+
+
+
+
 # 🗑Unorganized

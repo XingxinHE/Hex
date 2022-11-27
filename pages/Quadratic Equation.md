@@ -1,5 +1,5 @@
 ---
-aliases: [quadratic function]
+aliases: [quadratic function, quadratic formula]
 ---
 
 # 📝Definition

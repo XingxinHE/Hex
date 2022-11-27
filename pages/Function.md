@@ -178,6 +178,11 @@ What are the sub objects of this subject?
     - A function with $k$ arguments is called a $k$-ary function, and $k$ is called the arity of the function.
 - 📌Graph
     - The graph of a function is really important: it really shows what the function "looks like".
+- 📌 Monotonicity
+	- A funciton $f$ is:
+	- $$\begin{align}\textbf{Monotonically increasing} \text{ if: }\quad \forall x,y: x \leq y \Rightarrow f(x) \leq f(y)\\\textbf{Monotonically decreasing} \text{ if: }\quad \forall x,y: x \leq y \Rightarrow f(x) \geq f(y)\\ \textbf{Strictly increasing} \text{ if: }\quad \forall x,y: x < y \Rightarrow f(x) < f(y)\\ \textbf{Strictly decreasing} \text{ if: }\quad \forall x,y: x < y \Rightarrow f(x) > f(y)\\\end{align}$$
+
+
 
 
 # ✒Notation
