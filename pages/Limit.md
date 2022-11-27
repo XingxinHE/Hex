@@ -1,12 +1,12 @@
-# Limit
-## 📝Definition
+
+# 📝Definition
 If a function $f(x)$ <u>approaches</u> some value $L$ as $x$ approaches $a$ from <u>both</u> *the right and the left*, then the limit of $f(x)$ exists and equals $L$.
-## 🧪Composition
+# 🧪Composition
 Limit is a limit only both of the following exist:
 - [[Right-hand limit]]
 - [[Left-hand limit]]
 
-## 🧠Intuition
+# 🧠Intuition
 Find an intuitive way of understanding this concept.
 - 📌Magic of Limit by adding $\lim_{b\to a}$ ^e75639e62ab26e7a
     - Math is amazing, [[Derivative#^c9a25148f62eaeda|these different interpretation]] somehow are correlated altogether!! If we were speaking in the philosophy of "limit", everything is different and fun!
@@ -18,7 +18,7 @@ Find an intuitive way of understanding this concept.
       \end{align}
       $$
     
-## 🧮Expression
+# 🧮Expression
 If
 $$
 \lim_{x\to a^+}f(x)=\lim_{x\to a^-}f(x)=L
@@ -32,7 +32,7 @@ $$
 f(x)\to L \quad \text{as} \quad x\to a
 $$
 Remember that $x$ is <u>approaching</u> $a$ but does **not equal** $a$.
-## 📈Diagram
+# 📈Diagram
 - 📌One table summarize limit
     - | Index | Right-hand limit | Left-hand limit | R & L                                        | Example                                                      | Image                                                        |
       | ----- | ---------------- | --------------- | -------------------------------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
@@ -41,12 +41,12 @@ Remember that $x$ is <u>approaching</u> $a$ but does **not equal** $a$.
       | 3    | not exist❌       | not exist❌      | ❌$L$&$R$ both blows up to $\pm\infin$        | $f(x)=\frac{1}{x}$<br>looks at $x=0$                         | ![name](../assets/image-20220203104105031.png) |
       | 4    | not exist❌       | not exist❌      | ❌oscillates and never settle down to a value | $f(x)=\sin(13/x)$<br>looks at $x=0$                          | ![name](../assets/image-20220203113840991.png) |
     
-## 🤳Applicability
+# 🤳Applicability
 There are many application taking advantages from limit.
 - To do an asymptotics, you can see here
     - ((63076a15-0dee-48d0-9112-fe2b1af3d855))
     
-## ⚖Laws
+# ⚖Laws
 Suppose:
 $$
 \lim_{x\to a}f(x)=L,\quad \lim_{x\to a}g(x)=M
@@ -81,7 +81,7 @@ Then we get the following Limit Laws:
                 - Use [[Factorization]]. More work is necessary to determine whether the last type of limit exists, and what it is if it does exist.
                 - Use [[L'Hôpital's Rule]] to solve.
                 
-## 🗃Example
+# 🗃Example
 - 📌example covering [[DNE]], [[Left-hand limit]], and [[Right-hand limit]]. ^eb759c09775a3ef2
     - the graph is the following
       ![name](../assets/images_u0lim1_estlimits.svg){:height 256, :width 456}
@@ -283,15 +283,57 @@ Then we get the following Limit Laws:
           \end{align}
           $$
         
-## ✒Descriptive Explanation
-A narrative... a descriptive words subject on the concept... 描述性解释…
-## 🌓Complement
-What is the complement of this subject? e.g. vector-covector, constructor-destructor
-## 🏷(Sub)Categories
-What are the sub objects of this subject?
-## 🎯Intent
- A short description what does this thing do?
 
 # 🧬Related Elements
  The closest pattern to current one, what are their differences?
 - ![[Continuity#^94aefd834de51c3c]]
+# 🧾 Cheat Sheet
+**📌 Limit Properties**
+Assume that $\lim_{x \to x_0}f(x)$ and $\lim_{x \to x_0}g(x)$ exists and that $c\in\mathbb{R}$, then:
+$$
+\begin{align}
+\text{(i)}\quad&\displaystyle\lim_{x \to x_0}[cf(x)] = c\lim_{x \to x_0}f(x)\\
+\text{(ii)}\quad&\displaystyle\lim_{x \to x_0}[f(x) \pm g(x)] = \lim_{x \to x_0}f(x) \pm \lim_{x \to x_0} g(x)\\
+\text{(iii)}\quad&\displaystyle\lim_{x \to x_0}[f(x)g(x)] = \lim_{x \to x_0}f(x) \lim_{x \to x_0}g(x)\\
+\text{(iv)}\quad&\displaystyle\lim_{x \to x_0}\left[\frac{f(x)}{g(x)}\right] = \frac{\displaystyle\lim_{x \to x_0}f(x)}{\displaystyle\lim_{x \to x_0}g(x)}, \lim_{x \to x_0}g(x) \neq 0\\
+\text{(v)}\quad&\displaystyle\lim_{x \to x_0}[f(x)]^n = \left[\lim_{x \to x_0}f(x)\right]^n\\
+\text{(vi)}\quad&\displaystyle\lim_{x \to x_0}\left[\sqrt[n]{f(x)}\right] = \sqrt[n]{\lim_{x \to x_0}f(x)}\\
+\text{(vii)}\quad&\displaystyle\lim_{x \to x_0}x = x_0\\
+\end{align}
+$$
+**📌 Chain Rule**
+Let $f$ and $g$ be continuous, and given $\lim_{x \to x_0}f(g(x))$ of composed function we can solve $\lim_{x \to x_0}g(x) = y_0$, then:
+$$\lim_{x \to x_0}f(g(x)) = \lim_{y \to y_0}f(y)$$
+**📌 Exponential Rule**
+Let $f$ and $g$ be continuous, where $\lim_{x\to x_0}f(x) = f(x_0) > 0$ and $\lim_{x\to x_0}g(x) = g(x_0)$ (where both limits exists), then:
+
+$$\lim_{x \to x_0}f(x)^{g(x)} = f(x_0)^{g(x_0)}$$
+
+**📌 Root Trick**
+$$
+\lim_{x \to x_0} \sqrt{f}-g = \lim_{x \to x_0} \sqrt{f}- g \cdot \frac{\sqrt{f}+g}{\sqrt{f}+g}
+$$
+
+**📌 E-Log Trick**
+$$
+\lim_{x \to x_0}f^g = \lim_{x \to x_0}e^{g\ln(f)}
+$$
+
+**📌 Important Limits**
+$$
+\begin{align}
+\text{(i)}\quad&\displaystyle\lim_{n \to \infty}\left(1 + \frac{x}{n}\right)^n = e^x\\
+\text{(ii)}\quad&\displaystyle\lim_{n \to 0} \frac{a^n-1}{n} = \ln(a)\\
+\text{(iii)}\quad&\displaystyle\lim_{n \to \infty} \ln(n) = \infty\\
+\text{(iv)}\quad&\displaystyle\lim_{n \to \infty} \frac{\log_{a}(1+n)}{n} = \frac{1}{\ln(a)}\\
+\text{(v)}\quad&\displaystyle\lim_{n \to 0} \frac{\log_{a}(1+n)}{n} = \frac{1}{\ln(a)}\\
+\text{(vi)}\quad&\displaystyle\lim_{n \to 0} \frac{\sin(n)}{n} = 1\\
+\text{(vii)}\quad&\displaystyle\lim_{n \to 0} \frac{1-\cos(n)}{n} = 0\\
+\text{(viii)}\quad&\displaystyle\lim_{n \to 0} \frac{1-\cos(n)}{n^2} = \frac{1}{2}\\
+\text{(ix)}\quad&\displaystyle\lim_{n \to 0} \frac{\tan(n)}{n} = 1\\
+\text{(x)}\quad&\displaystyle\lim_{n \to \infty} \frac{n!}{n^n} = 0\\
+\text{(xi)}\quad&\displaystyle\lim_{n \to 0} \frac{e^n-1}{n} = 1\\
+\text{(xii)}\quad&\displaystyle\lim_{n \to \infty} \sqrt[n]{n!} = \infty\\
+\text{(xiii)}\quad&\displaystyle\lim_{n \to \infty} \sqrt[n]{n} = 1\\
+\end{align}
+$$
