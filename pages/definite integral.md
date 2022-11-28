@@ -399,5 +399,25 @@ Also see [[application of definite integral]]
 
 
 
+# 🧾 Cheat Sheet
 
+> [!tip] Tips
+> Take advantage from [[Antiderivative#🖨 Cheat Sheet]].
+
+**📌 Properties**
+$$
+\begin{align}
+\text{(i)}\quad&\int_{a}^{a} f(x)dx = 0\\
+\text{(ii)}\quad&\int_{a}^{b} cf(x) = c\int_{a}^{b} f(x)\\
+\text{(iii)}\quad&\int_{a}^{b} f(x)+g(x)dx = \int_{a}^{b} f(x)dx \pm \int_{a}^{b} g(x)dx\\
+\text{(iv)}\quad&\int_{a}^{b} f(x)dx = -\int_{b}^{a}f(x) dx\\
+\text{(v)}\quad&\int_{a}^{b} f(x)dx = \int_{a}^{c} f(x)dx + \int_{c}^{b} f(x)dx\\
+\text{(vi)}\quad&\int_{a}^{b} cdx = c(b-a)\\
+\text{(vii)}\quad&f(x) \geq g(x)$, then: \\\\
+\text{(viii)}\quad&\int_{a}^{b} f(x) \geq \int_{a}^{b} g(x)\\
+\text{(ix)}\quad&m \leq f(x) \leq M$, then: \\\\
+\text{(x)}\quad&m(b-a) \leq \int_{a}^{b}f(x)dx \leq M(b-a)\\
+\text{(xi)}\quad&\left|\int_{a}^{b}f(x)dx\right|\leq \int_{a}^{b}|f(x)|dx\\
+\end{align}
+$$
 
