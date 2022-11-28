@@ -6,23 +6,21 @@ aliases: [type conversion, type cast]
 - A cast doesn’t change its operand and it produces a new value.
 
 # 🏷(Sub)Categories
-- In C++, type conversions can be categorized like so.
+- In #cpp , type conversions can be categorized like so.
     - In terms of technical perspective
         - Implicit type conversions
-            - [[widening conversion]]
-            - [[narrowing conversion]]
+            - [[widening|widening conversion]]
+            - [[narrowing|narrowing conversion]]
             - Signed - unsigned conversions
             - Pointer conversions
-            
         - Explicit conversions (cast)
             - Explicit conversion often refers to the term "cast".
             - Done by type-conversion operator.
-                - `static_cast`
-                - `dynamic_cast`
-                - `const_cast`
-                - `reinterpret_cast`
-                
-    - In terms of [[Type Safety]]
+                - [[casting operators|static_cast]]
+                - [[casting operators|dynamic_cast]]
+                - [[casting operators|const_cast]]
+                - [[casting operators|reinterpret_cast]]
+    - In terms of [[type safety]]
         - Safe Conversion. a.k.a. the bit of `later type` ≥ `current type`. see [[#^d9ff4d8244e830d0|this]]
         - Unsafe Conversion. a.k.a the bit of `later type` < `current type`. see [[narrowing#^a976e85c5e46de10|this]] and [[#^2e3ae7a58be08eb2|this]]
         

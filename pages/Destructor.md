@@ -1,3 +1,13 @@
+# 🚿Source
+
+> [!question] What triggers destructor?
+> - implicitly:
+> 	- [[object]] goes out of scope
+> 	- [[garbage collection]]
+> - explicitly
+> 	- [[delete keyword]]
+
+
 # 📝Definition
 
 
@@ -9,6 +19,16 @@ A destructor makes sure that an object is properly cleaned up before it is destr
 
 # 🤳Applicability
 [[RAII]]
+
+# ⛈Characteristics
+The destructor works in a [[Recursion|recursive]] way.
+```cpp
+vector<vector<vector<double>>>* p = new vector<vector<vector<double>>>(13);
+delete p;
+```
+The `delete` will
+- trigger the destructor from outside to inside
+- back propagate the result from inside to outside
 
 # 🧬Related Elements
 

@@ -104,17 +104,31 @@ The type of that target value is called the base type for the pointer.
 # 🌓Complement
 - [[Reference]]
 # 💫Operation
-3 operations related to pointer in #cpp 
-- take the address using `&` - [[address-of operator]]
-- dereference using `*` - [[dereference operator]]
-- manipulate the data member using `->` [[Member access operator]] 
-- check the nullness by using [[null pointer|nullptr]]
+Operations related to pointer in #cpp 
+- 1️⃣take the address using `&` - [[address-of operator]]
+- 2️⃣dereference using `*` - [[dereference operator]]
+- 3️⃣manipulate the data member using `->` [[Member access operator]] 
+- 4️⃣indexing using `[]`⭐
+- 5️⃣check the nullness by using [[null pointer|nullptr]]
 
 ```cpp
-int *pi;
-if(pi) {/*do sth*/}
-if(pi != nullptr) {/*do sth*/}
+// code for 4️⃣
+constexpr int SIZE = 8;
+double *elems{new double[SIZE]};
+for(int ii = 0; ii < SIZE; ++ii)
+{
+	elems[ii]=ii;  //set using `[]`
+}
+double elem = elems[3];  //get using `[]`
 ```
+
+```cpp
+// code for 5️⃣
+int *pi;
+if(pi) {/*do sth*/}  //1st style
+if(pi != nullptr) {/*do sth*/}  //2nd style
+```
+
 Opinion varies in light of preceding check nullness. 
 - #BjarneStroustrup prefers the 1st.
 - Others may prefer the 2nd.

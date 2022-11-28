@@ -1,5 +1,5 @@
 ---
-aliases: [recursive]
+aliases: [recursive, recursively]
 ---
 
 # 📝Definition

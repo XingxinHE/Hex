@@ -9,4 +9,5 @@ The `new` operator allocates("get") memory from the [[Heap|free store]].
 [[delete keyword]]
 
 # 🕳Pitfalls
-Please don't forget to `delete` memory which has been `new`. Otherwise it will cause
+- Please don't forget to `delete` memory which has been `new`. Otherwise it will cause memory leak! 
+- A “naked” new outside a constructor is an opportunity to forget to delete the object that new created. Unless you have a good strategy for deleting objects, try to keep news in [[Constructor|constructors]] and deletes in [[Destructor|destructors]].
