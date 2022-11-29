@@ -1,5 +1,5 @@
 ---
-aliases: [memory map, memory layout]
+aliases: [memory map, memory layout, memory address]
 ---
 
 # 📝Definition

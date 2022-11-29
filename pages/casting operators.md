@@ -11,6 +11,17 @@ There are several casting operators specific to the #cpp language. These operato
 > [!Warning] Warning
 > Use **`const_cast`** and **`reinterpret_cast`** as a last resort, since these operators present the same dangers as old style casts. However, they are still necessary in order to completely replace old style casts.
 
+
+> [!note] Common Note
+> For all the `type-id` and `expression`, the requirements are:
+> - they must be either [[pointer]] or [[lvalue and rvalue|lvalue reference]]
+> - `type-id` and `expression` have to be the same type
+
+# 📋Prerequisite
+Casting is an ugly (and dangerous) operation - use it only when absolutely necessary. When you need a cast, reconsider:
+- Is there a way to write the code without the cast?
+- Is there a way to redesign that part of program so that the cast is not needed?
+
 ___
 
 # dynamic_cast
@@ -63,3 +74,17 @@ Allows any pointer to be converted into any other pointer type. Also allows any 
 ```cpp
 reinterpret_cast < type-id > ( expression )
 ```
+
+# 🕳Pitfalls
+`reinterpret_cast` is not portable.
+
+# 🤳Applicability
+The `reinterpret_cast` seems quite ugle so why should it be in the #cpp anyway? The answer lies into 2:
+- solving the legacy issue with [[void pointer]] in #c 
+-  `reinterpret_cast` is good at directly interpert [[memory|memory address]]! ⭐
+
+**📌classic necessary and proper use of a `reinterpret_cast`**
+```cpp
+Register *input = reinterpret_cast<Register*>(0xff);
+```
+We tell the compiler that a certain part of memory (the [[memory|memory address]] `0xff` in [[hexadecimal]]) is to be considered a `Register`. Such code is good at device drivers!

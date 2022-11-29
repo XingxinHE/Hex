@@ -16,13 +16,13 @@ By 👨‍🔬Herb Sutter
 By 👨‍🔬Stephan T. Lavavej
 > If you can get its address, its an lvalue, otherwise its an rvalue.
 
-rvalue has data but it does not have [[memory#Memory Address]]. e.g. [[Literal]].
+rvalue has data but it does not have [[memory|memory address]]. e.g. [[Literal]].
 # ✒Notation
 ***lvalue*** pronounced "ell-value".
 ***rvalue*** pronounced "are-value".
 # ⛈Properties
 The following properties apply to lvalues in C++:
-- Every lvalue is stored somewhere in [[memory]] and therefore has an [[memory#Memory Address|address]].
+- Every lvalue is stored somewhere in [[memory]] and therefore has an [[memory|memory address]].
 - Once it has been declared, the address of an lvalue never changes, even though
 the contents of those memory locations may change.
 - The address of an lvalue is a [[pointer]] value, which can be stored in memory and

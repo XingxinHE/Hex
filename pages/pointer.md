@@ -3,7 +3,7 @@ aliases: [raw pointer]
 ---
 
 # 📝Definition
-A pointer is a variable that stores the [[memory#Memory Address|memory address]] of an object.
+A pointer is a variable that stores the [[memory|memory address]] of an object.
 
 # 🧠Intuition
 You can see the pointers as arrows in the memory.
@@ -102,7 +102,7 @@ The type of that target value is called the base type for the pointer.
 
 
 # 🌓Complement
-- [[Reference]]
+- [[reference]]
 # 💫Operation
 Operations related to pointer in #cpp 
 - 1️⃣take the address using `&` - [[address-of operator]]

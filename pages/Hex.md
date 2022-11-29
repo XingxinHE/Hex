@@ -188,7 +188,7 @@
 # C++
 ## Programming Principle and Practice using C++
 - chapter 17 Vector and Free Store
-	- [[sizeof operator]], [[memory]], [[pointer]], [[new keyword]], [[delete keyword]],[[Constructor]]. [[Destructor]], [[RAII]], [[Member access operator]], [[void pointer]], [[Type conversions|type cast]], [[casting operators|static_cast]], [[casting operators|reinterpret_cast]]
+	- [[sizeof operator]], [[memory]], [[pointer]], [[new keyword]], [[delete keyword]],[[Constructor]]. [[Destructor]], [[RAII]], [[Member access operator]], [[void pointer]], [[Type conversions|type cast]], [[casting operators]], [[casting operators|static_cast]], [[casting operators|reinterpret_cast]]
 - #TODO 
 	- 9.7 & 9.8 I have read front and back. Require documentation. This is a good reference of designing interface. Possible to integrate to future chapter 14(design class)?
 - #thingsIDK
