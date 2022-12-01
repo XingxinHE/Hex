@@ -1,4 +1,4 @@
-# #cpp 
+# CPP
 [Lambda expressions in C++ | Microsoft Learn](https://learn.microsoft.com/en-us/cpp/cpp/lambda-expressions-in-cpp?view=msvc-170)
 ## 🗺Big Picture
 Before #cpp11 , a helper function to work with `<algorithm>` is complicate.
@@ -25,14 +25,22 @@ std::sort(coll.begin(), coll.end(), lessPerson)
 ```
 But with lambda, things look easier.
 ```cpp
+// pass directly as function object
 std::sort(coll.begin(), coll.end(), [](const Person &p1, const Person &p2){return p1.lastname() < p2.lastname();});
+
+// or make a function object then reuse again and again
+auto isOdd = [] (int i) {return i%2 != 0;};
+int num = std::count_if(nums.cbegin(), nums.cend(),  // range
+						isOdd);                      // criterion
+auto pos = std::find_if(nums.cbegin(), nums.cend(),  // range
+						isOdd);                      // criterion
 ```
 
 
 ## 📝Definition
 In #cpp11  and later, a lambda expression—often called a _lambda_—is a convenient way of defining an anonymous function object (a _closure_) right at the location where it's invoked or passed as an argument to a function. 
 
-## 🤳Applicability
+## 🎯Intent
 Typically lambdas are used to encapsulate a few lines of code that are passed to algorithms or asynchronous functions.⭐
 
 
@@ -47,17 +55,14 @@ int num_geq5 = std::count_if(v.cbegin(), v.cend(), [](int a)
 ```
 
 
-## 📈Diagram
-![[cpp_lambda_expression.png]]
-
-
 ## 🧪Composition
-- capture clause (Also known as the lambda-introducer in the C++ specification.)
-- parameter list ==Optional==. (Also known as the lambda declarator)
-- mutable specification ==Optional==.
-- exception-specification ==Optional==.
-- trailing-return-type ==Optional==.
-- lambda body.
+![|300](../assets/cpp_lambda_expression.png)
+- 1️⃣capture clause (Also known as the lambda-introducer in the C++ specification.)
+- 2️⃣parameter list ==Optional==. (Also known as the lambda declarator)
+- 3️⃣mutable specification ==Optional==.
+- 4️⃣exception-specification ==Optional==.
+- 5️⃣trailing-return-type ==Optional==.
+- 6️⃣lambda body.
 
 
 
@@ -69,6 +74,11 @@ int num_geq5 = std::count_if(v.cbegin(), v.cend(), [](int a)
 ### Capture clause
 #### 📝Definition
 A lambda begins with the capture clause. 
+#### 🧠Intuition
+Sometimes capture clause is also called "==behavior parameter==". 
+> [!warning] Warning
+> The *parameter in capture clause* is totally different from *parameter in parameter list*.
+
 #### 🎯Intent
 Introduct objects outside of lambda and use them!
 #### 🏷(Sub)Categories
@@ -126,7 +136,7 @@ Capture clause specifies which variables are captured, and whether the capture i
 A parameter list (_lambda declarator_ in the Standard syntax) is optional and in most aspects resembles the parameter list for a function.
 
 #### 🧠Intuition
-If the parameter list is empty, the lambda expression is jutst like a function accept arguments.
+If the parameter list is empty, the lambda expression is jutst like a function accept arguments. Parameter in parameter list is "==call parameters=="
 
 #### ⌨Sample Code
 - basic parameter list  
@@ -292,9 +302,73 @@ The initialization of each captured or introduced data member is allowed within 
 
 ### Generic lambda expressions
 #### 📝Definition
-Since #cpp14 , 
+Since #cpp14 , you can define generic lambda with [[auto keyword]] for `auto, const auto&`.
+#### ⌨Sample Code
+```cpp
+    auto twice = [] (const auto &item)
+    {
+        return item + item;
+    };
+```
 
-# #csharp 
+
+
+## 🤳Applicability
+In the following, I will list out some scenarios that lambda expression is a good fit.
+
+**📌convenient way to define functions at runtime**
+Suppose you wanna measure something, but that **metric** might change.
+```cpp
+// in the old time, not good❌
+bool less7(int val)
+{
+	return val < 7;
+}
+bool less8(int val)
+{
+	return val < 8;
+}
+
+int amountLessMax(int max)
+{
+	return std::count_if(nums.cbegin(), nums.cend(),
+						 lessMax???)  //what should you do?🤔
+}
+```
+With lambda, you can solve this by [[lambda expression#CPP#🧪Composition#Capture clause|capture clause]]!
+```cpp
+// with lambda, good✅
+int amountLessMax(int max)
+{
+	return std::count_if(nums.cbegin(), nums.cend(), 
+			[max](int val) {return val < max;});    //👈😁
+}
+```
+
+**📌lambda can be defined locally**
+Suppose you want to process the invoice with taxes.
+```cpp
+void processInvoice(const Invoice &inV)
+{
+	//...
+}
+```
+You can do this by insert a local function.
+```cpp
+void processInvoice(const Invoice &inV)
+{
+	double tax = getTax(inV);
+	auto plusTax = [tax] (double d)
+						 {
+							 return d * (1+tax);
+						 };
+	std::transform(inV.begin(), inV.end(), plusTax);
+}
+```
+
+
+
+# CSharp
 [Lambda expressions - C# reference | Microsoft Learn](https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/operators/lambda-expressions)
 
 

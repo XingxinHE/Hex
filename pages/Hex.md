@@ -290,11 +290,13 @@ Outline
 - 📆Year: #2021
 - 🔖Topic: [[lambda expression]]
 Outline:
-- 
+- Why should we use lambda? Answer: [[lambda expression#CPP#🗺Big Picture]]
+- understand the syntax at [[lambda expression#CPP#🧪Composition]]
+- some scenario using lambda at [[lambda expression#CPP#🤳Applicability]]
+#TODO :
+- read the microsoft doc: Function Objects vs. Lambdas
+- read until page 19 of pdf
 
-
-
-Function Objects vs. Lambdas
 # CSharp
 ## 📚Step by Step
 - Chapter 04 Decision Statement
