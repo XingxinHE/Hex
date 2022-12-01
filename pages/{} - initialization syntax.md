@@ -69,7 +69,7 @@ aliases: [uniform initialization]
         
 # 🕳Pitfalls / Cons
 - In C++,
-    - 📌mix the use of [[auto]] and `{}` initialization should be cautious ^e1815291fb65f738
+    - 📌mix the use of [[auto keyword]] and `{}` initialization should be cautious ^e1815291fb65f738
         - ``` c++
           auto x1 {7};        // x1 is an int with the value 7
           auto x2 = {7};      // x2 is an initializer_list<int> with an element 7

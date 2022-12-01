@@ -1,5 +1,5 @@
 ---
-aliases: [auto]
+aliases: [The auto Type Specifier]
 ---
 
 # 📝Definition
@@ -7,3 +7,4 @@ aliases: [auto]
 
 # 😲Intuitive Explanation
 - `auto` let the compiler figure out the type for us.
+

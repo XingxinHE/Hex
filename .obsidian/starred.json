@@ -9,6 +9,11 @@
       "type": "file",
       "title": "Glossary",
       "path": "pages/Glossary.md"
+    },
+    {
+      "type": "file",
+      "title": "Shortcut",
+      "path": "pages/Shortcut.md"
     }
   ]
 }

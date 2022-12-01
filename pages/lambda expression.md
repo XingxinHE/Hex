@@ -1,10 +1,43 @@
 # #cpp 
 [Lambda expressions in C++ | Microsoft Learn](https://learn.microsoft.com/en-us/cpp/cpp/lambda-expressions-in-cpp?view=msvc-170)
+## 🗺Big Picture
+Before #cpp11 , a helper function to work with `<algorithm>` is complicate.
+```cpp
+class Person
+{
+	public:
+	std::string firstname() const;
+	std::string lastname() const;
+	//...
+	friend bool operator< (const Person&, const Person&);  // or op<=> since cpp20
+};
+
+bool lessPerson(const Person &p1, const Person &p2)
+{
+	//sort name
+	return p1.lastname() < p2.lastname();
+}
+
+
+//business codes
+std::vector<Person> coll;
+std::sort(coll.begin(), coll.end(), lessPerson)
+```
+But with lambda, things look easier.
+```cpp
+std::sort(coll.begin(), coll.end(), [](const Person &p1, const Person &p2){return p1.lastname() < p2.lastname();});
+```
+
+
 ## 📝Definition
-- The name is the essence of this topic.
+In #cpp11  and later, a lambda expression—often called a _lambda_—is a convenient way of defining an anonymous function object (a _closure_) right at the location where it's invoked or passed as an argument to a function. 
+
+## 🤳Applicability
+Typically lambdas are used to encapsulate a few lines of code that are passed to algorithms or asynchronous functions.⭐
 
 
 ## 🧠Intuition
+Lambda is function defined on the fly.
 ```c++
 std::vector<int> v {4, 1, 3, 5, 2, 3, 1, 7};
 int num_geq5 = std::count_if(v.cbegin(), v.cend(), [](int a)
@@ -257,7 +290,9 @@ The initialization of each captured or introduced data member is allowed within 
 	  ```
 	- If a lambda is implicitly or explicitly ** `constexpr` **, conversion to a function pointer produces a ** `constexpr` ** function  
 
-
+### Generic lambda expressions
+#### 📝Definition
+Since #cpp14 , 
 
 # #csharp 
 [Lambda expressions - C# reference | Microsoft Learn](https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/operators/lambda-expressions)
