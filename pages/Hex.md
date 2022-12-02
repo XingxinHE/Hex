@@ -196,6 +196,19 @@
 - #unorganized
 	- Beware that compilers often have a "debug mode" where they by default features to ship a program, when running an optimizer, or simply when compiling on a different machine, a program with uninitialized variables may suddenly run differently. Don't get caught with an uninitialized variable.
 
+
+## Effective C++
+- Table of Content
+	- Item 1: View C++ as a federation of language
+		- [[Object-oriented Programming Paradigm|OOP]], [[Generic Programming]],[[STL]]
+- Author
+	- ...
+- #thingsIDK
+	- ...
+- Info
+	- link
+
+
 ## Effective Modern C++
 - Progress
 	- Item 1
@@ -293,6 +306,7 @@ Outline:
 - Why should we use lambda? Answer: [[lambda expression#CPP#🗺Big Picture]]
 - understand the syntax at [[lambda expression#CPP#🧪Composition]]
 - some scenario using lambda at [[lambda expression#CPP#🤳Applicability]]
+- understand the "本质" of lambda expression at [[lambda expression#CPP#🔎Implementation]]
 #TODO :
 - read the microsoft doc: Function Objects vs. Lambdas
 - read until page 19 of pdf

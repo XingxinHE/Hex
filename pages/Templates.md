@@ -1,3 +1,12 @@
+---
+aliases: [function template, template function, class template, template class]
+---
+
+# 📝Definition
+A template is a C++ entity that defines one of the following:
+- 
+
+
 - Explicit Template Initialization
     - Treat it as non-inline entities.
     - Situation 1
