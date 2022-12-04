@@ -307,9 +307,20 @@ Outline:
 - understand the syntax at [[lambda expression#CPP#🧪Composition]]
 - some scenario using lambda at [[lambda expression#CPP#🤳Applicability]]
 - understand the "本质" of lambda expression at [[lambda expression#CPP#🔎Implementation]]
+- wonder capture by "const-reference"? See [[lambda expression#CPP#Capture clause#⌨Sample Code]]
+- the application of `mutable` lambda in [[lambda expression#CPP#🧪Composition#mutable specification]]
 #TODO :
 - read the microsoft doc: Function Objects vs. Lambdas
-- read until page 19 of pdf
+
+### Lambda Expressions by Geller & Sermersheim
+📝Basic Info
+- 🗣Presenter: # Barbara Geller & Ansel Sermersheim
+- 📆Year: 2020
+- 🔖Topic: [[lambda expression]]
+Outline:
+- 
+
+
 
 # CSharp
 ## 📚Step by Step
@@ -573,4 +584,8 @@ Outline:
 - Chapter 02 Combinatorial Surfaces
 	- [[Affine Independence]], [[Affine Dependence]]
 	- [[Convex Set]], [[Convex Hull]], [[Simplex]], [[Barycentric Coordinates]]
-	- 
+
+
+
+
+# Software Development

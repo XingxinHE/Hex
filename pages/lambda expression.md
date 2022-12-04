@@ -1,3 +1,15 @@
+# ⌚History
+The lambda expression can be dated back to [[lambda calculus]].
+# ✒Terminology
+> [!question] 
+> Why do we use the terminology **lambda expression**🤔?
+> - Greek letter $\lambda$ refers to an **anonymous** function
+> - **lambda** - chosen since it is equated with something nameless
+> - **expression** - required since the code can be evaluated and will ==return a value==
+
+
+
+
 # CPP
 [Lambda expressions in C++ | Microsoft Learn](https://learn.microsoft.com/en-us/cpp/cpp/lambda-expressions-in-cpp?view=msvc-170)
 ## 🗺Big Picture
@@ -40,6 +52,8 @@ auto pos = std::find_if(nums.cbegin(), nums.cend(),  // range
 ## 📝Definition
 In #cpp11  and later, a lambda expression—often called a _lambda_—is a convenient way of defining an anonymous function object (a _closure_) right at the location where it's invoked or passed as an argument to a function. 
 
+A more technical definition, lambda expression is an expression which returns a [[Function Object]].
+
 ## 🎯Intent
 Typically lambdas are used to encapsulate a few lines of code that are passed to algorithms or asynchronous functions.⭐
 
@@ -81,18 +95,35 @@ Sometimes capture clause is also called "==behavior parameter==".
 
 #### 🎯Intent
 Introduct objects outside of lambda and use them!
+
 #### 🏷(Sub)Categories
 Capture clause specifies which variables are captured, and whether the capture is by value or by reference.
 - `[ ]`, indicates that the body of the lambda expression accesses no variables in the enclosing scope.
 - `[&]` means all variables that you refer to are captured by reference
 - `[=]` means they're captured by value.
 > [!warning]
-> >Only variables that are mentioned in the lambda body are captured when a capture-default is used.
+> Only variables that are mentioned in the lambda body are captured when a capture-default is used.
 
 #### 🕳Pitfalls / Cons
 `[&]` and `[=]` play an important role in [[Asynchronous Programming]].
 - Reference captures introduce a lifetime dependency
 - Value captures have no lifetime dependencies.
+
+**📌capture is performed when the lambda is created**
+```cpp
+string prefix = "elem: ";
+
+auto printElem = [prefix] (int i) {
+	cout << prefix << i << endl;
+} ;
+
+prefix = "value: ";
+printElem(13);  //👈the output is "elem: 13"
+```
+Since `prefix` is captured by value and therefore later modification on `prefix` won't affect the lambda.
+
+**📌be cautious on deleted object by reference**
+#TODO an example to demonstrate.
 
 #### ⌨Sample Code
 - rules using `&`, `=`  in capture clause  
@@ -128,6 +159,26 @@ Capture clause specifies which variables are captured, and whether the capture i
 	  	             // use ptr
 	  	          };
 	  ```
+
+**📌capture the clause `const-reference`**
+When I was learning the capture clause, I was wondering if there is a way [[pass-by-reference|pass-by-const-reference]]? Actually there is! Use the #cpp17   `std::as_const()` .
+```cpp
+    vector<string> strs{"ONE", "TWO", "THREE", "FOUR", "FIVE"};
+    auto printElem = [&strs = std::as_const(strs)] (int input)
+    {
+        for(const auto &str : strs)
+        {
+            cout << str << " " << input << endl;
+        }
+    };
+```
+
+**📌make a temporary object on the captuer clause**
+```cpp
+auto price = [discount = getDiscount(customer)] (auto item) {
+	return getPrice(item) * discount;
+}
+```
 
 
 ### parameter list
@@ -168,7 +219,32 @@ The **`mutable`** specification enables the body of a lambda expression to mod
 > [!NOTE] Note
 > Typically, a lambda's function call operator is const-by-value, but use of the **`mutable`** keyword cancels this out. It doesn't produce mutable data members.
 
+#### 🧠Intuition
+Lambda expression is stateless by default. The `mutable` keyword makes them ==stateful==(modification allowed). The state refers to [[Finite Automaton#🧪Composition#state|the state of finite automaton]].
 
+#### ⌨Sample Code
+Following is an example of using `mutable`.
+```cpp
+auto changed = [prev = 0] (auto val) mutable {
+	bool changed = (prev != val);
+	prev = val;
+	return changed;
+};
+
+vector<int> numbers{7, 42, 42, 0, 3, 3, 7};
+copy_if(numbers.cbegin(), numbers.cend(), ostream_iterator<int>{cout, " "}, changed); cout << endl;
+copy_if(numbers.cbegin(), numbers.cend(), ostream_iterator<int>{cout, " "}, changed); cout << endl;
+copy_if(numbers.cbegin(), numbers.cend(), ostream_iterator<int>{cout, " "}, changed); cout << endl;
+changed(7);
+copy_if(numbers.cbegin(), numbers.cend(), ostream_iterator<int>{cout, " "}, changed); cout << endl;
+
+//output:
+//7 42 0 3 7 
+//7 42 0 3 7
+//7 42 0 3 7
+//42 0 3 7
+```
+This is an super interesting code! It sets a "counter" inside the lambda to see if something is modified.
 
 ### exception-specification
 #### 📝Definition
@@ -390,7 +466,7 @@ This section aims to investigate - 🤔"What is lambda expression exactly"? Let'
 > - create an object of this class
 
 
-**📌lambda expression is a wrapper of [[Function Object]]**
+### 📌lambda expression is a wrapper of [[Function Object]]
 For the following code
 ```cpp
 // lambda expression
@@ -437,7 +513,7 @@ int main()
 ```
 
 
-**📌"capture clause in lambda" is "parameter in function object"**
+### 📌"capture clause in lambda" is "parameter in function object"
 In the preceding, we prove the following are equivalent:
 - lambda expression
 - function object.
@@ -491,9 +567,73 @@ We can verify this:
     cout << "num in range: " << count_if(numbers.cbegin(), numbers.cend(), inRangeObject) << endl;
 ```
 
-**📌Generic lambda vs. Generic function**
+### 📌Generic lambda is not class to be generic
+For the following lambda expression,
+```cpp
+auto twice_Lambda = [] (const auto &item1, const auto &item2)
+{
+	return item1 + item2;
+};
+```
+What is its equivalent class design?🤔
+```cpp
+class lambda32xzj  //👈the class is not template class
+{
+public:
+    template<typename T1, typename T2>  //👈but rather, the function operator is template and generic!✅
+    auto operator() (T1 x, T2 y) const
+    {
+        return x + y;
+    }
+};
+```
 
 
+
+### 📌Generic lambda vs. Generic function
+> [!important] Conclusion
+> Let's make it clear by comparison:
+> - the generic lambda is still a function object.
+> - the generic lambda $\neq$ the generic function
+> - the generic lambda is "generic" by making its function call operator "generic".
+
+Suppose we have a generic lambda:
+```cpp
+auto printLmbd = [] (const auto &elems)
+{
+	for(const auto &elem : elems)
+	{
+		cout << elem << " ";
+	}
+	cout << endl;
+};
+```
+And a generic function
+```cpp
+template<typename T>
+void printFunc(const T &elems)
+{
+    for(const auto &elem : elems)
+    {
+        cout << elem << " ";
+    }
+    cout << endl;
+}
+```
+The following code can prove their difference.
+```cpp
+vector<int> v{1, 2, 3};
+//..
+printFunc(v);
+printLmbd(v);
+printFunc<string>("hello");  //✅
+printLmbd<string>("hello");  //❌ERROR
+
+call(printFunc, v);  //❌ERROR
+call(printFunc<decltype<(v)>, v);  //✅
+call(printLmbd, v);  //✅
+```
+I understand their difference while #thingsIDK that how can I design a function to mimic the `call` function.
 
 # CSharp
 [Lambda expressions - C# reference | Microsoft Learn](https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/operators/lambda-expressions)

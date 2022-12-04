@@ -1,0 +1,2 @@
+# 📝Definition
+A formal logic developed by Alonzo Church and Stephen Kleene to address the computable number problem. In the lambda calculus, lambda is defined as the abstraction operator. Three theorems of lambda calculus are $\beta$-conversion, $\alpha$-conversion, and $\eta$-conversion. Lambda-reduction (also called lambda conversion) refers to all three.

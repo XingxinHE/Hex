@@ -11,14 +11,23 @@ A finite automaton is a 5-[[Tuple|tuple]] ($Q,\Sigma,\delta,q_0,F$), where
 > - Facts. There is only 1 starter state while there could be multiple accept states.
 
 
-- 🗃Example
-    - Door
-        - 📈Diagram
-            - ![name](../assets/automaton_door.png){:height 300, :width 300}
-              |        | NEITHER | FRONT | REAR   | BOTH   |
-              | ------ | ------- | ----- | ------ | ------ |
-              | CLOSED | CLOSED  | OPEN  | CLOSED | CLOSED |
-              | OPEN   | CLOSED  | OPEN  | OPEN   | OPEN   |
+
+
+# 🗃Example
+## Door
+📈Diagram
+![automaton door|300](../assets/automaton_door.png)
+# 🧪Composition
+## state
+
+
+## alphabet
+
+## transition function
+
+## starter state
+
+## accept state
 
 
 # 💫Operation
