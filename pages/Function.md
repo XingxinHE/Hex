@@ -65,7 +65,7 @@ What are the sub objects of this subject?
 - 📌Binary Function
     - If the [[#^3d30a3ab3ced08e4|arity]] $k$ is 2, $f$ has 2 arguments and $f$ is called a binary function.
     
-- 📌Predicate Function / Property Function
+- 📌Predicate Function / Property Function ^11fe4b
     - A predicate or property is a function whose range is $\{TRUE, FALSE\}$. a.k.a the output must be one of another.
     - In programming, we often name them by convention, like `isVowel()` or `isAlphabet()`.
     

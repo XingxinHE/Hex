@@ -1,9 +1,11 @@
 ---
 aliases: [the Standard Template Library]
 ---
-# 🧱Structure
+
+# 🧪Composition
+What kind of stuffs composite this subject?
 There are 3 pillars of standard template library.
-- **data structures** and **algorithms**
+- **data structures(container)** and **algorithms**
 	- combine different data structures with different algorithms
 	- some combinations can be a problem
 - **iterators** as glue interface
@@ -16,6 +18,9 @@ There are 3 pillars of standard template library.
 > - Everything behaves like an iterator is an *iterator*.
 > - Everything you can call is a *callable*.
 
+## containers
+## algorithms
+## iterators
 
 
 # 🏷(Sub)Categories

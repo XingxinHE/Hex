@@ -318,7 +318,9 @@ Outline:
 - 📆Year: 2020
 - 🔖Topic: [[lambda expression]]
 Outline:
-- 
+- the [[lambda expression#⌚History]] of lambda
+- the [[lambda expression#✒Terminology]] of lambda
+- similar item is [[function pointer]]
 
 
 

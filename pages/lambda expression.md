@@ -54,6 +54,10 @@ In #cpp11  and later, a lambda expression—often called a _lambda_—is a conv
 
 A more technical definition, lambda expression is an expression which returns a [[Function Object]].
 
+# 🗻Foundation
+[[Function Object]] is the foundation of lambda expression.
+
+
 ## 🎯Intent
 Typically lambdas are used to encapsulate a few lines of code that are passed to algorithms or asynchronous functions.⭐
 
