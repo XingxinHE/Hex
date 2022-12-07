@@ -5,6 +5,7 @@
 	- Lecturer
 	- Link: [xxx](https://)
 	- Video:[xxx](https://)
+- 🏁Progress
 - 📺Lectures
 	- Lecture...
 - 💻Assignment
