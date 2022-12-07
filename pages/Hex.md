@@ -270,6 +270,28 @@
 - Info
 	- link
 ## 📺Back to Basic
+| 2019                                 | 2020                 | 2021                       | 2022                                 |
+| ------------------------------------ | -------------------- | -------------------------- | ------------------------------------ |
+| const as a promise                   | pointer and memory   | pointers                   | API Design                           |
+| Function and class template          | templates            | const and constexpr        | Smart Pointer                        |
+| lambda                               | ✅lambda               | templates                  | Value Categories With Standard Tools |
+| move semantics                       | move semantics       | ✅lambdas                    | RAII                                 |
+| Object-oriented programming          | Class Layout         | move semantics             | testing                              |
+| RAII & Rule of Zero                  | concurrency          | object-oriented programing | value semantics                      |
+| Test Driven Development              | unit test            | Designing Classes          | move semantics                       |
+| Type Erasure                         | algebraic data types | concurrency                | templates                            |
+| Understanding value categories       | design patterns      | casting                    | debugging                            |
+| virtual dispatch and its alternative | the abstract machine | debugging techniques       |                                      |
+| smart pointer                        | smart pointers       | special member functions   |                                      |
+| inplace construction                 | structure of program | smart pointer and RAII     |                                      |
+| exception handling and safety        | exceptions           | undefined behavior         |                                      |
+|                                      |                      | overload resolution        |                                      |
+|                                      |                      | compiling and linking      |                                      |
+|                                      |                      | class STL                  |                                      |
+|                                      |                      | algorithmic complexity     |                                      |
+|                                      |                      |                            |                                      |
+
+
 ### `const` as a Promise
 📝Basic Info
 - 🗣Presenter: Dan Saks
