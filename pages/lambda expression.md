@@ -181,6 +181,9 @@ auto price = [discount = getDiscount(customer)] (auto item) {
 }
 ```
 
+
+📌 #TODO capture clause withh `unique_ptr`
+
 #### 🧬Related Elements
 ##### 📌capture clause with [[this keyword|this pointer]]
 When you have a lambda inside a class, things get interesting acroos different version of C++.
