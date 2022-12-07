@@ -54,9 +54,6 @@ In #cpp11  and later, a lambda expression—often called a _lambda_—is a conv
 
 A more technical definition, lambda expression is an expression which returns a [[Function Object]].
 
-# 🗻Foundation
-[[Function Object]] is the foundation of lambda expression.
-
 
 ## 🎯Intent
 Typically lambdas are used to encapsulate a few lines of code that are passed to algorithms or asynchronous functions.⭐
@@ -184,6 +181,23 @@ auto price = [discount = getDiscount(customer)] (auto item) {
 }
 ```
 
+#### 🧬Related Elements
+##### 📌capture clause with [[this keyword|this pointer]]
+When you have a lambda inside a class, things get interesting acroos different version of C++.
+- #cpp11 
+	- `[this]`
+	- capture `this` pointer by value
+- #cpp14 
+	- `[self=*this]`
+	- capture `*this` object by value, initialize a new variable
+- #cpp17 
+	- `[*this]`
+	- capture `*this` object by value
+- #cpp20
+	- `[this]` is deprecated
+
+> [!question] Why `[this]` capture will be deprecated?
+> Think about it. The `this` keyword is a [[pointer]] refer to the current object. We are writing a lambda inside a class, therefore we can access all the [[data member]]! So why should we need a `this` pointer in the capture clause?! Hence, the `[this]` syntax in cpp11 is deprecated.
 
 ### parameter list
 
@@ -211,6 +225,11 @@ If the parameter list is empty, the lambda expression is jutst like a function a
 	  	  };
 	  ```
 
+📌default parameter supported in #cpp14 
+```cpp
+auto myLamb = [ ] (const std::string &data, uint max = 20)//👈default param
+			  { return data.substr(0, max); };
+```
 
 
 ### mutable specification
@@ -221,7 +240,7 @@ A keyword `mutable` followed after parameter list.
 #### 🎯Intent
 The **`mutable`** specification enables the body of a lambda expression to modify variables that are captured by value.
 > [!NOTE] Note
-> Typically, a lambda's function call operator is const-by-value, but use of the **`mutable`** keyword cancels this out. It doesn't produce mutable data members.
+> Typically, a lambda's [[function call operator]] is const-by-value, but use of the **`mutable`** keyword cancels this out. It doesn't produce mutable data members.
 
 #### 🧠Intuition
 Lambda expression is stateless by default. The `mutable` keyword makes them ==stateful==(modification allowed). The state refers to [[Finite Automaton#🧪Composition#state|the state of finite automaton]].
@@ -599,7 +618,7 @@ public:
 > Let's make it clear by comparison:
 > - the generic lambda is still a function object.
 > - the generic lambda $\neq$ the generic function
-> - the generic lambda is "generic" by making its function call operator "generic".
+> - the generic lambda is "generic" by making its [[function call operator]] "generic".
 
 Suppose we have a generic lambda:
 ```cpp
@@ -639,6 +658,12 @@ call(printLmbd, v);  //✅
 ```
 I understand their difference while #thingsIDK that how can I design a function to mimic the `call` function.
 
+### 📌When does the lambda expression "run"?
+This is a really great question. The "run" can be divided into 2 parts:
+- 1️⃣the declaration of lambda
+- 2️⃣the invoke of lambda
+When in 1️⃣, the code will run into all the parts except the body. This can be easily understood since lambda expression is a function object and the 1️⃣ is actually the definition of the class.
+When in 2️⃣, the code will run into the body. It is also easily to understand since the invoke actually invokes the code in the function call operator.
 # CSharp
 [Lambda expressions - C# reference | Microsoft Learn](https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/operators/lambda-expressions)
 

@@ -2,11 +2,20 @@
 aliases: [functor]
 ---
 
-# 📝Definition
-A _function object_, or _functor_, is any type that implements `operator()`. 
+> [!Warning] Terminology
+> Please beware of the following:
+> - ***function object data type***
+>	- [[class]] or structure with a [[function call operator]] method
+>- ***function object***
+>	 - an ==instance== of a function object data type
+>	 - a callable object
 
-> [!NOTE] Terminology of `operator()`
-> The `operator()` is referred to as the _call operator_ or sometimes the _application operator_. 
+
+
+
+
+# 📝Definition
+A _function object_, or _functor_, is any type that implements the [[function call operator]] `operator()`. 
 
 > [!warning] Don't use the name "functor"
 > The standard of #cpp refers to "Function Object" not ~~"Functor"~~.
@@ -56,10 +65,24 @@ public:
 
 
 # 🧬Related Elements
-**📌[[lambda expression]]**
-In #cpp , a lambda expression is, so to speak,  a shortcut to function object.
-
 **📌[[functional header file]]**
 [[functional header file|<functional>]] is a collection of function objects.
 
+## Terminology across similar disciplines
+- functor
+	- Don't use it. Refer to function object if what you mean.
+- [[function pointer]]
+	- pointer which refers to a function rather than pointing to data
+- function object data type
+	- class which declares [[function call operator]]
+- function object
+	- instance of a function object data type
+- `std::function`
+	- container, holds a single function pointer or a function object
+- [[functional header file|<functional>]]
+	- STL which holds a lot function object
+
+## function object & lambda expression
+Function object is the "behind-scene" of lambda expression. We can see them in analogy.
+![functionObject|600](../assets/functionObject_lambda.png)
 

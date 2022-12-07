@@ -321,6 +321,11 @@ Outline:
 - the [[lambda expression#⌚History]] of lambda
 - the [[lambda expression#✒Terminology]] of lambda
 - similar item is [[function pointer]]
+- [[function call operator]] is a subset of [[Operator overloading]]
+- review the similar items at here [[Function Object#🧬Related Elements#Terminology across similar disciplines]]⭐
+- understand function object and lambda are closely related [[Function Object#🧬Related Elements#function object & lambda expression]]
+- capture clause with `this` pointer at [[lambda expression#CPP#🧪Composition#Capture clause#🧬Related Elements#📌capture clause with this keyword this pointer]]
+- 
 
 
 

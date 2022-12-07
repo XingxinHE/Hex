@@ -82,7 +82,7 @@ The declaration expression can be divided as 2 parts:
 
 - Parentheses in Declarators
     - It has 2 roles:
-        - function call operator
+        - [[function call operator]]
             - these `()` follow the declarator-id
             
         - grouping
