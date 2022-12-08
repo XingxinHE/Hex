@@ -351,6 +351,21 @@ Outline:
 
 
 
+## 📺CopperSpice Modern C++
+- ℹSyllabus
+	- Course Goal
+	- Course Textbook
+	- Lecturer
+	- Link: [xxx](https://)
+	- Video:[xxx](https://)
+- 🏁Progress
+	- [[data type]]s, references
+- 📺Lectures
+	- Lecture...
+- 💻Assignment
+	- Assignment
+- 📖Reading
+
 # CSharp
 ## 📚Step by Step
 - Chapter 04 Decision Statement
