@@ -1,5 +1,5 @@
 ---
-aliases: [pointer to function, subroutine pointer, procedure pointer]
+aliases: [pointer to function, subroutine pointer, procedure pointer, function pointer data type]
 ---
 # 📝Definition
 Function pointer is a data type whose value points to particular function. The [[Signature]] of function must match the declaration of the function pointer.
@@ -33,3 +33,9 @@ int main()
 ```
 
 📌an argument to another function
+
+
+# 🧬Related Elements
+📌[[pointer|pointer data type]] vs. function pointer data type
+A pointer points to data.
+A function pointer points to code.

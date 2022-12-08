@@ -359,9 +359,9 @@ Outline:
 	- Link: [xxx](https://)
 	- Video:[xxx](https://)
 - 🏁Progress
-	- [[data type]]s, references
+	- ✅[[type|data type]]s, references
 - 📺Lectures
-	- Lecture...
+	- [[type|data type]] and the categories of [[type|data type]]
 - 💻Assignment
 	- Assignment
 - 📖Reading

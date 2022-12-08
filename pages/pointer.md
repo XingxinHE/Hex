@@ -1,9 +1,20 @@
 ---
-aliases: [raw pointer]
+aliases: [raw pointer, pointer data type]
 ---
 
 # 📝Definition
 A pointer is a variable that stores the [[memory|memory address]] of an object.
+
+When seeing pointer in the scope of [[type|data type]], a pointer data type is:
+- the data type of a pointer is derived from the data type it points to.
+- the data type of the pointer is different from the data it points to.
+
+For example,
+```cpp
+int i = 13;
+int *pi = &i;
+```
+![name|500](../assets/pointer_data_type.png)
 
 # 🧠Intuition
 You can see the pointers as arrows in the memory.
@@ -102,7 +113,7 @@ The type of that target value is called the base type for the pointer.
 
 
 # 🌓Complement
-- [[reference]]
+- [[Reference Type|reference]]
 # 💫Operation
 Operations related to pointer in #cpp 
 - 1️⃣take the address using `&` - [[address-of operator]]

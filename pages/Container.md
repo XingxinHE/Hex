@@ -7,14 +7,23 @@ The term "container" and "ADT" are always used interchangeably.
 - In computer science,
     - A container is a class or a [[data structure]] whose instances are collections of other objects.
     - An abstract data type (ADT) is a mathematical model for data types.
-    
-- In C++,
+- In #cpp  ,
     - It often refers to [[STL]] which Library provides various type-safe containers for storing collections of related objects. The containers are class templates.
-    
+
+
 # 🧠Intuition
 To elaborate an intuition,
 - Container emphasizes the **capability** of an object that holds elements (other objects).
 - ADT emphasizes the **behavior** (semantics) from the point of view of a user, of the data, specifically in terms of possible values, possible operations on data of this type, and the behavior of these operations.
+
+> [!hint] Hint
+> Abstract data type is any type does not specify an implementation.
+
+
+# 🗃Example
+📌[[Stack]]
+A stack has `push()` and `pop()` which have well defined behavior, however their implementation can be done in a variety of ways.
+
 
 # 🎯Intent
  A short description what does this thing do?

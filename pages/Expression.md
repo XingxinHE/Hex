@@ -1,3 +1,10 @@
+# 📝Definition
+Expression is a[[Tuple|sequence]] of operators and their operands which specify some computation process.
+# ⛈Characteristics
+It is characterized by 2 factors:
+- [[type|data type]]
+- value category
+
 # 🕳Pitfalls
 - 📌Avoid complicated expressions ^676303de228f35c6
     - The **RULE**: if you change the value of a variable in an expression, don’t read or write it twice in that same expression.
