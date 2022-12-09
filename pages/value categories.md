@@ -1,10 +1,8 @@
 ---
-aliases: [lvalue, rvalue]
+aliases: [lvalue, rvalue, glvalue, xvalue, prvalue]
 ---
 
 # 📝Definition
-A [[value]] is either an lvalue or an rvalue.
-
 **lvalue**
 An entity has a name. It must be able to take the address of using the [[address-of operator]].
 
@@ -12,6 +10,39 @@ An entity has a name. It must be able to take the address of using the [[address
 An entity does not have a name. It does not have [[memory|memory address]]. It has data and it is usually a temporary value. e.g. [[Literal]].
 Lifetime
 
+> [!info] Info
+> A [[value]] is either an lvalue or an rvalue. Any other value categories are just the **refinement** to these two.
+
+**gvalue**
+A gvalue is the "generalized" lvalue.
+- It is an lvalue or an xvalue.
+- It has identity.
+- It may or may not be removed from.
+
+**prvalue**
+A prvalue is the "pure" rvalue.
+- It does not have an identiy.
+- It can be moved from.
+- It is an rvalue that is not an xvalue.
+- The result of calling a function whose return type is not a reference is a prvalue.
+
+**xvalue**
+An xvalue is an "expiring" value.
+- It has an identity.
+- It can be moved from.
+- The result of certain kinds of expression involving [[Reference Type|rvalue reference]]
+- The result of calling a function whose return type is an rvalue reference, is an xvalue.
+- e.g. `std::move(x)`
+
+```mermaid
+flowchart TD
+expression --> glvalue
+expression --> rvalue
+glvalue --> lvalue
+glvalue --> xvalue
+rvalue --> prvalue
+rvalue --> xvalue
+```
 
 
 

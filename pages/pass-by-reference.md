@@ -103,4 +103,24 @@ aliases: [pass-by-const-reference, pass-by-reference-to-const, pass-by-lvalue-re
           }
           ```
         - It is usually **best to avoid functions that modify several objects**. In theory, there are always alternatives, such as returning a class object holding several values.
-        
+
+
+
+
+# 🕹Quiz
+📌quiz on pass by const reference
+```cpp
+void someMethod(const Widget &);
+
+const Widget *foo;
+someMethod(?);
+```
+- Q1: what [[value categories]] can be passed to `someMethod()`?
+	- Either an lvalue or an rvalue.
+- Q2: what [[type|data type]] can be passed to `someMethod()`?
+	- `Widget`
+- Q3: `foo` is a pointer, is it an lvalue or an rvalue?
+	- It has a name. It is an lvalue.
+- Q4: what should be passed for `?`
+	- We should pass `*foo`
+

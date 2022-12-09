@@ -18,6 +18,8 @@ auto&& var2 = var1; 	// 👈Forwarding reference
 `lvalue` is still an `lvalue` if they are initialized by an `lvalue`.
 `rvalue` is still an `rvalue` if they are initialized by an `rvalue`.
 
+# ⌨Sample Code
+**📌Prove the objective of forwarding reference**
 Suppose I have:
 ```cpp
 // I have a class.
@@ -31,9 +33,7 @@ void f( T&& x ) 		// 👈Forwarding reference
 }
 ```
 
-
 >     ​	Proof -`lvalue` is still `lvalue`
-
 ```c++
 int main()
 {
@@ -46,9 +46,7 @@ int main()
 ```
 Therefore we prove that `T&& x` looks like `rvalue` reference, it can accept `lvalue` as well.
 
-
 >     ​	Proof -`rvalue` is still `rvalue`
-
 ```c++
 int main()
 {
@@ -58,5 +56,37 @@ int main()
 }
 //output: f..
 ```
-
 `Widget{}` doesn't have a name and therefore it is an `rvalue`. Therefore we prove that `T&& x` accepts `rvalue` as well.
+
+# 🕹Quiz
+**📌Quiz 1 - What is forward reference and what is not?**
+```c++
+template< typename T >
+void f( const T&& );
+```
+- forward reference ❌
+- Function template with rvalue reference-to-const ✅
+
+**📌Quiz 2 - What is forward reference and what is not?**
+```cpp
+template< typename T >
+class A
+{
+public:
+	A( T&& t )
+		: b_( std::forward<T>( t ) )
+	{}
+private:
+	B b_;
+};
+```
+- forward reference ❌
+- The `T&&` in `A(T&& t)` is just `rvalue` reference. **Forward reference does not work in class template**!!
+
+**📌Quiz 3 - What is forward reference and what is not?**
+```cpp
+template< typename T >
+void f( T&& );
+```
+- forward reference ✅
+

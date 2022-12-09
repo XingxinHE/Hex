@@ -17,6 +17,17 @@ There are several casting operators specific to the #cpp language. These operato
 > - they must be either [[pointer]] or [[Reference Type|lvalue reference]]
 > - `type-id` and `expression` have to be the same type
 
+
+
+> [!warning] Warning 
+> The casting operator is ordered from top(safe) to bottom(dangerous).
+> - `static_cast`
+> - `dynamic_cast`
+> - `const_cast`
+> - `reinterpret_cast`
+> - `(int)`
+
+
 # 📋Prerequisite
 Casting is an ugly (and dangerous) operation - use it only when absolutely necessary. When you need a cast, reconsider:
 - Is there a way to write the code without the cast?

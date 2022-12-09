@@ -58,4 +58,20 @@
     - TODO Clarify the preceding code.
 - [[CV-Qualifiers]]
 
--
+
+# 🏷(Sub)Categories
+There are several stuffs that `const` can play.
+- const variable
+	- `const int var`
+- [[Reference Type|const reference]]
+	- `const Widget &w`
+- const [[pointer]]
+	- `int *const var`
+- [[pointer]] to const
+	- `const int *var`
+- `const` method
+	- `void someMethod() const`
+
+
+
+
