@@ -554,8 +554,6 @@
 
 - *use case*: a specific (typically simple) use of a program meant to test its functionality and demonstrate its purpose.
 
-- *value*: a set of bits in memory interpreted according to a type.
-
 - *value type*: a term some people use to mean a regular or semiregular type.
 
 - *variable*: a named object of a given type; contains a value unless uninitialized.

@@ -1,9 +1,11 @@
 # 📝Definition
-Expression is a[[Tuple|sequence]] of operators and their operands which specify some computation process.
+Expression is a [[Tuple|sequence]] of operators and their operands which specify some computation process.
 # ⛈Characteristics
 It is characterized by 2 factors:
 - [[type|data type]]
-- value category
+- [[value categories]]
+# 🌓Complement
+![[type#🌓Complement#Data Type vs. Expression]]
 
 # 🕳Pitfalls
 - 📌Avoid complicated expressions ^676303de228f35c6

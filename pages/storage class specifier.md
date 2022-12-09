@@ -5,7 +5,7 @@ A given object can have **only one** storage class.
 
 # 🏷(Sub)Categories
 There are 3 kinds of specifiers:
-- [[extern keyword]]
+- [[extern|extern keyword]]
 - [[static keyword]]
 - [[thread_local keyword]]
 

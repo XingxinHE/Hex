@@ -1,3 +1,7 @@
+---
+aliases: [extern keyword]
+---
+
 # 😲Intuitive Explanation
 - The `extern` means the following is just declaration, please ignore the parameter name. It does not have any relationships with others.
 

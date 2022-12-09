@@ -70,3 +70,7 @@
   f(x)=a^Tx\\f(0)=0
   $$
   $f(x)$ is a linear function and the `0` inside the `f` is a vector filled with `0`. The rhs 0 is a scalar. This is called the overloading of a symbol... lol
+
+
+
+

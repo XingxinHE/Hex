@@ -1,5 +1,5 @@
 ---
-aliases: [pass-by-const-reference, pass-by-reference-to-const]
+aliases: [pass-by-const-reference, pass-by-reference-to-const, pass-by-lvalue-reference, pass-by-rvalue-reference]
 ---
 
 # 📝Definition
@@ -18,6 +18,10 @@ aliases: [pass-by-const-reference, pass-by-reference-to-const]
 - In C++,
     - pass-by-reference on [[user-defined]] class object is more efficient.
     
+
+# 🗃Example
+![[pass-by-value#🗃Example#A solid example across different "pass-by-??what??"]]
+
 # ⌨Sample Code
 - example of "pass-by-const-reference" and "pass-reference-to-const"
     - ```c++

@@ -3,12 +3,27 @@ aliases: [data type]
 ---
 
 # 📝Definition
-- Something that defines a set of possible values and a set of operations for an object.
+A type is something that defines a set of possible **values** and a set of **operations** for an [[object]].
+
+A data type is a classification identifying the possible **values** for that type and the **operations** which can be done on values of that type.
 
 # 🎯Intent
 - Types are good for directly representing ideas in code.
 **Representation**: A type “knows” how to represent the data needed in an object.
 **Operations**: A type “knows” what operations can be applied to objects.
+
+# 🌓Complement
+## Data Type vs. Expression
+- Data Type
+	- values
+		- `12`, `true`, `"cake"`, `3.14`, `nullptr`
+	- operations
+		- what can be done with the data (compare, assignment, some manipulation)
+- Expression
+	- data type
+		- `int`, [[pointer]], `string`, [[Reference Type|lvalue reference]], [[Reference Type|rvalue reference]]
+	- [[value categories]]
+		- lvalue, rvalue
 
 # ⛈Characteristics
 A data type is characterized by 2 factors:
@@ -16,6 +31,30 @@ A data type is characterized by 2 factors:
 - operations
 
 # 🏷(Sub)Categories
+There are many categories on data type.
+## primitive data type
+`char`, `int`, `double`
+## built-in data type
+lists, hash table, `std::complex`
+## compound data type
+`std::vector, std::iostream`
+## [[user-defined]] data type
+`enum class`, `class`
+## [[Container|abstract data type]]
+
+## [[atomic data type]]
+
+## [[pointer|pointer data type]]
+
+## [[Reference Type|reference data type]]
+
+## [[function pointer|function pointer data type]]
+
+
+## [[method pointer data type]]
+
+
+
 - In programming, a type can normally divide into 2 main categories.
     - [[user-defined]] types. which designed and implemented by user.
         - In C++,
@@ -75,34 +114,5 @@ A data type is characterized by 2 factors:
 
 
 
-
-
-# 📝Definition
-A data type is a classification identifying the possible **values** for that type and the **operations** which can be done on values of that type.
-
-
-
-# 🏷(Sub)Categories
-There are many categories on data type.
-## primitive data type
-`char`, `int`, `double`
-## built-in data type
-lists, hash table, `std::complex`
-## compound data type
-`std::vector, std::iostream`
-## [[user-defined]] data type
-`enum class`, `class`
-## [[Container|abstract data type]]
-
-## [[atomic data type]]
-
-## [[pointer|pointer data type]]
-
-## [[Reference Type|reference data type]]
-
-## [[function pointer|function pointer data type]]
-
-
-## [[method pointer data type]]
 
 

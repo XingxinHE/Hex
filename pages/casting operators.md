@@ -14,7 +14,7 @@ There are several casting operators specific to the #cpp language. These operato
 
 > [!note] Common Note
 > For all the `type-id` and `expression`, the requirements are:
-> - they must be either [[pointer]] or [[lvalue and rvalue|lvalue reference]]
+> - they must be either [[pointer]] or [[Reference Type|lvalue reference]]
 > - `type-id` and `expression` have to be the same type
 
 # 📋Prerequisite

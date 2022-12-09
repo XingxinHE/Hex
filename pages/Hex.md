@@ -264,7 +264,7 @@
 	- Chapter 02 Functions and Libraries
 	- Chapter 03 Strings
 	- Chapter 11 Pointers and Arrays
-		- [[Bit]], [[Byte]], [[Word]], [[Decimal]], [[Glossary#RAM|RAM]], [[hexadecimal]], [[sizeof operator]], [[memory]], [[memory#⛈Properties#Memory Layout]], [[memory#⛈Properties#Memory Address]], [[pointer]], [[lvalue and rvalue|lvalue]], [[Member access operator]], [[this keyword]], [[null pointer]], [[new keyword]]
+		- [[Bit]], [[Byte]], [[Word]], [[Decimal]], [[Glossary#RAM|RAM]], [[hexadecimal]], [[sizeof operator]], [[memory]], [[memory#⛈Properties#Memory Layout]], [[memory#⛈Properties#Memory Address]], [[pointer]], [[value categories|lvalue]], [[Member access operator]], [[this keyword]], [[null pointer]], [[new keyword]]
 - #thingsIDK
 	- ...
 - Info
@@ -361,7 +361,7 @@ Outline:
 - 🏁Progress
 	- ✅[[type|data type]]s, references
 - 📺Lectures
-	- [[type|data type]] and the categories of [[type|data type]]
+	- [[type|data type]] and the categories of [[type#🏷(Sub)Categories]],  
 - 💻Assignment
 	- Assignment
 - 📖Reading
