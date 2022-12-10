@@ -162,6 +162,13 @@ Opinion varies in light of preceding check nullness.
         - But there is no need to check reference since reference must be initialized at the beginning.
         
 
+
+> [!warning] [[assignment]] of pointer
+> Assignment to a pointer changes the pointer’s value (not the pointed-to
+value).
+
+
+
 # 🥼Expert's Advice
 - Lippman had words to beginner "Be patient when you are learning pointer. The initial **complexity** of using a pointer comes from its <u>confusing syntax</u>".🤣
 - #BjarneStroustrup addressed "if you lack a basic and practical understanding of how a program maps onto a computer's memory and operations, you will have problems getting a solid grasp of higher-level topics, such as [[data structure]], [[Algorithm|algorithms]], and [[operating system]]."

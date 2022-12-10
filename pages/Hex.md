@@ -361,7 +361,8 @@ Outline:
 - 🏁Progress
 	- ✅[[type|data type]]s, references
 - 📺Lectures
-	- [[type|data type]] and the categories of [[type#🏷(Sub)Categories]],  
+	- [[type|data type]] and the categories of [[type#🏷(Sub)Categories]]
+	- [[Semantics]], [[value semantics]], [[reference semantics]], [[move semantics]]
 - 💻Assignment
 	- Assignment
 - 📖Reading

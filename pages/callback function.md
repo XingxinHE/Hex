@@ -2,7 +2,7 @@
 aliases: [callback]
 ---
 # 📝Definition
-A **callback** or **callback function** is any **==reference==** to [executable code](https://en.wikipedia.org/wiki/Executable_code "Executable code") that is passed as an [[Glossary#Argument|argument]] to another piece of code; that code is expected to _call back_ (execute) the callback function as part of its job.
+A **callback** or **callback function** is any **==reference==** to [executable code](https://en.wikipedia.org/wiki/Executable_code "Executable code") that is passed as an [[argument]] to another piece of code; that code is expected to _call back_ (execute) the callback function as part of its job.
 
 This execution may be immediate as in a **synchronous callback**, or it might happen at a later point in time as in an **asynchronous callback**.
 

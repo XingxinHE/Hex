@@ -29,7 +29,7 @@ Example is the most straightforward way to understand a mathematical concept.
         - Convert the bits to decimal.
           ![name](../assets/01000001_bits.png){:height 500, :width 500}
         - Therefore it is $2^6\times1+2^0\times1=65$
-        - In light of [[Glossary#ASCII Character Codes|ASCII Table]], `01000001` is character `A`.
+        - In light of [[ASCII Character Codes|ASCII Table]], `01000001` is character `A`.
         
 
 # 🧬Related Elements

@@ -1,0 +1,2 @@
+# 📝Definition
+Move semantics is based on [[Reference Type|rvalue reference]]. The idea is to "move" the data into another [[object]]. The original object is a zombie and should never be accessed after the move operation.

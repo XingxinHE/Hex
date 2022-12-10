@@ -1,5 +1,5 @@
 # 📝Definition
-- A named [[object]] is called a variable.
+- A named [[object]] of a given [[type]] is called a variable; contains a value unless uninitialized.
 - A variable is a box in the **computer’s memory** that holds **temporary information**.
 # ⌨Sample Code
 ## #cpp 

@@ -1,17 +1,3 @@
-### ADT
-- 📝**Definition**: A type defined in terms of its <u>behavior</u> rather than its representation is called ***abstract data type***, which is often abbreviated to ***ADT***.
-
-### Argument
-- 📝**Definition**: When a method is called, the arguments are the data you pass into the method's parameters.
-
-### ASCII Character Codes
-- 📝**Definition**: ASCII stands for American Standard Code for Information Interchange.
-- 🀄**CHN**:
-- 🔗**Link**:
-- 💡**Intuitive**: The row stands for 10, col stands for 1. Therefore `A` is 65 = 10 * 6 + 5 * 1
-- 🖼**Image**: 
-  ![ascii_table](../assets/ascii_table.png){:height 308, :width 486}
-
 ### Associative arrays
 - 📝**Definition**: Arrays implemented using maps as their underlying representation are called **associative arrays**.
 
@@ -31,9 +17,6 @@
 
 ### Client
 - 📝**Definition**: Clients are who calls functions provided by a library
-
-### Compiler
-- 📝**Definition**: Compiler will compile your code. e.g. msvc, g++
 
 ### Coordinates
 - 📝**Definition**:
@@ -135,33 +118,8 @@
     - `footballTeam$`❌
     - `9plan`❌
     
-### Interval Notation
-- 📝**Definition**: The notation of an interval. A function's [[Function#^bdaa359665a4eb20|domain]], [[Function#^edfd03044fa2551e|range]], and [[Function#^c436ffd3332b45e9|codomain]] also use this notation.
-- 🗃**Example**: $\{x:2\leq x<5\}$
-- 🏷(Sub)Categories
-    - Open, e.g. $(a,b)$
-    - Close, e.g. $[a,b]$
-    - Mixed, e.g. $(a,b]$
-    
-- 📈Diagram
-    - ![name](../assets/interval_notation.png){:height 300, :width 300}
-    
-### Markup
-- 📝**Definition**: .  You can embed notions of color and two-dimensional positions, etc. in a one-dimensional stream of characters. That’s what layout (typesetting, “markup”) languages such as Troff, TeX, Word, HTML, and XML (and  their  associated  graphical packages do). The point is that you can express layout  notions  in  plain  text,  but  the  connection  between  the  characters  written  and what appears on the screen is indirect, governed by a program that interprets those “markup” commands.
-- ⌨**Code**:
-  
-  ``` xml
-  <hr>
-  <h2>Organization</h2>
-  This list is organized in three parts:
-  <ul>
-    <li><b>Proposals</b>, numbered EPddd, . . .</li>
-    <li><b>Issues</b>, numbered EIddd, . . .</li>
-    <li><b>Suggestions</b>, numbered ESddd, . . .</li>
-  </ul>
-  <p>We try to . . .<p>
-  ```
-- 🧠**Intuition**: The one-dimensional info to two-dimensional info thinking is really impressive!! The aim from a programming point of view is a direct correspondence between the objects in memory and the images on the screen.
+
+
 
 ### Method
 - 📝**Definition**: functions defined in the class called "method". functions defined outside of class is called free function.
@@ -224,9 +182,6 @@
       
       ```
     
-### Parameter
-- 📝**Definition**: a declaration of an explicit input to a function or a template. When called, a function can access the arguments passed through the names of its parameters.
-- 🧠**Intuition**: A parameter is a variable in a method definition.
 
 ### Parameterized classes
 - 📝**Definition**: Classes that include a base-type specification are called ***parameterized classes*** in the object-oriented community.
@@ -266,8 +221,6 @@
     - Stack Frame Diagram
       ![stack_frame](../assets/stack_frame.png){:height 229, :width 434}
     
-### Statement
-- 📝**Definition**: A statement is a **command** that **performs an action**.
 
 ### State
 - 📝**Definition**: The value of an object is often called its state, so the idea of a valid value is often referred to as a **valid state** of an object.
@@ -287,11 +240,6 @@
 
 ### Storage Duration
 - 📝**Definition**: It refers to the period of time for which memory is allocated for an object is called its *storage duration* or *extent*.
-
-### Syntax
-- 📝**Definition**: A well-defined set of **rules** describing the **format** and **construction** of statements.
-- 🌓Complement
-    - syntax vs. semantic: **Syntax** refers to **grammar**, while **semantics** refers to **meaning**.
     
 ### Text Editor
 - 📝**Definition**: This is where you write the source codes.
@@ -346,8 +294,6 @@
 - *base class*: a type that is intended to be derived from (e.g., has a non- `final`  virtual function), and objects of the type are intended to be used only indirectly (e.g., by pointer). [In strict terms, “base class” could be defined as “something we derived from” but we are specifying in terms of the class designer’s intent.] Typically a base class has one or more virtual functions.
 
 - *bug*: an error in a program.
-
-- *class*: a user-defined type that can contain data members, function members, and member types.
 
 - *code*: a program or a part of a program; ambiguously used for both source code and object code.
 
@@ -423,8 +369,6 @@
 
 - *integer*: a whole number, such as 42 and -99.
 
-- *interface*: a declaration or a set of declarations specifying how a piece of code (such as a function or a class) can be called.
-
 - *iteration*: the act of repeatedly executing a piece of code; see recursion.
 
 - *ISO*: International Organization for Standardization. The C++ language is an ISO standard, ISO/IEC 14882. More information at [iso.org](http://iso.org/).
@@ -433,27 +377,15 @@
 
 - *lifetime*: the time from the initialization of an object until it becomes unusable (goes out of scope, is deleted, or the program terminates).
 
-- *linker*: a program that combines object code files and libraries into an executable program.
-
 - *loop*: a piece of code executed repeatedly; in C++, typically a for-statement or a  `while` -statement.
 
 - *move*: an operation that transfers a value from one object to another leaving behind a value representing “empty.” See also copy.
 
-- *move-only type*: a concrete type that is movable but not copyable.
-
-- *mutable*: changeable; the opposite of immutable, constant, and invariable.
+- *move-only type*: a concrete type that is movable but not copyable.m
 
 - *object*: (1) an initialized region of memory of a known type which holds a value of that type; (2) a region of memory.
 
-- *object code*: output from a compiler intended as input for a linker (for the linker to produce executable code).
-
-- *object file*: a file containing object code.
-
-- *object-oriented programming*: (OOP) a style of programming focused on the design and use of classes and class hierarchies.
-
 - *operation*: something that can perform some action, such as a function and an operator.
-
-- *output*: values produced by a computation (e.g., a function result or lines of characters written on a screen).
 
 - *overflow*: producing a value that cannot be stored in its intended target.
 
@@ -505,13 +437,9 @@
 
 - *semiregular*: a concrete type that is copyable (including movable) and default-constructible (see  `std::semiregular`  concept). The result of a copy is an independent object with the same value as the original. A semiregular type behaves roughly like an built-in type like  `int` , but possibly without a  `==`  operator. See also *regular type*.
 
-- *sequence*: elements that can be visited in a linear order.
-
 - *software*: a collection of pieces of code and associated data; often used interchangeably with program.
 
 - *source code*: code as produced by a programmer and (in principle) readable by other programmers.
-
-- *source file*: a file containing source code.
 
 - *specification*: a description of what a piece of code should do.
 
@@ -520,8 +448,6 @@
 - *state*: a set of values.
 
 - *STL*: the containers, iterators, and algorithms part of the standard library.
-
-- *string*: a sequence of characters.
 
 - *style*: a set of techniques for programming leading to a consistent use of language features; sometimes used in a very restricted sense to refer just to low-level rules for naming and appearance of code.
 
@@ -539,8 +465,6 @@
 
 - *truncation*: loss of information in a conversion from a type into another that cannot exactly represent the value to be converted.
 
-- *type*: something that defines a set of possible values and a set of operations for an object.
-
 - *uninitialized*: the (undefined) state of an object before it is initialized.
 
 - *unit*: (1) a standard measure that gives meaning to a value (e.g., km for a distance); (2) a distinguished (e.g., named) part of a larger whole.
@@ -549,8 +473,4 @@
 
 - *value type*: a term some people use to mean a regular or semiregular type.
 
-- *variable*: a named object of a given type; contains a value unless uninitialized.
-
 - *virtual function*: a member function that can be overridden in a derived class.
-
-- *word*: a basic unit of memory in a computer, often the unit used to hold an integer.

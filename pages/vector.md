@@ -343,7 +343,7 @@ The operations that vector supports are the following
           ``` c++
           letterCounts[toupper(ch) - 'A']++;
           ```
-        - It is a very smart move which takes advantage of the [[Glossary#ASCII Character Codes|ASCII code]] and converts to integer. For example, `'A'` is the `0` element and therefore `'A' - 'A'` are `65 -65` which is `0`.
+        - It is a very smart move which takes advantage of the [[ASCII Character Codes|ASCII code]] and converts to integer. For example, `'A'` is the `0` element and therefore `'A' - 'A'` are `65 -65` which is `0`.
         
 - In Python,
     - 📌example of stack vector in numpy python ^fcf68b70b88493aa

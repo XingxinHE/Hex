@@ -1,5 +1,5 @@
 ---
-aliases: [shorthand assignment operation]
+aliases: [compound assignment, shorthand assignment operation]
 ---
 
 📌**What is it?**

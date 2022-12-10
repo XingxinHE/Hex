@@ -1,5 +1,6 @@
 # 📝Definition
 - A class is a user-defined type. It is composed of built-in types, other userdefined types, and functions.
+- A user-defined type that can contain data members, function members, and member types.
 - Class is the root word of the term classification. When you design a class, you <u>systematically arrange information and behavior</u> into a meaningful entity.
 
 # 🎯Intent

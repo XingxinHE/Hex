@@ -21,5 +21,5 @@ $$
 $$
     
 # 🤳Applicability
-==1== byte is a perfect size to store an [[Glossary#ASCII Character Codes|ASCII character]].
+==1== byte is a perfect size to store an [[ASCII Character Codes|ASCII character]].
 

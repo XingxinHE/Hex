@@ -1,8 +1,8 @@
 ---
 aliases: [program text file]
 ---
-
-- ...
+# 📝Definition
+A file containing source code.
 
 # 🌓Complement
 [[header file]]

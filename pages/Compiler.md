@@ -9,6 +9,10 @@ aliases: [compiling]
 # 📝Definition
 A program that turns source code into object code.
 
+# 🧠Intuition
+Compiler will compile your code. e.g. msvc, g++
+
+
 # 🧪Composition
 What kind of stuffs composite this subject?
 - The structure of a compiler

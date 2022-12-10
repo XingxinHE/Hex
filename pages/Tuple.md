@@ -4,6 +4,7 @@ aliases: [sequence]
 
 # 📝Definition
 - A **sequence** of objects is a list of these objects in some order.
+- Elements that can be visited in a linear order.
 - Sequences maintain a collection of items in an **[[Glossary#extrinsic|extrinsic]]** order, where each item stored has **a rank in the sequence**, including a first item and a last item.
 **Finite** sequences often are called **tuples**.
 

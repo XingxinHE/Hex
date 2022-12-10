@@ -1,6 +1,8 @@
 ---
 aliases: [OOP]
 ---
+# 📝Definition
+(OOP) a style of programming focused on the design and use of classes and class hierarchies.
 
 # ⛈Characteristics / Properties
 - The 3 Pillars of OOP

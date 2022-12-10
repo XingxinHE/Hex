@@ -546,7 +546,7 @@ In the preceding, we prove the following are equivalent:
 
 In this section, we will prove the following are equivalent:
 - [[lambda expression#CPP#🧪Composition#Capture clause]]
-- the [[Glossary#Parameter|parameter]] of the function object.
+- the [[parameter]] of the function object.
 
 For the following code
 ```cpp

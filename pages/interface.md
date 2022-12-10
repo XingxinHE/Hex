@@ -2,19 +2,18 @@
 The term "interface" differs in different programming language.
 - More General
     - The set of operations supported by a [[data structure]] is called an **interface**.
-    
+    - A declaration or a set of declarations specifying how a piece of code (such as a function or a class) can be called.
 - For C++
     - An interface describes the behavior or capabilities of a C++ class without committing to a particular implementation of that class.
-    
 - For C# and Java
     - An interface defines a contract. Any class or struct that implements that contract must provide an implementation of the members defined in the interface.
-    
+
 # 🧠Intuition
 Since the definition differs, here as well.
-- For [[C#]] and [[Java]]
+- For #csharp  and #Java
     - Interface is a language element.
     
-- For [[C++]],
+- For #cpp ,
     - Interface is a concept and it is very close to the General Concept.
     
 # 🗃Example
