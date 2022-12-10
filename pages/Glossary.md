@@ -248,9 +248,6 @@
 ### sender
 - 📝**Definition**: the object that initiates the method is called the sender
 
-### Semantics
-- 📝**Definition**: The specification of **what statements do** is collectively known as semantics.
-
 ### `size_t`
 - 📝**Definition**: The actual type of `size_t` is <u>platform-dependent</u>; a common mistake is to assume `size_t` is the same as `unsigned int`, which can lead to programming errors, particularly as 64-bit architectures become more prevalent.
 
@@ -354,8 +351,6 @@
 
 - *code*: a program or a part of a program; ambiguously used for both source code and object code.
 
-- *compiler*: a program that turns source code into object code.
-
 - *complexity*: a hard-to-precisely-define notion or measure of the difficulty of constructing a solution to a problem or of the solution itself. Sometimes complexity is used to (simply) mean an estimate of the number of operations needed to execute an algorithm.
 
 - *computation*: the execution of some code, usually taking some input and producing some output.
@@ -403,8 +398,6 @@
 - *floating-point number*: a computer’s approximation of a real number, such as 7.93 and 10.78e-3.
 
 - *function*: a named unit of code that can be invoked (called) from different parts of a program; a logical unit of computation.
-
-- *generic programming*: a style of programming focused on the design and efficient implementation of algorithms. A generic algorithm will work for all argument types that meet its requirements. In C++, generic programming typically uses templates.
 
 - *global variable*: technically, a named object in namespace scope.
 

@@ -36,7 +36,7 @@ $$
 
 # 🏷(Sub)Categories
 - 📌Monic Quadratic ^7566d53828e105d9
-    - The monic quadratic is a quadratic with [[polynomial#^767171017b03f419|leading coefficient]] equal to 1.
+    - The monic quadratic is a quadratic with [[polynomial#⛈Characteristics / Properties#☁Leading coefficient|leading coefficient]] equal to 1.
     - ❌ not a monic quadratic => $2x^2-3x+10$
     - ✅ is a monic quadratic => $x^2-\frac{3}{2}x+5$
     

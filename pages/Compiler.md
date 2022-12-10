@@ -7,7 +7,7 @@ aliases: [compiling]
 - the output of compiler is object file, `.o`, `.oo`, `.obj`.
 
 # 📝Definition
-- The name is the essence of this topic.
+A program that turns source code into object code.
 
 # 🧪Composition
 What kind of stuffs composite this subject?

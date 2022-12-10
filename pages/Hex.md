@@ -70,7 +70,7 @@
 		- [[mean]], [[median]], [[mode]], [[average]], [[centroid]], use integration to compute force transition to work at [[work#^9ccbf2]]
 		- [[discrete probability]], [[continuous distribution]], [[probability density function]], [[normal distribution]], [[exponential distribution]], [[mean|expected value]], [[variance]], [[standard deviation]]
 		- [[numerical integration]], [[Riemann sums]], [[Trapezoidal Rule]], [[Simpson's Rule]]
-	- Techniques of integration
+	- [[Techniques of Integration]]
 		- 
 💻Assignment
 - Assignment
