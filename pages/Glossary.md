@@ -42,13 +42,6 @@
 ### extrinsic
 - 📝**Definition**: By extrinsic, we mean that the first item is ‘first’, not because of what the item is, but **because some external party put it there**. In short, the first is because it is THE first.
 
-### free functions
-- 📝**Definition**: functions defined out of the class.
-
-### free format
-- 📝**Definition**: A space character or a new line, is not significant except as a separator.
-    - python: not with free format❌
-    - C++, C#: with free format✅
     
 ### fully qualified name
 - 📝**Definition**: A name composed of a [[namespace]] name (or a class name) and a member name combined by `::` is called a fully qualified name.
@@ -63,27 +56,14 @@
           }
           ```
         - Such `TextLib::Text` is a fully qualified name.
-        
     - In C#,
         - `Rhino.Geometry.Point3d` is a fully qualified name.
-        
-### helper function
-- 📝**Definition**: Helper functions are also called convenience functions, auxiliary functions, and many other things.
+
 
 ### High-level programming language
 - 📝**Definition**: The first high-level programming language is called FORTRAN(formula translation) which resembles the mathematical formulas into machine language.
 
-### Horizontal Line Test
-- 📝**Definition**
-    - If every horizontal line intersects the graph of a [[Function]] at most once, the function has an [[Function#^a7ed31bf0b55411a|inverse]].
-    
-- 🀄**CHN**:
-- 🔗**Link**:
-- 💡**Intuitive**:
-- 🖼**Image**:
-    - Left pass, right fail.
-    - ![name](../assets/horizontal_line_test.png){:height 300, :width 300}
-    
+
 ### Implementer
 - 📝**Definition**: Implementer is who implements a library
 
@@ -100,25 +80,6 @@
 
 ### Lexicographic order
 - 📝**Definition**: The order defined by the underlying ASCII codes.
-
-### Identifier
-- 📝**Definition**: Identifiers are the names that you use to identify the elements in your programs, such as namespaces, classes, methods, and variables.
-- 🧠 **intuition**: Identifiers are literally the composition of English character, numbers, and symbols.
-- ⚖ **Laws**: The rules of legal identifier vary.
-    - In C++ and C#,
-        - MUST start with 1️⃣underscore or 2️⃣letters
-        - ONLY 1️⃣letters (uppercase and lowercase), 2️⃣digits, and 3️⃣underscore characters
-        
-- 🗃 **Example**
-    - `result`✅
-    - `_score`✅
-    - `footballTeam`✅
-    - `plan9`✅
-    - `result%`❌
-    - `footballTeam$`❌
-    - `9plan`❌
-    
-
 
 
 ### Method
@@ -192,9 +153,6 @@
 ### Procedure
 - 📝**Definition**: A function that does not return a value and is instead executed for its effect.
 
-### RAM
-- 📝**Definition**: RAM is Random Access Memory. It is an internal memory that **exchanges data directly with the CPU**.
-- ⌨**Code**: `receiver.name(arguments);`
 
 ### receiver
 - 📝**Definition**: the object that is the target of that transmission
@@ -203,8 +161,6 @@
 ### sender
 - 📝**Definition**: the object that initiates the method is called the sender
 
-### `size_t`
-- 📝**Definition**: The actual type of `size_t` is <u>platform-dependent</u>; a common mistake is to assume `size_t` is the same as `unsigned int`, which can lead to programming errors, particularly as 64-bit architectures become more prevalent.
 
 ### `size_type`
 - 📝**Definition**: `container::size_type` is the type that is used for the number of elements in the container and is **container-dependent**.
@@ -247,20 +203,6 @@
 ### Undefined order evaluation
 - 📝**Definition**: See [[Expression#^676303de228f35c6|here]]
 
-### Vertical Line Test
-- 📝**Definition**
-    - The vertical line test: if you have some graph and you want to know whether it’s the graph of a function, see whether any vertical line intersects the graph more than once. If so, it’s not the graph of a function.
-    
-- 🀄**CHN**:
-- 🔗**Link**:
-- 💡**Intuitive**:
-- 🖼**Image**:
-    - Fail at vertical line test
-        - ![name](../assets/vertical_line_test_fail.png){:height 300, :width 300}
-        
-    - Pass at vertical line test
-        - ![name](../assets/vertical_line_test_pass.png){:height 300, :width 300}
-        
 
 ### variate
 - 📝**Definition**: A variate is a generalization of the concept of a random variable that is defined without reference to a particular type of probabilistic experiment. It is defined as the set of all random variables that obey a given probabilistic law.

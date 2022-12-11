@@ -20,10 +20,10 @@ aliases: [mapping]
         - a.k.a. $x$ is in the set $A$ of left side, $y$ is in the set $B$ of the right side.
         
 # 📈Diagram
-- Diagram of "This is a function" which passed the [[Glossary#Vertical Line Test|vertical line test]].
+- Diagram of "This is a function" which passed the [[Horizontal and Vertical Line Test#Vertical Line Test|vertical line test]].
     - ![name](../assets/Xto3minus3x.svg){:height 300, :width 300}
     
-- Diagram of "This is not a function" which failed the [[Glossary#Vertical Line Test|vertical line test]].
+- Diagram of "This is not a function" which failed the [[Horizontal and Vertical Line Test#Vertical Line Test|vertical line test]].
     - ![name](../assets/Function_with_two_values_1.svg){:height 300, :width 300}
     
 # 🧠Intuition

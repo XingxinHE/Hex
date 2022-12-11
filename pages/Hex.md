@@ -442,7 +442,7 @@ Outline:
 ### The Calculus Lifesaver
 - Table of Content
 	- Chapter 1 Functions, Graphs, and Lines
-		- [[Function]], [[Function#^c436ffd3332b45e9|codomain]], [[Function#^bdaa359665a4eb20|domain]], [[Function#^be8a9dcb429c6969|range]], [[Glossary#Interval Notation|interval notation]], [[Glossary#Vertical Line Test|vertical line test]], [[Glossary#Horizontal Line Test|horizontal line test]], [[Function#^a7ed31bf0b55411a|inverse function]], [[Function#^d91a4e8de93ada8e|composition of function]], [[Function#^b7a4b39e6a3bebc9|odd function and even function]], [[Linear Function]], [[polynomial]], [[Quadratic Equation|quadratic function]], [[rational function]], [[Exponential Function|exponential]], [[Logarithm]], [[Trigonometric Function]], [[absolute value function]], [[Radical expression]]
+		- [[Function]], [[Function#^c436ffd3332b45e9|codomain]], [[Function#^bdaa359665a4eb20|domain]], [[Function#^be8a9dcb429c6969|range]], [[Interval Notation|interval notation]], [[Horizontal and Vertical Line Test#Vertical Line Test|vertical line test]], [[Horizontal and Vertical Line Test#Horizontal Line Test|horizontal line test]], [[Function#^a7ed31bf0b55411a|inverse function]], [[Function#^d91a4e8de93ada8e|composition of function]], [[Function#^b7a4b39e6a3bebc9|odd function and even function]], [[Linear Function]], [[polynomial]], [[Quadratic Equation|quadratic function]], [[rational function]], [[Exponential Function|exponential]], [[Logarithm]], [[Trigonometric Function]], [[absolute value function]], [[Radical expression]]
 - #thingsIDK
 	- ...
 - Info
