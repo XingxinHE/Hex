@@ -26,16 +26,7 @@
 - 📈**Diagram**:
     - ![screen_coordinate](../assets/screen_coordinate.png){:height 250, :width 250}
     
-### definite assignment rule
-- 📝**Definition**:
-    - It is a **MUST** to assign a value to a variable before to use it. The following is wrong:
-    
-- ⌨ **Code**:
-    - ```c#
-      int age;
-      Console.WriteLine(age);  //Error!!
-      ```
-    
+
 ### edit-compile-debug
 - 📝**Definition**: Often a single error can have a cascading effect and cause a compiler to report more errors than actually are present. It is also a good idea to <u>recompile the code after each fix</u>—or after making at most a small number of obvious fixes. This cycle is known as <u>edit-compile-debug</u>.
 
@@ -66,13 +57,6 @@
 
 ### Implementer
 - 📝**Definition**: Implementer is who implements a library
-
-### Keyword
-- 📝**Definition**: Keywords are predefined reserved identifiers that have special meanings to the compiler.
-- 🧠**Intuition**: Words that can't be used as identifiers in your program.
-- 🔗**Link**:
-    - C++ keyword: https://docs.microsoft.com/en-us/cpp/cpp/keywords-cpp?view=msvc-170
-    - C# keyword: https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/
     
 ### Lexicon
 - 📝**Definition**: A set of words with no associated definitions is called a ***lexicon***.
@@ -80,10 +64,6 @@
 
 ### Lexicographic order
 - 📝**Definition**: The order defined by the underlying ASCII codes.
-
-
-### Method
-- 📝**Definition**: functions defined in the class called "method". functions defined outside of class is called free function.
 
 ### Most vexing parse
 - 📝**Definition**: The most vexing parse is a counterintuitive form of syntactic ambiguity resolution in the C++ programming language. In certain situations, the C++ grammar cannot distinguish the following 2.
