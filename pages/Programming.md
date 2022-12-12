@@ -1,3 +1,7 @@
+# 📝Definition
+The art of expressing solutions to problems as code.
+
+- 
 - Programming is an intellectually challenging set of skills that are part of many important and interesting technical disciplines.
 
 - Programming is a way of presenting ideas in code — a way of aiding problem solving.

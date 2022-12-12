@@ -71,7 +71,7 @@
 		- [[discrete probability]], [[continuous distribution]], [[probability density function]], [[normal distribution]], [[exponential distribution]], [[mean|expected value]], [[variance]], [[standard deviation]]
 		- [[numerical integration]], [[Riemann sums]], [[Trapezoidal Rule]], [[Simpson's Rule]]
 	- [[Techniques of Integration]]
-		- 
+		- Partial fractions
 💻Assignment
 - Assignment
 📖Reading

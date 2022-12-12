@@ -12,7 +12,7 @@
 `Exception` can be saw as the "source" or "form" of the concept errors. So there must be a mechanism to handle these kinds of errors. That is [[try-catch]].
 
 # ⛈Characteristics / Properties
-## [[Inheritance]]
+## [[inheritance]]
 #csharp  provides a robust solution for handling exception which is defined very carefully with an **inheritance hierarchies**(异常用继承层次结构组织). The following is an example:
 
 ```mermaid  

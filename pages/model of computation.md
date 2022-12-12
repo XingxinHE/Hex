@@ -6,7 +6,7 @@ The name is the essence of this topic.
     - To **precisely calculate** the resources used by an algorithm, we need to model how long a computer takes to perform basic operations.
     
 # 🏷(Sub)Categories
-There are several model to measure [[Computation]]
+There are several model to measure [[computation]]
 - 📌Word-RAM
     - Definition
         - In reality, the interaction between CPU and RAM can be very **complicated**. Therefore in MIT algorithm class, the lecturers coined Word-RAM😁. A Word-RAM processor can perform basic binary operations on two machine words in constant time.

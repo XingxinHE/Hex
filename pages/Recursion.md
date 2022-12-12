@@ -5,6 +5,14 @@ aliases: [recursive, recursively]
 # 📝Definition
 - Recursion is defined as any solution technique in which <u>large problems</u> are solved by <u>reducing them to smaller problems</u> ***of the same form***.
 
+# 🧠Intuition
+The act of a [[Function]] calling itself; see also iteration.
+
+# 🌓Complement
+- [[iteration]]
+    - Iterative and recursive strategies are <u>often seen as opposites</u> because they can be used to solve the same problem in rather different ways.
+    - However, sometimes we will use iterative strategy in recursive strategy.
+
 # 🎯Intent
 - Using recursion makes it possible to solve complex programs in <u>simple and profoundly elegant</u> ways.
 
@@ -28,11 +36,7 @@ aliases: [recursive, recursively]
       }
       ```
     - Because the solution depends on dividing hard problems into simpler instances of the same problem, recursive solutions of this form are often called **divide-and-conquer** algorithms.
-    
-# 🌓Complement
-- [[iterative]]
-    - Iterative and recursive strategies are <u>often seen as opposites</u> because they can be used to solve the same problem in rather different ways.
-    - However, sometimes we will use iterative strategy in recursive strategy.
+
     
 # 🤳Applicability
 - 📌When you should use recursion?

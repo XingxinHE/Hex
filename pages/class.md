@@ -6,7 +6,7 @@
 # 🎯Intent
 The class serves as the key to [[Object-oriented Programming Paradigm]]
 - [[Encapsulation]]
-- [[Inheritance]]
+- [[inheritance]]
 - [[Polymorphism]]
 
 # 🧠Intuition
@@ -160,7 +160,7 @@ Be aware of the pitfalls when using this stuffs... (especially considering edge 
                       ``` c++
                       Shape s; //❌ERROR!!
                       ```
-                    - The `Shape` is designed to be a [[Base Class]]. Because `protected` can be derived although can't be used directly in the client code.
+                    - The `Shape` is designed to be a [[base class]]. Because `protected` can be derived although can't be used directly in the client code.
                     
                 - The [[Destructor]] is `virtual`.
                 
@@ -226,7 +226,7 @@ Be aware of the pitfalls when using this stuffs... (especially considering edge 
                   Shape(const Shape&) =delete;
                   Shape& operator=(const Shape&) =delete;
                   ```
-                - In Scott book...?Or others' book. When you design a class that is meant to be a [[Base Class]] in a hierarchy, disable its [[Copy Constructor]] and [[Copy Assignment Operator]] using `=delete`.
+                - In Scott book...?Or others' book. When you design a class that is meant to be a [[base class]] in a hierarchy, disable its [[Copy Constructor]] and [[Copy Assignment Operator]] using `=delete`.
                 - The benefit is to eliminate the default copy operation across different derived objects. For the following code
                   
                   ``` c++

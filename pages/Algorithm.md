@@ -1,5 +1,6 @@
 # 📝Definition
 - Algorithm is a procedure which maps each input to a **single** output (**deterministic**). Algorithm **solves** a problem if it returns a correct output for every problem input.
+- A procedure or formula for solving a problem; a finite series of computational steps to produce a result.
 
 # ⛈Characteristics / Properties
 There are 2 properties to say about algorithm.

@@ -8,8 +8,11 @@ aliases: [header]
     - [[consteval]]
     - `template`  class definition
     
+# 📋Prerequisite
+Please always add _[[include guards]]_ to header file.⭐
+
 # 📝Definition
-- ...
+A file containing [[Declaration]]s used to share [[interface]]s between parts of a [[program]].
 
 # 🎯Intent
  A short description what does this thing do?
@@ -40,9 +43,6 @@ The benefit separating the header file and source file sees [[class#Separation i
 
 # 🌓Complement
 [[source file]]
-
-# 🤳Applicability
- What are the situations in which this subject can be applied?
 
 # 🧪Composition
 What kind of stuffs composite this subject?

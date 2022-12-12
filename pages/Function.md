@@ -5,20 +5,18 @@ aliases: [mapping]
 # 📝Definition
 - In Programming,
     - A function is a named sequence of statements.
-    
+    - A named unit of code that can be invoked (called) from different parts of a [[Program]]; a logical unit of [[computation]].
 - In Mathematics,
     - $f$ is a function that **maps** real $n$-vectors to **real** numbers.
     - Therefore, $f(x)$ is a scalar which is the **value** of such function at $x$(param).  Hence, function sometimes is called real-valued function or scalar-valued function.
     - A function is a rule for transforming an object into another object.
     - A map is often used as a synonym for a function. For **2** non-empty sets $A, B$, the mapping denotes as $f:A\to B$. Such that, for every $a_i$ of $A$, there is one **unique** element $b_i$ in $B$ corresponding to $a_i$.
         - $f(a)=b$
-        
     - A function is **a binary relation between two sets** that associates each element of the first set(nonempty real number$\mathbb{R}$ set) to exactly one element of the second set.
         - $$
           y = f(x)
           $$
         - a.k.a. $x$ is in the set $A$ of left side, $y$ is in the set $B$ of the right side.
-        
 # 📈Diagram
 - Diagram of "This is a function" which passed the [[Horizontal and Vertical Line Test#Vertical Line Test|vertical line test]].
     - ![name](../assets/Xto3minus3x.svg){:height 300, :width 300}

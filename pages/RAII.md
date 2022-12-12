@@ -1,5 +1,12 @@
+---
+tags:
+  - BestPractice
+---
 # 📝Definition
 Resource acquisition is initialization (RAII) is a programming idiom used in several object-oriented, statically-typed programming languages to describe a particular language behavior.
+
+# 🎯Intent
+For resource management based on scopes.
 
 # 🤷‍♂️Why should I care?
 #BjarneStroustrup  stated that this is the most important subject of C++.

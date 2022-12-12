@@ -23,6 +23,10 @@ First of all, it is a [[type|data type]]. It can be on the left side of an expre
 It is a feature in #cpp11 which extends the notion of [[value categories|rvalue]]s by letting you bind an rvalue(category) to an rvalue reference.
 It prolongs the lifetime of the rvalue as if it was an [[value categories|lvalue]].
 
+# 🧠Intuition
+In #cpp 
+(1) a value describing the location of a typed value in memory;
+(2) a variable holding such a value.
 
 
 # 🌓Complement

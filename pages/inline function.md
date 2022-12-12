@@ -1,3 +1,7 @@
+---
+tags:
+  - function
+---
 # 📝Definition
 - An `inline` function represents a request to the compiler to expand the function at each call point. With an `inline` function, the compiler replaces the function call with a copy of the code to be executed.
 

@@ -21,7 +21,7 @@ A destructor makes sure that an object is properly cleaned up before it is destr
 [[RAII]]
 
 # ⛈Characteristics
-The destructor works in a [[Recursion|recursive]] way.
+The destructor works in a [[recursion|recursive]] way.
 ```cpp
 vector<vector<vector<double>>>* p = new vector<vector<vector<double>>>(13);
 delete p;
@@ -35,7 +35,7 @@ The `delete` will
 
 
 # 🗑Unorganized
-The destructors for [[data member]] — and for [[Base Class|bases]] — are implicitly called from a [[Derived Class]] class destructor (whether [[user-defined]] or generated). Basically, all the rules add up to: “Destructors are called when the object is destroyed” (by going out of scope, by [[delete keyword]], etc.).
+The destructors for [[data member]] — and for [[base class|bases]] — are implicitly called from a [[derived class]] class destructor (whether [[user-defined]] or generated). Basically, all the rules add up to: “Destructors are called when the object is destroyed” (by going out of scope, by [[delete keyword]], etc.).
 
 As a rule of thumb: if you have a class with a virtual function, it needs a virtual
 destructor. The reason is:

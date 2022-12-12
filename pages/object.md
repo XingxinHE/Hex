@@ -2,6 +2,9 @@
 An object is a region of memory with a [[type]] that specifies what kind of information can be placed in it.
 
 # 🧠Intuition
+ (1) an initialized region of [[memory]] of a known [[type]] which holds a [[value]] of that type;
+ (2) a region of memory.
+
 Find an intuitive way of explanation of this concept.
 - Think of an object as a "box" into which you can put a value of the object's [[type]].
   ![name](../assets/an_object.svg){:height 81, :width 122}

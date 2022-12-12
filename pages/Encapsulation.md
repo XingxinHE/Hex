@@ -4,7 +4,11 @@
   ```c#
   Consolw.WriteLine("Hello World!");
   ```
+# 🧠Intuition
+Protecting something meant to be private (e.g., [[implementation]] details) from unauthorized access.
 
 # 🎯Intent
 **Combine** data and methods within a class.   (how to <u>define</u> a class)
 **Control** the accessibility of the data and methods.  (how to <u>use</u> a class)
+
+

@@ -1,9 +1,11 @@
 ---
-aliases: [parent class, super class]
+aliases: [parent class, super class, base classes]
+tags:
+  - class
 ---
 
 # 📝Definition
-The name is the essence of this topic.
+A [[type]] that is intended to be derived from (e.g., has a non- `final`  virtual function), and [[object]]s of the type are intended to be used only indirectly (e.g., by pointer). [In strict terms, “base class” could be defined as “something we derived from” but we are specifying in terms of the class designer’s intent.] Typically a base class has one or more virtual functions.
 
 # 🎯Intent
  A short description what does this thing do?

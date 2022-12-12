@@ -3,7 +3,7 @@ aliases: [Theory of Computation]
 ---
 
 # 📝Definition
-- The name is the essence of this topic.
+The execution of some code, usually taking some input and producing some output.
 
 # 🚀Benefit / Pros
 - Benefit learning Theory of Computation
