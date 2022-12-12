@@ -10,7 +10,7 @@ aliases: [sequence]
 
 # ⛈Characteristics / Properties
 - 📌Order
-    - The order doesn’t matter in a [[Set]] , but in a sequence and tuple it does.
+    - The order doesn’t matter in a [[set]] , but in a sequence and tuple it does.
     - $$
       (7,21,57)\neq(57,7,21)
       $$

@@ -3,7 +3,7 @@ aliases: [linear dependent,linearly dependent]
 ---
 
 # 📝Definition
-- The [[Set]] of $n$- [[vector]] $\{a_1, ..., a_k\}$ (with $k\geq1$) is linearly dependent if
+- The [[set]] of $n$- [[vector]] $\{a_1, ..., a_k\}$ (with $k\geq1$) is linearly dependent if
     - $$
       \beta_1\alpha_1+\cdots+\beta_k\alpha_k=0
       $$

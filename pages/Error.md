@@ -1,5 +1,5 @@
 # 📝Definition
-You know what is "error".
+A mismatch between reasonable expectations of [[program]] behavior (often expressed as a requirement or a users’ guide) and what a program actually does.
 
 # 🏹Strategy
 [[Error-Handling]] is the art of handling errors.

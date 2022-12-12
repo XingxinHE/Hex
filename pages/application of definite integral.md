@@ -24,7 +24,7 @@ $$
 		- If we slice the region between the two curves vertically, we need to consider two different regions.
 			- ![name](../assets/Vertical_Slices.png)
 		- Region $[0,1]$
-			- This region is tricky because $x=y^2$ is not a function in terms of $x$, simply because there are 2 values of that function. see the [[Function#📝Definition|the definition of function]].
+			- This region is tricky because $x=y^2$ is not a function in terms of $x$, simply because there are 2 values of that function. see the [[function#📝Definition|the definition of function]].
 			- Therefore, we need to split the function into 2 half, which are $\sqrt{x},-\sqrt{x}$.
 		- Region $[1,4]$
 			- Nothing special, just the area between 2 curves.

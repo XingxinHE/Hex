@@ -181,7 +181,7 @@ Although inner product itself is operation, by combining different inner product
                           \end{align}
                           $$
                         
-                    - Since $\cos$ is an [[Function#^49e41254c30b3ba8|even function]]. The following is the same. It means that the order doesn't matter and we **only care about the difference between 2 angles**(a.k.a. $\theta$).
+                    - Since $\cos$ is an [[function#^49e41254c30b3ba8|even function]]. The following is the same. It means that the order doesn't matter and we **only care about the difference between 2 angles**(a.k.a. $\theta$).
                         - $$
                           \cos(\beta-\alpha)=\cos(\alpha-\beta)=\cos\theta
                           $$

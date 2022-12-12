@@ -1,5 +1,5 @@
 # 📝Definition
-The name is the essence of this topic.
+A language for expressing [[program]]s.
 
 # 🔎Implementation
  The code or technical stuffs implement this.

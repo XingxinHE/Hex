@@ -1,13 +1,13 @@
 # 📝Definition
 A finite automaton is a 5-[[Tuple|tuple]] ($Q,\Sigma,\delta,q_0,F$), where
-- $Q$ is a finite [[Set|set]] called the states
-- $\Sigma$ is a finite [[Set|set]] called the alphabet
+- $Q$ is a finite [[set|set]] called the states
+- $\Sigma$ is a finite [[set|set]] called the alphabet
 - $\delta:Q\times\Sigma\rightarrow Q$ is the transition function
 - $q_0\in Q$ is the starter state
-- $F\subseteq Q$ is the [[Set|set]] of accept states(or final states)
+- $F\subseteq Q$ is the [[set|set]] of accept states(or final states)
 
 > [!tip] Tips
-> - Notation. For the "$\times$" and "$\rightarrow$" in $\delta:Q\times\Sigma\rightarrow Q$, it means [[Function#^bdaa359665a4eb20|domain]] and [[Function#^edfd03044fa2551e|range]].
+> - Notation. For the "$\times$" and "$\rightarrow$" in $\delta:Q\times\Sigma\rightarrow Q$, it means [[function#^bdaa359665a4eb20|domain]] and [[function#^edfd03044fa2551e|range]].
 > - Facts. There is only 1 starter state while there could be multiple accept states.
 
 

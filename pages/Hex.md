@@ -14,7 +14,7 @@
 📖Reading
 - 0 Introduction
 	- 0.1. [[Theory of Computation]], [[Complexity]], [[Computability]], [[Automata]]
-	- 0.2. [[Set]], [[Tuple]], [[Function]], [[Graph]], [[Tree]], [[Boolean Logic]]
+	- 0.2. [[set]], [[Tuple]], [[function]], [[Graph]], [[Tree]], [[Boolean Logic]]
 	- 1.1. [[Finite Automaton]], [[regular language]]
 - 1 Regular Expression
 - 2 Context-Free Languages
@@ -375,7 +375,7 @@ Outline:
 - Chapter 05 Compound and Iteration statements
 	- [[Compound Assignment Operator]], [[do-while loop]], [[while loop]], [[continue keyword]], [[break keyword]]
 - Chapter 06 Errors and exceptions
-	- [[Error]], [[Error-Handling]], [[Exception]], [[try-catch]], [[Exception#unhandled exception]], 
+	- [[error]], [[Error-Handling]], [[Exception]], [[try-catch]], [[Exception#unhandled exception]], 
 - Chapter 07 Class and objects
 	- [[class]], [[Encapsulation]], [[Constructor]]
 - Chapter 20 Delegate and Event
@@ -442,7 +442,7 @@ Outline:
 ### The Calculus Lifesaver
 - Table of Content
 	- Chapter 1 Functions, Graphs, and Lines
-		- [[Function]], [[Function#^c436ffd3332b45e9|codomain]], [[Function#^bdaa359665a4eb20|domain]], [[Function#^be8a9dcb429c6969|range]], [[Interval Notation|interval notation]], [[Horizontal and Vertical Line Test#Vertical Line Test|vertical line test]], [[Horizontal and Vertical Line Test#Horizontal Line Test|horizontal line test]], [[Function#^a7ed31bf0b55411a|inverse function]], [[Function#^d91a4e8de93ada8e|composition of function]], [[Function#^b7a4b39e6a3bebc9|odd function and even function]], [[Linear Function]], [[polynomial]], [[Quadratic Equation|quadratic function]], [[rational function]], [[Exponential Function|exponential]], [[Logarithm]], [[Trigonometric Function]], [[absolute value function]], [[Radical expression]]
+		- [[function]], [[function#^c436ffd3332b45e9|codomain]], [[function#^bdaa359665a4eb20|domain]], [[function#^be8a9dcb429c6969|range]], [[Interval Notation|interval notation]], [[Horizontal and Vertical Line Test#Vertical Line Test|vertical line test]], [[Horizontal and Vertical Line Test#Horizontal Line Test|horizontal line test]], [[function#^a7ed31bf0b55411a|inverse function]], [[function#^d91a4e8de93ada8e|composition of function]], [[function#^b7a4b39e6a3bebc9|odd function and even function]], [[Linear Function]], [[polynomial]], [[Quadratic Equation|quadratic function]], [[rational function]], [[Exponential Function|exponential]], [[Logarithm]], [[Trigonometric Function]], [[absolute value function]], [[Radical expression]]
 - #thingsIDK
 	- ...
 - Info

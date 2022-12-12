@@ -29,7 +29,7 @@ aliases: [simplicial 1-complexes]
     - A path in which all the arrows point in the same direction as its steps is called a directed path.
     
 # ✒Notation
-- If $V$ is the [[Set]] of nodes of a graph $G$ and $E$ is the set of edges of that graph, we say
+- If $V$ is the [[set]] of nodes of a graph $G$ and $E$ is the set of edges of that graph, we say
     - $$
       G = (V,E).
       $$
@@ -86,7 +86,7 @@ $$
 ### Applicability
 - 📌Binary Relation
     - Directed graphs are a handy way of depicting binary relations.
-    - If $R$ is a [[Function#^b5e21d73e61288f3|binary relation]] whose domain is $D\times D$, a labeled graph $G = (D,E)$ represents $R$, where $E = \{(x, y)| xRy\}$.
+    - If $R$ is a [[function#^b5e21d73e61288f3|binary relation]] whose domain is $D\times D$, a labeled graph $G = (D,E)$ represents $R$, where $E = \{(x, y)| xRy\}$.
     - A typical example is the children game Scissors-Paper-Stone
       ![name](../assets/scissors_paper_stone.png){:height 200, :width 200}
     

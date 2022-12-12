@@ -2,7 +2,7 @@
 aliases: [characteristic function]
 ---
 # 📝Definition
-In mathematics, an indicator function or a characteristic function of a subset of a [[Set|set]] is a function that maps elements of the subset to $\textbf{1}$, and all other elements to $\textbf{0}$.
+In mathematics, an indicator function or a characteristic function of a subset of a [[set|set]] is a function that maps elements of the subset to $\textbf{1}$, and all other elements to $\textbf{0}$.
 
 # ✒Notation
 The indicator function of a subset $A$ of a set $X$ is a function

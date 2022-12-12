@@ -38,7 +38,7 @@ aliases: [Indefinite Integral]
         - $$
           \int \,  x^p\  dx \,  \, = \qquad \begin{cases}  \displaystyle \frac{x^{p+1}}{p+1} +C &  \text{if } p \neq -1 \\ \ln \left(|x|\right)+C &  \text{if } p = -1. \end{cases}
           $$
-        - Few words on when $p=-1$. We can notice that $p$ can't be $-1$ in the first expression. Then we might need to consider when $x^p=x^{-1}$. The reason why there is an absolute value is that although the [[Function#^bdaa359665a4eb20|domain]] of $\ln{(x)}$ should greater than $0$, the domain of $x^{-1}$ does not have that constraint! Therefore, we have it like $\ln{(\lvert x\rvert)}$.
+        - Few words on when $p=-1$. We can notice that $p$ can't be $-1$ in the first expression. Then we might need to consider when $x^p=x^{-1}$. The reason why there is an absolute value is that although the [[function#^bdaa359665a4eb20|domain]] of $\ln{(x)}$ should greater than $0$, the domain of $x^{-1}$ does not have that constraint! Therefore, we have it like $\ln{(\lvert x\rvert)}$.
         
 - Method of substitution
     - The method of substitution is the integration analogue of the chain rule. It is **tailored** for the differential notation.

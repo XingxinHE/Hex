@@ -19,7 +19,7 @@ The normal distribution is used to compute probabilities across all sciences, so
 		- $$\frac{1}{30\sqrt{2\pi }} e^{-x^2/1800}.$$
 		- If the probability that a student gets a score of 30 points or higher is $0.16$, what is the probability that a student scores between -30 and 0 points?
 	- 🏹Strategy:
-		- The question seems complicated at the first glance. while it is super easy! We must remember that a normal distribution is [[Function#^49e41254c30b3ba8|even function]].
+		- The question seems complicated at the first glance. while it is super easy! We must remember that a normal distribution is [[function#^49e41254c30b3ba8|even function]].
 	- ✏Solution:
 		- Draw the diagram
 			- ![name|200](../assets/normal_distribution.svg)

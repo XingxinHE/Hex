@@ -45,7 +45,7 @@ ForwardIterator remove_if(
     ForwardIterator last,
     Predicate pred);
 ```
-The last argument of `remove_if` is a function object to act as [[Function#^11fe4b|predicate function]].
+The last argument of `remove_if` is a function object to act as [[function#^11fe4b|predicate function]].
 
 # 🚀Benefit / Pros
 Function objects provide **==2==** main advantages over a straight function call. 

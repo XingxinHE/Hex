@@ -16,7 +16,7 @@ $$
 
 
 # 📝Definition
-- The logarithm $\log_bx$ for a base $b$ and a number $x$ is defined to be the [[Function#^a7ed31bf0b55411a|inverse function]] of taking $b$ to the power $x$, i.e., $b^x$. Therefore, for any $x$ and $b$,
+- The logarithm $\log_bx$ for a base $b$ and a number $x$ is defined to be the [[function#^a7ed31bf0b55411a|inverse function]] of taking $b$ to the power $x$, i.e., $b^x$. Therefore, for any $x$ and $b$,
 - $$
 x=\log_b(b^x)
 $$

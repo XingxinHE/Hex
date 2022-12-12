@@ -5,7 +5,7 @@ aliases: [mapping]
 # 📝Definition
 - In Programming,
     - A function is a named sequence of statements.
-    - A named unit of code that can be invoked (called) from different parts of a [[Program]]; a logical unit of [[computation]].
+    - A named unit of code that can be invoked (called) from different parts of a [[program]]; a logical unit of [[computation]].
 - In Mathematics,
     - $f$ is a function that **maps** real $n$-vectors to **real** numbers.
     - Therefore, $f(x)$ is a scalar which is the **value** of such function at $x$(param).  Hence, function sometimes is called real-valued function or scalar-valued function.

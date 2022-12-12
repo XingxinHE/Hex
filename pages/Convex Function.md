@@ -1,5 +1,5 @@
 # 📝Definition
-- A function $f : \mathbb{R}^n \to \mathbb{R}$ is [[Convex]] if [[Function#^bdaa359665a4eb20|**dom**]] $f$ is a [[Convex Set]] and if for all $x,y \in$ **dom** $f$, and $a$ with $0\leq a\leq1$, we have
+- A function $f : \mathbb{R}^n \to \mathbb{R}$ is [[Convex]] if [[function#^bdaa359665a4eb20|**dom**]] $f$ is a [[Convex Set]] and if for all $x,y \in$ **dom** $f$, and $a$ with $0\leq a\leq1$, we have
     - $$
       f(ax+(1-a)y)\leq af(x)+(1-a)f(y), \quad \text{for all }a\in [0,1]
       $$ ^e7f3c75840c94275

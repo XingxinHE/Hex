@@ -6,7 +6,7 @@ aliases: [recursive, recursively]
 - Recursion is defined as any solution technique in which <u>large problems</u> are solved by <u>reducing them to smaller problems</u> ***of the same form***.
 
 # 🧠Intuition
-The act of a [[Function]] calling itself; see also iteration.
+The act of a [[function]] calling itself; see also iteration.
 
 # 🌓Complement
 - [[iteration]]

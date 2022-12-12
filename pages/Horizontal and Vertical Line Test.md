@@ -3,7 +3,7 @@ aliases: [horizontal line test, vertical line test]
 ---
 # Horizontal Line Test
 - 📝**Definition**
-    - If every horizontal line intersects the graph of a [[Function]] at most once, the function has an [[Function#^a7ed31bf0b55411a|inverse]].
+    - If every horizontal line intersects the graph of a [[function]] at most once, the function has an [[function#^a7ed31bf0b55411a|inverse]].
     
 - 🀄**CHN**:
 - 🔗**Link**:

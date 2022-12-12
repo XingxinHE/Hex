@@ -1,2 +1,2 @@
 # 📝Definition
-Clients are who calls [[Function]]s provided by a [[library]].
+Clients are who calls [[function]]s provided by a [[library]].

@@ -1,41 +1,11 @@
-### Associative arrays
-- 📝**Definition**: Arrays implemented using maps as their underlying representation are called **associative arrays**.
-
-### Coordinates
-- 📝**Definition**:
-    - In computer science, The most common way of modeling a screen in a program is as a rectangle of pixels. Each pixel is identified by an x (horizontal) coordinate and a y (vertical) coordinate. The x coordinates start with 0, indicating the leftmost pixel, and increase (toward the right) to the rightmost pixel.
-    - In mathematician's view, the preceding view is odd...
-    
-- 📈**Diagram**:
-    - ![screen_coordinate](../assets/screen_coordinate.png){:height 250, :width 250}
-    
-
-
 
 ### High-level programming language
 - 📝**Definition**: The first high-level programming language is called FORTRAN(formula translation) which resembles the mathematical formulas into machine language.
-    
-### Lexicon
-- 📝**Definition**: A set of words with no associated definitions is called a ***lexicon***.
-- 🀄**CHN**: lexicon被翻译成辞典是不正确的，因为lexicon强调是一串不带释义的英文单词。讲白了就是一个set of English words
-
-### Lexicographic order
-- 📝**Definition**: The order defined by the underlying ASCII codes.
-
 
 
 
 ### Parameterized classes
 - 📝**Definition**: Classes that include a base-type specification are called ***parameterized classes*** in the object-oriented community.
-
-### Poisson Distribution
-- 📝**Definition**: **Poisson distribution** is a [discrete probability distribution](https://en.wikipedia.org/wiki/Discrete_probability_distribution) that expresses the probability of a given number of events occurring in a fixed interval of time or space if these events occur with a known constant mean rate and [independently](https://en.wikipedia.org/wiki/Statistical_independence) of the time since the last event.
-
-### Procedure
-- 📝**Definition**: A function that does not return a value and is instead executed for its effect.
-
-
-
 
 
 ### `size_type`
@@ -102,8 +72,6 @@
 
 - *concrete type*: a type that is not a base class, and objects of the type are intended to be used directly (not only by pointer/indirection), its size is known, it can typically be allocated anywhere the programmer wants (e.g., stack or statically).
 
-- *constant*: a value that cannot be changed (in a given scope); not mutable.
-
 - *constructor*: an operation that initializes (“constructs”) an object. Typically a constructor establishes an invariant and often acquires resources needed for an object to be used (which are then typically released by a destructor).
 
 - *copy*: an operation that makes two object have values that compare equal. See also move.
@@ -116,17 +84,11 @@
 
 - *data*: values used in a computation.
 
-- *debugging*: the act of searching for and removing errors from a program; usually far less systematic than testing.
-
 - *design*: an overall description of how a piece of software should operate to meet its specification.
 
 - *destructor*: an operation that is implicitly invoked (called) when an object is destroyed (e.g., at the end of a scope). Often, it releases resources.
 
-- *error*: a mismatch between reasonable expectations of program behavior (often expressed as a requirement or a users’ guide) and what a program actually does.
-
 - *executable*: a program ready to be run (executed) on a computer.
-
-- *feature creep*: a tendency to add excess functionality to a program “just in case.”
 
 - *file*: a container of permanent information in a computer.
 
@@ -158,8 +120,6 @@
 
 - *move-only type*: a concrete type that is movable but not copyable.m
 
-- *operation*: something that can perform some action, such as a function and an operator.
-
 - *overflow*: producing a value that cannot be stored in its intended target.
 
 - *overload*: defining two functions or operators with the same name but different argument (operand) types.
@@ -173,8 +133,6 @@
 - *post-condition*: a condition that must hold upon exit from a piece of code, such as a function or a loop.
 
 - *pre-condition*: a condition that must hold upon entry into a piece of code, such as a function or a loop.
-
-- *programming language*: a language for expressing programs.
 
 - *pseudo code*: a description of a computation written in an informal notation rather than a programming language.
 
@@ -215,8 +173,6 @@
 - *TS*: [Technical Specification](https://www.iso.org/deliverables-all.html?type=ts), A Technical Specification addresses work still under technical development, or where it is believed that there will be a future, but not immediate, possibility of agreement on an International Standard. A Technical Specification is published for immediate use, but it also provides a means to obtain feedback. The aim is that it will eventually be transformed and republished as an International Standard.
 
 - *template*: a class or a function parameterized by one or more types or (compile-time) values; the basic C++ language construct supporting generic programming.
-
-- *testing*: a systematic search for errors in a program.
 
 - *trade-off*: the result of balancing several design and implementation criteria.
 

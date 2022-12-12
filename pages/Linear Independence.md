@@ -3,7 +3,7 @@ aliases: [linear independent, linearly independent]
 ---
 
 # 📝Definition
-- The [[Set]] of $n$- [[vector]] $\{a_1, ..., a_k\}$ (with $k\geq1$) is linearly independent if it is not linear dependent, i.e.
+- The [[set]] of $n$- [[vector]] $\{a_1, ..., a_k\}$ (with $k\geq1$) is linearly independent if it is not linear dependent, i.e.
     - $$
       \beta_1\alpha_1+\cdots+\beta_k\alpha_k=0
       $$

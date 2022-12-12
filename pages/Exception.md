@@ -1,7 +1,7 @@
 # 🧠Intuition
 - The fundamental idea of exception is ^d5e20b858167b2c9
     - 1️⃣
-        - to separate detection of an [[Error]] (which should be done in a called function, a.k.a. [[Glossary#Implementer|implementer]] ) from
+        - to separate detection of an [[error]] (which should be done in a called function, a.k.a. [[Glossary#Implementer|implementer]] ) from
         - the handling of an error (which should be done in the calling function, a.k.a. [[Glossary#Client|client]])
         
     - 2️⃣
