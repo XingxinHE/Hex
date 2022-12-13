@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+""" To recover the Python script to generate this SVG, delete the line above -->
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100%" height="100%" viewBox="-102 -102 204 204">
+ <title>sliding ladder in astroid</title>
+ <desc>The envelope of a ladder (coloured lines in the top-right quadrant) sliding down a wall, and its reflections (other quadrants) is an astroid, as drawn by CMG Lee. Its midpoint (small disks) traces out a circular arc (thick white circle) while other points (triangle and square) trace out elliptical arcs (thin white ellipses). In the SVG file, hover over a ladder to highlight it.</desc>
+ <style type="text/css">
+  #main:hover   { stroke-opacity:0.25; }
+  .active:hover { stroke-opacity:1; }
+  .inactive     { pointer-events:none; }
+  #quadrant { stroke-width:3; }
+  .ladder   { stroke:#000000; stroke-width:2; opacity:0.1; }
+  .ladder6  { stroke:#993300; }
+  .ladder5  { stroke:#cc0000; }
+  .ladder4  { stroke:#cc9900; }
+  .ladder3  { stroke:#009900; }
+  .ladder2  { stroke:#0099cc; }
+  .ladder1  { stroke:#0000ff; }
+  .ladder0  { stroke:#cc00ff; }
+ </style>
+ <defs>
+  <g id="ladder" fill="#ffffff" stroke-linecap="round" opacity="0.75">
+   <path d="M 0,0 V -100"/>
+   <g stroke-width="1">
+    <circle cx="0" cy="-50" r="2.5"/>
+    <rect x="-2" y="-27" width="4" height="4"/>
+    <circle cx="0" cy="-75" r="1.5"/>
+    <path d="M 0,-78 l -2.5,5 h 5 z"/>
+   </g>
+  </g>
+<!-- BEGIN_DYNAMIC_DEFS -->
+
+<!--   END_DYNAMIC_DEFS -->
+ </defs>
+ <circle cx="0" cy="0" r="99999" fill="#ffffff"/>
+ <g id="main">
+  <g opacity="0.25">
+   <use xlink:href="#quadrant" transform="scale(-1, 1)"/>
+   <use xlink:href="#quadrant" transform="scale(-1,-1)"/>
+   <use xlink:href="#quadrant" transform="scale( 1,-1)"/>
+  </g>
+  <g id="quadrant">
+<!-- BEGIN_DYNAMIC_MAIN -->
+    <use class="ladder0 active" xlink:href="#ladder" transform="translate(0.000) rotate(0)"/>
+    <use class="ladder  active" xlink:href="#ladder" transform="translate(8.716) rotate(-5)"/>
+    <use class="ladder  active" xlink:href="#ladder" transform="translate(17.365) rotate(-10)"/>
+    <use class="ladder1 active" xlink:href="#ladder" transform="translate(25.882) rotate(-15)"/>
+    <use class="ladder  active" xlink:href="#ladder" transform="translate(34.202) rotate(-20)"/>
+    <use class="ladder  active" xlink:href="#ladder" transform="translate(42.262) rotate(-25)"/>
+    <use class="ladder2 active" xlink:href="#ladder" transform="translate(50.000) rotate(-30)"/>
+    <use class="ladder  active" xlink:href="#ladder" transform="translate(57.358) rotate(-35)"/>
+    <use class="ladder  active" xlink:href="#ladder" transform="translate(64.279) rotate(-40)"/>
+    <use class="ladder3 active" xlink:href="#ladder" transform="translate(70.711) rotate(-45)"/>
+    <use class="ladder  active" xlink:href="#ladder" transform="translate(76.604) rotate(-50)"/>
+    <use class="ladder  active" xlink:href="#ladder" transform="translate(81.915) rotate(-55)"/>
+    <use class="ladder4 active" xlink:href="#ladder" transform="translate(86.603) rotate(-60)"/>
+    <use class="ladder  active" xlink:href="#ladder" transform="translate(90.631) rotate(-65)"/>
+    <use class="ladder  active" xlink:href="#ladder" transform="translate(93.969) rotate(-70)"/>
+    <use class="ladder5 active" xlink:href="#ladder" transform="translate(96.593) rotate(-75)"/>
+    <use class="ladder  active" xlink:href="#ladder" transform="translate(98.481) rotate(-80)"/>
+    <use class="ladder  active" xlink:href="#ladder" transform="translate(99.619) rotate(-85)"/>
+    <use class="ladder6 active" xlink:href="#ladder" transform="translate(100.000) rotate(-90)"/>
+<!--   END_DYNAMIC_MAIN -->
+  </g>
+  <g class="inactive" fill="none" stroke="#ffffff">
+   <ellipse cx="0" cy="0" rx="50" ry="50" stroke-width="2"/>
+   <ellipse cx="0" cy="0" rx="25" ry="75"/>
+   <ellipse cx="0" cy="0" rx="75" ry="25"/>
+  </g>
+ </g>
+</svg>
+<!-- Please retain this and other comments, which contain Python code to generate this SVG. """
+
+import re, math
+def fmt(string): ## string.format(**vars()) using tags {expression!format} by CMG Lee
+ def f(tag): i_sep = tag.rfind('!'); return (re.sub('\.0$', '', str(eval(tag[1:-1])))
+  if (i_sep < 0) else ('{:%s}' % tag[i_sep + 1:-1]).format(eval(tag[1:i_sep])))
+ return (re.sub(r'(?<!{){[^{}]+}', lambda m:f(m.group()), string)
+         .replace('{{', '{').replace('}}', '}'))
+def append(obj, string): return obj.append(fmt(string))
+def tabbify(cellss, separator='|'):
+ cellpadss = [list(rows) + [''] * (len(max(cellss, key=len)) - len(rows)) for rows in cellss]
+ fmts = ['%%%ds' % (max([len(str(cell)) for cell in cols])) for cols in zip(*cellpadss)]
+ return '\n'.join([separator.join(fmts) % tuple(rows) for rows in cellpadss])
+def hex_rgb(colour): ## convert [#]RGB to #RRGGBB and [#]RRGGBB to #RRGGBB
+ return '#%s' % (colour if len(colour) > 4 else ''.join([c * 2 for c in colour])).lstrip('#')
+def roundm(x, multiple=1):
+ if   (isinstance(x, tuple)): return tuple(roundm(list(x), multiple))
+ elif (isinstance(x, list )): return [roundm(x_i, multiple) for x_i in x]
+ else: return int(math.floor(float(x) / multiple + 0.5)) * multiple
+
+(out_defs, out_mains) = ([], [])
+outss = []
+l     = 100
+for deg in range(0, 90 + 1, 5):
+ rad  = math.radians(deg)
+ x    = math.sin(rad) * l
+ clas = 'ladder%s' % (deg // 15 if deg % 15 == 0 else ' ')
+ outss.append([deg, rad, x, clas])
+ append(out_mains, '''\
+    <use class="{clas} active" xlink:href="#ladder" transform="translate({x!.3f}) rotate({-deg})"/>''')
+print(tabbify(outss))
+
+half_width = l + 2
+out_p = fmt('width="100%" height="100%" viewBox="{-half_width} {-half_width} {2 * half_width} {2 * half_width}"')
+
+## Compile everything into an .svg file
+myself   = open(__file__, 'r').read() ## the contents of this very file
+file_out = open(__file__[:__file__.rfind('.')] + '.svg', 'wb') ## *.* -> *.svg
+try: ## use try/finally so that file is closed even if write fails
+ file_out.write('''<?xml version="1.0" encoding="utf-8"?><!%s%s
+%s%s%s\n%s%s\n%s%s''' % ('-', '-', ## because SVG comments cannot have 2 consecutive '-'s
+  myself[:myself.find('width',myself.find('<svg'))], ## assume width specified before height/viewBox
+  out_p, ## replace SVG width/height/viewBox with {out_p} & dynamic SVG blocks with {out*s} contents
+  myself[myself.find ('>',myself.find('<svg')):
+         myself.find ('\n',myself.find('BEGIN_'+'DYNAMIC_DEFS'))], '\n'.join(out_defs),
+  myself[myself.rfind('\n',0,myself.find('END_'+'DYNAMIC_DEFS')):
+         myself.find ('\n',myself.find('BEGIN_'+'DYNAMIC_MAIN'))], '\n'.join(out_mains),
+  myself[myself.rfind('\n',0,myself.find('END_'+'DYNAMIC_MAIN')):]))
+finally:
+ file_out.close()
+
+## SVG-Python near-polyglot framework version 3 by CMG Lee (March 2018) -->

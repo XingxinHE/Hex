@@ -72,6 +72,7 @@
 		- [[numerical integration]], [[Riemann sums]], [[Trapezoidal Rule]], [[Simpson's Rule]]
 	- [[Techniques of Integration]]
 		- Partial fractions
+		- quiz Setting up surface area integrals 2, 这个dy和dx实际上都还是用同一个公式，因为！都是绕着x轴转。因此不能因为是dy，而想着半径中心在y轴上！
 💻Assignment
 - Assignment
 📖Reading
