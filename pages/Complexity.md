@@ -4,6 +4,7 @@ aliases: [Complexity Theory]
 
 # 📝Definition
 - In theoretical computer science, the term `complexity` is to mean the number of flops of the best method to carry out the computation. It always is denoted as $O$.
+- In general, complexity is a hard-to-precisely-define notion or measure of the difficulty of constructing a solution to a problem or of the solution itself. Sometimes complexity is used to (simply) mean an estimate of the number of [[operation]]s needed to execute an [[Algorithm]].
 
 # 🎯Intent
 - The central of Complexity Theory is to answer *What makes some problems computationally hard and others easy?*.

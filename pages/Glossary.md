@@ -13,15 +13,6 @@
 
 ### Simulations and models
 - 📝**Definition**: Most problems are far too complex to allow for a complete understanding. There are just too many details. The reason to build a model is that, <u>despite the complexity of a particular problem</u>. If you can come up with a reasonable model for a process, you can often translate the dynamics of the model into a program that captures the behavior of that model. Such a program is called a <u>simulation</u>.
-
-### Stack Frame
-- 📝**Definition**: A new space created by system for all the local variables required when calling a function. In Visual Studio debug mode, there is a tab called `Call Stack`.
-- 🀄**CHN**:
-- 🔗**Link**:
-- 💡**Intuitive**:
-- 🖼**Image**:
-    - Stack Frame Diagram
-      ![stack_frame](../assets/stack_frame.png){:height 229, :width 434}
     
 
 ### State
@@ -57,16 +48,12 @@
 
 - *application*: a program or a collection of programs that is considered an entity by its users.
 
-- *approximation*: something (e.g., a value or a design) that is close to the perfect or ideal (value or design). Often an approximation is a result of trade-offs among ideals.
-
 
 - *assertion*: a statement inserted into a program to state (assert) that something must always be true at this point in the program.
 
 - *bug*: an error in a program.
 
 - *code*: a program or a part of a program; ambiguously used for both source code and object code.
-
-- *complexity*: a hard-to-precisely-define notion or measure of the difficulty of constructing a solution to a problem or of the solution itself. Sometimes complexity is used to (simply) mean an estimate of the number of operations needed to execute an algorithm.
 
 - *concept*: (1) a notion, and idea; (2) a set of requirements, usually for a template argument.
 
@@ -92,13 +79,10 @@
 
 - *file*: a container of permanent information in a computer.
 
-- *floating-point number*: a computer’s approximation of a real number, such as 7.93 and 10.78e-3.
 
 - *handle*: a class that allows access to another through a member pointer or reference. See also resource, copy, move.
 
 - *hiding*: the act of preventing a piece of information from being directly seen or accessed. For example, a name from a nested (inner) scope can prevent that same name from an outer (enclosing) scope from being directly used.
-
-- *ideal*: the perfect version of something we are striving for. Usually we have to make trade-offs and settle for an approximation.
 
 - *infinite recursion*: a recursion that doesn’t end until the machine runs out of memory to hold the calls. In reality, such recursion is never infinite but is terminated by some hardware error.
 
@@ -173,8 +157,6 @@
 - *TS*: [Technical Specification](https://www.iso.org/deliverables-all.html?type=ts), A Technical Specification addresses work still under technical development, or where it is believed that there will be a future, but not immediate, possibility of agreement on an International Standard. A Technical Specification is published for immediate use, but it also provides a means to obtain feedback. The aim is that it will eventually be transformed and republished as an International Standard.
 
 - *template*: a class or a function parameterized by one or more types or (compile-time) values; the basic C++ language construct supporting generic programming.
-
-- *trade-off*: the result of balancing several design and implementation criteria.
 
 - *truncation*: loss of information in a conversion from a type into another that cannot exactly represent the value to be converted.
 
