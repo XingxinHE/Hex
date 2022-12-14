@@ -42,7 +42,7 @@ What kind of stuffs composite this subject?
 
 # 🏷(Sub)Categories
 - There are several models of Automata Theory
-    - One model, called the [[Finite Automaton]], is used in text processing, [[Compiler]]s, and hardware design.
+    - One model, called the [[Finite Automaton]], is used in text processing, [[compiler]]s, and hardware design.
     - Another model, called the [[Context-Free Grammar]], is used in [[Programming Language]]s and [[Artificial Intelligence]].
     
 # 🔎Implementation

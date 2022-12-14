@@ -11,7 +11,7 @@ Find an intuitive way of explanation of this concept.
 
 # 🙋‍♂️Related Elements
  The closest element to current one, what are their differences?
-- 📌Relationship between [[type]]-object- [[value]]- [[variable]]- [[Declaration]]- [[Definition]] ⭐
+- 📌Relationship between [[type]]-object- [[value]]- [[variable]]- [[declaration]]- [[Definition]] ⭐
     - relationship:
         - • A **type** defines a set of possible values and a set of operations (for an object).
           • An **object** is some memory that holds a value of a given type.

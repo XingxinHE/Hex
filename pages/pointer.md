@@ -39,6 +39,7 @@ A pointer does not know how many elements it points to.
     - [[Smart Pointer]]
     - [[null pointer]]
     - [[this keyword|this pointer]]
+    - [[dangling pointer]]
 
 # ✒Notation
 In #cpp ,
@@ -113,7 +114,8 @@ The type of that target value is called the base type for the pointer.
 
 
 # 🌓Complement
-- [[Reference Type|reference]]
+![[Reference Type#🌓Complement#🌗reference type data type vs. pointer type data type]]
+
 # 💫Operation
 Operations related to pointer in #cpp 
 - 1️⃣take the address using `&` - [[address-of operator]]
@@ -145,6 +147,16 @@ Opinion varies in light of preceding check nullness.
 - Others may prefer the 2nd.
 
 
+## pointer arithmetic
+**📌`++p` vs. `p++`**
+Suppose you have a pointer `p`, do you see any difference on `++p` and `p++`.
+- In terms of **performance**
+  - for built-in type, no difference
+  - for other type, `++p` version performs better
+- In terms of **arithmetic**
+  - `p++` incremented after assignment
+  - `++p` incremented before assignment
+
 
 # 🕳Pitfalls
 
@@ -172,3 +184,5 @@ value).
 # 🥼Expert's Advice
 - Lippman had words to beginner "Be patient when you are learning pointer. The initial **complexity** of using a pointer comes from its <u>confusing syntax</u>".🤣
 - #BjarneStroustrup addressed "if you lack a basic and practical understanding of how a program maps onto a computer's memory and operations, you will have problems getting a solid grasp of higher-level topics, such as [[data structure]], [[Algorithm|algorithms]], and [[operating system]]."
+
+

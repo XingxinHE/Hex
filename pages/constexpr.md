@@ -1,11 +1,22 @@
+---
+tags:
+  - cpp
+---
 # 📝Definition and Classification
-- A `constexpr` symbolic constant must be given a value that is known at [[compile-time]].
+A `constexpr` symbolic constant must be given a value that is known at [[compile-time]].
 
 # 🧠Intuition
 `constexpr` is "conster" than [[const]].
 
 # 🚀Benefit
  Help [[run-time]] computation into [[compile-time]] computation which let software run faster.
+
+# ✒Notation
+**`constexpr`** _literal-type_ _identifier_ **=** _constant-expression_ **;**  
+**`constexpr`** _literal-type_ _identifier_ **{** _constant-expression_ **}** **;**  
+**`constexpr`** _literal-type_ _identifier_ **(** _params_ **)** **;**  
+**`constexpr`** _ctor_ **(** _params_ **)** **;**
+
 
 # ⌨Sample Code
 - On Initialization

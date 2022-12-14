@@ -1,3 +1,7 @@
+---
+aliases: [deduce]
+---
+
 - Section 2.5. Compound Types, const, and auto
 
 - Exercise 2.38: Describe the differences in type deduction between decltype and

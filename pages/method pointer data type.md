@@ -4,7 +4,7 @@
 
 
 # 📝Definition
-In #cpp , [[Declaration]] of [[pointer]] to function member is a special case of pointer declaration.
+In #cpp , [[declaration]] of [[pointer]] to function member is a special case of pointer declaration.
 
 
 

@@ -1,6 +1,6 @@
 # 📝Definition
 - In #mathematics tics, Definitions describe the objects and notions that we use.
-- In #cpp , a definition is a [[Declaration]] of an entity that supplies all information necessary to complete a program using the entity.
+- In #cpp , a definition is a [[declaration]] of an entity that supplies all information necessary to complete a program using the entity.
 
 # 🎯Intent
 In terms of different things, its intent is different.
@@ -19,10 +19,10 @@ In terms of different things, its intent is different.
 -
 
 # 😲Intuitive Explanation
-A definition provides compilers with details a [[Declaration]] omits.
-A definition is a [[Declaration]] that allocates [[memory]].
+A definition provides compilers with details a [[declaration]] omits.
+A definition is a [[declaration]] that allocates [[memory]].
 # 🌓Complement
-- ![[Declaration#^72ee5fd56e669cbb]]
+- ![[declaration#^72ee5fd56e669cbb]]
 
 # 🚀Benefit
  A scenario that illustrates the benefit this object provides.

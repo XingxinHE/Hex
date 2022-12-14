@@ -4,7 +4,7 @@ aliases: [identifier]
 # 📖Terminology
 ## Identifier vs. Variable
 I think they are very similar to each others.
-- identifier is to be "==identified==" by the [[Compiler]].
+- identifier is to be "==identified==" by the [[compiler]].
 - The name of variable is an identifier while variable also contains value.
 > [!NOTE] 
 > Sometimes people use "identifier" and variable interchangeably. Therefore I put them together.
@@ -39,14 +39,14 @@ In #cpp and #csharp ,
 
 
 ## #csharp 
-### [[Declaration]]
+### [[declaration]]
 ```c#
 type variableName;
 int age;
 ```
 
 ### [[assignment]]
-After [[Declaration]], you are allowed to assign value to variable by [[Copy Assignment Operator]] assign operator `=`   :
+After [[declaration]], you are allowed to assign value to variable by [[Copy Assignment Operator]] assign operator `=`   :
 
 ```c#
 age = 28;

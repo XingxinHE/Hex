@@ -5,7 +5,7 @@ A language for expressing [[program]]s.
  The code or technical stuffs implement this.
 - Two major strategies to implement a programming language
     - [[Interpreter]]s run the program
-    - [[Compiler]]s translate the program
+    - [[compiler]]s translate the program
     - ![name](../assets/programming_language_implementation.svg){:height 300, :width 300}
     
 # 🏷(Sub)Categories

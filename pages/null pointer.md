@@ -17,6 +17,17 @@ void f(void*);
 ```
 
 
+
+📌Don't [[dereference operator|dereference]] null pointer
+```cpp
+void print(double *pd)
+{
+	cout << *pd; //❌dangerous! we didn't check nullness here and dereference!
+}
+```
+
+
+
 # ⌨Sample Code
 📌why `nullptr`
 Use `nullptr` rather than others. Because it kills the ambiguity of overloading function with pointers and integral type.

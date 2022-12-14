@@ -73,6 +73,7 @@
 	- [[Techniques of Integration]]
 		- Partial fractions
 		- quiz Setting up surface area integrals 2, 这个dy和dx实际上都还是用同一个公式，因为！都是绕着x轴转。因此不能因为是dy，而想着半径中心在y轴上！
+		- the geometry meaning of 4B-2
 💻Assignment
 - Assignment
 📖Reading
@@ -190,6 +191,8 @@
 ## Programming Principle and Practice using C++
 - chapter 17 Vector and Free Store
 	- [[sizeof operator]], [[memory]], [[pointer]], [[new keyword]], [[delete keyword]],[[Constructor]]. [[Destructor]], [[RAII]], [[Member access operator]], [[void pointer]], [[Type conversions|type cast]], [[casting operators]], [[casting operators|static_cast]], [[casting operators|reinterpret_cast]]
+	- see the parameter design of a function at [[parameter#🧬Related Elements#pointer and Reference Type reference parameters]]
+	- 
 - #TODO 
 	- 9.7 & 9.8 I have read front and back. Require documentation. This is a good reference of designing interface. Possible to integrate to future chapter 14(design class)?
 - #thingsIDK
@@ -218,10 +221,12 @@
 	- Item 4
 	- Item 5
 	- Item 6
-	- Item 7✅
+	- Item 7✅Distinguish between `()` and `{}` when creating objects
+		- [[{} - initialization syntax]], [[() - initialization syntax]]
 	- Item 8 prefer `nullptr` to `0` and `NULL`✅
 		- [[null pointer]]
-	- Item 9✅
+	- Item 9✅Prefer alias declaration to `typedefs`
+		- [[Alias Declaration]], [[typedef]]
 	- Item 10
 	- Item 11
 	- Item 12
@@ -306,7 +311,7 @@ Outline
 - `const` & initialization
 - constant expression
 - CV-qualifiers
-- The Structure of [[Declaration]]
+- The Structure of [[declaration]]
 - Declaration Specifiers
 - Declarator Operator
 - Parentheses in Declarators

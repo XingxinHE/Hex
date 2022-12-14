@@ -12,13 +12,13 @@ aliases: [header]
 Please always add _[[include guards]]_ to header file.⭐
 
 # 📝Definition
-A file containing [[Declaration]]s used to share [[interface]]s between parts of a [[program]].
+A file containing [[declaration]]s used to share [[interface]]s between parts of a [[program]].
 
 # 🎯Intent
  A short description what does this thing do?
 
 # 🧠Intuition
-A header is a collection of [[Declaration]]s.
+A header is a collection of [[declaration]]s.
 
 # ✒Notation
 - Sample to use a header file

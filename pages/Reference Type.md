@@ -30,8 +30,8 @@ In #cpp
 
 
 # 🌓Complement
-## reference [[type|data type]] vs. [[pointer]] [[type|data type]]
-Reference in #cpp  is not a concept while it is actually a data type. The ==key== evidence is that the C++ standard does not force [[Compiler]] to implement reference using pointers.
+## 🌗reference [[type|data type]] vs. [[pointer]] [[type|data type]]
+Reference in #cpp  is not a concept while it is actually a data type. The ==key== evidence is that the C++ standard does not force [[compiler]] to implement reference using pointers.
 
 
 
@@ -60,7 +60,7 @@ In #cpp, the symbol related to reference is [[&]].
 	- either an [[Reference Type|rvalue reference]], 
 	- or a universal reference (either rvalue or lvalue) depending on the context.
 
-## [[Declaration]] syntax
+## [[declaration]] syntax
 $$
 \underbrace{[\text{storage-class-specifiers}]\space [\text{cv-qualifiers}]\space \text{type-specifiers}}_{\text{declaration specifiers}}\quad\underbrace{[\&\text{ or }\&\&]\space[\text{cv-qualifiers}]\space\text{identifier}}_{\text{declarator}}=[\text{expression}]
 $$

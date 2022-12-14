@@ -1,5 +1,5 @@
 # 📝Definition and Classification
-A declaration tells [[Compiler]] about the name and type of something but it **omits** some details.
+A declaration tells [[compiler]] about the name and type of something but it **omits** some details.
 
 # 🧠Intuition
 A declaration is the specification of a name with its type in a program.

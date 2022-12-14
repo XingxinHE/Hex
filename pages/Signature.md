@@ -1,5 +1,5 @@
 # 📝Definition and Classification
-- Each functions' [[Declaration]] reveals its signature.
+- Each functions' [[declaration]] reveals its signature.
 
 # ⌨Sample Code
 - On the components of a signature

@@ -1,2 +1,2 @@
 # 📝Definition
-[[output|Output]] from a [[Compiler]] intended as input for a [[Linker]] (for the linker to produce executable code).
+[[output|Output]] from a [[compiler]] intended as input for a [[Linker]] (for the linker to produce executable code).

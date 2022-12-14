@@ -2,6 +2,13 @@
 aliases: [class design]
 ---
 
+> [!info] Info
+> For more class design examples, use #ClassDesign
+
+
+
+
+
 - ...
 
 - 📌Design Choice on writing function in class declaration or class definition

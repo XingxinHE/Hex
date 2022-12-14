@@ -16,4 +16,4 @@ Include guards are something like the following.
 ```
 
 # 🎯Intent
-By adding _include guards_ around the header contents, you ensure that the names a [[header file|header]] [[Declaration|declares]] are only declared once for each [[translation unit]]. Define the name in only one [[source file|implementation file]].
+By adding _include guards_ around the header contents, you ensure that the names a [[header file|header]] [[declaration|declares]] are only declared once for each [[translation unit]]. Define the name in only one [[source file|implementation file]].

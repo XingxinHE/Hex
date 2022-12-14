@@ -9,7 +9,7 @@ aliases: [uniform initialization]
 - “Braced initialization” is a syntactic construct.
 
 # 🚀Benefit / Pros
-- In C++
+- In #cpp 
     - `{}` - initializers do not allow [[narrowing]] conversions (and that is usually a good thing) and allow explicit constructors (which is fine, we’re intentionally initializing a new variable).
     - `{}` initialization can be used for nearly all initialization; other forms of initialization can’t.
     - immune to C++'s [[Glossary#Most vexing parse|most vexing parse]]
@@ -67,6 +67,7 @@ aliases: [uniform initialization]
     - for [[STL]]⭐, the `{}` initialization and [[() - initialization syntax]] have their own convention ^b5b3a11eb518d75c
         - ![[vector#^b079993c2b46934b]]
         
+
 # 🕳Pitfalls / Cons
 - In C++,
     - 📌mix the use of [[auto keyword]] and `{}` initialization should be cautious ^e1815291fb65f738
@@ -78,7 +79,6 @@ aliases: [uniform initialization]
           auto x22 = {7, 8};  // x22 is an initializer_list<int> with elements 7 and 8
           ```
         - Therefore, Use  `={...}`  if you really want an  `std::initializer_list<T>`
-        
     - 📌Warning on [[Constructor]] having `std::initializer_list` ^cbdb821daee8fa5
         - Similar to the [[#^e1815291fb65f738|last pitfall]], this also applies to [[Designing Class]].
         - Remember one rule - "Calls using the braced initialization syntax strongly prefer the overloads taking `std::initializer_lists`"
@@ -105,9 +105,7 @@ aliases: [uniform initialization]
                         - ❌not call `Widget(int i, bool b);`
                         - ❌not call `Widget(int i, double d);`
                         - ✅call `Widget(std::initializer_list<bool> il);`
-                        
                     - By calling the 3rd constructor, `10, 5.0` now need to go through type conversion. In this case, it is [[narrowing conversion]]. Therefore it is a compile-error!
-                    
                 - How to solve this?
                     - By using [[() - initialization syntax]] can solve that!
                     - By calling
@@ -119,7 +117,6 @@ aliases: [uniform initialization]
                         - ❌not call `Widget(int i, bool b);`
                         - ✅call `Widget(int i, double d);`
                         - ❌not call `Widget(std::initializer_list<bool> il);`
-                        
             - example 2
                 - The last example is not that bad since the compiler helps you. The worst case is the logic error is hiding underneath...
                 - Context Brief
@@ -144,12 +141,9 @@ aliases: [uniform initialization]
                         - ❌not call `Widget(int i, bool b);`
                         - ❌not call `Widget(int i, double d);`
                         - ✅call `Widget(std::initializer_list<long double> il);`
-                        
                     - It won't have compile-error. But this is SUPER BAD! Imagine you have different implementation regarding different constructors... And imagine this is how the engine works in rocket science... The result can be horrible.
-                    
                 - How to solve this?
                     - Similar to the last solution.
-                    
     - 📌pay attention to use `{}` init when encountering [[explicit]] keyword
         - `{}`  accepts  `explicit`  constructors
         - `={}`  does not accepts `explicit` constructor
@@ -160,4 +154,3 @@ aliases: [uniform initialization]
           Z z2 = {};  // ❌error: copy initialization, so we cannot use the explicit constructor
           ```
         - Use plain  `{}` -initialization unless you specifically want to disable explicit constructors.
-        
