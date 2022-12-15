@@ -7,5 +7,6 @@
     "logseq/bak/"
   ],
   "alwaysUpdateLinks": true,
-  "showIndentGuide": false
+  "showIndentGuide": false,
+  "spellcheck": false
 }

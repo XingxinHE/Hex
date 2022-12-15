@@ -9,7 +9,7 @@
 
 
 # 📝Definition
-
+An operation that is implicitly invoked (called) when an [[object]] is destroyed (e.g., at the end of a scope). Often, it releases resources.
 
 # 🎯Intent
 A destructor makes sure that an object is properly cleaned up before it is destroyed.

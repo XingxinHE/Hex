@@ -1,5 +1,5 @@
 # 📝Definition
-Keywords are predefined reserved [[variable|identifier]]s that have special meanings to the [[compiler]].
+Keywords are predefined reserved [[identifier]]s that have special meanings to the [[compiler]].
 
 # 🧠Intuition
 Words that can't be used as identifiers in your program.

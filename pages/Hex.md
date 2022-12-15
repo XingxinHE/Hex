@@ -36,7 +36,7 @@
 	- Lecture 1. Algorithms and Computation✅
 		- [[Algorithm]], [[interface]], [[data structure]], [[Asymptotic Notation]]
 	- Lecture 2. Data Structures and Dynamic Arrays✅
-		- [[sequence]]
+		- [[Tuple|sequence]]
 ## 📺Single Variable Calculus
 ℹSyllabus
 - Course Goal

@@ -6,7 +6,10 @@ aliases: [factoring]
 - In mathematics, factorization or factoring consists of writing a number or another mathematical object as a product of several factors, usually **smaller** or **simpler** objects of the same kind.
 
 # 🧠Intuition
-- Transform a mathematical object into a set of smaller or simpler objects.
+Transform a mathematical object into a set of smaller or simpler objects, a.k.a. [[Factor]]
+
+# 🧪Composition
+[[Factor]]
 
 # 🏷(Sub)Categories
 - In terms of the difference of the determination of a set:

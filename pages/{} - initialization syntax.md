@@ -1,5 +1,7 @@
 ---
 aliases: [uniform initialization]
+tags:
+  - cpp
 ---
 
 # 📝Definition

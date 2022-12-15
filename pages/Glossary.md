@@ -59,8 +59,6 @@
 
 - *concrete type*: a type that is not a base class, and objects of the type are intended to be used directly (not only by pointer/indirection), its size is known, it can typically be allocated anywhere the programmer wants (e.g., stack or statically).
 
-- *constructor*: an operation that initializes (“constructs”) an object. Typically a constructor establishes an invariant and often acquires resources needed for an object to be used (which are then typically released by a destructor).
-
 - *copy*: an operation that makes two object have values that compare equal. See also move.
 
 - *correctness*: a program or a piece of a program is correct if it meets its specification. Unfortunately, a specification can be incomplete or inconsistent, or can fail to meet users’ reasonable expectations. Thus, to produce acceptable code, we sometimes have to do more than just follow the formal specification.
@@ -73,12 +71,7 @@
 
 - *design*: an overall description of how a piece of software should operate to meet its specification.
 
-- *destructor*: an operation that is implicitly invoked (called) when an object is destroyed (e.g., at the end of a scope). Often, it releases resources.
-
 - *executable*: a program ready to be run (executed) on a computer.
-
-- *file*: a container of permanent information in a computer.
-
 
 - *handle*: a class that allows access to another through a member pointer or reference. See also resource, copy, move.
 

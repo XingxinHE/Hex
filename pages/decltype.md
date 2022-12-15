@@ -23,7 +23,7 @@ decltype( expression );
 
 # ⚖Laws
 The laws of how `decltype` works.⭐⭐⭐
-- 1️⃣  If the _`expression`_ parameter is an [[variable|identifier]] or a [[Member access operator|class member access]], `decltype(expression)` is the type of the entity named by _`expression`_. If there's no such entity or the _`expression`_ parameter names a set of overloaded functions, the compiler yields an error message.
+- 1️⃣  If the _`expression`_ parameter is an [[identifier]] or a [[Member access operator|class member access]], `decltype(expression)` is the type of the entity named by _`expression`_. If there's no such entity or the _`expression`_ parameter names a set of overloaded functions, the compiler yields an error message.
 - 2️⃣  If the _`expression`_ parameter is a call to a function or an overloaded operator function, `decltype(expression)` is the return type of the function. Parentheses around an overloaded operator are ignored.
 - 3️⃣  If the _`expression`_ parameter is an [[value categories|rvalue]], `decltype(expression)` is the type of _`expression`_. If the _`expression`_ parameter is an [[value categories|lvalue]], `decltype(expression)` is an [[Reference Type|lvalue reference]] to the type of _`expression`_.
 

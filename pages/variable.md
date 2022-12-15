@@ -1,22 +1,11 @@
 ---
 aliases: [identifier]
 ---
-# 📖Terminology
-## Identifier vs. Variable
-I think they are very similar to each others.
-- identifier is to be "==identified==" by the [[compiler]].
-- The name of variable is an identifier while variable also contains value.
-> [!NOTE] 
-> Sometimes people use "identifier" and variable interchangeably. Therefore I put them together.
-
-
 
 # 📝Definition
 - A named [[object]] of a given [[type]] is called a variable; contains a value unless uninitialized.
 - A variable is a box in the **computer’s memory** that holds **temporary information**.
-- Identifiers are the names that you use to identify the elements in your programs, such as namespaces, classes, methods, and variables.
-# 🧠Intuition
-Identifiers are literally the composition of English character, numbers, and symbols.
+
 
 # ⚖Laws
 In #cpp and #csharp ,
@@ -61,3 +50,7 @@ int age = 28;
 
 
 ## #JavaScript 
+
+
+# 🧬Related Elements
+![[identifier#🧬Related Elements#Identifier vs. Variable]]
