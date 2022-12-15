@@ -1,5 +1,5 @@
 ---
-aliases: [type-conversion operator, static_cast, dynamic_cast, const_cast, reinterpret_cast]
+aliases: [type-conversion operator, type-conversion operator, static_cast, dynamic_cast, const_cast, reinterpret_cast]
 ---
 # 📝Definition
 There are several casting operators specific to the #cpp language. These operators are intended to remove some of the ambiguity and danger inherent in old style #c language casts. These operators are:

@@ -74,4 +74,90 @@ There are several stuffs that `const` can play.
 
 
 
+# 🧬Related Elements
+## const and pointer
+**💭Problem Address**
+If you recall, there are actually 5 kinds of `const` combination in [[pointer]] [[declaration]].😵 However, they can be grouped into 3.
+```cpp
+//1
+const T *p = ~~;
+//2
+T const *p = ~~;
+
+//3
+T *const p = ~~;
+
+//4
+const T *const p = ~~;
+//5
+T const *const p = ~~;
+```
+___
+**📌Category 1**
+```c++
+//1
+const T *p = ~~;
+//2
+T const *p = ~~;
+```
+
+Although it looks like there are 2 forms, they actually are identical.
+
+> 📝Definition: It means <u>what `p` points to</u> is `const`.
+
+> 💻Code
+
+```c++
+T xy;
+p = &x;  //  ✅OK. Can modify pointer p itself.
+*p = y;  //  ❌ERR. Can't modify what p points to.
+```
+
+> 🧠Tips to remember: `const` is on the **<u>left</u>** side `*`.
+
+___
+**📌Category 2**
+
+```c++
+//3
+T *const p = ~~;
+```
+
+> 📝Definition: It means `p` itself is `const`.
+
+> 💻Code
+
+```c++
+T xy;
+p = &x;  //  ❌ERR. Can't modify pointer p itself.
+*p = y;  //  ✅OK. Can modify what p points to.
+```
+
+> 🧠Tips to remember: `const` is on the **<u>right</u>** side `*`.
+
+___
+**📌Category 3**
+```c++
+//4
+const T *const p = ~~;
+//5
+T const *const p = ~~;
+```
+Although it looks like there are 2 forms, they actually are identical.
+
+> 📝Definition: It is the combination of the preceding 2:
+>
+> 			1) <u>what `p` points to</u> is `const`.
+> 			1) `p` itself is `const`.
+
+> 💻Code
+
+```c++
+T xy;
+p = &x;  //  ❌ERR. Can't modify pointer p itself.
+*p = y;  //  ❌ERR. Can't modify what p points to.
+```
+
+> 🧠Tips to remember: `const` is on **both** the **<u>left</u>** and <u>**right**</u> side `*`.
+
 

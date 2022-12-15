@@ -34,7 +34,7 @@ Example is the most straightforward way to understand a mathematical concept.
 
 # 🧬Related Elements
 The stuffs are closed related to bit.
-- 📌 Bit and [[Byte]] Conversion
+- 📌 Bit and [[byte]] Conversion
     - ![name](../assets/bit_byte_conversion.png)
     - Since one bit is either `0` or `1` so therefore 8 bits have $2^8=256$ possibilities.
    

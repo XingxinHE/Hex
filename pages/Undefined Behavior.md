@@ -1,3 +1,6 @@
+---
+aliases: [undefined]
+---
 # 😲Intuitive Explanation
 you can't reliably predict what will happen at [[run-time]].
 

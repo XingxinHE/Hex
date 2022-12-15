@@ -10,6 +10,43 @@ aliases: [reference, reference-type, reference data type, lvalue reference, rval
 "rvalue reference" - #cpp 
 "const reference" - #cpp 
 
+# 🗻Foundation
+## ⛰Understand why we need reference in C++
+**❓Question**
+You may wonder🤔, if #cpp can use [[pointer]] to do the same thing, why we use reference anyway?
+**✏Answer**
+The reason behind is super important and complicate... With one word to conclude, Reference is for function declaration.
+**⌨Code Demonstration**
+```c
+// c code
+enum Days = {Sun, Mon, Tue, Wedn, Thur, Fri};
+for(Days d = Sun; d<= Fri; d++) {/* do something */}
+```
+
+The preceding code is OK in #c  , but is NOT in #cpp  . In #cpp  , you have to implement the `operator++` like the following:
+
+```cpp
+// c++ code
+void operator++(Days d)
+{
+    d = static_cast<Days>(d + 1);
+}
+```
+
+However, the preceding code is still not working... Since in C++,  the argument or parameter of a function is [[pass-by-value]] by default. Hence, the reference can offer help here.
+
+```cpp
+void operator++(Days &d)
+{
+    d = static_cast<Days>(d + 1);
+}
+```
+
+With `&` sign, the `operator++` is [[pass-by-reference]].
+
+
+
+
 # 📝Definition
 In #cpp , a reference, like a [[pointer]], stores the [[memory|address]] of an object that is located elsewhere in memory. Unlike a pointer, a reference after it is initialized cannot be made to refer to a different object or set to null. 
 
@@ -27,13 +64,32 @@ It prolongs the lifetime of the rvalue as if it was an [[value categories|lvalue
 In #cpp 
 (1) a value describing the location of a typed value in memory;
 (2) a variable holding such a value.
+(3) an alias for another variable.
+```c++
+int i = 0;
+int &ri = i;
+```
+`ri` is just an <u>alias</u> for `i`.
 
 
 # 🌓Complement
 ## 🌗reference [[type|data type]] vs. [[pointer]] [[type|data type]]
+**📌reference is a data type in C++**
 Reference in #cpp  is not a concept while it is actually a data type. The ==key== evidence is that the C++ standard does not force [[compiler]] to implement reference using pointers.
+#TODO a comparison table
 
+**📌Analogy between Reference and Pointer**
+We can easily see the analogy between reference and pointer.
+| Reference Notation | Pointer Notation       |
+| ------------------ | ---------------------- |
+| `int &ri= i;`      | `int *const cpi = &i;` |
+| `ri = 4;`          | `*cpi = 4;`            |
+| `int j = ri + 2;`  | `int j = *cpi + 2;`    |
 
+**📌Intent for reference and pointer**
+They both have their own advantages.
+- Reference - good for writing function [[interface]]s.
+- Pointer - good for [[iteration]] and implementing [[data structure]]s.
 
 ## Reference Type vs. [[Value Type]]
 This is a comparison in #csharp .

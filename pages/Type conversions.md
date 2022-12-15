@@ -1,9 +1,9 @@
 ---
-aliases: [type conversion, type cast]
+aliases: [type conversion, type cast, type casting]
 ---
 
 # 📝Definition
-- A cast doesn’t change its operand and it produces a new value.
+A cast doesn’t change its operand and it produces a new value.
 
 # 🏷(Sub)Categories
 - In #cpp , type conversions can be categorized like so.
@@ -15,7 +15,7 @@ aliases: [type conversion, type cast]
             - Pointer conversions
         - Explicit conversions (cast)
             - Explicit conversion often refers to the term "cast".
-            - Done by type-conversion operator.
+            - Done by [[casting operators|type-conversion operator]].
                 - [[casting operators|static_cast]]
                 - [[casting operators|dynamic_cast]]
                 - [[casting operators|const_cast]]

@@ -1,6 +1,6 @@
 # 📝Definition
 - A basic unit of [[memory]] in a computer, often the unit used to hold an integer.
-- On most machines, [[Byte]]s are assembled into larger structures called words.
+- On most machines, [[byte]]s are assembled into larger structures called words.
 - 1 word = 4 bytes.
 
 # 🏷(Sub)Categories

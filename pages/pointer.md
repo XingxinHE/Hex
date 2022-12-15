@@ -123,6 +123,8 @@ Operations related to pointer in #cpp
 - 3️⃣manipulate the data member using `->` [[Member access operator]] 
 - 4️⃣indexing using `[]`⭐
 - 5️⃣check the nullness by using [[null pointer|nullptr]]
+- 6️⃣[[pointer#💫Operation#pointer arithmetic]]
+- 7️⃣[[pointer#💫Operation#pointer type conversion]]
 
 ```cpp
 // code for 4️⃣
@@ -158,6 +160,35 @@ Suppose you have a pointer `p`, do you see any difference on `++p` and `p++`.
   - `++p` incremented before assignment
 
 
+## pointer type conversion
+**😶Unsafe Behavior - directly cast different pointer**
+```cpp
+Gadget *pg;
+Widget *pw;
+
+pg = pw;  // COMPILE ERR❌
+pw = pg;  // COMPILE ERR❌
+```
+Directly casting different type of pointer will cause compile error.
+```cpp
+pg = reinterpret_cast<Gadget *>(pw);
+pw = reinterpret_cast<Widget *>(pg);
+```
+The preceding codes have no compile errors but will have runtime error!!
+
+**😶Unsafe Behavior - cast to unrelated type**
+```cpp
+int i;
+double *pd = reinterpret_cast<double *>(&i);
+*pd = 3;  // UNDEFINED BEHAVIOR👻
+```
+
+**😊Safe Behavior - Pointer to derived class cast to base class**
+```cpp
+Derived d;
+Base *pb = &d;
+```
+
 # 🕳Pitfalls
 
 > [!bug] Bugs
@@ -186,3 +217,7 @@ value).
 - #BjarneStroustrup addressed "if you lack a basic and practical understanding of how a program maps onto a computer's memory and operations, you will have problems getting a solid grasp of higher-level topics, such as [[data structure]], [[Algorithm|algorithms]], and [[operating system]]."
 
 
+# 🧬Related Elements
+![[array#🧬Related Elements#array vs. pointer]]
+
+![[const#🧬Related Elements#Placing `const` in Pointer Declaration]]

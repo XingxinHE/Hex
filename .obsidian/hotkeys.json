@@ -339,5 +339,13 @@
       "modifiers": [],
       "key": "F10"
     }
+  ],
+  "darlal-switcher-plus:switcher-plus:open-headings": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "O"
+    }
   ]
 }

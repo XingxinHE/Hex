@@ -91,7 +91,7 @@
 - Video:[link](https://www.bilibili.com/video/BV1Cx411S7HJ?share_source=copy_web&vd_source=218d39032e526d50fa83fd2c8d8aab99)
 📺Lectures
 - Lecture 1 video✅ notes not❌
-	- [[Bit]], [[Byte]], [[Bit#Two's complement]], [[bitwise operation]]
+	- [[Bit]], [[byte]], [[Bit#Two's complement]], [[bitwise operation]]
 - Lecture 2
 	- c/c++
 		-
@@ -270,7 +270,7 @@
 	- Chapter 02 Functions and Libraries
 	- Chapter 03 Strings
 	- Chapter 11 Pointers and Arrays
-		- [[Bit]], [[Byte]], [[Word]], [[Decimal]], [[Glossary#RAM|RAM]], [[hexadecimal]], [[sizeof operator]], [[memory]], [[memory#⛈Properties#Memory Layout]], [[memory#⛈Properties#Memory Address]], [[pointer]], [[value categories|lvalue]], [[Member access operator]], [[this keyword]], [[null pointer]], [[new keyword]]
+		- [[Bit]], [[byte]], [[Word]], [[Decimal]], [[Glossary#RAM|RAM]], [[hexadecimal]], [[sizeof operator]], [[memory]], [[memory#⛈Properties#Memory Layout]], [[memory#⛈Properties#Memory Address]], [[pointer]], [[value categories|lvalue]], [[Member access operator]], [[this keyword]], [[null pointer]], [[new keyword]]
 - #thingsIDK
 	- ...
 - Info
@@ -353,7 +353,25 @@ Outline:
 - review the similar items at here [[Function Object#🧬Related Elements#Terminology across similar disciplines]]⭐
 - understand function object and lambda are closely related [[Function Object#🧬Related Elements#function object & lambda expression]]
 - capture clause with `this` pointer at [[lambda expression#CPP#🧪Composition#Capture clause#🧬Related Elements#📌capture clause with this keyword this pointer]]
-- 
+
+### Pointer and Memory
+📝Basic Info
+- 🗣Presenter: Ben Saks
+- 📆Year: 2019
+- 🔖Topic: [[pointer]], [[memory]]
+Outline:
+- 1️⃣Pointers to Objects
+	- [[null pointer]], [[dangling pointer]], 
+- 2️⃣Arrays vs. Pointer Arithmetic
+	- [[array#🧬Related Elements#array vs. pointer]], [[pointer#💫Operation#pointer arithmetic]]
+- 3️⃣`size_t` and `ptrdiff_t`
+	- [[size_t]], [[ptrdiff_t]], [[ssize]]
+- 4️⃣Placing `const` in Pointer Declaration
+	- [[const#🧬Related Elements#const and pointer]]
+- 5️⃣Pointer Type Conversion
+	- [[casting operators]], [[Type conversions|type casting]], [[pointer#💫Operation#pointer type conversion]]
+- 6️⃣References
+	- [[Reference Type#🗻Foundation#⛰Understand why we need reference in C++]], [[Reference Type#🌓Complement#🌗reference type data type vs. pointer type data type]]
 
 
 

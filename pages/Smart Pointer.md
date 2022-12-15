@@ -5,7 +5,7 @@ In modern C++ programming, the [[STL]] includes smart pointers, which are used t
 The main goal of this idiom is to ensure that resource acquisition([[RAII]]) occurs at the same time that the object is initialized, so that all resources for the object are created and made ready in one line of code.
 
 # 🧠Intuition
-Leave programmer out of the burden of using [[raw pointer]]...
+Leave programmer out of the burden of using [[pointer|raw pointer]]...
 
 # 🏷(Sub)Categories
 What are the sub objects of this subject?
@@ -28,7 +28,7 @@ What are the sub objects of this subject?
           process(shared_ptr<int>(x)); // legal, but the memory will be deleted!
           int j = *x; 				 // ❌😲undefined behavior: x is a dangling pointer!
           ```
-      **What happened**🤔? Since line `9` makes a `shared_ptr` by passing a [[raw pointer]] and therefore the `ptr` will take that ownership. But!! The lifetime of this `ptr` is only in the function call!!!
+      **What happened**🤔? Since line `9` makes a `shared_ptr` by passing a [[pointer|raw pointer]] and therefore the `ptr` will take that ownership. But!! The lifetime of this `ptr` is only in the function call!!!
       
     - cause dangling pointer(2)
         - ``` c++

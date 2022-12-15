@@ -3,7 +3,7 @@ Definition 1 - Queries size of the object or type.
 Definition 2 - Yields the size of its operand with respect to the size of type **`char`**.
 
 > [!question] Why respect to `char`?
-> Typically, a `char` is stored in one [[Byte|byte]] and therefore `sizeof(char)` is treated as the 1 unit of `sizeof` operator.
+> Typically, a `char` is stored in one [[byte|byte]] and therefore `sizeof(char)` is treated as the 1 unit of `sizeof` operator.
 
 # 🕳Pitfalls
 📌pitfall 1
