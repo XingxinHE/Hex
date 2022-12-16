@@ -29,9 +29,6 @@
 ### Storage Duration
 - 📝**Definition**: It refers to the period of time for which memory is allocated for an object is called its *storage duration* or *extent*.
     
-### Text Editor
-- 📝**Definition**: This is where you write the source codes.
-
 ### Undefined order evaluation
 - 📝**Definition**: See [[Expression#^676303de228f35c6|here]]
 
@@ -89,8 +86,6 @@
 
 - *ISO*: International Organization for Standardization. The C++ language is an ISO standard, ISO/IEC 14882. More information at [iso.org](http://iso.org/).
 
-- *lifetime*: the time from the initialization of an object until it becomes unusable (goes out of scope, is deleted, or the program terminates).
-
 - *loop*: a piece of code executed repeatedly; in C++, typically a for-statement or a  `while` -statement.
 
 - *move*: an operation that transfers a value from one object to another leaving behind a value representing “empty.” See also copy.
@@ -123,13 +118,9 @@
 
 - *RTTI*: Run-Time Type Information. ???
 
-- *scope*: the region of program text (source code) in which a name can be referred to.
-
 - *semiregular*: a concrete type that is copyable (including movable) and default-constructible (see  `std::semiregular`  concept). The result of a copy is an independent object with the same value as the original. A semiregular type behaves roughly like an built-in type like  `int` , but possibly without a  `==`  operator. See also *regular type*.
 
 - *software*: a collection of pieces of code and associated data; often used interchangeably with program.
-
-- *source code*: code as produced by a programmer and (in principle) readable by other programmers.
 
 - *specification*: a description of what a piece of code should do.
 
