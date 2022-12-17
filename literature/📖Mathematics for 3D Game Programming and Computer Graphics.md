@@ -24,8 +24,10 @@ I feel ...
 |             |       |           |
 
 
-# 📖Chapter 1
-
+# Chapter 2 Vector
+- [[Inner Product|dot product]]
+# Chapter 3 Matrices
+- 3.4. [[Determinant]]
 
 # 💭Things I don't Know
 

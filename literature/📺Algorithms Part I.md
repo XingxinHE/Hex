@@ -26,7 +26,13 @@ I feel ...
 
 
 # 📺Lectures
-
+## Week 1
+### Course Introduction
+- Assignment✅
+- Lecture Note Documentation✅
+### Union-Find
+- [[Dynamic connectivity]]
+### Analysis of Algorithms
 
 # 💻Assignment
 
@@ -40,5 +46,5 @@ I feel ...
 - **🎯Course Goal**
 - **📖Course Textbook**
 - **👩‍🏫👨‍🏫Lecturer**:
-- **🔗Link**:
-- **📺Video**:
+- **🔗Link**: [xxx](https://)
+- **📺Video**:[xxx](https://)

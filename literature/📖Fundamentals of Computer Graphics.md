@@ -1,7 +1,7 @@
 ---
 aliases: []
 tags:
-  - unknown
+  - ComputerGraphics
 ---
 
 # 📝Summary
@@ -24,8 +24,10 @@ I feel ...
 |             |       |           |
 
 
-# 📖Chapter 1
-
+# 📖Chapter 03 Raster Images
+- 3.1. Raster Devices
+- 3.2. Images, Pixels, and Geometry
+	- [[Raster Image]], [[Vector Image]], [[LED]], [[LCD]], [[ppi]], [[dpi]], [[Color Filter Array]]
 
 # 💭Things I don't Know
 

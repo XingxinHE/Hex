@@ -1,7 +1,7 @@
 ---
 aliases: []
 tags:
-  - unknown
+  - ComputerGraphics
 ---
 # 📝Summary
 **🎯Intent**
@@ -33,12 +33,14 @@ I feel ...
 
 
 # 📖Reading
-
+[[📖Fundamentals of Computer Graphics]]
 
 
 # ℹSyllabus
 - **🎯Course Goal**
 - **📖Course Textbook**
 - **👩‍🏫👨‍🏫Lecturer**:
+	- Alec Jacobson
 - **🔗Link**:
-- **📺Video**:
+	- [github](https://github.com/alecjacobson/computer-graphics-csc317)
+- **📺Video**:[xxx](https://)

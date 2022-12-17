@@ -1,7 +1,7 @@
 ---
 aliases: []
 tags:
-  - unknown
+  - ComputerGraphics
 ---
 # 📝Summary
 **🎯Intent**
@@ -25,8 +25,10 @@ I feel ...
 
 
 
-# 📺Lectures
-
+# 📺Lecture 4: Drawing a Triangle (and an Intro to Sampling)
+- Watch✅
+- TODO documentation
+- [[Rasterization]], [[Ray Tracing]], [[triangle mesh]]
 
 # 💻Assignment
 
@@ -40,5 +42,5 @@ I feel ...
 - **🎯Course Goal**
 - **📖Course Textbook**
 - **👩‍🏫👨‍🏫Lecturer**:
-- **🔗Link**:
-- **📺Video**:
+- **🔗Link**: [xxx](https://)
+- **📺Video**:[xxx](https://)

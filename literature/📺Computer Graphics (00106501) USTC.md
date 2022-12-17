@@ -1,7 +1,8 @@
 ---
 aliases: []
 tags:
-  - unknown
+  - ComputerGraphics
+  - cpp
 ---
 # 📝Summary
 **🎯Intent**
@@ -41,4 +42,5 @@ I feel ...
 - **📖Course Textbook**
 - **👩‍🏫👨‍🏫Lecturer**:
 - **🔗Link**:
-- **📺Video**:
+	- [刘利刚《计算机图形学》2020 (ustc.edu.cn)](http://staff.ustc.edu.cn/~lgliu/Courses/ComputerGraphics_2020_spring-summer/default.htm)
+- **📺Video**:[xxx](https://)

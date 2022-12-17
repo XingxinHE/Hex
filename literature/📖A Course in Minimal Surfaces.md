@@ -1,7 +1,8 @@
 ---
 aliases: []
 tags:
-  - unknown
+  - DifferentialGeometry
+  - mathematics
 ---
 
 # 📝Summary
@@ -36,4 +37,6 @@ I feel ...
 ___
 # ℹInformation
 **✍Authors:**
+- Tobias Holck Colding
+- II Minicozzi, William P.
 **🔗Links:**

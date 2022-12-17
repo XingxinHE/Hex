@@ -1,7 +1,8 @@
 ---
 aliases: []
 tags:
-  - unknown
+  - csharp
+  - ProgrammingLanguage
 ---
 
 # 📝Summary
@@ -24,16 +25,22 @@ I feel ...
 |             |       |           |
 
 
-# 📖Chapter 1
-
+# About WPF
+- [[WPF]]
+- WPF vs. WinForm
+# XAML
+- [[XAML]]
+# WPF Application
+# Basic Control
+# Control Concepts
+# Panels
 
 # 💭Things I don't Know
 
-
-# 🍂Unorganized
 
 
 ___
 # ℹInformation
 **✍Authors:**
 **🔗Links:**
+https://wpf-tutorial.com/

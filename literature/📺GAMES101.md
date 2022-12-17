@@ -1,7 +1,7 @@
 ---
 aliases: []
 tags:
-  - unknown
+  - ComputerGraphics
 ---
 # 📝Summary
 **🎯Intent**
@@ -40,5 +40,6 @@ I feel ...
 - **🎯Course Goal**
 - **📖Course Textbook**
 - **👩‍🏫👨‍🏫Lecturer**:
-- **🔗Link**:
+- **🔗Link**: [xxx](https://)
 - **📺Video**:
+	- [here](https://www.bilibili.com/video/BV1X7411F744?share_source=copy_web&vd_source=218d39032e526d50fa83fd2c8d8aab99)

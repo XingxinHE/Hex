@@ -1,7 +1,8 @@
 ---
 aliases: []
 tags:
-  - unknown
+  - mathematics
+  - optimization
 ---
 # 📝Summary
 **🎯Intent**
@@ -40,5 +41,5 @@ I feel ...
 - **🎯Course Goal**
 - **📖Course Textbook**
 - **👩‍🏫👨‍🏫Lecturer**:
-- **🔗Link**:
-- **📺Video**:
+- **🔗Link**: [xxx](https://)
+- **📺Video**:[xxx](https://)

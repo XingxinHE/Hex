@@ -1,7 +1,7 @@
 ---
 aliases: []
 tags:
-  - unknown
+  - Stanford
 ---
 # 📝Summary
 **🎯Intent**
@@ -18,7 +18,7 @@ I feel ...
 **🏁Progress**
 |             | Read/Watch? | Document? |
 | ----------- | ----- | --------- |
-| Lecture ... |       |           |
+| Lecture 1 |    ✅   |           |
 |             |       |           |
 |             |       |           |
 
@@ -26,6 +26,9 @@ I feel ...
 
 
 # 📺Lectures
+
+## Lecture 1
+[[Bit]], [[byte]], [[Bit#Two's complement]], [[bitwise operation]]
 
 
 # 💻Assignment
@@ -40,5 +43,6 @@ I feel ...
 - **🎯Course Goal**
 - **📖Course Textbook**
 - **👩‍🏫👨‍🏫Lecturer**:
-- **🔗Link**:
+- **🔗Link**: [xxx](https://)
 - **📺Video**:
+	- [bilibili](https://www.bilibili.com/video/BV1Cx411S7HJ?share_source=copy_web&vd_source=218d39032e526d50fa83fd2c8d8aab99)

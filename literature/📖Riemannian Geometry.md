@@ -1,7 +1,8 @@
 ---
 aliases: []
 tags:
-  - unknown
+  - geometry
+  - mathematics
 ---
 
 # 📝Summary
@@ -35,5 +36,5 @@ I feel ...
 
 ___
 # ℹInformation
-**✍Authors:**
+**✍Authors:** Manfredo Perdigao do Carmo
 **🔗Links:**

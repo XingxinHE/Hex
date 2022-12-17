@@ -1,7 +1,9 @@
 ---
 aliases: []
 tags:
-  - unknown
+  - DifferentialGeometry
+  - geometry
+  - mathematics
 ---
 
 # 📝Summary
@@ -36,4 +38,6 @@ I feel ...
 ___
 # ℹInformation
 **✍Authors:**
+- Richard Schoen
+- Shing-Tung Yau
 **🔗Links:**

@@ -1,7 +1,7 @@
 ---
 aliases: []
 tags:
-  - unknown
+  - GeometryProcessing
 ---
 # 📝Summary
 **🎯Intent**
@@ -33,12 +33,14 @@ I feel ...
 
 
 # 📖Reading
-
+## Chapter 02 Combinatorial Surfaces
+- [[Affine Independence]], [[Affine Dependence]]
+- [[Convex Set]], [[Convex Hull]], [[Simplex]], [[Barycentric Coordinates]]
 
 
 # ℹSyllabus
 - **🎯Course Goal**
 - **📖Course Textbook**
 - **👩‍🏫👨‍🏫Lecturer**:
-- **🔗Link**:
-- **📺Video**:
+- **🔗Link**: [xxx](https://)
+- **📺Video**:[xxx](https://)

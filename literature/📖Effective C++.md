@@ -1,7 +1,8 @@
 ---
 aliases: []
 tags:
-  - unknown
+  - cpp
+  - ProgrammingLanguage
 ---
 
 # 📝Summary
@@ -24,13 +25,9 @@ I feel ...
 |             |       |           |
 
 
-# 📖Chapter 1
 
-
-# 💭Things I don't Know
-
-
-# 🍂Unorganized
+# 📖Item 1: View C++ as a federation of language
+- [[Object-oriented Programming Paradigm|OOP]], [[Generic Programming]],[[STL]]
 
 
 ___

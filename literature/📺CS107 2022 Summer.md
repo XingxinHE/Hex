@@ -18,7 +18,7 @@ I feel ...
 **🏁Progress**
 |             | Read/Watch? | Document? |
 | ----------- | ----- | --------- |
-| Lecture ... |       |           |
+| 📄Lecture1 pdf |    ✅   |     ✅      |
 |             |       |           |
 |             |       |           |
 
@@ -40,5 +40,5 @@ I feel ...
 - **🎯Course Goal**
 - **📖Course Textbook**
 - **👩‍🏫👨‍🏫Lecturer**:
-- **🔗Link**:
-- **📺Video**:
+- **🔗Link**: [course website](https://web.stanford.edu/class/archive/cs/cs107/cs107.1226/)
+- **📺Video**:[xxx](https://)

@@ -1,7 +1,8 @@
 ---
 aliases: []
 tags:
-  - unknown
+  - cpp
+  - ProgrammingLanguage
 ---
 # 📝Summary
 **🎯Intent**
@@ -26,7 +27,8 @@ I feel ...
 
 
 # 📺Lectures
-
+- [[type|data type]] and the categories of [[type#🏷(Sub)Categories]]
+- [[Semantics]], [[value semantics]], [[reference semantics]], [[move semantics]]
 
 # 💻Assignment
 
@@ -40,5 +42,5 @@ I feel ...
 - **🎯Course Goal**
 - **📖Course Textbook**
 - **👩‍🏫👨‍🏫Lecturer**:
-- **🔗Link**:
-- **📺Video**:
+- **🔗Link**: [xxx](https://)
+- **📺Video**:[xxx](https://)

@@ -1,19 +1,23 @@
-- ProgrammingLanguage
-- mathematics
-- cpp
-- csharp
-- c
-- JavaScript
-- physics
-- Python
-- computer-science
-- geometry
-- optimization
-- probability
-- topology
-- NumberTheory
-- algebra
-- calculus
-- LinearAlgebra
-- SoftwareDevelopment
-- 
+algorithm
+c
+calculus
+ComputerGraphics
+computer-science
+cpp
+csharp
+DifferentialGeometry
+geometry
+GeometryProcessing
+JavaScript
+LinearAlgebra
+mathematics
+MIT
+NumberTheory
+optimization
+physics
+probability
+ProgrammingLanguage
+Python
+SoftwareDevelopment
+Stanford
+topology
