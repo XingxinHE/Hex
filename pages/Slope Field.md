@@ -19,4 +19,7 @@
       $$
     - The zoom-in for the preceding dots in green
       ![name](../assets/slope_field_zoom.svg){:height 300, :width 300}
-    
+
+
+# 🔗Link
+https://math.mit.edu/~jmc/mathlets-mitx-18.01/slopeFields.html

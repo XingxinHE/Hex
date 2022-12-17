@@ -1,13 +1,44 @@
-📚Course
-- ℹSyllabus
-	- Course Goal
-	- Course Textbook
-	- Lecturer
-	- Link: [xxx](https://)
-	- Video:[xxx](https://)
-- 🏁Progress
-- 📺Lectures
-	- Lecture...
-- 💻Assignment
-	- Assignment
-- 📖Reading
+---
+aliases: []
+tags:
+  - unknown
+---
+# 📝Summary
+**🎯Intent**
+What does this course for?
+
+**✏The Course in 3 Sentences**
+1...
+2...
+3...
+
+**🧠Impression**
+I feel ...
+
+**🏁Progress**
+|             | Read/Watch? | Document? |
+| ----------- | ----- | --------- |
+| Lecture ... |       |           |
+|             |       |           |
+|             |       |           |
+
+
+
+
+# 📺Lectures
+
+
+# 💻Assignment
+
+
+
+# 📖Reading
+
+
+
+# ℹSyllabus
+- **🎯Course Goal**
+- **📖Course Textbook**
+- **👩‍🏫👨‍🏫Lecturer**:
+- **🔗Link**: [xxx](https://)
+- **📺Video**:[xxx](https://)

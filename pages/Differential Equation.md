@@ -29,10 +29,11 @@
 - 📌Solution of Differential Equation
     - The solution of a differential equation **is a family of functions**.
     - Analogy between equation and differential equation
-      | Equation             | Solution        | Interpretation        |
-      | -------------------- | --------------- | --------------------- |
-      | $x^2-1=0$            | $x=-1,1$        | 2 points              |
-      | $\frac{dy}{dx}=f(x)$ | $y=\int f(x)dx$ | a family of functions |
+
+| Equation             | Solution        | Interpretation        |
+| -------------------- | --------------- | --------------------- |
+| $x^2-1=0$            | $x=-1,1$        | 2 points              |
+| $\frac{dy}{dx}=f(x)$ | $y=\int f(x)dx$ | a family of functions |
     
 - 📌Separable
     - A differential equation is **separable** if it can be written in the form

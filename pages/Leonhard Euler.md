@@ -51,7 +51,8 @@ aliases: [Euler]
             - $$
               \begin{align}
               f(x)&\approx f(0)+f'(0)x\\
-              &=1+\frac{dy}{dx}\bigg|_{(0,1)}x
+              &=1+\frac{dy}{dx}\bigg|_{(0,1)}x\\
+              &=
               1+x\end{align}
               $$
             
