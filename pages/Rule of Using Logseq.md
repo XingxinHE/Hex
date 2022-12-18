@@ -26,6 +26,6 @@ Example is the most straightforward way to understand a concept. Therefore, it h
 Quiz一般是数学题，很长。example放不下的放这里
 
 
-🧬Related Elements
+🌱Related Elements
 这里是将相关的subject和本subject进行类比的通道。这是和其它通道想连结的地方。
 (put it at the **bottom** since it is close to the backlink of a subject) 

@@ -33,7 +33,7 @@
       x-\frac{x^2}{2}+O(x^3)
       $$
     
-# 🧬Related Elements
+# 🌱Related Elements
 - ![[Taylor Approximation#Linear Approximation vs Quadratic Approximation vs Taylor Approximation]]
 
 # 🗃Example

@@ -32,7 +32,7 @@ Example is the most straightforward way to understand a mathematical concept.
         - In light of [[ASCII Character Codes|ASCII Table]], `01000001` is character `A`.
         
 
-# 🧬Related Elements
+# 🌱Related Elements
 The stuffs are closed related to bit.
 - 📌 Bit and [[byte]] Conversion
     - ![name](../assets/bit_byte_conversion.png)

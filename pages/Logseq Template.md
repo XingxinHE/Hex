@@ -138,7 +138,7 @@ template:: Full Concept Template
   template:: B-Intent
     - A short description what does this thing do?
     
-- 🧬Related Elements
+- 🌱Related Elements
   template:: B-RelatedElements
     - The closest pattern to current one, what are their differences?
     

@@ -78,7 +78,7 @@ What are the sub objects of this subject?
 ## 🎯Intent
  A short description what does this thing do?
 
-# 🧬Related Elements
+# 🌱Related Elements
  The closest pattern to current one, what are their differences?
 - 📌 [[Limit]] , Continuous, and [[differentiable]] ^94aefd834de51c3c
     - Let's look at the $x=0$ of the following function $f(x)=\lvert x\rvert$:

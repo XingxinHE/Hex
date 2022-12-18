@@ -238,7 +238,7 @@ What are the situations in which this subject can be applied?
       t^Tx
       $$
     
-# 🧬Related Elements  / Byproduct
+# 🌱Related Elements  / Byproduct
 The closest pattern to current one, what are their differences?
 ## 📌Inner Product Function
 - Inner product function can be conceived of as the **byproduct of inner product**.

@@ -217,7 +217,7 @@ value).
 - #BjarneStroustrup addressed "if you lack a basic and practical understanding of how a program maps onto a computer's memory and operations, you will have problems getting a solid grasp of higher-level topics, such as [[data structure]], [[Algorithm|algorithms]], and [[operating system]]."
 
 
-# 🧬Related Elements
-![[array#🧬Related Elements#array vs. pointer]]
+# 🌱Related Elements
+![[array#🌱Related Elements#array vs. pointer]]
 
-![[const#🧬Related Elements#Placing `const` in Pointer Declaration]]
+![[const#🌱Related Elements#Placing `const` in Pointer Declaration]]

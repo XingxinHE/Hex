@@ -62,7 +62,7 @@ $$
 
 
 
-# 🧬Related Elements
+# 🌱Related Elements
 ## work-heat-enery
 Work, [[heat]], and [[energy]] have the same units, but we typically measure them differently.
 - work - $N\cdot m$

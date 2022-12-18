@@ -30,7 +30,7 @@ aliases: [simplices]
             
         - ![[Simplicial Complex#^61e982784d28227f]]
         - ![[Simplicial Complex#^a6ec64837c4608a2]]
-        - 🧬Related Elements
+        - 🌱Related Elements
             - The <u>oriented simplices</u> compose [[Simplicial Complex#^c86fd58204a352c4|oriented simplicial complex]].
             
         - ⛈Characteristics / Properties
@@ -106,7 +106,7 @@ aliases: [simplices]
     - ![name](../assets/Probability_Simplex.png){:height 200, :width 200}
     - The above diagram is a *2-simplex* which lies in $\mathbb{R}^3$. Imagine all the possibilities of this simplex... No matter how, they all lie in the triangle $\sigma$ above. Therefore, it is called **probability simplex**.
     
-# 🧬Related Elements
+# 🌱Related Elements
 - [[Simplicial Complex]]
 
 # 🛠Analogy

@@ -5,7 +5,7 @@ The critical points of a function $f(x)$ to be all points $x$ in the domain of $
 - $f'(x)=0$, a.k.a. [[differentiable]] or
 - $f'(x)$ does not exist, a.k.a. [[DNE]]
 
-# 🧬Related Elements
+# 🌱Related Elements
 - ![[Stationary Point#Stationary Point vs Critical Point]]
 
 # 🗃Example

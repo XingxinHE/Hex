@@ -45,7 +45,7 @@ Then we can summarize:
 | `decltype((a->x));` | `const double&` | ⭐The inner parentheses cause the statement to be evaluated as an expression instead of a member access. And because `a` is declared as a **`const`** pointer, the type is a reference to **`const double`**. |
 
 
-# 🧬Related Elements
+# 🌱Related Elements
 ##  `decltype` and `auto`
 https://learn.microsoft.com/en-us/cpp/cpp/decltype-cpp?view=msvc-170#decltype-and-auto
 

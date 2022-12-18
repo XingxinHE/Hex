@@ -10,7 +10,7 @@
 # 📈Diagram
 - ![name](../assets/StationaryPoint_700.svg){:height 300, :width 600}
 
-# 🧬Related Elements
+# 🌱Related Elements
 ## 📌Stationary Point vs. Critical Point
 - 📝Definition
     - All stationary points are critical points but not all critical points are stationary points.

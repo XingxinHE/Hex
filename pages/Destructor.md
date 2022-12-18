@@ -30,7 +30,7 @@ The `delete` will
 - trigger the destructor from outside to inside
 - back propagate the result from inside to outside
 
-# 🧬Related Elements
+# 🌱Related Elements
 
 
 

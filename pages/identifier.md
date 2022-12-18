@@ -18,7 +18,7 @@ Identifier is a [[Tuple|sequence]] of [[character]]s that you use to identify th
 # 🧠Intuition
 Identifiers are literally the composition of English character, numbers, and symbols.
 
-# 🧬Related Elements
+# 🌱Related Elements
 ## Identifier vs. Variable
 I think they are very similar to each others.
 - identifier is to be "==identified==" by the [[compiler]].

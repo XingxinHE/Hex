@@ -91,7 +91,7 @@ $$
 \left| E_M \right| \leq \frac{M(b-a)^3}{24n^2}.
 $$
 
-# 🧬Related Elements
+# 🌱Related Elements
 ## [[Trapezoidal Rule]] vs. Midpoint
 See the distinction from diagram.
 - Left is Trapezoidal

@@ -68,7 +68,7 @@ aliases: [Euclidean Norm]
       \lVert (a,b,c)\rVert=\sqrt{\lVert a\rVert^2+\lVert b\rVert^2+\lVert c\rVert^2}=\lVert(\lVert a\rVert,\lVert b\rVert,\lVert c\rVert)\rVert
       $$
     
-# 🧬Related Elements / Byproduct
+# 🌱Related Elements / Byproduct
 - The closest pattern to current one, what are their differences?
 - 📌RMS(root-mean-square) ^2bde7aa44b505972
     - $$

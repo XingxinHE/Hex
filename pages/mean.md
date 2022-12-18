@@ -36,7 +36,7 @@ $$
 
 
 
-# 🧬Related Elements
+# 🌱Related Elements
 The following subjects are related to "mean."
 - [[median]]
 - [[mode]]

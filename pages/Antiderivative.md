@@ -81,7 +81,7 @@ aliases: [Indefinite Integral]
               F(x)-G(x)=C
               $$
             
-# 🧬Related Elements
+# 🌱Related Elements
 - 📌 [[MVT]] plays an important role in the definition of antiderivatives
     - Recall MVT, we know
         - $$

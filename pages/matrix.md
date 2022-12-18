@@ -164,7 +164,7 @@
     - 📝Definition
         - The column space of matrix $A$ contains all [[linear combination]]s $Ax=x_1a_1+x_2a_2$ of the columns.
         
-    - 🧬Related Elements
+    - 🌱Related Elements
         - The concept of "column space" highly relates to the other concepts: [[linear independent]], [[linear dependent]], and [[linear combination]].
         
     - 🗃Example

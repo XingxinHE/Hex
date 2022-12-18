@@ -203,7 +203,7 @@
 		- 2️⃣ use cherry-pick to commit the code rather than manually select and commit  
 		- 3️⃣ reset the commit to unstaged version, now you are free to stage those changes!  
 
-# 🧬Related Elements
+# 🌱Related Elements
 - 📌VCSs, Git, Github/Gitlab
 	- VCSs = Version control systems (VCSs)
 	- Git = **Git** is the de facto standard for version control

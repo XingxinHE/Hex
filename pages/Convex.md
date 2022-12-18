@@ -36,7 +36,7 @@ aliases: [convexity]
     
 -
 
-# 🧬Related Elements
+# 🌱Related Elements
 - [[Convex Set]]
 - [[Convex Function]]
 - [[Convex Programming]]

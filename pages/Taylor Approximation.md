@@ -79,7 +79,7 @@ $$
     - ![name](../assets/taylor_approximation_example.png){:height 300, :width 300}
     - A function $f$ of one variable is called the first-order Taylor approximation $\hat{f}(x)=f(z)+f'(z)(x-z)$ which exactly is [[Linear Approximation]]. The word "linear" emphasizes that the graph of that function is a straight line.
     
-# 🧬Related Elements
+# 🌱Related Elements
 ## 📌Linear Approximation vs. Quadratic Approximation vs. Taylor Approximation
 - [[Linear Approximation]], first **2** terms of Taylor Series. a.k.a. the highest derivative is to $f^{(1)}$ or $f'$
 - [[Quadratic Approximation]] , first **3** terms of Taylor Series. a.k.a. the highest derivative is to $f^{(2)}$ or $f''$

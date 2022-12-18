@@ -17,7 +17,7 @@ aliases: [(Abstract) Simplicial Complex, (Geometric) Simplicial Complex]
             
 - ⛈Characteristics / Properties
     - 📌Orientation on Simplicial Complex ^2453002026d67ffe
-        - 🧬Related Elements
+        - 🌱Related Elements
             - For the orientation in [[simplices]], see [[Simplex#^fc7728b5477d9d10|here]].
             
         - 📝Definition
@@ -58,7 +58,7 @@ aliases: [(Abstract) Simplicial Complex, (Geometric) Simplicial Complex]
         - 📈Diagram
             - ![name](../assets/abstract_simplicial_complex.png){:height 200, :width 200}
             
-- 🧬Related Elements
+- 🌱Related Elements
     - [[Graph]]
         - Any *(undirected) graph* $G = (V,E)$ is an abstract simplicial (1-)complex. Because 0-simplices are vertices, 1-simplices are edges.
         - ![name](../assets/abstract_simplicial_complex_graph.png){:height 200, :width 200}

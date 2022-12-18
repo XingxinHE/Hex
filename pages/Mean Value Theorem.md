@@ -219,7 +219,7 @@ aliases: [MVT]
   **Supplementary link**
   - https://www.desmos.com/calculator/vdhfhltxcr
   
-# 🧬Related Elements
+# 🌱Related Elements
 ![[Linear Approximation#📌 MVT vs. Linear Approximation]]
 
 ![[First Fundamental Theorem of Calculus#📌Comparing FTC1 and MVT]]

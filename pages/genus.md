@@ -23,7 +23,7 @@ Intuitively, the genus is the number of "holes" of a [[Surface]].
 
 
 
-# 🧬Related Elements
+# 🌱Related Elements
 The closest pattern to current one, what are their differences?
 
 

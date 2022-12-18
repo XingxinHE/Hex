@@ -8,7 +8,7 @@ A parameter is a variable in a method definition.
 # 🌓Complement
 [[argument]]
 
-# 🧬Related Elements
+# 🌱Related Elements
 ## [[pointer]] and [[Reference Type|reference]] parameters
 > #FunctionDesign 
 

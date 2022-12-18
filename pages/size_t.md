@@ -22,5 +22,5 @@ There are 2 intents of it:
 #error-prone 
 A common mistake is to assume `size_t` is the same as `unsigned int`, which can lead to programming errors, particularly as 64-bit architectures become more prevalent.
 
-# 🧬Related Elements
+# 🌱Related Elements
 [[ptrdiff_t]]

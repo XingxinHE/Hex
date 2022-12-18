@@ -22,7 +22,7 @@ $$
 \left| E_T \right| \leq \frac{M(b-a)^3}{12n^2}.
 $$
 
-# 🧬Related Elements
+# 🌱Related Elements
 ![[Riemann sums#Trapezoidal Rule vs. Midpoint]]
 
 

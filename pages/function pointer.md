@@ -35,7 +35,7 @@ int main()
 📌an argument to another function
 
 
-# 🧬Related Elements
+# 🌱Related Elements
 📌[[pointer|pointer data type]] vs. function pointer data type
 A pointer points to data.
 A function pointer points to code.

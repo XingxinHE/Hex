@@ -49,7 +49,7 @@ cout << elem_seq[1] << endl;    // 0
 ```
 
 
-# 🧬Related Elements
+# 🌱Related Elements
 ## array vs. pointer
 ❓Question: is an array also a pointer in #cpp  ?
 ```cpp

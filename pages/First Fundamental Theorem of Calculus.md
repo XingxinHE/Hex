@@ -45,7 +45,7 @@ $$
 # 🌓Complement
 - [[FTC2]]
 
-# 🧬Related Elements
+# 🌱Related Elements
 ![[average#MVT, FTC1, and average value]]
 ## 📌Comparing FTC1 and [[MVT]]
 - If $F(x)$ is [[differentiable]] and $F'(x)$ is [[Continuous]] on $[a,b]$. And let

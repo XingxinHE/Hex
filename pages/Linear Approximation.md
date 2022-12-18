@@ -96,7 +96,7 @@ Example is the most straightforward way to understand a mathematical concept.
           \end{align}
           $$
         
-# 🧬Related Elements
+# 🌱Related Elements
 - ![[Taylor Approximation#Linear Approximation vs Quadratic Approximation vs Taylor Approximation]]
 ## 📌 [[MVT]] vs. Linear Approximation
 - Preface

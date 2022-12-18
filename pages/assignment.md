@@ -8,7 +8,7 @@ Assignment is giving a [[variable]] a new [[value]].
 # ✒Notation
 `=`
 
-# 🧬Related Elements
+# 🌱Related Elements
 The closest pattern to current one, what are their differences?
 
 # 🌓Complement

@@ -41,7 +41,7 @@
 # 👑Importance
 - This notation Leibniz used are way **more effective and intuitive** then the notation that Newton used. It allows you to think much faster sometimes when you have the right names and the right symbols for everything. And this case, it made a very big difference. Leibniz' notation was adopted on the continent and Newton dominated in Britain. And as a result, **the British fell behind by 100 or 200 years in the development of calculus**. It was really a serious matter. So it's really well worth your while to get used to this idea of **==ratios==** which is $\frac{dy}{dx}$, a ratio of "infinitesimals".
 
-# 🧬Related Elements
+# 🌱Related Elements
 - 📌Differential vs. [[Linear Approximation]]
     - $$
       \begin{align}

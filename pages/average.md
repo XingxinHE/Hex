@@ -10,7 +10,7 @@ $$
 # 📈Diagram
 
 
-# 🧬Related Elements
+# 🌱Related Elements
 ## MVT, FTC1, and average value
 Let $F$ be a function that is differentiable for $a\leq x\leq b$.
 The following are equivalent to

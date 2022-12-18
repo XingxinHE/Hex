@@ -285,7 +285,7 @@ Then we get the following Limit Laws:
           $$
         
 
-# 🧬Related Elements
+# 🌱Related Elements
  The closest pattern to current one, what are their differences?
 - ![[Continuity#^94aefd834de51c3c]]
 # 🧾 Cheat Sheet

@@ -93,7 +93,7 @@ Different from C++, everything in C# are with `class`. Therefore, the compositio
 # 🕳Pitfalls
 Be aware of the pitfalls when using this stuffs... (especially considering edge cases)
 
-# 🧬Related Elements
+# 🌱Related Elements
  The closest pattern to current one, what are their differences?
 - 📌a chapter demonstrating the the evolution when designing a class in C++
     - In Programming Principles and Practice Using C++ by Bjarne, 9.4.Evolving a Class p308~p318, is really really great.

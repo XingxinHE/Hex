@@ -50,7 +50,7 @@ aliases: [simplicial 1-complexes]
 - 📌Connected ^aa7ddb0bfb41c91f
     - A graph is connected if every two nodes have a path between them.
     
-- 🧬Related Elements
+- 🌱Related Elements
     - The nature of graph has some similarity with 3-[[Simplex]].
     
 # 🏷(Sub)Categories

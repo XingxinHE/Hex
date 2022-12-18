@@ -361,7 +361,7 @@ The operations that vector supports are the following
           A = np.vstack([a,b,c])
           ```
         
-# 🧬Related Elements
+# 🌱Related Elements
  The closest pattern to current one, what are their differences?
 - 📌[[scalar]] vs. vector
     - There are *real scalar*$\mathbb{R}$ and *complex scalar*$\mathbb{C}$. In most case, we refer *real scalar* as *scalar*.

@@ -27,7 +27,7 @@ There are several forms of discontinuity.
 # 🌓Complement
 [[Continuity]]
 
-# 🧬Related Elements
+# 🌱Related Elements
  The closest pattern to current one, what are their differences?
 - 📌Example - Derivative of a Jump Discontinuity Function
     - Take a look at the following function:

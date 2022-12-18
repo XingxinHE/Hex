@@ -52,5 +52,5 @@ int age = 28;
 ## #JavaScript 
 
 
-# 🧬Related Elements
-![[identifier#🧬Related Elements#Identifier vs. Variable]]
+# 🌱Related Elements
+![[identifier#🌱Related Elements#Identifier vs. Variable]]

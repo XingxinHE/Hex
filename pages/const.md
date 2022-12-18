@@ -74,7 +74,7 @@ There are several stuffs that `const` can play.
 
 
 
-# 🧬Related Elements
+# 🌱Related Elements
 ## const and pointer
 **💭Problem Address**
 If you recall, there are actually 5 kinds of `const` combination in [[pointer]] [[declaration]].😵 However, they can be grouped into 3.

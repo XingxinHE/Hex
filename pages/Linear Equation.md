@@ -20,5 +20,5 @@ aliases: [线性方程]
     - ![name](../assets/y_x.svg){:height 200, :width 200}
     - Because <u>the slope is always the same</u> no matter what $x$ is, therefore the derivative of <u>a linear equation is a constant</u>.
     
-# 🧬Related Elements
+# 🌱Related Elements
 - The closest pattern to current one, what are their differences?

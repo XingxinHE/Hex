@@ -100,7 +100,7 @@ The laws related to this math concepts.
 # 🎯Intent
  A short description what does this thing do?
 
-# 🧬Related Elements
+# 🌱Related Elements
  The closest pattern to current one, what are their differences?
 ## Inner Product Representation of a Linear Function
 - The logic can be back and forth.
