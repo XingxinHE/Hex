@@ -91,9 +91,9 @@ Outline:
 - the [[lambda expression#✒Terminology]] of lambda
 - similar item is [[function pointer]]
 - [[function call operator]] is a subset of [[Operator overloading]]
-- review the similar items at here [[Function Object#🧬Related Elements#Terminology across similar disciplines]]⭐
-- understand function object and lambda are closely related [[Function Object#🧬Related Elements#function object & lambda expression]]
-- capture clause with `this` pointer at [[lambda expression#CPP#🧪Composition#Capture clause#🧬Related Elements#📌capture clause with this keyword this pointer]]
+- review the similar items at here [[Function Object#🌱Related Elements#Terminology across similar disciplines]]⭐
+- understand function object and lambda are closely related [[Function Object#🌱Related Elements#function object & lambda expression]]
+- capture clause with `this` pointer at [[lambda expression#CPP#🧪Composition#Capture clause#🌱Related Elements#📌capture clause with this keyword this pointer]]
 
 ### Pointer and Memory
 📝Basic Info
@@ -104,11 +104,11 @@ Outline:
 - 1️⃣Pointers to Objects
 	- [[null pointer]], [[dangling pointer]], 
 - 2️⃣Arrays vs. Pointer Arithmetic
-	- [[array#🧬Related Elements#array vs. pointer]], [[pointer#💫Operation#pointer arithmetic]]
+	- [[array#🌱Related Elements#array vs. pointer]], [[pointer#💫Operation#pointer arithmetic]]
 - 3️⃣`size_t` and `ptrdiff_t`
 	- [[size_t]], [[ptrdiff_t]], [[ssize]]
 - 4️⃣Placing `const` in Pointer Declaration
-	- [[const#🧬Related Elements#const and pointer]]
+	- [[const#🌱Related Elements#const and pointer]]
 - 5️⃣Pointer Type Conversion
 	- [[casting operators]], [[Type conversions|type casting]], [[pointer#💫Operation#pointer type conversion]]
 - 6️⃣References

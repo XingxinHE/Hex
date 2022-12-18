@@ -4,5 +4,5 @@
 # 🧠Intuition
 - Differential geometry deals with metrical notions on [[manifold]]s.
 
-# 🙋‍♂️Related Elements
+# 🌱Related Elements
 - [[Differential Topology]]

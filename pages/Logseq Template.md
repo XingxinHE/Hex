@@ -22,7 +22,7 @@ What are the sub objects of this subject?
  The code or technical stuffs implement this.
 # 🕳Pitfalls
 Be aware of the pitfalls when using this stuffs... (especially considering edge cases)
-# 🙋‍♂️Related Elements
+# 🌱Related Elements
  The closest element to current one, what are their differences?
 # 📋Prerequisite
 Some techniques and objects only work under certain condition.

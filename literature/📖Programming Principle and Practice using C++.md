@@ -27,7 +27,7 @@ I feel ...
 
 # 📖Chapter 17 Vector and Free Store
 - [[sizeof operator]], [[memory]], [[pointer]], [[new keyword]], [[delete keyword]],[[Constructor]]. [[Destructor]], [[RAII]], [[Member access operator]], [[void pointer]], [[Type conversions|type cast]], [[casting operators]], [[casting operators|static_cast]], [[casting operators|reinterpret_cast]]
-- see the parameter design of a function at [[parameter#🧬Related Elements#pointer and Reference Type reference parameters]]
+- see the parameter design of a function at [[parameter#🌱Related Elements#pointer and Reference Type reference parameters]]
 
 
 - #TODO 

@@ -28,7 +28,7 @@ Example is the most straightforward way to understand a concept.
     - `std::deque` has the interface `begin()`
     - They are with **same** semantics but their logic behind are highly **different**.⚠
     
-# 🙋‍♂️Related Elements
+# 🌱Related Elements
  The closest pattern to current one, what are their differences?
 - The representation of an interface is called [[Signature]].
 

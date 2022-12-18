@@ -58,7 +58,7 @@ Be aware of the pitfalls when using this stuffs... (especially considering edge 
 - Why not put everything here?
     - because header file is "dependencies". One change may cause others' recompile.
     
-# 🙋‍♂️Related Elements
+# 🌱Related Elements
  The closest pattern to current one, what are their differences?
 
 # 🥼Expert's Advice

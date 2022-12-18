@@ -75,7 +75,7 @@ aliases: [pass-by-const-reference, pass-by-reference-to-const, pass-by-lvalue-re
           }
           ```
         
-# 🙋‍♂️Related Elements
+# 🌱Related Elements
 - 📌⭐Our rule of thumb of choosing "pass-by-value", "pass-by-reference", "pass-by-const-reference" in C++ ^75db37bf4ac72c6b
     - Use pass-by-value to pass very small objects. e.g. 1~2 `int` or 1~2 `double`
     - Use pass-by-const-reference to pass large objects that you don’t need to modify.

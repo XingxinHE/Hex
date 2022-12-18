@@ -24,7 +24,7 @@
   ```
 -
 
-# 🙋‍♂️Related Elements
+# 🌱Related Elements
 - 📌Key Difference between [[constexpr]] and `const` in C++
     - `const` => run-time
     - `constexpr` => compile-time

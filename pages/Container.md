@@ -69,7 +69,7 @@ What are the sub objects of this subject?
 # 🕳Pitfalls
 Be aware of the pitfalls when using this stuffs... (especially considering edge cases)
 
-# 🙋‍♂️Related Elements
+# 🌱Related Elements
  The closest pattern to current one, what are their differences?
 
 # 📋Prerequisite

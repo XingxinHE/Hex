@@ -30,5 +30,5 @@ What kind of stuffs composite this subject?
 What are the sub objects of this subject?
 ## 🎯Intent
  A short description what does this thing do?
-## 🙋‍♂️Related Elements
+## 🌱Related Elements
  The closest pattern to current one, what are their differences?
