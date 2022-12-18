@@ -38,6 +38,14 @@ I feel ...
 ### 1.3.1. Spline Surfaces.
 - There are a lot of ideas and concepts closely related. [[Spline]], [[Bernstein Polynomial]], [[B-Spline]], [[Bézier Curve]], [[Cubic Spline]], [[NURBS]]
 
+## 1.4 Implicit Surface Representations
+Review the definition at here![[implicit surface representation#📝Definition]]
+Understand the objective of it.![[implicit surface representation#🎯Intent]]
+
+Take a look at the example ![[implicit surface representation#🗃Example]]
+
+Be aware of the characteristics of it. ![[implicit surface representation#⛈Characteristics]]
+
 
 # 💭Things I don't Know
 

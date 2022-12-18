@@ -80,7 +80,7 @@ A surface can be modified either in terms of geometry or in terms of topology.
 ## 🔭Overview
 From a high level point of view, there are 2 major classes of surface representations:
 - parametric representation
-- implicit representation		
+- [[implicit surface representation]]
 ## 🎯Intent
 Why does representation matter? For each specific problem in [[Geometry Processing]], we can identify a characteristic set of operations by which the computation is dominated, and hence we have to choose an appropriate representation that supports the efficient implementation of these operation.
 	
@@ -124,19 +124,3 @@ Because not only the parameterization but also the domain $\Omega$ has to be adj
 	  $$
 
 ## implicit representation
-### 📝Definition
-- Implicit (or volumetric) surface representation is defined to be the zero set of a scalar-valued function $F$
-	- $$
-	  F:\mathbb{R}^3\to\mathbb{R},\text{ i.e., }S=\{x\in\mathbb{R}^3|F(x)=0\}
-	  $$
-
-### 🗃Example
-- Define [[curve]] in implicit representation
-	- $$
-	  C=\{x\in\mathbb{R}^2|F(x)=0\}\text{ with }F:\mathbb{R}^2\to\mathbb{R}
-	  $$
-	- $C$: a planar curve.
-- Define a [[unit circle]] in implicit representation
-	- $$
-	  F: \mathbb{R}^2\to\mathbb{R},\quad(x,y)\mapsto\sqrt{x^2+y^2}-1
-	  $$

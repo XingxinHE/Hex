@@ -33,13 +33,14 @@ f(x)\to L \quad \text{as} \quad x\to a
 $$
 Remember that $x$ is <u>approaching</u> $a$ but does **not equal** $a$.
 # 📈Diagram
-- 📌One table summarize limit
-    - | Index | Right-hand limit | Left-hand limit | R & L                                        | Example                                                      | Image                                                        |
-      | ----- | ---------------- | --------------- | -------------------------------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
-      | 1    | exist✔           | exist✔          | $=$✔exist and equal                          | $f(x)=x^2$<br>looks at $x=0$                                 | ![name](../assets/image-20220203104207473.png) |
-      | 2   | exist✔           | exist✔          | $\neq$❌exist but not equal                   | $f(x) = \frac{\sqrt{(3-5x+x^3+x^2)}}{(x-1)}$<br>looks at $x=1$ | ![name](../assets/image-20220203110211830.png) |
-      | 3    | not exist❌       | not exist❌      | ❌$L$&$R$ both blows up to $\pm\infin$        | $f(x)=\frac{1}{x}$<br>looks at $x=0$                         | ![name](../assets/image-20220203104105031.png) |
-      | 4    | not exist❌       | not exist❌      | ❌oscillates and never settle down to a value | $f(x)=\sin(13/x)$<br>looks at $x=0$                          | ![name](../assets/image-20220203113840991.png) |
+📌One table summarize limit
+
+| Index | Right-hand limit | Left-hand limit | R & L                                        | Example                                                      | Image                                          |
+| ----- | ---------------- | --------------- | -------------------------------------------- | ------------------------------------------------------------ | ---------------------------------------------- |
+| 1     | exist✔           | exist✔          | $=$✔exist and equal                          | $f(x)=x^2$<br>looks at $x=0$                                 | ![name](../assets/image-20220203104207473.png) |
+| 2     | exist✔           | exist✔          | $\neq$❌exist but not equal                   | $f(x) = \frac{\sqrt{(3-5x+x^3+x^2)}}{(x-1)}$<br>looks at $x=1$ | ![name](../assets/image-20220203110211830.png) |
+| 3     | not exist❌       | not exist❌      | ❌$L$&$R$ both blows up to $\pm\infty$        | $f(x)=\frac{1}{x}$<br>looks at $x=0$                         | ![name](../assets/image-20220203104105031.png) |
+| 4     | not exist❌       | not exist❌      | ❌oscillates and never settle down to a value | $f(x)=\sin(13/x)$<br>looks at $x=0$                          | ![name](../assets/image-20220203113840991.png) |
     
 # 🤳Applicability
 There are many application taking advantages from limit.

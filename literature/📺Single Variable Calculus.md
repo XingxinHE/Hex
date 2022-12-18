@@ -17,7 +17,7 @@ What does this course for?
 I feel ...
 
 **🏁Progress**
-|             | Read/Watch? | Document? |
+|             | Read/Watch | Document |
 | ----------- | ----- | --------- |
 | Lecture ... |       |           |
 |             |       |           |
@@ -28,6 +28,11 @@ ___
 
 
 # 📺Lectures
+# 0.Limits
+
+## 0.0. Introduction to limits
+
+
 # Differentiation
 ## Limits
 - Introduction to limits
