@@ -49,7 +49,7 @@
 - ⛈Characteristics / Properties
     - Local Manifoldness
         - 📝Definition
-            - A [[Continuous]] parametric surface is locally manifold at a [[Surface]] point $p$ if, for every other surface point $q$ within **a sufficiently small** sphere of radius $\delta$ around $p$, the corresponding [[pre-image]] is contained in a circle of some radius $\epsilon=O(\epsilon)$ around the pre-image of $p$.
+            - A [[Continuous]] parametric surface is locally manifold at a [[surface]] point $p$ if, for every other surface point $q$ within **a sufficiently small** sphere of radius $\delta$ around $p$, the corresponding [[pre-image]] is contained in a circle of some radius $\epsilon=O(\epsilon)$ around the pre-image of $p$.
             - A more intuitive way to express this condition is to say that the surface patch that lies within a sufficiently small $\epsilon$-sphere around $p$ is topologically equivalent ([[Homeomorphic]]) to a disk.
             - > ==**Note⚠**==: Since this second definition does not require a parameterization, it applies to implicit representations as well.
             

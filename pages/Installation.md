@@ -99,4 +99,6 @@
     - Install `node.js` and install by `npm install -g tldr`
     - https://github.com/tldr-pages/tldr
     - https://github.com/tldr-pages/tldr-node-client
-    
+
+# Julia
+Install package for Julia

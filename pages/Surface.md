@@ -17,7 +17,7 @@ The exact mathematical model of a surface is usually intractable. Therefore, the
 # ⛈Characteristics / Properties
 ## Smoothness
 ### 📝Definition
-- Smoothness is measured by the number $k$ of [[Continuous]] [[Derivative]]s that the function have.
+- Smoothness is measured by the number $k$ of [[Continuity|continuous]] [[Derivative]]s that the function have.
 - 👑Importance
 	- A surface SHOULD be smooth in general, except for a well-defined set of sharp feature-(curves, )
 - > ==**Note⚠**==: This analytical definition of $C^k$ smoothness coincides with the intuitive geometrical understanding of smoothness only if the [[partial derivative]]s and the [[gradient]] do not vanish locally(regularity).
@@ -107,8 +107,8 @@ Why does representation matter? For each specific problem in [[Geometry Processi
 
 ### 🕳Pitfalls / Cons
 The weak points are
-- [[Surface#💫Operation#Modification]]
-- [[Surface#💫Operation#Query]]
+- [[surface#💫Operation#Modification]]
+- [[surface#💫Operation#Query]]
 Because not only the parameterization but also the domain $\Omega$ has to be adjusted accordingly.
 
 ### 🗃Example

@@ -1,7 +1,8 @@
 ---
 aliases: []
 tags:
-  - unknown
+  - geometry
+  - mathematics
 ---
 
 

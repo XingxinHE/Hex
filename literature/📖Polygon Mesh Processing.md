@@ -26,15 +26,15 @@ I feel ...
 
 # 📖Chapter 1
 # Chapter 1 Surface Representation
-- [[Geometry Processing]], [[Surface]], [[Surface#💫Operation]]
+- [[Geometry Processing]], [[surface]], [[surface#💫Operation]]
 ## 1.1 Surface Definition and Properties
-- [[Surface#📝Definition]]
-- [[Surface#⛈Characteristics / Properties#Smoothness]]
-- [[Surface#⛈Characteristics / Properties#Fairness]]
+- [[surface#📝Definition]]
+- [[surface#⛈Characteristics / Properties#Smoothness]]
+- [[surface#⛈Characteristics / Properties#Fairness]]
 ## 1.2. Approximation Power
-- [[Surface#📏Surface Approximation]]
+- [[surface#📏Surface Approximation]]
 ## 1.3. Parametric Surface Representation
-- [[Surface#🎨Surface Representation]]
+- [[surface#🎨Surface Representation]]
 ### 1.3.1. Spline Surfaces.
 - There are a lot of ideas and concepts closely related. [[Spline]], [[Bernstein Polynomial]], [[B-Spline]], [[Bézier Curve]], [[Cubic Spline]], [[NURBS]]
 
@@ -45,6 +45,8 @@ Understand the objective of it.![[implicit surface representation#🎯Intent]]
 Take a look at the example ![[implicit surface representation#🗃Example]]
 
 Be aware of the characteristics of it. ![[implicit surface representation#⛈Characteristics]]
+The value of the function $F$ has special meaning.![[implicit surface representation#💫Operation#🌠designate point inside, on, outside]]
+
 
 
 # 💭Things I don't Know

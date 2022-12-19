@@ -11,7 +11,7 @@ tags:
 **Formal Definition**: A topologically invariant property of a surface defined as the largest number of nonintersecting simple closed curves that can be drawn on the surface without separating it.
 
 # 🧠Intuition
-Intuitively, the genus is the number of "holes" of a [[Surface]].
+Intuitively, the genus is the number of "holes" of a [[surface]].
 
 # 🗃Example
 

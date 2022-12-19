@@ -7,7 +7,7 @@ tags:
 
 
 # 📝Definition
-Implicit (or volumetric) surface representation is defined to be the zero set of a scalar-valued function $F$.
+Implicit (or volumetric) surface representation is the following. Surface $S$ is defined to be the zero-level set of a scalar-valued function $F$.
 $$
 F:\mathbb{R}^3\to\mathbb{R},\text{ i.e., }S=\{x\in\mathbb{R}^3|F(x)=0\}
 $$
@@ -32,13 +32,27 @@ $$
 F: \mathbb{R}^2\to\mathbb{R},\quad(x,y)\mapsto\sqrt{x^2+y^2}-1
 $$
 
+# 💫Operation
+## 🌠designate point inside, on, outside
+By convention, the function values of $F$ designate points
+- **inside** the object with **negative** value
+- **outside** the object with **positive** value.
+- **exactly on** the surface with the [[level set|zero-level set]] [[isosurface]] $S$ contains the points, a.k.a. **equals the constant**
+
+🔮
+☄
+🌌
+🥏
+🌀
+
+
 # ⛈Characteristics
 ## ☁ No holes
 An implicit surface does not have any [[genus|holes]] as long as the defining function $F$ is [[Continuity|continuous]]. 
 
 
 ## 🌧 No self-intersections
-Since an implicit surface is a level set of a potential function, geometric self-intersections **cannot** occur.
+Since an implicit surface is a [[level set]] of a potential function, geometric self-intersections **cannot** occur.
 
 🌨
 🌩
@@ -48,6 +62,18 @@ Since an implicit surface is a level set of a potential function, geometric self
 🌥
 🌦
 
+
+# 🤳Applicability
+## [[constructive solid geometry]]
+
+As a consequence, geometric inside/outside queries simplify to function
+evaluations of F and checking the sign of the resulting value. This makes
+implicit representations well suited for constructive solid geometry (CSG),
+where complex objects are constructed by Boolean operations applied to
+geometric primitives
+
+
 # 🍂Unorganized
-By convention, negative function values of F designate points inside the object and positive value points outside the object.
-The zero-level isosurface S contains the points exactly on the surface, separating the inside from the outside. 
+
+
+Instead we will first convert the point cloud sampling representation into a an implicit surface representation: where the unknown surface is defined as the level-set of some function $g: \mathbf{R}^3 \Rightarrow \mathbf{R}$ mapping all points in space to a scalar value. For example, we may define the surface $\partial \mathbf{S}$ of some solid, volumetric shape $\mathbf{S}$ to be all points $\mathbf{x} \in \mathbf{R}^3$ such that $g(x) = {\sigma}$, where we may arbitrarily set ${\sigma}=\frac12$.

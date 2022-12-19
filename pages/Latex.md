@@ -1,3 +1,7 @@
+$$
+\textcolor{blue}{\text{blue}}
+$$
+
 - 📈Diagram
   -
   
