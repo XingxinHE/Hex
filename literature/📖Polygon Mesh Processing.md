@@ -17,6 +17,7 @@ What does this book for?
 I feel ...
 
 **🏁Progress**
+
 |             | Read? | Document? |
 | ----------- | ----- | --------- |
 | Chapter ... |       |           |
@@ -40,13 +41,23 @@ I feel ...
 
 ## 1.4 Implicit Surface Representations
 Review the definition at here![[implicit surface representation#📝Definition]]
+
+Preceding is just a description of an implicit surface. So what is its equation? ![[implicit surface representation#✒Notation]]
+
 Understand the objective of it.![[implicit surface representation#🎯Intent]]
 
 Take a look at the example ![[implicit surface representation#🗃Example]]
 
 Be aware of the characteristics of it. ![[implicit surface representation#⛈Characteristics]]
-The value of the function $F$ has special meaning.![[implicit surface representation#💫Operation#🌠designate point inside, on, outside]]
+The value of the function $F$ has special meaning.
+![[implicit surface representation#💫Operation]]
 
+The preceding neat operation help implicit surface in its applicabilites.
+![[implicit surface representation#🧀Applicability#🍞 constructive solid geometry]]
+
+In the meantime, we must be also aware of its cons. ![[implicit surface representation#🩹Cons]]
+
+The appropriate data structures for implicit surface. ![[implicit surface representation#🎶 Data Structures]]
 
 
 # 💭Things I don't Know

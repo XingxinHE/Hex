@@ -26,7 +26,7 @@ I feel ...
 
 
 # 📺Lectures
-## Lecture 01 [[Convex Hull]] or [[Convex Hull#🤳Applicability#Mixing Things|Mixing Things]]
+## Lecture 01 [[Convex Hull]] or [[Convex Hull#🧀Applicability#Mixing Things|Mixing Things]]
 - understand few ways to implement the convex hull at [[Convex Hull#🐍Algorithm]]
 	- 
 

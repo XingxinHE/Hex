@@ -74,7 +74,7 @@ Outline
 Outline:
 - Why should we use lambda? Answer: [[lambda expression#CPP#🗺Big Picture]]
 - understand the syntax at [[lambda expression#CPP#🧪Composition]]
-- some scenario using lambda at [[lambda expression#CPP#🤳Applicability]]
+- some scenario using lambda at [[lambda expression#CPP#🧀Applicability]]
 - understand the "本质" of lambda expression at [[lambda expression#CPP#🔎Implementation]]
 - wonder capture by "const-reference"? See [[lambda expression#CPP#Capture clause#⌨Sample Code]]
 - the application of `mutable` lambda in [[lambda expression#CPP#🧪Composition#mutable specification]]
