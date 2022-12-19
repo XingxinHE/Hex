@@ -24,7 +24,7 @@ $$
     - Graph:
         - ![name|200](../assets/cube_as_convex_hull.png)
 
-# 🤳Applicability
+# 🧀Applicability
 ## Mixing Things
 We can transfer such mathematical problems to a convex hull geometric problem.
 ![name|500](../assets/mixing_things_CH.svg)

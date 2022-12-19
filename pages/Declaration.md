@@ -31,7 +31,7 @@ What is the complement of this subject? e.g. vector-covector, constructor-destru
     - Not all declarations are definitions.
   -
   
-# 🤳Applicability
+# 🧀Applicability
  What are the situations in which this subject can be applied?
 
 # 🧪Composition

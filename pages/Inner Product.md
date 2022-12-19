@@ -205,7 +205,7 @@ Although inner product itself is operation, by combining different inner product
 # 🌓Complement
 - [[Outer Product]]
 
-# 🤳Applicability  
+# 🧀Applicability  
 What are the situations in which this subject can be applied?
 - 📌co-occurrence
     - $a, b$ are $n$-vectors that describe occurrence.  i.e. each of them is either 1(exist) or 0(not exist).

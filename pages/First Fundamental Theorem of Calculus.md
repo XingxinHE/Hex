@@ -243,7 +243,7 @@ $$
                   c=\frac{1}{2}(1-a^2).
                   $$
                 
-- 🤳Applicability
+- 🧀Applicability
     - 📌Constructing functions([[Transcendental Function]]) using integrals ^c5b79b5a6111e23d
         - 🧠Intuition
             - Using definite integral to create some function you can express in other tools.

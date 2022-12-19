@@ -382,14 +382,14 @@ $$
               C_{ij}\equiv(-1)^{i+j}M_{ij}
               $$
             
-    - 🤳Applicability
+    - 🧀Applicability
         - Used in the computation of the [[Determinant]] of a matrix.
         
 - 📌Rank One Matrix
     - 📝Definition
         - [[#^30a632e9e0e39867|Rank]] one matrix is matrix that all columns of $A$ and all [[linear combination]]s $Ax$ lie on one line.
         
-# 🤳Applicability
+# 🧀Applicability
 - 📌Matrix Representation
     - image
         - We can use matrix $X$ to represent an image. $X_{ij}$ is $i, j$ pixel value in a monochrome image.

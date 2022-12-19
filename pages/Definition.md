@@ -72,7 +72,7 @@ A definition is a [[declaration]] that allocates [[memory]].
 # 🧱Structure
  ...
 
-# 🤳Applicability
+# 🧀Applicability
  What are the situations in which the design pattern can be applied?
 
 # 🤼Participants

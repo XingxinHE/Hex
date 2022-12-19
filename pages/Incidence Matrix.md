@@ -17,7 +17,7 @@
         
   -
   
-- 🤳Applicability
+- 🧀Applicability
     - Incidence Matrix as Topological Data Structure
         - 📝Definition
             - Let $K$ be a [[Simplicial Complex]] , let $n_k$ denote the number of $k$-simplices in $K$, and suppose that for each $k$ we give the $k$-simplices a canonical ordering so that they can be specified via indices $1,...,n_k$. The $k$-th *incidence matrix* is then a $n_{k+1}\times n_k$ matrix $E^k$ with entries $E^{k}_{ij}=1$ if the $j$th $k$-simplex is contained in the $i$-th $(k+1)$-simplex, and $E^k_{ij}=0$ otherwise.

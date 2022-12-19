@@ -26,7 +26,7 @@ What is the complement of this subject? e.g. vector-covector, constructor-destru
       | the solution! | the problem! |
     - ![name](../assets/relationship_datastructure_interface.svg){:height 350, :width 350}
     
-# 🤳Applicability
+# 🧀Applicability
  What are the situations in which this subject can be applied?
 
 # 🧪Composition

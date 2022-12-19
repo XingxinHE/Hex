@@ -4,7 +4,7 @@
 # 🧠Intuition
 - To determine local extrema of a function under certain conditions.
 
-# 🤳Applicability
+# 🧀Applicability
 - 📌Finding [[Local Minima]] and [[Local Maxima]]
     - Suppose that $x=a$ is a [[Critical Point]] of $f$, with $f'(a)=0$
         - if $f''(a)>0$, then $f$ has a local minimum at $x=a$.

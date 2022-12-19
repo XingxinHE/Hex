@@ -17,7 +17,7 @@ A destructor makes sure that an object is properly cleaned up before it is destr
 # 🌓Complement
 [[Constructor]]
 
-# 🤳Applicability
+# 🧀Applicability
 [[RAII]]
 
 # ⛈Characteristics

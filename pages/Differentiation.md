@@ -1,7 +1,7 @@
 # 📝Definition
 - The computation of a [[Derivative]].
 
-# 🤳Applicability
+# 🧀Applicability
  What are the situations in which this subject can be applied?
 ### Optimization: min and max problem
 The application involving differentiation is to optimize.

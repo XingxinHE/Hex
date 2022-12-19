@@ -22,7 +22,7 @@ The orange dot.
 [[Right-hand limit]]
 ## ✒Descriptive Explanation
 A narrative... a descriptive words subject on the concept... 描述性解释…
-## 🤳Applicability
+## 🧀Applicability
  What are the situations in which this subject can be applied?
 ## 🧪Composition
 What kind of stuffs composite this subject?

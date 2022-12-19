@@ -5,7 +5,7 @@ aliases: [DDG]
 # 🧠Intuition
 DDG translate [[Differential Geometry]] into language suitable for **computation**.
 
-# 🤳Applicability
+# 🧀Applicability
 There are few application of Discrete Differential Geometry:
 - Geometry Processing
 - Shape Analysis

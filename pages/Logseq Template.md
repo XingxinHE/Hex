@@ -12,7 +12,7 @@ Find an intuitive way of explanation of this concept.
  Code fragments
 # 🌓Complement
 What is the complement of this subject? e.g. vector-covector, constructor-destructor
-# 🤳Applicability
+# 🧀Applicability
  What are the situations in which this subject can be applied?
 # 🧪Composition
 What kind of stuffs composite this subject?
@@ -114,7 +114,7 @@ template:: Full Concept Template
   template:: B-Example
     - Example is the most straightforward way to understand a mathematical concept.
     
-- 🤳Applicability
+- 🧀Applicability
   template:: B-Applicability
     - What are the situations in which this subject can be applied?
     

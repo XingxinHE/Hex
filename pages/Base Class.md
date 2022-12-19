@@ -22,7 +22,7 @@ Find an intuitive way of explanation of this concept.
 # 🌓Complement
 What is the complement of this subject? e.g. vector-covector, constructor-destructor
 
-# 🤳Applicability
+# 🧀Applicability
  What are the situations in which this subject can be applied?
 
 # 🧪Composition

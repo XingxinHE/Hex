@@ -415,7 +415,7 @@ Since #cpp14 , you can define generic lambda with [[auto keyword]] for `auto, co
 
 
 
-## 🤳Applicability
+## 🧀Applicability
 In the following, I will list out some scenarios that lambda expression is a good fit.
 
 **📌convenient way to define functions at runtime**

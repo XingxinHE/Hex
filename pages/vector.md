@@ -150,7 +150,7 @@ Find an intuitive way of explanation of this concept.
 # 🚀Benefit
  A scenario that illustrates the benefit this object provides.
 
-# 🤳Applicability
+# 🧀Applicability
 There are many application of vector and the following are a few.
 - 📌Vector as a list of value
     - This is the computational way using vector. There are lots of example of these.
@@ -258,7 +258,7 @@ The operations that vector supports are the following
               $$
             - a.k.a. We usually use [[Euclidean Norm]] to measure the distance.
             
-    - 🤳Applicability
+    - 🧀Applicability
         - Feature distance and nearest neighbors
             - The Euclidean distance is widely used!!
             - if $x$ and $y$ are feature vectors for two entities

@@ -45,7 +45,7 @@ Example is the most straightforward way to understand a concept.
 - What is the complement of this subject? e.g. vector-covector, constructor-destructor
 - ![[data structure#^8a966e5bc270ebf]]
 
-# 🤳Applicability
+# 🧀Applicability
  What are the situations in which this subject can be applied?
 
 # 🧪Composition

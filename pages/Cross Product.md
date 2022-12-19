@@ -97,7 +97,7 @@ To prove something...
 # 🗃Example  
 Example is the most straightforward way to understand a mathematical concept.
 
-# 🤳Applicability  
+# 🧀Applicability  
 What are the situations in which this subject can be applied?
 
 # 🧪Composition  

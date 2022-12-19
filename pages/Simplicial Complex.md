@@ -65,7 +65,7 @@ aliases: [(Abstract) Simplicial Complex, (Geometric) Simplicial Complex]
         
   -
   
-- 🤳Applicability
+- 🧀Applicability
     - 📌Topological Data Analysis
         - There are many applications of simplicial complex, one of which is persistent homology.
         - ![name](../assets/topological_data_analysis.gif){:height 200, :width 300}

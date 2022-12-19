@@ -50,7 +50,7 @@ aliases: [simplicial 2-complexes]
 - ⛈Characteristics / Properties
     - ![[manifold#^69e2c532a6ef8467]]
     
-- 🤳Applicability
+- 🧀Applicability
     - 3D Image Generation
         - 🚀Benefit / Pros
             - In [[Rasterization]] and [[Ray Tracing]], triangle mesh has dominant benefit.

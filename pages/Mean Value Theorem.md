@@ -18,7 +18,7 @@ aliases: [MVT]
   ![name](../assets/MVT.png){:height 500, :width 500}
   MVT is the bridge connecting those 2 domains.
 
-# 🤳Applicability
+# 🧀Applicability
 - What are the situations in which this subject can be applied?
 - 📌Bounding the average rate of change using MVT
     - With the definition of MVT, it implies that the average rate of change must be within the range of possible values of the derivative.

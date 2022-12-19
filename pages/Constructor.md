@@ -11,5 +11,5 @@ A constructor makes sure that an object is properly created and initialized.
 It includes:
 - [[default constructor]]
 
-# 🤳Applicability
+# 🧀Applicability
 [[RAII]]

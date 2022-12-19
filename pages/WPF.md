@@ -204,7 +204,7 @@
         - 🕳Pitfalls / Cons
             - Not flexible.
             
-        - 🤳Applicability
+        - 🧀Applicability
             - Since its 所见即所得 nature, it is good at illustration and painting.
             
         - ⌨Sample Code

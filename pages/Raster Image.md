@@ -4,7 +4,7 @@
 - 🧠Intuition
     - It’s best to think of a raster image as a device-independent description of the image to be displayed, and the display device as away of approximating that ideal image.
     
-- 🤳Applicability
+- 🧀Applicability
     - Raster images are the most common way to store and process images.
     
 - 🌓Complement

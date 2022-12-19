@@ -4,7 +4,7 @@
 # 🧠Intuition
 - Find the function's [[extremum]] point.
 
-# 🤳Applicability
+# 🧀Applicability
 - 📌Finding [[Local Minima]] and [[Local Maxima]]
     - Suppose the $f(x)$ is continuous at $x=a$ and has a [[Critical Point]] at $x=a$
         - $f$ has a local minimum at $x=a$ if $f'(x)<0$ just to the left of $a$ and $f'(x)>0$ just to the right of $a$.

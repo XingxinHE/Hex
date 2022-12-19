@@ -34,7 +34,7 @@ aliases: [Automata Theory, automaton]
 # 🌓Complement
 What is the complement of this subject? e.g. vector-covector, constructor-destructor
 
-# 🤳Applicability
+# 🧀Applicability
  What are the situations in which this subject can be applied?
 
 # 🧪Composition

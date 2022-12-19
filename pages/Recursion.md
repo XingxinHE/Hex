@@ -38,7 +38,7 @@ The act of a [[function]] calling itself; see also iteration.
     - Because the solution depends on dividing hard problems into simpler instances of the same problem, recursive solutions of this form are often called **divide-and-conquer** algorithms.
 
     
-# 🤳Applicability
+# 🧀Applicability
 - 📌When you should use recursion?
     - When you are faced with a task that exceeds your own capacity, the answer lies in delegating part of the work to others.
     

@@ -89,7 +89,7 @@ reinterpret_cast < type-id > ( expression )
 # 🕳Pitfalls
 `reinterpret_cast` is not portable.
 
-# 🤳Applicability
+# 🧀Applicability
 The `reinterpret_cast` seems quite ugle so why should it be in the #cpp anyway? The answer lies into 2:
 - solving the legacy issue with [[void pointer]] in #c 
 -  `reinterpret_cast` is good at directly interpert [[memory|memory address]]! ⭐

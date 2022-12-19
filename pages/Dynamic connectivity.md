@@ -382,7 +382,7 @@
   
   ```
 
-# 🤳Applicability
+# 🧀Applicability
 - Pixels in a digital photo.
 - Computers in a network.
 - Friends in a social network.

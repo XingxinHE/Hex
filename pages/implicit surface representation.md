@@ -63,7 +63,7 @@ Since an implicit surface is a [[level set]] of a potential function, geometric 
 🌦
 
 
-# 🤳Applicability
+# 🧀Applicability
 ## [[constructive solid geometry]]
 
 As a consequence, geometric inside/outside queries simplify to function

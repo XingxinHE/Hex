@@ -15,7 +15,7 @@ An `inline` function represents a request to the [[compiler]] to expand the func
 - Bjarne on `inline` function,
     - An `inline` function is only consisted **no more than one or two expressions**.
     
-# 🤳Applicability
+# 🧀Applicability
 - `inline` function only suits to **small** function.
 
 # 🎭Analogy

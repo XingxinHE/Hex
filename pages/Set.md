@@ -151,5 +151,5 @@ Be aware of the pitfalls when using this stuffs... (especially considering edge 
     - $\emptyset\neq\{\emptyset\}$
     - ![name](../assets/difference_of_emptyset_setwithemptyset.png){:height 400, :width 400}
     
-# 🤳Applicability  
+# 🧀Applicability  
 What are the situations in which this subject can be applied?

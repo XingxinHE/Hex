@@ -16,7 +16,7 @@
 - 💫Operation
     - $\bold{nnz}(A)$ is number of nonzero entries
     
-- 🤳Applicability
+- 🧀Applicability
     - Sparse Matrix as Topological Data Structure
         - 📝Definition
             - In practice, it’s essential to use a **sparse matrix**, i.e., a data structure that efficiently stores only the location and value of nonzero entries.

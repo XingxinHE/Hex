@@ -69,7 +69,7 @@ $$
 f(x)&=
 \end{align}
 $$
-## 🤳Applicability
+## 🧀Applicability
  What are the situations in which this subject can be applied?
 ## 🧪Composition
 What kind of stuffs composite this subject?

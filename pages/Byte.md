@@ -20,6 +20,6 @@ $$
 \text{giga }(G)=2^{30}=1,073,741,824
 $$
     
-# 🤳Applicability
+# 🧀Applicability
 ==1== byte is a perfect size to store an [[ASCII Character Codes|ASCII character]].
 

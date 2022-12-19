@@ -28,7 +28,7 @@
     - The dimension of $x,\beta$ are $n$.
     - Literally no difference from the left hand side.
     
-# 🤳Applicability
+# 🧀Applicability
 - What are the situations in which this subject can be applied?
 - 📌House price regression model
     - Suppose:

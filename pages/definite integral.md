@@ -122,7 +122,7 @@ The middle part is called integrand.
 - see [[#^b084c40053254023|example demonstrating pitfall of substituition]].
         
 
-# 🤳Applicability
+# 🧀Applicability
 ![[First Fundamental Theorem of Calculus#^c5b79b5a6111e23d]]
 Also see [[application of definite integral]]
 

@@ -29,7 +29,7 @@ The hexadecimal system is particularly important in computer [[Programming]].
 What makes hexadecimal notation attractive is that you can convert it to [[Bit|binary representation]]. ==4== [[Bit|bits]] can be succinctly expressed using ==1== hexadecimal digit.
 ![name|400](../assets/hexadecimal_binary.png)
 
-# 🤳Applicability
+# 🧀Applicability
 ## RGB
 ==2== hexadecimal digits represent numbers from ==0== to ==255==, a common range used, for example, to specify colors. Thus, in the [[HTML]] language of the web, colors are specified using **3** pairs of hexadecimal digits `RRGGBB`, where `RR` is the amount of $\textcolor{red}{\text{red}}$, `GG` the amount of $\textcolor{green}{\text{green}}$, and `BB` the amount of $\textcolor{blue}{\text{blue}}$. 
 ![name|200](../assets/hexadecimal_color.png)

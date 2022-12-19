@@ -85,7 +85,7 @@ Example is the most straightforward way to understand a mathematical concept.
         
     - Obviously, it is not a linear function.
     
-# 🤳Applicability
+# 🧀Applicability
  What are the situations in which this subject can be applied?
 
 # 🧪Composition

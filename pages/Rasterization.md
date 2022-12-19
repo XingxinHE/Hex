@@ -10,7 +10,7 @@
 - 🕳Pitfalls / Cons
     - harder (but not impossible) to achieve photorealism
     
-- 🤳Applicability
+- 🧀Applicability
     - perfect match for 2D vector art, fonts, quick 3D preview, …
     
 - 🌓Complement

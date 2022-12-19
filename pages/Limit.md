@@ -42,7 +42,7 @@ Remember that $x$ is <u>approaching</u> $a$ but does **not equal** $a$.
 | 3     | not exist❌       | not exist❌      | ❌$L$&$R$ both blows up to $\pm\infty$        | $f(x)=\frac{1}{x}$<br>looks at $x=0$                         | ![name](../assets/image-20220203104105031.png) |
 | 4     | not exist❌       | not exist❌      | ❌oscillates and never settle down to a value | $f(x)=\sin(13/x)$<br>looks at $x=0$                          | ![name](../assets/image-20220203113840991.png) |
     
-# 🤳Applicability
+# 🧀Applicability
 There are many application taking advantages from limit.
 - To do an asymptotics, you can see here
     - ((63076a15-0dee-48d0-9112-fe2b1af3d855))

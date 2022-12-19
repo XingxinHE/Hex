@@ -29,7 +29,7 @@
     - `const` => run-time
     - `constexpr` => compile-time
     
-# 🤳Applicability
+# 🧀Applicability
  `const` often is used in passing arguments and returning values by pointers and references.
 
 - Uses for `const`

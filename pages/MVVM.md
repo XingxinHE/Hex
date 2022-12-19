@@ -1,7 +1,7 @@
 # 🎯Intent
 - A well-structured graphical app <u>separates</u> the design of the <u>user interface</u> from the <u>data</u> that the application uses and the <u>business logic</u> that comprises the functionality of the app.
 
-# 🤳Applicability
+# 🧀Applicability
 - use the <u>Model–View–ViewModel</u> pattern
 - use <u>data binding</u> to display and modify data in a view
 - create a <u>ViewModel</u> with which a view can <u>interact with a model</u>

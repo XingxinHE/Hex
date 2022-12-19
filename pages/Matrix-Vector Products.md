@@ -126,7 +126,7 @@ $$
   
 - 🗃Example
 
-- 🤳Applicability
+- 🧀Applicability
     - Matrix-Vector Multiplication as mean
         - $\tilde{x}=Ax$ is de-meaned version of $x$, with
         - $$

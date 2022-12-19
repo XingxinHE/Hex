@@ -17,7 +17,7 @@ aliases: [Complexity Theory]
         
     - Computability theory introduces several of the concepts used in complexity theory.
     
-# 🤳Applicability
+# 🧀Applicability
 - [[Cryptography]]
     - Complexity theory has pointed cryptographers in the direction of computationally hard problems around which they have designed revolutionary new codes.
     

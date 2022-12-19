@@ -8,7 +8,7 @@ aliases: [color filter mosaic]
 - 📈Diagram
     - ![name](../assets/color_filter_array.svg){:height 200, :width 200}
     
-- 🤳Applicability
+- 🧀Applicability
     - Digital Camera
         - Most color cameras work by using a color ﬁlter array or mosaic to allow each pixel to see only red, green, or blue light, leaving the image processing software to ﬁll in the missing values in a process known as demosaicking.
         
