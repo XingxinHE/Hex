@@ -58,6 +58,49 @@ The preceding neat operation help implicit surface in its applicabilites.
 In the meantime, we must be also aware of its cons. ![[implicit surface representation#🩹Cons]]
 
 The appropriate data structures for implicit surface. ![[implicit surface representation#🎶 Data Structures]]
+### 1.4.1 Regular Grids
+Understand how regular gird can help discretization. ![[regular grid#🧀Applicability#🍞Discretize implicit surface representation implicit surface]]
+
+
+
+### 1.4.2 Adaptive Data Structures
+**🔗Link**
+https://en.wikipedia.org/wiki/Adaptive_mesh_refinement
+
+**📝Description**
+This bunch methods have a higher sampling rate only on those precise signed distance values which are most important in the vicinity of the surface.
+
+**⛈Characteristics**
+- Reduce complexity from $O(n^3)$(regular grid) to $O(n^2)$.
+- Only interested in those areas which are necessary. e.g. high [[curvature]]
+
+**🗃Example**
+![|500](../assets/different_adaptive_approximation_signed_distance_field.png)
+Different adaptive approximations of a signed distance field with the same accuracy:
+- three-color quadtree (left, 12040 cells)
+- adaptively sampled distance fields (ADF) [Frisken et al. 00] (center, 895 cells)
+- binary space partitioning (BSP) tree [Wu and Kobbelt 03] (right, 254 cells).
+
+black⚫ completely inside (black)
+**gray**🔘 only here are worth refinement✅
+white⚪ completely outside (white)
+
+Adaptively refining only those cells that are intersected by the surface (grey) yields a uniformly refined crust of leaf cells around the surface and reduces the storage complexity from cubic to quadratic.
+
+**🌱Related Elements**
+The technique behind is binary, quad, and oct tree? #TODO 
+
+## 1.5 Conversion Methods
+**📌Why we need this?**
+Since both representations have their pros and cons, efficient conversion methods between the two are necessary.
+
+**📌Their both charactecristics**
+Both kinds of representations are usually **finite samplings** (e.g., triangle meshes in the parametric case, uniform/adaptive grids in the implicit case) and that each conversion corresponds to a resampling step. 
+
+**📌The Objective**
+Hence, special care has to be taken in order to **minimize loss of information** during these conversion routines.
+
+
 
 
 # 💭Things I don't Know

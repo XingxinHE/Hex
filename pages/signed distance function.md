@@ -50,7 +50,8 @@ In addition to inside/outside queries, signed distance function also **simplifie
 
 
 # 🌱Related Elements
-The closest pattern to current one, what are their differences?
+
+![[indicator function#🌱Related Elements#🍎indicator function vs. implicit surface representation implicit surface functions vs. signed distance function]]
 
 
 

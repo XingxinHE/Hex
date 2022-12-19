@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="-95 -215 340 340" stroke="#000" stroke-width=".2">
+ <g transform="matrix(0,4 -3,-3 0,0)" fill="#69c">
+  <path d="M0,0H30V30H0Z"/>
+  <path id="l" d="M0,6H30m0,6H0m0,6H30m0,6H0"/>
+  <use xlink:href="#l" transform="matrix(0,1 1,0 0,0)"/>
+ </g>
+ <g transform="matrix(4,-2 -3,-3 0,0)" fill="#9cf">
+  <g id="f">
+   <path d="M0,0H60V30H0Zh12V30m12,0V0m12,0V30m12,0V0"/>
+   <use xlink:href="#l" transform="scale(2,1)"/>
+  </g>
+ </g>
+ <g transform="matrix(4,-2 0,4 0,0)" fill="#369">
+  <use xlink:href="#f"/>
+ </g>
+</svg>

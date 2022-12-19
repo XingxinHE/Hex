@@ -51,8 +51,7 @@ $$
 $$
 ![|200](../assets/level-set-circle-function.gif)
 
-🗂
-📂
+
 
 
 
@@ -61,3 +60,4 @@ The closest pattern to current one, what are their differences?
 
 
 # 🍂Unorganized
+See more on p441 [[📖Architectural Geometry]].

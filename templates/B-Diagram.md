@@ -1,2 +1,2 @@
 📈Diagram
-![name|300](../assets/name.png)
+![|300](../assets/)

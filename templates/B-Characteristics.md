@@ -1,10 +1,1 @@
-# ⛈Characteristics
-☁
-🌧
-🌨
-🌩
-⛅
-🌤
-🌪
-🌥
-🌦
+⛈Characteristics

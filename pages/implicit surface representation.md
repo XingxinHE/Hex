@@ -26,12 +26,14 @@ It maps each 3D point $x$ to its signed distance $d(x)$ from the surface $S$:
 - the **absolute value** $|d(x)|$ measures the **distance** of $x$ to $S$
 - the **sign** indicates whether the point $x$ is inside or outside of the solid bounded by $S$.
 
+# 🌓Complement
+[[parametric surface representation]]
 
 # 🎯Intent
 The basic concept of *implicit* or *volumetric* representations for geometric models is to **characterize** the whole embedding space of an object by classifying each 3D point to lie either **inside, outside**, or exactly **on** the surface $S$ that bounds a solid object.
 
 > [!tip] Key Takeaway
-> From the word "characterize", we understand *implicit surface representation* is good for [[mesh reconstruction]].
+> From the word "characterize", we understand *implicit surface representation* is good for [[surface reconstruction]].
 
 # 🗃Example
 **📂Define [[curve]] in implicit representation**
@@ -64,12 +66,6 @@ Implicit surfaces can be deformed by tuning the function values of $F$ locally.
 
 
 
-☄
-🌌
-🥏
-🌀
-
-
 # ⛈Characteristics
 ## ☁ No holes
 An implicit surface does not have any [[genus|holes]] as long as the defining function $F$ is [[Continuity|continuous]]. 
@@ -78,13 +74,7 @@ An implicit surface does not have any [[genus|holes]] as long as the defining fu
 ## 🌧 No self-intersections
 Since an implicit surface is a [[level set]] of a potential function, geometric self-intersections **cannot** occur.
 
-🌨
-🌩
-⛅
-🌤
-🌪
-🌥
-🌦
+
 
 
 # 🧀Applicability
@@ -95,14 +85,6 @@ The geometric inside/outside queries can be simplified to function evaluations o
 **Therefore✔️**:
 This makes implicit representations well suited for constructive solid geometry (CSG), where complex objects are constructed by Boolean operations applied to geometric primitives.
 
-
-
-🥐
-🥖
-🥨
-🥯
-🥞
-🧇
 
 # 🩹Cons
 There are shortages for implicit surface.
@@ -121,7 +103,12 @@ The most common spatial data structures for implicit surface representations are
 - adaptive data structures
 
 
+
+# 🌱Related Elements
+![[indicator function#🌱Related Elements#🍎indicator function vs. implicit surface representation implicit surface functions vs. signed distance function]]
+
+
+
 # 🍂Unorganized
 
 
-Instead we will first convert the point cloud sampling representation into a an implicit surface representation: where the unknown surface is defined as the level-set of some function $g: \mathbf{R}^3 \Rightarrow \mathbf{R}$ mapping all points in space to a scalar value. For example, we may define the surface $\partial \mathbf{S}$ of some solid, volumetric shape $\mathbf{S}$ to be all points $\mathbf{x} \in \mathbf{R}^3$ such that $g(x) = {\sigma}$, where we may arbitrarily set ${\sigma}=\frac12$.

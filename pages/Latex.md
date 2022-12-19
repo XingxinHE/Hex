@@ -56,14 +56,14 @@ $$
 $$
 
 ### Symbol and Letters
-- | Appearance                       | Code          |
-  | -------------------------------- | ------------- |
-  | $\tilde{M}$                      | `\tilde{}`    |
-  | $\equiv$ , equivalent to         | `\equiv`      |
-  | $\not\equiv$ , not equivalent to | `\not\equiv`  |
-  | $\bar{A}$                        | `$\bar{A}$`   |
-  | $\hat{A}$                        | `$\hat{A}$`   |
-  | $\tilde{A}$                      | `$\tilde{A}$` |
+| Appearance                       | Code          |
+| -------------------------------- | ------------- |
+| $\tilde{M}$                      | `\tilde{}`    |
+| $\equiv$ , equivalent to         | `\equiv`      |
+| $\not\equiv$ , not equivalent to | `\not\equiv`  |
+| $\bar{A}$                        | `$\bar{A}$`   |
+| $\hat{A}$                        | `$\hat{A}$`   |
+| $\tilde{A}$                      | `$\tilde{A}$` |
 
 ### Vectors and Matrix
 

@@ -17,12 +17,12 @@ In this figure, the nodes are labeled $\cap$ for intersection, $\cup$ for union,
 
 # 🧪Composition
 The simplest solid objects used for the representation are called **geometric primitives**. Typically they are the objects of simple shape:
-- cuboids
-- cylinders
-- prisms
-- pyramids
-- spheres
-- cones
+- [[cuboid]]s
+- [[cylinder]]s
+- [[prism]]s
+- [[pyramid]]s
+- [[sphere]]s
+- [[cone]]s
 
 > [!info] Info
 > The set of allowable primitives is limited by each software package. Some software packages allow CSG on curved objects while other packages do not.

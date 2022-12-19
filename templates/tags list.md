@@ -13,6 +13,7 @@ LinearAlgebra
 mathematics
 MIT
 NumberTheory
+NumericalAnalysis
 optimization
 physics
 probability

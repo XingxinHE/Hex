@@ -29,8 +29,9 @@ I feel ...
 ## Introduction
 - [Euler Characteristic](((634e3b2d-a1b3-4803-9236-d18373f2c133))), [[triangle mesh]], [[Half Edge Data Structure]]
 ## Mesh Reconstruction
-[[mesh reconstruction]]
+[[surface reconstruction]]
 
+Instead we will first convert the point cloud sampling representation into a an implicit surface representation: where the unknown surface is defined as the level-set of some function $g: \mathbf{R}^3 \Rightarrow \mathbf{R}$ mapping all points in space to a scalar value. For example, we may define the surface $\partial \mathbf{S}$ of some solid, volumetric shape $\mathbf{S}$ to be all points $\mathbf{x} \in \mathbf{R}^3$ such that $g(x) = {\sigma}$, where we may arbitrarily set ${\sigma}=\frac12$.
 
 
 
