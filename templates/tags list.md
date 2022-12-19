@@ -11,6 +11,7 @@ GeometryProcessing
 JavaScript
 LinearAlgebra
 mathematics
+MathematicalAnalysis
 MIT
 NumberTheory
 NumericalAnalysis
