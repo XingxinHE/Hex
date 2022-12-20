@@ -68,7 +68,7 @@ Implicit surfaces can be deformed by tuning the function values of $F$ locally.
 
 # ⛈Characteristics
 ## ☁ No holes
-An implicit surface does not have any [[genus|holes]] as long as the defining function $F$ is [[Continuity|continuous]]. 
+An implicit surface does not have any [[genus|holes]] as long as the defining function $F$ is [[continuity|continuous]]. 
 
 
 ## 🌧 No self-intersections

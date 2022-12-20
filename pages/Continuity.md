@@ -1,9 +1,13 @@
 ---
 aliases: [continuous, Continuous, continuously]
+tags:
+  - calculus
+  - mathematics
+  - MathematicalAnalysis
 ---
 
-# Continuity
-## 📝Definition
+
+# 📝Definition
 - 📌**Definition of *continuity* at a point**
     - We say that a function $f$ is **continuous at a point** $x=a$ if
       $$
@@ -13,24 +17,27 @@ aliases: [continuous, Continuous, continuously]
     - We say that a function is **right-continuous at a point** $x=a$ if $\lim_{x\to a^+}f(x) = f(a)$
     - We say that a function is **left-continuous at a point** $x=a$ if $\lim_{x\to a^-}f(x) = f(a)$
     
-## 🧠Intuition
+# 🧠Intuition
 Find an intuitive way of understanding this concept.
-## 📈Diagram
-- 📌One graph covering Continuity and Discontinuity
-    - ![name](../assets/images_u0lim2_continuitytest2.svg)
-    - Summary in one table
-      | At     | Left-continuous | Right-continuous | Continuous | Removable Discontinuity | Jump Discontinuity |
-      | ------ | --------------- | ---------------- | ---------- | ----------------------- | ------------------ |
-      | $x=-2$ | ❌               | ❌                | ❌          | ⭕                       |                    |
-      | $x=-1$ | ✔               | ✔                | ✔          |                         |                    |
-      | $x=1$  | ❌               | ❌                | ❌          | ⭕                       |                    |
-      | $x=3$  | ❌               | ✔                | ❌          |                         | ⭕                  |
-      | $x=4$  | ✔               | ✔                | ✔          |                         |                    |
-    
-## 🌓Complement
+# 📈Diagram
+
+## 📉One graph covering Continuity and Discontinuity
+![|300](../assets/images_u0lim2_continuitytest2.svg)
+
+Summary in one table
+
+| At     | Left-continuous | Right-continuous | Continuous | Removable Discontinuity | Jump Discontinuity |
+| ------ | --------------- | ---------------- | ---------- | ----------------------- | ------------------ |
+| $x=-2$ | ❌               | ❌                | ❌          | ⭕                       |                    |
+| $x=-1$ | ✔               | ✔                | ✔          |                         |                    |
+| $x=1$  | ❌               | ❌                | ❌          | ⭕                       |                    |
+| $x=3$  | ❌               | ✔                | ❌          |                         | ⭕                  |
+| $x=4$  | ✔               | ✔                | ✔          |                         |                    |
+
+# 🌓Complement
 [[Discontinuity]]
-## ⚖Laws
-The following are the laws related to continuous and limit.
+# ⚖Laws
+The following are the laws related to continuous and [[Limit]].
 - 📌Suppose the function $f$ and $g$ are continuous everywhere,
     - $f+g$ is continuous everywhere ^1f0385680664c383
     - $f-g$ is continuous everywhere
@@ -38,9 +45,9 @@ The following are the laws related to continuous and limit.
     - $f\circ g$ is continuous everywhere,  ($\circ$ means compose, e.g. $f(g(x))$)
     - $\frac{f}{g}$ is continuous where it is defined.
     
-## ✒Descriptive Explanation
+# ✒Descriptive Explanation
 A narrative... a descriptive words subject on the concept... 描述性解释…
-## 🗃Example
+# 🗃Example
 The following are some examples related to continuity.
 - 📌example -  $f,g$ not continuous, but $f+g$ might be continuous
     - In the [[#^1f0385680664c383|law section]], we know that:
@@ -63,20 +70,6 @@ The following are some examples related to continuity.
     - Graph:
       ![name](../assets/x_32_4.svg){:height 300, :width 300}
     
-## 🧮Expression
-$$
-\begin{align}
-f(x)&=
-\end{align}
-$$
-## 🧀Applicability
- What are the situations in which this subject can be applied?
-## 🧪Composition
-What kind of stuffs composite this subject?
-## 🏷(Sub)Categories
-What are the sub objects of this subject?
-## 🎯Intent
- A short description what does this thing do?
 
 # 🌱Related Elements
  The closest pattern to current one, what are their differences?

@@ -1,5 +1,5 @@
 # 📝Definition
-A [[Continuity|continuous]] distribution is a nonnegative function $w(x)$ that approximates the discrete distribution. The area under a continuous distribution measures the probability that an event occurs.
+A [[continuity|continuous]] distribution is a nonnegative function $w(x)$ that approximates the discrete distribution. The area under a continuous distribution measures the probability that an event occurs.
 $$
 P(a < x < b) = \frac{\int _a^b w(x)\,  dx}{\int _{-\infty }^{\infty } w(x)\,  dx}
 $$

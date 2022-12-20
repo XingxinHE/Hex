@@ -1,4 +1,3 @@
-
 # 📝Definition
 If a function $f(x)$ <u>approaches</u> some value $L$ as $x$ approaches $a$ from <u>both</u> *the right and the left*, then the limit of $f(x)$ exists and equals $L$.
 # 🧪Composition
@@ -17,8 +16,8 @@ Find an intuitive way of understanding this concept.
       \text{physical: }&   &\text{average rate of change}\quad&\text{---}\lim_{b\to a}\text{-->} &\text{instantaneous rate of change}\\
       \end{align}
       $$
-    
-# 🧮Expression
+
+# ✒Notation
 If
 $$
 \lim_{x\to a^+}f(x)=\lim_{x\to a^-}f(x)=L
@@ -32,8 +31,10 @@ $$
 f(x)\to L \quad \text{as} \quad x\to a
 $$
 Remember that $x$ is <u>approaching</u> $a$ but does **not equal** $a$.
+
 # 📈Diagram
-📌One table summarize limit
+
+## 📉Table Summary of Left and Right on Limits
 
 | Index | Right-hand limit | Left-hand limit | R & L                                        | Example                                                      | Image                                          |
 | ----- | ---------------- | --------------- | -------------------------------------------- | ------------------------------------------------------------ | ---------------------------------------------- |
@@ -287,7 +288,7 @@ Then we get the following Limit Laws:
 
 # 🌱Related Elements
  The closest pattern to current one, what are their differences?
-- ![[Continuity#^94aefd834de51c3c]]
+- ![[continuity#^94aefd834de51c3c]]
 # 🧾 Cheat Sheet
 **📌 Limit Properties**
 Assume that $\lim_{x \to x_0}f(x)$ and $\lim_{x \to x_0}g(x)$ exists and that $c\in\mathbb{R}$, then:

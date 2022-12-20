@@ -6,7 +6,7 @@ if $f$ is a function which is [[Continuous]] on the interval $[a,b]$ and $M$ lie
 ![Intermediate_Value_Theorem](../assets/Intermediate_Value_Theorem.png){:height 136, :width 222}
 
 # ✒Descriptive Explanation
-The Intermediate Value Theorem is <u>profound</u> because it <u>takes information that is local</u> by nature, and allows you to <u>conclude a global result</u>. [[Continuity]] at a point is local information, because it only requires knowledge of the function's behavior near that point. But somehow, if we know this fact at every point on an interval, then the Intermediate Value Theorem tells us something about the overall, or global behavior - namely, that the function has to take on a particular value, or its graph has to cross a certain line.
+The Intermediate Value Theorem is <u>profound</u> because it <u>takes information that is local</u> by nature, and allows you to <u>conclude a global result</u>. [[continuity]] at a point is local information, because it only requires knowledge of the function's behavior near that point. But somehow, if we know this fact at every point on an interval, then the Intermediate Value Theorem tells us something about the overall, or global behavior - namely, that the function has to take on a particular value, or its graph has to cross a certain line.
 
 # 🕳Pitfall
 What should we be awared?

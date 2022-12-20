@@ -1,5 +1,10 @@
+---
+tags:
+  - mathematics
+  - function
+---
 # 📝Definition
-- A function $f(x)$ is [[continuous]] if for every point $c$ in the domain of $f(x)$ , the function $f$ is continuous at the point $x=c$.
+A function $f(x)$ is [[continuity|continuous]] if for every point $c$ in the domain of $f(x)$ , the function $f$ is continuous at the point $x=c$.
 
 # 🗃Example
 The following is example related to continuous functions.

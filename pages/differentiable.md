@@ -20,4 +20,4 @@ aliases: [differentiability]
             
         - ![name](../assets/abs_x.svg){:height 250, :width 250}
         
-- ![[Continuity#^94aefd834de51c3c]]
+- ![[continuity#^94aefd834de51c3c]]

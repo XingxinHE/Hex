@@ -1,5 +1,9 @@
 ---
 aliases: [discontinuous]
+tags:
+  - calculus
+  - mathematics
+  - MathematicalAnalysis
 ---
 
 # 📝Definition
@@ -8,24 +12,24 @@ A discontinuity is point at which a mathematical object is discontinuous.
 # 🧠Intuition
 A discontinuity is a point at which a function jumps suddenly in value, blows up, or is undefined.
 
-# 🏷(Sub)Categories
+# 🏷Categories
 There are several forms of discontinuity.
 - 📌Jump Discontinuity
     - Definition:
-        - If the left-hand limit \lim_{x\to a^-} and the right-hand limit \lim_{x\to a^+} both exist at a point x=a, but they are not equal, then we say that f has a **jump discontinuity** at x=a.
+        - If the left-hand limit $\lim_{x\to a^-}$ and the right-hand limit $\lim_{x\to a^+}$ both exist at a point $x=a$, but they are not equal, then we say that $f$ has a **jump discontinuity** at $x=a$.
         
     - Diagram:
         - ![name](../assets/images_u0lim2_jump.svg)
         
 - 📌Removable Discontinuity
     - Definition:
-        - If the overall limit \lim_{x\to a}f(x) exists (i.e., the left- and right-hand limits agree), but the overall limit does not equal f(a), then we say that f has a **removable discontinuity** at x=a.
+        - If the overall limit $\lim_{x\to a}f(x)$ exists (i.e., the left- and right-hand limits agree), but the overall limit does not equal $f(a)$, then we say that $f$ has a **removable discontinuity** at $x=a$.
         
     - Diagram:
         - ![name](../assets/images_u0lim2_removable.svg)
         
 # 🌓Complement
-[[Continuity]]
+[[continuity]]
 
 # 🌱Related Elements
  The closest pattern to current one, what are their differences?

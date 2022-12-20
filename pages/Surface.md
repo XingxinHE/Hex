@@ -12,18 +12,18 @@ The exact mathematical model of a surface is usually intractable. Therefore, the
 		
 - In #[[Computer Graphics]],
 	- 📝Definition⭐
-		- The common definition of a *surface* in the context of computer graphics application is "an [[Simplicial Complex#^2453002026d67ffe|orientable]] [[Continuity|continuous]] 2D [[manifold]] embedded in $\mathbb{R}^3$.
+		- The common definition of a *surface* in the context of computer graphics application is "an [[Simplicial Complex#^2453002026d67ffe|orientable]] [[continuity|continuous]] 2D [[manifold]] embedded in $\mathbb{R}^3$.
             
 # ⛈Characteristics / Properties
 ## Smoothness
 ### 📝Definition
-- Smoothness is measured by the number $k$ of [[Continuity|continuous]] [[derivative]]s that the function have.
+- Smoothness is measured by the number $k$ of [[continuity|continuous]] [[derivative]]s that the function have.
 - 👑Importance
 	- A surface SHOULD be smooth in general, except for a well-defined set of sharp feature-(curves, )
 - > ==**Note⚠**==: This analytical definition of $C^k$ smoothness coincides with the intuitive geometrical understanding of smoothness only if the [[partial derivative]]s and the [[gradient]] do not vanish locally(regularity).
 ## Fairness
 ### 📝Definition
-- This is the stricter requirement for surface, where not only the [[Continuity]] of the [[derivative]]s but also their magnitude and variation is considered. No general definition of this properties but *a surface is fair* if the [[curvature]] or its variation is globally minimized.
+- This is the stricter requirement for surface, where not only the [[continuity]] of the [[derivative]]s but also their magnitude and variation is considered. No general definition of this properties but *a surface is fair* if the [[curvature]] or its variation is globally minimized.
 ### 📈Diagram
 - ![name](../assets/fair_surface.png){:height 200, :width 200}
   Three examples of fair surfaces, which define a blend between two cylinders:
@@ -61,7 +61,7 @@ A surface can be modified either in terms of geometry or in terms of topology.
 ## 🚿Common source of surface
 - The raw information about the input surface is obtained by **discrete** [[sampling]] (i.e., by evaluation if there already exists a digital representation, or by probing if the input comes from a real object).
 ## 🏹Strategy
-- 1️⃣Generate a mathematical surface representation by establishing [[Continuity]] to guarantee a consistent transition from each patch to its neighboring ones.
+- 1️⃣Generate a mathematical surface representation by establishing [[continuity]] to guarantee a consistent transition from each patch to its neighboring ones.
 - 2️⃣Restrict functions to the class of [[polynomial]]s.
 	- (1/2 benefits) polynomial can be evaluated by elementary arithmetic operation
 	- (2/2) the [[Karl Weierstrass#Weierstrass Approximation Theorem|Weierstrass Approximation Theorem]] guarantees that each smooth([[differentiable]]) function can be approximated by a polynomial up to desired precision.

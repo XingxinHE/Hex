@@ -16,7 +16,7 @@ An isosurface is a three-dimensional analog of an [[isoline]].
 It is a surface that represents points of a ==constant value== (e.g. *pressure*, *temperature*, *velocity*, *density*) within a volume of space.
 
 > [!tip] Tip
-> In other words, isosurface is a [[level set]] of a [[Continuity|continuous]] function whose domain is 3-space.
+> In other words, isosurface is a [[level set]] of a [[continuity|continuous]] function whose domain is 3-space.
 
 
 

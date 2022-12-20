@@ -1,0 +1,3 @@
+https://writings.stephenwolfram.com/2021/11/the-concept-of-the-ruliad/
+
+It's a concept... For example, Suppose all people start with the same condition and they results differently. e.g. Chinese, Americans, Italians...
