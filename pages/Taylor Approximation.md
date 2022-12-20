@@ -11,7 +11,7 @@ aliases: [Taylor Series, Taylor Theorem, Taylor polynomial]
 # 📝Definition
 ## Taylor's Theorem
 - Taylor's theorem states that any function satisfying certain conditions may be represented by a Taylor series.
-- If $f$ has enough [[Derivative]]s in a $n$ hood of the point $a$, then $f$ is the sum of a [[polynomial]] and a remainder/error written as Taylor Series.
+- If $f$ has enough [[derivative]]s in a $n$ hood of the point $a$, then $f$ is the sum of a [[polynomial]] and a remainder/error written as Taylor Series.
 
 ## Taylor Series
 - A Taylor series is a series expansion of a function about **a point**. A one-dimensional Taylor series is an expansion of a real function $f(x)$ about a point $x=a$ is given by

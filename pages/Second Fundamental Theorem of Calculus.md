@@ -32,7 +32,7 @@ aliases: [FTC2]
   
 # 🧠Intuition
 - ![name](../assets/distance_velocity_FTC.png){:height 200, :width 400}
-- Since $s(T)=\int _{0}^{T} v(t)\, dt$, therefore, if we take the [[Derivative]] of the distance function $s(T)$, we can get the velocity function $v(t)$.
+- Since $s(T)=\int _{0}^{T} v(t)\, dt$, therefore, if we take the [[derivative]] of the distance function $s(T)$, we can get the velocity function $v(t)$.
 $$
 \begin{align}
 \frac{d}{dT}s(T)&=\frac{d}{dT}\int _{0}^{T} v(t)\, dt\\
@@ -95,7 +95,7 @@ $$
             - To prove this theorem, we will compute the derivative of $F$ by using the geometric picture of $F$. We will prove the case for $f>0$ and you will verify that the same argument works for any $f$.
             
         - ✏Process
-            - Recall the definition of the [[Derivative]]:
+            - Recall the definition of the [[derivative]]:
                 - $$
                   F'(x)=\lim _{\Delta x\rightarrow 0} \frac{\Delta F}{\Delta x} \qquad \text{where} \, \, \Delta F\, =\,  F(x+\Delta x)-F(x).
                   $$
@@ -209,7 +209,7 @@ $$
             
         - 🏹Strategy: Think about the derivative and then the value behind.
         - ✏Solution:
-            - Since [[Derivative]] is $\sin(x^3)$ and therefore it is inside $()$.
+            - Since [[derivative]] is $\sin(x^3)$ and therefore it is inside $()$.
             - Then think about the integral at $0$ is $2$.
             
         - Result

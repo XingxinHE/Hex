@@ -10,7 +10,7 @@
   $$ ^d41d1f2fc0f78ca7
 
 # 🧠Intuition
-For me, the linear approximation is a tool using [[Derivative]] to **approximate** a value of a function. Note the word "near" which means the distance from the point where we differentiate should be really small. If not small, it is ok but the error would be big... See [[#^bf08a0357fa06a93|this]] quick example.
+For me, the linear approximation is a tool using [[derivative]] to **approximate** a value of a function. Note the word "near" which means the distance from the point where we differentiate should be really small. If not small, it is ok but the error would be big... See [[#^bf08a0357fa06a93|this]] quick example.
 
 # 🧮Expression
 - 📌Linear approximations of basic functions

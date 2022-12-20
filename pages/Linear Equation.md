@@ -15,7 +15,7 @@ aliases: [线性方程]
     
 # 🧠Intuition
 - Find an intuitive way of understanding this concept.
-- 📌Interpretation of the [[Derivative]] of Linear Equation
+- 📌Interpretation of the [[derivative]] of Linear Equation
     - If I recall the derivative in my college, I remember that the derivative of a linear function is a constant. Before this class, I only 死记硬背 this rule. But now I can see in the geometrical perspective.
     - ![name](../assets/y_x.svg){:height 200, :width 200}
     - Because <u>the slope is always the same</u> no matter what $x$ is, therefore the derivative of <u>a linear equation is a constant</u>.

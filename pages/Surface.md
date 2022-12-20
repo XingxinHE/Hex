@@ -17,13 +17,13 @@ The exact mathematical model of a surface is usually intractable. Therefore, the
 # ⛈Characteristics / Properties
 ## Smoothness
 ### 📝Definition
-- Smoothness is measured by the number $k$ of [[Continuity|continuous]] [[Derivative]]s that the function have.
+- Smoothness is measured by the number $k$ of [[Continuity|continuous]] [[derivative]]s that the function have.
 - 👑Importance
 	- A surface SHOULD be smooth in general, except for a well-defined set of sharp feature-(curves, )
 - > ==**Note⚠**==: This analytical definition of $C^k$ smoothness coincides with the intuitive geometrical understanding of smoothness only if the [[partial derivative]]s and the [[gradient]] do not vanish locally(regularity).
 ## Fairness
 ### 📝Definition
-- This is the stricter requirement for surface, where not only the [[Continuity]] of the [[Derivative]]s but also their magnitude and variation is considered. No general definition of this properties but *a surface is fair* if the [[curvature]] or its variation is globally minimized.
+- This is the stricter requirement for surface, where not only the [[Continuity]] of the [[derivative]]s but also their magnitude and variation is considered. No general definition of this properties but *a surface is fair* if the [[curvature]] or its variation is globally minimized.
 ### 📈Diagram
 - ![name](../assets/fair_surface.png){:height 200, :width 200}
   Three examples of fair surfaces, which define a blend between two cylinders:
@@ -69,7 +69,7 @@ A surface can be modified either in terms of geometry or in terms of topology.
 	- Methods
 		- method 1 *p-refinement*: raise the degree of the polynomial.
 			- 🕳**Cons**
-				- Can't make reasonable assumptions about the boundedness of higher-order [[Derivative]]s since our input is discretely sampled.
+				- Can't make reasonable assumptions about the boundedness of higher-order [[derivative]]s since our input is discretely sampled.
 				- the $C^k$ smoothness condition between segments is hard to satisfy in higher order piece-wise function.
 		- method 2 *h-refinement*: reduce the size of the individual segments and use more segments. (preferred in [[Geometry Processing]]👍)
 			- 🚀**Pros**

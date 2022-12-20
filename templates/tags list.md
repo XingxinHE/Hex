@@ -23,3 +23,4 @@ Python
 SoftwareDevelopment
 Stanford
 topology
+VectorCalculus

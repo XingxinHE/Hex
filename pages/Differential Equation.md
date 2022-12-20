@@ -1,3 +1,6 @@
+---
+aliases: [ODE]
+---
 # 📝Definition
 - A differential equation is an equation involving an unknown function and one or more of its derivatives. The order of such an equation is the order of the highest derivative that occurs in it.
 

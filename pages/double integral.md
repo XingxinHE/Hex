@@ -17,11 +17,15 @@ $$
 $$
 where $A_1, \dots , A_n$ are obtained by cutting $R$ into $n$ non-overlapping pieces whose areas go to zero as $n\to\infty$, and each $(x_i,y_i)$ is a point in $A_i$.
 
+> [!tip] Volume Under Surface
+> <iframe width="500" src="https://courses.edx.org/asset-v1:MITx+18.02.2x+2T2022+type@asset+block/threejs_u6_VolumeUnderSurface.html"></iframe>
 
-<iframe width="500" src="https://raw.githubusercontent.com/XingxinHE/Hex/main/assets/threejs_u6_VolumeUnderSurface.html"></iframe>
 
 
-<iframe width="500" src="https://raw.githubusercontent.com/XingxinHE/Hex/main/assets/threejs_u6_ParallelepipedUnderSurface.html"></iframe>
+> [!tip] Block Under Surface
+> <iframe width="500" src="https://courses.edx.org/asset-v1:MITx+18.02.2x+2T2022+type@asset+block/threejs_u6_ParallelepipedUnderSurface.html"></iframe>
+
+
 
 
 

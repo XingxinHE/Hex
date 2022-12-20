@@ -1,5 +1,5 @@
 # 📝Definition
-- The computation of a [[Derivative]].
+- The computation of a [[derivative]].
 
 # 🧀Applicability
  What are the situations in which this subject can be applied?
@@ -17,7 +17,7 @@ The application involving differentiation is to optimize.
             - $$
               d=\sqrt{(x-a)^2+(y-b)^2}
               $$
-            - Well. Actually this is not good. Since optimization problem always involves [[Derivative]] and the preceding form is hard to differentiate.
+            - Well. Actually this is not good. Since optimization problem always involves [[derivative]] and the preceding form is hard to differentiate.
             - Therefore we can change it to the following
             - $$
               d^2=(x-a)^2+(y-b)^2

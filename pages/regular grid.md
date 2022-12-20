@@ -16,7 +16,7 @@ and each vertex has coordinates
 for some real numbers $dx$, $dy$, and $dz$ representing the grid spacing.
 
 # 🧀Applicability
-Grids of this type may be used in [[finite element analysis]], finite volume methods, finite difference methods, and in general for discretization of parameter spaces.
+Grids of this type may be used in [[finite element analysis]], finite volume methods, [[finite difference method]]s, and in general for discretization of parameter spaces.
 
 ## 🍞Discretize [[implicit surface representation|implicit surface]]
 **📝Description**

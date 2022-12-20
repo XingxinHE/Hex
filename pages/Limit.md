@@ -9,7 +9,7 @@ Limit is a limit only both of the following exist:
 # 🧠Intuition
 Find an intuitive way of understanding this concept.
 - 📌Magic of Limit by adding $\lim_{b\to a}$ ^e75639e62ab26e7a
-    - Math is amazing, [[Derivative#^c9a25148f62eaeda|these different interpretation]] somehow are correlated altogether!! If we were speaking in the philosophy of "limit", everything is different and fun!
+    - Math is amazing, [[derivative#^c9a25148f62eaeda|these different interpretation]] somehow are correlated altogether!! If we were speaking in the philosophy of "limit", everything is different and fun!
     - $$
       \begin{align}
       \text{geometric: }&  &\text{slope of secant line}\quad&\text{---}\lim_{b\to a}\text{-->} &\text{slope of tangent line}\\

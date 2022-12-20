@@ -1,5 +1,5 @@
 # 📝Definition
-- A stationary point is a point $x_0$ at which the [[Derivative]] of a function $f(x)$ vanishes,
+- A stationary point is a point $x_0$ at which the [[derivative]] of a function $f(x)$ vanishes,
     - $$
       f'(x_0)=0.
       $$

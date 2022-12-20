@@ -18,7 +18,7 @@ aliases: [切线]
   ![name](../assets/images_u1der2_infiniteintersectiontanline.svg){:height 300, :width 300}
 
 # 🌱Related Elements
-- 📌Relationship: Tangent Line vs. [[Derivative]]
+- 📌Relationship: Tangent Line vs. [[derivative]]
     - The following is true:
         - ✅Function has derivative  at $x=a$, therefore👉 function has a tangent line at $x=a$
         

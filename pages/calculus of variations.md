@@ -10,7 +10,7 @@ tags:
 The **calculus of variations** is a field of mathematical analysis that uses variations, which are small changes in functions and [[functional]]s, to **find maxima and minima** of functionals: mappings from a [[set]] of functions to the [[real number]]s.
 
 # ✒Notation
-Functionals are often expressed as [[definite integral]]s involving functions and their [[Derivative]]s.
+Functionals are often expressed as [[definite integral]]s involving functions and their [[derivative]]s.
 
 # 🧠Intuition
 Find an intuitive way of understanding this concept.
