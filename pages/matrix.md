@@ -83,7 +83,7 @@
       F_{21}&F_{22}&F_{23}&F_{24}\\
       F_{31}&F_{32}&F_{33}&F_{34}\\
       \end{bmatrix}
-      $$ ^e811aed3347d33e2
+      $$ 
     - where $i$ and $j$ represents $i$-th row of the $j$-th column. In this case, $i=3,j=4$
     
 - 📌Column picture of matrix
@@ -239,55 +239,10 @@
 $$
 (\alpha A)_{ij}=aA_{ij},\quad i = 1,...,m\quad j = 1,...,n
 $$
-
-## 📌Transpose
-- 📝Definition
-    - The transpose of an $m\times n$ matrix $A$ is denoted $A^T$ , and defined by
-        - $$
-          (A^T)_{ij} = A_{ji}, i = 1,...,n\quad j = 1,...,m
-          $$
-        
-- ⛈Characteristics
-    - Transpose converts column to row vectors (and vice versa).
-        - $$
-          (A^T)^T=A
-          $$
-        
-- 🗃Example
-    - Simple example
-        - $$
-          \begin{bmatrix}
-          0 & 4 \\
-          7 & 0 \\
-          3 & 1 
-          \end{bmatrix}^T=\begin{bmatrix}
-          0 & 7 & 3 \\
-          4 & 0 & 1 
-          \end{bmatrix}
-          $$
-        
-    - The transpose of [[#^e811aed3347d33e2|this matrix]] is:
-        - $$
-          M_{ij}^T = 
-          \begin{bmatrix}
-          F_{11}&F_{21}&F_{31}\\
-          F_{12}&F_{22}&F_{32}\\
-          F_{13}&F_{23}&F_{33}\\
-          F_{14}&F_{24}&F_{34}\\
-          \end{bmatrix}
-          $$
-        
-- [[Matrix-Vector Products]] ^4b74cf7e39fa1b65
-## 📌Matrix Products
-- If there are matrices $F$($n\times m_1$) and $G(m_2\times p)$, **the prerequisite for a valid matrix multiplication is** that $m_1=m_2$. Then the product is a matrix with shape $n\times p$. The $i,j$ element of the matrix is:
-    - $$
-      (FG)_{ij} = \sum_{k=1}^{m}F_{ik}G_{kj}
-      $$
-    - The `2,2` element of output matrix is the dot product of $2$-th row of $F$ and $2$-th colomn of $G$
-    - $$
-      M_{22}=\begin{bmatrix}3&0&1\end{bmatrix}\begin{bmatrix}2\\0\\2\end{bmatrix}
-      $$
-    
+       
+## 🌌 [[Matrix-Vector Products]]
+## 🥏[[matrix multiplication|matrix product]]
+## 🌀[[transpose]]
 # 🏷(Sub)Categories
 - 📌Zero Matrix
     - $m\times n$ zero matrix has all entries zero, written as $0_{m\times n}$ or just $0$.
@@ -360,6 +315,7 @@ $$
 - 📌 [[upper triangular matrix]]
 - 📌 [[triangular matrix]]
 - 📌 [[diagonal matrix]]
+- 📌 [[skew-symmetric matrix]]
 - 📌Rank One Matrix
     - 📝Definition
         - [[#^30a632e9e0e39867|Rank]] one matrix is matrix that all columns of $A$ and all [[linear combination]]s $Ax$ lie on one line.

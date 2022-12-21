@@ -21,7 +21,7 @@ where
  - ${\displaystyle \Delta =\nabla \cdot \nabla =\nabla ^{2}}$ is [[Laplace operator]]. 😲Yes. There are 3 types of representation of it.
  - $\nabla \cdot$ is the [[divergence]] operator
  - $\nabla$ is the [[gradient]] operator
- - $f(x,y,z)$ is twice-[[differentiable]] real-valued function
+ - $f(x,y,z)$ is twice-[[differentiable]] [[real-valued function]]
 
 # 🧠Intuition
 Find an intuitive way of understanding this concept.

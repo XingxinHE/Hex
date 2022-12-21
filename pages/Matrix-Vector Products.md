@@ -38,7 +38,7 @@ $$
       
 # 🏷Categories
 - Matrix-Vector Multiplication has 2 picture, by rows and by columns.
-## Rows Picture in Matrix-Vector Multiplication
+## 🔖Rows Picture in Matrix-Vector Multiplication
 - ✒Notation
     - $$
       \begin{bmatrix}
@@ -70,7 +70,7 @@ $$
           \end{bmatrix}=2x_1+3x_2
           $$
         
-## Column Picture in Matrix-Vector Multiplication⭐
+## 🔖Column Picture in Matrix-Vector Multiplication⭐
 - ✒Notation
     - $$
       \begin{bmatrix}
