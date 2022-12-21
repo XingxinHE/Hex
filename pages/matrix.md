@@ -9,9 +9,9 @@
       $$
     
 - A matrix ($m \times n$) can be seen as $1$ matrix, $mn$ numbers, $n$ columns and $m$ rows.
-    - the column vectors are in bold as $\bm{a_1}$.
-    - Row vectors include $\bm{*}$ as in $\bm{a_1^*}$.
-    - Transposed vectors and matrices are indicated by $\mathrm{T}$ as in $\bm{a}^T$ and $A^T$.
+    - the column vectors are in bold as $\mathbf{a_1}$.
+    - Row vectors include $\mathbf{*}$ as in $\mathbf{a_1^*}$.
+    - Transposed vectors and matrices are indicated by $\mathrm{T}$ as in $\mathbf{a}^T$ and $A^T$.
     - $$A= \begin{bmatrix}
           a_{11} & a_{12}\\
           a_{21} & a_{22}\\
@@ -20,14 +20,14 @@
         =
         \begin{bmatrix}
           | & |\\
-          \bm{a_1} & \bm{a_2}\\
+          \mathbf{a_1} & \mathbf{a_2}\\
           | & |
         \end{bmatrix}
         =
         \begin{bmatrix}
-        - \bm{a_1^*} -\\
-        - \bm{a_2^*} -\\
-        - \bm{a_3^*} -
+        - \mathbf{a_1^*} -\\
+        - \mathbf{a_2^*} -\\
+        - \mathbf{a_3^*} -
         \end{bmatrix}
         $$
         
@@ -159,33 +159,7 @@
 - 📌Symmetric
     - 📝Definition
         - An $n\times n$ matrix $M$ is *symmetric* if and only if $M_{ij}= M_{ji}$  for all $i$ and $j$. That is, a matrix whose entries are symmetric about the main diagonal is called symmetric.
-        
-- 📌Column Space ^a0a009a61f45bb8c
-    - 📝Definition
-        - The column space of matrix $A$ contains all [[linear combination]]s $Ax=x_1a_1+x_2a_2$ of the columns.
-        
-    - 🌱Related Elements
-        - The concept of "column space" highly relates to the other concepts: [[linear independent]], [[linear dependent]], and [[linear combination]].
-        
-    - 🗃Example
-        - 📌Example 1 Independent Columns
-            - $$
-              A_1 = \begin{bmatrix}1&0&0\\2&4&0\\3&5&6\end{bmatrix}
-              $$
-            - Each column gives a new direction. Their combinations fill 3D space $\mathbb{R}$.
-            
-        - 📌Example 2 Dependent Columns
-            - $$
-              A_2 = \begin{bmatrix}1&2&3\\1&4&5\\6&0&6\end{bmatrix}
-              $$
-            - Column1 + Column2 = Column3. Their combinations don't fill 3D space but a plane.
-            
-        - 📌Example 3 Edge Case
-            - $$
-              A_3 = \begin{bmatrix}1&3&4\\2&6&8\\5&15&20\end{bmatrix}
-              $$
-            - Every pair of column is dependent. Their combinations is just a line.
-            
+- 📌 [[column space]]            
 - 📌Matrix Norm
     - 📝Definition
         - For $m\times n$ matrix A, we define
@@ -378,13 +352,14 @@ $$
         
     - 📝Definition
         - A cofactor matrix is a signed version of a [[#^b0ee7456219cb803|minor]] $M_{ij}$ defined by
-            - $$
-              C_{ij}\equiv(-1)^{i+j}M_{ij}
-              $$
-            
+            - $$C_{ij}\equiv(-1)^{i+j}M_{ij}$$
     - 🧀Applicability
         - Used in the computation of the [[Determinant]] of a matrix.
-        
+- 📌[[band matrix]] 
+- 📌 [[tridiagonal matrix]]
+- 📌 [[upper triangular matrix]]
+- 📌 [[triangular matrix]]
+- 📌 [[diagonal matrix]]
 - 📌Rank One Matrix
     - 📝Definition
         - [[#^30a632e9e0e39867|Rank]] one matrix is matrix that all columns of $A$ and all [[linear combination]]s $Ax$ lie on one line.

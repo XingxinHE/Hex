@@ -7,15 +7,17 @@ aliases: [切线]
 
 # 🧪Composition
 - How do you define a tangent line?
-- Point $(a,f(a))$
-- Slope $m, \text{where }m=f'(a)$
+	- Point $(a,f(a))$
+	- Slope $m, \text{where }m=f'(a)$
 
 # 📈Diagram
-- ![[Secant Line#^ad1ba079154698a1]]
+- 📌
+	- ![[Secant Line#📈Diagram#📉Difference Between a Secant Line and a Tangent Line]]
 - 📌Diagram of "Is Not" a tangent line
-  ![images_u1der2_sincrossline.svg](../assets/images_u1der2_sincrossline.svg){:height 300, :width 300}
+	- ![|300](../assets/images_u1der2_sincrossline.svg)
 - 📌Diagram of "Is" a tangent line
-  ![name](../assets/images_u1der2_infiniteintersectiontanline.svg){:height 300, :width 300}
+	- ![|300](../assets/images_u1der2_infiniteintersectiontanline.svg)
+
 
 # 🌱Related Elements
 - 📌Relationship: Tangent Line vs. [[derivative]]

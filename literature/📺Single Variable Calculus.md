@@ -35,20 +35,20 @@ ___
 - [[Left-hand limit]], [[Right-hand limit]]
 
 **📌Table summarize left and right limits**
-- ![[Limit#📈Diagram#📉Table Summary of Left and Right on Limits]]
+- ![[limit#📈Diagram#📉Table Summary of Left and Right on Limits]]
 
 - **📌The definition of limit**
-	- ![[Limit#📝Definition]]
+	- ![[limit#📝Definition]]
 
 - 📌The notation of limit
-  - ![[Limit#✒Notation]]
+  - ![[limit#✒Notation]]
 
 - 📌laws of limit
-  - ![[Limit#⚖Laws]]
+  - ![[limit#⚖Laws]]
 
 
 - 📌better understand limit from its example
-  - [[Limit#🗃Example]]
+  - [[limit#🗃Example]]
 
 - 📌understand what is $DNE$
   - [[DNE]]
@@ -79,8 +79,8 @@ ___
 
 ### Limits of quotients
 - 📌Limits of quotients is quite special from the others
-  - ![[Limit#^edbac3c2139a3386]]
-  - Then see some examples to understand it. [[Limit#🗃Example]]
+  - ![[limit#^edbac3c2139a3386]]
+  - Then see some examples to understand it. [[limit#🗃Example]]
 
 
 ## Derivative
@@ -93,6 +93,14 @@ ___
   - [[derivative#🗃Example]]
 
 ### Geometric interpretation of the derivative
+- 📌**Tangent Line**
+  - ![[Tangent Line#📝Definition]]
+
+- 📌**Secant Line**
+  - ![[Secant Line#📝Definition]]
+
+- 📌understand the difference between tangent and secant
+  - ![[Secant Line#📈Diagram#📉Difference Between a Secant Line and a Tangent Line]]
 
 ## Differentiation
 ## Approximations

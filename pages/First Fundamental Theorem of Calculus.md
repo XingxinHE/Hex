@@ -13,7 +13,7 @@ aliases: [FTC1]
       \displaystyle  \displaystyle \int _a^b f(x) \, dx=F(b)-F(a)
       $$
     
-- In other words, the [[definite integral]] of a function is the difference between the values of its [[Antiderivative]] at the [[Limit]]s of the definite integral.
+- In other words, the [[definite integral]] of a function is the difference between the values of its [[Antiderivative]] at the [[limit]]s of the definite integral.
 
 # 🧠Intuition
 - Geometric Intuition of FTC1

@@ -37,7 +37,7 @@ Summary in one table
 # 🌓Complement
 [[Discontinuity]]
 # ⚖Laws
-The following are the laws related to continuous and [[Limit]].
+The following are the laws related to continuous and [[limit]].
 - 📌Suppose the function $f$ and $g$ are continuous everywhere,
     - $f+g$ is continuous everywhere ^1f0385680664c383
     - $f-g$ is continuous everywhere
@@ -73,7 +73,7 @@ The following are some examples related to continuity.
 
 # 🌱Related Elements
  The closest pattern to current one, what are their differences?
-- 📌 [[Limit]] , Continuous, and [[differentiable]] ^94aefd834de51c3c
+- 📌 [[limit]] , Continuous, and [[differentiable]] ^94aefd834de51c3c
     - Let's look at the $x=0$ of the following function $f(x)=\lvert x\rvert$:
         - ![name](../assets/images_u1der2_absolute.svg){:height 300, :width 300}
         

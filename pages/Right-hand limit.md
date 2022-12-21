@@ -15,6 +15,6 @@ The blue dot.
 # 🌓Complement
 [[Left-hand limit]]
 # 🗃Example
-- 📌example(1) can see [[Limit#^eb759c09775a3ef2|here]]
-- 📌example(2) can see [[Limit#^ce329b5cb925a1c0|here]]
+- 📌example(1) can see [[limit#^eb759c09775a3ef2|here]]
+- 📌example(2) can see [[limit#^ce329b5cb925a1c0|here]]
 

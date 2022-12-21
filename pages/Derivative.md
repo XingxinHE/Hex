@@ -63,7 +63,7 @@ $$
       $$
     
 # 🧠Intuition
-- We care about the <u>derivative</u> of $f(x)$ at $x=a$ is <u>instant rate of change</u> of $f(x)$ at $x=a$. See the magic of "instant" [[Limit#^e75639e62ab26e7a|here]]
+- We care about the <u>derivative</u> of $f(x)$ at $x=a$ is <u>instant rate of change</u> of $f(x)$ at $x=a$. See the magic of "instant" [[limit#^e75639e62ab26e7a|here]]
 - 📌3 Main Interpretation of Derivative ^c9a25148f62eaeda
     - physical -  **instantaneous** rate of change.
     - geometrical - the **slope** of the tangent line.

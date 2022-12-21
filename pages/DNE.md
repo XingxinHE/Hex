@@ -46,7 +46,7 @@ Example is the most straightforward way to understand a mathematical concept.
       ![name](../assets/j_x_sin_13x.svg){:height 190, :width 199}
     
 - 📌example covering DNE, [[Left-hand limit]], and [[Right-hand limit]]
-    - see [[Limit#^eb759c09775a3ef2|here]]
+    - see [[limit#^eb759c09775a3ef2|here]]
     
 - 📌example(1) of function DNE at certain value
     - Question:

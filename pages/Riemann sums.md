@@ -1,5 +1,5 @@
 # 🎯Intent
-[[Limit]] of sums can be very hard to evaluate. Recognizing a limit of sums as the limit of a Riemann sum allows us to evaluate the limit as the [[definite integral]] .
+[[limit]] of sums can be very hard to evaluate. Recognizing a limit of sums as the limit of a Riemann sum allows us to evaluate the limit as the [[definite integral]] .
 
 # 📝Definition
 - Let us summarize in precise terms the steps for evaluating the following using a Riemann Sum.

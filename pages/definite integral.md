@@ -18,7 +18,7 @@
         
 
 > [!NOTE] Note
-> This is a different sense of the word “[[Limit]]" from when we take the limit of a function.
+> This is a different sense of the word “[[limit]]" from when we take the limit of a function.
 
     
 ## Integrand
@@ -87,7 +87,7 @@ The middle part is called integrand.
           $$
         
 - 🧠Intuition
-    - In other words, if the [[Limit]]s of the integrals are reversed, the inequality is also reversed.
+    - In other words, if the [[limit]]s of the integrals are reversed, the inequality is also reversed.
     
 - 🗃Example
     - ...

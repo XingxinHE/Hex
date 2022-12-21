@@ -13,8 +13,8 @@ $$
 The orange dot.
 ![|200](../assets/images_u0lim1_leftright.svg)
 # 🗃Example
-- 📌example(1) can see [[Limit#^eb759c09775a3ef2|here]]
-- 📌example(2) can see [[Limit#^ce329b5cb925a1c0|here]]
+- 📌example(1) can see [[limit#^eb759c09775a3ef2|here]]
+- 📌example(2) can see [[limit#^ce329b5cb925a1c0|here]]
 
 # 🌓Complement
 [[Right-hand limit]]

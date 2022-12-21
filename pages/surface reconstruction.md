@@ -101,7 +101,89 @@ To find the indicator function $\chi$ of the surface
 - We can solve this by sparse solver.
 
 
-
+- Now, let's revisit the assumptions.
+- The [[gradient]] of a function $f$ in 3D is just a vector containing [[partial derivative]] in each coordinate direction:
+	- $${\nabla}g(\mathbf{x}) = \begin{pmatrix}\frac{\partial g(\mathbf{x})}{\partial x}\\\frac{\partial g(\mathbf{x})}{\partial y} \\\frac{\partial g(\mathbf{x})}{\partial z}\end{pmatrix}.$$
+- We will approximate each partial derivative individually. Now let's take $x$ direction as example.
+	- $\partial g(\mathbf{x})/\partial x$
+	- The partial derivative in $x$ direction is 1-dimensional derivative.
+	- We write down the formula first.
+		- $$\frac{\partial g(\mathbf{x}_{i-\frac12 ,j,k})}{\partial x} = \frac{g_{i,j,k} - g_{i-1,j,k}}{h},$$
+	- From 3 aspects to understand this.
+		- 1️⃣ We recall the [[derivative#🧠Intuition|essence of derivative]] - "instantaneous rate of change".
+		- 2️⃣ $h$ - refers to the spatial distance between adjacent nodes ( #thingsIDK  is it because we are in regular grid )
+		- 3️⃣ $g_{i,j,k} - g_{i-1,j,k}$ - refers to the difference between the function evaluated at "one grid node" and at "the grid node _before_ it" in the $x$-direction.
+	- Why there is a $\frac{1}{2}$?
+		- Let me put a diagram here.
+			- ![|200](../assets/primary-grid.jpg)
+			- 🔵Blut dots: they are the grid node, a.k.a. the $g$
+		- Think about the rate of change. $\frac{f(x+a)-f(x)}{\Delta x}$
+			- $f$ - the blue node is the value
+			- $f(x+a)-f(x)$ the difference of the value is measured by the former one and the latter one.
+			- $\Delta x$ - the grid size.
+		- Therefore, we can map the change on $x$ direction like this.
+			- ![|200](../assets/staggered-grid-x.jpg)
+- The change on $y$ direction is pretty much similar.
+	- ![|200](../assets/staggered-grid-x-and-y.jpg)
+- Now let's construct the matrix! ( #TODO a better title of this step )
+	- How many grid nodes we have?
+		- That is $n_x\cdot n_y\cdot n_z$
+	- We construct a column vector of function values on the primary grid. (a.k.a. the blue dots on the grid)
+		- $$\mathbf{g}\in\mathbf{R}^{n_x\cdot n_y\cdot n_z\times1}$$
+		- numbers of row: $n_x\cdot n_y\cdot n_z$
+		- numbers of colums: 1
+	- A [[Sparse Matrix]] then can be constructed like so.
+		- $$\mathbf{D}\in\mathbf{R}^{(n_x-1)n_y n_z \times n_x n_y n_z}$$
+		- numbers of row: $(n_x-1)n_y n_z$. #thingsIDK Why $n_x-1$?
+		- numbers of colums: $n_x n_y n_z$
+	- Let's interpret the matrix.
+		- the computation of each row.
+			- each row $\mathbf{D}^x_{i-\frac12 ,j,k} \in \mathbf{R}^{1 \times n_x n_y n_z}$ computes the partial derivative at the corresponding staggered grid location $\mathbf{x}_{i-\frac{1}{2} ,j,k}$
+			- #thingsIDK what is the superscript $x$ in $\mathbf{D}$? is the $\mathbf{R}$ now transpose?
+		- the value of the $\ell$th entry in that row
+			- the $\ell$th entry in that row receives a value only for neighboring primary grid node
+			- $$\mathbf{D}^x_{i-\frac12 ,j,k}(\ell)=\begin{cases}-1 & \text{ if $\ell = i-1$ }\\1 & \text{ if $\ell = i$ }\\0 & \text{ otherwise}\end{cases}.$$
+			- #thingsIDK in general I don't get it.
+- Let's think of it in computer data structure!
+	- The data structure can't do.
+		- ❌index the column vector $\mathbf{g}$ by $\{i,j,k\}$ 
+		- ❌index the rows of $\mathbf{D}$ by $\{i-\frac12 ,j,k\}$
+	- The workaround - flat them into 1 dimension.
+		- ✅ $\mathbf{g}_{i,j,k}$ can now refer to `g(i + j*n_x + k*n_y*n_x)`
+		- ✅ $\mathbf{D}^x_{i-\frac12 ,j,k}(\ell)$ can now refer to `Dx(i + j*n_x + k*n_y*n_x , l)`
+			- where $i-\frac12$ has been rounded.
+- Similarly, we can build $\mathbf{D}^y$ and $\mathbf{D}^z$
+	- The strategy is to stack them into a huge gradient matrix $\mathbf{G}$.
+	- $$\mathbf{v} = \begin{pmatrix} \mathbf{v}^x \\ \mathbf{v}^y \\ \mathbf{v}^z \end{pmatrix} \in \mathbf{R}^{ \left((n_x-1)n_yn_z + n_x(n_y-1)n_z + n_xn_y(n_z-1)\right)\times 1}$$
+- What if the input normals might not exactly be hit at grid node locations?🤔
+	- For example, the input normals are red dots🔴 and they are overlapped with the blue dots🔵(our grid node).
+		- ![|200](../assets/primary-grid.jpg)
+	- To remedy this, we will distribute each component of each input normal $\mathbf{n}_\ell$ to $\mathbf{v}$ at the corresponding staggered grid node location.
+		- Suppose the normal $\mathbf{n}$ at some point $\mathbf{x}_{1,\frac14 ,\frac12 }$.
+		- Imagine the $x$-component of the normal $n_x$ as **floating** in the staggered grid corresponding to $\mathbf{D}^x$.
+		- Then the ==8== points would be:
+			- $$\mathbf{x}_{\frac12 ,0,0},\quad \mathbf{x}_{1\frac12 ,0,0},\quad \mathbf{x}_{\frac12 ,1,0},\quad \mathbf{x}_{1\frac12 ,1,0},\quad \mathbf{x}_{\frac12 ,0,1},\quad \mathbf{x}_{1\frac12 ,0,1},\quad \mathbf{x}_{\frac12 ,1,1},\quad \mathbf{x}_{1\frac12 ,1,1} $$
+			- #TODO a diagram for this.
+			- #thingsIDK What is the first $1$ in $\mathbf{x}_{1\frac12 ,0,0}$? I don't think it is a typo. I assume it is short for $1+\frac{1}{2}$ meaning half grid size forward. 可以一起看，一又二分之一. And the $\frac{1}{2}$ is short for $1-\frac{1}{2}$ meaning half grid size backward.
+	- Then we should think about how to compute them.
+		- The fact we know is: these staggered grid nodes has a corresponding $x$ value in the vector $\mathbf{v}^x$.
+		- We can "==distribute==" $n_x$ to these entries in $\mathbf{v}^x$ by adding a ==portion== amount of $n_x$ to each.
+			- $$\begin{align}v^x_{\frac12 ,0,0}  &= w_{ \frac12 ,0,0}\left(\mathbf{x}_{1,\frac14 ,\frac12 }\right)\ n_x,  \\ v^x_{1\frac12 ,0,0} &= w_{1\frac12 ,0,0}\left(\mathbf{x}_{1,\frac14 ,\frac12 }\right)\ n_x,  \\ &\vdots \\ v^x_{1\frac12 ,1,1} &= w_{1\frac12 ,1,1}\left(\mathbf{x}_{1,\frac14 ,\frac12 }\right)\ n_x. \end{align} $$
+			- #thingsIDK What is the first subscript of $v^x_{1\frac12 ,1,1}$? what is the first $1$? Probably the same with the preceding.
+			- $w_{i+\frac12 ,j,k}(\mathbf{p})$ is the [[trilinear interpolation]] weight associate with staggered grid node $\mathbf{x}_{iِ+\frac12 ,j,k}$ to interpolate a value at the point $\mathbf{P}$.
+			- Here is how it is computed.
+				- $$\begin{align}n_x =& \\ &w_{ \frac12 ,0,0}( \mathbf{x}_{1,\frac14 ,\frac12 } ) \  v^x_{ \frac12 ,0,0} +  \\ &w_{1\frac12 ,0,0}( \mathbf{x}_{1,\frac14 ,\frac12 } ) \  v^x_{1\frac12 ,0,0} +  \\ &\vdots \\ &w_{1\frac12 ,1,1}( \mathbf{x}_{1,\frac14 ,\frac12 } ) \ v^x_{1\frac12 ,1,1}. \end{align}$$
+				- #thingsIDK not sure about the preceding
+		-  #thingsIDK  Since we need to do these for the $x$-component of each input normal, we will assemble a sparse matrix $\mathbf{W}^x \in n \times (n_x-1)n_yn_z$ that _interpolates_ $\mathbf{v}^x$ at each point $\mathbf{p}$:
+			- $$( \mathbf{W}^x \mathbf{v}^x ) \in  \mathbf{R}^{n\times 1}$$
+			- Note on the inverse.
+				- the transpose of $\mathbf{W}^x$ is not quite its [[matrix#💫Support Operation#📌Matrix Inverse|inverse]], but instead can be interpreted as distributing values onto the staggered grid locations where $\mathbf{v}^x$ lives.
+				- $$\mathbf{v}^x = (\mathbf{W}^x)^{\mathsf T} \mathbf{N}^x.$$
+		-  #thingsIDK Using the definition of $\mathbf{v}^x$ and analogously for $\mathbf{v}^y$ and $\mathbf{v}^z$ we can construct the vector $\mathbf{v}$ in our energy minimization problem above.
+- Now we go back and think what is Poisson got to do with this?
+	- The discrete energy minimization problem we've written looks like the squared norm of some gradients. An analogous energy in the smooth world is the [[Dirichlet energy]].
+	- $$E(g) = \int _{\Omega} \| {\nabla}g\| ^2  dA$$
+	- It 
 
 
 # 🌱Related Elements
@@ -109,4 +191,5 @@ The closest pattern to current one, what are their differences?
 
 
 # 🍂Unorganized
+
 

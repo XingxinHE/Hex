@@ -21,5 +21,5 @@ aliases: [割线]
   $$
 
 # 📈Diagram
-- 📌Difference Between a Secant Line and a [[Tangent Line]] 
-  ![name](../assets/difference_secant_tangent.svg){:height 300, :width 300} ^ad1ba079154698a1
+## 📉Difference Between a Secant Line and a Tangent Line 
+  ![|300](../assets/difference_secant_tangent.svg)

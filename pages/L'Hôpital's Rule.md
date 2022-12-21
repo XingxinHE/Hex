@@ -3,7 +3,7 @@ aliases: [hospital rule]
 ---
 
 # 🎯Intent
-l'Hospital's Rule uses [[derivative]] to evaluate [[Limit]] of [[indeterminate form]].
+l'Hospital's Rule uses [[derivative]] to evaluate [[limit]] of [[indeterminate form]].
 
 # 📝Definition
 There are 2 version of this rule under different conditions but surprisingly with same outcome!! I therefore put them into together. Suppose we want to solve the limit of function $f(x)$ and $g(x)$. The rule states:
@@ -48,7 +48,7 @@ To prove something...
   $$
   f(a)=g(a)=0
   $$
-    - before to prove, you can take a look at the similar example [[Limit#^2ee5612e3aaaf388|here]]
+    - before to prove, you can take a look at the similar example [[limit#^2ee5612e3aaaf388|here]]
     - Start to prove ->
     - Note that for $x$ near $a$, we can approximate $f(x)$ and $g(x)$ by their linear approximations.
     - This give us

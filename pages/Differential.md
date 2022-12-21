@@ -23,7 +23,7 @@
       $$
     
 - The quantity $df$ is called the **differential** of $f$ at $x = a$. It is an approximation to the amount that $f$ changes when $x$ moves from $a$ to $a + \Delta x$.
-- We’ve actually touched on these ideas before. In [[derivative]] and [[Limit]] , we saw that if $y = f(x)$, then
+- We’ve actually touched on these ideas before. In [[derivative]] and [[limit]] , we saw that if $y = f(x)$, then
     - $$
       f'(x)=\lim_{\Delta x\to0}\frac{\Delta y}{\Delta x}
       $$
