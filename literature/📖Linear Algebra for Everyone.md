@@ -34,12 +34,25 @@ I feel ...
 - [[Inner Product|dot product]], [[Inner Product#^d19bad21ef5d7eb7|Angle]], [[Triangle Inequality]], [[Schwarz Inequality]]
 ## 1.3 Matrices and Column Spaces
 - key takeaway:
-- [[matrix#^30a632e9e0e39867|Rank of matrix]], [[column space]]
+- [[matrix rank]], [[column space]]
 #thingsIDK p23-p28
+
+- 📌why rank is so important
+	- ![[matrix rank#👑Importance]]
+- 📌an important fact
+  - ![[matrix rank#🌈Properties#🔴Row Rank = Column Rank]]
+- 📌column space and linear equation
+  - ![[column space#🌱Related Elements#🥑column space vs. linear equation]]
 
 
 ## 1.4 Matrix Multiplication and $A=CR$
-[[matrix multiplication]]
+- 📌Definition
+  - ![[matrix multiplication#📝Definition]]
+- 📌Intuition
+	- ![[matrix multiplication#🧠Intuition]]
+- 📌Example
+	- ![[matrix multiplication#🗃Example]]
+
 
 
 # 💭Things I don't Know

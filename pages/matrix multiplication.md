@@ -91,10 +91,33 @@ $$
 🟣
 
 
+# ⛈Characteristics
+
+## 🌦Complexity of matrix multiplication
+In the example [[matrix multiplication#^c2f9dd]], the multiplication between matrix $A$($m$ by $n$) and matrix $B$($n$ by $p$) runs up to $2\cdot2\cdot2=8$ times multiplication when $m=n=p=2$.
+> [!question]
+> Could $n$ by $n$ matrix $A$ and $B$ be multiplied with fewer than $n^3$ samll multiplication? The answer is Yes but it is #thingsIDK . I suppose it is #optimization problem.
 
 
 # 🗃Example
-Example is the most straightforward way to understand a mathematical concept.
+- 📁matrix multiplication example 1 ^c2f9dd
+	- 💬Question: Multiply $AB=\begin{bmatrix}1 &2\\3 &4\end{bmatrix}\begin{bmatrix}5 &6\\7 &8\end{bmatrix}$ both ways.
+	- 🏹Strategy: In row way and in column way.
+	- ✏Solution:
+		- ==Row== way.
+			- Big picture is $(\mathbf{Rows\ of\ A})\cdot(\mathbf{Columns\ of\ B})$
+			- $$\begin{align}AB&=\begin{bmatrix}\text{row 1$\cdot$ col 1} &\text{row 1$\cdot$ col 2}\\\text{row 2$\cdot$ col 1} &\text{row 2$\cdot$ col 2}\end{bmatrix}\\&=\begin{bmatrix}19 &22\\43 &50\end{bmatrix}\end{align}$$
+			- And we take the top cell as an example.
+			- (row 1 of $A$)$\cdot$(column 1 of $B$) is $(1,2)\cdot(5,7)=5+14=19$
+		- ==Column== way.
+			- Big picture: $AB$ is composed by $Ab_1,Ab_2$ which are the combinations of the column of $A$.
+			- $$AB=\begin{bmatrix}5\begin{bmatrix}1\\3\end{bmatrix}+7\begin{bmatrix}2\\4\end{bmatrix} &6\begin{bmatrix}1\\3\end{bmatrix}+8\begin{bmatrix}2\\4\end{bmatrix}\end{bmatrix}=\begin{bmatrix}19 &22\\43 &50\end{bmatrix}$$
+
+📩
+🗂
+📨
+📂
+
 
 # 🕳Pitfalls
 

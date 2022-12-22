@@ -8,7 +8,6 @@ aliases: [dot product, scalar product]
     - $$
       P\cdot Q=\sum^{n}_{i=1}P_iQ_i
       $$
-    
 - Dot product is also called scalar product since the result is a scalar.
 
 # 🧠Intuition
@@ -17,7 +16,7 @@ aliases: [dot product, scalar product]
 
 # 📈Diagram
 - 📌Dot product impression
-    - Dot product $(\bold{a}\cdot\bold{b})$ is expressed as $\bold{a}^T\cdot\bold{b}$ in [[matrix]] language and yields a [[scalar]].
+    - Dot product $(\mathbf{a}\cdot\mathbf{b})$ is expressed as $\mathbf{a}^T\cdot\mathbf{b}$ in [[matrix]] language and yields a [[scalar]].
     - $$
       \begin{bmatrix}
       1&2&3
@@ -33,7 +32,7 @@ aliases: [dot product, scalar product]
       x_1\\x_2\\x_3
       \end{bmatrix}=x_1+2x_2+3x_3
       $$
-    - ![name](../assets/inner_product.svg){:height 300, :width 500}
+    - ![|300](../assets/inner_product.svg)
     
 # ✒Notation
 - Suppose $a, b$ are vectors. Then the expression of inner product is

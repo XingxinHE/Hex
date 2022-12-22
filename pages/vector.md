@@ -247,7 +247,6 @@ The operations that vector supports are the following
 - 📌Vector times Vector
     - 📌 [[Inner Product]]
     - 📌 [[Outer Product]]
-    
 - 📌 [[Cross Product]]
 - 📌 [[L2-norm#^2bde7aa44b505972|RMS]] (root mean square)
 - 📌 (Euclidean) distance between $n$-vectors
@@ -367,19 +366,3 @@ The operations that vector supports are the following
     - There are *real scalar*$\mathbb{R}$ and *complex scalar*$\mathbb{C}$. In most case, we refer *real scalar* as *scalar*.
     - Therefore, we also have *real vector* and *complex vector*. In most case, we refer *real vector* as vector.
     
-# 🌓Complement
-What is the complement of this subject? e.g. vector-covector, constructor-destructor
-
-# 🔎Implementation
- The code or technical stuffs implement this.
-
-# 🕳Pitfalls
-Be aware of the pitfalls when using this stuffs... (especially considering edge cases)
-
-# 📋Prerequisite
-Some techniques and objects only work under certain condition.
-
-# 🥼Expert's Advice
-
-# 🧱Structure
-Any other hierarchical issues?

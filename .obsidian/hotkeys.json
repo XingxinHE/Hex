@@ -351,17 +351,17 @@
   "app:toggle-left-sidebar": [
     {
       "modifiers": [
-        "Shift"
+        "Mod"
       ],
-      "key": "1"
+      "key": "ArrowLeft"
     }
   ],
   "app:toggle-right-sidebar": [
     {
       "modifiers": [
-        "Shift"
+        "Mod"
       ],
-      "key": "2"
+      "key": "ArrowRight"
     }
   ]
 }

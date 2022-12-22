@@ -36,7 +36,7 @@
 
 # 📈Diagram
 - Viewing a Matrix – 4 Ways
-    - ![name](../assets/Viewing_a_Matrix_4Ways.svg){:height 300, :width 400}
+    - ![|300](../assets/Viewing_a_Matrix_4Ways.svg)
     
 # 🎯Intent
 - In computer graphic,
@@ -106,16 +106,7 @@
     
 # ⛈Characteristics / Properties
 - 📌size
-    - The size is given by (row dimension) $\times$ (column dimension).
-    
-- 📌Rank ^30a632e9e0e39867
-    - 📝Definition
-        - The rank of a matrix is the dimension of its column space. It counts the [[linearly independent]] columns.
-        
-    - 🗃Example
-        - If $A=\begin{bmatrix}1&2&5\\1&2&5\\1&2&5\end{bmatrix}$ then $C=\begin{bmatrix}1\\1\\1\end{bmatrix}\quad\begin{matrix}n=3\text{ columns in }A\\r=1\text{ column in }C\end{matrix}$
-        - The number $r$ is the "rank" of $A$. It is also the rank of $C$.
-        
+    - The size is given by (row dimension) $\times$ (column dimension).        
 - 📌 [[scalar]]-matrix arithmetic operation properties
     - Given any two scalars $a$ and $b$ and any three $m\times n$ matrices $F$, $G$, and $H$, the following properties hold.
     - $$
@@ -126,7 +117,8 @@
       (a+b)F = aF+bF\\
       (F+G)^T=F^T+G^T
       $$
-    
+
+- 📌 [[matrix rank]]
 - 📌 [[scalar]]-matrix-matrix arithmetic operation properties
     - Given any scalar $a$, an $n\times m$ matrix $F$, an $m\times p$ matrix $G$, and a $p\times q$ matrix $H$, the following properties hold.
     - $$
@@ -134,8 +126,6 @@
       (FG)H = F(GH)\\
       (FG)^T = G^TF^T
       $$
-    
--
 - 📌Invertible
     - 📝Definition
         - An $n\times n$ matrix $M$ is *invertible* if and only if the columns of $M$ form a [[linearly independent]] set. Equivalently, $M$ is invertible if and only if the [[Determinant]] of $M$ $\bold{det}M≠0$ .
@@ -166,7 +156,6 @@
         - $$
           \lVert A\rVert=\bigg(\sum_{i=1}^{m}\sum_{j=1}^{n}A_{ij}^2\bigg)^{1/2}
           $$
-        
     - ⛈Characteristics / Properties
         - satisfies norm properties:
         - $$
@@ -316,9 +305,7 @@ $$
 - 📌 [[triangular matrix]]
 - 📌 [[diagonal matrix]]
 - 📌 [[skew-symmetric matrix]]
-- 📌Rank One Matrix
-    - 📝Definition
-        - [[#^30a632e9e0e39867|Rank]] one matrix is matrix that all columns of $A$ and all [[linear combination]]s $Ax$ lie on one line.
+- 📌[[rank one matrix]]
         
 # 🧀Applicability
 - 📌Matrix Representation
