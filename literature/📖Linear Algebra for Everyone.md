@@ -35,23 +35,48 @@ I feel ...
 ## 1.3 Matrices and Column Spaces
 - key takeaway:
 - [[matrix rank]], [[column space]]
-#thingsIDK p23-p28
+#thingsIDK p23-p24
+#TODO  p27-p28 problem sets
 
 - 📌why rank is so important
-	- ![[matrix rank#👑Importance]]
+	- [[matrix rank#👑Importance]]
 - 📌an important fact
-  - ![[matrix rank#🌈Properties#🔴Row Rank = Column Rank]]
+  - [[matrix rank#🌈Properties#🔴Row Rank = Column Rank]]
 - 📌column space and linear equation
-  - ![[column space#🌱Related Elements#🥑column space vs. linear equation]]
+  - [[column space#🌱Related Elements#🥑column space vs. linear equation]]
 
 
 ## 1.4 Matrix Multiplication and $A=CR$
+### matrix multiplication
 - 📌Definition
-  - ![[matrix multiplication#📝Definition]]
+  - [[matrix multiplication#📝Definition]]
 - 📌Intuition
-	- ![[matrix multiplication#🧠Intuition]]
+	- [[matrix multiplication#🧠Intuition]]
 - 📌Example
-	- ![[matrix multiplication#🗃Example]]
+	- [[matrix multiplication#🗃Example]]
+- 📌a special type of matrix multiplication $CR=A$
+	- see what is here [[matrix multiplication#🏷Categories#🔖$CR=A$]]
+
+### matrix with dependent columns
+- 📌only 1 column independent - [[rank one matrix]]
+	- see the definition [[rank one matrix#📝Definition]]
+	- see the intuition [[rank one matrix#🧠Intuition]]
+	- one major stuff is to understand the row space and column space of a rank one matrix [[rank one matrix#⛈Characteristics#☁column space and row space]]
+- 📌One super important reverse engineering $A=CR$⭐
+	- see here [[matrix multiplication#🌱Related Elements#🍌Reverse matrix multiplication to $A=CR$]]
+
+#TODO  p35-p37 problem sets
+
+
+# 📖Chapter 2 Solving Linear Equations $Ax=b$
+
+**👑Importance**
+$Ax=b$ is a universal problem in science and engineering and every quantitative subject.
+
+The elimination steps are: $A$    to    $EA=U$    to    $A=E^{-1}U$    to    $LU$
+If the steps fail, this signals that $Ax=b$ has no solutions.
+
+The key matrices in this chapter are:
 
 
 

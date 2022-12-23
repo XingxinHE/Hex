@@ -50,6 +50,18 @@ Columns of $AB$ are combinations of columns of $A$.
 > [!question]
 > #TODO Exaplain why every vector in $C(AB)$ -a.k.a. every combination of the columns of $AB$- is also in the [[column space]] of $A$.
 
+# 🏷Categories
+## 🔖$CR=A$
+This is a ==special== case of matrix multiplication.
+- $C$ is a $m\times 1$ matrix(column vector)
+- $R$ is a $1\times n$ matrix(row vector)
+The *result* of $CR$ is a [[rank one matrix]] and its *operation* is also called [[Outer Product]]. It has a special meaning in:
+- [[column space]]
+- [[Linear Dependence|linear dependent]]
+- [[Linear Independence|linear independent]]
+
+
+
 
 # 🌈Properties
 ## 🔴Associativity
@@ -157,7 +169,52 @@ julia> A*C
 ```
 
 # 🌱Related Elements
-The closest pattern to current one, what are their differences?
+## 🍌Reverse matrix multiplication to $A=CR$
+- 💬Question: We know $CR=A$ gives us a [[rank one matrix]]. Could we do sth similar? "Dissolve" a matrix $A$ with [[Linear Dependence|linear dependent]] columns to a matrix $C$ with only [[linear independent]] columns?
+- 🗣Answer: Yes. We can.
+- 🏹Strategy:
+	- The steps are followed.
+	- 1️⃣ If column 1 of $A$ is not all zero, put it into the matrix $C$.
+	- 2️⃣ If column 2 of $A$ is not a multiple of column 1, put it into $C$.
+	- 3️⃣ If column 3 of $A$ is not a combination of column1 and column2, put it into $C$.
+	- (continue until loop all the columns...)
+	- 4️⃣ Once we have $C$(all the independent columns), the $R$ will **tells how to produce** the columns of $A$ by using the columns of $C$.
+- 🗃Example:
+	- Construct $C$ first.
+		- Start with matrix $A$ and an empty matrix $C$.
+			- $A=\begin{bmatrix}2&6&4\\4&12&8\\1&3&5\end{bmatrix}\quad C=\begin{bmatrix}\end{bmatrix}$
+		- Column 1 is not zero. Put it in $C$.
+			- $A=\begin{bmatrix}\cancel2&6&4\\\cancel4&12&8\\\cancel1&3&5\end{bmatrix}\quad C=\begin{bmatrix}2 \\ 4 \\ 1\end{bmatrix}$
+		- Column 2 can be ((Column 1) * 3), therefore ignore it.
+			- $A=\begin{bmatrix}\cancel2&\cancel6&4\\\cancel4&\cancel{12}&8\\\cancel1&\cancel3&5\end{bmatrix}\quad C=\begin{bmatrix}2 \\ 4 \\ 1\end{bmatrix}$
+		- Column 3 cannot be multipled by Column 1. Put it in $C$.
+			- $A=\begin{bmatrix}\cancel2&\cancel6&\cancel4\\\cancel4&\cancel{12}&\cancel8\\\cancel1&\cancel3&\cancel5\end{bmatrix}\quad C=\begin{bmatrix}2&4 \\ 4&8 \\ 1&5\end{bmatrix}$
+	- Construct $R$.
+		- Start with the following.
+			- $A=\begin{bmatrix}2&6&4\\4&12&8\\1&3&5\end{bmatrix}= \underbrace{\begin{bmatrix}2&4 \\ 4&8 \\ 1&5\end{bmatrix}}_{C}\underbrace{\begin{bmatrix}\vdots&\vdots&\vdots\\\vdots&\vdots&\vdots\end{bmatrix}}_{R}$
+		- Inspect the 1st column of $A$ which is as same as the 1st column of $C$, meaning the linear combination is ($a_1=1\times c_1+0\times c_2$)
+		- Therefore the first colum of $R$ can be the followed.
+			- $A=\begin{bmatrix}\cancel2&6&4\\\cancel4&12&8\\\cancel1&3&5\end{bmatrix}= \underbrace{\begin{bmatrix}\cancel2&4 \\ \cancel4&8 \\ \cancel1&5\end{bmatrix}}_{C}\underbrace{\begin{bmatrix}1&\vdots&\vdots\\0&\vdots&\vdots\end{bmatrix}}_{R}$
+		- The 2nd column of $A$ is not an independent column and therefore we can combine them. ($a_2=3\times c_1+0\times c_2$). And we have
+			- $A=\begin{bmatrix}\cancel2&\cancel6&4\\\cancel4&\cancel{12}&8\\\cancel1&\cancel3&5\end{bmatrix}= \underbrace{\begin{bmatrix}\cancel2&4 \\ \cancel4&8 \\ \cancel1&5\end{bmatrix}}_{C}\underbrace{\begin{bmatrix}1&3&\vdots\\0&0&\vdots\end{bmatrix}}_{R}$
+		- At this point, we still have one column left on $C$ which is the last independent column. ($a_3=0\times c_1+1\times c_2$). We have
+			- $A=\begin{bmatrix}\cancel2&\cancel6&\cancel4\\\cancel4&\cancel{12}&\cancel8\\\cancel1&\cancel3&\cancel5\end{bmatrix}= \underbrace{\begin{bmatrix}\cancel2&\cancel4 \\ \cancel4&\cancel8 \\ \cancel1&\cancel5\end{bmatrix}}_{C}\underbrace{\begin{bmatrix}1&3&0\\0&0&1\end{bmatrix}}_{R}$
+- 🔎Insight:
+	- We can observe few things.
+	- 1️⃣ All "the column of $A$" is the combination of "the column of $C$". (seeing horizontally)
+	- 2️⃣ All "the row of $A$" is the combination of "the row of $R$". (seeing vertically)
+	- 3️⃣⭐ The 1st and 3rd column of $R$ acts like a "**==selector==**". The format $\begin{bmatrix}1\\0\end{bmatrix}\begin{bmatrix}0\\1\end{bmatrix}$ seems pretty much like [[identity matrix]]. **They put the indepent columns from $C$ to $A$!**
+	- 4️⃣ The 2nd column tells how to produce *dependent* columns from $C$ to $A$.
+
+> [!important]
+> Let's wrap up the key facts.
+> - ⭐The $r$ columns of $C$ are a [[Basis]] for the column space of $A$: dimension $r$.
+> - ⭐The $r$ rows of $R$ are a [[Basis]] for the row space of $A$: dimension $r$.
+> - ⭐$C$ contains $r$ independent columns of $A$.
+> - ⭐$R$ tells how to combine these columns to give all columns of $A$.
+
+> [!note]
+> The $R$ is actually [[reduced row echelon form]].
 
 
 # 🍂Unorganized

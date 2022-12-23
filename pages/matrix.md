@@ -183,7 +183,7 @@
         - $$
           MM^{-1}=M^{-1}M=I
           $$
-        - where $I$ is the [[#^de3808e0dc78918|identity matrix]].
+        - where $I$ is the [[identity matrix]].
         
 - 📝Definition
     - Suppose
@@ -235,32 +235,14 @@ $$
 # 🏷(Sub)Categories
 - 📌Zero Matrix
     - $m\times n$ zero matrix has all entries zero, written as $0_{m\times n}$ or just $0$.
-    
-- 📌Identity Matrix ^de3808e0dc78918
-    - Identity matrix is a square matrix with $I_{ii}=1$ and $I_{ij}=0$ for $i\neq j$.
-    - The notation implies that if the element is $1$, the row and column have to be the same index. Therefore written as $I_{ii}$, e.g. $I_{3,3}=1$
-    - $$
-      \begin{bmatrix}
-      1&0\\0&1
-      \end{bmatrix},
-      \begin{bmatrix}
-      1 & 0 & 0 & 0 \\
-      0 & 1 & 0 & 0 \\
-      0 & 0 & 1 & 0 \\
-      0 & 0 & 0 & 1 
-      \end{bmatrix}
-      $$
-    
+- 📌[[identity matrix]]
 - 📌 [[Sparse Matrix]]
 - 📌Square Matrix ^9ebe50d6b040c114
     - An $m\times n$ matrix $A$ is square if $m=n$.
-    
 - 📌Tall Matrix
     - An $m\times n$ matrix $A$ is square if $m>n$.
-    
 - 📌Wide Matrix
     - An $m\times n$ matrix $A$ is square if $m<n$.
-    
 - 📌 [[Incidence Matrix]]
 - 📌Minor of Matrix ^b0ee7456219cb803
     - 📝Definition
@@ -302,10 +284,12 @@ $$
 - 📌[[band matrix]] 
 - 📌 [[tridiagonal matrix]]
 - 📌 [[upper triangular matrix]]
+- 📌 [[lower triangular matrix]]
 - 📌 [[triangular matrix]]
 - 📌 [[diagonal matrix]]
 - 📌 [[skew-symmetric matrix]]
 - 📌[[rank one matrix]]
+- 📌 [[orthogonal matrix]]
         
 # 🧀Applicability
 - 📌Matrix Representation

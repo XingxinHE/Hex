@@ -14,7 +14,6 @@ aliases: [dot product, scalar product]
 - It **measure the difference** between the directions in which the two vectors point.
 - $v=(1,3,2)$ is perpendicular to $w=(4,-4,4)$ because $v\cdot w=0$
 
-# 📈Diagram
 - 📌Dot product impression
     - Dot product $(\mathbf{a}\cdot\mathbf{b})$ is expressed as $\mathbf{a}^T\cdot\mathbf{b}$ in [[matrix]] language and yields a [[scalar]].
     - $$
@@ -33,6 +32,8 @@ aliases: [dot product, scalar product]
       \end{bmatrix}=x_1+2x_2+3x_3
       $$
     - ![|300](../assets/inner_product.svg)
+
+
     
 # ✒Notation
 - Suppose $a, b$ are vectors. Then the expression of inner product is

@@ -100,7 +100,8 @@ ___
   - ![[Secant Line#📝Definition]]
 
 - 📌understand the difference between tangent and secant
-  - ![[Secant Line#📈Diagram#📉Difference Between a Secant Line and a Tangent Line]]
+  - [[Secant Line#📈Diagram#📉Difference Between a Secant Line and a Tangent Line]]
+- 📌
 
 ## Differentiation
 ## Approximations

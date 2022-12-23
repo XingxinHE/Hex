@@ -1,7 +1,9 @@
 ---
 aliases: []
 tags:
-  - unknown
+  - LinearAlgebra
+  - mathematics
+  - matrix
 ---
 
 
@@ -10,6 +12,13 @@ https://mathworld.wolfram.com/UpperTriangularMatrix.html
 
 # 🧠Intuition
 Find an intuitive way of understanding this concept.
+
+# ✒Notation
+$$
+\begin{align}
+U
+\end{align}
+$$
 
 
 

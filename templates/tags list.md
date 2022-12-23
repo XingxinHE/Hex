@@ -6,6 +6,7 @@ computer-science
 cpp
 csharp
 DifferentialGeometry
+FunctionalAnalysis
 geometry
 GeometryProcessing
 JavaScript

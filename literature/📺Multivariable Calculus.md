@@ -39,8 +39,7 @@ I feel ...
 > <iframe width="500" src="https://courses.edx.org/asset-v1:MITx+18.02.2x+2T2022+type@asset+block/threejs_u6_ParallelepipedUnderSurface.html"></iframe>
 
 
-> [!tip] Volume by Slicing
-> <iframe width="500" src="https://courses.edx.org/asset-v1:MITx+18.02.2x+2T2022+type@asset+block/threejs_u6_VolumeSliceSlider.html"></iframe>
+
 
 
 > [!tip] Paraboloid Volume
