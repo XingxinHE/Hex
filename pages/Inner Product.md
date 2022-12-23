@@ -48,7 +48,7 @@ aliases: [dot product, scalar product]
     - $$
       P^T\cdot Q=[P_1\quad P_2\quad...\quad P_n]\begin{bmatrix}Q_1\\Q_2\\\vdots\\Q_n\end{bmatrix}
       $$
-    - Tips: row vector $\cdot$ column vector = scalar
+    - Tips: [[row vector]] $\cdot$ [[column vector]] = scalar
     
 # ⛈Characteristics / Properties
 - 📌dot product is **element-wise** operation
@@ -77,7 +77,7 @@ aliases: [dot product, scalar product]
                 - $(a+b)$ is a vector
                 - $(c+d)$ is also a vector
                 - $(a+b)$ has to transpose into $(a+b)^T$ , a.k.a. a row vector
-                - $(a+b)^T(c+d)$ , row vector $\cdot$ column vector is a *scalar*.  (if their dim are the same)
+                - $(a+b)^T(c+d)$ , [[row vector]] $\cdot$ [[column vector]] is a *scalar*.  (if their dim are the same)
                 
     - Notation Version 2
         - Given any scalar $a$ and any three vectors $P, Q$, and $R$, the following properties hold.

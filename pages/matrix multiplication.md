@@ -53,8 +53,8 @@ Columns of $AB$ are combinations of columns of $A$.
 # 🏷Categories
 ## 🔖$CR=A$
 This is a ==special== case of matrix multiplication.
-- $C$ is a $m\times 1$ matrix(column vector)
-- $R$ is a $1\times n$ matrix(row vector)
+- $C$ is a $m\times 1$ matrix([[column vector]])
+- $R$ is a $1\times n$ matrix([[row vector]])
 The *result* of $CR$ is a [[rank one matrix]] and its *operation* is also called [[Outer Product]]. It has a special meaning in:
 - [[column space]]
 - [[Linear Dependence|linear dependent]]
@@ -208,8 +208,8 @@ julia> A*C
 
 > [!important]
 > Let's wrap up the key facts.
-> - ⭐The $r$ columns of $C$ are a [[Basis]] for the column space of $A$: dimension $r$.
-> - ⭐The $r$ rows of $R$ are a [[Basis]] for the row space of $A$: dimension $r$.
+> - ⭐The $r$ columns of $C$ are a [[basis]] for the column space of $A$: dimension $r$.
+> - ⭐The $r$ rows of $R$ are a [[basis]] for the row space of $A$: dimension $r$.
 > - ⭐$C$ contains $r$ independent columns of $A$.
 > - ⭐$R$ tells how to combine these columns to give all columns of $A$.
 

@@ -128,7 +128,7 @@ To find the indicator function $\chi$ of the surface
 - Now let's construct the matrix! ( #TODO a better title of this step )
 	- How many grid nodes we have?
 		- That is $n_x\cdot n_y\cdot n_z$
-	- We construct a column vector of function values on the primary grid. (a.k.a. the blue dots on the grid)
+	- We construct a [[column vector]] of function values on the primary grid. (a.k.a. the blue dots on the grid)
 		- $$\mathbf{g}\in\mathbf{R}^{n_x\cdot n_y\cdot n_z\times1}$$
 		- numbers of row: $n_x\cdot n_y\cdot n_z$
 		- numbers of colums: 1
@@ -146,7 +146,7 @@ To find the indicator function $\chi$ of the surface
 			- #thingsIDK in general I don't get it.
 - Let's think of it in computer data structure!
 	- The data structure can't do.
-		- ❌index the column vector $\mathbf{g}$ by $\{i,j,k\}$ 
+		- ❌index the [[column vector]] $\mathbf{g}$ by $\{i,j,k\}$ 
 		- ❌index the rows of $\mathbf{D}$ by $\{i-\frac12 ,j,k\}$
 	- The workaround - flat them into 1 dimension.
 		- ✅ $\mathbf{g}_{i,j,k}$ can now refer to `g(i + j*n_x + k*n_y*n_x)`

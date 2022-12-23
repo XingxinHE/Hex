@@ -21,6 +21,12 @@ What is the complement of this subject? e.g. vector-covector, constructor-destru
 🗃Example
 Example is the most straightforward way to understand a concept. Therefore, it has to be **compact**!
 
+🌈Properties
+⛈Characteristics
+These 2 are super close and I used to use them interchangebly. I would like to put it this way. 
+- "Properties" is something already configured in something. 实的，属性，一个东西的属性。
+- "Chracteristics" is something vague. 虚的，描述性的，概括性的
+
 
 
 ⌨Sample Code
@@ -48,6 +54,10 @@ This is the ui of "⛈Characteristics". Their sub elements should have similar e
 🌪
 🌥
 🌦
+
+> [!note]
+> This is also very useful when you are trying to refer some nots. e.g. When I see some "🔴xxx" and I can refer to "🌈" which is the property.
+
 
 # Literature vs. Zettel
 Zettel is atomic.

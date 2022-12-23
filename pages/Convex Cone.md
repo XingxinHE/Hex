@@ -5,5 +5,5 @@
     - ![name](../assets/convex_cone.png){:height 200, :width 200}
     
 - 🗃Example
-    - ![[Linear Combination#^7120637e78bdcef2]]
+    - ![[linear combination#^7120637e78bdcef2]]
     

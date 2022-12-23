@@ -12,7 +12,7 @@ aliases: [linear dependent,linearly dependent]
 
 # 🧠Intuition
 - At least one column does not contribute anything new to the matrix.
-- At least at least one $a_i$ is a [[Linear Combination]] of the others.
+- At least at least one $a_i$ is a [[linear combination]] of the others.
 
 # 🌓Complement
 - [[Linear Independence]]

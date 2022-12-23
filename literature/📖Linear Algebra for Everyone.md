@@ -78,6 +78,11 @@ If the steps fail, this signals that $Ax=b$ has no solutions.
 
 The key matrices in this chapter are:
 
+## 2.1 The Idea of Elimination
+- 📌understand what is so-called [[system of linear equations#📝Definition]]
+  - because it is mentioned so many times in so many books!
+- 📌understand the solution of a linear system
+	- [[system of linear equations#🌈Properties#🔴Solution set]].
 
 
 # 💭Things I don't Know

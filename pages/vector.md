@@ -241,7 +241,7 @@ The operations that vector supports are the following
           $$
         
     - Applicability
-        - 📌[[Linear Combination]]
+        - 📌[[linear combination]]
         
 - 📌 [[Matrix-Vector Products]]
 - 📌Vector times Vector

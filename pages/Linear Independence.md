@@ -10,7 +10,7 @@ aliases: [linear independent, linearly independent]
     - holds only when $\beta_1=\cdots=\beta_k=0$
     
 # 🧠Intuition
-- No $a_i$ is a [[Linear Combination]] of the others.
+- No $a_i$ is a [[linear combination]] of the others.
 
 # 📈Diagram
 - ![name](../assets/linear_independence.png){:height 300, :width 300}
@@ -26,10 +26,10 @@ aliases: [linear independent, linearly independent]
 - 📌Independence-dimension inequality ^4454aaabc8108e5d
     - This characteristic means a linearly independent set of $n$-vectors can have **at most** $n$ elements.
     - a.k.a. any set of $n + 1$ or more $n$-vectors is linearly dependent.
-    - This property holds extremely important for the concept of [[Basis]]
+    - This property holds extremely important for the concept of [[basis]]
     
 # 💫Operation
-- 📌 [[Linear Combination]] of linearly independent vectors
+- 📌 [[linear combination]] of linearly independent vectors
     - suppose $x$ is linear combination of linearly independent vectors $a_1,...,a_k$:
         - $$
           x=\beta_1\alpha_1+\cdots+\beta_k\alpha_k
