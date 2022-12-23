@@ -20,17 +20,14 @@ aliases: [切线]
 
 
 # 🌱Related Elements
-- 📌Relationship: Tangent Line vs. [[derivative]]
+- 📌Relationship: Tangent Line vs. [[derivative]] ^bb0a6b
     - The following is true:
         - ✅Function has derivative  at $x=a$, therefore👉 function has a tangent line at $x=a$
-        
     - The following is wrong:
         - ❌Function has a tangent line at $x=a$, therefore👉 function has derivative  at $x=a$
-        
     - Graph:
         - For function $f(x)=\sqrt[3]{x}$
-        - ![name](../assets/fx_sqrt_3_x.svg){:height 300, :width 300}
+        - ![|300](../assets/fx_sqrt_3_x.svg)
         - at $x=0$ at
             - ✅has a tangent line
             - ❌not [[differentiable]], the derivative is [[DNE]]
-            

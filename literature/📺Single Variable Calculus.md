@@ -93,15 +93,18 @@ ___
   - [[derivative#🗃Example]]
 
 ### Geometric interpretation of the derivative
-- 📌**Tangent Line**
-  - ![[Tangent Line#📝Definition]]
+- 📌**what is Tangent Line**
+  - [[Tangent Line#📝Definition]]
 
-- 📌**Secant Line**
-  - ![[Secant Line#📝Definition]]
+- 📌**what is Secant Line**
+  - [[Secant Line#📝Definition]]
 
 - 📌understand the difference between tangent and secant
   - [[Secant Line#📈Diagram#📉Difference Between a Secant Line and a Tangent Line]]
-- 📌
+- 📌**relationship: Differentiable vs. Continuous**
+	- [[differentiable#^c07ebe]]
+- **📌Relationship: Tangent Line vs. Derivative**
+	- [[Tangent Line#^bb0a6b]]
 
 ## Differentiation
 ## Approximations

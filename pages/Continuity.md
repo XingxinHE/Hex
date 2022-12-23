@@ -75,8 +75,7 @@ The following are some examples related to continuity.
  The closest pattern to current one, what are their differences?
 - 📌 [[limit]] , Continuous, and [[differentiable]] ^94aefd834de51c3c
     - Let's look at the $x=0$ of the following function $f(x)=\lvert x\rvert$:
-        - ![name](../assets/images_u1der2_absolute.svg){:height 300, :width 300}
-        
+        - ![|300](../assets/images_u1der2_absolute.svg) 
     - Limits✔:
         - The <u>left-hand limit</u> and <u>right-hand limit</u> are the same. Therefore the limit at $x=0$ exist.
           $$
@@ -86,7 +85,6 @@ The following are some examples related to continuity.
           \lim_{x\to0}\lvert x\rvert=0\\
           \end{align}
           $$
-        
     - Continuous✔:
         - Since
           $$
