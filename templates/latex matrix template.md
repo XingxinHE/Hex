@@ -1,5 +1,4 @@
 $$
-$$
 \begin{bmatrix}
 
 \end{bmatrix}

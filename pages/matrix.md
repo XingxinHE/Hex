@@ -237,8 +237,7 @@ $$
     - $m\times n$ zero matrix has all entries zero, written as $0_{m\times n}$ or just $0$.
 - 📌[[identity matrix]]
 - 📌 [[Sparse Matrix]]
-- 📌Square Matrix ^9ebe50d6b040c114
-    - An $m\times n$ matrix $A$ is square if $m=n$.
+- 📌[[square matrix]]
 - 📌Tall Matrix
     - An $m\times n$ matrix $A$ is square if $m>n$.
 - 📌Wide Matrix

@@ -1,5 +1,14 @@
+---
+aliases: []
+tags:
+  - LinearAlgebra
+  - mathematics
+  - matrix
+---
+
+
 - 📋Prerequisite
-    - Determinants are defined **only** for [[matrix#^9ebe50d6b040c114|square matrices]] .
+    - Determinants are defined **only** for [[square matrix]] .
     - Understand [[matrix#^5cd25e079d5be40e|cofactor matrix]].
     
 - 📝Definition
@@ -8,9 +17,9 @@
         - $C$ is [[matrix#^5cd25e079d5be40e|cofactor matrix]].
         - $$
           \begin{align}
-          \bold{det}M =& \sum^{n}_{i=1}M_{ik}C_{ik}\\
+          \mathbf{det}M =& \sum^{n}_{i=1}M_{ik}C_{ik}\\
           \text{and}\\
-          \bold{det}M =& \sum^{n}_{j=1}M_{kj}C_{kj}\\\\
+          \mathbf{det}M =& \sum^{n}_{j=1}M_{kj}C_{kj}\\\\
           \end{align}
           $$
         
@@ -49,14 +58,14 @@
     - 📌example of determinant of $2\times 2$ matrix
         - $$
           \begin{align}
-          \bold{ det}\bigg(\begin{bmatrix}a&b\\c&d\end{bmatrix}\bigg) =& ad-bc
+          \mathbf{ det}\bigg(\begin{bmatrix}a&b\\c&d\end{bmatrix}\bigg) =& ad-bc
           \end{align}
           $$
         
     - 📌example of determinant of $3\times 3$ matrix
         - $$
           \begin{align}
-          \bold{det}
+          \mathbf{det}
           \Bigg(
           \begin{bmatrix}
           a&b&c\\
@@ -64,9 +73,9 @@
           g&h&i
           \end{bmatrix}
           \Bigg)
-          =&a\bold{ det}\bigg(\begin{bmatrix}e&f\\h&i\end{bmatrix}\bigg)\\
-          -&b\bold{ det}\bigg(\begin{bmatrix}d&f\\g&i\end{bmatrix}\bigg)\\
-          +&c\bold{ det}\bigg(\begin{bmatrix}d&e\\g&h\end{bmatrix}\bigg)\\
+          =&a\mathbf{ det}\bigg(\begin{bmatrix}e&f\\h&i\end{bmatrix}\bigg)\\
+          -&b\mathbf{ det}\bigg(\begin{bmatrix}d&f\\g&i\end{bmatrix}\bigg)\\
+          +&c\mathbf{ det}\bigg(\begin{bmatrix}d&e\\g&h\end{bmatrix}\bigg)\\
           \end{align}
           $$
           
