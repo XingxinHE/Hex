@@ -78,7 +78,13 @@ When finding the endpoints for the region $R$, we can think of $x_\min$ and 
 Find an intuitive way of understanding this concept.
 
 # 🗃Example
-Example is the most straightforward way to understand a mathematical concept.
+- 📁double integral example 1
+	- 💬Question: xxx
+	- 🏹Strategy: xxx
+	- 🗣Answer: xxx
+	- ✏Solution: xxx
+
+
 
 # 🌱Related Elements
 The closest pattern to current one, what are their differences?

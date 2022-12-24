@@ -77,13 +77,13 @@ ___
   - ![[continuity#📈Diagram]]
 
 
-### Limits of quotients
+### 1.1.3. Limits of quotients
 - 📌Limits of quotients is quite special from the others
   - ![[limit#^edbac3c2139a3386]]
   - Then see some examples to understand it. [[limit#🗃Example]]
 
 
-## Derivative
+## 1.2. Derivative
 ### What is the derivative?
 - 📌**Definition of the derivative**
   - ![[derivative#📝Definition]]
@@ -105,6 +105,9 @@ ___
 	- [[differentiable#^c07ebe]]
 - **📌Relationship: Tangent Line vs. Derivative**
 	- [[Tangent Line#^bb0a6b]]
+
+### The derivative as a function
+
 
 ## Differentiation
 ## Approximations

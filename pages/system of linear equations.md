@@ -95,12 +95,21 @@ A solution of a linear system is an assignment of values to the variables $x_1, 
 ___
 
 **🏷Categories**
-A linear system may behave in any one of three possible ways:
+A linear system may behave in any one of ==3== possible ways:
 - 1️⃣ The system has a single unique solution.
 - 2️⃣ The system has no solution.
 - 3️⃣ The system has infinitely many solutions.
 
 ___
+
+**🧠Intuition**
+The picture seeing the 3 possible ways are the important.
+- 1️⃣ Row Picture
+- 2️⃣ Column Picture
+Suppose the system is the following.
+![|200](../assets/Parallel_Lines.svg)
+![|200](../assets/Three_Intersecting_Lines.svg)
+
 
 **🗃Example**
 Suppose it is a system of linear equations with $n=2$ .
