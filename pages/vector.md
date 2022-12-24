@@ -64,7 +64,7 @@ The following are few properties of vector.
       nnz(a)
       $$
     
-- 📌 [[Linear Dependence]] and [[Linear Independence]]
+- 📌 [[linear dependent]] and [[linear independent]]
 - 📌 Angle, see [[Inner Product#^d19bad21ef5d7eb7|here]].
 - 📌 Inequality
     - [[Triangle Inequality]]

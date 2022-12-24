@@ -21,7 +21,7 @@ void incre_ref(int &r) {++r;}
 Which is the ==best== ? The answer is :
 > "The choice depends on the nature of the function."
 
-1️⃣ `int incre_value(int x) { return x+1; }`
+1️⃣ `int incre_value(int x) { return x+1; }` ^956ff9
 - obvious😊
 - less error-prone😊
 - good for tiny object, prefer [[pass-by-value]]😊

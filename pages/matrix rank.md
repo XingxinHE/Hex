@@ -30,10 +30,17 @@ $$
 
 
 # 📝Definition
-The rank of a matrix is the dimension of its column space. It counts the [[linearly independent]] columns.
+The rank of a matrix is the dimension of its column space. It counts the [[linear independent]] columns.
 
 # 🧠Intuition
 Find an intuitive way of understanding this concept.
+
+# ⛈Characteristics
+## 🌤[[full rank]]
+
+## 🌨rank-deficient
+**📝Definition**
+A matrix is said to be rank-deficient if it does not have full rank.
 
 # 🌈Properties
 ## 🔴Row Rank = Column Rank

@@ -64,7 +64,7 @@ This is the rule.
 	- Every pair of column is dependent. Their combinations is just a line.
 
 # 🌱Related Elements
-The concept of "column space" highly relates to the other concepts: [[linear independent]], [[Linear Dependence|linear dependent]], and [[linear combination]].
+The concept of "column space" highly relates to the other concepts: [[linear independent]], [[linear dependent]], and [[linear combination]].
 
 ## 🥑column space vs. linear equation
 

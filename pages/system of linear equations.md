@@ -2,6 +2,7 @@
 aliases: [linear system of equations]
 tags:
   - LinearAlgebra
+  - mathematics
 ---
 https://en.wikipedia.org/wiki/System_of_linear_equations
 
@@ -140,7 +141,26 @@ Suppose it is a system of linear equations with $n=2$ .
 		- This is the meaning of **dependent columns** - many ways to produce the zero vector. Every $c\mathbf{X}$ gives $A(c\mathbf{X})=0$.
 		- All the vectors $x+c\mathbf{X}$ solve the same equations, so we have many solutions.
 
+# ⌨Sample Code
+**🖱Solving system linear equation in julia**
+Using the `\` symbol.
+#julia 
+```julia
+julia> A=[2 3; 4 2;]
+2×2 Matrix{Int64}:
+ 2  3
+ 4  2
 
+julia> b=[5;6;]
+2-element Vector{Int64}:
+ 5
+ 6
+
+julia> A\b
+2-element Vector{Float64}:
+ 1.0
+ 1.0
+```
 
 # 🌱Related Elements
 The closest pattern to current one, what are their differences?

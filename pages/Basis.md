@@ -1,5 +1,5 @@
 # 📝Definition
-- A set of $n$ [[linearly independent]] $n$-vectors $a_1,...,a_n$ is called a basis.
+- A set of $n$ [[linear independent]] $n$-vectors $a_1,...,a_n$ is called a basis.
 
 # ⛈Characteristics / Properties
 - 📌Expansion

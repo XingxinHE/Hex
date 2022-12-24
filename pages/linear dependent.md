@@ -1,5 +1,5 @@
 ---
-aliases: [linear dependent,linearly dependent]
+aliases: [linearly dependent, linear dependence]
 ---
 
 # 📝Definition
@@ -15,7 +15,7 @@ aliases: [linear dependent,linearly dependent]
 - At least at least one $a_i$ is a [[linear combination]] of the others.
 
 # 🌓Complement
-- [[Linear Independence]]
+- [[linear independent]]
 
 # ⛈Characteristics / Properties
 - 📌The character of linear dependent of $n$-vector

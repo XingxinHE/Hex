@@ -7,7 +7,7 @@ tags:
 ---
 
 # 🚿Source
-Every [[square matrix]] $A$ with [[Linear Independence|linear independent]]
+Every [[square matrix]] $A$ with [[linear independent|independent]] columns ([[full rank]]) can be reduced to a triangular matrix $U$ with nonzero pivots.
 
 # 📝Definition
 https://mathworld.wolfram.com/UpperTriangularMatrix.html
@@ -88,6 +88,13 @@ See it in bottom to top in the $\text{(1)}$ equation and see it in right to left
 - $5x_2+6x_3=17$ gives $5x_2+6(2)=17$ gives $x_2=1$
 - $2x_1+3(1)+4(2)=19$ gives $x_1=4$
 - Therefore $\begin{bmatrix}x_1\\x_2\\x_3\end{bmatrix}=\begin{bmatrix}4\\1\\2\end{bmatrix}$
+
+> [!tip]
+> If we write the $U$ in linear equation format, then you would understand the benefit right away!
+> $$\begin{align}2x_1+3x_2+4x_1&=19\\5x_2+6x_3&=17\\7x_3&=14\end{align}$$
+> Solving from bottom to top is also known as "back substitution".
+
+
 
 🛸
 ✈️

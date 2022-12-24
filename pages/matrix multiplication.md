@@ -57,8 +57,8 @@ This is a ==special== case of matrix multiplication.
 - $R$ is a $1\times n$ matrix([[row vector]])
 The *result* of $CR$ is a [[rank one matrix]] and its *operation* is also called [[Outer Product]]. It has a special meaning in:
 - [[column space]]
-- [[Linear Dependence|linear dependent]]
-- [[Linear Independence|linear independent]]
+- [[linear dependent]]
+- [[linear independent]]
 
 
 
@@ -170,7 +170,7 @@ julia> A*C
 
 # 🌱Related Elements
 ## 🍌Reverse matrix multiplication to $A=CR$
-- 💬Question: We know $CR=A$ gives us a [[rank one matrix]]. Could we do sth similar? "Dissolve" a matrix $A$ with [[Linear Dependence|linear dependent]] columns to a matrix $C$ with only [[linear independent]] columns?
+- 💬Question: We know $CR=A$ gives us a [[rank one matrix]]. Could we do sth similar? "Dissolve" a matrix $A$ with [[linear dependent]] columns to a matrix $C$ with only [[linear independent]] columns?
 - 🗣Answer: Yes. We can.
 - 🏹Strategy:
 	- The steps are followed.

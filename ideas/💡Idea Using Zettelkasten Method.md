@@ -35,10 +35,13 @@ These 2 are super close and I used to use them interchangebly. I would like to p
 🕹Quiz
 Quiz一般是数学题，很长。example放不下的放这里
 
+🗿Socratic Method
+这是我全新的尝试，采用苏格拉底式的提问来更好地理解某些问题。这里和quiz的区别，quiz是讲究完整得做完一道题，但是苏格拉底式提问是为了追求问题本质。
 
 🌱Related Elements
 这里是将相关的subject和本subject进行类比的通道。这是和其它通道想连结的地方。
 (put it at the **bottom** since it is close to the backlink of a subject) 
+
 
 
 # UI System

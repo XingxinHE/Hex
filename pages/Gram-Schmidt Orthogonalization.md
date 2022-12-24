@@ -2,7 +2,7 @@
     - Big picture of Gram-Schmidt Orthogonalization: it **alternates coordinate systems.**
     
 - 📝Definition
-    - Given a nonorthogonal set of $n$ [[linearly independent]] [[vector]]s $\Beta=\{e_1,e_2,...,e_n\}$, this algorithm produces an orthogonal set $\Beta'=\{e_1',e_2',...,e_n'\}$ such that
+    - Given a nonorthogonal set of $n$ [[linear independent]] [[vector]]s $\Beta=\{e_1,e_2,...,e_n\}$, this algorithm produces an orthogonal set $\Beta'=\{e_1',e_2',...,e_n'\}$ such that
         - $$
           e_i'\cdot e_j'=0, \text{whenever }i\neq j
           $$

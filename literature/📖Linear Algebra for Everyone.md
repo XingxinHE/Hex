@@ -81,8 +81,31 @@ The key matrices in this chapter are:
 ## 2.1 The Idea of Elimination
 - 📌understand what is so-called [[system of linear equations#📝Definition]]
   - because it is mentioned so many times in so many books!
+
 - 📌understand the solution of a linear system
 	- [[system of linear equations#🌈Properties#🔴Solution set]].
+
+- 📌why upper triangular matrix is useful
+  - [[upper triangular matrix#🚀Benefit / Pros#🛰️easy to solve system of linear equations]]
+
+- 📌full rank square matrix can deduced to upper triangular matrix
+  - [[upper triangular matrix#🚿Source]]
+
+
+- 📌quick review what is elimination
+  - [[Gaussian elimination#📝Definition]]
+
+- 📌2 **super classic** elimination examples⭐!!
+  - [[Gaussian elimination#^064827]]
+  - [[Gaussian elimination#^2da661]]
+
+- 📌most important what is the objective of elimination?
+  - [[Gaussian elimination#🎯Intent]]
+
+- 📌some question I ask myself in a Socratic way
+  - [[Gaussian elimination#🗿Socratic Method]]
+
+
 
 
 # 💭Things I don't Know
@@ -92,6 +115,6 @@ The key matrices in this chapter are:
 
 
 ___
-# ℹInformation
+# ℹ Information
 **✍Authors:**
 **🔗Links:**

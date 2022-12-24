@@ -128,7 +128,7 @@
       $$
 - 📌Invertible
     - 📝Definition
-        - An $n\times n$ matrix $M$ is *invertible* if and only if the columns of $M$ form a [[linearly independent]] set. Equivalently, $M$ is invertible if and only if the [[Determinant]] of $M$ $\bold{det}M≠0$ .
+        - An $n\times n$ matrix $M$ is *invertible* if and only if the columns of $M$ form a [[linear independent]] set. Equivalently, $M$ is invertible if and only if the [[Determinant]] of $M$ $\bold{det}M≠0$ .
         
     - 🔎Implementation
         - See [[#Matrix Inverse|Matrix Inverse]]
@@ -289,6 +289,7 @@ $$
 - 📌 [[skew-symmetric matrix]]
 - 📌[[rank one matrix]]
 - 📌 [[orthogonal matrix]]
+- 📌 [[augmented matrix]]
         
 # 🧀Applicability
 - 📌Matrix Representation

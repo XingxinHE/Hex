@@ -15,9 +15,9 @@
           $$
         
 - ⛈Characteristics / Properties
-    - 📌 [[linearly independent]]
+    - 📌 [[linear independent]]
         - orthonormal sets of vectors are linearly independent.
-        - by [[Linear Independence#^4454aaabc8108e5d|independence-dimension inequality]], must have $k\leq n$
+        - by [[linear independent#^4454aaabc8108e5d|independence-dimension inequality]], must have $k\leq n$
         
 # Orthonormal Basis
 - 📝Definition

@@ -41,7 +41,7 @@ I feel ...
 ## Lecture 10✅
 - Euclidean distance, triangle inequality, feature distance, document dissimilarity. Written in the operation section in vector.
 ## Lecture 15✅
-- ⭐⭐[[Linear Dependence]], [[Linear Independence]]
+- ⭐⭐[[linear dependent]], [[linear independent]]
 - Boyd said these are super important concept across his book.
 - [[basis]], [[Orthonormality]]
 ## Lecture 17✅
