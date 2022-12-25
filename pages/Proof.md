@@ -1,14 +1,14 @@
 # 📝Definition
 - A proof is a convincing logical argument that a statement is true.
+- A rigorous mathematical argument which unequivocally demonstrates the truth of a given [[proposition]]. A mathematical statement that has been proven is called a [[theorem]].
 
 # 🏷(Sub)Categories
 ## 📌Proof by Construction
 ### 📝Definition
 - To prove such a theorem is by demonstrating **how to construct the object**. This technique is a proof by construction.
 
-## 📌Proof by Contradiction
-### 📝Definition
-- In one common form of argument for proving a theorem, we **assume that the theorem is false** and then show that this assumption leads to an obviously false consequence, called a contradiction.
+## 📌[[proof by contradiction]]
+
 
 ## 📌Proof by Induction
 ### 📝Definition
