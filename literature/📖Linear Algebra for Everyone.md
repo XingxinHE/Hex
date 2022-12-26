@@ -119,6 +119,8 @@ The key matrices in this chapter are:
 		-  [[Gaussian elimination#^064827]]
 		- [[Gaussian elimination#^2da661]]
 
+#TODO p45 could be a great example for julia
+#TODO p46-p48 problem sets
 # 💭Things I don't Know
 
 
