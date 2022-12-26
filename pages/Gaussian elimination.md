@@ -1,5 +1,5 @@
 ---
-aliases: [linear system of equations]
+aliases: [elimination]
 tags:
   - LinearAlgebra
   - mathematics
@@ -39,6 +39,10 @@ are:
 > - 2️⃣ The operation goes *from top to the bottom*.
 > - 3️⃣ When performing a $k$-row operation, all the number **under** the pivot of this row **should be zero**.
 > - 4️⃣ The **pivot** of the 1st row is the 1st coefficient, 2nd row - 2nd coefficient, etc.
+
+> [!note]
+> You may see some elimination do not have augmented matrix simply because the user want to focus on the left side. 
+
 
 # 🎯Intent
 Gaussian elimination / elimination is to change $A$ to $U$!
@@ -127,6 +131,22 @@ ___
 	num = incre_value(num);
 	```
 - **📜Key Takeaway**: Elimination is like reassigning. $\text{row}_3=\text{row}_3-2\text{row}_2$
+___
+- **💬Question**: I saw some eliminations use [[augmented matrix]] and some don't. What's the difference? ^b3338a
+- **🗣Answer**: Regarding their goal, it is no difference. Regarding the format, it has difference.
+- **✍Argument**:
+	- Using augmented matrix
+		- The pros are you can see $A$ and $b$ clearly. $\left[\begin{array}{c|c}A&b\end{array}\right]$
+		- When you do some operations on rows in $A$, you do simultaneously on $b$.
+		- In the end you have the final form on $b$.
+	- Not using augmented matrix
+		- The pros are you can focus on the transformation from $A$ to $U$ and without any distraction concerning $b$.
+		- Eventually, you have to do it using [[elimination matrix]] and [[permutation matrix]].
+- **📜Key Takeaway**:
+	- They have both pros and cons.
+	- For education, prefer not using augmented matrix.
+	- For solving problems, prefer using augmented matrix.
+
 
 
 

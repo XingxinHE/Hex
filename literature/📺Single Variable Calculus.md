@@ -117,7 +117,7 @@ ___
 
 # Integration
 ## The Integral
-- [[Mean Value Theorem]], [[Upper and Lower Bound]], [[Antiderivative]], [[Differential]], [[Differential Equation]]
+- [[Mean Value Theorem]], [[Upper and Lower Bound]], [[Antiderivative]], [[Differential]], [[differential equation]]
 - [[Slope Field]], [[Leonhard Euler|Euler]]
 - Homework B the Parachute ride is really good. need to document. Only the last question I don't understand.
 ## Integration Theory

@@ -37,6 +37,8 @@ I feel ...
 - [[Affine Independence]], [[Affine Dependence]]
 - [[Convex Set]], [[Convex Hull]], [[Simplex]], [[Barycentric Coordinates]]
 
+## Chapter 04 Intro to Exterior Calculus
+[[differential k-form]]
 
 # ℹSyllabus
 - **🎯Course Goal**

@@ -1,5 +1,5 @@
 # 📝Definition
-- The **slope field** is a diagram that helps us to visualize the information in a first order [[Differential Equation]] . The slope field is obtained as follows. At each point $(x,y)$, you draw a short segment whose slope is the *value* of $y'$ at the point $(x,y)$. The solution curves must be tangent to the slope field at all points.
+- The **slope field** is a diagram that helps us to visualize the information in a first order [[differential equation]] . The slope field is obtained as follows. At each point $(x,y)$, you draw a short segment whose slope is the *value* of $y'$ at the point $(x,y)$. The solution curves must be tangent to the slope field at all points.
 
 # 📈Diagram
 - The following is the slope field of

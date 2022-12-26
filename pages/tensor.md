@@ -1,18 +1,10 @@
 ---
-aliases: [linear system of equations]
+aliases: []
 tags:
-  - LinearAlgebra
-  - mathematics
-  - matrix
+  - unknown
 ---
 
-# 👑Importance
-Augmented matrix plays an important role in [[Gaussian elimination]].
-
-> [!info] Remark
-> Using augmented matrix in Gaussian elimination **is not a must**.
-
-
+https://mathworld.wolfram.com/Tensor.html
 # 📝Definition
 
 # 🧠Intuition

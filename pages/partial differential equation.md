@@ -8,9 +8,9 @@ tags:
 # 📝Definition
 
 # 🌓Complement
-[[ordinary differential equations]]
+[[differential equation|ordinary differential equations]]
 
-![[ordinary differential equations#🌓Complement#🌒ODE vs. PDE]]
+![[differential equation#🌓Complement#🌒ODE vs. PDE]]
 
 # 🧠Intuition
 Find an intuitive way of understanding this concept.

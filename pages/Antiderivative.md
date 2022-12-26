@@ -21,7 +21,7 @@ aliases: [Indefinite Integral]
     - We call $\int$ the **integral sign**, $f(x)$ the **integrand**, and $C$ the **constant of integration**. Since there could be infinite $C$, therefore there is no only one antiderivative of such a function. Hence, this is the reason of phrase "*indefinite*". On the other hand, the constant is **the only ambiguity** of the indefinite integral due to the MVT, which guarantees that any two antiderivatives of the same function can **differ only** by a constant.
     
 # 🌓Complement
-- ![[Differential Equation#📌Differential Equation vs Antiderivative]]
+- ![[differential equation#📌Differential Equation vs Antiderivative]]
 - ![[definite integral#📌 Indefinite Integral vs. Definite Integral]]
 
 # ⚖Laws

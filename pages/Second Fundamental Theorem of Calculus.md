@@ -17,7 +17,7 @@ aliases: [FTC2]
     - ![name](../assets/images_ftc2_G.svg){:height 200, :width 300}
     
 # 🎯Intent
-- 📌In terms of [[Differential Equation]]s,
+- 📌In terms of [[differential equation]]s,
     - FTC2 says that $G(x)$ is the solution to the following differential equation and initial condition:
         - $$
           \begin{align}

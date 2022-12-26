@@ -262,7 +262,7 @@ $$
                   \end{align}
                   $$
                 
-            - Depending on what the [[Differential Equation]] is, $G(x)$ can be a function we already know. An example is that.
+            - Depending on what the [[differential equation]] is, $G(x)$ can be a function we already know. An example is that.
                 - $$
                   L(x)=\int _{1}^{x} \frac{dt}{t}=\ln(x)\quad(x>0)
                   $$

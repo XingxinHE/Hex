@@ -56,6 +56,8 @@ I feel ...
 	- [[matrix multiplication#🗃Example]]
 - 📌a special type of matrix multiplication $CR=A$
 	- see what is here [[matrix multiplication#🏷Categories#🔖$CR=A$]]
+- **📌super important 4 ways of matrix-matrix multiplication⭐⭐⭐**
+	- [[matrix multiplication#🧾 Cheat Sheet]]
 
 ### matrix with dependent columns
 - 📌only 1 column independent - [[rank one matrix]]
@@ -105,8 +107,11 @@ The key matrices in this chapter are:
 - 📌some question I ask myself in a Socratic way
   - [[Gaussian elimination#🗿Socratic Method]]
 
+- 📌when should I use augmented matrix and when not?
+	- see [[Gaussian elimination#^b3338a]].
 
-
+- 📌how permutation matrix works in Gaussian elimination?
+	- [[permutation matrix#⛈Characteristics#🌦the order of matrix product matters#]].
 
 # 💭Things I don't Know
 

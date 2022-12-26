@@ -1,5 +1,5 @@
 ---
-aliases: [ODE]
+aliases: [ordinary differential equation, ODE]
 ---
 # 📝Definition
 - A differential equation is an equation involving an unknown function and one or more of its derivatives. The order of such an equation is the order of the highest derivative that occurs in it.
@@ -90,6 +90,12 @@ aliases: [ODE]
         - If we now take $dx$ in [[#^22163ca76dee0a0d|first equation]] at its face value, as the differential of $x$, then the integral sign in [[#^22163ca76dee0a0d|first equation]] acts on the differential of a function $y$, namely, on $f(x)dx$, and produces the function itself. Thus, the symbol $\int$ for integration (without considering the $dx$ as part of the symbol) stands for the operation which is the inverse of the operation denoted by the symbol $d$.
         
 - We shall use both interpretations. However, **the second is particularly convenient**, not only for the actual procedures used in computing integrals, but also for solving certain simple differential equations.
+
+## 🌒ODE vs. [[partial differential equation|PDE]]
+| ODE                                                          | PDE                                                          |
+| ------------------------------------------------------------ | ------------------------------------------------------------ |
+| The dependent variable is a **single** independent variable. | The dependent variable is a function of two or more independent variables. |
+
 
 # 🗃Example
 - 📌unit of differential equation

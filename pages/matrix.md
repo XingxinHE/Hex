@@ -290,6 +290,8 @@ $$
 - 📌[[rank one matrix]]
 - 📌 [[orthogonal matrix]]
 - 📌 [[augmented matrix]]
+- 📌[[permutation matrix]]
+- 📌[[elimination matrix]]
         
 # 🧀Applicability
 - 📌Matrix Representation

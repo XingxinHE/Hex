@@ -1,11 +1,12 @@
 ---
-aliases: [matrix product]
+aliases: [matrix product, matrix-matrix multiplication]
 tags:
   - LinearAlgebra
   - mathematics
 ---
 # 📋Prerequisite
-If there are matrices $F$($n\times m_1$) and $G(m_2\times p)$, **the prerequisite for a valid matrix multiplication is** that $m_1=m_2$. 
+If there are matrices $F$($m\times n_1$) and $G(n_2\times p)$, **the prerequisite for a valid matrix multiplication is** that $m_1=m_2$. 
+Or you can memorize as $A(m\times n)B(n\times p)$.
 
 # 📝Definition
 **📄Definition - row way**
@@ -49,6 +50,338 @@ $$
 Columns of $AB$ are combinations of columns of $A$.
 > [!question]
 > #TODO Exaplain why every vector in $C(AB)$ -a.k.a. every combination of the columns of $AB$- is also in the [[column space]] of $A$.
+
+
+
+# 🧾 Cheat Sheet
+## 📜M-M 1
+**📝Description**:
+Every element becomes a [[Inner Product|dot product]] of [[row vector]] and [[column vector]].
+
+**📈Diagram**:
+![|200](../assets/matrix-matrix-product-1.svg)
+
+**✒Notation**
+$$
+\begin{bmatrix}
+1&2\\3&4\\5&6
+\end{bmatrix}
+\begin{bmatrix}
+w_1&x_1&y_1&z_1\\w_2&x_2&y_2&z_2
+\end{bmatrix}
+=
+\begin{bmatrix}
+(1w_1+2w_2) & (1x_1+2x_2) & (1y_1+2y_2) & (1z_1+2z_2)
+\\
+(3w_1+4w_2) & (3x_1+4x_2) & (3y_1+4y_2) & (3z_1+4z_2)
+\\
+(5w_1+6w_2) & (5x_1+6x_2) & (5y_1+6y_2) & (5z_1+6z_2)
+\end{bmatrix}
+$$
+
+**🗃Example**
+$$
+\begin{align}
+\begin{bmatrix}
+4&3\\1&0\\0&5
+\end{bmatrix}
+\begin{bmatrix}
+4&1&0&0\\1&3&2&5
+\end{bmatrix}
+&=
+\begin{bmatrix}
+(4\times4+3\times1) & (4\times1+3\times3) & (4\times0+3\times2) & (4\times0+3\times5)
+\\
+(1\times4+0\times1) & (1\times1+0\times3) & (1\times0+0\times2) & (1\times0+0\times5)
+\\
+(0\times4+5\times1) & (0\times1+5\times3) & (0\times0+5\times2) & (0\times0+5\times5)
+\end{bmatrix}\\
+&=
+\begin{bmatrix}
+19 & 13 & 6 & 15
+\\
+4 & 1 & 0 & 0
+\\
+5 & 15 & 10 & 25
+\end{bmatrix}
+\end{align}
+$$
+
+
+___
+## 📜M-M 2
+**📝Description**:
+$Ax$ and $Ay$  are [[linear combination]]s of columns of $A$.
+
+**📈Diagram**:
+![300](../assets/matrix-matrix-product-2.svg)
+
+
+**✒Notation**
+$$
+\begin{align}
+\begin{bmatrix}
+1&2\\3&4\\5&6
+\end{bmatrix}
+\begin{bmatrix}
+w_1&x_1&y_1&z_1\\w_2&x_2&y_2&z_2
+\end{bmatrix}
+&=
+A
+\begin{bmatrix}
+\mathbf{w}&\mathbf{x}&\mathbf{y}&\mathbf{z}
+\end{bmatrix}
+\\
+&=
+\begin{bmatrix}
+A\mathbf{w}&A\mathbf{x}&A\mathbf{y}&A\mathbf{z}
+\end{bmatrix}
+\\
+&=
+\begin{bmatrix}
+\begin{bmatrix}
+1&2\\3&4\\5&6
+\end{bmatrix}
+\begin{bmatrix}
+w_1\\w_2
+\end{bmatrix}
+&
+\begin{bmatrix}
+1&2\\3&4\\5&6
+\end{bmatrix}
+\begin{bmatrix}
+x_1\\x_2
+\end{bmatrix}
+&
+\begin{bmatrix}
+1&2\\3&4\\5&6
+\end{bmatrix}
+\begin{bmatrix}
+y_1\\y_2
+\end{bmatrix}
+&
+\begin{bmatrix}
+1&2\\3&4\\5&6
+\end{bmatrix}
+\begin{bmatrix}
+z_1\\z_2
+\end{bmatrix}
+\end{bmatrix}
+\end{align}
+$$
+
+**🗃Example**
+$$
+\begin{align}
+\begin{bmatrix}
+4&3\\1&0\\0&5
+\end{bmatrix}
+\begin{bmatrix}
+4&1&0&0\\1&3&2&5
+\end{bmatrix}
+&=
+\begin{bmatrix}
+\begin{bmatrix}4&3\\1&0\\0&5\end{bmatrix}\begin{bmatrix}4\\1\end{bmatrix}\quad&
+\begin{bmatrix}4&3\\1&0\\0&5\end{bmatrix}\begin{bmatrix}1\\3\end{bmatrix}\quad&
+\begin{bmatrix}4&3\\1&0\\0&5\end{bmatrix}\begin{bmatrix}0\\2\end{bmatrix}\quad&
+\begin{bmatrix}4&3\\1&0\\0&5\end{bmatrix}\begin{bmatrix}0\\5\end{bmatrix}
+\end{bmatrix}\\
+&=
+\begin{bmatrix}
+4\begin{bmatrix}4\\1\\0\end{bmatrix}+1\begin{bmatrix}3\\0\\5\end{bmatrix}\quad&
+1\begin{bmatrix}4\\1\\0\end{bmatrix}+3\begin{bmatrix}3\\0\\5\end{bmatrix}\quad&
+0\begin{bmatrix}4\\1\\0\end{bmatrix}+2\begin{bmatrix}3\\0\\5\end{bmatrix}\quad&
+0\begin{bmatrix}4\\1\\0\end{bmatrix}+5\begin{bmatrix}3\\0\\5\end{bmatrix}
+\end{bmatrix}\\
+&=
+\begin{bmatrix}
+\begin{bmatrix}16\\4\\0\end{bmatrix}+\begin{bmatrix}3\\0\\5\end{bmatrix}\quad&
+\begin{bmatrix}4\\1\\0\end{bmatrix}+\begin{bmatrix}9\\0\\15\end{bmatrix}\quad&
+\begin{bmatrix}0\\0\\0\end{bmatrix}+\begin{bmatrix}6\\0\\10\end{bmatrix}\quad&
+\begin{bmatrix}0\\0\\0\end{bmatrix}+\begin{bmatrix}15\\0\\25\end{bmatrix}
+\end{bmatrix}\\
+&=
+\begin{bmatrix}
+\begin{bmatrix}19\\4\\5\end{bmatrix}\quad&
+\begin{bmatrix}13\\1\\15\end{bmatrix}\quad&
+\begin{bmatrix}6\\0\\10\end{bmatrix}\quad&
+\begin{bmatrix}15\\0\\25\end{bmatrix}
+\end{bmatrix}\\
+&=
+\begin{bmatrix}
+19 & 13 & 6 & 15
+\\
+4 & 1 & 0 & 0
+\\
+5 & 15 & 10 & 25
+\end{bmatrix}
+\end{align}
+$$
+
+___
+## 📜M-M 3
+**📝Description**:
+The produced rows are [[linear combination]]s of rows.
+**📈Diagram**:
+![|200](../assets/matrix-matrix-product-3.svg)
+
+**✒Notation**
+$$
+\begin{align}
+\begin{bmatrix}
+1&2\\3&4\\5&6
+\end{bmatrix}
+\begin{bmatrix}
+w_1&x_1&y_1&z_1\\w_2&x_2&y_2&z_2
+\end{bmatrix}
+&=
+\begin{bmatrix}\mathbf{a}^*_1\\\mathbf{a}^*_2\\\mathbf{a}^*_3\end{bmatrix}
+B\\
+&=
+\begin{bmatrix}\mathbf{a}^*_1B\\\mathbf{a}^*_2B\\\mathbf{a}^*_3B\end{bmatrix}
+\\
+&=
+\begin{bmatrix}
+\begin{bmatrix}1&2\end{bmatrix}&B\\
+\begin{bmatrix}3&4\end{bmatrix}&B\\
+\begin{bmatrix}5&6\end{bmatrix}&B
+\end{bmatrix}
+\end{align}
+$$
+**🗃Example**
+$$
+\begin{align}
+\begin{bmatrix}
+4&3\\1&0\\0&5
+\end{bmatrix}
+\begin{bmatrix}
+4&1&0&0\\1&3&2&5
+\end{bmatrix}
+&=
+\begin{bmatrix}
+\begin{bmatrix}4&3\end{bmatrix}\begin{bmatrix}4&1&0&0\\1&3&2&5\end{bmatrix}\\\\
+\begin{bmatrix}1&0\end{bmatrix}\begin{bmatrix}4&1&0&0\\1&3&2&5\end{bmatrix}\\\\
+\begin{bmatrix}0&5\end{bmatrix}\begin{bmatrix}4&1&0&0\\1&3&2&5\end{bmatrix}
+\end{bmatrix}\\\\
+&=
+\begin{bmatrix}
+4\times\begin{bmatrix}4&1&0&0\end{bmatrix}+3\times\begin{bmatrix}1&3&2&5\end{bmatrix}
+\\
+1\times\begin{bmatrix}4&1&0&0\end{bmatrix}+0\times\begin{bmatrix}1&3&2&5\end{bmatrix}\\
+0\times\begin{bmatrix}4&1&0&0\end{bmatrix}+5\times\begin{bmatrix}1&3&2&5\end{bmatrix}
+\end{bmatrix}\\\\
+&=
+\begin{bmatrix}
+&\begin{bmatrix}16&4&0&0\end{bmatrix}&+&\begin{bmatrix}3&9&6&15\end{bmatrix}\\
+&\begin{bmatrix}4&1&0&0\end{bmatrix}&+&\begin{bmatrix}0&0&0&0\end{bmatrix}\\
+&\begin{bmatrix}0&0&0&0\end{bmatrix}&+&\begin{bmatrix}5&15&10&25\end{bmatrix}
+\end{bmatrix}\\
+&=
+\begin{bmatrix}
+19 & 13 & 6 & 15
+\\
+4 & 1 & 0 & 0
+\\
+5 & 15 & 10 & 25
+\end{bmatrix}
+\end{align}
+$$
+> [!info] Remark
+> The [[row vector]] here acts like a selectors. For example the $\begin{bmatrix}4&3\end{bmatrix}$ literally says pick me 4row1 from the right hand side and 3row2 from the right hand side.
+
+
+___
+## 📜M-M 4
+**📝Description**:
+Multiplication $AB$ is broken down to a sum of [[rank one matrix]].
+
+**📈Diagram**:
+![|250](../assets/matrix-matrix-product-4.svg)
+
+**✒Notation**
+$$
+\begin{align}
+\begin{bmatrix}
+1&2\\3&4\\5&6
+\end{bmatrix}
+\begin{bmatrix}
+w_1&x_1&y_1&z_1\\w_2&x_2&y_2&z_2
+\end{bmatrix}
+&=
+\begin{bmatrix}1\\3\\5\end{bmatrix}
+\begin{array}{@{}c@{}}
+\begin{bmatrix}w_1&x_1&y_1&z_1\end{bmatrix}\\\mathstrut\\\mathstrut
+\end{array}
++
+\begin{bmatrix}2\\4\\6\end{bmatrix}
+\begin{array}{@{}c@{}}
+\begin{bmatrix}w_2&x_2&y_2&z_2\end{bmatrix}\\\mathstrut\\\mathstrut
+\end{array}\\
+&=
+\begin{bmatrix}
+1w_1 & 1x_1 & 1y_1 & 1z_1\\
+3w_1 & 3x_1 & 3y_1 & 3z_1\\
+5w_1 & 5x_1 & 5y_1 & 5z_1
+\end{bmatrix}
++
+\begin{bmatrix}
+2w_1 & 2x_1 & 2y_1 & 2z_1\\
+4w_1 & 4x_1 & 4y_1 & 4z_1\\
+6w_1 & 6x_1 & 6y_1 & 6z_1
+\end{bmatrix}
+\end{align}
+$$
+**🗃Example**
+$$
+\begin{align}
+\begin{bmatrix}
+4&3\\1&0\\0&5
+\end{bmatrix}
+\begin{bmatrix}
+4&1&0&0\\1&3&2&5
+\end{bmatrix}
+&=
+\begin{bmatrix}4\\1\\0\end{bmatrix}
+\begin{array}{@{}c@{}}
+\begin{bmatrix}4&1&0&0\end{bmatrix}\\\mathstrut\\\mathstrut
+\end{array}
++
+\begin{bmatrix}3\\0\\5\end{bmatrix}
+\begin{array}{@{}c@{}}
+\begin{bmatrix}1&3&2&5\end{bmatrix}\\\mathstrut\\\mathstrut
+\end{array}\\
+&=
+\begin{bmatrix}
+4\times 4 & 4\times 1 & 4\times 0 & 4\times 0\\
+1\times 4 & 1\times 1 & 1\times 0 & 1\times 0\\
+0\times 4 & 0\times 1 & 0\times 0 & 0\times 0
+\end{bmatrix}
++
+\begin{bmatrix}
+3\times 1 & 3\times 3 & 3\times 2 & 3\times 5\\
+0\times 1 & 0\times 3 & 0\times 2 & 0\times 5\\
+5\times 1 & 5\times 3 & 5\times 2 & 5\times 5
+\end{bmatrix}\\
+&=
+\begin{bmatrix}
+16 & 4 & 0 & 0\\
+4 & 1 & 0 & 0\\
+0 & 0 & 0 & 0
+\end{bmatrix}
++
+\begin{bmatrix}
+3 & 9 & 6 & 15\\
+0 & 0 & 0 & 0\\
+5 & 15 & 10 & 25
+\end{bmatrix}\\
+&=
+\begin{bmatrix}
+19 & 13 & 6 & 15\\
+4 & 1 & 0 & 0\\
+5 & 15 & 10 & 25
+\end{bmatrix}
+\end{align}
+$$
 
 # 🏷Categories
 ## 🔖$CR=A$
