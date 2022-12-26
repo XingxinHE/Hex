@@ -53,6 +53,12 @@ Gaussian elimination / elimination is to change $A$ to $U$!
 
 # 🧠Intuition
 .
+# 🧪Composition
+## 🧫Elimination
+It is the [[elimination matrix]] in the perspective of matrix.
+
+## ⚗Permutation
+It is the row exchange which is the [[permutation matrix]] in the perspective of matrix.
 
 
 # 🗃Example
@@ -74,12 +80,13 @@ Gaussian elimination / elimination is to change $A$ to $U$!
 		- 7️⃣ Solve it.
 			- $x=-1/5, y=4, z=-4/5$
 
+___
 
 - 📩 classic example of Gaussian elimination 1 ^2da661
 	- 💬Question: Solve the equations with 3 unknown:
 		- $\begin{align}\begin{cases}x&+2y&+z&=2\\3x&+8y&+z&=12\\&4y&+z&=2\end{cases}\end{align}$
 	- 🏹Strategy: In this example, we don't introduce the augmented matrix in the first place. Instead, we focus on the main part($A$ to $U$).
-	- ✏Solution:
+	- ✏Solution(by hands):
 		- 1️⃣ Change to matrix format.
 			- $\begin{align}Ax&=b\\\begin{bmatrix}1&2&1\\3&8&1\\0&4&1\end{bmatrix}\begin{bmatrix}x\\y\\z\end{bmatrix}&=\begin{bmatrix}2\\12\\2\end{bmatrix}\end{align}$
 		- 2️⃣ Eliminate all the values below the pivot on 1st row. The ingredients are row2 and row1.
@@ -92,6 +99,29 @@ Gaussian elimination / elimination is to change $A$ to $U$!
 			- $\begin{align}\begin{cases}x&+2y&+z&=2\\&2y&-2z&=6\\&&5z&=-10\end{cases}\end{align}$
 		- 6️⃣ Solve it.
 			- $x=2, y=1, z=-2$
+	- ✏Solution(by matrix):
+		- Before reading the following, you should be familiar with
+			- [[matrix multiplication#🧾 Cheat Sheet#📜M-M 3]]
+			- [[matrix multiplication#🧾 Cheat Sheet#📜M-M 2]]. 
+			- [[permutation matrix]]
+			- [[elimination matrix]]
+		- The preceding solution can be written in [[matrix]] format.
+		- **Step 1** $\begin{align}\begin{bmatrix}\underline{1}&2&1\\3&8&1\\0&4&1\end{bmatrix}\xrightarrow{\text{row}_2 - 3\text{row}_1}\begin{bmatrix}\underline{1}&2&1\\0&2&-2\\0&4&1\end{bmatrix}\end{align}$
+			- What matrix can do this?
+				- $\Bigg[\quad ?\quad \Bigg]\begin{bmatrix}1&2&1\\3&8&1\\0&4&1\end{bmatrix}=\begin{bmatrix}1&2&1\\0&2&-2\\0&4&1\end{bmatrix}$
+			- Since elimination matrix is on the left side, we see it as **row selectors**.
+				- $\textcolor{red}{\begin{bmatrix}1&0&0\\-3&1&0\\0&0&1\end{bmatrix}}\begin{bmatrix}1&2&1\\3&8&1\\0&4&1\end{bmatrix}=\begin{bmatrix}1&2&1\\0&2&-2\\0&4&1\end{bmatrix}$
+			- In the meantime, we denote $\begin{bmatrix}1&0&0\\-3&1&0\\0&0&1\end{bmatrix}$ as $E_{21}$ since it eliminates all the component below the 2nd row and 1st column.
+		- **Step 2** $\begin{align}\begin{bmatrix}\underline{1}&2&1\\0&\underline{2}&-2\\0&4&1\end{bmatrix}\xrightarrow{\text{row}_3-2\text{row}_2}\begin{bmatrix}\underline{1}&2&1\\0&\underline{2}&-2\\0&0&\underline{5}\end{bmatrix}\end{align}$
+			- What matrix can do this?
+				- $\Bigg[\quad ?\quad \Bigg]\begin{bmatrix}1&2&1\\0&2&-2\\0&4&1\end{bmatrix}=\begin{bmatrix}1&2&1\\0&2&-2\\0&0&5\end{bmatrix}$
+			- Since elimination matrix is on the left side, we see it as **row selectors**.
+				- $\textcolor{red}{\begin{bmatrix}1&0&0\\0&1&0\\0&-2&1\end{bmatrix}}\begin{bmatrix}1&2&1\\0&2&-2\\0&4&1\end{bmatrix}=\begin{bmatrix}1&2&1\\0&2&-2\\0&0&5\end{bmatrix}$
+			- We can denoted $\begin{bmatrix}1&0&0\\0&1&0\\0&-2&1\end{bmatrix}$ as $E_{32}$ since it eliminates all the component below the 3rd row and 2nd column.
+		- Summary:
+			- Finally, the whole process can be written as followed:
+				- $E_{32}(E_{12}A)=U$
+				- where $U$ stands for the right hand side from step two. $\begin{bmatrix}1&2&1\\0&2&-2\\0&0&5\end{bmatrix}$ [[upper triangular matrix]]
 
 
 

@@ -111,7 +111,13 @@ The key matrices in this chapter are:
 	- see [[Gaussian elimination#^b3338a]].
 
 - 📌how permutation matrix works in Gaussian elimination?
-	- [[permutation matrix#⛈Characteristics#🌦the order of matrix product matters#]].
+	- Understand this.
+		- [[permutation matrix#⛈Characteristics#🌦the order of matrix product matters]].
+	- And go back to what is the composition of Gaussian elimination.
+		- [[Gaussian elimination#🧪Composition]]
+	- Then you can full understand the example here.
+		-  [[Gaussian elimination#^064827]]
+		- [[Gaussian elimination#^2da661]]
 
 # 💭Things I don't Know
 
