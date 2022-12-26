@@ -6,7 +6,7 @@ tags:
 
 
 # 📝Definition
-A vector field is a [[Function|map]]
+A vector field is a [[function|map]]
 $$
 \mathbf{f}:\mathbb{R}^n\mapsto \mathbb{R}^n
 $$

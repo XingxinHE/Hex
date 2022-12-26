@@ -1,5 +1,5 @@
 # 🗺Big Picture
-The exact mathematical model of a surface is usually intractable. Therefore, the word "surface" is smooth and it is only smooth in the world of #mathematics but not the real world! Because in the real world, everything is discrete! This is the philosophy and this is when [[Discrete Differential Geometry|DDG]] steps in.
+The exact mathematical model of a surface is usually intractable. Therefore, the word "surface" is smooth and it is only smooth in the world of #mathematics but not the real world! Because in the real world, everything is discrete! This is the philosophy and this is when [[discrete differential geometry|DDG]] steps in.
 
 # 📝Definition
 - In general,

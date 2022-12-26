@@ -1,13 +1,11 @@
 ---
-aliases: [real function]
+aliases: []
 tags:
-  - function
-  - mathematics
+  - unknown
 ---
 
 
 # 📝Definition
-A function whose [[function#^edfd03044fa2551e|range]] is in the [[real number]]s.
 
 # 🧠Intuition
 Find an intuitive way of understanding this concept.

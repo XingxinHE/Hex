@@ -3,7 +3,7 @@ aliases: [DDG]
 ---
 
 # 🧠Intuition
-DDG translate [[Differential Geometry]] into language suitable for **computation**.
+DDG translate [[differential geometry]] into language suitable for **computation**.
 
 # 🧀Applicability
 There are few application of Discrete Differential Geometry:
