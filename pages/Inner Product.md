@@ -104,13 +104,13 @@ Although inner product itself is operation, by combining different inner product
     
 - 📌sum
     - $$
-      n\text{-dimension ones vector }\bold{1}\\
-      \bold{1}^Ta = a_1+\cdots+a_n
+      n\text{-dimension ones vector }\mathbf{1}\\
+      \mathbf{1}^Ta = a_1+\cdots+a_n
       $$
     
 - 📌average / mean
     - $$
-      (\bold{1}/n)^Ta = (a_1+\cdots+a_n)/n
+      (\mathbf{1}/n)^Ta = (a_1+\cdots+a_n)/n
       $$
     
 - 📌sum of squares

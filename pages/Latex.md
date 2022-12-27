@@ -1,3 +1,6 @@
+$\overrightarrow{AB}$
+
+
 $$
 \textcolor{blue}{\text{blue}}
 $$

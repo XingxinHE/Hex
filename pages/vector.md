@@ -1,46 +1,68 @@
 # 📝Definition
-The name is the essence of this topic.
-- In mathematics,
-    - Vector is a sequence of finite numbers / values. Normally it looks something like this:
-        - in algebraic
-          $$
-          V = \langle V_1,V_2,...,V_N\rangle
-          $$
-        - in numbers
-          $$
-          \begin{bmatrix}1\\2\\3\end{bmatrix}
-          \text{or}
-          \begin{pmatrix}1\\2\\3\end{pmatrix}
-          $$
-        
-- In C++,
-    - The [[STL]] wraps the concept from mathematics into `std::vector`.
-    
+## 📄in mathematics
+Vector is a sequence of finite numbers / values. Normally it looks something like this:
+in algebraic
+$$
+V = \langle V_1,V_2,...,V_N\rangle
+$$
+in numbers
+$$
+\begin{bmatrix}1\\2\\3\end{bmatrix}
+\text{or}
+\begin{pmatrix}1\\2\\3\end{pmatrix}
+$$
+___
+## 📑in physics and geometry
+The vector represented by the directed line segment $\overrightarrow{AB}$ has initial point $A$ and terminal point $B$ and its length is denoted by $|\overrightarrow{AB}|$ . Two vectors are equal if they have the same length and direction.
+
+___
+## 📃in C++
+The [[STL]] wraps the concept from mathematics into `std::vector`.
+
+
 # ✒Notation
-- 📌column picture of vector
-    - vector $V$ (**column picture**) represented by a matrix with 1 column and $n$ rows:
-    - $$
-      V = \begin{bmatrix}V_1\\V_2\\\vdots\\V_n\end{bmatrix}
-      $$
+## 🖋column picture
+📝Description
+vector $V$ (**column picture**) represented by a matrix with 1 column and $n$ rows:
+$$
+V = \begin{bmatrix}V_1\\V_2\\\vdots\\V_n\end{bmatrix}
+$$
+## ✏row picture
+**📝Description**
+vector $V$ (**row picture**) ,the transpose of their corresponding column vectors:
+$$
+V^T = [V_1\quad V_2\quad \cdots\quad  V_n ]
+$$
+
+## 🖊colon notation and index range
+**📝Description**
+$a_{r:s}$ means slicing index $r$ to index $s$ elements in vector $a$. The size is $s-r+1$.
+
+## 🖍indexing
+**📝Description**
+when you see $a_i$ , there might be 2 different meaning.
+- the $i$-th vector in the collection of vectors.
+- the $i$-th element in the vector.
+
+Therefore, for clarity. We use
+- $(a_i)j$ as the $j$-th element of the $i$-th vector.
+- $a_i$ as the $i$-th vector.
+
+
+## 🖌component form
+**📝Description**
+If $\mathbf{v}$ is a $3$-dimensional vector equal to the vector with initial point at the origin and terminal point $(v_1, v_2, v_3)$, then the **component form** of $\mathbf{v}$ is
+$$
+\mathbf{v}=\left<v_1,v_2,v_3\right>
+$$
+
     
-- 📌row picture of vector
-    - vector $V$ (**row picture**) ,the transpose of their corresponding column vectors:
-    - $$
-      V^T = [V_1\quad V_2\quad \cdots\quad  V_n ]
-      $$
-    
-- 📌colon notation and index range
-    - $a_{r:s}$ means slicing index $r$ to index $s$ elements in vector $a$. The size is $s-r+1$
-    
-- 📌indexing
-    - when you see $a_i$ , there might be 2 different meaning.
-        - the $i$-th vector in the collection of vectors.
-        - the $i$-th element in the vector.
-        
-    - Therefore, for clarity. We use
-        - $a_i$ as the $i$-th vector.
-        - $(a_i)j$ as the $j$-th element of the $i$-th vector.
-        
+
+
+# 📈Diagram
+![|400](../assets/velocity_vector.svg)
+The velocity vector of a particle moving along a path (a) in the plane (b) in space. The arrowhead on the path indicates the direction of motion of the particle.
+
 # 🧪Composition
 What kind of stuffs composite this subject?
 - 📌In mathematics, the individual element of a vector can be called into 4 names.
@@ -49,58 +71,89 @@ What kind of stuffs composite this subject?
     - coefficients
     - components
     
-# ⛈Characteristics / Properties
-The following are few properties of vector.
-- 📌Length of a vector
-    - They are the same, naming how long is the vector.
-        - size
-        - dimension
-        - length
+
+
+# 🌈Properties
+## 🔴Length of a vector
+**📝Description**
+They are the same, naming how long is the vector.
+- size
+- dimension
+- length
+
+
+## 🟠Sparsity
+Refer to [[Sparsity]].
+**📝Definition**
+If there are many zero elements in one vector, then we can say this vector is sparse vector.
+The number of nonzero elements in a vector $a$ can be denoted:
+$$
+nnz(a)
+$$
+## 🟡Complexity of Vector Operation
+
+> [!info] Remark
+> For the following statement, the [[Complexity]] refers to the number of [[Floating Point#^ca24a0a87b9f40a1|flops]] required by a specific method.
+
+
+
+## 🟢Angle
+see [[Inner Product#^d19bad21ef5d7eb7|here]].
+
+## 🔵Inequality
+See [[Triangle Inequality]] and [[Schwarz Inequality]].
+
+## 🟣Euclidean Norm
+**📝Definition**
+The **magnitude/norm** of an $n$-dimensional vector $V$ is a **scalar**.
+$$
+\lVert V\rVert = \sqrt{\sum^{n}_{i=1}{V_i^2}}
+$$
+> [!info] Remark
+> See [[Euclidean Norm]].
+
+
+
+**📝Description for normal vectors**
+- $n$ times
+	- scalar-vector multiplication and division of $n$-vector , e.g. $aV$
+	- vector addition and subtraction  $n$-vector, e.g. $P+V$
+- $2n$ times
+	- inner product of  $n$-vectors, e.g. $P^TV = P_1V_1+\cdots+P_nV_n$. Multiplication takes $n$ times, addition takes $n-1$ times. But for simplicity, we denote as $2n$ times.
+___
+**📝Description for [[Sparsity|sparse]] vectors**
+- Suppose $x,y$ are sparse vectors and $a$ is scalar.
+- Then we have
+	- $ax$ takes $nnz(x)$ times.
+	- $x+y$ takes
+		- less than $\min\{\mathbf{nnz}(x),\mathbf{nnz}(y)\}$ times
+		- 0 times if $x$ and $y$ have zero overlapped.
+	- $x^Ty$ takes
+		- less than $2\min\{\mathbf{nnz}(x),\mathbf{nnz}(y)\}$
+		- 0 times if they are not overlapped.
+
+# ⛈Characteristics
+  
+## ☁Orthonormality
+Refer to [[Orthonormality]].
+
+## 🌧Perpendicular
+
+## 🌨Linear dependent and Linear independent
+Refers to [[linear dependent]] and [[linear independent]].
+🌩
+⛅
+🌤
+🌪
+🌥
+🌦
+
+
+
         
-- 📌 [[Sparsity]]
-    - If there are many zero elements in one vector, then we can say this vector is sparse vector.
-    - The number of nonzero elements in a vector $a$ can be denoted:
-      $$
-      nnz(a)
-      $$
-    
-- 📌 [[linear dependent]] and [[linear independent]]
-- 📌 Angle, see [[Inner Product#^d19bad21ef5d7eb7|here]].
-- 📌 Inequality
-    - [[Triangle Inequality]]
-    - [[Schwarz Inequality]]
-    
-- 📌 [[Euclidean Norm]]
-  **magnitude/norm** of an $n$-dimensional vector $V$ is a **scalar**.
-    - $$
-      \lVert V\rVert = \sqrt{\sum^{n}_{i=1}{V_i^2}}
-      $$
-    
-- 📌 [[Orthonormality]]
-- 📌 Perpendicular
-- 📌[[Complexity]] of Vector Operation
-    - Side Note
-        - For the following statement, the complexity refers to the number of [[Floating Point#^ca24a0a87b9f40a1|flops]] required by a specific method.
+
         
-    - For normal vectors
-        - $n$ times
-            - scalar-vector multiplication and division of $n$-vector , e.g. $aV$
-            - vector addition and subtraction  $n$-vector, e.g. $P+V$
-            
-        - $2n$ times
-            - inner product of  $n$-vectors, e.g. $P^TV = P_1V_1+\cdots+P_nV_n$. Multiplication takes $n$ times, addition takes $n-1$ times. But for simplicity, we denote as $2n$ times.
-            
-    - For [[sparse]] vectors
-        - Suppose $x,y$ are sparse vectors and $a$ is scalar.
-        - Then we have
-            - $ax$ takes $nnz(x)$ times.
-            - $x+y$ takes
-                - less than $\min\{\bold{nnz}(x),\bold{nnz}(y)\}$ times
-                - 0 times if $x$ and $y$ have zero overlapped.
-                
-            - $x^Ty$ takes
-                - less than $2\min\{\bold{nnz}(x),\bold{nnz}(y)\}$
-                - 0 times if they are not overlapped.
+
                 
 # 🏷(Sub)Categories
 In terms vector, there are many byproduct.
@@ -116,7 +169,7 @@ In terms vector, there are many byproduct.
         
     - Code Representation
         - Python version refer to [[#^fcf68b70b88493aa|here]]
-        
+    
 - 📌subvector or slice
     - We call $a, b, c$ as the *subvector / slice*  of [[matrix]] $A$.
     
@@ -137,7 +190,7 @@ In terms vector, there are many byproduct.
         - $$
           \hat{v}\equiv\frac{v}{\lvert v\rvert}
           $$
-        
+    
 - 📌Sparse Vector
     - A vector contains too many zero elements in one vector.
     
@@ -163,7 +216,7 @@ There are many application of vector and the following are a few.
             
         - example of scaling the displacement by [[#^6ee427efa18a6807|scalar-vector operation]]
             - ![name](../assets/vector_scale_displacement.png){:height 300, :width 300}
-            
+    
 - 📌Colors
     - The colors can be represented as vectors.
     - ![name](../assets/vector_color.png){:height 300, :width 300}
@@ -212,7 +265,7 @@ The operations that vector supports are the following
             - $$
               (a+b)+c = a+(b+c)
               $$
-            
+    
 - 📌 [[scalar]]-vector multiplication ^6ee427efa18a6807
     - Prerequisite
         - $\alpha$-scalar
@@ -223,7 +276,7 @@ The operations that vector supports are the following
             - $$
               aV = Va =\langle aV_1, aV_2,..., aV_n\rangle
               $$
-            
+        
     - Properties
         - commutative
             - $$
@@ -234,7 +287,7 @@ The operations that vector supports are the following
             - $$
               (\beta+\gamma)\alpha = \beta\alpha+\gamma\alpha
               $$
-            
+        
     - Example
         - $$
           (-2)\begin{bmatrix}0\\7\\3\end{bmatrix}=\begin{bmatrix}0\\-14\\-6\end{bmatrix}
@@ -242,7 +295,7 @@ The operations that vector supports are the following
         
     - Applicability
         - 📌[[linear combination]]
-        
+    
 - 📌 [[Matrix-Vector Products]]
 - 📌Vector times Vector
     - 📌 [[Inner Product]]
@@ -253,10 +306,10 @@ The operations that vector supports are the following
     - Definition
         - For $n$-vector $a,b$, it can be written as
             - $$
-              \bold{dist}(a,b)=\lVert a-b \rVert
+              \mathbf{dist}(a,b)=\lVert a-b \rVert
               $$
             - a.k.a. We usually use [[Euclidean Norm]] to measure the distance.
-            
+        
     - 🧀Applicability
         - Feature distance and nearest neighbors
             - The Euclidean distance is widely used!!
@@ -266,7 +319,7 @@ The operations that vector supports are the following
             - if $z_1,...,z_m$ is a list of vectors, $z_j$ is the nearest neighbor of $x$ if
                 - $\lVert x-z_i\rVert \leq \lVert-z_i\rVert, i=1,...,m$
                 - ![name](../assets/feature_distance.png){:height 200, :width 200}
-                
+            
         - Document dissimilarity
             - This application is based on measuring feature distance!
             - Suppose we have 5 Wikipedia articles
@@ -281,8 +334,8 @@ The operations that vector supports are the following
               | Academy Awards      | 0.130        | 0.122        | 0              | 0.108               | 0.164      |
               | Golden Globe Awards | 0.153        | 0.147        | 0.108          | 0                   | 0.181      |
               | Super Bowl          | 0.170        | 0.164        | 0.164          | 0.181               | 0          |
-          -
-          
+            -
+    
 - 📌 Vector Normalization ^6b2cad614774359d
     - The vector divides its [[Euclidean Norm]].
     - $$
@@ -343,7 +396,7 @@ The operations that vector supports are the following
           letterCounts[toupper(ch) - 'A']++;
           ```
         - It is a very smart move which takes advantage of the [[ASCII Character Codes|ASCII code]] and converts to integer. For example, `'A'` is the `0` element and therefore `'A' - 'A'` are `65 -65` which is `0`.
-        
+    
 - In Python,
     - 📌example of stack vector in numpy python ^fcf68b70b88493aa
         - ```python
@@ -365,4 +418,3 @@ The operations that vector supports are the following
 - 📌[[scalar]] vs. vector
     - There are *real scalar*$\mathbb{R}$ and *complex scalar*$\mathbb{C}$. In most case, we refer *real scalar* as *scalar*.
     - Therefore, we also have *real vector* and *complex vector*. In most case, we refer *real vector* as vector.
-    
