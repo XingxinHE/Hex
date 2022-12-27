@@ -4,7 +4,7 @@ tags:
   - unknown
 ---
 # 📝Definition
-The notation of an interval. A function's [[function#^bdaa359665a4eb20|domain]], [[function#^edfd03044fa2551e|range]], and [[function#^c436ffd3332b45e9|codomain]] also use this notation.
+The notation of an interval. A function's [[domain]], [[range]], and [[codomain]] also use this notation.
 # 🗃Example
 $$
 \{x:2\leq x<5\}

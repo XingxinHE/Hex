@@ -63,7 +63,7 @@ The comparison is the following.
 		- Solution on question 1
 			- From the equation of expected value, we have
 				- $$E=\int _{-\infty }^{\infty }t\cdot p(t)\, dt$$
-			- Since the [[function#^bdaa359665a4eb20|domain]] of $p(t)$ is split into $[-\infty, 0], [0, \infty]$, therefore
+			- Since the [[domain]] of $p(t)$ is split into $[-\infty, 0], [0, \infty]$, therefore
 				- $$E=\int _{-\infty }^{\infty }t\cdot p(t)\, dt=\int _{-\infty }^{0}t\cdot p(t)+\int _{0}^{\infty }t\cdot p(t)=0+\int _{0}^{\infty }t\cdot p(t)$$
 			- Let $u=at$, then $du=adt$
 				- $$\begin{align}E=\int _{-\infty }^{\infty }t\cdot p(t)\, dt&=\int _{0}^{\infty } t\left( a e^{-a t}\right) \, dt\\&=\int _{0}^{\infty } \frac{u}{a} \left( a e^{-u}\right)\, \frac{du}{a}\\&=\left. \frac{1}{a}\left(-(1+u)e^{-u}\right) \, \right|_{0}^{\infty }\\&=\frac{1}{a}\end{align}$$

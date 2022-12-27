@@ -99,9 +99,9 @@ See the distinction from diagram.
 ![name|500](../assets/midpoint_vs_trapezoidal.jpg)
 
 See the distinction from formula.
-- Trapezoidal rule takes the half in [[function#^edfd03044fa2551e|range]].
+- Trapezoidal rule takes the half in [[range]].
 	- $$\tilde{y}_1 = \frac{f(x_0)+f(x_1)}{2}$$
-- Midpoint rule takes the half in [[function#^bdaa359665a4eb20|domain]]. 
+- Midpoint rule takes the half in [[domain]]. 
 	- $$\tilde{y}_1 = f\left(\frac{x_0+x_1}{2}\right)$$
 
 

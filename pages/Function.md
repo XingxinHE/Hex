@@ -158,18 +158,10 @@ What are the sub objects of this subject?
 
 # ⛈Characteristics / Properties
 - 📌 [[Upper and Lower Bound]]
-- 📌Codomain ^c436ffd3332b45e9
-    - The subset of codomain is [[#^edfd03044fa2551e|range]].
-    - The codomain is a set of **possible** outputs.
-- 📌Domain ^bdaa359665a4eb20
+- 📌[[codomain]]
+- 📌[[domain]]
     - The set of possible inputs to the function is called its domain.
-- 📌Range ^edfd03044fa2551e
-    - The outputs of a function come from a set called its range.
-    - A function that does use all the elements of the range is said to be **onto** the range. ^be8a9dcb429c6969
-    - The range is the set of **actual** outputs.
-    - 🧠Intuition
-        - The range is the union of both shadows from left and right.
-        - ![name](../assets/function_range_shadow.png){:height 500, :width 500}
+- 📌[[range]]
 - 📌Argument
     - When the domain of a function $f$ is $A_1\times\cdots\times A_k$ for some sets $A_1, . . . ,A_k$, the input to $f$ is a $k$- [[Tuple]] $(a_1, a_2, . . . , a_k)$ and we call the $a_i$ the arguments to $f$.
 - 📌Arity ^3d30a3ab3ced08e4

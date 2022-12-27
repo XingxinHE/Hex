@@ -7,7 +7,7 @@ A finite automaton is a 5-[[Tuple|tuple]] ($Q,\Sigma,\delta,q_0,F$), where
 - $F\subseteq Q$ is the [[set|set]] of accept states(or final states)
 
 > [!tip] Tips
-> - Notation. For the "$\times$" and "$\rightarrow$" in $\delta:Q\times\Sigma\rightarrow Q$, it means [[function#^bdaa359665a4eb20|domain]] and [[function#^edfd03044fa2551e|range]].
+> - Notation. For the "$\times$" and "$\rightarrow$" in $\delta:Q\times\Sigma\rightarrow Q$, it means [[domain]] and [[range]].
 > - Facts. There is only 1 starter state while there could be multiple accept states.
 
 

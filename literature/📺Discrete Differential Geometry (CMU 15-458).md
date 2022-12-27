@@ -75,65 +75,45 @@ I feel ...
 (*infml*.): 
 **Discrete** setting can be conceived of as ***polyline/mesh*** in Rhino.
 **Smooth** setting can be conceived of as ***NURBS-curve/surface*** in Rhino.
+> [!info] Remark
+> Smooth in here refers to #DifferentialGeometry .
 
-
+___
 📌**How to convert smooth setting to discrete setting?**
 ‼ ***No free lunch*** rule: from smooth setting to discrete setting, there is always something missing!!
 We therefore need to determine which properties should be captured.
 
+___
 
 📌**Case 1 - curves in plane: Smooth->Discrete = (ok😄)**
-In the ***smooth*** setting, a *parameterized curve* is a ***[[function|mapping]]*** taking each point in an *[[interval]]* $[0,L]$ of the real line to some point in the plane $\mathbb{R}^2$. For example, the interval is $[0,2\pi]$, the *parameterized curve* $\gamma$ is a circle.
+In the ***smooth*** setting, a *parameterized curve* is a ***[[function|mapping]]*** taking each point in an *[[interval]]* $[0,L]$ of the real line to some point in the plane $\mathbb{R}^2$.
 
-<img src="img/image-20210206224057731.png" alt="image-20210206224057731" style="zoom:50%;" />
+For example, the interval is $[0,2\pi]$, the *parameterized curve* $\gamma$ is a circle.
 
+![|300](../assets/smooth_curve_R2.png)
+> [!info] Remark
+> There are at least **3** definition of [[curve#📝Definition]] in mathematics.
+> In this course, when we encounter the "[[smooth curve]]" and we should be aware it is in subject from #AnalyticGeometry and #DifferentialGeometry .
 
 
 In the ***discrete*** setting, a *parameterized curve* is ***piecewise linear***, i.e., it is a sequence of vertices connected by straight line segments. For example, this is a curve broken down into 2 curves. For architects, the discrete setting is merely polyline.
 
-<img src="img/image-20210206232540729.png" alt="image-20210206232540729" style="zoom:50%;" />
-
-
-
-📌 **Case 2 - Tangent of a curve: Smooth->Discrete = (not easy:no_mouth: )**
+![|400](../assets/smooth_curve_to_discrete_curve_R2.png)
 
 ___
 
-(infml) Curvature = "how much a curve bends" If the curve is a function, then curvature is second derivative. (indicate how the curve will bend along the tangent direction)
-
-<img src="img/image-20210207190335862.png" alt="image-20210207190335862" style="zoom:67%;" />
+📌 **Case 2 - Tangent of a curve: Smooth->Discrete = (not easy😶)**
+Understand what is curvature intuitively from [[curvature#🧠Intuition]] and [[curvature#📈Diagram]].
 
 ❌Convert curvature from smoot setting directly to discrete is hard/impossible.
 
-<img src="img/image-20210207190928719.png" alt="image-20210207190928719" style="zoom:50%;" />
-
-<img src="img/image-20210207191022358.png" alt="image-20210207191022358" style="zoom:50%;" />
+![|300](../assets/painpoint_curvature_smooth_to_discrete.png)
 
 
-**🔭subjects covering**:
-- 
-
-- 📌
-  - 
-
-- 📌
-  - 
-
-- 📌
-  - 
-
-- 📌
-  - 
-
-- 📌
-  - 
-
-- 📌
-  - 
 
 
 - 🧾The terminology I learned in this section
-	- [[analytic geometry]], [[algebraic geometry]], [[topology]], [[Cartesian coordinates]], [[coordinate system]]
+	- [[analytic geometry]], [[algebraic geometry]], [[topology]], [[Cartesian coordinates]], [[coordinate system]], [[curve]], [[algebraic curve]]. 
 
 
 

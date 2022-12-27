@@ -6,8 +6,11 @@ tags:
 
 
 # 📝Definition
-- The subset of codomain is [[range]].
-- The codomain is a set of **possible** outputs.
+The set of possible inputs to the [[function]] is called its domain.
+
+# 📈Diagram
+![|300](../assets/DomainRange_1000.svg)
+
 # 🧠Intuition
 Find an intuitive way of understanding this concept.
 

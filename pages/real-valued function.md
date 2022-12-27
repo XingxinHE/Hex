@@ -7,7 +7,7 @@ tags:
 
 
 # 📝Definition
-A function whose [[function#^edfd03044fa2551e|range]] is in the [[real number]]s.
+A function whose [[range]] is in the [[real number]]s.
 
 # 🧠Intuition
 Find an intuitive way of understanding this concept.
