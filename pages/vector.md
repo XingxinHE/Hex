@@ -98,7 +98,7 @@ $$
 
 
 ## 🟢Angle
-see [[Inner Product#^d19bad21ef5d7eb7|here]].
+see [[angle between vectors]].
 
 ## 🔵Inequality
 See [[Triangle Inequality]] and [[Schwarz Inequality]].

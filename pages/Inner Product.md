@@ -91,116 +91,53 @@ aliases: [dot product, scalar product]
           \end{align}
           $$
         
-# 💫Support Operation
+# 💫Operation
 Although inner product itself is operation, by combining different inner product can create 🌟**interesting and special** operations.
-- 📌 $i$-th element
-    - Suppose we denote
-        - $e_i$ , $i$-th unit vector
-        - $a$, $n$-vector
-        
-    - We can have $e_{i}^{T}a=a_i$ , this can **filter out** the $i$-th element of vector $a$.🌟
-    - Why? Because except $i$-th column of $e_{i}^{T}$ is $1$, others are all $0$.
-    - TODO a diagram here could be better
-    
-- 📌sum
-    - $$
-      n\text{-dimension ones vector }\mathbf{1}\\
-      \mathbf{1}^Ta = a_1+\cdots+a_n
-      $$
-    
-- 📌average / mean
-    - $$
-      (\mathbf{1}/n)^Ta = (a_1+\cdots+a_n)/n
-      $$
-    
-- 📌sum of squares
-    - $$
-      a^Ta = a_1^2+\cdots+a_n^2
-      $$
-    
-- 📌Projection and Perpendicular
-    - $$
-      \begin{align}
-      \text{proj}_QP &= \frac{P\cdot Q}{\lVert Q\rVert^2}Q\\\\
-      \text{perp}_QP &= P-\text{proj}_QP\\
-      &=P-\frac{P\cdot Q}{\lVert Q\rVert^2}Q
-      \end{align}
-      $$
-    - ![name](../assets/vector_proj_perp.png){:height 300, :width 300}
-    
-- 📌Angle ^d19bad21ef5d7eb7
-    - 📝Definition
-        - angle between two nonzero vectors $a, b$ defined as
-            - $$
-              \begin{align}
-              \angle(a,b)=\arccos\bigg(\frac{a^Tb}{\lVert a\rVert\lVert b\rVert}\bigg)
-              \end{align}
-              $$
-            
-        - $\angle(a,b)$ is the number in $[0,\pi]$ that satisfies
-            - $$
-              a^Tb=\lVert a\rVert\lVert b\rVert\cos(\angle(a,b))
-              $$
-            
-    - 🏷(Sub)Categories
-        - Let $\theta$ denote the angle between vector $a,b$
-            - $$
-              \theta=\angle(a,b)
-              $$
-            
-        - $\theta=\pi/2=90\degree$
-        - $\theta=0$: $a$ and $b$ are aligned $(a^Tb=\lVert a\rVert\lVert b)$
-        - $\theta=\pi=180\degree$: $a$ and $b$ are anti-aligned $(a^Tb=-\lVert a\rVert\lVert b)$
-        - $\theta\leq\pi/2=90\degree$: $a$ and $b$ make an acute angle $(a^Tb\geq0)$
-        - $\theta\geq\pi/2=90\degree$: $a$ and $b$ make an obtuse angle $(a^Tb\leq0)$
-        - From left to right are the angles stated above.
-          ![name](../assets/vectors_angle.png){:height 300, :width 500}
-        
-    - 📝Definition
-        - Given two $n$-dimensional vectors $P$ and $Q$, the dot product $P\cdot Q$ satisfies the equation. $a$ is the angle between $P$ and $Q$.
-            - $$
-              P\cdot Q = \lVert P\rVert\cdot\lVert Q\rVert\cos{a}
-              $$
-            
-        - Fact
-            - This leads to 2 facts.
-          **Fact**:  in light of theorem: if two vector $P\cdot Q=0$, they are **orthogonal**.
-          **Fact**: $P\cdot Q>0$, they are **on the same side**.  $P\cdot Q<0$, they are **on the opposite side**.
-          
-    - 🗣Descriptive Explanation
-        - 📌Explain why (1)the equation measure angle and (2)$v\cdot w=0$ means they are perpendicular.
-            - (1)Explain the equation
-                - (1.1) talk about angle between [[vector#^2961cac03e778f19|unit vector]]
-                    - See it in the picture of [[unit circle]]. Then the vector $v,w$ can be written as the followed
-                        - ![name](../assets/dot_product_unitcircle.png){:height 200, :width 200}
-                        
-                    - Therefore the dot product between $v,w$ are
-                        - $$
-                          \begin{align}
-                          v\cdot w=\begin{bmatrix}\cos\beta\\\sin\beta\end{bmatrix}\cdot\begin{bmatrix}\cos\alpha\\\sin\alpha\end{bmatrix}=\cos\alpha\cos\beta+\sin\alpha\sin\beta=\cos(\beta-\alpha)
-                          \end{align}
-                          $$
-                        
-                    - Since $\cos$ is an [[function#^49e41254c30b3ba8|even function]]. The following is the same. It means that the order doesn't matter and we **only care about the difference between 2 angles**(a.k.a. $\theta$).
-                        - $$
-                          \cos(\beta-\alpha)=\cos(\alpha-\beta)=\cos\theta
-                          $$
-                        
-                - (1.2) Extend the generality of the definition from unit vector
-                    - Because every vector can be converted to unit vector by [[vector#^6b2cad614774359d|vector nomalization]]. Therefore we can
-                        - 1️⃣ normalize it. $v$ becomes $\hat{v}=\frac{v}{\lVert v\rvert}$, $w$ becomes $\hat{w}=\frac{w}{\lVert w\rvert}$
-                        - 2️⃣ dot product. $\hat{v}\cdot\hat{w}$
-                        
-                    - To conclude, the cosine of angle for any 2 vectors(except zero vector) can be written as
-                    - $$
-                      \cos\theta=\frac{v\cdot w}{\lVert v\rVert\lVert w\rVert}
-                      $$
-                    - Using the [[Trigonometric Function#inverse cosine|inverse of cosine]], we have
-                        - $$
-                          \theta=\arccos{\bigg(\frac{v\cdot w}{\lVert v\rVert\lVert w\rVert}\bigg)}
-                          $$
-                        
-            - (2) Because $\theta=\pi/2=\arccos{0}$
+## 🌠get $i$-th element
+Suppose we denote
+- $e_i$ , $i$-th unit vector
+- $a$, $n$-vector
+We can have $e_{i}^{T}a=a_i$ , this can **filter out** the $i$-th element of vector $a$.🌟
+
+> [!question] Why this work?
+> Because except $i$-th column of $e_{i}^{T}$ is $1$, others are all $0$.
+
+#TODO a diagram maybe?
+
+## 🔮sum
+Suppose
+- $\mathbf{1}$ is a $n$-dimension ones vector.
+Then
+$$
+\text{sum}=\mathbf{1}^Ta = a_1+\cdots+a_n
+$$
+
+
+## ☄average / mean
+Suppose
+- $\mathbf{1}$ is a $n$-dimension ones vector.
+Then
+$$
+\text{average}=(\mathbf{1}/n)^Ta = (a_1+\cdots+a_n)/n
+$$
+## 🌌sum of squares
+$$
+a^Ta = a_1^2+\cdots+a_n^2
+$$
+## 🥏Projection and Perpendicular
+$$
+\begin{align}
+\text{proj}_QP &= \frac{P\cdot Q}{\lVert Q\rVert^2}Q\\\\
+\text{perp}_QP &= P-\text{proj}_QP\\
+&=P-\frac{P\cdot Q}{\lVert Q\rVert^2}Q
+\end{align}
+$$
+![|300](../assets/vector_proj_perp.png)
+
+
+## 🌀Angle
+[[angle between vectors]]
+
             
 # 🌓Complement
 - [[Outer Product]]
