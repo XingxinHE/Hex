@@ -110,7 +110,7 @@ $$
 \lVert V\rVert = \sqrt{\sum^{n}_{i=1}{V_i^2}}
 $$
 > [!info] Remark
-> See [[Euclidean Norm]].
+> See [[L2-norm|Euclidean Norm]].
 
 
 
@@ -138,6 +138,7 @@ ___
 Refer to [[Orthonormality]].
 
 ## 🌧Perpendicular
+Refers to [[orthogonal vectors]].
 
 ## 🌨Linear dependent and Linear independent
 Refers to [[linear dependent]] and [[linear independent]].
@@ -193,15 +194,8 @@ In terms vector, there are many byproduct.
     
 - 📌Sparse Vector
     - A vector contains too many zero elements in one vector.
+- 📌[[orthogonal vectors]]
     
-# 🎯Intent
- A short description what does this thing do?
-
-# 🧠Intuition
-Find an intuitive way of explanation of this concept.
-
-# 🚀Benefit
- A scenario that illustrates the benefit this object provides.
 
 # 🧀Applicability
 There are many application of vector and the following are a few.
@@ -211,10 +205,10 @@ There are many application of vector and the following are a few.
 - 📌Displacement and Location
     - A vector can either represents a *location* or a *displacement*.
     - ![name](../assets/vector_displacement_location.png){:height 300, :width 300}
-        - example of displacement in light of the [[#^e8227125a7cfc2a|vector addition]]
+        - example of displacement in light of the [[vector#💫Operation#🌠Vector Addition and Subtraction]]
             - ![name](../assets/vector_displacement.png){:height 300, :width 300}
             
-        - example of scaling the displacement by [[#^6ee427efa18a6807|scalar-vector operation]]
+        - example of scaling the displacement by [[vector#💫Operation#🔮 scalar multiplication]]
             - ![name](../assets/vector_scale_displacement.png){:height 300, :width 300}
     
 - 📌Colors
@@ -240,62 +234,52 @@ There are many application of vector and the following are a few.
     
 # 💫Operation
 The operations that vector supports are the following
-- 📌Vector Addition and Subtraction ^e8227125a7cfc2a
-    - Prerequisite
-        - The vectors have to be same shape.
-        - $$
-          \begin{bmatrix}0\\7\\3\end{bmatrix}+
-          \begin{bmatrix}1\\2\\0\end{bmatrix}=
-          \begin{bmatrix}1\\9\\3\end{bmatrix}
-          $$
-        
-    - Characteristics
-        - Vector addition and subtraction are element-wise operation.
-        - $$
-          P+Q=\langle P_1+Q_1,P_2+Q_2,..., P_n+Q_n\rangle
-          $$
-        
-    - Properties
-        - Commutative
-            - $$
-              a+b = b+a
-              $$
-            
-        - Associative
-            - $$
-              (a+b)+c = a+(b+c)
-              $$
+## 🌠Vector Addition and Subtraction
+**📋Prerequisite**
+The vectors have to be same shape.
+**⛈Characteristics**
+Vector addition and subtraction are element-wise operation.
+**🗃Example**
+$$
+\begin{bmatrix}0\\7\\3\end{bmatrix}+
+\begin{bmatrix}1\\2\\0\end{bmatrix}=
+\begin{bmatrix}1\\9\\3\end{bmatrix}
+$$
+**🌈Properties**
+- Commutative
+	- $a+b = b+a$
+- Associative
+	- $(a+b)+c = a+(b+c)$
+
+
+## 🔮[[scalar]] multiplication
+**📋Prerequisite**
+- $\alpha$-scalar
+- $\beta,\gamma$ -vector
+**🧠Intuition**
+scalar-vector operation is element-wise.
+$aV = Va =\langle aV_1, aV_2,..., aV_n\rangle$
+**🌈Properties**
+- commutative
+	- $(\beta\gamma)\alpha = \beta(\gamma\alpha)$
+- associative
+	- $(\beta+\gamma)\alpha = \beta\alpha+\gamma\alpha$
+**🗃Example**
+$$
+(-2)\begin{bmatrix}0\\7\\3\end{bmatrix}=\begin{bmatrix}0\\-14\\-6\end{bmatrix}
+$$
+**🧀Applicability**
+[[Linear Combination]]
+
+## ☄Vector Projection
+Refers to [[vector projection]]
+
+🌌
+🥏
+🌀
+
     
-- 📌 [[scalar]]-vector multiplication ^6ee427efa18a6807
-    - Prerequisite
-        - $\alpha$-scalar
-        - $\beta,\gamma$ -vector
-        
-    - Intuition
-        - scalar-vector operation is element-wise.
-            - $$
-              aV = Va =\langle aV_1, aV_2,..., aV_n\rangle
-              $$
-        
-    - Properties
-        - commutative
-            - $$
-              (\beta\gamma)\alpha = \beta(\gamma\alpha)
-              $$
-            
-        - associative
-            - $$
-              (\beta+\gamma)\alpha = \beta\alpha+\gamma\alpha
-              $$
-        
-    - Example
-        - $$
-          (-2)\begin{bmatrix}0\\7\\3\end{bmatrix}=\begin{bmatrix}0\\-14\\-6\end{bmatrix}
-          $$
-        
-    - Applicability
-        - 📌[[linear combination]]
-    
+
 - 📌 [[Matrix-Vector Products]]
 - 📌Vector times Vector
     - 📌 [[Inner Product]]
@@ -308,7 +292,7 @@ The operations that vector supports are the following
             - $$
               \mathbf{dist}(a,b)=\lVert a-b \rVert
               $$
-            - a.k.a. We usually use [[Euclidean Norm]] to measure the distance.
+            - a.k.a. We usually use [[L2-norm|Euclidean Norm]] to measure the distance.
         
     - 🧀Applicability
         - Feature distance and nearest neighbors
@@ -337,7 +321,7 @@ The operations that vector supports are the following
             -
     
 - 📌 Vector Normalization ^6b2cad614774359d
-    - The vector divides its [[Euclidean Norm]].
+    - The vector divides its [[L2-norm|Euclidean Norm]].
     - $$
       V\cdot\frac{1}{\lVert V\rVert}
       $$

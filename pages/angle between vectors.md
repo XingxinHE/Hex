@@ -34,7 +34,7 @@ $$
 **Fact**:  in light of theorem: if two vector $P\cdot Q=0$, they are **orthogonal**.
 **Fact**: $P\cdot Q>0$, they are **on the same side**.  $P\cdot Q<0$, they are **on the opposite side**.
 
-# 📈Diagram
+# 🧾 Cheat Sheet
 Let $\theta$ denote the angle between vector $a,b$
 ![|300](../assets/vectors_angle.png)
 From left to right are the angles stated above.
@@ -79,6 +79,7 @@ Example is the most straightforward way to understand a mathematical concept.
 				  $$
 	- (2) Because $\theta=\pi/2=\arccos{0}$
 - **📜Key Takeaway**: Think about it in unit circle!
+
 
 
 # 🌱Related Elements
