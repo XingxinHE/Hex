@@ -1,7 +1,8 @@
 ---
 aliases: []
 tags:
-  - unknown
+  - LinearAlgebra
+  - mathematics
 ---
 
 
@@ -10,9 +11,11 @@ The vector projection of $\mathbf{u} = \overrightarrow{PQ}$ onto a nonzero vecto
 $$
 \begin{align}
 \text{proj}_\mathbf{v}\mathbf{u}\quad\text{("the vector projection of $\mathbf{u}$ onto $\mathbf{v}$".)}
-&=\left(|\mathbf{u}|\cos{\theta}\right)\frac{\mathbf{v}}{|\mathbf{v}|}\\
-&=\left(\frac{\mathbf{u}\cdot\mathbf{v}}{|\mathbf{v}|}\right)\frac{\mathbf{v}}{|\mathbf{v}|}\\
-&=\left(\frac{\mathbf{u}\cdot\mathbf{v}}{|\mathbf{v}|^2}\right)\mathbf{v}
+&=\left(\lVert\mathbf{u}\rVert\cos{\theta}\right)\frac{\mathbf{v}}{\lVert\mathbf{v}\rVert}\\
+&=\left(\lVert\mathbf{u}\rVert \frac{\mathbf{u}\cdot\mathbf{v}}{\lVert\mathbf{u}\rVert\lVert\mathbf{v}\rVert}  \right)\frac{\mathbf{v}}{\lVert\mathbf{v}\rVert}\quad\text{(equation from the dot product)}\\
+&=\left(\cancel{\lVert\mathbf{u}\rVert} \frac{\mathbf{u}\cdot\mathbf{v}}{\cancel{\lVert\mathbf{u}\rVert}\lVert\mathbf{v}\rVert}  \right)\frac{\mathbf{v}}{\lVert\mathbf{v}\rVert}\\
+&=\left(\frac{\mathbf{u}\cdot\mathbf{v}}{\lVert\mathbf{v}\rVert}\right)\frac{\mathbf{v}}{\lVert\mathbf{v}\rVert}\\
+&=\left(\frac{\mathbf{u}\cdot\mathbf{v}}{\lVert\mathbf{v}\rVert^2}\right)\mathbf{v}
 \end{align}
 $$
 
@@ -25,8 +28,8 @@ $$
 The number $|\mathbf{u}|\cos{\theta}$ is called **the scalar component of $\mathbf{u}$ in the direction of $\mathbf{v}$** (or of $\mathbf{u}$ onto $\mathbf{v}$). a.k.a. the length of $\text{proj}_\mathbf{v}\mathbf{u}$.
 ![|400](../assets/length_vector_projection.svg)
 The length of $\text{proj}_\mathbf{v}\mathbf{u}$ is
-- (1) $|\mathbf{u}|\cos{\theta}$ if $\cos\theta\geq0$
-- (2) $-|\mathbf{u}|\cos{\theta}$ if $\cos\theta<0$
+- (1) $\lVert\mathbf{u}\rVert\cos{\theta}$ if $\cos\theta\geq0$
+- (2) $-\lVert\mathbf{u}\rVert\cos{\theta}$ if $\cos\theta<0$
 
 # 🧠Intuition
 Find an intuitive way of understanding this concept.

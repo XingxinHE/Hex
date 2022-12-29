@@ -101,11 +101,13 @@ $$
   \end{bmatrix}
   ```
   
-  $\begin{bmatrix}
-  1&0&0\\
-  0&1&0\\
-  0&0&1\\
-  \end{bmatrix}$
+$$
+\begin{bmatrix}
+1&0&0\\
+0&1&0\\
+0&0&1\\
+\end{bmatrix}
+$$
   
   **📌Determinant Template**
   
@@ -117,11 +119,13 @@ $$
   \end{vmatrix}
   ```
   
-  $\begin{vmatrix}
-  1 & 4 & 1 \\ 
-  0 & -2 & 1 \\ 
-  0 & 2 & 1
-  \end{vmatrix}$
+$$
+\begin{vmatrix}
+1 & 4 & 1 \\ 
+0 & -2 & 1 \\ 
+0 & 2 & 1
+\end{vmatrix}
+$$
 
 ### Documentation
 - 📌 **Reference equation by tag**

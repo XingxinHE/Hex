@@ -40,7 +40,7 @@ $$
     
 - 📌Superposition ^971516df866e8f6c
     - Definition: ^18b1da8bd04c3dd4
-        - Suppose $f$ is an [[Inner Product#Inner Product Function|inner product function]], $f$ can therefore be written as $a^T$. We have:
+        - Suppose $f$ is an [[inner product#Inner Product Function|inner product function]], $f$ can therefore be written as $a^T$. We have:
           $$
           \begin{align}
           f(\alpha x+\beta y)&=a^T(\alpha x+ \beta y)\\
@@ -108,4 +108,4 @@ The laws related to this math concepts.
   | ------------------------------------------------------------ | -------- | --------------------- |
   | A function defined as the inner product of its argument with some fixed vector. | 🔄        | A function is linear. |
 - We therefore say $a^Tx$ the inner product representation of $f$.
-- See [[Inner Product#Inner Product Function|here]] what a inner product function is.
+- See [[inner product#Inner Product Function|here]] what a inner product function is.

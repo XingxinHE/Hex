@@ -3,12 +3,11 @@ aliases: []
 tags:
   - LinearAlgebra
   - mathematics
-  - matrix
 ---
 
 
 # 📝Definition
-Vectors $\mathbf{u}$ and $\mathbf{v}$ are orthogonal if their [[Inner Product|dot product]] $\mathbf{u}\cdot\mathbf{v}=0$.
+Vectors $\mathbf{u}$ and $\mathbf{v}$ are orthogonal if their [[inner product|dot product]] $\mathbf{u}\cdot\mathbf{v}=0$.
 
 # 🧠Intuition
 Find an intuitive way of understanding this concept.

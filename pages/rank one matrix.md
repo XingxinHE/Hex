@@ -21,7 +21,7 @@ A&=CR
 \end{align}
 $$
 > [!note]
-> If we read from right to left, that is exactly [[Outer Product]].
+> If we read from right to left, that is exactly [[outer product]].
 > 
 
 # ⛈Characteristics

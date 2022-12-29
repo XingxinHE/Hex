@@ -142,7 +142,8 @@ Refers to [[orthogonal vectors]].
 
 ## 🌨Linear dependent and Linear independent
 Refers to [[linear dependent]] and [[linear independent]].
-🌩
+## 🌩Parallel
+Refers to [[parallel vectors]]
 ⛅
 🌤
 🌪
@@ -195,6 +196,7 @@ In terms vector, there are many byproduct.
 - 📌Sparse Vector
     - A vector contains too many zero elements in one vector.
 - 📌[[orthogonal vectors]]
+- 📌[[parallel vectors]]
     
 
 # 🧀Applicability
@@ -282,9 +284,9 @@ Refers to [[vector projection]]
 
 - 📌 [[Matrix-Vector Products]]
 - 📌Vector times Vector
-    - 📌 [[Inner Product]]
-    - 📌 [[Outer Product]]
-- 📌 [[Cross Product]]
+    - 📌 [[inner product]]
+    - 📌 [[outer product]]
+- 📌 [[cross product]]
 - 📌 [[L2-norm#^2bde7aa44b505972|RMS]] (root mean square)
 - 📌 (Euclidean) distance between $n$-vectors
     - Definition

@@ -56,7 +56,7 @@ Columns of $AB$ are combinations of columns of $A$.
 # 🧾 Cheat Sheet
 ## 📜M-M 1
 **📝Description**:
-Every element becomes a [[Inner Product|dot product]] of [[row vector]] and [[column vector]].
+Every element becomes a [[inner product|dot product]] of [[row vector]] and [[column vector]].
 
 **📈Diagram**:
 ![|200](../assets/matrix-matrix-product-1.svg)
@@ -388,7 +388,7 @@ $$
 This is a ==special== case of matrix multiplication.
 - $C$ is a $m\times 1$ matrix([[column vector]])
 - $R$ is a $1\times n$ matrix([[row vector]])
-The *result* of $CR$ is a [[rank one matrix]] and its *operation* is also called [[Outer Product]]. It has a special meaning in:
+The *result* of $CR$ is a [[rank one matrix]] and its *operation* is also called [[outer product]]. It has a special meaning in:
 - [[column space]]
 - [[linear dependent]]
 - [[linear independent]]

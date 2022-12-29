@@ -31,7 +31,7 @@ I feel ...
 - [[linear combination]], [[vector]], [[matrix]]
 ## 1.2 Lengths and Angles from Dot Product
 - key takeaway: understand the dot product and how it measure the angles
-- [[Inner Product|dot product]], [[angle between vectors]], [[Triangle Inequality]], [[Schwarz Inequality]]
+- [[inner product|dot product]], [[angle between vectors]], [[Triangle Inequality]], [[Schwarz Inequality]]
 ## 1.3 Matrices and Column Spaces
 - key takeaway:
 - [[matrix rank]], [[column space]]

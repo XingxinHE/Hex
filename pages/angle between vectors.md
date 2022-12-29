@@ -19,7 +19,7 @@ $$
 
 ___
 **📑Definition 2**
-Given two $n$-dimensional vectors $P$ and $Q$, the [[Inner Product|dot product]] $P\cdot Q$ satisfies the equation. $a$ is the angle between $P$ and $Q$.
+Given two $n$-dimensional vectors $P$ and $Q$, the [[inner product|dot product]] $P\cdot Q$ satisfies the equation. $a$ is the angle between $P$ and $Q$.
 $$
 P\cdot Q = \lVert P\rVert\cdot\lVert Q\rVert\cos{a}
 $$

@@ -5,7 +5,7 @@
         - they are normalized if $\lVert a_i\rVert=1$ for $i=1,...,k$
         
 - ✒Notation
-    - They can be expressed using [[Inner Product]] as
+    - They can be expressed using [[inner product]] as
         - $$
           a^{T}_{i}a_j=
           \begin{cases}
