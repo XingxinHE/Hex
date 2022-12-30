@@ -170,7 +170,9 @@ When we turn a bolt by applying a force $\mathbf{F}$ to a wrench, we produce a t
 
 
 
-🥐
+## 🥐Distance from Point to Line
+See [[point-line distance]].
+
 🥖
 🥨
 🥯

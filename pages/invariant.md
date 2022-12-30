@@ -1,3 +1,10 @@
+---
+aliases: [不变量]
+tags:
+  - computer-science
+  - mathematics
+---
+
 # 📝Definition
 The name is the essence of this topic.
 - In mathematics,

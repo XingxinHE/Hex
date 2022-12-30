@@ -50,18 +50,21 @@ A quick review on the following.
 **🔭subjects covering**:
 - [[line]]
 - [[line segment]]
+- [[plane]]
 
-- 📌
-  - 
+- 📌Distance from Point to Line?
+  - see [[point-line distance]]
+- 📌understand why
+	- [[point-line distance#🗿Socratic Method]]
 
-- 📌
-  - 
+- 📌Distance from Point to Plane?
+  - see [[point-plane distance]]
 
-- 📌
-  - 
+- 📌A super useful form solve the distance problem
+  - [[Hessian normal form]]
 
-- 📌
-  - 
+- 📌The intersection between 2 planes is a line
+  - [[plane-plane intersection]]
 
 - 📌
   - 

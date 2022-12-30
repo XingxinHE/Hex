@@ -21,6 +21,9 @@ What is the complement of this subject? e.g. vector-covector, constructor-destru
 🗃Example
 Example is the most straightforward way to understand a concept. Therefore, it has to be **compact**!
 
+💫Operation
+e.g. plane和plane之间的intersection就在operation而不在properties和characteristic
+
 🌈Properties
 ⛈Characteristics
 These 2 are super close and I used to use them interchangebly. I would like to put it this way. 
