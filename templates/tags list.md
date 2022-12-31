@@ -25,6 +25,7 @@
 #ProgrammingLanguage
 #Python
 #SoftwareDevelopment
+#SolidGeometry
 #Stanford
 #topology
 #VectorCalculus

@@ -1,12 +1,17 @@
 ---
 aliases: []
 tags:
-  - unknown
+  - mathematics
+  - geometry
 ---
 
 
 # 📝Definition
-
+The elliptic cone is given by
+$$
+{x^2 \over a^2} + {y^2 \over b^2} = {z^2 \over c^2} .
+$$
+![|400](../assets/elliptic_cone.svg)
 # 🧠Intuition
 Find an intuitive way of understanding this concept.
 

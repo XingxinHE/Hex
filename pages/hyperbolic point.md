@@ -1,5 +1,5 @@
 ---
-aliases: []
+aliases: [saddle point]
 tags:
   - unknown
 ---

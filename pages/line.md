@@ -63,7 +63,8 @@ $$
 ## 🌌Distance from Point to Line
 see [[point-line distance]].
 
-🥏
+## 🥏Intersection between Line and Plane
+see [[line-plane intersection]]
 🌀
 
 

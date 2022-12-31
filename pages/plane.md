@@ -79,10 +79,16 @@ The plane through $P_0(x_0, y_0, z_0)$ normal to $\mathbf{n} = A\mathbf{i} + B\m
 # 💫Operation
 ## 🌠angle between planes
 See [[dihedral angle]]
-## 🔮Lines of Intersection
+
+## 🔮intersections between plane
 See [[plane-plane intersection]]
-☄
-🌌
+
+## ☄intersection between line and plane
+see [[line-plane intersection]]
+
+## 🌌distance from point to plane
+[[point-plane distance]]
+
 🥏
 🌀
 

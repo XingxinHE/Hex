@@ -56,8 +56,20 @@ Find an intuitive way of understanding this concept.
 📂
 
 # 🧀Applicability
+
+## 🍞physics
+🥖
+🥨
+🥯
+🥞
+🧇
+
 In #physics , if we pull on the box with force $\mathbf{u}$, the effective force moving the box forward in the direction v is the projection of $\mathbf{u}$ onto $\mathbf{v}$.
 ![|200](../assets/vector_projection_physics.svg)
+
+## 🥐point-plane distance
+See [[point-plane distance]].
+
 
 # 🌱Related Elements
 The closest pattern to current one, what are their differences?

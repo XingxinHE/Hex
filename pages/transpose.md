@@ -20,7 +20,7 @@ The transpose of a matrix is an operator which **flips** a matrix over its diago
 https://en.wikipedia.org/wiki/Transpose
 Let $A$ and $B$ be matrices and $c$ be a scalar.
 
-## 🔴${\displaystyle \left(\mathbf {A} ^{\operatorname {T} }\right)^{\operatorname {T} }=\mathbf {A} .}$
+## 🔴${\displaystyle \left(\mathbf {A} ^{\operatorname{T} }\right)^{\operatorname {T} }=\mathbf {A} .}$
 The operation of taking the transpose is an involution (self-inverse).
 
 ## 🟠${\displaystyle \left(\mathbf {A} +\mathbf {B} \right)^{\operatorname {T} }=\mathbf {A} ^{\operatorname {T} }+\mathbf {B} ^{\operatorname {T} }.}$

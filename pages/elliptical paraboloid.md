@@ -1,12 +1,18 @@
 ---
-aliases: []
+aliases: [elliptic paraboloid]
 tags:
-  - unknown
+  - mathematics
+  - geometry
 ---
 
 
 # 📝Definition
+Elliptical paraboloid is
+$$
+{x^2 \over a^2} + {y^2 \over b^2} = {z \over c} \,
+$$
 
+![|500](../assets/elliptical_paraboloid.svg)
 # 🧠Intuition
 Find an intuitive way of understanding this concept.
 

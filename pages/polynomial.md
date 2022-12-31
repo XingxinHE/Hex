@@ -30,12 +30,30 @@ $$
     
 -
 
-# ⛈Characteristics / Properties
-## ☁Degree
+
+# 🌈Properties
+
+## 🔴Degree
 **📝Definition**
 The **highest** number $n$ such that $x^n$ has a **nonzero coefficient** is called the degree of polynomial.
 
-## ☁Leading coefficient
+**🏷Categories**
+The following names are assigned to polynomials according to their degree
+Special case – zero (see Degree of the zero polynomial below)
+- Degree 0 – non-zero constant
+- Degree 1 – linear
+- Degree 2 – quadratic
+- Degree 3 – cubic
+- Degree 4 – quartic (or, if all terms have even degree, biquadratic)
+- Degree 5 – quintic
+- Degree 6 – sextic (or, less commonly, hexic)
+- Degree 7 – septic (or, less commonly, heptic)
+- Degree 8 – octic
+- Degree 9 – nonic
+- Degree 10 – decic
+
+
+## 🟠Leading coefficient
 **📝Definition**
 The coefficient of the highest-degree terms.
 
@@ -44,3 +62,8 @@ $5$ is the leading coefficient of the following equation.
 $$
 f(x)=5x^4-4x^3+10
 $$
+
+🟡
+🟢
+🔵
+🟣

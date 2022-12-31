@@ -66,16 +66,31 @@ A quick review on the following.
 - 📌The intersection between 2 planes is a line
   - [[plane-plane intersection]]
 
-- 📌
-  - 
+- 📌the intersection between line and plane
+  - [[line-plane intersection]]
 
-- 📌
-  - 
+- 📌angle between 2 planes
+  - [[dihedral angle]]
 
-
-- 🧾The terminology I learned in this section
 
 ## 12.6 Cylinders and Quadric Surfaces
+**🔭subjects covering**:
+- [[cylinder]]
+- [[quadric surface]]
+	- [[ellipsoid]]
+	- [[hyperbolic paraboloid]]
+	- [[elliptical paraboloid]]
+	- [[elliptic cone]]
+	- [[hyperboloid of one sheet]]
+	- [[hyperboloid of two sheets]]
+
+- 📌difference between [[cylinder]] and [[cylindrical surface|generalized cylinder]]
+  - see [[cylinder#📝Definition]]
+
+- 📌about quadric surface?
+  - [[quadric surface#📝Definition]]
+  - [[quadric surface#✒Notation]]
+
 
 
 # 💭Things I don't Know

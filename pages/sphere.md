@@ -1,12 +1,15 @@
 ---
 aliases: []
 tags:
-  - unknown
+  - mathematics
+  - geometry
 ---
 
 
 # 📝Definition
 
+> [!info] Remark
+> Spheres are special cases of [[ellipsoid]]s.
 
 # ✒Notation
 A sphere with center at $P_0(x_0,y_0,z_0)$ and with radius $a$ can be expressed as:
@@ -18,7 +21,6 @@ $$
 > [!info] Remark
 > Distance between a point $P(x,y,z)$ lies on the sphere and $P_0$ is exactly $|P_0 P|=a$.
 
-# 📈Diagram
 ![|200](../assets/sphere.svg)
 
 # 🧠Intuition

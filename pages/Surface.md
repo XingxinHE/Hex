@@ -32,6 +32,8 @@ The exact mathematical model of a surface is usually intractable. Therefore, the
 	- *right*: a surface that minimizes the variation of mean curvature
 
 # 🏷(Sub)Categories
+[[sphere]], [[plane]], [[cylindrical surface]]
+
 ## Surface categorized via [[curvature]]
 - [[developable surface]]
 
