@@ -27,7 +27,7 @@ aliases: [FTC2]
           $$
         - The initial condition $y(a)=0$ is satisfied because $\, \, \displaystyle G(a)=\int _{a}^{a} f(t)\, dt = 0$
         
-    - Hence, FTC2 gives us a formula for an [[Antiderivative]] of $f(x)$. This formula is different from the formulas you have seen. It is in terms of a [[definite integral]], and is called an integral formula.
+    - Hence, FTC2 gives us a formula for an [[antiderivative]] of $f(x)$. This formula is different from the formulas you have seen. It is in terms of a [[definite integral]], and is called an integral formula.
   **==Note:==** The integrand $f(x)$ can be any [[Continuous]] function, not just the ones whose antiderivative we know how to find. These integral formulas are still useful there are numerical methods that allow us to compute them.
   
 # 🧠Intuition

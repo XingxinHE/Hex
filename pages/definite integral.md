@@ -402,7 +402,7 @@ Also see [[application of definite integral]]
 # 🧾 Cheat Sheet
 
 > [!tip] Tips
-> Take advantage from [[Antiderivative#🖨 Cheat Sheet]].
+> Take advantage from [[antiderivative#🖨 Cheat Sheet]].
 
 **📌 Properties**
 $$

@@ -91,7 +91,47 @@ A quick review on the following.
   - [[quadric surface#📝Definition]]
   - [[quadric surface#✒Notation]]
 
+# 📖Chapter 13 Vector-Valued Functions and Motion in Space
+## 13.1 Curves in Space and Their Tangents
+**🔭subjects covering**:
+- [[vector-valued function]]
+- [[helix]]
 
+- 📌the limit of vector value function
+  - [[vector-valued function#🌈Properties#🔴limit]]
+
+- 📌the continuity of vector value function
+  - [[vector-valued function#🌈Properties#🟠continuous]]
+
+- 📌the derivative of vector value function
+  - [[vector-valued function#🌈Properties#🟡differentiable]]
+
+
+- 📌a typical example to understand
+  - [[velocity vector]]
+
+- 📌Vector Functions of Constant Length
+  - this literally is the
+  - see [[sphere#🌱Related Elements#🍇sphere as vector-valued function]]
+
+
+
+
+
+## 13.2 Integrals of Vector Functions; Projectile Motion
+**🔭subjects covering**:
+- [[vector-valued function#🌈Properties#🟢antiderivative]]
+- [[vector-valued function#🌈Properties#🔵definite integral]]
+
+
+- 🧾The terminology I learned in this section
+
+#TODO p761-p764 not read. a.k.a. projectile motion
+
+## 13.3 Arc Length in Space
+## 13.4 Curvature and Normal Vectors of a Curve
+## 13.5 Tangential and Normal Components of Acceleration
+## 13.6 Velocity and Acceleration in Polar Coordinates
 
 # 💭Things I don't Know
 

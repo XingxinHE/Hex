@@ -57,7 +57,7 @@ The comparison is the following.
 		- Question 2
 			- The **[[mode]]** is the value of $t$ at which the maximum of the probability density function is achieved. What is the mode of the distribution $p(t)$?
 	- 🏹Strategy:
-		- tips on the [[Antiderivative]] of $te^{-t}$ is
+		- tips on the [[antiderivative]] of $te^{-t}$ is
 			- $$\int te^{-t}\,  dt = -(1+t)e^{-t} +C.$$
 	- ✏Solution:
 		- Solution on question 1

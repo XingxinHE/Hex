@@ -4,7 +4,7 @@ aliases: [FTC1]
 
 # 🎯Intent
 - It helps on the integration part of [[Calculus]].
-- The FTC1 connects the [[definite integral]] to the [[Antiderivative]]. With this connection, we can now compute definite integrals using antiderivatives, and dispense with [[Riemann sums]].
+- The FTC1 connects the [[definite integral]] to the [[antiderivative]]. With this connection, we can now compute definite integrals using antiderivatives, and dispense with [[Riemann sums]].
 
 # 📝Definition
 - The First Fundamental Theorem of Calculus states that:
@@ -13,7 +13,7 @@ aliases: [FTC1]
       \displaystyle  \displaystyle \int _a^b f(x) \, dx=F(b)-F(a)
       $$
     
-- In other words, the [[definite integral]] of a function is the difference between the values of its [[Antiderivative]] at the [[limit]]s of the definite integral.
+- In other words, the [[definite integral]] of a function is the difference between the values of its [[antiderivative]] at the [[limit]]s of the definite integral.
 
 # 🧠Intuition
 - Geometric Intuition of FTC1

@@ -1,5 +1,5 @@
 # 📝Description
-The techniques of integration is a virtual toolkit of techniques to find [[Antiderivative]]s. When I was learning calculus, I find following common techniques among different textbook. They are:
+The techniques of integration is a virtual toolkit of techniques to find [[antiderivative]]s. When I was learning calculus, I find following common techniques among different textbook. They are:
 - Substitution
 - Integration by parts
 - Partial fractions

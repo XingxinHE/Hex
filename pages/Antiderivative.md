@@ -1,5 +1,5 @@
 ---
-aliases: [Indefinite Integral]
+aliases: [indefinite Integral]
 ---
 
 # 📝Definition

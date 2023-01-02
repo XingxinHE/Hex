@@ -58,7 +58,7 @@ aliases: [ordinary differential equation, ODE]
     - Given a differential equation $\frac{dy}{dx} = f(x)g(y)$ and an **initial condition** $y(a)=b$, if $f, g$, and $g'$ are continuous near $(a,b)$, then there is a unique function $y$ whose derivative is given by $f(x)g(y)$ and that passes through the point $(a,b)$.
     
 # 🌓Complement
-## 📌Differential Equation vs. [[Antiderivative]]
+## 📌Differential Equation vs. [[antiderivative]]
 - We have seen that the equation of antiderivative
     - $$
       y=\int f(x)dx
@@ -107,7 +107,7 @@ aliases: [ordinary differential equation, ODE]
         
     - Answer
         - The units of $y$ are the units of $f(x)$ times the units of $dx$, which are the same as the units of $x$. This gives units of $m^2$, which is a measure of area.
-        - Another way to think this is considering the power of antiderivative. Since we are interested in $y$ and $y$ is the antiderivative of $f(x)$. Using the [[Antiderivative#^320f6a5fb26863db|integral of power]], we have $\int m=m^{1+1}$ which is $m^2$.
+        - Another way to think this is considering the power of antiderivative. Since we are interested in $y$ and $y$ is the antiderivative of $f(x)$. Using the [[antiderivative#^320f6a5fb26863db|integral of power]], we have $\int m=m^{1+1}$ which is $m^2$.
         
 - 📌example of solving separable differential equation ==**IMPORTANT**==
     - Question:
