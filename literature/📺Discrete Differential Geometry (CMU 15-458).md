@@ -377,6 +377,9 @@ D: It has a round shape.
 - [[Affine Independence]], [[Affine Dependence]]
 - [[Convex Set]], [[Convex Hull]], [[Simplex]], [[Barycentric Coordinates]]
 
+# Chapter 03 Intro to Differential Geometry
+### 3.3.1. The Curvature of a Curve
+
 # Chapter 04 Intro to Exterior Calculus
 [[differential k-form]]
 
