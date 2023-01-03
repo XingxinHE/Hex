@@ -220,4 +220,4 @@ value).
 # 🌱Related Elements
 ![[array#🌱Related Elements#array vs. pointer]]
 
-![[const#🌱Related Elements#Placing `const` in Pointer Declaration]]
+![[const#🌱Related Elements#const and pointer]]

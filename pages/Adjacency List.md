@@ -1,5 +1,5 @@
 - 📝Definition
-    - The adjacency matrix representation of a [[Graph]] consists of $n$ lists one for each vertex $v_i$, $1\leq i\leq n$, which gives the vertices to which $v_i$ is adjacent.
+    - The adjacency matrix representation of a [[graph]] consists of $n$ lists one for each vertex $v_i$, $1\leq i\leq n$, which gives the vertices to which $v_i$ is adjacent.
     - > ==**Note⚠**==: Adjacency List only stores top-dimensional [[simplices]]. For example, it only stores information of faces from a [[tetrahedron]]..
       ![name](../assets/Adjacency_List.png){:height 200, :width 200}
     - TODO the preceding is not a classic adjacency list. Review graph theory and adjacency list in classic way.

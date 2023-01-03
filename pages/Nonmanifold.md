@@ -14,5 +14,5 @@ aliases: [non-manifold geometry]
     
 - 🧠Intuition
   **nonmanifold** are those meeting at an edge, or multiple “cones” of vertices meeting at a vertex.
-    - ![[manifold#^c9b554e7ecde4207]]
+    - ![[manifold#🧠Intuition]]
     

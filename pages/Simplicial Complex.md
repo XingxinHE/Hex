@@ -2,85 +2,100 @@
 aliases: [(Abstract) Simplicial Complex, (Geometric) Simplicial Complex]
 ---
 
-- 🧠Intuition
-    - Simplicial Complex = a bunch of [[simplices]].
+# 🧠Intuition
+Simplicial Complex = a bunch of [[simplex|simplices]].
     
-- 📝Definition
-    - ==(Geometric) Simplicial Complex==
-      A (***geometric***) simplicial complex is a *collection* of simplices where (a) the *intersection* of any two simplices is a simplex, and every face of (b) every simplex in the complex is also in the complex.
-    - ==(Abstract) Simplicial Complex==
-      Let $S$ be a collection of sets. If for each set $\sigma\in S$ all subsets of $\sigma$ are contained in $S$, then $S$ is an *abstract simplicial complex*. A set $\sigma\in S$ of size $k+1$ is an (***abstract***) simplicial complex.
-    - ![name](../assets/simplicial_complex.png){:height 200, :width 600}
-        - 💡You can see these two as
-            - the left is *with* coordinates and the right is *without* coordinates in the perspective of [torch_geometric.data.Data](https://pytorch-geometric.readthedocs.io/en/latest/modules/data.html#torch_geometric.data.Data).
-            - the left as "**fabrication**" which requires everything lines up while the right as "**connectivity**" only.
-            
-- ⛈Characteristics / Properties
-    - 📌Orientation on Simplicial Complex ^2453002026d67ffe
-        - 🌱Related Elements
-            - For the orientation in [[simplices]], see [[Simplex#^fc7728b5477d9d10|here]].
-            
-        - 📝Definition
-            - In terms of the ability of orientation, the property of simplicial complex lies on (1)==orientable== and (2)==unorientable==.
-            
-        - > ==**Note on wording⚠**== Note the distinction between an "**orientable** manifold" and an "**oriented** manifold," where the former implies the possibility of giving the manifold in question an orientation, while the latter implies that the manifold has already been given an orientation. ^61e982784d28227f
-        - > ==**Note on convention⚠**==: By convention, the vertices of face are *ordered* counter-clockwise around the triangle. Using the right-hand rule, we can define the normal of each triangle as the vector that points *most away* from the surface. ![name](../assets/right-hand-rule.svg){:height 200, :width 200} ^a6ec64837c4608a2
-        - Unorientable Simplicial Complex
-            - 📝Definition
-                - Unorientable simplicial complex is the opposite. The famous [[Möbius Band]] is one of the cases.
-                
-            - 📈Diagram
-                - ![name](../assets/unorientable_mobius_band.png){:height 300, :width 300}
-                
-        - Orientable Simplicial Complex
-            - 📝Definition
-                - Orientable simplicial complex is an abstract simplicial complex where we can assign a **consistent orientation** to every triangle.
-                
-        - Oriented Simplicial Complex ^c86fd58204a352c4
-            - 📝Definition
-                - An ***oriented simplicial complex*** is a simplicial complex where each [[Simplex]] is assigned an orientation.
-                
-            - 🧪Composition
-                - An oriented simplicial complex is composed by [[Simplex#^fc7728b5477d9d10|oriented simplices]].
-                
-            - 📈Diagram
-                - ![name](../assets/oriented_simplicial_complex.png){:height 300, :width 600}
-                
-    - 📌 [[manifold]] ⭐⭐⭐
-        - 📝Definition ^1807d510e51c4830
-            - A simplicial $k$-complex is ***manifold*** if the [[#^19e531d40f749a4c|*link*]] of every vertex looks like a $(k-1)$-dimensional sphere.
-            - ![name](../assets/manifold_k_simplicial_complex.png){:height 300, :width 600}
-            
-- 🗃Example
-    - 📌Abstract Simplicial Complex—Example
-        - 💬Question: Consider the set $S:=$ {{1,2,🖤}, {2,🖤,🙂},{1,2},{2,🖤},{🖤,1},{2,🙂},{🖤,🙂},{1},{2},{🖤},{🙂}} Is this set an abstract simplicial complex? If so, what does it look like?
-        - ✏Answer: Yes—it’s a pair of 2-[[Simplex|simplices]] (triangles) sharing a single edge:
-        - 📈Diagram
-            - ![name](../assets/abstract_simplicial_complex.png){:height 200, :width 200}
-            
-- 🌱Related Elements
-    - [[Graph]]
-        - Any *(undirected) graph* $G = (V,E)$ is an abstract simplicial (1-)complex. Because 0-simplices are vertices, 1-simplices are edges.
-        - ![name](../assets/abstract_simplicial_complex_graph.png){:height 200, :width 200}
-        
-  -
+# 📝Definition
+==(Geometric) Simplicial Complex==
+A (***geometric***) simplicial complex is a *collection* of simplices where (a) the *intersection* of any two simplices is a simplex, and every face of (b) every simplex in the complex is also in the complex.
+==(Abstract) Simplicial Complex==
+Let $S$ be a collection of sets. If for each set $\sigma\in S$ all subsets of $\sigma$ are contained in $S$, then $S$ is an *abstract simplicial complex*. A set $\sigma\in S$ of size $k+1$ is an (***abstract***) simplicial complex.
+![|500](../assets/simplicial_complex.png)
+
+> [!info] Remark
+> - the left is *with* coordinates and the right is *without* coordinates in the perspective of [torch_geometric.data.Data](https://pytorch-geometric.readthedocs.io/en/latest/modules/data.html#torch_geometric.data.Data).
+> - the left as "**fabrication**" which requires everything lines up while the right as "**connectivity**" only.
+
+
+# 🌈Properties
+## 🔴Orientation
+### 📝Definition
+In terms of the ability of orientation, the property of simplicial complex lies on
+- (1)==orientable== 
+- (2)==unorientable==.
+
+> [!info] Remark
+> Note the distinction between an "**orientable** manifold" and an "**oriented** manifold," where the former implies the possibility of giving the manifold in question an orientation, while the latter implies that the manifold has already been given an orientation.
+
+^7cdbb5
+
+> [!info] Remark
+> By convention, the vertices of face are *ordered* counter-clockwise around the triangle. Using the right-hand rule, we can define the normal of each triangle as the vector that points *most away* from the surface. ![\|300](../assets/right-hand-rule.svg)
+
+^b0e241
+
+
+
+### 🌱Related Elements
+For the orientation in [[simplices]], see [[simplex#^fc7728b5477d9d10|here]].
+
+### 🏷Categories
+There are several subjects derived from the concept of orientation.
+- [[unorientable simplicial complex]]
+- [[orientable simplicial complex]]
+- [[oriented simplicial complex]]
+
+
+
+## 🟠manifold
+A simplicial $k$-complex is said to be manifold must satisfy certain conditions. see [[manifold#📝Definition]]
+
+
+
+
+# 🗃Example
+- 📁simplicial complex example
+	- 💬Question: Consider the set $S:=$ {{1,2,🖤}, {2,🖤,🙂},{1,2},{2,🖤},{🖤,1},{2,🙂},{🖤,🙂},{1},{2},{🖤},{🙂}} Is this set an abstract simplicial complex? If so, what does it look like?
+	- 🏹Strategy: xxx
+	- 🗣Answer: Yes—it’s a pair of 2-[[simplex|simplices]] (triangles) sharing a single edge.
+		- ![|300](../assets/abstract_simplicial_complex.png)
+
+
+
+# 🌱Related Elements
+
+## 🍏Graph
+Any *(undirected) [[graph]]* $G = (V,E)$ is an abstract simplicial (1-)complex. Because 0-simplices are vertices, 1-simplices are edges.
+
+![|300](../assets/abstract_simplicial_complex_graph.png)
+
+
+	
+
   
-- 🧀Applicability
-    - 📌Topological Data Analysis
-        - There are many applications of simplicial complex, one of which is persistent homology.
-        - ![name](../assets/topological_data_analysis.gif){:height 200, :width 300}
-        - The idea is that
-            - 1. increase the radius of vertices
-              2. if overlapped, then connect
-              3. track "birth" and "death" of features like connected components, holes, etc
-              4. features that persist for a long time are likely "real"
+# 🧀Applicability
+## 🥯Topological Data Analysis
+
+There are many applications of simplicial complex, one of which is persistent homology.
+![|300](../assets/topological_data_analysis.gif)
+ The idea is that
+1. increase the radius of vertices
+2. if overlapped, then connect
+3. track "birth" and "death" of features like connected components, holes, etc
+4. features that persist for a long time are likely "real"
+	
+
+![|400](../assets/topological_data_analysis.png)
+> [!info] Remark
+> As the radius increasing(axis of birth), the "D", "O", "G" are created(**birth**) and **exist for a certain amount of time** until they are connected(**dead**) with excessive radius.
+
+
+
             
-        - ![name](../assets/topological_data_analysis.png){:height 200, :width 400}
-            - As the radius increasing(axis of birth), the "D", "O", "G" are created(**birth**) and **exist for a certain amount of time** until they are connected(**dead**) with excessive radius.
-            
-- 🛠Analogy
-    - Research shows connecting what already know to new concepts and ideas sharpens their focus and deepens their understanding.
-    - ![[Simplex#^8e4c4effad194a34]]
+# 🛠Analogy
+
+![[simplex#🛠Analogy#🔨Simplex and Simplicial Complex in Rhino and PyTorch]]
+
     
 - 🏷(Sub)Categories
     - Simplicial $1$-Complexes & Simplicial $2$-Complexes
@@ -94,43 +109,43 @@ aliases: [(Abstract) Simplicial Complex, (Geometric) Simplicial Complex]
             - $E$ = edges
             - $F$ = faces
             - $K$ = komplex(in German)
-            
-- 💫Operation
-    - Suppose $S$ is a given set of simplices, the following are the operations.
-    - Closure
-        - 📝Definition
-          ***Closure*** $Cl(S)$ is the smallest (i.e., fewest elements) subcomplex of $K$ that contains $S$. In the following diagram, $S$ is a set of 1×triangle and an 1×edge.
-          
-        - 📈Diagram
-            - ![name](../assets/simplicial_complex_closure.png){:height 300, :width 300}
-            
-    - Star
-        - 📝Definition
-          ***Star*** $St(S)$ is the collection of all simplices in $K$ that contain any simplex in $S$. In the following diagram, $S$ is a vertex.
-          
-        - 📈Diagram
-            - ![name](../assets/simplicial_complex_star.png){:height 300, :width 300}
-            
-    - Link ^19e531d40f749a4c
-        - 📝Definition
-          ***Link*** $Lk(S)$ is equal to $Cl(St(S)) \backslash St(Cl(S))$ which means taking out the $star\space St(s)$ from $closure\space Cl(S)$. In the following diagram, $S$ is a vertex.
-          
-        - 📈Diagram
-            - ![name](../assets/simplicial_complex_link.png){:height 300, :width 300}
-            
-    - Boundary
-        - 📝Definition
-          ***Boundary*** $bd(K')$ is a pure $k$-subcomplex $K' \subseteq K$. The boundary is the closure of the set of all simplices $\sigma$ that are proper faces of exactly one simplex of $K'$.
-          
-        - 📈Diagram
-            - TODO add diagram
-            
-    - Interior
-        - 📝Definition
-          ***Interior*** $int(K') = K' \backslash  bd(K')$ is then everything but the boundary (as pictured above)
-          
-        - 📈Diagram
-            - ![name](../assets/simplicial_complex_interior.png){:height 300, :width 300}
-            
-    - > ==**Note⚠**== Difference between Link and Boundary, Closure and Interior. The difference is that ***Link*** and ***Closure*** are referring to **[[Simplex]]** while ***Boundary*** and ***Interior*** are referring to **Complex/Subcomplex**.
+
+
+# 💫Operation
+Suppose $S$ is a given set of simplices, the following are the operations.
+## 🌠Closure
+### 📝Definition
+***Closure*** $Cl(S)$ is the smallest (i.e., fewest elements) subcomplex of $K$ that contains $S$. In the following diagram, $S$ is a set of 1×triangle and an 1×edge.
+
+### 📈Diagram
+![|300](../assets/simplicial_complex_closure.png)
+
+## 🔮Star
+### 📝Definition
+***Star*** $St(S)$ is the collection of all simplices in $K$ that contain any simplex in $S$. In the following diagram, $S$ is a vertex.
+
+### 📈Diagram
+![|300](../assets/simplicial_complex_star.png)
+
+
+## ☄Link
+### 📝Definition
+***Link*** $Lk(S)$ is equal to $Cl(St(S)) \backslash St(Cl(S))$ which means taking out the $star\space St(s)$ from $closure\space Cl(S)$. In the following diagram, $S$ is a vertex.
+### 📈Diagram
+![|300](../assets/simplicial_complex_link.png)
+
+## 🌌Boundary
+### 📝Definition
+***Boundary*** $bd(K')$ is a pure $k$-subcomplex $K' \subseteq K$. The boundary is the closure of the set of all simplices $\sigma$ that are proper faces of exactly one simplex of $K'$.
+### 📈Diagram
+#TODO 
+
+## 🥏Interior
+### 📝Definition
+***Interior*** $int(K') = K' \backslash  bd(K')$ is then everything but the boundary.
+### 📈Diagram
+![|300](../assets/simplicial_complex_interior.png)
+
+> [!info] Remark
+> Difference between Link and Boundary, Closure and Interior. The difference is that ***Link*** and ***Closure*** are referring to **[[simplex]]** while ***Boundary*** and ***Interior*** are referring to **Complex/Subcomplex**.
     

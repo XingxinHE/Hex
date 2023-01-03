@@ -35,7 +35,7 @@ I feel ...
 # 📖Reading
 # 0 Introduction
 - 0.1. [[Theory of Computation]], [[Complexity]], [[Computability]], [[Automata]]
-- 0.2. [[set]], [[Tuple]], [[function]], [[Graph]], [[Tree]], [[Boolean Logic]]
+- 0.2. [[set]], [[Tuple]], [[function]], [[graph]], [[Tree]], [[Boolean Logic]]
 - 1.1. [[Finite Automaton]], [[regular language]]
 # 1 Regular Expression
 

@@ -375,7 +375,7 @@ D: It has a round shape.
 
 # Chapter 02 Combinatorial Surfaces
 - [[Affine Independence]], [[Affine Dependence]]
-- [[Convex Set]], [[Convex Hull]], [[Simplex]], [[Barycentric Coordinates]]
+- [[Convex Set]], [[Convex Hull]], [[simplex]], [[Barycentric Coordinates]]
 
 # Chapter 03 Intro to Differential Geometry
 ### 3.3.1. The Curvature of a Curve

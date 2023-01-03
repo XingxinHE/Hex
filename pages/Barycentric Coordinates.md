@@ -4,7 +4,7 @@ aliases: [barycentric coordinate system]
 
 - 📝Definition
     - Barycentric coordinates are **triples** of numbers ($t_1,t_2,t_3$) corresponding to masses placed at the [[vertices]] of a reference triangle $\Delta A_1A_2 A_3$. These masses then determine a point $P$, which is the ==geometric [[centroid]]== of the three masses and is identified with coordinates ($t_1,t_2,t_3$). The vertices of the triangle are given by $(1,0,0), (0,1,0)$, and $(0,0,1)$.
-    - A **barycentric coordinate system** is a coordinate system in which **the location of a point** is **specified** by **reference** to a [[Simplex]] (a triangle for points in a plane, a tetrahedron四面体 for points in three-dimensional space, etc.). The barycentric coordinates of a point can be interpreted as **masses** placed at the vertices of the simplex, such that the point is the center of mass (or **barycenter**) of these masses.
+    - A **barycentric coordinate system** is a coordinate system in which **the location of a point** is **specified** by **reference** to a [[simplex]] (a triangle for points in a plane, a tetrahedron四面体 for points in three-dimensional space, etc.). The barycentric coordinates of a point can be interpreted as **masses** placed at the vertices of the simplex, such that the point is the center of mass (or **barycenter**) of these masses.
     
 - 💫Operation
     - 📌Find the barycentric coordinates for an arbitrary point $P$

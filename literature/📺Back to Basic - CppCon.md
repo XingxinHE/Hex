@@ -66,7 +66,7 @@ Outline
 - 🔖Topic:
 Outline
 
-### Lambdas by Josuttis
+### ✅Lambdas by Josuttis
 📝Basic Info
 - 🗣Presenter: Nicolai M. Josuttis
 - 📆Year: #2021
@@ -81,7 +81,7 @@ Outline:
 #TODO :
 - read the microsoft doc: Function Objects vs. Lambdas
 
-### Lambda Expressions by Geller & Sermersheim
+### ✅Lambda Expressions by Geller & Sermersheim
 📝Basic Info
 - 🗣Presenter: # Barbara Geller & Ansel Sermersheim
 - 📆Year: 2020
@@ -95,7 +95,7 @@ Outline:
 - understand function object and lambda are closely related [[Function Object#🌱Related Elements#function object & lambda expression]]
 - capture clause with `this` pointer at [[lambda expression#CPP#🧪Composition#Capture clause#🌱Related Elements#📌capture clause with this keyword this pointer]]
 
-### Pointer and Memory
+### ✅Pointer and Memory
 📝Basic Info
 - 🗣Presenter: Ben Saks
 - 📆Year: 2019
@@ -113,6 +113,17 @@ Outline:
 	- [[casting operators]], [[Type conversions|type casting]], [[pointer#💫Operation#pointer type conversion]]
 - 6️⃣References
 	- [[Reference Type#🗻Foundation#⛰Understand why we need reference in C++]], [[Reference Type#🌓Complement#🌗reference type data type vs. pointer type data type]]
+
+### Move Semantics
+📝Basic Info
+- 🗣Presenter: Klaus Iglberger
+- 📆Year: 2019
+- 🔖Topic:
+Outline:
+- 1️⃣The Basics of Move Semantics
+	- 
+
+
 
 
 # 💻Assignment

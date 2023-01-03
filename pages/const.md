@@ -24,11 +24,7 @@
   ```
 -
 
-# 🌱Related Elements
-- 📌Key Difference between [[constexpr]] and `const` in C++
-    - `const` => run-time
-    - `constexpr` => compile-time
-    
+
 # 🧀Applicability
  `const` often is used in passing arguments and returning values by pointers and references.
 
@@ -75,6 +71,11 @@ There are several stuffs that `const` can play.
 
 
 # 🌱Related Elements
+- 📌Key Difference between [[constexpr]] and `const` in C++
+    - `const` => run-time
+    - `constexpr` => compile-time
+    
+
 ## const and pointer
 **💭Problem Address**
 If you recall, there are actually 5 kinds of `const` combination in [[pointer]] [[declaration]].😵 However, they can be grouped into 3.

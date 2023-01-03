@@ -45,10 +45,10 @@ aliases: [simplicial 2-complexes]
             \end{array}
             $$
           - the $k$th row of this matrix contains the indices into the rows of `V` of the first, second and third corners of the $j$th triangle as a non-negative number (remember in C++ arrays and matrices start with index `0`).
-          - ![[Simplicial Complex#^a6ec64837c4608a2]]
+          - ![[simplicial complex#^b0e241]]
           
 - ⛈Characteristics / Properties
-    - ![[manifold#^69e2c532a6ef8467]]
+    - ![[manifold#🏷Categories#🔖Manifold Triangle Mesh]]
     
 - 🧀Applicability
     - 3D Image Generation

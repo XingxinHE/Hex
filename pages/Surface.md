@@ -12,7 +12,7 @@ The exact mathematical model of a surface is usually intractable. Therefore, the
 		
 - In #[[Computer Graphics]],
 	- 📝Definition⭐
-		- The common definition of a *surface* in the context of computer graphics application is "an [[Simplicial Complex#^2453002026d67ffe|orientable]] [[continuity|continuous]] 2D [[manifold]] embedded in $\mathbb{R}^3$.
+		- The common definition of a *surface* in the context of computer graphics application is "an [[simplicial complex#🌈Properties#🔴Orientation|orientable]] [[continuity|continuous]] 2D [[manifold]] embedded in $\mathbb{R}^3$.
             
 # ⛈Characteristics / Properties
 ## Smoothness

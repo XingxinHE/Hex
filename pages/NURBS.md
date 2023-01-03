@@ -1,5 +1,7 @@
 ---
 aliases: [NURBS Curves, NURBS Curve, NURBS Surfaces, NURBS Surface, tensor-product spline surfaces]
+tags:
+  - unknown
 ---
 
 # NURBS
@@ -19,6 +21,12 @@ where the following
 - $\textbf{P}_i$ - control points (forming a control polygon)
 - $w_i$ - weights
 - $N_{i,p}(u)$ - $p$th degree [[B-Spline]] basis functions defined on the nonperiodic (and nonuniform) knot vector
+
+## 🌱Related Elements
+The closest pattern to current one, what are their differences?
+
+
+
 
 
 # NURBS Surfaces

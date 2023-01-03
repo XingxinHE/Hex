@@ -1,5 +1,5 @@
 - 📝Definition
-    - The incidence matrix of a [[Graph]] gives the (0,1)-matrix which has a row for each vertex and column for each edge, and $(v,e)=1$ if and only if vertex $v$ is incident upon edge $e$. However, some authors define the incidence matrix to be the transpose of this, with a column for each vertex and a row for each edge.
+    - The incidence matrix of a [[graph]] gives the (0,1)-matrix which has a row for each vertex and column for each edge, and $(v,e)=1$ if and only if vertex $v$ is incident upon edge $e$. However, some authors define the incidence matrix to be the transpose of this, with a column for each vertex and a row for each edge.
     - Let $G = (V, E)$ be a graph where $V = \{1, 2, . . . , n\}$ and $E = \{e_1, e_2, . . . , e_m\}$. The incidence matrix of $G$ is an $n\times m$ matrix $B = (b_{ik} )$, where each row corresponds to a vertex and each column corresponds to an edge such that if $ek$ is an edge between $i$ and $j$, then all elements of column $k$ are $0$ except $b_{ik} = b_{jk} = 1$.
     
 - 📈Diagram
@@ -20,7 +20,7 @@
 - 🧀Applicability
     - Incidence Matrix as Topological Data Structure
         - 📝Definition
-            - Let $K$ be a [[Simplicial Complex]] , let $n_k$ denote the number of $k$-simplices in $K$, and suppose that for each $k$ we give the $k$-simplices a canonical ordering so that they can be specified via indices $1,...,n_k$. The $k$-th *incidence matrix* is then a $n_{k+1}\times n_k$ matrix $E^k$ with entries $E^{k}_{ij}=1$ if the $j$th $k$-simplex is contained in the $i$-th $(k+1)$-simplex, and $E^k_{ij}=0$ otherwise.
+            - Let $K$ be a [[simplicial complex]] , let $n_k$ denote the number of $k$-simplices in $K$, and suppose that for each $k$ we give the $k$-simplices a canonical ordering so that they can be specified via indices $1,...,n_k$. The $k$-th *incidence matrix* is then a $n_{k+1}\times n_k$ matrix $E^k$ with entries $E^{k}_{ij}=1$ if the $j$th $k$-simplex is contained in the $i$-th $(k+1)$-simplex, and $E^k_{ij}=0$ otherwise.
             
         - 📈Diagram
             - ![name](../assets/incidence_matrix_simplicial_complex.png){:height 300, :width 500}

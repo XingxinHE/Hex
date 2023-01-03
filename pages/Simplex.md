@@ -2,6 +2,8 @@
 aliases: [simplices]
 ---
 
+
+
 - ✒Notation
     - | Singular单数 | Plural复数 |
       | ------------ | ---------- |
@@ -27,11 +29,11 @@ aliases: [simplices]
     - Orientation ^fc7728b5477d9d10
         - 📝Definition
             - The *orientation* of a simplex is an ordering of its vertices up to even permutation. One can specify an oriented simplex via one of its representative ordered [[Tuple]]s.
-            
-        - ![[Simplicial Complex#^61e982784d28227f]]
-        - ![[Simplicial Complex#^a6ec64837c4608a2]]
+           
+        - ![[simplicial complex#^7cdbb5]]
+        - ![[simplicial complex#^b0e241]]
         - 🌱Related Elements
-            - The <u>oriented simplices</u> compose [[Simplicial Complex#^c86fd58204a352c4|oriented simplicial complex]].
+            - The <u>oriented simplices</u> compose [[oriented simplicial complex]].
             
         - ⛈Characteristics / Properties
             - Relative Orientation ^2f1f3b6e0d3f5017
@@ -107,19 +109,22 @@ aliases: [simplices]
     - The above diagram is a *2-simplex* which lies in $\mathbb{R}^3$. Imagine all the possibilities of this simplex... No matter how, they all lie in the triangle $\sigma$ above. Therefore, it is called **probability simplex**.
     
 # 🌱Related Elements
-- [[Simplicial Complex]]
+- [[simplicial complex]]
 
 # 🛠Analogy
-- Research shows connecting what already know to new concepts and ideas sharpens their focus and deepens their understanding.
-- 📌==Simplex== and ==Simplicial Complex== in Rhino and PyTorch ^8e4c4effad194a34
-    - | Discrete Differential Geometry | Rhino/Grasshopper Software | PyTorch Geometric                                            |
-      | ------------------------------ | -------------------------- | ------------------------------------------------------------ |
-      | 0-simplex                      | A point                    | ```x = torch.tensor([0,0,0], dtype=torch.float)```           |
-      | 1-simplex                      | An edge                    | ```edge_index = torch.tensor([[0, 1], [1, 0]], dtype=torch.long)``` |
-      | 2-simplex                      | A triangle                 | /                                                            |
-      | Abstract Simplicial Complex    | NA.                        | ```torch_geometric.data.Data```                              |
-      | Geometric Simplicial Complex   | `Rhino.Geometry.Mesh`      | `read_ply` or `read_obj`                                     |
-    - 可以把0-simplex, 1-simplex和2-simplex理解为构建几何世界的基本元素，(只有一个点才是0-simplex，2个点是simplicial complex)。而把基本元素拼凑起来才是Mesh。
+
+## 🔨Simplex  and Simplicial Complex in Rhino and PyTorch
+
+| Discrete Differential Geometry | Rhino/Grasshopper Software | PyTorch Geometric                                            |
+| ------------------------------ | -------------------------- | ------------------------------------------------------------ |
+| 0-simplex                      | A point                    | ```x = torch.tensor([0,0,0], dtype=torch.float)```           |
+| 1-simplex                      | An edge                    | ```edge_index = torch.tensor([[0, 1], [1, 0]], dtype=torch.long)``` |
+| 2-simplex                      | A triangle                 | /                                                            |
+| Abstract Simplicial Complex    | NA.                        | ```torch_geometric.data.Data```                              |
+| Geometric Simplicial Complex   | `Rhino.Geometry.Mesh`      | `read_ply` or `read_obj`                                     |
+
+> [!info] Remark
+> 可以把0-simplex, 1-simplex和2-simplex理解为构建几何世界的基本元素，(只有一个点才是0-simplex，2个点是simplicial complex)。而把基本元素拼凑起来才是Mesh。
     
 # 🗃Example
 - 📌Small quiz on simplices

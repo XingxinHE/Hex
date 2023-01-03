@@ -311,9 +311,9 @@ $$
     - contingency table: $A_{ij}$ is number of objects with first attribute $i$ and second attribute $j$
     - feature matrix: $X_{ij}$ is value of feature $i$ for entity $j$
     
-- 📌 [[Graph]]
+- 📌 [[graph]]
     - We can use matrix to denote a graph or a relation. A directed graph can be represented as $m\times n$ matrix with $A_{ij}=1$ if $(i,j)\in R$. $R$ is the relation.
-    - ![[Graph#^fab4c9b58e3e75b1]]
+    - ![[graph#^fab4c9b58e3e75b1]]
     - For preceding graph, ^471fd6ee9a6d8360
         - it can be represented as $6\times6$ matrix as followed.
         - $$

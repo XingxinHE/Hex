@@ -18,7 +18,7 @@
 # 🗃Example
 - 📌example of proof 1
     - Theorem
-        - For every [[Graph]] $G$, the sum of the degrees of all the nodes in $G$ is an even number.
+        - For every [[graph]] $G$, the sum of the degrees of all the nodes in $G$ is an even number.
         
     - Get some intuition
         - First, pick a few graphs and observe this statement in action. Here are two examples.

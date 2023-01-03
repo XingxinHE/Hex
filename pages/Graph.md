@@ -51,7 +51,7 @@ aliases: [simplicial 1-complexes]
     - A graph is connected if every two nodes have a path between them.
     
 - 🌱Related Elements
-    - The nature of graph has some similarity with 3-[[Simplex]].
+    - The nature of graph has some similarity with 3-[[simplex]].
     
 # 🏷(Sub)Categories
 ## 📌Subgraph
