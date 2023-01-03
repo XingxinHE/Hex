@@ -7,7 +7,7 @@
       $$
     
 - This is also called the differential of $F$ and denoted $dF$.
-- Rearranging this equation, we get the the [[Leibniz Notation]] for the [[derivative]] , which says the derivative is the ratio of the two differentials $dy$ and $dx$.
+- Rearranging this equation, we get the the [[Leibniz notation]] for the [[derivative]] , which says the derivative is the ratio of the two differentials $dy$ and $dx$.
     - $$
       F'(x)= \frac{dy}{dx} \qquad \left(\text{or} \, \, \frac{ dF}{dx}\right)
       $$
@@ -16,7 +16,7 @@
 
 ## Definition in *the Calculus Lifesaver* by Adrian Banner
 - ![name](../assets/diagram_on_differential.png){:height 500, :width 500}
-- The graph shows the curve $y = f(x)$ and the linearization $y = L(x)$, which is the [[Tangent Line]] to the curve at $x = a$. We want to estimate the value of $f(a + \Delta x)$. That’s the height of the point $F$ in the above picture.
+- The graph shows the curve $y = f(x)$ and the linearization $y = L(x)$, which is the [[tangent line]] to the curve at $x = a$. We want to estimate the value of $f(a + \Delta x)$. That’s the height of the point $F$ in the above picture.
 - In the above graph, there’s one more **quantity** marked: this is $df$, which is the **difference** between the height of $P$ and $f(a)$. It is the amount we needed to add to $f(a)$ in order to get our estimate. Since $L(a+\Delta x) = f(a)+f'(a)\Delta x$, we see that
     - $$
       df=f'(a)\Delta x

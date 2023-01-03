@@ -12,7 +12,7 @@ aliases: [切线]
 
 # 📈Diagram
 - 📌
-	- ![[Secant Line#📈Diagram#📉Difference Between a Secant Line and a Tangent Line]]
+	- ![[secant line#📈Diagram#📉Difference Between a Secant Line and a Tangent Line]]
 - 📌Diagram of "Is Not" a tangent line
 	- ![|300](../assets/images_u1der2_sincrossline.svg)
 - 📌Diagram of "Is" a tangent line

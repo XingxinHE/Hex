@@ -43,7 +43,7 @@ Understand this topic requires.
 
 Treat sphere as [[vector-valued function]] of constant length.
 **📝Description**
-When we track a particle moving on a sphere centered at the origin, the [[position vector]] has a constant length equal to the radius of the sphere. The [[velocity vector]] $d\mathbf{r}/dt$, [[Tangent Line|tangent]] to the path of motion, is tangent to the sphere and hence perpendicular to $\mathbf{r}$.
+When we track a particle moving on a sphere centered at the origin, the [[position vector]] has a constant length equal to the radius of the sphere. The [[velocity vector]] $d\mathbf{r}/dt$, [[tangent line|tangent]] to the path of motion, is tangent to the sphere and hence perpendicular to $\mathbf{r}$.
 ![|300](../assets/vector_function_constant_length.svg)
 **📏Proof**
 $$

@@ -11,7 +11,7 @@ If $\mathbf{r}$ is the [[position vector]] of a particle moving along a smooth c
 $$
 \mathbf{v}(t)=\frac{d\mathbf{r}}{dt}
 $$
-is the particle's velocity vector, [[Tangent Line|tangent]] to the curve. At any time $t$, the direction of $\mathbf{v}$ is the direction of motion, the magnitude of $\mathbf{v}$ is the particle’s speed, and the derivative $\mathbf{a} = d\mathbf{v}/dt$, when it exists, is the particle’s acceleration vector. In summary,
+is the particle's velocity vector, [[tangent line|tangent]] to the curve. At any time $t$, the direction of $\mathbf{v}$ is the direction of motion, the magnitude of $\mathbf{v}$ is the particle’s speed, and the derivative $\mathbf{a} = d\mathbf{v}/dt$, when it exists, is the particle’s acceleration vector. In summary,
 - **Velocity** is the [[derivative]] of position: $\quad\mathbf{v} = \frac{d\mathbf{r}}{dt}$
 - **Speed** is the magnitude of velocity: $\quad\text{Speed} = \lVert \mathbf{v} \rVert$.
 - **Acceleration** is the derivative of velocity(a.k.a. 2nd derivative): $\quad\mathbf{a} = \frac{d\mathbf{v}}{dt} = \frac{d^2\mathbf{r}}{dt^2}$ .

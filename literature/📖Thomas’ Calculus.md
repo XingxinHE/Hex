@@ -131,14 +131,33 @@ A quick review on the following.
 ## 13.3 Arc Length in Space
 **🔭subjects covering**:
 - [[arc length]]
-- [[unit tangent vector]]
-- [[curvature]]
+
 
 - 📌ever heard of parameterization or reparameterization?
   - see [[arc length#^696978]]
 
 - 📌another arc length example
   - see [[arc length#^a0b1ec]]
+
+
+
+## 13.4 Curvature and Normal Vectors of a Curve
+**🔭subjects covering**:
+- [[tangent vector|unit tangent vector]]
+- [[curvature]]
+- [[normal vector|principal unit normal vector]]
+- [[osculating circle]]
+- [[binormal vector]]
+- [[TNB Frame]]
+- [[torsion]]
+- [[normal plane]]
+- [[osculating plane]]
+
+- 📌
+  - 
+
+- 📌
+  - 
 
 - 📌
   - 
@@ -154,7 +173,6 @@ A quick review on the following.
 
 
 - 🧾The terminology I learned in this section
-## 13.4 Curvature and Normal Vectors of a Curve
 ## 13.5 Tangential and Normal Components of Acceleration
 ## 13.6 Velocity and Acceleration in Polar Coordinates
 

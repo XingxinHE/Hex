@@ -1,5 +1,5 @@
 ---
-aliases: [tangent vector]
+aliases: [unit tangent vector]
 tags:
   - mathematics
   - geometry
@@ -10,7 +10,7 @@ tags:
 ![|200](../assets/unit_tangent_vector.svg)
 
 **📄Definition**
-If $C$ is a smooth curve defined by the [[vector-valued function|vector function]] $\mathbf{r}$, recall that the unit tangent vector $\mathbf{T}(t)$ is given by
+If $C$ is a smooth curve defined by the [[vector-valued function|vector function]] $\mathbf{r}$, recall that the ==unit tangent vector== $\mathbf{T}(t)$ is given by
 $$
 \mathbf{T}(t)=\frac{\mathbf{r}'(t)}{\lVert\mathbf{r}'(t)\rVert}
 $$
@@ -21,7 +21,7 @@ Let
 $$
 \mathbf{r}(t) = x(t)\mathbf{i} + y(t)\mathbf{j} + z(t)\mathbf{k}, a \leq t \leq b
 $$
-be the [[position vector]] of a space curve that is smooth - meaning that the [[velocity vector]] $\mathbf{v}(t) = \mathbf{r}'(t)$ is *nonzero*. Then the curve's unit tangent vector at the point $\mathbf{r}(t)$ is the [[unit vector]]
+be the [[position vector]] of a space curve that is smooth - meaning that the [[velocity vector]] $\mathbf{v}(t) = \mathbf{r}'(t)$ is *nonzero*. Then the curve's ==unit tangent vector== at the point $\mathbf{r}(t)$ is the [[unit vector]]
 $$
 \mathbf{T}(t)=\frac{\mathbf{v}(t)}{\lVert\mathbf{v}(t)\rVert}=\frac{\mathbf{v}(t)}{v(t)},
 $$
@@ -29,7 +29,7 @@ where $v(t) = \lVert \mathbf{v}(t)\rVert$ is the speed, a [[real-valued function
 
 
 **📃Definition**
-For a curve with [[position vector|radius vector]] $\mathbf{r}(t)$, the unit tangent vector $\hat{\mathbf{T}}(t)$ is defined by
+For a curve with [[position vector|radius vector]] $\mathbf{r}(t)$, the ==unit tangent vector== $\hat{\mathbf{T}}(t)$ is defined by
 $$
 \begin{align}
 \hat{\mathbf{T}}(t)&\equiv \frac{\dot{\mathbf{r}}}{\lVert\dot{\mathbf{r}} \rVert}\\

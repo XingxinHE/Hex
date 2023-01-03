@@ -94,17 +94,17 @@ ___
 
 ### Geometric interpretation of the derivative
 - 📌**what is Tangent Line**
-  - [[Tangent Line#📝Definition]]
+  - [[tangent line#📝Definition]]
 
 - 📌**what is Secant Line**
-  - [[Secant Line#📝Definition]]
+  - [[secant line#📝Definition]]
 
 - 📌understand the difference between tangent and secant
-  - [[Secant Line#📈Diagram#📉Difference Between a Secant Line and a Tangent Line]]
+  - [[secant line#📈Diagram#📉Difference Between a Secant Line and a Tangent Line]]
 - 📌**relationship: Differentiable vs. Continuous**
 	- [[differentiable#^c07ebe]]
 - **📌Relationship: Tangent Line vs. Derivative**
-	- [[Tangent Line#^bb0a6b]]
+	- [[tangent line#^bb0a6b]]
 
 ### The derivative as a function
 

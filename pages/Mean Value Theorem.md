@@ -10,8 +10,8 @@ aliases: [MVT]
 
 # 🎯Intent
 - The MVT is to link 2 domains together
-    - average rate of change / [[Secant Line]]
-    - instantaneous rate of change / [[Tangent Line]]
+    - average rate of change / [[secant line]]
+    - instantaneous rate of change / [[tangent line]]
     
 # 🧠Intuition
 - Equivalently, in geometric terms, there is **at least one point** $c$, with $a<c<b$, at which the tangent line is parallel to the secant line through $(a,f(a))$ and $(b,f(b))$:

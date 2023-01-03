@@ -11,7 +11,7 @@ $$
 \kappa=\left|\frac{d\mathbf{T}}{ds}\right|
 $$
 the absolute value of the rate of change of $\mathbf{T}$ with respect to $s$, where
-- $\mathbf{T}$ is the [[unit tangent vector]]
+- $\mathbf{T}$ is the [[tangent vector|unit tangent vector]]
 - $s$ is the [[arc length]]
 > [!info] Remark
 > We can interpret this equation as "the rate at which $\mathbf{T}$ turns per unit of length along the curve is called the curvature".
@@ -24,8 +24,18 @@ $$
 &=\frac{\lVert\mathbf{T}'(t)\rVert}{\lVert\mathbf{r}'(t)\rVert}
 \end{align}
 $$
+
+___
+
+**Formula for computation**
+Suppose the smooth curve is represented in a [[position vector|radius vector]] $\mathbf{r}(t)$, then the curvature can be computed as
+$$
+\kappa=\frac{\lVert\dot{\mathbf{r}}\times\ddot{\mathbf{r}}\rVert}{\lVert \dot{\mathbf{r}}\rVert^3}
+$$
+where the dots is [[Newton’s dot notation]].
+
 > [!info] Remark
-> This formula is ok to calculate the curvature of both 2D and 3D curve. But we will have more advanced tech.
+> This formula is purely for computation without understanding each component in geometric sense.
 
 # 🧠Intuition
 Curvature = "how much a curve *bends*". If the curve is a [[function]], then curvature is second [[derivative]]. (indicate how the curve will bend along the tangent direction)
@@ -35,10 +45,11 @@ Curvature = "how much a curve *bends*". If the curve is a [[function]], then cur
 
 
 # 🗃Example
+
+![[torsion#^8902d2]]
+
 - 📁curvature example
 	- 💬Question: Show that the curvature of a circle of radius $a$ is $1/a$.
-	- 🏹Strategy: xxx
-	- 🗣Answer: xxx
 	- ✏Solution:
 		- Suppose we have a circle with parameterization
 			- $\mathbf{r}(t) = a\cos t\mathbf{i} + a\sin t\mathbf{j}$

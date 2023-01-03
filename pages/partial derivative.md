@@ -18,7 +18,7 @@ $$
 > 🙄... that's really a lots of representation!
 
 > [!note]
-> The symbol $\partial$ is actually $d$ in [[Leibniz Notation]] but tilted on the top to indicate this is "partial" derivative. (the rate of change of the function in the $x$-direction.) 
+> The symbol $\partial$ is actually $d$ in [[Leibniz notation]] but tilted on the top to indicate this is "partial" derivative. (the rate of change of the function in the $x$-direction.) 
 
 **🖋Notation on higher order partial derivative**
 Suppose there is a function $f(x,y)$. Its second partial derivative can be written as
