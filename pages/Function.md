@@ -163,7 +163,7 @@ What are the sub objects of this subject?
     - The set of possible inputs to the function is called its domain.
 - 📌[[range]]
 - 📌Argument
-    - When the domain of a function $f$ is $A_1\times\cdots\times A_k$ for some sets $A_1, . . . ,A_k$, the input to $f$ is a $k$- [[Tuple]] $(a_1, a_2, . . . , a_k)$ and we call the $a_i$ the arguments to $f$.
+    - When the domain of a function $f$ is $A_1\times\cdots\times A_k$ for some sets $A_1, . . . ,A_k$, the input to $f$ is a $k$- [[tuple]] $(a_1, a_2, . . . , a_k)$ and we call the $a_i$ the arguments to $f$.
 - 📌Arity ^3d30a3ab3ced08e4
     - A function with $k$ arguments is called a $k$-ary function, and $k$ is called the arity of the function.
 - 📌Graph

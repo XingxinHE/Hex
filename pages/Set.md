@@ -1,17 +1,33 @@
 # 📝Definition  
 A set is an **unordered** collection of **distinct** objects, which may be anything, including other sets.
 
-# ⛈Characteristics / Properties
-- 📌Cardinality
-    - The cardinality of a set is the number of elements it contains.
-    - $$
-      |\{1, 2, 3, 3, 3, 3, 3\}| = 3\\
-      |\emptyset|=0\\
-      |\{\emptyset\}|=1
-      $$
-    
+# ⛈Characteristics
+## ☁open
+**📝Definition**
+A region is **open** if it consists entirely of [[interior point]]s.
+
+## 🌧closed
+**📝Definition**
+A region is closed if it contains all its [[boundary point]]s.
+
+
+
+# 🌈Properties
+## 🔴Cardinality
+**📝Definition**
+The cardinality of a set is the number of elements it contains.
+
+**🗃Example**
+$$
+|\{1, 2, 3, 3, 3, 3, 3\}| = 3\\
+|\emptyset|=0\\
+|\{\emptyset\}|=1
+$$
+
 # 🏷(Sub)Categories  
 What are the sub objects of this subject?
+- 📌[[bounded set]]
+- 📌[[unbounded set]]
 - 📌Subset
     - For two sets $A$ and $B$, we say that $A$ is a subset of $B$, written $A\subseteq B$, if every member of $A$ also is a member of $B$.
     

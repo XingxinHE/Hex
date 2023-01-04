@@ -1,5 +1,5 @@
 # 📝Definition
-Expression is a [[Tuple|sequence]] of operators and their operands which specify some computation process.
+Expression is a [[tuple|sequence]] of operators and their operands which specify some computation process.
 # ⛈Characteristics
 It is characterized by 2 factors:
 - [[type|data type]]

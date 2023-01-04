@@ -14,7 +14,7 @@ aliases: [simplicial 1-complexes]
 - 📌node / vertex
 - 📌line / edge
 - 📌path
-    - A path in a graph is a [[Tuple|sequence]] of nodes connected by edges.
+    - A path in a graph is a [[tuple|sequence]] of nodes connected by edges.
     
 - 📌simple path
     - A simple path is a path that doesn’t repeat any nodes.

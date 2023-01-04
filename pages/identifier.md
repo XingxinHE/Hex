@@ -4,7 +4,7 @@ tags:
   - unknown
 ---
 # 📝Definition
-Identifier is a [[Tuple|sequence]] of [[character]]s that you use to identify the elements in your programs, such as
+Identifier is a [[tuple|sequence]] of [[character]]s that you use to identify the elements in your programs, such as
 -   Object or variable name
 -   Class, structure, or union name
 -   Enumerated type name

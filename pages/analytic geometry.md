@@ -8,7 +8,7 @@ tags:
 # 📝Definition
 The study of the geometry of figures by algebraic representation and manipulation of equations describing their positions, configurations, and separations.
 
-Analytic geometry is also called coordinate geometry since the objects are described as $n$-[[Tuple]]s of points (where $n=2$ in the plane and $n=3$ in space) in some [[coordinate system]].
+Analytic geometry is also called coordinate geometry since the objects are described as $n$-[[tuple]]s of points (where $n=2$ in the plane and $n=3$ in space) in some [[coordinate system]].
 
 # 🧠Intuition
 Find an intuitive way of understanding this concept.

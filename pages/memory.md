@@ -4,7 +4,7 @@ aliases: [memory map, memory layout, memory address]
 
 # 📝Definition
 - In a typical machine, that memory is built out of special integrated-circuit called RAM, which stands for random-access-memory.
-- The computer's memory is a [[Tuple|sequence]] of [[byte|bytes]] numbered from $0$ to the memory size minus $1$.
+- The computer's memory is a [[tuple|sequence]] of [[byte|bytes]] numbered from $0$ to the memory size minus $1$.
 
 # 🎯Intent
 - For programmer, we should be aware of how the memory is organized.

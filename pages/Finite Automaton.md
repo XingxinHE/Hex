@@ -1,5 +1,5 @@
 # 📝Definition
-A finite automaton is a 5-[[Tuple|tuple]] ($Q,\Sigma,\delta,q_0,F$), where
+A finite automaton is a 5-[[tuple|tuple]] ($Q,\Sigma,\delta,q_0,F$), where
 - $Q$ is a finite [[set|set]] called the states
 - $\Sigma$ is a finite [[set|set]] called the alphabet
 - $\delta:Q\times\Sigma\rightarrow Q$ is the transition function

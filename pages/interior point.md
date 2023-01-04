@@ -1,18 +1,14 @@
 ---
 aliases: []
 tags:
-  - unknown
+  - mathematics
+  - Point-SetTopology
 ---
 
 
 # 📝Definition
-The set of points in the [[plane]] where a function $f(x, y)$ has a constant value $f(x, y) = c$ is called a level curve of $f$.
-
-> [!info] Remark
-> Level curve is about the [[domain]] of a function.
-
-![|400](../assets/level_curve.png)
-
+A point $(x_0, y_0)$ in a region ([[set]]) $R$ in the $xy$-plane is an interior point of $R$ if it is the center of a disk of positive radius that lies entirely in $R$.
+![|150](../assets/interior_boundary_point.svg)
 
 # 🧠Intuition
 Find an intuitive way of understanding this concept.

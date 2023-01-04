@@ -161,7 +161,46 @@ A quick review on the following.
 ## 13.6 Velocity and Acceleration in Polar Coordinates
 #TODO 
 
+# 14 Partial Derivatives
+## 14.1 Functions of Several Variables
+**🔭subjects covering**:
+- [[multivariable function]]
+- [[interior point]]
+- [[boundary point]]
+- [[bounded set]]
+- [[unbounded set]]
+- 
 
+- 📌several definition on multivariable function
+  - [[multivariable function#📝Definition]]
+
+- 📌what is [[level set]]?
+  - I personally think 它正好描述了[[multivariable function#📝Definition]]里面的set. 好好体会！
+
+- 📌how to "graph" these function?
+  - see [[multivariable function#🎨Representation]]
+
+- 📌
+  - 
+
+- 📌
+  - 
+
+- 📌
+  - 
+
+
+- 🧾The terminology I learned in this section
+
+## 14.2 Limits and Continuity in Higher Dimensions
+## 14.3 Partial Derivatives
+## 14.4 The Chain Rule
+## 14.5 Directional Derivatives and Gradient Vectors
+## 14.6 Tangent Planes and Differentials
+## 14.7 Extreme Values and Saddle Points
+## 14.8 Lagrange Multipliers
+## 14.9 Taylor’s Formula for Two Variables
+## 14.10 Partial Derivatives with Constrained Variables
 
 # 💭Things I don't Know
 

@@ -28,7 +28,7 @@ aliases: [simplices]
 - ⛈Characteristics / Properties
     - Orientation ^fc7728b5477d9d10
         - 📝Definition
-            - The *orientation* of a simplex is an ordering of its vertices up to even permutation. One can specify an oriented simplex via one of its representative ordered [[Tuple]]s.
+            - The *orientation* of a simplex is an ordering of its vertices up to even permutation. One can specify an oriented simplex via one of its representative ordered [[tuple]]s.
            
         - ![[simplicial complex#^7cdbb5]]
         - ![[simplicial complex#^b0e241]]
@@ -66,7 +66,7 @@ aliases: [simplices]
                     
             - Oriented 2-Simplex
                 - 📝Definition
-                    - For a 2-simplex, orientation given by "winding order" of vertices. An ***oriented 2-simplex*** can be specified by a 3-[[Tuple]].
+                    - For a 2-simplex, orientation given by "winding order" of vertices. An ***oriented 2-simplex*** can be specified by a 3-[[tuple]].
                     
                 - 📈Diagram
                     - ![name](../assets/oriented_2_simplex.png){:height 300, :width 400}

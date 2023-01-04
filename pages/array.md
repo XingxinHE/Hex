@@ -2,7 +2,7 @@
 - In #mathematics  ,
     - An array is a "list of lists" with the length of each level of list the same. The size (sometimes called the "shape") of a $d$-dimensional array is then indicated as $\underbrace{m×n×...×p}_{d}$. The most common type of array encountered is the two-dimensional $m×n$ rectangular array having $m$ columns and $n$ rows. If $m=n$, a square array results.
 - In general,
-	- A [[homogeneous]] [[Tuple|sequence]] of elements, usually numbered, e.g.,  `[0:max)` .
+	- A [[homogeneous]] [[tuple|sequence]] of elements, usually numbered, e.g.,  `[0:max)` .
 - In #csharp 
     - The language designers wrap the mathematical concept into [[data structure]] [Arrays](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/arrays/) which supports single-dimensional, multidimensional or jagged.
 - In #c and #cpp 

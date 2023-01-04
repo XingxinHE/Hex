@@ -8,7 +8,7 @@ aliases: [strings]
         - If $\Sigma_1 = \{0,1\}$, then `01001` is a string over $\Sigma_1$.
         - If $\Sigma_2 = \{a, b, c, . . . , z\}$, then `abracadabra` is a string over $\Sigma_2$.
 - In general,
-	- A [[Tuple|sequence]] of [[character]]s.
+	- A [[tuple|sequence]] of [[character]]s.
 - In C++,
     - This is in standard `<string>` library. The `string` is not a primitive type in C++ while it is, in fact, a library type([[user-defined]] type). This is due to history artifact with C.
     - [Microsoft Doc on string](https://docs.microsoft.com/en-us/cpp/standard-library/string?view=msvc-170)
