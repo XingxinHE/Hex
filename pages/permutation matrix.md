@@ -60,7 +60,7 @@ $$
 
 # 🌈Properties
 ## 🔴Determinant
-The [[Determinant]] of a permutation matrix is always $\pm1$.
+The [[determinant]] of a permutation matrix is always $\pm1$.
 
 ## 🟠Amount of permutation matrix
 There are $n!$ permutation matrices of size $n$, where $n!$ is a [[factorial]].

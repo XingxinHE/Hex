@@ -146,6 +146,11 @@ A quick review on the following.
 - [[tangent vector|unit tangent vector]]
 - [[curvature]]
 - [[normal vector|principal unit normal vector]]
+
+
+
+## 13.5 Tangential and Normal Components of Acceleration
+**🔭subjects covering**:
 - [[osculating circle]]
 - [[binormal vector]]
 - [[TNB Frame]]
@@ -153,28 +158,10 @@ A quick review on the following.
 - [[normal plane]]
 - [[osculating plane]]
 
-- 📌
-  - 
-
-- 📌
-  - 
-
-- 📌
-  - 
-
-- 📌
-  - 
-
-- 📌
-  - 
-
-- 📌
-  - 
-
-
-- 🧾The terminology I learned in this section
-## 13.5 Tangential and Normal Components of Acceleration
 ## 13.6 Velocity and Acceleration in Polar Coordinates
+#TODO 
+
+
 
 # 💭Things I don't Know
 

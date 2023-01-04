@@ -27,7 +27,7 @@ I feel ...
 # Chapter 2 Vector
 - [[inner product|dot product]]
 # Chapter 3 Matrices
-- 3.4. [[Determinant]]
+- 3.4. [[determinant]]
 
 # 💭Things I don't Know
 

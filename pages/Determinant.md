@@ -36,7 +36,6 @@ tags:
     - Calculation of determinant
         - $$
           \begin{align}
-          \begin{align}
           \text{det}
           \Bigg(
           \begin{bmatrix}
@@ -48,7 +47,6 @@ tags:
           =&a\text{ det}\bigg(\begin{bmatrix}e&f\\h&i\end{bmatrix}\bigg)\\
           -&b\text{ det}\bigg(\begin{bmatrix}d&f\\g&i\end{bmatrix}\bigg)\\
           +&c\text{ det}\bigg(\begin{bmatrix}d&e\\g&h\end{bmatrix}\bigg)\\
-          \end{align}
           \end{align}
           $$
           

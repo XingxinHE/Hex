@@ -4,16 +4,15 @@ aliases: [pass-by-const-reference, pass-by-reference-to-const, pass-by-lvalue-re
 
 # 📝Definition
 - Pass by reference typically means pass the argument by reference.
-- In C++,
+- In #cpp  ,
     - we use [[&]] in a method signature to indicate pass by reference.
     - Particularly, there is a sub-domain which has different name but is the same thing.
         - pass-by-const-reference
         - pass-by-reference-to-const
-        
-- In C#,
-    - we use `ref` keyword to indicate pass [[Value Type]] variables by reference
-    - for [[Reference Type]] variables, it is pass by reference by nature in C#.
-    
+- In #csharp  ,
+    - we use `ref` keyword to indicate pass [[Value Type]] variables by reference for [[Reference Type]] variables, it is pass by reference by nature in C#.
+- In #julia ,
+	- It is pass-by-reference by nature.
 # 🚀Benefit
 - In C++,
     - pass-by-reference on [[user-defined]] class object is more efficient.

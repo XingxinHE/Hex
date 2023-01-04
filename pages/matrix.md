@@ -128,7 +128,7 @@
       $$
 - 📌Invertible
     - 📝Definition
-        - An $n\times n$ matrix $M$ is *invertible* if and only if the columns of $M$ form a [[linear independent]] set. Equivalently, $M$ is invertible if and only if the [[Determinant]] of $M$ $\bold{det}M≠0$ .
+        - An $n\times n$ matrix $M$ is *invertible* if and only if the columns of $M$ form a [[linear independent]] set. Equivalently, $M$ is invertible if and only if the [[determinant]] of $M$ $\bold{det}M≠0$ .
         
     - 🔎Implementation
         - See [[#Matrix Inverse|Matrix Inverse]]
@@ -196,7 +196,7 @@
           G_{ij} = \frac{1}{\bold{det}(F)}C_{ji}(F)
           \end{align}
           $$
-        - where $\bold{det}$ is the [[Determinant]].
+        - where $\bold{det}$ is the [[determinant]].
         - where $C$ is the [[#^5cd25e079d5be40e|cofactor matrix]].
         
 - 🗃Example
@@ -279,7 +279,7 @@ $$
         - A cofactor matrix is a signed version of a [[#^b0ee7456219cb803|minor]] $M_{ij}$ defined by
             - $$C_{ij}\equiv(-1)^{i+j}M_{ij}$$
     - 🧀Applicability
-        - Used in the computation of the [[Determinant]] of a matrix.
+        - Used in the computation of the [[determinant]] of a matrix.
 - 📌[[band matrix]] 
 - 📌 [[tridiagonal matrix]]
 - 📌 [[upper triangular matrix]]

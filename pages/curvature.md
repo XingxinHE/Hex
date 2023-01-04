@@ -6,6 +6,7 @@ tags:
 
 
 # 📝Definition
+**📄Definition - to understand concept geometrically**
 The curvature of a [[smooth curve|curve]] is defined to be
 $$
 \kappa=\left|\frac{d\mathbf{T}}{ds}\right|
@@ -17,7 +18,8 @@ the absolute value of the rate of change of $\mathbf{T}$ with respect to $s$, wh
 > We can interpret this equation as "the rate at which $\mathbf{T}$ turns per unit of length along the curve is called the curvature".
 
 ___
-**Formula for Calculating Curvature**
+**📑Definition - to understand calculation by parts**
+
 $$
 \begin{align}
 \kappa&=\frac{1}{\lVert\mathbf{v} \rVert}\lVert\frac{d\mathbf{T}}{dt}\rVert\\
@@ -27,7 +29,7 @@ $$
 
 ___
 
-**Formula for computation**
+**📃Definition - purely for numeric computation**
 Suppose the smooth curve is represented in a [[position vector|radius vector]] $\mathbf{r}(t)$, then the curvature can be computed as
 $$
 \kappa=\frac{\lVert\dot{\mathbf{r}}\times\ddot{\mathbf{r}}\rVert}{\lVert \dot{\mathbf{r}}\rVert^3}

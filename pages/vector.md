@@ -327,7 +327,13 @@ Refers to [[vector projection]]
     - $$
       V\cdot\frac{1}{\lVert V\rVert}
       $$
-    
+# 🗃Example
+- 📁vector example in #julia 
+	- 💬Question: what is the representation of vector in julia?
+	- 🗣Answer: `x = [ -1.1; 0.0; 3.6; -7.2 ];`
+		- A 4-vector, $4\times1$ matrix.
+
+
 # ⌨Sample Code
  Code fragments
 - In C++,
