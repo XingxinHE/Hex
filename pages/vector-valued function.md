@@ -1,6 +1,7 @@
 ---
 aliases: [vector function]
 tags:
+  - function
   - mathematics
 ---
 
@@ -8,7 +9,7 @@ tags:
 # 📝Definition
 
 **domain is interval of real numbers**
-A vector-valued function is simply a [[function]] whose [[domain]] is a [set] of [[real number]]s and whose [[range]] is a set of [[vector]]s. This means that for every number $t$ in the domain of $\mathbf{r}$ there is a unique vector in $V_3$ denoted by $\mathbf{r}(t)$. If $f(t), g(t)$ and $h(t)$ are the components of the vector $\mathbf{r}(t)$, then $f, g$, and $h$ are [[real-valued function]]s called the **component functions** of $\mathbf{r}$ and we can write
+A vector-valued function is simply a [[function]] whose [[domain]] is a [[set]] of [[real number]]s and whose [[range]] is a set of [[vector]]s. This means that for every number $t$ in the domain of $\mathbf{r}$ there is a unique vector in $V_3$ denoted by $\mathbf{r}(t)$. If $f(t), g(t)$ and $h(t)$ are the components of the vector $\mathbf{r}(t)$, then $f, g$, and $h$ are [[real-valued function]]s called the **component functions** of $\mathbf{r}$ and we can write
 $$
 \mathbf{r}(t)=\left< f(t),g(t),h(t) \right>=f(t)\mathbf{i}+g(t)\mathbf{j}+h(t)\mathbf{k}
 $$
@@ -21,7 +22,12 @@ $$
 
 
 # 🧠Intuition
-Find an intuitive way of understanding this concept.
+The [[range]](output) of function has multiple numbers.
+
+
+# 🌓Complement
+[[multivariable function]]
+![[multivariable function#🌓Complement#🌔"multivariable function" vs. "vector-valued function"]]
 
 # 🗃Example
 see [[velocity vector]]

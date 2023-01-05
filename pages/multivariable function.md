@@ -1,6 +1,7 @@
 ---
 aliases: [function of 2 variables, function of 3 variables]
 tags:
+  - function
   - mathematics
 ---
 
@@ -41,11 +42,78 @@ The relationship between domain and range is represented as set. More formally, 
 
 
 # 🧠Intuition
-Find an intuitive way of understanding this concept.
+The [[domain]](input) of function has multiple numbers.
+
+# 🌓Complement
+[[vector-valued function]]
+
+## 🌔"multivariable function" vs. "vector-valued function"
+- multivariable function - emphasizes the inputs are multiple numbers.
+- vector-valued function - emphasizes the output are multiple numbers.
+
+> [!info] Remark
+> These 2 are super important!
+
+# ⚖Theorem
+## Properties of Limits of Functions of Two Variables
+The following rules hold if $L, M$, and $k$ are real numbers and we have 2 functions
+$$
+\lim_{(x,y)\to(x_0,y_0)}f(x,y)=L\quad\text{and}\quad\lim_{(x,y)\to(x_0,y_0)}g(x,y)=M.
+$$
+- 1️⃣ sum rule: $$\lim_{(x,y)\to(x_0,y_0)}(f(x,y)+g(x,y))=L+M$$
+- 2️⃣ Difference Rule: $$\lim_{(x,y)\to(x_0,y_0)}(f(x,y)-g(x,y))=L-M$$
+- 3️⃣ Constant Multiple Rule: $$\lim_{(x,y)\to(x_0,y_0)}kf(x,y)=kL$$
+	- any number $k$
+- 4️⃣ Product Rule: $$\lim_{(x,y)\to(x_0,y_0)}(f(x,y)\cdot g(x,y))=L\cdot M$$
+- 5️⃣ Quotient Rule: $$\lim_{(x,y)\to(x_0,y_0)}\frac{f(x,y)}{g(x,y)}=\frac{L}{M},\quad M\neq0$$
+- 6️⃣ Power Rule: $$\lim_{(x,y)\to(x_0,y_0)}[f(x,y)]^n=L^n$$
+	- $n$ is a positive integer
+- 7️⃣ Root Rule: $$\lim_{(x,y)\to(x_0,y_0)}\sqrt[n]{f(x,y)}=\sqrt[n]{L}=L^{1/n}$$
+	- $n$ a positive integer, and if $n$ is even, we assume that $L > 0$.
+
+
+
+
+
+# 🌈Properties
+## 🔴limit
+### 📝Definition
+We say that a function $f(x, y)$ approaches the [[limit]] $L$ as $(x, y)$ approaches $(x_0,y_0)$, and write
+$$
+\lim_{(x,y)\to(x_0,y_0)}f(x,y)=L
+$$
+if, for every number $\epsilon>0$, there exists a corresponding number $\delta>0$ such that for all $(x,y)$ in the [[domain]] of $f$,
+$$
+\lvert f(x,y)-L<\epsilon\rvert\quad\text{whenever}\quad 0<\sqrt{(x-x_0)^2+(y-y_0)^2}<\delta.
+$$
+
+### 🧠Intuition
+The definition of limit says that the distance between $f(x, y)$ and $L$ becomes arbitrarily small whenever the distance from $(x, y)$ to $(x_0, y0)$ is made sufficiently small (but not 0).
+![|400](../assets/multivariable_function_limit.svg)
+
+### 🗃Example
+- 📁the limit of multivariable function example
+	- 💬Question: xxx
+	- 🏹Strategy: xxx
+	- 🗣Answer: xxx
+	- ✏Solution: xxx
+
+🟠
+🟡
+🟢
+🔵
+🟣
+
+
 
 # 🎨Representation
 > [!info] Remark
 > This section describe how to "graph" these multivariable functions.
+
+> [!tip] typical graphing problem
+> ![\|400](../assets/graph_multivariable_function.png)
+
+
 
 ## Functions of 2 Variables
 There are ==**2**== standard ways to picture the values of a function $f(x, y)$.
@@ -92,8 +160,9 @@ There are ==**2**== standard ways to picture the values of a function $f(x, y)$.
 		- level curve $f(x, y) = 75$
 			- $f(x,y)=75=100-x^2-y^2\quad\text{or}\quad x^2+y^2=25$
 		- diagram
-			- ![|400](../assets/graph_a_2_variables_function.svg)
-		- ![|200](../assets/contour_curve.svg)
+			- ![|300](../assets/graph_a_2_variables_function.svg)
+		- see the difference between [[contour curve]] and [[level curve]].
+			- ![|200](../assets/contour_curve.svg)
 
 
 # 🌱Related Elements

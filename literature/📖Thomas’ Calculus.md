@@ -161,7 +161,7 @@ A quick review on the following.
 ## 13.6 Velocity and Acceleration in Polar Coordinates
 #TODO 
 
-# 14 Partial Derivatives
+# 📖Chapter 13 14 Partial Derivatives
 ## 14.1 Functions of Several Variables
 **🔭subjects covering**:
 - [[multivariable function]]
@@ -169,7 +169,8 @@ A quick review on the following.
 - [[boundary point]]
 - [[bounded set]]
 - [[unbounded set]]
-- 
+- [[level curve]]
+- [[level surface]]
 
 - 📌several definition on multivariable function
   - [[multivariable function#📝Definition]]
@@ -180,19 +181,13 @@ A quick review on the following.
 - 📌how to "graph" these function?
   - see [[multivariable function#🎨Representation]]
 
-- 📌
-  - 
+- 📌the difference between [[contour curve]] and [[level curve]]
+  - one is specifying domain. other is specifying range.
 
-- 📌
-  - 
-
-- 📌
-  - 
-
-
-- 🧾The terminology I learned in this section
 
 ## 14.2 Limits and Continuity in Higher Dimensions
+
+
 ## 14.3 Partial Derivatives
 ## 14.4 The Chain Rule
 ## 14.5 Directional Derivatives and Gradient Vectors
