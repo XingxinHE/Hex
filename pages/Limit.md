@@ -303,7 +303,7 @@ $$
 \text{(vii)}\quad&\displaystyle\lim_{x \to x_0}x = x_0\\
 \end{align}
 $$
-**📌 Chain Rule**
+**📌 [[Chain Rule]]**
 Let $f$ and $g$ be continuous, and given $\lim_{x \to x_0}f(g(x))$ of composed function we can solve $\lim_{x \to x_0}g(x) = y_0$, then:
 $$\lim_{x \to x_0}f(g(x)) = \lim_{y \to y_0}f(y)$$
 **📌 Exponential Rule**

@@ -20,6 +20,7 @@
 #NumberTheory
 #NumericalAnalysis
 #optimization
+#PartialDifferentialEquation
 #physics
 #Point-SetTopology
 #probability

@@ -44,7 +44,7 @@ $$
 - [[FTC1]]
 
 # ⛈Characteristics / Properties
-## Chain Rule
+## [[Chain Rule]]
 ### 📝Definition
 - By FTC 2,
     - $$

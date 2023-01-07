@@ -8,7 +8,34 @@ tags:
 
 
 # 📝Definition
+## 📄Definition - general
 A partial derivative of a function of several variables is its [[derivative]] with respect to one of those variables, with the others held [[constant]] (as opposed to the total derivative, in which all variables are allowed to vary).
+
+## 📑Definition - geometric
+The partial derivative of $f(x, y)$ with respect to $\textcolor{red}x$ at the point $(x_0 , y_0)$ is
+$$
+\frac{\partial f}{\partial \textcolor{red}x}|_{(x_0,y_0)}=\lim_{h\to0}\frac{f(x_0+h,y_0)-f(x_0,y_0)}{h},
+$$
+provided the limit exists.
+
+![|300](../assets/partial_derivative_geometric.svg)
+
+> [!info] Remark
+> When we say "partial", we focus the derivative only on ==1== variable. In the meantime, we assume others are constant. For example, we make an arbitrary plane of $y=y_0$ when we take the partial derivative respect to $x$.
+
+Respectively, we can have the partial derivative of $y$ as followed.
+The partial derivative of $f(x, y)$ with respect to $\textcolor{blue}y$ at the point $(x_0 , y_0)$ is
+$$
+\frac{\partial f}{\partial \textcolor{blue}y}|_{(x_0,y_0)}=\lim_{h\to0}\frac{f(x_0,y_0+h)-f(x_0,y_0)}{h},
+$$
+provided the limit exists.
+![|300](../assets/partial_derivative_geometric1.svg)
+
+> [!info] Remark
+> Notice that we now have two tangent lines associated with the surface $z = f(x, y)$ at the point $P(x_0, y_0, f(x_0, y_0))$. Is the [[plane]] they determine tangent to the surface at $P$?
+> ![\|300](../assets/partial_derivative_geometric2.svg)
+> 
+
 
 # ✒Notation
 The partial derivative of a function $f(x,y,\dots )$ with respect to the variable $x$ is variously denoted by
@@ -49,15 +76,23 @@ Suppose there is a function $f(x,y)$. Its second partial derivative can be writt
 
 > [!tip]
 > The $\frac{\partial^2}{\partial y\partial x}$ notation reads from **right to left**. Similar to [[matrix]] multiplication. 
-> The $f_{xy}$ notation reads from **left to right**.
-
-
-
-
+> The $f_{xy}$ notation reads from **left to right**. Why is that? If I wrote $f_{xy}=(f_x)_y$, and you will better understand this. 
 
 
 # 🧠Intuition
-Find an intuitive way of understanding this concept.
+$z=f(x,y)$ represents a surface $S$ (the graph of $f$ ). If $f(a,b)=c$, then the point $P(a, b, c)$ lies on $S$. 
+![|200](../assets/InterpretationsOfPartialDerivatives.svg)
+- By fixing $y = b$, we are restricting our attention to the curve $C_1$ in which the vertical plane $y = b$ intersects $S$. (In other words, $C_1$ is the trace of $S$ in the plane $y = b$.
+- Likewise, the vertical plane $x=a$ intersects $S$ in a curve $C_2$.
+Both of the curves $C_1$ and $C_2$ pass through the point $P$.
+> [!info] Remark
+> Note that
+> - the curve $C_1$ is the graph of the function $g(x)=f(x,b)$, so the slope of its tangent $T_1$ at $P$ is $g'(a)=f_x(a,b)$.
+> - the curve $C_2$ is the graph of the function $h(y)=f(a,y)$, so the slope of its tangent $T_2$ at $P$ is $h'(b)=f_y(a,b)$.
+
+Thus the partial derivatives $f_x(a,b)$ and $f_y(a,b)$ can be interpreted geometrically as the slopes of the tangent lines at $P(a, b, c)$ to the traces $C_1$ and $C_2$ of $S$ in the planes $y = b$ and $x = a$.
+
+
 
 # 🗃Example
 - **🗂 partial derivative example 1**
@@ -88,7 +123,17 @@ Find an intuitive way of understanding this concept.
 	- 💬Question: Compute the second order partial derivative of function $$f(x,y)=\sin(x)y^2$$
 	- ✏Solution:
 		- ![|600](../assets/second_order_partial_derivative_example.png)
+		- We noticed that $f_{xy}$ and $f_{yx}$ are the same. See [[Clairaut’s Theorem]]
 
+
+
+- 📁**partial derivative example 2**
+	- 💬Question: The plane $x = 1$ intersects the paraboloid $z = x^2 + y^2$ in a [[parabola]]. Find the slope of the tangent to the parabola at $(1, 2, 5)$
+	- ✏Solution:
+		- The slope is the value of the partial derivative $\partial z / \partial y$ at $(1, 2)$:
+			- $$\frac{\partial z}{\partial y}\bigg|_{(1,2)}=\frac{\partial z}{\partial y}(x^2+y^2)\bigg|_{(1,2)}=2y\bigg|_{(1,2)}=2(2)=4$$
+		- As a check, we can treat the parabola as the graph of the *single-variable* function $z = (1)^2 + y^2 = 1 + y^2$ in the plane $x = 1$ and ask for the slope at $y = 2$.
+		- ![|200](../assets/partial_derivative_2D.svg)
 
 # 🌱Related Elements
 The closest pattern to current one, what are their differences?

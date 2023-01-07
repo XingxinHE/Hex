@@ -186,10 +186,58 @@ A quick review on the following.
 
 
 ## 14.2 Limits and Continuity in Higher Dimensions
-
+**🔭subjects covering**:
+- [[multivariable function#🌈Properties#🔴limit]]
+- [[multivariable function#🌈Properties#🟠continuity]]
 
 ## 14.3 Partial Derivatives
+**🔭subjects covering**:
+- [[partial derivative]]
+
+- 📌notation of partial derivative🌟🌟
+  - [[partial derivative#✒Notation]]
+
+- 📌2 examples quickly understand the concepts of partial derivative
+  - [[partial derivative#🗃Example]]
+
+- 📌what is Clairaut’s Theorem?
+  - [[Clairaut’s Theorem#📝Definition]]
+
+- 📌why Clairaut’s Theorem useful?
+  - [[Clairaut’s Theorem#🚀Benefit / Pros]]
+
+- 📌What is Laplace's equation?
+  - [[Laplace's equation#📝Definition]]
+
+- 📌Example of Laplace's equation.
+  - [[Laplace's equation#🗃Example]]
+
+
 ## 14.4 The Chain Rule
+**🔭subjects covering**:
+- [[Chain Rule]]
+
+- 📌There are lots of definition of chain rule
+  - see [[Chain Rule#📝Definition]]
+
+- 📌implicit differentiation
+  - [[implicit differentiation]]
+
+- 📌
+  - 
+
+- 📌
+  - 
+
+- 📌
+  - 
+
+- 📌
+  - 
+
+
+- 🧾The terminology I learned in this section
+
 ## 14.5 Directional Derivatives and Gradient Vectors
 ## 14.6 Tangent Planes and Differentials
 ## 14.7 Extreme Values and Saddle Points

@@ -37,6 +37,8 @@ Find an intuitive way of understanding this concept.
 Example is the most straightforward way to understand a mathematical concept.
 
 # 🧀Applicability
+Harmonic functions play a role in problems of heat conduction, fluid flow, and electric potential.
+
 ## 🥖electromagnetism
 Potential functions are extremely useful, for example, in electromagnetism, where they reduce the study of a 3-component vector field to a 1-component scalar function. A scalar harmonic function is called a scalar potential, and a vector harmonic function is called a vector potential.
 

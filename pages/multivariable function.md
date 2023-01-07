@@ -92,14 +92,60 @@ The definition of limit says that the distance between $f(x, y)$ and $L$ becomes
 ![|400](../assets/multivariable_function_limit.svg)
 
 ### 🗃Example
-- 📁the limit of multivariable function example
-	- 💬Question: xxx
-	- 🏹Strategy: xxx
-	- 🗣Answer: xxx
-	- ✏Solution: xxx
+- 📁the limit of multivariable function example 1
+	- ✏Solution:
+		- $$\lim_{(x,y)\to(x_0,y_0)}f(x,y)=\lim_{(x,y)\to(0,1)}\frac{x-xy+3}{x^2y+5xy-y^3}=\frac{0-(0)(1)+3}{(0^2)(1)+5(0)(1)-(1)^3}=-3$$
 
-🟠
-🟡
+
+- 📁the limit of multivariable function example 2
+	- ✏Solution:
+		- $$\lim_{(x,y)\to(x_0,y_0)}f(x,y)=\lim_{(x,y)\to(3,-4)}\sqrt{x^2+y^2}=\sqrt{(3)^2+(-4)^2}=5$$
+
+
+## 🟠continuity
+### 📝Definition
+A function $f(x, y)$ is **[[continuity|continuous]] at the point** $(x_0 , y_0)$ if
+1. $f$ is defined at $(x_0 , y_0)$
+2. $\lim_{(x,y)\to(x_0,y_0)}f(x,y)$ exists
+3. $\lim_{(x,y)\to(x_0,y_0)}f(x,y)=f(x_0,y_0)$
+A function is continuous if it is continuous at every point of its [[domain]].
+
+### 🗃Example
+- 📁multivariable function continuous example 1
+	- 💬Question: Where is the function $f(x,y)=\frac{x^2-y^2}{x^2+y^2}$ continuous?
+	- 🗣Answer:
+		- The function $f$ is discontinuous at $(0, 0)$ because it is not defined there.
+		- Since $f$ is a rational function, it is continuous on its domain, which is the set $D=\{(x,y)|(x,y)\neq(0,0)\}$.
+		- ![|200](../assets/not_continuous_multivariable_func.png)
+
+- 📁multivariable function continuous example 2
+	- 💬Question: Show that $$f(x,y)=\begin{cases}\frac{2xy}{x^2+y^2},&(x,y)\neq(0,0)\\0,&(x,y)=(0,0)\end{cases}$$ is continuous at every point except the origin.
+	- ✏Solution:
+		- When point $\neq(0,0)$
+			- The function $f$ is continuous at any point $(x, y) \neq (0, 0)$ because its values are then given by a rational function of $x$ and $y$ and the limiting value is obtained by substituting the values of $x$ and $y$ into the functional expression.
+		- At point $(0,0)$
+			- the value of $f$ is defined, but $f$, we claim, has no limit as $(x, y) \to(0, 0)$. The reason is that different paths of approach to the origin can lead to different results, as we now see.
+			- For every value of $m$, the function $f$ has a constant value on the “punctured” line $y = mx, x \neq 0$, because
+				- $$f(x,y)|_{y=mx}=\frac{2xy}{x^2+y^2}|_{y=mx}=\frac{2x(mx)}{x^2+(mx)^2}=\frac{2mx^2}{x^2+m^2 x^2}=\frac{2m}{1+m^2}$$
+			- Therefore, $f$ has this number as its limit as $(x, y)$ approaches $(0, 0)$ along the line:
+				- $$\lim_{\begin{align}(x,y)\to(0,0)\\\text{along }y=mx\end{align}}f(x,y)=\lim_{(x,y)\to(0,0)}\left[f(x,y)|_{y=mx}\right]=\frac{2m}{1+m^2}$$
+			- This limit changes with each value of the slope $m$. There is therefore no single number we may call the limit of $f$ as $(x, y)$ approaches the origin. The limit fails to exist, and the function is not continuous.
+		- ![|200](../assets/not_continuous_multivariable_func1.png)
+
+
+
+## 🟡differentiable
+### 📝Definition
+A function $z = f(x, y)$ is [[differentiable]] at $(x_0 , y_0)$ if $fx(x_0 , y_0)$ and $fy(x_0 , y_0)$ exist and $\Delta z$ satisfies an equation of the form
+$$
+\Delta z=f_x(x_0 , y_0)\Delta x+f_y(x_0 , y_0)\Delta y+\epsilon_1\Delta x+\epsilon_2\Delta y
+$$
+in which each $\epsilon_1,\epsilon_2\to0$ as both $\Delta x,\Delta y\to0$. We call $f$ differentiable if it is differentiable at every point in its [[domain]], and say that its graph is a smooth [[surface]].
+
+> [!info] Remark
+> $f_x$ denotes the [[partial derivative]] with respect to the variable $x$
+> $f_y$ denotes the [[partial derivative]] with respect to the variable $y$
+
 🟢
 🔵
 🟣

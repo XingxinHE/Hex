@@ -47,7 +47,7 @@ Differentiation Rules for Vector Functions
 	- $\frac{d}{dt}[\mathbf{u}(t)\cdot\mathbf{v}(t)]=\mathbf{u}'(t)\cdot\mathbf{v}(t)+\mathbf{u}(t)\cdot\mathbf{v}'(t)$
 - 6️⃣ Cross Product Rule:
 	- $\frac{d}{dt}[\mathbf{u}(t)\times\mathbf{v}(t)]=\mathbf{u}'(t)\times\mathbf{v}(t)+\mathbf{u}(t)\cdot\mathbf{v}'(t)$
-- 7️⃣ Chain Rule:
+- 7️⃣ [[Chain Rule]]:
 	- $\frac{d}{dt}[\mathbf{u}(f(t))]=f'(t)\mathbf{u}'(f(t))$
 
 
