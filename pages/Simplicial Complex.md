@@ -1,5 +1,5 @@
 ---
-aliases: [(Abstract) Simplicial Complex, (Geometric) Simplicial Complex]
+aliases: [(abstract) simplicial complex, (geometric) simplicial complex]
 ---
 
 # 🧠Intuition
@@ -15,6 +15,9 @@ Let $S$ be a collection of sets. If for each set $\sigma\in S$ all subsets of $\
 > [!info] Remark
 > - the left is *with* coordinates and the right is *without* coordinates in the perspective of [torch_geometric.data.Data](https://pytorch-geometric.readthedocs.io/en/latest/modules/data.html#torch_geometric.data.Data).
 > - the left as "**fabrication**" which requires everything lines up while the right as "**connectivity**" only.
+
+
+
 
 
 # 🌈Properties

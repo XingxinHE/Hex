@@ -45,6 +45,10 @@ where
 # 🧠Intuition
 Find an intuitive way of understanding this concept.
 
+# 🛠Analogy
+
+![[velocity vector#🛠Analogy#🔨velocity vector vs. tangent vector]]
+
 # 🗃Example
 - 📁unit tangent vector example
 	- 💬Question: Find the unit tangent vector of the curve $$\mathbf{r}(t) = (1+3\cos t)\mathbf{i} + (3\sin t)\mathbf{j} + t^2\mathbf{k}$$
@@ -57,7 +61,7 @@ Find an intuitive way of understanding this concept.
 			- $$\mathbf{T}(t)=\frac{\mathbf{v}(t)}{\lVert\mathbf{v}(t)\rVert}=\frac{\mathbf{v}(t)}{v(t)}={-3\sin t\over\sqrt{9+4t^2}}\mathbf{i} + {3\cos t\over\sqrt{9+4t^2}}\mathbf{j} + {2t\over\sqrt{9+4t^2}}\mathbf{k}$$
 
 # 🌱Related Elements
-The closest pattern to current one, what are their differences?
+
 
 
 # 🍂Unorganized

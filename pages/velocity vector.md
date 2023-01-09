@@ -37,8 +37,20 @@ Find an intuitive way of understanding this concept.
 
 
 
-# 🌱Related Elements
-The closest pattern to current one, what are their differences?
 
+
+# 🛠Analogy
+
+## 🔨velocity vector vs. tangent vector
+I think they can be summarized as followed.
+
+|             | [[tangent vector]]                                         | [[velocity vector]]                                        |
+| ----------- | ------------------------------------------------------ | ------------------------------------------------------ |
+| calculation | 1st derivative of position vector/differentiable curve | 1st derivative of position vector/differentiable curve |
+| semantics   | in geometry                                            | in physics                                             |
+
+
+
+# 🌱Related Elements
 
 # 🍂Unorganized

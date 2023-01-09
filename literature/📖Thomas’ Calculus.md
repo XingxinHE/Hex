@@ -223,8 +223,8 @@ A quick review on the following.
 - 📌implicit differentiation
   - [[implicit differentiation]]
 
-- 📌
-  - 
+- 📌the multivariable version of implicit differentiation is easier
+  - see [[implicit differentiation#^a95af4]] and [[implicit differentiation#^0616f6]]
 
 - 📌
   - 
