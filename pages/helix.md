@@ -33,4 +33,4 @@ Example is the most straightforward way to understand a mathematical concept.
 The closest pattern to current one, what are their differences?
 
 
-# 🍂Uno\mathbf{}rganized
+# 🍂Unorganized

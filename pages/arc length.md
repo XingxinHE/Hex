@@ -55,6 +55,19 @@ $$
 s(t)=\int_a^t\lVert \mathbf{r}'(u) \rVert du=\int_a^t\sqrt{\left(\frac{df}{du}\right)^2+\left(\frac{dg}{du}\right)^2+\left(\frac{dh}{du}\right)^2}du
 $$
 
+**📃Definition4**
+Given $t_0 \in I$ , the arc length of a [[smooth curve#⛈Characteristics#☁regular|regular parametrized curve]] $\alpha: I \to \mathbb{R}^3$, from the point $t_0$, is by definition
+$$
+s(t)=\int_{t_0}^t|\alpha '(t)|dt,
+$$
+where
+$$
+|\alpha '(t)|=\sqrt{(x'(t))^2+(y'(t))^2+(z'(t))^2}
+$$
+is the length of the vector $\alpha '(t)$.
+> [!info] Remark
+> Since $\alpha'(t)\neq0$, the arc length $s$ is a [[differentiable]] function of $t$ and $ds/dt=|\alpha '(t)|$.
+
 
 # 🧠Intuition
 Find an intuitive way of understanding this concept.
@@ -91,6 +104,8 @@ Find an intuitive way of understanding this concept.
 		- Plug $t=s/\sqrt{2}$ to the equation
 			- $$\begin{align}\mathbf{r}(t) &= \cos t\mathbf{i} + \sin t\mathbf{j} + t\mathbf{k}\\\mathbf{r}(s(t)) &= \cos (s/\sqrt{2})\mathbf{i} + \sin (s/\sqrt{2})\mathbf{j} + (s/\sqrt{2})\mathbf{k}\end{align}$$
 	- 🗣Note: The arc length parametrization is generally difficult to find analytically for a curve already given in terms of some other parameter t. Fortunately, however, we rarely need an exact formula for $s(t)$ or its inverse $t(s)$. Since this is just an **exercise** and you know what is reparameterization.
+
+
 
 
 # 🌱Related Elements

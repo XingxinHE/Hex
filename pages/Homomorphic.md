@@ -1,5 +1,5 @@
 ---
-aliases: [同态]
+aliases: [同态, homomorphism]
 ---
 
 -

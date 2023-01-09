@@ -266,7 +266,7 @@ $$
         
     - Since the derivative of above selected functions are $0$.
     
-- 📌example of notation between antiderivative and [[Differential]]
+- 📌example of notation between antiderivative and [[differential]]
     - Question
         - Let $dF$ be the differential of the function $F(x)$, then $\int dF=?$
         

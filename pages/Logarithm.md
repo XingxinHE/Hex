@@ -30,11 +30,11 @@ $$
 - ![name](../assets/Logarithm_900.svg)
 
 # ⛈Characteristics / Properties
-📌 [[Singularity]]
+📌 [[singularity]]
 For any base, the logarithm function has a singularity at $x=0$.
 
 # 🌓Complement
-[[Exponential Function|exponential]]
+[[exponential function|exponential]]
 
 # 👑Importance
 Logarithm is very important in [[Calculus]].

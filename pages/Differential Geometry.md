@@ -1,3 +1,8 @@
+# 📖Terminology
+> [!warning]
+> A warning about terminology. Many people use the term “infinitely differentiable” for functions which have derivatives of all orders and reserve the word “differentiable” to mean that only the existence of the first derivative is required. **We shall not follow this usage**.
+
+
 # 📝Definition
 Differential geometry is a mathematical discipline that studies the geometry of smooth shapes and smooth spaces, otherwise known as smooth manifolds or [[Riemannian Manifold]]. It uses the techniques of differential calculus, integral calculus, linear algebra and multilinear algebra.
 
@@ -16,6 +21,8 @@ The study of ==local== properties of [[smooth curve]]s and [[surface]]s. By loca
 ## ⚗global differential geometry
 ### 📝Description
 Study the influence of the local properties on the behavior of the ==entire== curve or surface.
+
+
 
 
 # 🌱Related Elements

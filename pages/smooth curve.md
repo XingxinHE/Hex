@@ -60,7 +60,7 @@ If we denote by $x'(t)$ the first [[derivative]] of $x$ at the point $t$ and use
 
 ## 🟢trace
 ### 📝Definition
-The [[range|image]] set $\alpha(I ) \subset \mathbb{R}^3$ is called the ==trace== of $\alpha$.
+The [[range|image]] set $\alpha(I ) \subset \mathbb{R}^3$ is called the ==trace== of the curve $\alpha$.
 > [!info] Remark
 > We should carefully distinguish a parametrized curve itself and its trace. They look the same but it is different!
 > - parametrized curve: it is a map.
@@ -68,10 +68,64 @@ The [[range|image]] set $\alpha(I ) \subset \mathbb{R}^3$ is called the ==trace=
 > See the example for clarification. [[smooth curve#^c20ba3]]
 
 
-🔵
+## 🔵arc length
+The arc length of a curve see [[arc length]].
+
 🟣
 
+
+# ⛈Characteristics
+## ☁regular
+### 📝Definition
+A parametrized differentiable curve $\alpha: I \to \mathbb{R}^3$ is said to be ==regular== if $\alpha'(t) \neq 0$ for all $t \in I$.
+
+### 🧠Intuition
+A regular curve does not have any [[singularity|singular point]].
+
+## 🌧change of orientation
+### 📝Description
+Given the curve $\alpha$ parametrized by [[arc length]] $s \in (a, b)$, we may consider the curve $\beta$ defined in $(−b,−a)$ by $\beta(−s) = \alpha(s)$, which has the same [[smooth curve#🌈Properties#🟢trace|trace]] as the first one but is described in the opposite direction. We say, then, that these two curves differ by a *change of orientation*.
+
+
+## 🌨injective not required
+### 📝Description
+The differentiable curve $\alpha$ is not required to [[injective function|injective]].
+
+### 🧠Intuition
+It simply means a curve can be self-intersect.
+
+### 🗃Example
+Suppose a curve $\alpha(t)=(t^3-4t, t^2-4)$. Take $t_{1,2}=\pm2$, then $\alpha(t_1)=\alpha(t_2)=(0,0)$.
+![|300](../assets/intersect_curve.svg)
+> [!info] Remark
+> The curve has direction. Suppose $t\in\{-\infty, \infty\}$.
+> - when $t$ goes from $-\infty\to0$, $x=t^3-4t$ is negative, $y=t^2-4$ is positive. Therefore the curve goes from the 2nd [[quadrant]].
+> - when $t$ goes from $0\to\infty$, $x=t^3-4t$ is positive, $y=t^2-4$ is positive. Therefore the curve goes towards the 1st [[quadrant]].
+
+
+🌩
+⛅
+🌤
+🌪
+🌥
+🌦
+
 # 🗃Example
+- 📁 helix
+	- A [[helix]] is a differentiable curve.
+
+- 📩 not a differentiable curve example ^665e91
+	- The map $\alpha:\mathbb{R}\to \mathbb{R}^2$ given by $\alpha(t) = (t, |t|), t \in\mathbb{R}$, is not a parametrized differentiable curve, since $|t|$ is not differentiable at $t = 0$.
+	- See the graph. 
+		- ![|300](../assets/not_a_smooth_curve.svg)
+		- Hint. There is a [[singularity|singular point]] at $t=0$ called [[cusp]].
+
+
+
+- 🗂
+- 📨
+- 📂
+
 - 📁smooth curve example ^c20ba3
 	- 💬Question: What is the difference of the two distinct parametrized curves
 		- $$\begin{align}\alpha(t)&=(\cos t,\sin t),\\\beta(t)&=(\cos 2t,\sin 2t)\end{align}$$ where $t\in(0-\epsilon, 2\pi+\epsilon), \epsilon>0$?
@@ -81,6 +135,21 @@ The [[range|image]] set $\alpha(I ) \subset \mathbb{R}^3$ is called the ==trace=
 		- Their ==parameter== is different!
 		- See the 1st derivative of a same point has different length.
 			- ![|200](../assets/trace_is_not_map.svg)
+
+
+# 🏷Categories
+## 🔖special kind of curve
+### 📝Description
+It can happen that the parameter $t$ is already the [[arc length]] measured from some point. In this case, $ds/dt = 1 = |\alpha'(t)|$. That is, the [[velocity vector]] has constant length equal to 1.
+
+Conversely, if $|\alpha'(t)|\equiv1$, then
+$$
+s=\int_{t_0}^tdt=t-t_0
+$$
+i.e., the $t$ is the arc length of $\alpha$ measured from some point.
+
+#TODO I feel like this curve is special and maybe defined? I am not sure.
+
 
 # 🌱Related Elements
 The closest pattern to current one, what are their differences?

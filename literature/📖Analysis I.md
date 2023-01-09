@@ -62,6 +62,31 @@ I feel ...
 ## 3.1. Fundamentals
 ## 3.2. Russell’s paradox (Optional)
 ## 3.3. Functions
+
+**🔭subjects covering**:
+- [[injective function]]
+
+- 📌
+  - 
+
+- 📌
+  - 
+
+- 📌
+  - 
+
+- 📌
+  - 
+
+- 📌
+  - 
+
+- 📌
+  - 
+
+
+- 🧾The terminology I learned in this section
+
 ## 3.4. Images and inverse images
 ## 3.5 Cartesian products
 ## 3.6 Cardinality of sets

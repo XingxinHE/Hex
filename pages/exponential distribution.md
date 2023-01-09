@@ -3,7 +3,7 @@ $$
 p(t) = a e^{-a t}, \quad 0 \leq t < \infty\qquad \text{(and }p(t) = 0, \quad t<0\text{)},
 $$
 where
-- $p(t)$ is an [[Exponential Function|exponential function]].
+- $p(t)$ is an [[exponential function|exponential function]].
 - the [[mean|expected value]] is $1/a$.
 
 > [!NOTE] Note

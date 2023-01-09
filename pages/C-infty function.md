@@ -5,7 +5,7 @@ tags:
   - mathematics
 ---
 
-
+https://mathworld.wolfram.com/C-InfinityFunction.html
 # 📝Definition
 ## general
 A $C^{\infty}$ function is a [[function]] that is [[differentiable]] for ==all degrees== of differentiation. 
@@ -34,6 +34,9 @@ of **all orders** exist and are continuous at $p$.
 
 # 🧠Intuition
 Find an intuitive way of understanding this concept.
+
+# 🏷Categories
+The [[polynomial]], [[sine]], [[cosine]], and [[exponential function]]s on the real line are all $C^{\infty}$.
 
 # 🗃Example
 Example is the most straightforward way to understand a mathematical concept.
