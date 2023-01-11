@@ -23,12 +23,10 @@ aliases: [strings]
 [[character]]
 
 # ✒Notation
-- [[Mathematical Symbol#^2c4d51f2b03a22bb|$\Sigma$]]
+- $\Sigma$
     - The alphabet over which the strings are defined may vary with the application. Therefore, in [[Theory of Computation]], we use $\Sigma$, the Greek symbol, to denote "**alphabet**".
-    
-- [[Mathematical Symbol#^7a25e8b416679088|$\epsilon$]]
+- $\epsilon$
     - Denote the [[#^d950b7400e4b405e|empty string]].
-    
 # ⛈Characteristics / Properties
 - 📌Length
     - If $w$ is a string over $\Sigma$, the length of $w$, written $|w|$, is the number of symbols that it contains.

@@ -1,17 +1,45 @@
 # 🧾 Cheat Sheet
-| Effect                    | Notation                  | Effect              | Notation            |
-| ------------------------- | ------------------------- | ------------------- | ------------------- |
-| $\alpha A$                | `\alpha A`                | $\nu N$             | `\nu N`             |
-| $\beta B$                 | `\beta B`                 | $\xi \Xi$           | `\xi \Xi`           |
-| $\gamma \Gamma$           | `\gamma \Gamma`           | $o O$               | `o O`               |
-| $\delta \Delta$           | `\delta \Delta`           | $\pi \Pi$           | `\pi \Pi`           |
-| $\epsilon \varepsilon E$  | `\epsilon \varepsilon E`  | $\rho \varrho P$    | `\rho \varrho P`    |
-| $\zeta Z$                 | `\zeta Z`                 | $\sigma \Sigma$     | `\sigma \Sigma`     |
-| $\eta H$                  | `\eta H`                  | $\tau T$            | `\tau T`            |
-| $\theta \vartheta \Theta$ | `\theta \vartheta \Theta` | $\upsilon \Upsilon$ | `\upsilon \Upsilon` |
-| $\iota I$                 | `\iota I`                 | $\phi \varphi \Phi$ | `\phi \varphi \Phi` |
-| $\kappa K$                | `\kappa K`                | $\chi X$            | `\chi X`            |
-| $\lambda \Lambda$         | `\lambda \Lambda`         | $\psi \Psi$         | `\psi \Psi`         |
-| $\mu M$                   | `\mu M`                   | $\omega \Omega$     | `\omega \Omega`     |
+| Effect                    | Notation                  |  Reference   |
+| ------------------------- | ------------------------- | --- |
+| $\alpha A$                | `\alpha A`                |     |
+| $\beta B$                 | `\beta B`                 |     |
+| $\gamma \Gamma$           | `\gamma \Gamma`           |     |
+| $\delta \Delta$           | `\delta \Delta`           |     |
+| $\epsilon \varepsilon E$  | `\epsilon \varepsilon E`  | [[String#✒Notation]]    |
+| $\zeta Z$                 | `\zeta Z`                 |     |
+| $\eta H$                  | `\eta H`                  |     |
+| $\theta \vartheta \Theta$ | `\theta \vartheta \Theta` |     |
+| $\iota I$                 | `\iota I`                 |     |
+| $\kappa K$                | `\kappa K`                |     |
+| $\lambda \Lambda$         | `\lambda \Lambda`         |     |
+| $\mu M$                   | `\mu M`                   |     |
+| $\nu N$                   | `\nu N`                   |     |
+| $\xi \Xi$                 | `\xi \Xi`                 |     |
+| $o O$                     | `o O`                     |     |
+| $\rho \varrho P$          | `\rho \varrho P`          |     |
+| $\sigma \Sigma$           | `\sigma \Sigma`           | [[String#✒Notation]]    |
+| $\tau T$                  | `\tau T`                  |     |
+| $\upsilon \Upsilon$       | `\upsilon \Upsilon`       |     |
+| $\phi \varphi \Phi$       | `\phi \varphi \Phi`       |     |
+| $\chi X$                  | `\chi X`                  |     |
+| $\psi \Psi$               | `\psi \Psi`               |     |
+| $\omega \Omega$           | `\omega \Omega`           |     |
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 

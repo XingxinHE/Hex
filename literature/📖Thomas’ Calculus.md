@@ -226,19 +226,10 @@ A quick review on the following.
 - 📌the multivariable version of implicit differentiation is easier
   - see [[implicit differentiation#^a95af4]] and [[implicit differentiation#^0616f6]]
 
-- 📌
-  - 
-
-- 📌
-  - 
-
-- 📌
-  - 
-
-
-- 🧾The terminology I learned in this section
+#TODO  p827-p828
 
 ## 14.5 Directional Derivatives and Gradient Vectors
+
 ## 14.6 Tangent Planes and Differentials
 ## 14.7 Extreme Values and Saddle Points
 ## 14.8 Lagrange Multipliers

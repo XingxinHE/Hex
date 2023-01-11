@@ -19,7 +19,7 @@ $\square$
         - $\delta$
         - $\Delta$
     - epsilon
-        - $\epsilon$ ^7a25e8b416679088
+        - $\epsilon$
         - $\Epsilon$
     - zeta
         - $\zeta$
@@ -198,4 +198,4 @@ $\square$
 
 - $\angle$ &  $\backslash$angle
 
--
+
