@@ -14,6 +14,26 @@
       "type": "file",
       "title": "Shortcut",
       "path": "pages/Shortcut.md"
+    },
+    {
+      "type": "file",
+      "title": "📖Thomas’ Calculus",
+      "path": "literature/📖Thomas’ Calculus.md"
+    },
+    {
+      "type": "file",
+      "title": "📖Differential Geometry of Curves and Surfaces",
+      "path": "literature/📖Differential Geometry of Curves and Surfaces.md"
+    },
+    {
+      "type": "file",
+      "title": "📖Analysis I",
+      "path": "literature/📖Analysis I.md"
+    },
+    {
+      "type": "file",
+      "title": "📖Polygon Mesh Processing",
+      "path": "literature/📖Polygon Mesh Processing.md"
     }
   ]
 }

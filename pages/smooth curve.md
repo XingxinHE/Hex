@@ -60,27 +60,30 @@ If we denote by $x'(t)$ the first [[derivative]] of $x$ at the point $t$ and use
 
 ## 🟢trace
 ### 📝Definition
-The [[range|image]] set $\alpha(I ) \subset \mathbb{R}^3$ is called the ==trace== of the curve $\alpha$.
+The [[range|image]] set $\alpha(I ) \subset \mathbb{R}^3$ is called the ==trace== of the curve $\alpha$. Often denoted as:
+$$
+C=\alpha(I):=\{\alpha(t):t\in I\}
+$$
+
 > [!info] Remark
 > We should carefully distinguish a parametrized curve itself and its trace. They look the same but it is different!
-> - parametrized curve: it is a map.
+> - parametrized curve: it is a map and "parameterization"
 > - trace: it is a subset of $\mathbb{R}^3$.
+> 
 > See the example for clarification. [[smooth curve#^c20ba3]]
 
 
-## 🔵arc length
+## 🔵parameterization
+### 📝Description
+The curve $\alpha$ sometimes is called a **parameterization** of $C$, where $C$ is  [[smooth curve#🌈Properties#🟢trace]].
+
+
+## 🟣arc length
 The arc length of a curve see [[arc length]].
-
-🟣
-
 
 # ⛈Characteristics
 ## ☁regular
-### 📝Definition
-A parametrized differentiable curve $\alpha: I \to \mathbb{R}^3$ is said to be ==regular== if $\alpha'(t) \neq 0$ for all $t \in I$.
-
-### 🧠Intuition
-A regular curve does not have any [[singularity|singular point]].
+See [[smooth regular curve]]
 
 ## 🌧change of orientation
 ### 📝Description
@@ -109,6 +112,36 @@ Suppose a curve $\alpha(t)=(t^3-4t, t^2-4)$. Take $t_{1,2}=\pm2$, then $\alpha(t
 🌪
 🌥
 🌦
+
+# 💫Operation
+## 🌠reparameterization
+### 📝Definition
+A reparameterization of $\alpha : I \to\mathbb{R}^n$ is a smooth map $\beta : J \to\mathbb{R}^n$ of form $\beta = \alpha\circ\sigma$  where $\sigma: J \to I$ is a [[diffeomorphism]]. 
+> [!info] Remark
+> That $\sigma$ is a [[diffeomorphism]] means $\sigma$ is [[injective function|one-to-one]] and [[surjective function|onto]] (so there is an inverse map $\sigma^{−1} : J \to I$) and that $\sigma' (t) \neq 0$ for $t \in I$ (so that the map $\sigma^{−1}$ is also smooth).
+
+### 🧠Intuition
+If $\beta$ is a reparameterization of $\alpha$, then the maps $\alpha$ and $\beta$ have the **same trace** $C$. The idea of the definition is that we should think of $\alpha$ and $\beta$ as ==different ways of describing the same curve== $C$. However do Carmo avoids giving a precise definition of an (unparameterized) curve.
+
+### 🗃Example
+- 📁smooth curve reparameterization example
+	- The circle $C = \{(x, y) \in \mathbb{R}^2: x^2 + y^2 = 1\}$ is the trace of the parameterized curve $\alpha : \mathbb{R}\to \mathbb{R}^2$ defined by
+		- $$\alpha(\theta)=(\cos\theta,\sin\theta)=(\cos(\theta+2\pi),\sin(\theta+2\pi)).$$
+	- Defined a map $\beta:\mathbb{R}\to\mathbb{R}^2$ by
+		- $$\beta(t)=\left(\frac{1-t^2}{1+t^2},\frac{2t}{1+t^2}\right).$$
+	- This map is a reparameterization of the restriction of $\alpha$ to the open interval $(-\pi, \pi)$ as follows:
+		- $$\begin{align}(\cos(2\phi),\sin(2\phi))&=\left(\frac{\cos^2\phi-\sin^2\phi}{\cos^2\phi+\sin^2\phi},\frac{2\sin\phi\cos\phi}{\cos^2\phi+\sin^2\phi}\right)\\&=\left(\frac{1-\tan^2\phi}{1+\tan^2\phi},\frac{2\tan\phi}{1+\tan^2\phi}\right).\end{align}$$
+	- Take $2\phi=\theta, t=\tan\phi=\tan(\theta/2)$, and we get $\alpha=\beta\circ\sigma$ where $\sigma:(-\pi,\pi)\to\mathbb{R}$ is defined by $\sigma(\theta)=\tan(\theta/2)$. The common trace of (the restriction of) $\alpha$ and the map $\beta$ is the punctured circle $C\textbackslash (−1, 0)$  .
+	- This particular reparameterization is called the [[Weierstrass substitution]] or half angle substitution. It is one of the main techniques used to evaluate integrals in calculus.
+
+
+
+🔮
+☄
+🌌
+🥏
+🌀
+
 
 # 🗃Example
 - 📁 helix
@@ -150,6 +183,8 @@ i.e., the $t$ is the arc length of $\alpha$ measured from some point.
 
 #TODO I feel like this curve is special and maybe defined? I am not sure.
 
+> [!info] Remark
+> The map $\alpha$ is said to be parameterized by arc length if and only if its tangent vector always has length one.
 
 # 🌱Related Elements
 The closest pattern to current one, what are their differences?

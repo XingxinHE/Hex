@@ -61,8 +61,17 @@ What are the sub objects of this subject?
       S=\{1,2\}\\
       \wp(S)=\Bigg\{\emptyset,\{1\},\{2\},\{1,2\}\Bigg\}
       $$
-    
-# 🧮Notation
+
+# ✒Notation
+## 🖋basic notation
+- capital letters $A, B,...$ to denote sets
+- lowercase letters $a,b,...$ to denote the *objects* or *elements* belonging to these sets
+✏
+🖊
+🖍
+🖌
+
+
 - 📌set-builder notation
     - To describe complex sets like these
         - “The set of all even natural numbers.”

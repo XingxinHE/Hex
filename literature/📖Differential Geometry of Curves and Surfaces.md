@@ -47,15 +47,22 @@ https://people.math.wisc.edu/~jwrobbin/Do_Carmo/curves_do_carmo.pdf
 - 📌what kinds of properties a curve has?
   - [[smooth curve#🌈Properties]]
 
+- 📌see these 2 together as they are highly corelated.
+  - [[smooth curve#🌈Properties#🟢trace]]
+  - [[smooth curve#🌈Properties#🔵parameterization]]
+
 - 📌what is [[singularity|singular point]]?
   - see [[smooth curve#^665e91]]
 
 - 📌what is a planar curve?
 	- [[plane curve]]
 
+- 📌the operation of reparameterization
+	- [[smooth curve#💫Operation#🌠reparameterization]]
+
 ## 1-3 Regular Curves; Arc Length
 - 📌what is a "regular" curve?
-  - [[smooth curve#⛈Characteristics#☁regular]]
+  - [[smooth regular curve]]
 
 - 📌how to describe 2 identical curves but "flip" with direction?
   - [[smooth curve#⛈Characteristics#🌧change of orientation]]
